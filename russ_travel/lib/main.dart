@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MaterialApp(home: MainPage()));
+  AndroidYandexMap.useAndroidViewSurface = false;
+  runApp(MaterialApp());
+
 }
 
 class MyApp extends StatelessWidget {
