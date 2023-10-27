@@ -41,14 +41,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.2"
+  crypto:
+    dependency: transitive
+    description:
+      name: crypto
+      sha256: aa274aa7774f8964e4f4f38cc994db7b6158dd36e9187aaceaddc994b35c6c67
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.2"
   cupertino_icons:
     dependency: "direct main"
     description:
       name: cupertino_icons
-      sha256: d57953e10f9f8327ce64a508a355f0b1ec902193f66288e8cb5070e7c47eeb2d
+      sha256: e35129dc44c9118cee2a5603506d823bab99c68393879edb440e0090d07586be
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.6"
+    version: "1.0.5"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -66,23 +82,84 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
-      sha256: a25a15ebbdfc33ab1cd26c63a6ee519df92338a9c10f122adda92938253bef04
+      sha256: "2118df84ef0c3ca93f96123a616ae8540879991b8b57af2f81b76a7ada49b2a4"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.3"
+    version: "2.0.2"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      sha256: "950e77c2bbe1692bc0874fc7fb491b96a4dc340457f4ea1641443d0a6c1ea360"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.15"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_web_plugins:
+    dependency: transitive
+    description: flutter
+    source: sdk
+    version: "0.0.0"
+  geolocator:
+    dependency: "direct main"
+    description:
+      name: geolocator
+      sha256: "5c23f3613f50586c0bbb2b8f970240ae66b3bd992088cf60dd5ee2e6f7dde3a8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.0.2"
+  geolocator_android:
+    dependency: transitive
+    description:
+      name: geolocator_android
+      sha256: f19d53ec6878efb8aac82251cffb690150c9499c074dd295b2a4aee0753d20b8
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.3.2"
+  geolocator_apple:
+    dependency: transitive
+    description:
+      name: geolocator_apple
+      sha256: ab90ae811c42ec2f6021e01eca71df00dee6ff1e69d2c2dafd4daeb0b793f73d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.3.2"
+  geolocator_platform_interface:
+    dependency: transitive
+    description:
+      name: geolocator_platform_interface
+      sha256: b8cc1d3be0ca039a3f2174b0b026feab8af3610e220b8532e42cff8ec6658535
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.0"
+  geolocator_web:
+    dependency: transitive
+    description:
+      name: geolocator_web
+      sha256: "59083f7e0871b78299918d92bf930a14377f711d2d1156c558cd5ebae6c20d58"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.2.0"
+  geolocator_windows:
+    dependency: transitive
+    description:
+      name: geolocator_windows
+      sha256: "4f4218f122a6978d0ad655fa3541eea74c67417440b09f0657238810d5af6bdc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.3"
   lints:
     dependency: transitive
     description:
       name: lints
-      sha256: "0a217c6c989d21039f1498c3ed9f3ed71b354e69873f13a8dfc3c9fe76f1b452"
+      sha256: "5e4a9cd06d447758280a8ac2405101e0e2094d2a1dbdd3756aec3fe7775ba593"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.1"
+    version: "2.0.1"
   matcher:
     dependency: transitive
     description:
@@ -115,6 +192,54 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.8.3"
+  permission_handler:
+    dependency: "direct main"
+    description:
+      name: permission_handler
+      sha256: "284a66179cabdf942f838543e10413246f06424d960c92ba95c84439154fcac8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.0.1"
+  permission_handler_android:
+    dependency: transitive
+    description:
+      name: permission_handler_android
+      sha256: f9fddd3b46109bd69ff3f9efa5006d2d309b7aec0f3c1c5637a60a2d5659e76e
+      url: "https://pub.dev"
+    source: hosted
+    version: "11.1.0"
+  permission_handler_apple:
+    dependency: transitive
+    description:
+      name: permission_handler_apple
+      sha256: "99e220bce3f8877c78e4ace901082fb29fa1b4ebde529ad0932d8d664b34f3f5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "9.1.4"
+  permission_handler_platform_interface:
+    dependency: transitive
+    description:
+      name: permission_handler_platform_interface
+      sha256: "6760eb5ef34589224771010805bea6054ad28453906936f843a8cc4d3a55c4a4"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.12.0"
+  permission_handler_windows:
+    dependency: transitive
+    description:
+      name: permission_handler_windows
+      sha256: cc074aace208760f1eee6aa4fae766b45d947df85bc831cde77009cdb4720098
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.3"
+  plugin_platform_interface:
+    dependency: transitive
+    description:
+      name: plugin_platform_interface
+      sha256: "43798d895c929056255600343db8f049921cbec94d31ec87f1dc5c16c01935dd"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.5"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -128,6 +253,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
+  sprintf:
+    dependency: transitive
+    description:
+      name: sprintf
+      sha256: "1fc9ffe69d4df602376b52949af107d8f5703b77cda567c4d7d86a0693120f23"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.0.0"
   stack_trace:
     dependency: transitive
     description:
@@ -168,6 +301,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.0"
+  typed_data:
+    dependency: transitive
+    description:
+      name: typed_data
+      sha256: facc8d6582f16042dd49f2463ff1bd6e2c9ef9f3d5da3d9b087e244a7b564b3c
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.3.2"
+  uuid:
+    dependency: transitive
+    description:
+      name: uuid
+      sha256: b715b8d3858b6fa9f68f87d20d98830283628014750c2b09b6f516c1da4af2a7
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.1.0"
   vector_math:
     dependency: transitive
     description:
@@ -184,5 +333,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.1.4-beta"
+  yandex_mapkit:
+    dependency: "direct main"
+    description:
+      name: yandex_mapkit
+      sha256: "1f1f4db583ebbb71f74ff045092cd9af9bd4ecfedf9db32dffb3e449e526cbe3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.3.0"
 sdks:
-  dart: ">=3.1.3 <4.0.0"
+  dart: ">=3.1.0-185.0.dev <4.0.0"
+  flutter: ">=3.3.0"
