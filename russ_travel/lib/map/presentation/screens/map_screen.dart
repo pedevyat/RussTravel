@@ -26,7 +26,7 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Текущее местоположение'),
+        title: const Text('Карта открытий'),
       ),
       body: YandexMap(
         onMapCreated: (controller) {
