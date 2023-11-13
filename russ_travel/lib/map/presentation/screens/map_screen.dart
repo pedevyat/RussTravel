@@ -95,21 +95,22 @@ class _MapScreenState extends State<MapScreen> {
 //}
 
   /// Методы для генерации точек на карте
+  /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
     return const [
-      MuseumPoint(name: 'Мавзолей В.И. Ленина',
-          latitude: 55.753605,
+      MuseumPoint(name: 'Мавзолей В.И. Ленина', // Название точки
+          latitude: 55.753605, // Координаты
           longitude: 37.619773),
     ];
   }
-
+  /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
       ParkPoint(
           name: 'Парк Зарядье', latitude: 55.751238, longitude: 37.627762),
     ];
   }
-
+  /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
       OutsidePoint(name: 'Останкинская башня',
