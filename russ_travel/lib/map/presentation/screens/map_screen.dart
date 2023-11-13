@@ -48,7 +48,9 @@ class _MapScreenState extends State<MapScreen> {
             ),
           );
         },
-        mapObjects: _getPlacemarkObjectsP(context),
+        mapObjects: _getPlacemarkObjectsP(context)+
+            _getPlacemarkObjectsO(context) +
+            _getPlacemarkObjectsM(context),
       ),
     );
   }
@@ -130,7 +132,7 @@ class _MapScreenState extends State<MapScreen> {
                 image: BitmapDescriptor.fromAssetImage(
                   'assets/museum.png',
                 ),
-                scale: 2,
+                scale: 0.15,
               ),
             ),
           ),
@@ -151,7 +153,7 @@ class _MapScreenState extends State<MapScreen> {
                 image: BitmapDescriptor.fromAssetImage(
                   'assets/binoculars.png',
                 ),
-                scale: 2,
+                scale: 0.15,
               ),
             ),
           ),
@@ -169,9 +171,9 @@ List<PlacemarkMapObject> _getPlacemarkObjectsP(BuildContext context) {
       icon: PlacemarkIcon.single(
         PlacemarkIconStyle(
           image: BitmapDescriptor.fromAssetImage(
-            "assets/trees.png",
+            'assets/trees.png',
           ),
-          scale: 2,
+          scale: 0.15,
         ),
       ),
       onTap: (_, __) => showModalBottomSheet(
@@ -212,3 +214,4 @@ class _ModalBodyView extends StatelessWidget {
     );
   }
 }
+
