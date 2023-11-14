@@ -136,10 +136,17 @@ class _MapScreenState extends State<MapScreen> {
                 scale: 0.15,
               ),
             ),
+            onTap: (_, __) => showModalBottomSheet(
+              context: context,
+              builder: (context) => _ModalBodyViewM(
+                point: point,
+              ),
+            ),
           ),
     )
         .toList();
   }
+
 
   List<PlacemarkMapObject> _getPlacemarkObjectsO(BuildContext context) {
     return _getMapPointsO()
@@ -155,6 +162,12 @@ class _MapScreenState extends State<MapScreen> {
                   'assets/binoculars.png',
                 ),
                 scale: 0.15,
+              ),
+            ),
+            onTap: (_, __) => showModalBottomSheet(
+              context: context,
+              builder: (context) => _ModalBodyViewO(
+                point: point,
               ),
             ),
           ),
@@ -195,6 +208,58 @@ class _ModalBodyView extends StatelessWidget {
 
 
   final ParkPoint point;
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40),
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Text(point.name, style: const TextStyle(fontSize: 20)),
+        const SizedBox(height: 20),
+        Text(
+          '${point.latitude}, ${point.longitude}',
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.grey,
+          ),
+        ),
+      ]),
+    );
+  }
+}
+
+class _ModalBodyViewM extends StatelessWidget {
+  const _ModalBodyViewM({required this.point});
+
+
+  final MuseumPoint point;
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40),
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Text(point.name, style: const TextStyle(fontSize: 20)),
+        const SizedBox(height: 20),
+        Text(
+          '${point.latitude}, ${point.longitude}',
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.grey,
+          ),
+        ),
+      ]),
+    );
+  }
+}
+
+class _ModalBodyViewO extends StatelessWidget {
+  const _ModalBodyViewO({required this.point});
+
+
+  final OutsidePoint point;
 
 
   @override
