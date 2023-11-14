@@ -98,24 +98,58 @@ class _MapScreenState extends State<MapScreen> {
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
     return const [
+      // ЦФО
+        // Москва
       MuseumPoint(name: 'Мавзолей В.И. Ленина', // Название точки
           latitude: 55.753605, // Координаты
           longitude: 37.619773),
+      MuseumPoint(name: 'Государственная Третьяковская галерея', latitude: 55.741556, longitude: 37.620028),
+      MuseumPoint(name: 'Государственная Третьяковская галерея, галерея Новая Третьяковка', latitude: 55.734719, longitude: 37.605976),
+      MuseumPoint(name: 'Оружейная палата', latitude: 55.749455, longitude: 37.613473),
+      MuseumPoint(name: 'Музей космонавтики', latitude: 55.822710, longitude: 37.639743),
+      MuseumPoint(name: 'Выставка Алмазный фонд Гохрана России', latitude: 55.749593, longitude: 37.613807),
+      MuseumPoint(name: 'Государственный музей А. С. Пушкина', latitude: 55.743575, longitude: 37.597736),
+      MuseumPoint(name: 'Государственный Дарвиновский музей', latitude: 55.690797, longitude: 37.561547),
+      MuseumPoint(name: 'Музей-Диорама Царь-Макет', latitude: 55.817173, longitude: 37.655321),
+      MuseumPoint(name: 'Музей "Московский транспорт"', latitude: 55.742534, longitude: 37.678120),
+      MuseumPoint(name: 'Исторический парк Россия – моя история', latitude: 55.834244, longitude: 37.626269),
+      MuseumPoint(name: 'Музей Холодной войны в Бункер-42 на Таганке', latitude: 55.741754, longitude: 37.649256),
+
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
+      // ЦФО
+      // Москва
       ParkPoint(
           name: 'Парк Зарядье', latitude: 55.751238, longitude: 37.627762),
+      ParkPoint(name: 'Парк Горького', latitude: 55.731474, longitude: 37.603431),
+      ParkPoint(name: 'Парк Сокольники', latitude: 55.792648, longitude: 37.677681),
+      ParkPoint(name: 'Парк Победы на Поклонной горе', latitude: 55.731233, longitude: 37.506585),
+      ParkPoint(name: 'Московский зоопарк', latitude: 55.761092, longitude: 37.578308),
+      ParkPoint(name: 'ВДНХ', latitude: 55.826310, longitude: 37.637855),
+      ParkPoint(name: 'музей-заповедник Царицыно', latitude: 55.615670, longitude: 37.688789),
+      ParkPoint(name: 'Музей-заповедник Коломенское', latitude: 55.667650, longitude: 37.670862),
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
-      OutsidePoint(name: 'Останкинская башня',
-          latitude: 55.819721,
-          longitude: 37.611704),
+      // ЦФО
+      // Москва
+      OutsidePoint(name: 'Останкинская башня', latitude: 55.819721, longitude: 37.611704),
+      OutsidePoint(name: 'Смотровая площадка PANORAMA360 в ММДЦ «Москва-Сити»', latitude: 55.749900, longitude: 37.537237),
+      OutsidePoint(name: 'Воробьёвы горы', latitude: 55.709382, longitude: 37.542250),
+      OutsidePoint(name: 'Смотровая площадка «Выше Только Любовь»', latitude: 55.749310, longitude: 37.534445),
+      OutsidePoint(name: 'Центральная Смотровая ЦДМ', latitude: 55.760094, longitude: 37.624905),
+      OutsidePoint(name: 'Московская монорельсовая транспортная система', latitude: 55.821831, longitude: 37.611940),
+      OutsidePoint(name: 'Солнце Москвы', latitude: 55.826726, longitude: 37.626548),
+      OutsidePoint(name: 'Колесо обозрения в парке развлечений «Сказка»', latitude: 55.772172, longitude: 37.434791),
+      OutsidePoint(name: 'Колесо обозрения в парке «Сокольники»', latitude: 55.793959, longitude: 37.673886),
+      OutsidePoint(name: 'Колесо обозрения у Измайловского Кремля', latitude: 55.770178, longitude: 37.750795),
+      
+      
     ];
   }
 
