@@ -1,4 +1,8 @@
 # RussTravel
+
+
+![image](https://downloader.disk.yandex.ru/preview/b9f002d24cfb78fb04d53868fd6c683b414dd0f2322962a1bf5432530e290c81/6553e993/h3oAkmm_gcXq-C7PqOcT8oBlJ9uq_PLwtC3nlrfgctD483Ulo2BUdd4wrBVyAKutVrCvxtZ3vVk-cvu21S4gqg%3D%3D?uid=0&filename=splash.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1364x658)
+
 **RussTravel** - мобильное приложение, которое поможет путешественникам планировать свои поездки. Оно включает в себя функции по поиску и бронированию отелей, местных достопримечательностей. Также будут предусмотрены интегрированные карты и советы по путешествиям. 
 Наша цель: помочь людям подбирать оптимальные маршруты и отели так, чтобы было удобнее и быстрее посещать туристические места города или региона.
 Программа будет написана на мультиплатформе Flutter с технологиями Yandex Maps и Firebase.
