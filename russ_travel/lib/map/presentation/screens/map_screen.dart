@@ -154,6 +154,15 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей техники Вадима Задорожного', latitude: 55.795833, longitude: 37.296648),
       MuseumPoint(name: 'Музейно-выставочный комплекс Новый Иерусалим', latitude: 55.926575, longitude: 36.845210),
       MuseumPoint(name: 'Центральный музей ВВС', latitude: 55.832871, longitude: 38.182575),
+      // Рязанская область
+      MuseumPoint(name: 'Музей истории Воздушно-десантных войск', latitude: 54.633091, longitude: 39.736315),
+      MuseumPoint(name: 'Рязанский государственный областной художественный музей имени И. П. Пожалостина', latitude: 54.627273, longitude: 39.751188),
+      MuseumPoint(name: 'Мемориальный музей-усадьба академика И.П. Павлова', latitude: 54.631759, longitude: 39.727231),
+      MuseumPoint(name: 'Рязанский музей дальней авиации', latitude: 54.653798, longitude: 39.588518),
+      MuseumPoint(name: 'Музей истории рязанского леденца', latitude: 54.633637, longitude: 39.743662),
+      MuseumPoint(name: 'Историко-мемориальный зал боевой техники и вооружения ВДВ', latitude: 54.613783, longitude: 39.667641),
+      MuseumPoint(name: 'Интерактивный музей сказок Забава', latitude: 54.627272, longitude: 39.744274),
+      MuseumPoint(name: 'Аромат времени', latitude: 54.629799, longitude: 39.736157),
       
       
       
@@ -238,7 +247,13 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк приключений Дикие белки', latitude: 55.156920, longitude: 37.632110),
       ParkPoint(name: 'Парк усадьбы Кривякино', latitude: 55.319883, longitude: 38.672473),
       ParkPoint(name: 'Парк активного отдыха «Раздолье»', latitude: 55.735468, longitude: 37.293059),
-      
+      // Рязанская область
+      ParkPoint(name: 'Рязанский кремль', latitude: 54.635804, longitude: 39.748336),
+      ParkPoint(name: 'Центральный парк культуры и отдыха Рюмина Роща', latitude: 54.611198, longitude: 39.731983),
+      ParkPoint(name: 'Бульвар Победы', latitude: 54.644015, longitude: 39.658590),
+      ParkPoint(name: 'Прио-Лэнд', latitude: 54.626260, longitude: 39.710340),
+      ParkPoint(name: 'Окская жемчужина', latitude: 54.695515, longitude: 39.798664),
+      ParkPoint(name: 'Государственный музей-заповедник С. А. Есенина', latitude: 54.863263, longitude: 39.602017),
       
       
     ];
@@ -275,8 +290,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка у Высоцкого монастыря', latitude: 54.901623, longitude: 37.417605),
       OutsidePoint(name: 'Смотровая площадка', latitude: 56.303821, longitude: 37.499183),
       OutsidePoint(name: 'Водонапорная башня 1916 года', latitude: 54.763601, longitude: 38.876740),
-
-
+      // Рязанская область
+      OutsidePoint(name: 'Трубежная набережная Рязани', latitude: 54.635996, longitude: 39.747434),
+      OutsidePoint(name: 'Колесо обозрения', latitude: 54.695335, longitude: 39.799284),
       
       
     ];
