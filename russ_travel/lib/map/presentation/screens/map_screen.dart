@@ -170,7 +170,9 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей истории шоколада Такф', latitude: 52.723877, longitude: 41.441458),
       MuseumPoint(name: 'Музейно-выставочный центр Тамбовской области', latitude: 52.722934, longitude: 41.451026),
       MuseumPoint(name: 'Тамбовская областная картинная галерея', latitude: 52.724682, longitude: 41.456062),
-
+      MuseumPoint(name: 'Мичуринский краеведческий музей', latitude: 52.894011, longitude: 40.507838),
+      MuseumPoint(name: 'Дом-музей И.В. Мичурина', latitude: 52.898384, longitude: 40.525992),
+      
       
       
 
@@ -263,7 +265,10 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Государственный музей-заповедник С. А. Есенина', latitude: 54.863263, longitude: 39.602017),
       // Тамбовская область
       ParkPoint(name: 'парк 50-летия Победы', latitude: 52.750076, longitude: 41.414629),
-      
+      ParkPoint(name: 'Лесопарк «Дружба»', latitude: 52.707534, longitude: 41.493820),
+      ParkPoint(name: 'Парк аттракционов', latitude: 52.725067, longitude: 41.457751),
+      ParkPoint(name: 'ландшафтный парк-набережная Мичуринское подгорье', latitude: 52.893581, longitude: 40.521064),
+      ParkPoint(name: 'Парк культуры и отдыха', latitude: 52.887730, longitude: 40.516678),
       
     ];
   }
@@ -302,8 +307,8 @@ class _MapScreenState extends State<MapScreen> {
       // Рязанская область
       OutsidePoint(name: 'Трубежная набережная Рязани', latitude: 54.635996, longitude: 39.747434),
       OutsidePoint(name: 'Колесо обозрения', latitude: 54.695335, longitude: 39.799284),
-      
-      
+      OutsidePoint(name: 'Колесо обозрения', latitude: 52.725928, longitude: 41.458772),
+      OutsidePoint(name: 'Колесо обозрения', latitude: 52.886222, longitude: 40.517541),
     ];
   }
 
