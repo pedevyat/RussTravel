@@ -172,6 +172,12 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Тамбовская областная картинная галерея', latitude: 52.724682, longitude: 41.456062),
       MuseumPoint(name: 'Мичуринский краеведческий музей', latitude: 52.894011, longitude: 40.507838),
       MuseumPoint(name: 'Дом-музей И.В. Мичурина', latitude: 52.898384, longitude: 40.525992),
+      // Воронежская область
+      MuseumPoint(name: 'Воронежский областной художественный музей имени И.Н. Крамского', latitude: 51.673911, longitude: 39.209867),
+      MuseumPoint(name: 'Петровские корабли', latitude: 51.661738, longitude: 39.188083),
+      MuseumPoint(name: 'Воронежский областной краеведческий музей', latitude: 51.666628, longitude: 39.193560),
+      MuseumPoint(name: 'Музей природы Воронежского заповедника', latitude: 51.875599, longitude: 39.652909),
+      MuseumPoint(name: 'Музей И. А. Бунина', latitude: 51.679787, longitude: 39.215283),
       
       
       
@@ -269,6 +275,18 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк аттракционов', latitude: 52.725067, longitude: 41.457751),
       ParkPoint(name: 'ландшафтный парк-набережная Мичуринское подгорье', latitude: 52.893581, longitude: 40.521064),
       ParkPoint(name: 'Парк культуры и отдыха', latitude: 52.887730, longitude: 40.516678),
+      // Воронежская область
+      ParkPoint(name: 'Интерактивный музей Дом Бобра', latitude: 51.876766, longitude: 39.657800),
+      ParkPoint(name: 'Парк Орлёнок', latitude: 51.675241, longitude: 39.208387),
+      ParkPoint(name: 'Алые Паруса', latitude: 51.657489, longitude: 39.236773),
+      ParkPoint(name: 'Парк Победа', latitude: 51.706358, longitude: 39.161421),
+      ParkPoint(name: 'Дельфин', latitude: 51.685853, longitude: 39.253000),
+      ParkPoint(name: 'Бульвар Чернавская Дамба', latitude: 51.671717, longitude: 39.235188),
+      ParkPoint(name: 'Лесопарк Оптимистов', latitude: 51.650519, longitude: 39.110372),
+      ParkPoint(name: 'Дендрарий ВГЛТУ', latitude: 51.717606, longitude: 39.219907),
+      ParkPoint(name: 'Городской парк культуры и отдыха Борисоглебского городского округа Воронежской области', latitude: 51.366621, longitude: 42.063238),
+      ParkPoint(name: 'Городской парк культуры и отдыха', latitude: 50.993659, longitude: 39.483585),
+      ParkPoint(name: 'Музей-заповедник Дивногорье', latitude: 50.963659, longitude: 39.294938),
       
     ];
   }
@@ -307,8 +325,18 @@ class _MapScreenState extends State<MapScreen> {
       // Рязанская область
       OutsidePoint(name: 'Трубежная набережная Рязани', latitude: 54.635996, longitude: 39.747434),
       OutsidePoint(name: 'Колесо обозрения', latitude: 54.695335, longitude: 39.799284),
+      // Тамбовская область
       OutsidePoint(name: 'Колесо обозрения', latitude: 52.725928, longitude: 41.458772),
       OutsidePoint(name: 'Колесо обозрения', latitude: 52.886222, longitude: 40.517541),
+      // Воронежская область
+      OutsidePoint(name: 'Колесо обозрения', latitude: 51.707600, longitude: 39.161592),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 51.670493, longitude: 39.210597),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 51.753602, longitude: 39.228816),
+      OutsidePoint(name: 'Белая Гора', latitude: 51.775253, longitude: 39.238990),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 51.709187, longitude: 39.253297),
+      OutsidePoint(name: 'Второй трамвайный уровень Северного моста', latitude: 51.691492, longitude: 39.241238),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 51.647532, longitude: 39.232054),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 50.966712, longitude: 39.292588),
     ];
   }
 
