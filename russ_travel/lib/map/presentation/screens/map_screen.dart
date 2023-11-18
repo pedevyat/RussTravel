@@ -163,7 +163,14 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Историко-мемориальный зал боевой техники и вооружения ВДВ', latitude: 54.613783, longitude: 39.667641),
       MuseumPoint(name: 'Интерактивный музей сказок Забава', latitude: 54.627272, longitude: 39.744274),
       MuseumPoint(name: 'Аромат времени', latitude: 54.629799, longitude: 39.736157),
-      
+      // Тамбовская область
+      MuseumPoint(name: 'Усадьба Асеевых', latitude: 52.707157, longitude: 41.477798),
+      MuseumPoint(name: 'Тамбовский областной краеведческий музей', latitude: 52.725193, longitude: 41.453714),
+      MuseumPoint(name: 'Дом-музей Г.В. Чичерина', latitude: 52.715248, longitude: 41.460724),
+      MuseumPoint(name: 'Музей истории шоколада Такф', latitude: 52.723877, longitude: 41.441458),
+      MuseumPoint(name: 'Музейно-выставочный центр Тамбовской области', latitude: 52.722934, longitude: 41.451026),
+      MuseumPoint(name: 'Тамбовская областная картинная галерея', latitude: 52.724682, longitude: 41.456062),
+
       
       
 
@@ -254,6 +261,8 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Прио-Лэнд', latitude: 54.626260, longitude: 39.710340),
       ParkPoint(name: 'Окская жемчужина', latitude: 54.695515, longitude: 39.798664),
       ParkPoint(name: 'Государственный музей-заповедник С. А. Есенина', latitude: 54.863263, longitude: 39.602017),
+      // Тамбовская область
+      ParkPoint(name: 'парк 50-летия Победы', latitude: 52.750076, longitude: 41.414629),
       
       
     ];
