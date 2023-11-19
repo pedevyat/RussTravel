@@ -178,7 +178,14 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Воронежский областной краеведческий музей', latitude: 51.666628, longitude: 39.193560),
       MuseumPoint(name: 'Музей природы Воронежского заповедника', latitude: 51.875599, longitude: 39.652909),
       MuseumPoint(name: 'Музей И. А. Бунина', latitude: 51.679787, longitude: 39.215283),
-      
+      // Белгородская область
+      MuseumPoint(name: 'Музей-диорама «Курская битва»', latitude: 50.591283, longitude: 36.587800),
+      MuseumPoint(name: 'Белгородский художественный музей', latitude: 50.592766, longitude: 36.586711),
+      MuseumPoint(name: 'Белгородский государственный историко-краеведческий музей', latitude: 50.592369, longitude: 36.588039),
+      MuseumPoint(name: 'Белгородский государственный музей народной культуры', latitude: 50.594849, longitude: 36.589697),
+      MuseumPoint(name: 'Белгородский государственный литературный музей', latitude: 50.597632, longitude: 36.598884),
+      MuseumPoint(name: 'Центр народных промыслов', latitude: 51.281342, longitude: 37.793572),
+      MuseumPoint(name: 'Музей «Прохоровское поле»', latitude: 51.042701, longitude: 36.749264),
       
       
 
@@ -287,7 +294,15 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Городской парк культуры и отдыха Борисоглебского городского округа Воронежской области', latitude: 51.366621, longitude: 42.063238),
       ParkPoint(name: 'Городской парк культуры и отдыха', latitude: 50.993659, longitude: 39.483585),
       ParkPoint(name: 'Музей-заповедник Дивногорье', latitude: 50.963659, longitude: 39.294938),
-      
+      // Белгородская область
+      ParkPoint(name: 'Парк культуры и отдыха им. В.И. Ленина', latitude: 50.606887, longitude: 36.586744),
+      ParkPoint(name: 'парк Котофей', latitude: 50.589664, longitude: 36.584702),
+      ParkPoint(name: 'Динопарк', latitude: 50.553126, longitude: 36.643847),
+      ParkPoint(name: 'Пикник-Парк', latitude: 50.508072, longitude: 36.648865),
+      ParkPoint(name: 'Парк Победы', latitude: 50.591917, longitude: 36.584330),
+      ParkPoint(name: 'Парк Зеленый Лог', latitude: 51.318271, longitude: 37.892556),
+      ParkPoint(name: 'Комсомольский парк', latitude: 51.280213, longitude: 37.800783),
+      ParkPoint(name: 'Старооскольский зоопарк', latitude: 51.322957, longitude: 37.999321),
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
@@ -337,6 +352,10 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Второй трамвайный уровень Северного моста', latitude: 51.691492, longitude: 39.241238),
       OutsidePoint(name: 'Смотровая площадка', latitude: 51.647532, longitude: 39.232054),
       OutsidePoint(name: 'Смотровая площадка', latitude: 50.966712, longitude: 39.292588),
+      // Белгородская область
+      OutsidePoint(name: 'Смотровая площадка', latitude: 50.580618, longitude: 36.583857),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 50.582189, longitude: 36.595646),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 51.283608, longitude: 37.660532),
     ];
   }
 
