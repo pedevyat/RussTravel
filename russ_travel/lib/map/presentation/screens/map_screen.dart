@@ -186,6 +186,11 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Белгородский государственный литературный музей', latitude: 50.597632, longitude: 36.598884),
       MuseumPoint(name: 'Центр народных промыслов', latitude: 51.281342, longitude: 37.793572),
       MuseumPoint(name: 'Музей «Прохоровское поле»', latitude: 51.042701, longitude: 36.749264),
+      // Курская область
+      MuseumPoint(name: 'Курский областной краеведческий музей', latitude: 51.727587, longitude: 36.191589),
+      MuseumPoint(name: 'Литературный музей', latitude: 51.742082, longitude: 36.188181),
+      MuseumPoint(name: 'Курск – город воинской славы', latitude: 51.756923, longitude: 36.187768),
+      MuseumPoint(name: 'Историко-мемориальный музей КП Центрального фронта', latitude: 51.971378, longitude: 36.310867),
       
       
 
@@ -303,6 +308,11 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк Зеленый Лог', latitude: 51.318271, longitude: 37.892556),
       ParkPoint(name: 'Комсомольский парк', latitude: 51.280213, longitude: 37.800783),
       ParkPoint(name: 'Старооскольский зоопарк', latitude: 51.322957, longitude: 37.999321),
+      // Курская область
+      ParkPoint(name: 'Парк Боева дача', latitude: 51.742198, longitude: 36.211259),
+      ParkPoint(name: 'Новая Боевка', latitude: 51.743542, longitude: 36.214585),
+      ParkPoint(name: 'парк КЗТЗ', latitude: 51.705550, longitude: 36.156164),
+      
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
