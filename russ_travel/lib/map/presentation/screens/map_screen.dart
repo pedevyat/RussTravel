@@ -228,6 +228,26 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей Филимоновская игрушка', latitude: 53.936195, longitude: 36.687622),
       MuseumPoint(name: 'Усадьба Дворяниново', latitude: 54.704284, longitude: 37.557130),
       MuseumPoint(name: 'Военно-исторический музей', latitude: 54.195905, longitude: 37.619724),
+      // Калужская область
+      MuseumPoint(name: 'Музей истории космонавтики', latitude: 54.516970, longitude: 36.230691),
+      MuseumPoint(name: 'Мемориальный дом-музей К.Э. Циолковского', latitude: 54.511175, longitude: 36.230194),
+      MuseumPoint(name: 'Музейно-краеведческий комплекс Усадьба Золотарёвых', latitude: 54.510688, longitude: 36.245533),
+      MuseumPoint(name: 'Дом-музей А. Л. Чижевского', latitude: 54.518204, longitude: 36.262700),
+      MuseumPoint(name: 'Калужский музей изобразительных искусств', latitude: 54.508683, longitude: 36.256678),
+      MuseumPoint(name: 'Музей стекла Алексея Зеля', latitude: 54.507302, longitude: 36.254671),
+      MuseumPoint(name: 'Музейно-краеведческий центр Палаты Коробовых', latitude: 54.510564, longitude: 36.242695),
+      MuseumPoint(name: 'Военно-исторический центр Маршал Победы - Георгий Константинович Жуков', latitude: 54.516493, longitude: 36.283567),
+      MuseumPoint(name: 'Обнинский музей', latitude: 55.110739, longitude: 36.589871),
+      MuseumPoint(name: 'Художественный музей мусора МУ МУ', latitude: 55.123313, longitude: 36.825582),
+      MuseumPoint(name: 'Планетарий', latitude: 54.516892, longitude: 36.230838),
+      MuseumPoint(name: 'Музей 1812 года', latitude: 55.012118, longitude: 36.473574),
+      MuseumPoint(name: 'Музей-диорама Великое Стояние на реке Угре', latitude: 54.614173, longitude: 35.999558),
+      MuseumPoint(name: 'Тарусский музей семьи Цветаевых', latitude: 54.730868, longitude: 37.175487),
+      MuseumPoint(name: 'Музей Сергея Жарова', latitude: 54.723248, longitude: 37.181724),
+      MuseumPoint(name: 'Мастерская Эдуарда Штейнберга', latitude: 54.715525, longitude: 37.187720),
+      MuseumPoint(name: 'Бузеон', latitude: 54.738701, longitude: 35.995741),
+      MuseumPoint(name: 'Музей Kомпьютеров', latitude: 55.208550, longitude: 36.486071),
+      MuseumPoint(name: 'Музейно-выставочный центр', latitude: 55.203667, longitude: 36.487626),
       
       
 
@@ -389,6 +409,24 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Музей-усадьба Ясная Поляна', latitude: 54.075501, longitude: 37.526409),
       ParkPoint(name: 'музей усадьба В. Д. Поленова', latitude: 54.748552, longitude: 37.236656),
       ParkPoint(name: 'Богородицкий дворец-музей и парк', latitude: 53.771625, longitude: 38.139179),
+      // Калужская область
+      ParkPoint(name: 'Центральный городской парк культуры и отдыха', latitude: 54.506944, longitude: 36.248147),
+      ParkPoint(name: 'Парк имени Циолковского', latitude: 54.515207, longitude: 36.233873),
+      ParkPoint(name: 'Парк Юного зрителя', latitude: 54.513066, longitude: 36.250831),
+      ParkPoint(name: 'Парк Усадьбы Яновских', latitude: 54.571482, longitude: 36.263053),
+      ParkPoint(name: 'Городской парк', latitude: 55.091113, longitude: 36.605072),
+      ParkPoint(name: 'Парк Усадьба Белкино', latitude: 55.126050, longitude: 36.594607),
+      ParkPoint(name: 'парк 35-ти летия Победы', latitude: 55.103955, longitude: 36.608231),
+      ParkPoint(name: 'Нижний парк', latitude: 55.091463, longitude: 36.581456),
+      ParkPoint(name: 'парк Три богатыря', latitude: 54.033479, longitude: 35.794259),
+      ParkPoint(name: 'Городской парк', latitude: 54.026194, longitude: 35.794333),
+      ParkPoint(name: 'Вихляндия', latitude: 54.039196, longitude: 35.795892),
+      ParkPoint(name: 'Арт-парк Никола-Ленивец', latitude: 54.757546, longitude: 35.604235),
+      ParkPoint(name: 'Сад и дом-музей Николая Петровича Ракицкого', latitude: 54.719952, longitude: 37.176001),
+      ParkPoint(name: 'Музей-заповедник Полотняный Завод', latitude: 54.738235, longitude: 35.995632),
+      ParkPoint(name: 'Парк динозавров Эволюция', latitude: 55.245347, longitude: 36.423319),
+      ParkPoint(name: 'Лесной лабиринт Дебри', latitude: 55.244514, longitude: 36.423517),
+      
       
       
     ];
@@ -465,8 +503,19 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка', latitude: 54.502984, longitude: 37.106730),
       OutsidePoint(name: 'Смотровая площадка', latitude: 54.516678, longitude: 37.082329),
       OutsidePoint(name: 'Смотровая площадка', latitude: 53.771506, longitude: 38.138270),
+      // Калужская область
+      OutsidePoint(name: 'Колесо обозрения', latitude: 54.505699, longitude: 36.248211),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.505671, longitude: 36.246033),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.510171, longitude: 36.249716),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.517460, longitude: 36.229544),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.510430, longitude: 36.234764),
+      OutsidePoint(name: 'Смотровая вышка', latitude: 54.514107, longitude: 36.223148),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.173965, longitude: 36.644671),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.016143, longitude: 36.456460),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.205880, longitude: 36.487609),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.026094, longitude: 35.795081),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.615112, longitude: 35.996058),
       
-
     ];
   }
 
