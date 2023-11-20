@@ -143,6 +143,19 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Село Усть-Цильма', latitude: 65.43333, longitude: 52.15),
       ParkPoint(name: 'Село Усть-Вымь', latitude: 62.22587542933404, longitude: 50.397508999999914),
 
+      // Ненецкий АО
+      ParkPoint(name: 'Ненецкий природный заповедник', latitude: 68.602778, longitude: 53.663056),
+      ParkPoint(name: 'Памятник природы «Каменный город»', latitude: 67.301472, longitude: 48.984090),
+      ParkPoint(name: 'Природный заказник «Море-Ю»', latitude: 68.171733, longitude: 59.948972),
+      ParkPoint(name: 'Нижнепечорский заказник', latitude: 67.840474, longitude: 52.689714),
+      ParkPoint(name: 'Термальное урочище Пым-Ва-Шор', latitude: 67.189184, longitude: 60.865456),
+      ParkPoint(name: 'Ортинское городище', latitude: 68.055118, longitude: 54.128906),
+      ParkPoint(name: 'Центр арктического туризма', latitude: 67.633756, longitude: 53.24157),
+      ParkPoint(name: 'Обдорский острог (Город мастеров)', latitude: 66.5222540, longitude: 66.5892110),
+      ParkPoint(name: 'Каменный город', latitude: 58.722733, longitude: 57.6329),
+      ParkPoint(name: 'Пым-Ва-Шор', latitude: 67.1889, longitude: 60.873),
+
+
 
     ];
   }
