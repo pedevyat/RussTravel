@@ -98,6 +98,7 @@ class _MapScreenState extends State<MapScreen> {
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
     return const [
+      // республика Коми
       MuseumPoint(name: 'Дом-музей И. П. Морозова' , latitude: 61.67259571967766, longitude: 50.840373498693104),
       MuseumPoint(name: 'Пожарная каланча Сыктывкара', latitude: 61.673001, longitude: 50.837413),
       MuseumPoint(name: 'Национальная галерея Республики Коми' , latitude: 61.66956900, longitude: 50.84247200),
@@ -106,11 +107,29 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Археологический памятник Мамонтовая Курья', latitude: 66.607333, longitude: 62.534510),
       MuseumPoint(name: 'Стоянки Бызовая и Крутая Гора', latitude: 64.975556, longitude: 59.528889),
       MuseumPoint(name: 'Свято-Стефановский Кафедральный собор в Сыктывкаре', latitude: 61.677814, longitude: 50.831633),
+
+      // Ненецкий АО
+      MuseumPoint(name: 'Музей-заповедник «Пустозерск»', latitude: 67.6413, longitude: 53.0070833),
+      MuseumPoint(name: 'Шоинский маяк', latitude: 67.879182, longitude: 44.138176),
+      MuseumPoint(name: 'Маяк Ходовариха', latitude: 68.932776, longitude: 53.762628),
+      MuseumPoint(name: 'Ненецкий краеведческий музей', latitude: 67.640480, longitude: 53.010441),
+      MuseumPoint(name: 'Заброшенный поселок Рудник', latitude: 65.031667, longitude: 53.969167),
+      MuseumPoint(name: 'Памятный знак Голова Ленина', latitude: 67.816646, longitude: 34.84826),
+      MuseumPoint(name: 'здание администрации Ненецкого АО', latitude: 67.6388917, longitude: 53.0056361),
+      MuseumPoint(name: 'здание главпочтамта Ненецкого,  АО', latitude:67.639213562,longitude:53.007827759),
+      MuseumPoint(name: 'Богоявленский собор', latitude: 55.772655, longitude: 37.674772),
+      MuseumPoint(name: 'Памятник «Подвигу участников оленно-транспортных батальонов»', latitude: 67.64, longitude: 53.01056),
+      MuseumPoint(name: 'Памятник труженикам Печорского лесозавода', latitude: 67.66982400, longitude: 53.09680900),
+      MuseumPoint(name: 'Памятник Яку-7Б', latitude: 67.66982400, longitude: 53.09680900),
+      MuseumPoint(name: 'Этнокультурный центр Ненецкого автономного округа', latitude: 67.6404610, longitude: 53.0034470),
+      MuseumPoint(name: 'Несская церковь', latitude: 54.163797755081,longitude: 26.14351272583),
+
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
+      // республика Коми
       ParkPoint(name: 'Югыд Ва', latitude: 63.9690289, longitude: 59.2200899),
       ParkPoint(name: 'Финно-угорский этнокультурный парк', latitude: 61.673248, longitude: 50.832223),
       ParkPoint(name: 'Печоро-Илычский биосферный заповедник', latitude: 61.822870, longitude: 56.824022),
@@ -124,11 +143,13 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Село Усть-Цильма', latitude: 65.43333, longitude: 52.15),
       ParkPoint(name: 'Село Усть-Вымь', latitude: 62.22587542933404, longitude: 50.397508999999914),
 
+
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
+      // республика Коми
       OutsidePoint(name: 'Столбы выветривания', latitude: 62.221329, longitude: 59.305196),
       OutsidePoint(name: 'Гора Народная', latitude: 65.0349, longitude: 60.1150),
       OutsidePoint(name: 'Гора Манарага', latitude: 65.039679, longitude: 59.76726),
