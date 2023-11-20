@@ -255,6 +255,18 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей Смоленская крепость, Башня Громовая', latitude: 54.780070, longitude: 32.043756),
       MuseumPoint(name: 'Художественная галерея', latitude: 54.780461, longitude: 32.046122),
       MuseumPoint(name: 'Музей Первого полёта', latitude: 55.553629, longitude: 35.004712),
+      // Тверская область
+      MuseumPoint(name: 'Музей козла', latitude:56.853323 , longitude: 35.910438),
+      MuseumPoint(name: 'Музей Плюшкина', latitude: 56.855986, longitude: 35.917648),
+      MuseumPoint(name: 'Музей тверского быта', latitude: 56.866496, longitude: 35.910294),
+      MuseumPoint(name: 'Музей фотографии Искра', latitude: 56.858277, longitude: 35.909846),
+      MuseumPoint(name: 'Ретро-техно-музей ИнтернетаНЕТ', latitude: 56.854410, longitude: 35.910437),
+      MuseumPoint(name: 'Музей Михаила Круга', latitude: 56.850166, longitude: 35.907613),
+      MuseumPoint(name: 'Музей золотного шитья', latitude: 57.031288, longitude: 34.988408),
+      MuseumPoint(name: 'Музей стекла завода Красный май', latitude: 57.588388, longitude: 34.557879),
+      MuseumPoint(name: 'Вышневолоцкий краеведческий музей имени Г. Г. Монаховой', latitude: 57.584851, longitude: 34.560525),
+      MuseumPoint(name: 'Ржевский краеведческий музей', latitude: 56.260367, longitude: 34.330319),
+      MuseumPoint(name: 'Кимрский краеведческий музей', latitude: 56.872847, longitude: 37.355604),
       
 
 
@@ -443,7 +455,14 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Реадовский парк', latitude: 54.759805, longitude: 32.020374),
       ParkPoint(name: 'Мемориальный комплекс Катынь', latitude: 54.774122, longitude: 31.789684),
       ParkPoint(name: 'Историко-архитектурный комплекс Теремок', latitude: 54.659180, longitude: 32.209065),
-      
+      // Тверская область
+      ParkPoint(name: 'Городской сад', latitude: 56.867060, longitude: 35.892022),
+      ParkPoint(name: 'Дворцовый сад', latitude: 56.863401, longitude: 35.901760),
+      ParkPoint(name: 'Китайский парк', latitude: 56.844248, longitude: 35.819148),
+      ParkPoint(name: 'Роща', latitude: 56.837880, longitude: 35.837988),
+      ParkPoint(name: 'Новоторжский Кремль', latitude: 57.036734, longitude: 34.955408),
+      ParkPoint(name: 'парк Подпольщиков', latitude: 56.258793, longitude: 34.333389),
+      ParkPoint(name: 'Архитектурно-этнографический музей Василёво', latitude: 57.097736, longitude: 34.971522),
       
       
     ];
@@ -542,6 +561,10 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка', latitude: 54.785733, longitude: 32.043963),
       OutsidePoint(name: 'Смотровая площадка', latitude: 54.790954, longitude: 32.046370),
       OutsidePoint(name: 'Колесо обозрения', latitude: 54.781745, longitude: 32.037866),
+      // Тверская область
+      OutsidePoint(name: 'Смотровая площадка', latitude: 56.862765, longitude: 35.904145),
+      OutsidePoint(name: 'Гора Соборная', latitude: 56.259488, longitude: 34.340268),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 56.256536, longitude: 34.317113),
       
     ];
   }
