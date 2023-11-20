@@ -129,9 +129,15 @@ class _MapScreenState extends State<MapScreen> {
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
-      OutsidePoint(name: 'Останкинская башня',
-          latitude: 55.819721,
-          longitude: 37.611704),
+      OutsidePoint(name: 'Столбы выветривания', latitude: 62.221329, longitude: 59.305196),
+      OutsidePoint(name: 'Гора Народная', latitude: 65.0349, longitude: 60.1150),
+      OutsidePoint(name: 'Гора Манарага', latitude: 65.039679, longitude: 59.76726),
+      OutsidePoint(name: 'Водопад Буредан', latitude: 68.728056, longitude: 65.352222),
+      OutsidePoint(name: 'Гора Еркусей (Шаман-Гора)', latitude: 65.221364, longitude: 60.348099),
+      OutsidePoint(name: 'Урочище Медвежья Пещера', latitude: 62, longitude: 58.733),
+      OutsidePoint(name: 'Пик Масленникова', latitude: 53.9, longitude: 27.5667),
+      OutsidePoint(name: 'Гора Тельпос', latitude: 46.6912400, longitude: 21.8033500),
+
     ];
   }
 
