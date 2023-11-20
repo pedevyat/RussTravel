@@ -250,6 +250,11 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музейно-выставочный центр', latitude: 55.203667, longitude: 36.487626),
       MuseumPoint(name: 'Брянский музей истории фотографии', latitude: 53.244344, longitude: 34.359779),
       MuseumPoint(name: 'Литературно-Мемориальный Музей Ф.И. Тютчева', latitude: 53.373080, longitude: 33.878620),
+      // Смоленская область
+      MuseumPoint(name: 'Музей Великой Отечественной войны', latitude: 54.779374, longitude: 32.047485),
+      MuseumPoint(name: 'Музей Смоленская крепость, Башня Громовая', latitude: 54.780070, longitude: 32.043756),
+      MuseumPoint(name: 'Художественная галерея', latitude: 54.780461, longitude: 32.046122),
+      MuseumPoint(name: 'Музей Первого полёта', latitude: 55.553629, longitude: 35.004712),
       
 
 
@@ -431,6 +436,13 @@ class _MapScreenState extends State<MapScreen> {
       // Брянская область
       ParkPoint(name: 'Тридевятое Царство', latitude: 53.300842, longitude: 34.236799),
       ParkPoint(name: 'Центральный парк культуры и отдыха им. 1000-летия г. Брянска', latitude: 53.269046, longitude: 34.364993),
+      // Смоленская область
+      ParkPoint(name: 'Музей-заповедник Гнёздово', latitude: 54.785732, longitude: 31.879890),
+      ParkPoint(name: 'Лопатинский сад', latitude: 54.781649, longitude: 32.041711),
+      ParkPoint(name: 'парк Соловьиная роща', latitude: 54.759831, longitude: 32.089065),
+      ParkPoint(name: 'Реадовский парк', latitude: 54.759805, longitude: 32.020374),
+      ParkPoint(name: 'Мемориальный комплекс Катынь', latitude: 54.774122, longitude: 31.789684),
+      ParkPoint(name: 'Историко-архитектурный комплекс Теремок', latitude: 54.659180, longitude: 32.209065),
       
       
       
@@ -525,7 +537,12 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка', latitude: 53.239101, longitude: 34.373795),
       OutsidePoint(name: 'Покровская гора', latitude: 53.244345, longitude: 34.373596),
       OutsidePoint(name: 'Смотровая площадка', latitude: 53.272183, longitude: 34.364794),
-
+      // Смоленская область
+      OutsidePoint(name: 'Соборная гора', latitude: 54.788160, longitude: 32.053921),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.785733, longitude: 32.043963),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.790954, longitude: 32.046370),
+      OutsidePoint(name: 'Колесо обозрения', latitude: 54.781745, longitude: 32.037866),
+      
     ];
   }
 
