@@ -172,6 +172,29 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Пик Масленникова', latitude: 53.9, longitude: 27.5667),
       OutsidePoint(name: 'Гора Тельпос', latitude: 46.6912400, longitude: 21.8033500),
 
+      // Ненецкий АО
+      OutsidePoint(name: 'Река Печора', latitude: 67.683622, longitude: 52.490428),
+      OutsidePoint(name: 'Река Пеша', latitude: 66.793508, longitude: 47.726111),
+      OutsidePoint(name: 'Река Ома', latitude: 66.686917, longitude: 46.374264),
+      OutsidePoint(name: 'Река Индига', latitude: 67.459386, longitude: 49.378361),
+      OutsidePoint(name: 'Чёшская губа', latitude: 67.330048, longitude: 46.500698),
+      OutsidePoint(name: 'Печорская губа', latitude: 68.661447, longitude: 54.997287),
+      OutsidePoint(name: 'Поморский пролив', latitude: 68.604739, longitude: 50.284267),
+      OutsidePoint(name: 'Остров Колгуев', latitude: 69.107757, longitude: 49.119853),
+      OutsidePoint(name: 'Озеро Голодная Губа', latitude: 67.863923, longitude: 52.721486),
+      OutsidePoint(name: 'Озеро Урдюжское', latitude: 67.238474, longitude: 50.180269),
+      OutsidePoint(name: 'Сульские водопады', latitude: 66.895059, longitude: 49.538057),
+      OutsidePoint(name: 'Остров Вайгач', latitude: 70.016667, longitude: 59.55),
+      OutsidePoint(name: 'Каньон «Большие ворота»', latitude: 67.314353, longitude: 49.314534),
+      OutsidePoint(name: 'Памятник комару нефтянику', latitude: 65.987386, longitude: 57.563046),
+      OutsidePoint(name: 'смотровая площадка в морпорту (Нарьян-Мар)', latitude: 67.64667, longitude: 52.99417),
+      OutsidePoint(name: 'озеро Хутыто', latitude: 68.01827, longitude: 59.664273),
+      OutsidePoint(name: 'озеро Сейзасрёто', latitude: 68.695883, longitude: 60.850163),
+      OutsidePoint(name: 'озеро Большое Камбальничье', latitude: 68.6257, longitude: 52.6056),
+      OutsidePoint(name: 'озеро Ошкото', latitude: 67.746175, longitude: 57.229256),
+      OutsidePoint(name: 'озеро Хыйропское', latitude: 43.3771, longitude: 41.6568),
+
+
     ];
   }
 
