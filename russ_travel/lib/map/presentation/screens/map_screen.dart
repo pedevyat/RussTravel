@@ -98,16 +98,20 @@ class _MapScreenState extends State<MapScreen> {
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
     return const [
-      MuseumPoint(name: 'Мавзолей В.И. Ленина', // Название точки
-          latitude: 55.753605, // Координаты
-          longitude: 37.619773),
+      MuseumPoint(name: 'Дом-музей И. П. Морозова' , latitude: 61.67259571967766, longitude: 50.840373498693104),
+      MuseumPoint(name: 'Пожарная каланча Сыктывкара', latitude: 61.673001, longitude: 50.837413),
+      MuseumPoint(name: 'Национальная галерея Республики Коми' , latitude: 61.66956900, longitude: 50.84247200),
+      MuseumPoint(name: 'Национальный музей Республики Коми' , latitude: 61.66909, longitude: 50.83829),
+      MuseumPoint(name: 'Кылтовский крестовоздвиженский монастырь', latitude: 62.320529, longitude: 50.994444),
+      MuseumPoint(name: 'Археологический памятник Мамонтовая Курья', latitude: 66.607333, longitude: 62.534510),
+      MuseumPoint(name: 'Стоянки Бызовая и Крутая Гора', latitude: 64.975556, longitude: 59.528889),
+      MuseumPoint(name: 'Свято-Стефановский Кафедральный собор в Сыктывкаре', latitude: 61.677814, longitude: 50.831633),
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
-      ParkPoint(
-          name: 'Парк Зарядье', latitude: 55.751238, longitude: 37.627762),
+      ParkPoint(name: 'Парк Зарядье', latitude: 55.751238, longitude: 37.627762),
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
