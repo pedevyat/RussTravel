@@ -111,7 +111,19 @@ class _MapScreenState extends State<MapScreen> {
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
-      ParkPoint(name: 'Парк Зарядье', latitude: 55.751238, longitude: 37.627762),
+      ParkPoint(name: 'Югыд Ва', latitude: 63.9690289, longitude: 59.2200899),
+      ParkPoint(name: 'Финно-угорский этнокультурный парк', latitude: 61.673248, longitude: 50.832223),
+      ParkPoint(name: 'Печоро-Илычский биосферный заповедник', latitude: 61.822870, longitude: 56.824022),
+      ParkPoint(name: 'Кажимский железоделательный завод', latitude: 60.333902, longitude: 51.556093),
+      ParkPoint(name: 'Памятник букве ?', latitude: 61.6695989, longitude: 50.8271581),
+      ParkPoint(name: 'Город-призрак Хальмер-Ю', latitude: 67.9666700, longitude: 64.8333300),
+      ParkPoint(name: 'Девственные леса Коми', latitude: 65.056199, longitude: 60.082262),
+      ParkPoint(name: 'Река Щугор', latitude: 63.1859, longitude: 59.2353),
+      ParkPoint(name: 'Маньпупунер (мансийские болваны)', latitude: 62.221329, longitude: 59.305196),
+      ParkPoint(name: '«Сад камней» на берегу Ижмы', latitude: 56.731043, longitude: 35.504124),
+      ParkPoint(name: 'Село Усть-Цильма', latitude: 65.43333, longitude: 52.15),
+      ParkPoint(name: 'Село Усть-Вымь', latitude: 62.22587542933404, longitude: 50.397508999999914),
+
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
