@@ -192,7 +192,6 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Курск – город воинской славы', latitude: 51.756923, longitude: 36.187768),
       MuseumPoint(name: 'Историко-мемориальный музей КП Центрального фронта', latitude: 51.971378, longitude: 36.310867),
       MuseumPoint(name: 'Железногорский краеведческий музей', latitude: 52.343717, longitude: 35.348376),
-      
       // Орловская область
       MuseumPoint(name: 'Орловский краеведческий музей', latitude: 52.964147, longitude: 36.068431),
       MuseumPoint(name: 'Орловский военно-исторический музей', latitude: 52.953142, longitude: 36.063875),
@@ -202,6 +201,15 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей И. А. Бунина', latitude: 52.965983, longitude: 36.060983),
       MuseumPoint(name: 'Дом-музей Леонида Андреева', latitude: 52.961264, longitude: 36.048971),
       MuseumPoint(name: 'Орловский музей изобразительных искусств', latitude: 52.972268, longitude: 36.058220),
+      // Липецкая область
+      MuseumPoint(name: 'Липецкий областной краеведческий музей', latitude: 52.613984, longitude: 39.608564),
+      MuseumPoint(name: 'Автолегенда', latitude: 52.583095, longitude: 39.566307),
+      MuseumPoint(name: 'Музей НЛМК', latitude: 52.573166, longitude: 39.621266),
+      MuseumPoint(name: 'Липецкий историко-культурный музей', latitude: 52.617903, longitude: 39.582812),
+      MuseumPoint(name: 'Художественный музей имени В.С. Сорокина - Дом Мастера', latitude: 52.609651, longitude: 39.601860),
+      MuseumPoint(name: 'Музей купечества и сословий', latitude: 52.627139, longitude: 38.498348),
+      MuseumPoint(name: 'Литературно-мемориальный музей И. А. Бунина', latitude: 52.618694, longitude: 38.493767),
+      MuseumPoint(name: 'Музей Елецкого кружева', latitude: 52.619734, longitude: 38.501905),
       
       
 
@@ -330,7 +338,22 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'ландшафтный парк Дворянское Гнездо', latitude: 52.967326, longitude: 36.052006),
       ParkPoint(name: 'музей-заповедник И.С. Тургенева Спасское-Лутовиново', latitude: 53.372268, longitude: 36.631877),
       ParkPoint(name: 'Сквер Танкистов', latitude: 52.968563, longitude: 36.079052),
-      
+      // Липецкая область
+      ParkPoint(name: 'Парк Победы', latitude: 52.594742, longitude: 39.523285),
+      ParkPoint(name: 'Молодёжный парк', latitude: 52.587688, longitude: 39.508325),
+      ParkPoint(name: 'Парк Металлургов', latitude: 52.583551, longitude: 39.625548),
+      ParkPoint(name: 'Парк аттракционов Жемчужина', latitude: 52.597044, longitude: 39.523606),
+      ParkPoint(name: 'Городские парки г. Ельца', latitude: 52.626508, longitude: 38.495667),
+      ParkPoint(name: 'Детский парк имени Бориса Григорьевича Лесюка', latitude: 52.624494, longitude: 38.495658),
+      ParkPoint(name: 'парк 40-летия Великой Октябрьской Социалистической Революции', latitude: 52.616178, longitude: 38.466862),
+      ParkPoint(name: 'Петровский парк', latitude: 52.606753, longitude: 38.506837),
+      ParkPoint(name: 'сквер имени А.С. Пушкина', latitude: 52.616591, longitude: 38.510436),
+      ParkPoint(name: 'Старая гидромельница купца Талдыкина', latitude: 52.572653, longitude: 38.361530),
+      ParkPoint(name: 'Нижний парк', latitude: 52.604964, longitude: 39.603257),
+      ParkPoint(name: 'Липецкий зоопарк', latitude: 52.605410, longitude: 39.607101),
+      ParkPoint(name: 'парк Быханов сад', latitude: 52.618548, longitude: 39.590318),
+      ParkPoint(name: 'Заповедник Галичья Гора', latitude: 52.601510, longitude: 38.928741),
+      ParkPoint(name: 'Кудыкина гора', latitude: 52.367879, longitude: 38.769908),
       
       
     ];
@@ -391,6 +414,17 @@ class _MapScreenState extends State<MapScreen> {
       // Орловская область
       OutsidePoint(name: 'Смотровая площадка', latitude: 52.984178, longitude: 36.097789),
       OutsidePoint(name: 'Смотровая площадка', latitude: 52.971773, longitude: 36.068362),
+      // Липецкая область
+      OutsidePoint(name: 'Колесо обозрения', latitude: 52.604598, longitude: 39.605584),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.609591, longitude: 39.602388),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.613811, longitude: 39.610487),
+      OutsidePoint(name: 'Колесо обозрения', latitude: 52.627619, longitude: 38.497407),
+      OutsidePoint(name: 'Аргамачья гора', latitude: 52.625200, longitude: 38.519176),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.618708, longitude: 38.508967),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.636722, longitude: 38.499774),
+      OutsidePoint(name: 'Вид с железнодорожного моста', latitude: 52.605626, longitude: 38.512191),
+      OutsidePoint(name: 'Воронов камень', latitude: 52.568691, longitude: 38.385172),
+      OutsidePoint(name: 'Скальный массив Звонари', latitude: 52.575115, longitude: 38.352527),
 
     ];
   }
