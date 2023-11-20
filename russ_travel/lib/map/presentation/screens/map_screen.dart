@@ -210,6 +210,24 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей купечества и сословий', latitude: 52.627139, longitude: 38.498348),
       MuseumPoint(name: 'Литературно-мемориальный музей И. А. Бунина', latitude: 52.618694, longitude: 38.493767),
       MuseumPoint(name: 'Музей Елецкого кружева', latitude: 52.619734, longitude: 38.501905),
+      // Тульская область
+      MuseumPoint(name: 'Тульский государственный музей оружия', latitude: 54.204272, longitude: 37.616499),
+      MuseumPoint(name: 'Музей Тульский пряник', latitude: 54.211566, longitude: 37.622105),
+      MuseumPoint(name: 'Музей гармони Деда Филимона', latitude: 54.192505, longitude: 37.621713),
+      MuseumPoint(name: 'Музей станка', latitude: 54.191087, longitude: 37.612136),
+      MuseumPoint(name: 'Тульский Историко-архитектурный музей', latitude: 54.190004, longitude: 37.614505),
+      MuseumPoint(name: 'Музей «Тульские древности»', latitude: 54.186354, longitude: 37.610586),
+      MuseumPoint(name: 'Исторический музей', latitude: 54.197853, longitude: 37.617136),
+      MuseumPoint(name: 'Художественно-краеведческий музей', latitude: 54.513200, longitude: 37.093721),
+      MuseumPoint(name: 'Музейно-мемориальный комплекс героям Куликовской битвы', latitude: 53.670591, longitude: 38.642492),
+      MuseumPoint(name: 'Тульские самовары', latitude: 54.194319, longitude: 37.618821),
+      MuseumPoint(name: 'Музей-лаборатория', latitude: 54.197638, longitude: 37.617157),
+      MuseumPoint(name: 'Музей Мото-Авто-АРТ', latitude: 54.154436, longitude: 37.482534),
+      MuseumPoint(name: 'Музей-заповедник Куликово поле', latitude: 53.623942, longitude: 38.672613),
+      MuseumPoint(name: 'Музей купеческого быта', latitude: 53.827551, longitude: 38.554383),
+      MuseumPoint(name: 'Музей Филимоновская игрушка', latitude: 53.936195, longitude: 36.687622),
+      MuseumPoint(name: 'Усадьба Дворяниново', latitude: 54.704284, longitude: 37.557130),
+      MuseumPoint(name: 'Военно-исторический музей', latitude: 54.195905, longitude: 37.619724),
       
       
 
@@ -354,6 +372,23 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'парк Быханов сад', latitude: 52.618548, longitude: 39.590318),
       ParkPoint(name: 'Заповедник Галичья Гора', latitude: 52.601510, longitude: 38.928741),
       ParkPoint(name: 'Кудыкина гора', latitude: 52.367879, longitude: 38.769908),
+      // Тулькая область
+      ParkPoint(name: 'Тульский кремль', latitude: 54.195825, longitude: 37.619855),
+      ParkPoint(name: 'Музей Козлова Засека', latitude: 54.096342, longitude: 37.569444),
+      ParkPoint(name: 'Центральный парк культуры и отдыха имени П. П. Белоусова', latitude: 54.181642, longitude: 37.588449),
+      ParkPoint(name: 'Рогожинский парк', latitude: 54.172101, longitude: 37.616127),
+      ParkPoint(name: 'Комсомольский парк', latitude: 54.230559, longitude: 37.622821),
+      ParkPoint(name: 'Платоновский парк', latitude: 54.150517, longitude: 37.574402),
+      ParkPoint(name: 'Парк Патриот - Тула', latitude: 54.188276, longitude: 37.657889),
+      ParkPoint(name: 'Баташевский сад', latitude: 54.221874, longitude: 37.645693),
+      ParkPoint(name: 'Кремлёвский сад', latitude: 54.193961, longitude: 37.622706),
+      ParkPoint(name: 'Детский парк имени Д.Г. Оники', latitude: 54.015002, longitude: 38.277028),
+      ParkPoint(name: 'Городской парк', latitude: 54.017034, longitude: 38.314694),
+      ParkPoint(name: 'парк Памяти и Славы', latitude: 54.023101, longitude: 38.310654),
+      ParkPoint(name: 'Парк "Жалка"', latitude: 54.516814, longitude: 37.054125),
+      ParkPoint(name: 'Музей-усадьба Ясная Поляна', latitude: 54.075501, longitude: 37.526409),
+      ParkPoint(name: 'музей усадьба В. Д. Поленова', latitude: 54.748552, longitude: 37.236656),
+      ParkPoint(name: 'Богородицкий дворец-музей и парк', latitude: 53.771625, longitude: 38.139179),
       
       
     ];
@@ -425,6 +460,12 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Вид с железнодорожного моста', latitude: 52.605626, longitude: 38.512191),
       OutsidePoint(name: 'Воронов камень', latitude: 52.568691, longitude: 38.385172),
       OutsidePoint(name: 'Скальный массив Звонари', latitude: 52.575115, longitude: 38.352527),
+      // Тульская область
+      OutsidePoint(name: 'Колесо обозрения', latitude: 54.191777, longitude: 37.637566),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.502984, longitude: 37.106730),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 54.516678, longitude: 37.082329),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 53.771506, longitude: 38.138270),
+      
 
     ];
   }
