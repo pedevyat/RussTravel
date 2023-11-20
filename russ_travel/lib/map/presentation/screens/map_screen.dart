@@ -248,8 +248,10 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Бузеон', latitude: 54.738701, longitude: 35.995741),
       MuseumPoint(name: 'Музей Kомпьютеров', latitude: 55.208550, longitude: 36.486071),
       MuseumPoint(name: 'Музейно-выставочный центр', latitude: 55.203667, longitude: 36.487626),
+      MuseumPoint(name: 'Брянский музей истории фотографии', latitude: 53.244344, longitude: 34.359779),
+      MuseumPoint(name: 'Литературно-Мемориальный Музей Ф.И. Тютчева', latitude: 53.373080, longitude: 33.878620),
       
-      
+
 
     ];
   }
@@ -426,6 +428,9 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Музей-заповедник Полотняный Завод', latitude: 54.738235, longitude: 35.995632),
       ParkPoint(name: 'Парк динозавров Эволюция', latitude: 55.245347, longitude: 36.423319),
       ParkPoint(name: 'Лесной лабиринт Дебри', latitude: 55.244514, longitude: 36.423517),
+      // Брянская область
+      ParkPoint(name: 'Тридевятое Царство', latitude: 53.300842, longitude: 34.236799),
+      ParkPoint(name: 'Центральный парк культуры и отдыха им. 1000-летия г. Брянска', latitude: 53.269046, longitude: 34.364993),
       
       
       
@@ -515,7 +520,12 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка', latitude: 55.205880, longitude: 36.487609),
       OutsidePoint(name: 'Смотровая площадка', latitude: 54.026094, longitude: 35.795081),
       OutsidePoint(name: 'Смотровая площадка', latitude: 54.615112, longitude: 35.996058),
-      
+      // Брянская область
+      OutsidePoint(name: 'Колесо обозрения', latitude: 53.271217, longitude: 34.366968),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 53.239101, longitude: 34.373795),
+      OutsidePoint(name: 'Покровская гора', latitude: 53.244345, longitude: 34.373596),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 53.272183, longitude: 34.364794),
+
     ];
   }
 
