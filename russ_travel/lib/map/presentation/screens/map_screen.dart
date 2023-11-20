@@ -191,6 +191,17 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Литературный музей', latitude: 51.742082, longitude: 36.188181),
       MuseumPoint(name: 'Курск – город воинской славы', latitude: 51.756923, longitude: 36.187768),
       MuseumPoint(name: 'Историко-мемориальный музей КП Центрального фронта', latitude: 51.971378, longitude: 36.310867),
+      MuseumPoint(name: 'Железногорский краеведческий музей', latitude: 52.343717, longitude: 35.348376),
+      
+      // Орловская область
+      MuseumPoint(name: 'Орловский краеведческий музей', latitude: 52.964147, longitude: 36.068431),
+      MuseumPoint(name: 'Орловский военно-исторический музей', latitude: 52.953142, longitude: 36.063875),
+      MuseumPoint(name: 'Музей коллекционных кукол', latitude: 52.967462, longitude: 36.128420),
+      MuseumPoint(name: 'музей И.С. Тургенева', latitude: 52.967111, longitude: 36.061254),
+      MuseumPoint(name: 'Дом-музей В. А. Русанова', latitude: 52.963290, longitude: 36.087411),
+      MuseumPoint(name: 'Музей И. А. Бунина', latitude: 52.965983, longitude: 36.060983),
+      MuseumPoint(name: 'Дом-музей Леонида Андреева', latitude: 52.961264, longitude: 36.048971),
+      MuseumPoint(name: 'Орловский музей изобразительных искусств', latitude: 52.972268, longitude: 36.058220),
       
       
 
@@ -312,6 +323,15 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк Боева дача', latitude: 51.742198, longitude: 36.211259),
       ParkPoint(name: 'Новая Боевка', latitude: 51.743542, longitude: 36.214585),
       ParkPoint(name: 'парк КЗТЗ', latitude: 51.705550, longitude: 36.156164),
+      ParkPoint(name: 'Железногорский дендрологический парк', latitude: 52.338536, longitude: 35.339032),
+      // Орловская область
+      ParkPoint(name: 'Городской парк культуры и отдыха', latitude: 52.973487, longitude: 36.070479),
+      ParkPoint(name: 'Детский парк', latitude: 52.968405, longitude: 36.067654),
+      ParkPoint(name: 'ландшафтный парк Дворянское Гнездо', latitude: 52.967326, longitude: 36.052006),
+      ParkPoint(name: 'музей-заповедник И.С. Тургенева Спасское-Лутовиново', latitude: 53.372268, longitude: 36.631877),
+      ParkPoint(name: 'Сквер Танкистов', latitude: 52.968563, longitude: 36.079052),
+      
+      
       
     ];
   }
@@ -366,6 +386,12 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка', latitude: 50.580618, longitude: 36.583857),
       OutsidePoint(name: 'Смотровая площадка', latitude: 50.582189, longitude: 36.595646),
       OutsidePoint(name: 'Смотровая площадка', latitude: 51.283608, longitude: 37.660532),
+      // Курская область
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.313456, longitude: 35.405467),
+      // Орловская область
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.984178, longitude: 36.097789),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 52.971773, longitude: 36.068362),
+
     ];
   }
 
