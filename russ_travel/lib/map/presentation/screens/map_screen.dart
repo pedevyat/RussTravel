@@ -114,6 +114,28 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей "Московский транспорт"', latitude: 55.742534, longitude: 37.678120),
       MuseumPoint(name: 'Исторический парк Россия – моя история', latitude: 55.834244, longitude: 37.626269),
       MuseumPoint(name: 'Музей Холодной войны в Бункер-42 на Таганке', latitude: 55.741754, longitude: 37.649256),
+      MuseumPoint(name: 'Государственный музей Владимира Высоцкого', latitude: 55.744448, longitude: 37.651790),
+      MuseumPoint(name: 'Музей Михаила Афанасьевича Булгакова', latitude: 55.766996, longitude: 37.593880),
+      MuseumPoint(name: 'Музей автомобильных историй В. Попова', latitude: 55.832010, longitude: 37.518757),
+      MuseumPoint(name: 'Ломаковский музей старинных автомобилей и мотоциклов', latitude: 55.674730, longitude: 37.771688),
+      MuseumPoint(name: 'Московский музей современного искусства', latitude: 55.767011, longitude: 37.614227),
+      MuseumPoint(name: 'Государственный музей истории ГУЛАГа', latitude: 55.777088, longitude: 37.613561),
+      MuseumPoint(name: 'Музей Москвы', latitude: 55.736390, longitude: 37.593596),
+      MuseumPoint(name: 'научно-исследовательский музей архитектуры имени А.В. Щусева', latitude: 55.752481, longitude: 37.607368),
+      MuseumPoint(name: 'Государственный музей Востока', latitude: 55.756432, longitude: 37.599815),
+      MuseumPoint(name: 'Музей Победы', latitude: 55.730588, longitude: 37.504063),
+      MuseumPoint(name: 'Музей Вооружённых Сил ', latitude: 55.784916, longitude: 37.617124),
+      MuseumPoint(name: 'Государственный музей обороны Москвы', latitude: 55.676652, longitude: 37.467568),
+      MuseumPoint(name: 'Музей-панорама Бородинская битва', latitude: 55.738752, longitude: 37.523187),
+      MuseumPoint(name: 'Музей Отечественной войны 1812 года', latitude: 55.756234, longitude: 37.618696),
+      MuseumPoint(name: 'Центр современного искусства Винзавод', latitude: 55.755556, longitude: 37.664613),
+      MuseumPoint(name: 'Павильон Макет Москвы', latitude: 55.834390, longitude: 37.630086),
+      MuseumPoint(name: 'Центр творческих индустрий Фабрика', latitude: 55.779214, longitude: 37.689679),
+      MuseumPoint(name: 'Культурный центр ЗИЛ', latitude: 55.714571, longitude: 37.657863),
+      MuseumPoint(name: 'ГЭС-2', latitude: 55.742751, longitude: 37.612732),
+      MuseumPoint(name: 'Музей Собаки', latitude: 55.716696, longitude: 37.595652),
+      MuseumPoint(name: 'Еврейский музей и центр толерантности', latitude: 55.789271, longitude: 37.607867),
+      
       // Подмосковье
       MuseumPoint(name: 'Музей коломенской пастилы', latitude: 55.104594, longitude: 38.769860),
       MuseumPoint(name: 'Музей "Калачная"', latitude: 55.105801, longitude: 38.763801),
@@ -322,9 +344,6 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Нескучный Mузей Изба Трактир', latitude: 56.417028, longitude: 40.448934),
       MuseumPoint(name: 'Музей восковых фигур', latitude: 56.418694, longitude: 40.448229),
       MuseumPoint(name: 'Музей Огни Владимира', latitude: 56.127620, longitude: 40.399929),
-      
-
-
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
@@ -341,6 +360,19 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'ВДНХ', latitude: 55.826310, longitude: 37.637855),
       ParkPoint(name: 'музей-заповедник Царицыно', latitude: 55.615670, longitude: 37.688789),
       ParkPoint(name: 'Музей-заповедник Коломенское', latitude: 55.667650, longitude: 37.670862),
+      ParkPoint(name: 'Музеон', latitude: 55.733055, longitude: 37.604646),
+      ParkPoint(name: 'Измайловский парк культуры и отдыха', latitude: 55.772451, longitude: 37.753986),
+      ParkPoint(name: 'Лианозовский парк культуры и отдыха', latitude: 55.900325, longitude: 37.567154),
+      ParkPoint(name: 'Музейно-парковый комплекс Северное Тушино', latitude: 55.850676, longitude: 37.455103),
+      ParkPoint(name: 'Бабушкинский парк', latitude: 55.865978, longitude: 37.680594),
+      ParkPoint(name: 'Таганский парк', latitude: 55.737711, longitude: 37.667363),
+      ParkPoint(name: 'Сад имени Н. Э. Баумана', latitude: 55.765690, longitude: 37.660774),
+      ParkPoint(name: 'Нескучный сад', latitude: 55.718356, longitude: 37.591445),
+      ParkPoint(name: 'Парк Фили', latitude: 55.745565, longitude: 37.488091),
+      ParkPoint(name: 'Ландшафтный заказник Тёплый Стан', latitude: 55.634939, longitude: 37.489573),
+      ParkPoint(name: 'Битцевский лес', latitude: 55.597407, longitude: 37.557439),
+      ParkPoint(name: 'Сказка', latitude: 55.772178, longitude: 37.435196),
+      
       // Подмосковье
       ParkPoint(name: 'Коломенский кремль', latitude:  55.103325, longitude: 38.752522),
       ParkPoint(name: 'Свято-Троицкая Сергиева лавра', latitude: 56.311120, longitude: 38.130492),
@@ -594,6 +626,12 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Колесо обозрения в парке развлечений «Сказка»', latitude: 55.772172, longitude: 37.434791),
       OutsidePoint(name: 'Колесо обозрения в парке «Сокольники»', latitude: 55.793959, longitude: 37.673886),
       OutsidePoint(name: 'Колесо обозрения у Измайловского Кремля', latitude: 55.770178, longitude: 37.750795),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.744499, longitude: 37.605863),
+      OutsidePoint(name: 'Парящий мост', latitude: 55.749475, longitude: 37.629421),
+      OutsidePoint(name: 'Смотровая площадка гостиницы Украина', latitude: 55.751226, longitude: 37.565686),
+      OutsidePoint(name: 'Смотровая площадка РАН', latitude: 55.712352, longitude: 37.578231),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.667756, longitude: 37.671868),
+      
       // Подмосковье
       OutsidePoint(name: 'Колесо Обозрения в Коломне', latitude: 55.085006, longitude: 38.779664),
       OutsidePoint(name: 'Блинная Гора', latitude: 56.307346, longitude: 38.134955),
