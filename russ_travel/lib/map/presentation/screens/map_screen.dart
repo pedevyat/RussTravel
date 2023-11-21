@@ -303,6 +303,12 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей народных промыслов Петровская игрушка', latitude: 57.769124, longitude: 40.913451),
       MuseumPoint(name: 'Лес Чудодей', latitude: 57.775469, longitude: 40.903656),
       MuseumPoint(name: 'Терем Снегурочки', latitude: 57.755679, longitude: 40.950939),
+      // Ивановская область
+      MuseumPoint(name: 'Музей советского автопрома', latitude: 56.996854, longitude: 40.959893),
+      MuseumPoint(name: 'Музей Ивановского ситца', latitude: 57.004843, longitude: 40.973890),
+      MuseumPoint(name: 'Музей промышленности и искусства', latitude: 57.004354, longitude: 40.974172),
+      MuseumPoint(name: 'Ивановский областной художественный музей', latitude: 57.008145, longitude: 40.971791),
+      MuseumPoint(name: 'Мемориальный дом-музей И.И. Левитана', latitude: 57.459304, longitude: 41.523661),
       
 
 
@@ -535,6 +541,13 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'парк Победы', latitude: 57.732793, longitude: 40.992504),
       ParkPoint(name: 'Парк культуры и отдыха им. В.И. Ленина', latitude: 57.764125, longitude: 40.928335),
       ParkPoint(name: 'Костромской зоопарк', latitude: 57.800316, longitude: 40.953553),
+      // Ивановская область
+      ParkPoint(name: 'Музей пожарной техники', latitude: 56.964371, longitude: 40.999968),
+      ParkPoint(name: 'Парк Харинка', latitude: 56.968981, longitude: 41.058506),
+      ParkPoint(name: 'Серебряный парк', latitude: 57.005073, longitude: 40.988532),
+      ParkPoint(name: 'Парк культуры и отдыха имени Революции 1905 года', latitude: 57.029602, longitude: 41.003927),
+      ParkPoint(name: 'Плёсский государственный историко-архитектурный и художественный музей-заповедник', latitude: 57.458744, longitude: 41.514018),
+      ParkPoint(name: 'Парк Плёс', latitude: 57.454599, longitude: 41.502015),
       
 
       
@@ -651,7 +664,8 @@ class _MapScreenState extends State<MapScreen> {
       // Костромская область
       OutsidePoint(name: 'Смотровая площадка', latitude: 57.759683, longitude: 40.940846),
       OutsidePoint(name: 'Смотровая площадка на Лысой горе', latitude: 57.746661, longitude: 40.895281),
-      
+      // Ивановская область
+      OutsidePoint(name: 'Колесо обозрения', latitude: 57.002970, longitude: 40.976711),
     ];
   }
 
