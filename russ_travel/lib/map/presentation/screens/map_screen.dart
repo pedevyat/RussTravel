@@ -295,6 +295,14 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Мышкины палаты', latitude: 57.785626, longitude: 38.453800),
       MuseumPoint(name: 'Музей радио', latitude: 56.722978, longitude: 38.824372),
       MuseumPoint(name: 'Лукова слобода', latitude: 57.194430, longitude: 39.402462),
+      // Костромская область
+      MuseumPoint(name: 'Музей сыра', latitude: 57.762517, longitude: 40.930541),
+      MuseumPoint(name: 'Музей-усадьба льна и бересты', latitude: 57.778283, longitude: 40.912275),
+      MuseumPoint(name: 'Дом городского головы Г.Н. Ботникова', latitude: 57.766890, longitude: 40.931561),
+      MuseumPoint(name: 'Романовский музей', latitude: 57.769630, longitude: 40.929817),
+      MuseumPoint(name: 'Музей народных промыслов Петровская игрушка', latitude: 57.769124, longitude: 40.913451),
+      MuseumPoint(name: 'Лес Чудодей', latitude: 57.775469, longitude: 40.903656),
+      MuseumPoint(name: 'Терем Снегурочки', latitude: 57.755679, longitude: 40.950939),
       
 
 
@@ -521,6 +529,12 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Музей ретро техники Старый гараж', latitude: 57.787020, longitude: 38.452858),
       ParkPoint(name: 'Ярославский зоопарк', latitude: 57.677254, longitude: 39.899863),
       ParkPoint(name: 'Переславский дендрологический сад имени С. Ф. Харитонова', latitude: 56.718205, longitude: 38.829315),
+      // Костромская область
+      ParkPoint(name: 'Костромская слобода', latitude: 57.775402, longitude: 40.889537),
+      ParkPoint(name: 'парк Берендеевка', latitude: 57.792929, longitude: 40.959878),
+      ParkPoint(name: 'парк Победы', latitude: 57.732793, longitude: 40.992504),
+      ParkPoint(name: 'Парк культуры и отдыха им. В.И. Ленина', latitude: 57.764125, longitude: 40.928335),
+      ParkPoint(name: 'Костромской зоопарк', latitude: 57.800316, longitude: 40.953553),
       
 
       
@@ -634,6 +648,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка Ростовского Кремля', latitude: 57.184805, longitude: 39.417399),
       OutsidePoint(name: 'Смотровая площадка Спасо-Яковлевского Димитриевого монастыря', latitude: 57.173740, longitude: 39.391197),
       OutsidePoint(name: 'Александрова гора', latitude: 56.781946, longitude: 38.831655),
+      // Костромская область
+      OutsidePoint(name: 'Смотровая площадка', latitude: 57.759683, longitude: 40.940846),
+      OutsidePoint(name: 'Смотровая площадка на Лысой горе', latitude: 57.746661, longitude: 40.895281),
       
     ];
   }
