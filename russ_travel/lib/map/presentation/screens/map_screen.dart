@@ -309,6 +309,19 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей промышленности и искусства', latitude: 57.004354, longitude: 40.974172),
       MuseumPoint(name: 'Ивановский областной художественный музей', latitude: 57.008145, longitude: 40.971791),
       MuseumPoint(name: 'Мемориальный дом-музей И.И. Левитана', latitude: 57.459304, longitude: 41.523661),
+      // Владимирская область
+      MuseumPoint(name: 'Музей Старый Владимир', latitude: 56.125151, longitude: 40.398685),
+      MuseumPoint(name: 'Дом-музей пряника', latitude: 56.128181, longitude: 40.404515),
+      MuseumPoint(name: 'Музей ложки', latitude: 56.127450, longitude: 40.403348),
+      MuseumPoint(name: 'Кузница-музей Бородиных', latitude:56.126805, longitude: 40.402610),
+      MuseumPoint(name: 'Музей-сказка Бабуся-Ягуся', latitude: 56.127675, longitude: 40.402115),
+      MuseumPoint(name: 'Музей «Старая аптека»', latitude: 56.127253, longitude: 40.402362),
+      MuseumPoint(name: 'Музей хрусталя имени Мальцовых', latitude: 55.619820, longitude: 40.658117),
+      MuseumPoint(name: 'Кибер музей. Музей воспоминаний', latitude: 55.580339, longitude: 42.054271),
+      MuseumPoint(name: 'Хлебная горница', latitude: 55.569142, longitude: 42.021963),
+      MuseumPoint(name: 'Нескучный Mузей Изба Трактир', latitude: 56.417028, longitude: 40.448934),
+      MuseumPoint(name: 'Музей восковых фигур', latitude: 56.418694, longitude: 40.448229),
+      MuseumPoint(name: 'Музей Огни Владимира', latitude: 56.127620, longitude: 40.399929),
       
 
 
@@ -548,6 +561,18 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк культуры и отдыха имени Революции 1905 года', latitude: 57.029602, longitude: 41.003927),
       ParkPoint(name: 'Плёсский государственный историко-архитектурный и художественный музей-заповедник', latitude: 57.458744, longitude: 41.514018),
       ParkPoint(name: 'Парк Плёс', latitude: 57.454599, longitude: 41.502015),
+      // Владимирская область
+      ParkPoint(name: 'Национальный парк Мещёра', latitude: 55.634348, longitude: 40.689810),
+      ParkPoint(name: 'парк имени 50-летия Советской власти', latitude: 55.578096, longitude: 42.022630),
+      ParkPoint(name: 'Парк имени В.А. Дегтярёва', latitude: 56.358697, longitude: 41.325848),
+      ParkPoint(name: 'Ковровский историко-мемориальный парк Иоанно-Воинский некрополь', latitude: 56.375464, longitude: 41.303430),
+      ParkPoint(name: 'Музейный комплекс Спасо-Евфимиев монастырь', latitude: 56.433238, longitude: 40.440025),
+      ParkPoint(name: 'Суздальский Кремль', latitude: 56.415948, longitude: 40.442851),
+      ParkPoint(name: 'Александровская Слобода', latitude: 56.400607, longitude: 38.740469),
+      ParkPoint(name: 'Юрьевский Кремль', latitude: 56.497888, longitude: 39.681595),
+      ParkPoint(name: 'Парк Липки', latitude: 56.129431, longitude: 40.408525),
+      ParkPoint(name: 'Ильинский луг', latitude: 56.419255, longitude: 40.428260),
+      
       
 
       
@@ -666,6 +691,17 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка на Лысой горе', latitude: 57.746661, longitude: 40.895281),
       // Ивановская область
       OutsidePoint(name: 'Колесо обозрения', latitude: 57.002970, longitude: 40.976711),
+      // Владимирская область
+      OutsidePoint(name: 'Небо 33', latitude: 56.141940, longitude: 40.415969),
+      OutsidePoint(name: 'Круговой обзор', latitude: 55.578913, longitude: 42.059214),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.580540, longitude: 42.061504),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 55.542278, longitude: 42.089961),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 56.128752, longitude: 40.411607),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 56.127195, longitude: 40.402835),
+      OutsidePoint(name: 'Смотровая площадка водонапорной башни', latitude: 56.125157, longitude: 40.398710),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 56.126437, longitude: 40.402649),
+      OutsidePoint(name: 'Лысая гора', latitude: 56.192535, longitude: 42.653795),
+      
     ];
   }
 
