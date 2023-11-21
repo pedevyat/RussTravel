@@ -604,11 +604,6 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Юрьевский Кремль', latitude: 56.497888, longitude: 39.681595),
       ParkPoint(name: 'Парк Липки', latitude: 56.129431, longitude: 40.408525),
       ParkPoint(name: 'Ильинский луг', latitude: 56.419255, longitude: 40.428260),
-      
-      
-
-      
-      
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
@@ -631,7 +626,7 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка гостиницы Украина', latitude: 55.751226, longitude: 37.565686),
       OutsidePoint(name: 'Смотровая площадка РАН', latitude: 55.712352, longitude: 37.578231),
       OutsidePoint(name: 'Смотровая площадка', latitude: 55.667756, longitude: 37.671868),
-      
+
       // Подмосковье
       OutsidePoint(name: 'Колесо Обозрения в Коломне', latitude: 55.085006, longitude: 38.779664),
       OutsidePoint(name: 'Блинная Гора', latitude: 56.307346, longitude: 38.134955),
