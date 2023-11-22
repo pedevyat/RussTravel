@@ -365,6 +365,10 @@ class _MapScreenState extends State<MapScreen> {
       // Карачаево-Черкесская республика
       MuseumPoint(name: 'Специальная астрофизическая обсерватория', latitude: 43.677138, longitude: 41.457881),
       MuseumPoint(name: 'Планетарий САО', latitude: 43.675582, longitude: 41.457283),
+      // Кабардино-Балкарская республика
+      MuseumPoint(name: 'Национальный музей КБР', latitude: 43.486557, longitude: 43.608177),
+      MuseumPoint(name: 'Минеральная питьевая галерея «Источник Нальчик»', latitude: 43.456847, longitude: 43.584925),
+      MuseumPoint(name: 'Музей Обороны Приэльбрусья', latitude: 43.290087, longitude: 42.460457),
       
     ];
   }
@@ -663,6 +667,24 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Алибекский водопад', latitude: 43.298693, longitude: 41.555948),
       ParkPoint(name: 'Тебердинский национальный парк', latitude: 43.354679, longitude: 41.688047),
       ParkPoint(name: 'Водопад Чёртова мельница', latitude: 43.273330, longitude: 41.616444),
+      // Кабардино-Балкарская республика
+      ParkPoint(name: 'Парк аттракционов', latitude: 43.465522, longitude: 43.592575),
+      ParkPoint(name: 'Городской парк', latitude: 43.461545, longitude: 43.589887),
+      ParkPoint(name: 'Атажукинский сад', latitude: 43.475853, longitude: 43.603052),
+      ParkPoint(name: 'парк имени Шогенцукова', latitude: 43.502352, longitude: 43.609477),
+      ParkPoint(name: 'Нальчикский зоопарк', latitude: 43.460616, longitude: 43.591594),
+      ParkPoint(name: 'Водопад Терскол', latitude: 43.288654, longitude: 42.500164),
+      ParkPoint(name: 'Национальный парк Приэльбрусье', latitude: 43.242585, longitude: 42.561713),
+      ParkPoint(name: 'Экологическая тропа Поляна нарзанов - поляна Чегет', latitude: 43.247288, longitude: 42.560052),
+      ParkPoint(name: 'Чегемские водопады', latitude: 43.415851, longitude: 43.215971),
+      ParkPoint(name: 'Водопад «Султан»', latitude: 43.433650, longitude: 42.533588),
+      ParkPoint(name: 'Калинов мост', latitude: 43.433580, longitude: 42.531625),
+      ParkPoint(name: 'Минеральные источники Джилы-Су', latitude: 43.434266, longitude: 42.536178),
+      ParkPoint(name: 'Голубое озеро Чирик–Кёль', latitude: 43.233573, longitude: 43.538337),
+      ParkPoint(name: 'Горячие источники Аушигер сити', latitude: 43.374432, longitude: 43.721007),
+      ParkPoint(name: 'Водопад Азау', latitude: 43.266020, longitude: 42.472609),
+      ParkPoint(name: 'Терренкур «1000 ступеней»', latitude: 43.453772, longitude: 43.593267),
+      
       
     ];
   }
@@ -828,7 +850,11 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Плато Бермамыт', latitude: 43.711662, longitude: 42.441171),
       OutsidePoint(name: 'Архыз', latitude: 43.543067, longitude: 41.181210),
       OutsidePoint(name: 'Домбай', latitude: 43.285625, longitude: 41.636821),
-      
+      // Кабардино-Балкарская республика
+      OutsidePoint(name: 'Гора Малая Кизиловка', latitude: 43.460676, longitude: 43.599715),
+      OutsidePoint(name: 'Гора Эльбрус 5642 м', latitude: 43.352469, longitude: 42.437890),
+      OutsidePoint(name: 'Гора Чегет', latitude: 43.245183, longitude: 42.522966),
+      OutsidePoint(name: 'Старая канатка', latitude: 43.437437, longitude: 43.593747),
     ];
   }
 
