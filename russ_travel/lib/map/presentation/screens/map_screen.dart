@@ -369,6 +369,10 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Национальный музей КБР', latitude: 43.486557, longitude: 43.608177),
       MuseumPoint(name: 'Минеральная питьевая галерея «Источник Нальчик»', latitude: 43.456847, longitude: 43.584925),
       MuseumPoint(name: 'Музей Обороны Приэльбрусья', latitude: 43.290087, longitude: 42.460457),
+      // Республика Северная Осетия — Алания
+      MuseumPoint(name: 'Национальный музей Республики Северная Осетия-Алания', latitude: 43.027313, longitude: 44.680652),
+      MuseumPoint(name: 'Художественный музей имени М. С. Туганова', latitude: 43.028980, longitude: 44.681150),
+      MuseumPoint(name: 'Музей истории Владикавказа', latitude: 43.034926, longitude: 44.682355),
       
     ];
   }
@@ -684,6 +688,16 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Горячие источники Аушигер сити', latitude: 43.374432, longitude: 43.721007),
       ParkPoint(name: 'Водопад Азау', latitude: 43.266020, longitude: 42.472609),
       ParkPoint(name: 'Терренкур «1000 ступеней»', latitude: 43.453772, longitude: 43.593267),
+      // Республика Северная Осетия — Алания
+      ParkPoint(name: 'ЦПКиО им. К.Л. Хетагурова', latitude: 43.025717, longitude: 44.678760),
+      ParkPoint(name: 'Олимпийский парк', latitude: 43.024221, longitude: 44.647406),
+      ParkPoint(name: 'парк Нартон', latitude: 42.983045, longitude: 44.671206),
+      ParkPoint(name: 'Владикавказский зоопарк', latitude: 42.995925, longitude: 44.676758),
+      ParkPoint(name: 'Парк Дендрарий', latitude: 42.976150, longitude: 44.660245),
+      ParkPoint(name: 'Высокогорный курорт "Цей"', latitude: 42.785798, longitude: 43.905108),
+      ParkPoint(name: 'Мидаграбинские водопады', latitude: 42.753544, longitude: 44.363297),
+      ParkPoint(name: 'Некрополь «Город мертвых»', latitude: 42.841273, longitude: 44.445322),
+      ParkPoint(name: 'Кармадонское ущелье', latitude: 42.842944, longitude: 44.517878),
       
       
     ];
@@ -855,6 +869,12 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Гора Эльбрус 5642 м', latitude: 43.352469, longitude: 42.437890),
       OutsidePoint(name: 'Гора Чегет', latitude: 43.245183, longitude: 42.522966),
       OutsidePoint(name: 'Старая канатка', latitude: 43.437437, longitude: 43.593747),
+      // Республика Северная Осетия - Алания
+      OutsidePoint(name: 'Колесо обозрения', latitude: 43.027721, longitude: 44.677123),
+      OutsidePoint(name: 'Лысая гора', latitude: 42.987858, longitude: 44.640031),
+      OutsidePoint(name: 'Перевал Архонский', latitude: 42.831182, longitude: 44.212334),
+      OutsidePoint(name: 'Колесо Балсага', latitude: 42.850126, longitude: 44.442852),
+      
     ];
   }
 
