@@ -362,6 +362,10 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Театр-музей «Благодать»', latitude: 43.900442, longitude: 42.726733),
       MuseumPoint(name: 'Пушкинская галерея', latitude: 44.135037, longitude: 43.031651),
       MuseumPoint(name: 'Смирновский источник', latitude: 44.137667, longitude: 43.035159),
+      // Карачаево-Черкесская республика
+      MuseumPoint(name: 'Специальная астрофизическая обсерватория', latitude: 43.677138, longitude: 41.457881),
+      MuseumPoint(name: 'Планетарий САО', latitude: 43.675582, longitude: 41.457283),
+      
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
@@ -653,6 +657,12 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк Победы', latitude: 44.056413, longitude: 42.866587),
       ParkPoint(name: 'Бесстыжие Ванны', latitude: 44.040154, longitude: 43.093264),
       ParkPoint(name: 'Холодный родник', latitude: 45.039121, longitude: 41.924626),
+      // Карачаево-Черкесская Республика
+      ParkPoint(name: 'Зелёный Остров', latitude: 44.227926, longitude: 42.038894),
+      ParkPoint(name: 'парк РТИ', latitude: 44.248651, longitude: 42.043345),
+      ParkPoint(name: 'Алибекский водопад', latitude: 43.298693, longitude: 41.555948),
+      ParkPoint(name: 'Тебердинский национальный парк', latitude: 43.354679, longitude: 41.688047),
+      ParkPoint(name: 'Водопад Чёртова мельница', latitude: 43.273330, longitude: 41.616444),
       
     ];
   }
@@ -813,6 +823,11 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Гора Бештау', latitude: 44.098030, longitude: 43.022101),
       OutsidePoint(name: 'Гора Малый Бештау', latitude: 44.106559, longitude: 43.017597),
       OutsidePoint(name: 'Гора Острая', latitude: 44.118432, longitude: 42.997505),
+      // Карачаево-Черкесская республика
+      OutsidePoint(name: 'Смотровая площадка в парке «Зеленый остров» ', latitude: 44.229066, longitude: 42.042612),
+      OutsidePoint(name: 'Плато Бермамыт', latitude: 43.711662, longitude: 42.441171),
+      OutsidePoint(name: 'Архыз', latitude: 43.543067, longitude: 41.181210),
+      OutsidePoint(name: 'Домбай', latitude: 43.285625, longitude: 41.636821),
       
     ];
   }
