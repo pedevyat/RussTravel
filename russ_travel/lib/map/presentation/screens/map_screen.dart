@@ -698,8 +698,13 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Мидаграбинские водопады', latitude: 42.753544, longitude: 44.363297),
       ParkPoint(name: 'Некрополь «Город мертвых»', latitude: 42.841273, longitude: 44.445322),
       ParkPoint(name: 'Кармадонское ущелье', latitude: 42.842944, longitude: 44.517878),
-      
-      
+      // Республика Ингушетия
+      ParkPoint(name: 'Мемориал памяти и славы Республики Ингушетия', latitude: 43.196502, longitude: 44.771608),
+      ParkPoint(name: 'Ляжгинский водопад', latitude: 42.798681, longitude: 44.719752),
+      ParkPoint(name: 'Эрзи', latitude: 42.803477, longitude: 44.759501),
+      ParkPoint(name: 'Башенный комплекс Эгикал', latitude: 42.833637, longitude: 44.918690),
+      ParkPoint(name: 'Башенный комплекс Вовнушки', latitude: 42.800853, longitude: 44.994718),
+
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
@@ -874,6 +879,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Лысая гора', latitude: 42.987858, longitude: 44.640031),
       OutsidePoint(name: 'Перевал Архонский', latitude: 42.831182, longitude: 44.212334),
       OutsidePoint(name: 'Колесо Балсага', latitude: 42.850126, longitude: 44.442852),
+      // Республика Ингушетия
+      OutsidePoint(name: 'Горнолыжный комплекс Армхи', latitude: 42.806741, longitude: 44.704836),
+      
       
     ];
   }
