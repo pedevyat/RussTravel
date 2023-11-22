@@ -373,6 +373,8 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Национальный музей Республики Северная Осетия-Алания', latitude: 43.027313, longitude: 44.680652),
       MuseumPoint(name: 'Художественный музей имени М. С. Туганова', latitude: 43.028980, longitude: 44.681150),
       MuseumPoint(name: 'Музей истории Владикавказа', latitude: 43.034926, longitude: 44.682355),
+      // Чечня
+      MuseumPoint(name: 'Музей Чеченской Республики', latitude: 43.324217, longitude: 45.682400),
       
     ];
   }
@@ -704,7 +706,13 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Эрзи', latitude: 42.803477, longitude: 44.759501),
       ParkPoint(name: 'Башенный комплекс Эгикал', latitude: 42.833637, longitude: 44.918690),
       ParkPoint(name: 'Башенный комплекс Вовнушки', latitude: 42.800853, longitude: 44.994718),
-
+      // Чечня
+      ParkPoint(name: 'Мемориальный комплекс славы имени А. А. Кадырова', latitude: 43.326423, longitude: 45.678963),
+      ParkPoint(name: 'Комсомольский сквер', latitude: 43.317967, longitude: 45.695020),
+      ParkPoint(name: 'Цветочный парк', latitude: 43.313911, longitude: 45.698648),
+      ParkPoint(name: 'Озеро Казеной-Ам', latitude: 42.772359, longitude: 46.152050),
+      ParkPoint(name: 'Грозненское море', latitude: 43.269930, longitude: 45.661940),
+      
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
@@ -881,6 +889,8 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Колесо Балсага', latitude: 42.850126, longitude: 44.442852),
       // Республика Ингушетия
       OutsidePoint(name: 'Горнолыжный комплекс Армхи', latitude: 42.806741, longitude: 44.704836),
+      // Чечня
+      OutsidePoint(name: 'Лестница в небеса', latitude: 43.267089, longitude: 45.717265),
       
       
     ];
