@@ -135,7 +135,6 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'ГЭС-2', latitude: 55.742751, longitude: 37.612732),
       MuseumPoint(name: 'Музей Собаки', latitude: 55.716696, longitude: 37.595652),
       MuseumPoint(name: 'Еврейский музей и центр толерантности', latitude: 55.789271, longitude: 37.607867),
-      
       // Подмосковье
       MuseumPoint(name: 'Музей коломенской пастилы', latitude: 55.104594, longitude: 38.769860),
       MuseumPoint(name: 'Музей "Калачная"', latitude: 55.105801, longitude: 38.763801),
@@ -344,6 +343,25 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Нескучный Mузей Изба Трактир', latitude: 56.417028, longitude: 40.448934),
       MuseumPoint(name: 'Музей восковых фигур', latitude: 56.418694, longitude: 40.448229),
       MuseumPoint(name: 'Музей Огни Владимира', latitude: 56.127620, longitude: 40.399929),
+      // СКФО
+      // Ставропольский край
+      MuseumPoint(name: 'Исторический парк Россия - Моя история', latitude: 45.021690, longitude: 41.895405),
+      MuseumPoint(name: 'Ставропольский государственный историко-культурный и природно-ландшафтный музей-заповедник имени Г. Н. Прозрителева и Г. К. Праве', latitude: 45.044704, longitude: 41.968207),
+      MuseumPoint(name: 'Пятигорский краеведческий музей', latitude: 44.036116, longitude: 43.079856),
+      MuseumPoint(name: 'Музей насекомых Экзотариум', latitude: 44.037612, longitude: 43.083546),
+      MuseumPoint(name: 'Домик М. Ю. Лермонтова', latitude: 44.039582, longitude: 43.078808),
+      MuseumPoint(name: 'Россия – моя история', latitude: 44.036370, longitude: 43.013081),
+      MuseumPoint(name: 'Планетарий', latitude: 44.033742, longitude: 43.065160),
+      MuseumPoint(name: 'Зоопарк Берендеево', latitude: 44.033577, longitude: 43.059645),
+      MuseumPoint(name: 'Лермонтовская галерея', latitude: 44.036681, longitude: 43.081991),
+      MuseumPoint(name: 'музей-усадьба художника Николая Александровича Ярошенко', latitude: 43.892832, longitude: 42.718557),
+      MuseumPoint(name: 'Литературно-музыкальный музей Дача Шаляпина', latitude: 43.900877, longitude: 42.722964),
+      MuseumPoint(name: 'Кисловодский историко-краеведческий музей Крепость', latitude: 43.894760, longitude: 42.716415),
+      MuseumPoint(name: 'Музей истории и природы национального парка Кисловодский', latitude: 43.900446, longitude: 42.717017),
+      MuseumPoint(name: 'Информационно-культурный центр Музей А. И. Солженицына', latitude: 43.901304, longitude: 42.724070),
+      MuseumPoint(name: 'Театр-музей «Благодать»', latitude: 43.900442, longitude: 42.726733),
+      MuseumPoint(name: 'Пушкинская галерея', latitude: 44.135037, longitude: 43.031651),
+      MuseumPoint(name: 'Смирновский источник', latitude: 44.137667, longitude: 43.035159),
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
@@ -604,6 +622,38 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Юрьевский Кремль', latitude: 56.497888, longitude: 39.681595),
       ParkPoint(name: 'Парк Липки', latitude: 56.129431, longitude: 40.408525),
       ParkPoint(name: 'Ильинский луг', latitude: 56.419255, longitude: 40.428260),
+      // СКФО
+      // Ставропольский край
+      ParkPoint(name: 'Археологический природный музей-заповедник Татарское Городище', latitude: 44.979635, longitude: 41.942739),
+      ParkPoint(name: 'Парк Культуры и Отдыха Центральный', latitude: 45.043756, longitude: 41.976442),
+      ParkPoint(name: 'Парк Победы', latitude: 45.022886, longitude: 41.924389),
+      ParkPoint(name: 'парк Патриот', latitude: 45.024806, longitude: 41.896981),
+      ParkPoint(name: 'Архиерейский лес', latitude: 45.046647, longitude: 41.955185),
+      ParkPoint(name: 'Ставропольский ботанический сад', latitude: 45.036248, longitude: 41.907881),
+      ParkPoint(name: 'парк Борцов революции', latitude: 44.782349, longitude: 44.153745),
+      ParkPoint(name: 'парк имени Ю.А. Гагарина', latitude: 44.773624, longitude: 44.156694),
+      ParkPoint(name: 'Парк Кирова', latitude: 44.033128, longitude: 43.061985),
+      ParkPoint(name: 'Парк Победы', latitude: 44.035693, longitude: 43.008685),
+      ParkPoint(name: 'Емануелевский парк', latitude: 44.041186, longitude: 43.083070),
+      ParkPoint(name: 'Провал', latitude: 44.046672, longitude: 43.098839),
+      ParkPoint(name: 'Курортный парк', latitude: 43.894141, longitude: 42.725039),
+      ParkPoint(name: 'Нижний парк', latitude: 43.896675, longitude: 42.719176),
+      ParkPoint(name: 'Берёзовское ущелье', latitude: 43.884808, longitude: 42.698399),
+      ParkPoint(name: 'Долина роз', latitude: 43.895481, longitude: 42.738632),
+      ParkPoint(name: 'Фабричный парк', latitude: 44.614376, longitude: 41.920569),
+      ParkPoint(name: 'Парк Победы', latitude: 44.622191, longitude: 41.977796),
+      ParkPoint(name: 'Каскадная лестница', latitude: 43.898808, longitude: 42.727029),
+      ParkPoint(name: 'Красные камни', latitude: 43.897412, longitude: 42.729012),
+      ParkPoint(name: 'Национальный парк Кисловодский', latitude: 43.897461, longitude: 42.735017),
+      ParkPoint(name: 'Парк Цветник', latitude: 44.036808, longitude: 43.081792),
+      ParkPoint(name: 'Ессентукский курортный парк', latitude: 44.046423, longitude: 42.864104),
+      ParkPoint(name: 'Курортный парк Железноводска', latitude: 44.140371, longitude: 43.032841),
+      ParkPoint(name: 'Пещера летней мерзлоты', latitude: 44.156823, longitude: 43.030464),
+      ParkPoint(name: 'Бештаугорский лес', latitude: 44.103568, longitude: 43.040970),
+      ParkPoint(name: 'Парк Победы', latitude: 44.056413, longitude: 42.866587),
+      ParkPoint(name: 'Бесстыжие Ванны', latitude: 44.040154, longitude: 43.093264),
+      ParkPoint(name: 'Холодный родник', latitude: 45.039121, longitude: 41.924626),
+      
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
@@ -626,7 +676,6 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка гостиницы Украина', latitude: 55.751226, longitude: 37.565686),
       OutsidePoint(name: 'Смотровая площадка РАН', latitude: 55.712352, longitude: 37.578231),
       OutsidePoint(name: 'Смотровая площадка', latitude: 55.667756, longitude: 37.671868),
-
       // Подмосковье
       OutsidePoint(name: 'Колесо Обозрения в Коломне', latitude: 55.085006, longitude: 38.779664),
       OutsidePoint(name: 'Блинная Гора', latitude: 56.307346, longitude: 38.134955),
@@ -734,6 +783,36 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Смотровая площадка водонапорной башни', latitude: 56.125157, longitude: 40.398710),
       OutsidePoint(name: 'Смотровая площадка', latitude: 56.126437, longitude: 40.402649),
       OutsidePoint(name: 'Лысая гора', latitude: 56.192535, longitude: 42.653795),
+      // СКФО
+      // Ставропольский край
+      OutsidePoint(name: 'Колесо обозрения', latitude: 45.043220, longitude: 41.974087),
+      OutsidePoint(name: 'Солдатская площадь', latitude: 45.049111, longitude: 41.973722),
+      OutsidePoint(name: 'Кафедральная площадь', latitude: 45.050200, longitude: 41.978990),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 45.013711, longitude: 41.806532),
+      OutsidePoint(name: 'Михайловская гора', latitude: 44.040272, longitude: 43.086749),
+      OutsidePoint(name: 'Ленинские скалы', latitude: 44.047067, longitude: 43.081855),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 44.054264, longitude: 43.075622),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 44.040264, longitude: 43.091367),
+      OutsidePoint(name: 'гора Машук', latitude: 44.051173, longitude: 43.086021),
+      OutsidePoint(name: 'Колесо обозрения', latitude: 43.903138, longitude: 42.718733),
+      OutsidePoint(name: 'Красное солнышко', latitude: 43.899595, longitude: 42.750645),
+      OutsidePoint(name: 'Гора Крестовая', latitude: 43.899077, longitude: 42.720327),
+      OutsidePoint(name: 'Гора Сосновая 912 метров', latitude: 43.893118, longitude: 42.723574),
+      OutsidePoint(name: 'Солдатская горка 930 м', latitude: 43.891076, longitude: 42.713399),
+      OutsidePoint(name: 'Серые камни', latitude: 43.898425, longitude: 42.733343),
+      OutsidePoint(name: 'Скала Человек', latitude: 43.889208, longitude: 42.753648),
+      OutsidePoint(name: 'Гора Пикет', latitude: 43.884246, longitude: 42.731947),
+      OutsidePoint(name: 'Малое Седло', latitude: 43.885329, longitude: 42.767483),
+      OutsidePoint(name: 'Гора Шульгач', latitude: 43.883650, longitude: 42.782546),
+      OutsidePoint(name: 'Лермонтовская скала', latitude: 43.868414, longitude: 42.737716),
+      OutsidePoint(name: 'Большое Седло', latitude: 43.886953, longitude: 42.788444),
+      OutsidePoint(name: 'Гора Кольцо', latitude: 43.941463, longitude: 42.693632),
+      OutsidePoint(name: 'Гора Железная', latitude: 44.138927, longitude: 43.030363),
+      OutsidePoint(name: 'Селитряные скалы', latitude: 44.156088, longitude: 43.044073),
+      OutsidePoint(name: 'Гора Медовая', latitude: 44.134700, longitude: 43.009238),
+      OutsidePoint(name: 'Гора Бештау', latitude: 44.098030, longitude: 43.022101),
+      OutsidePoint(name: 'Гора Малый Бештау', latitude: 44.106559, longitude: 43.017597),
+      OutsidePoint(name: 'Гора Острая', latitude: 44.118432, longitude: 42.997505),
       
     ];
   }
