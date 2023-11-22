@@ -375,6 +375,16 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей истории Владикавказа', latitude: 43.034926, longitude: 44.682355),
       // Чечня
       MuseumPoint(name: 'Музей Чеченской Республики', latitude: 43.324217, longitude: 45.682400),
+      // Дагестан
+      MuseumPoint(name: 'Национальный музей Республики Дагестан', latitude: 42.982774, longitude: 47.510731),
+      MuseumPoint(name: 'Россия – моя история', latitude: 42.968691, longitude: 47.495393),
+      MuseumPoint(name: 'Дагестанский музей изобразительных искусств имени П.С. Гамзатовой', latitude: 42.982373, longitude: 47.510807),
+      MuseumPoint(name: 'Музей-заповедник – этнографический комплекс Дагестанский аул', latitude: 42.982669, longitude: 47.510925),
+      MuseumPoint(name: 'Музей ковры и декоративно-прикладное искусство Дагестана', latitude: 42.057105, longitude: 48.287133),
+      MuseumPoint(name: 'Дом Петра І', latitude: 42.062012, longitude: 48.304128),
+      MuseumPoint(name: 'Музей боевой славы', latitude: 42.069881, longitude: 48.296077),
+      MuseumPoint(name: 'Этно Дом Кубачи', latitude: 42.061562, longitude: 48.304272),
+      MuseumPoint(name: 'Хунзахский музей', latitude: 42.538085, longitude: 46.702862),
       
     ];
   }
@@ -712,6 +722,21 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Цветочный парк', latitude: 43.313911, longitude: 45.698648),
       ParkPoint(name: 'Озеро Казеной-Ам', latitude: 42.772359, longitude: 46.152050),
       ParkPoint(name: 'Грозненское море', latitude: 43.269930, longitude: 45.661940),
+      // Дагестан
+      ParkPoint(name: 'Парк им. Ленинского Комсомола', latitude: 42.985216, longitude: 47.492396),
+      ParkPoint(name: 'Парк 50-летия Октября', latitude: 42.958956, longitude: 47.503000),
+      ParkPoint(name: 'Парк Ак-Гёль', latitude: 42.961784, longitude: 47.548885),
+      ParkPoint(name: 'Парк аттракционов', latitude: 42.909617, longitude: 47.618214),
+      ParkPoint(name: 'Городской парк культуры и отдыха имени Магомеда Рабадановича Халилова', latitude: 42.891983, longitude: 47.641715),
+      ParkPoint(name: 'Дербентский государственный историко-архитектурный и археологический музей-заповедник', latitude: 42.057303, longitude: 48.287009),
+      ParkPoint(name: 'Юбилейный парк', latitude: 42.054362, longitude: 48.294196),
+      ParkPoint(name: 'парк имени Сулеймана Стальского', latitude: 42.060531, longitude: 48.294507),
+      ParkPoint(name: 'парк имени Низами Гянджеви', latitude: 42.061795, longitude: 48.293320),
+      ParkPoint(name: 'парк Боевой Славы имени Шамсуллы Алиева', latitude: 42.057771, longitude: 48.291362),
+      ParkPoint(name: 'парк Революционной Славы', latitude: 42.055975, longitude: 48.297227),
+      ParkPoint(name: 'Цитадель Нарын-Кала', latitude: 42.053060, longitude: 48.274216),
+      ParkPoint(name: 'Бархан Сарыкум', latitude: 43.008512, longitude: 47.234587),
+      ParkPoint(name: 'Салтинский водопад', latitude: 42.390001, longitude: 47.066585),
       
     ];
   }
@@ -891,7 +916,14 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Горнолыжный комплекс Армхи', latitude: 42.806741, longitude: 44.704836),
       // Чечня
       OutsidePoint(name: 'Лестница в небеса', latitude: 43.267089, longitude: 45.717265),
-      
+      // Дагестан
+      OutsidePoint(name: 'Гора Тарки-тау', latitude: 42.940136, longitude: 47.453922),
+      OutsidePoint(name: 'Гора Пушкин Тау', latitude: 42.559511, longitude: 47.843461),
+      OutsidePoint(name: 'Сулакский Каньон', latitude: 43.021772, longitude: 46.826379),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 43.016592, longitude: 46.832421),
+      OutsidePoint(name: 'Смотровая площадка', latitude: 43.028861, longitude: 46.823990),
+      OutsidePoint(name: 'Водопад Тобот', latitude: 42.554626, longitude: 46.719536),
+      OutsidePoint(name: 'Смотровая площадка на Хунзахский каньон', latitude: 42.553516, longitude: 46.721629),
       
     ];
   }
