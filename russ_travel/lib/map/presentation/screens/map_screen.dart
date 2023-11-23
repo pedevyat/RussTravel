@@ -8,6 +8,7 @@ import '../../domain/location_service.dart';
 import '../../domain/museum_point.dart';
 import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
+import 'clusters_collection.dart';
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -20,6 +21,7 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   late final YandexMapController _mapController;
+  double _mapZoom = 0.0;
 
 
   @override
@@ -48,12 +50,19 @@ class _MapScreenState extends State<MapScreen> {
             ),
           );
         },
-        mapObjects: _getPlacemarkObjectsP(context)+
+          onCameraPositionChanged: (cameraPosition, _, __) {
+            setState(() {
+              _mapZoom = cameraPosition.zoom;
+            });
+          },
+        mapObjects: [
+          _getClusterizedCollection(placemarks: _getPlacemarkObjectsP(context)+
             _getPlacemarkObjectsO(context) +
             _getPlacemarkObjectsM(context),
-      ),
+    ),
+    ]
+    ),
     );
-  }
 }
 //  /// Проверка разрешений на доступ к геопозиции пользователя
 //  Future<void> _initPermission() async {
@@ -93,7 +102,43 @@ class _MapScreenState extends State<MapScreen> {
 //    );
 //  }
 //}
-
+/// Метод для получения коллекции кластеризованных маркеров
+ClusterizedPlacemarkCollection _getClusterizedCollection({
+  required List<PlacemarkMapObject> placemarks,
+}) {
+  return ClusterizedPlacemarkCollection(
+      mapId: const MapObjectId('clusterized-1'),
+  placemarks: placemarks,
+  radius: 50,
+  minZoom: 15,
+  onClusterAdded: (self, cluster) async {
+  return cluster.copyWith(
+  appearance: cluster.appearance.copyWith(
+  opacity: 1.0,
+  icon: PlacemarkIcon.single(
+  PlacemarkIconStyle(
+  image: BitmapDescriptor.fromBytes(
+  await ClusterPoints(cluster.size).getClusterIconBytes(),
+  ),
+  ),
+  ),
+  ),
+  );
+  },
+      onClusterTap: (self, cluster) async {
+        await _mapController.moveCamera(
+          animation: const MapAnimation(
+              type: MapAnimationType.linear, duration: 0.3),
+          CameraUpdate.newCameraPosition(
+            CameraPosition(
+              target: cluster.placemarks.first.point,
+              zoom: _mapZoom + 1,
+            ),
+          ),
+        );
+      });
+}
+}
   /// Методы для генерации точек на карте
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
