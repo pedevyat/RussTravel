@@ -349,6 +349,32 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Водохранилище Выгозеро', latitude: 63.60110943, longitude: 34.75592977),
       ParkPoint(name: 'Остров добрых духов', latitude: 64.836670, longitude: 33.713600),
 
+      // Ленинградская область
+      ParkPoint(name: 'Лабиринт на острове Крутояр', latitude: 60.474970, longitude: 27.866627),
+      ParkPoint(name: '«Камень-голова», уходящая в землю', latitude: 59.894369, longitude: 29.84022),
+      ParkPoint(name: 'Оредежские пещеры', latitude: 58.8442176, longitude: 30.363121),
+      ParkPoint(name: 'Избушка Бабы-Яги', latitude: 59.616618, longitude: 30.740165),
+      ParkPoint(name: 'Токсовский Зубропитомник', latitude: 60.152518, longitude: 30.456215),
+      ParkPoint(name: 'Саблинские пещеры', latitude: 59.66719, longitude: 30.796787),
+      ParkPoint(name: 'Заповедник «Монрепо»', latitude: 60.732939, longitude: 28.727617),
+      ParkPoint(name: 'Дудергофские высоты', latitude: 59.697778, longitude: 30.133611),
+      ParkPoint(name: 'Гатчинские гейзеры', latitude: 59.546808, longitude: 30.012693),
+      ParkPoint(name: 'Линдуловская роща', latitude: 60.237994, longitude: 29.540083),
+      ParkPoint(name: 'Святой источник при часовне', latitude: 60.007451, longitude: 32.295494),
+      ParkPoint(name: 'Девонский обрыв', latitude: 59.129930, longitude: 29.298584),
+      ParkPoint(name: 'Вепсский Лес', latitude: 60.5, longitude: 34.11667),
+      ParkPoint(name: 'Карьер и известковые печи', latitude: 60.117882, longitude: 30.203168),
+      ParkPoint(name: 'Карьер у деревни Питкелево', latitude: 59.166183, longitude: 30.360511),
+      ParkPoint(name: 'Линия Маннергейма', latitude: 60.789018, longitude: 28.996747),
+      ParkPoint(name: 'Невский лесопарк', latitude: 59.83333, longitude: 30.58333),
+      ParkPoint(name: 'Каньон реки Лавы', latitude: 59.893945, longitude: 31.594464),
+      ParkPoint(name: 'Тропа Хо Ши Мина', latitude: 61.144366, longitude: 29.759182),
+      ParkPoint(name: 'БУС «Вертикаль»', latitude: 59.9073740, longitude: 29.0357260),
+      ParkPoint(name: 'Назия — деревня-призрак', latitude: 59.8163941488237, longitude: 31.62927067714842),
+      ParkPoint(name: 'Ребровские пещеры', latitude: 58.725111, longitude: 29.765385),
+      ParkPoint(name: 'Пирамида в Екатерининском парке', latitude: 59.709444, longitude: 30.388611),
+
+
 
 
 
@@ -452,6 +478,8 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Рускеальские водопады', latitude: 61.915509, longitude: 30.626539),
       OutsidePoint(name: 'Озеро Янисъярви', latitude: 61.966667, longitude: 30.916667),
       OutsidePoint(name: 'Водопад Киваккакоски', latitude: 62.268000, longitude: 33.980384),
+
+      // Ленинградская область
 
 
 
