@@ -335,6 +335,28 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'село Горицы', latitude: 59.8711194, longitude: 38.2588892),
 
       // Мурманская область
+      OutsidePoint(name: 'Кольский залив', latitude: 69.135, longitude: 33.466),
+      OutsidePoint(name: 'село Териберка', latitude: 69.16417, longitude: 35.14056),
+      OutsidePoint(name: 'Хибины (горы)', latitude: 67.730312, longitude: 33.710057),
+      OutsidePoint(name: 'Юдычвумчорр', latitude: 67.734722, longitude: 33.726111),
+      OutsidePoint(name: 'Мемориал «Алёша»', latitude: 68.993056, longitude: 33.071667),
+      OutsidePoint(name: 'Сейдозеро', latitude: 67.814984, longitude: 34.848857),
+      OutsidePoint(name: 'оз. Ловно', latitude: 66.84029700, longitude: 35.17272900),
+      OutsidePoint(name: 'Аметисты мыса Корабль', latitude: 66.294072, longitude: 36.389342),
+      OutsidePoint(name: 'Кузоменьские пески', latitude: 66.284025, longitude: 36.861819),
+      OutsidePoint(name: 'Сейды', latitude: 69.186468, longitude: 35.127593),
+      OutsidePoint(name: 'Семёновское озеро', latitude: 68.991556, longitude: 33.089920),
+      OutsidePoint(name: 'Ловозерские тундры', latitude: 67.845833, longitude: 34.669722),
+      OutsidePoint(name: 'Село Варзуга', latitude: 68.974749, longitude: 33.059807),
+      OutsidePoint(name: 'Амазониты горы Парусная', latitude: 67.6491139, longitude: 37.1807667),
+      OutsidePoint(name: 'Водопад на реке Шуонийок', latitude: 69.346, longitude: 30.046),
+      OutsidePoint(name: 'Озеро Комсозеро', latitude: 67.7430389, longitude: 30.9230528),
+      OutsidePoint(name: '«Юкспоррлак»', latitude: 67.6655583, longitude: 33.8548583),
+      OutsidePoint(name: 'Бараний лоб у озера Семёновское', latitude: 68.99472, longitude: 33.07222),
+      OutsidePoint(name: '«Гранитоиды острова Микков»', latitude: 66.706207, longitude: 33.011705),
+      OutsidePoint(name: '«Лечебные грязи Палкиной губы»', latitude: 67.062575, longitude: 32.289436),
+      OutsidePoint(name: 'Губа Воронья', latitude: 66.766237, longitude: 33.632615),
+      OutsidePoint(name: 'Кандалакшский берег', latitude: 66.778056, longitude: 33.395278),
 
 
 
