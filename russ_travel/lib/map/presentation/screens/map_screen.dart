@@ -489,6 +489,15 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Памятник Николаю I на Исаакиевской площади', latitude: 59.932114, longitude: 30.308425),
 
       // Новгородская область
+      ParkPoint(name: 'Валдайский национальный парк', latitude: 57.9855, longitude: 33.2535),
+      ParkPoint(name: 'Рдейский заповедник', latitude: 57.159010, longitude: 31.180272),
+      ParkPoint(name: 'Рюриково городище', latitude: 58.4942856, longitude: 31.2981459),
+      ParkPoint(name: 'Ярославово дворище', latitude: 58.518886, longitude: 31.284647),
+      ParkPoint(name: 'Ганзейский фонтан', latitude: 58.51922, longitude: 31.283976),
+      ParkPoint(name: 'Природный фонтан в деревне Меглецы', latitude: 58.430391, longitude: 34.553933),
+      ParkPoint(name: 'Парк-усадьба Горки', latitude: 54.283234, longitude: 30.995111),
+      ParkPoint(name: 'Маловишерский лес', latitude: 58.839277, longitude: 32.186398),
+
 
 
 
