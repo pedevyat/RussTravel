@@ -147,7 +147,7 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Каргопольский музей', latitude: 61.502904, longitude: 38.943331),
       MuseumPoint(name: 'Дом Пикуля', latitude: 56.346846, longitude: 43.847955),
       MuseumPoint(name: 'Церковь Троицы Живоначальной в Ухте', latitude: 61.193259, longitude: 38.567944),
-      
+
       // Вологодская область
       MuseumPoint(name: 'Кирилло-Белозерский монастырь', latitude: 59.856507, longitude: 38.369435),
       MuseumPoint(name: 'Вологодский кремль', latitude: 59.224117, longitude: 39.881791),
@@ -239,6 +239,16 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Пинежский заповедник', latitude: 64.676670, longitude: 43.19917),
       ParkPoint(name: 'краеведческий музей в Вельске', latitude: 61.076304062648006, longitude: 42.11320899999989),
 
+      // Вологодская область
+      ParkPoint(name: 'Вотчина Деда Мороза', latitude: 60.749116, longitude: 46.183799),
+      ParkPoint(name: 'Национальный парк «Русский Север»', latitude: 59.8535, longitude: 38.3676),
+      ParkPoint(name: 'Дарвинский заповедник', latitude: 65.014714, longitude: 95.464412),
+      ParkPoint(name: '«Древнерусское поселение Сугорье»', latitude: 58.983371, longitude: 36.583570),
+      ParkPoint(name: 'Октябрьский мост в Череповце', latitude: 59.109844, longitude: 37.904559),
+      ParkPoint(name: 'деревянный мост через р. Мологу в Устюжне', latitude: 58.839148, longitude: 36.418947),
+
+
+
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
@@ -284,6 +294,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Озеро Лача', latitude: 61.333333, longitude: 61.333333),
       OutsidePoint(name: 'Белое море', latitude: 66.1119, longitude: 38.2338),
       OutsidePoint(name: 'р. Пинега', latitude: 59.821, longitude: 33.506),
+
+      // Вологодская область
+
 
     ];
   }
