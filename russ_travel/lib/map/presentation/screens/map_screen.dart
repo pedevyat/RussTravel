@@ -179,7 +179,24 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Каменный город', latitude: 58.722733, longitude: 57.6329),
       ParkPoint(name: 'Пым-Ва-Шор', latitude: 67.1889, longitude: 60.873),
 
-
+      // Архангельская область
+      ParkPoint(name: 'Кенозерский национальный парк', latitude: 61.7709, longitude: 38.0473),
+      ParkPoint(name: 'Земля Франца-Иосифа', latitude: 80.666667, longitude: 54.833333),
+      ParkPoint(name: 'Пинежские пещеры', latitude: 64.405278, longitude: 43.156944),
+      ParkPoint(name: 'Соловецкий ботанический сад', latitude: 65.052928, longitude: 35.659949),
+      ParkPoint(name: 'Озерно-канальная система Соловков', latitude: 65.04651, longitude: 35.69470),
+      ParkPoint(name: 'Ягринский пляж', latitude: 64.604683, longitude: 39.811770),
+      ParkPoint(name: 'Лабиринты Большого Заяцкого острова', latitude: 64.970500, longitude: 35.664806),
+      ParkPoint(name: 'Проспект Чумбарова-Лучинского', latitude: 64.53472, longitude: 40.52972),
+      ParkPoint(name: 'Памятник Тюленю', latitude: 64.543962, longitude: 40.510753),
+      ParkPoint(name: 'Памятник Ломоносову', latitude: 55.7011833, longitude: 37.5275917),
+      ParkPoint(name: 'Водлозерский национальный парк', latitude: 62.5, longitude: 36.917),
+      ParkPoint(name: 'Минеральные источники в Куртяеве', latitude: 64.405037, longitude: 43.169696),
+      ParkPoint(name: 'село Ворзогоры', latitude: 63.89335776, longitude: 37.66756755),
+      ParkPoint(name: 'Каргополь', latitude: 61.5071164, longitude: 38.9328096),
+      ParkPoint(name: 'поселок Пинега', latitude: 64.7000006, longitude: 43.3910351),
+      ParkPoint(name: 'Пинежский заповедник', latitude: 64.676670, longitude: 43.19917),
+      ParkPoint(name: 'краеведческий музей в Вельске', latitude: 61.076304062648006, longitude: 42.11320899999989),
 
     ];
   }
@@ -217,6 +234,8 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'озеро Большое Камбальничье', latitude: 68.6257, longitude: 52.6056),
       OutsidePoint(name: 'озеро Ошкото', latitude: 67.746175, longitude: 57.229256),
       OutsidePoint(name: 'озеро Хыйропское', latitude: 43.3771, longitude: 41.6568),
+
+      // Архангельская область
 
 
     ];
