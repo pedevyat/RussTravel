@@ -343,6 +343,25 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей-усадьба народа Сето', latitude: 57.7513, longitude: 27.6346),
       MuseumPoint(name: 'Ольгинская часовня', latitude: 57.820029, longitude: 28.324886),
 
+      // Калининградская область
+      MuseumPoint(name: 'Замок Шаакен', latitude: 54.90583, longitude: 20.66889),
+      MuseumPoint(name: 'Музей «Вальдавский замок»', latitude: 54.700544, longitude: 20.742786),
+      MuseumPoint(name: 'Маяк Лабагинена', latitude: 54.901414, longitude: 21.058136),
+      MuseumPoint(name: 'Замок Георгенбург', latitude: 54.660477, longitude: 21.80667),
+      MuseumPoint(name: 'Замок Прейсиш-Эйлау', latitude: 54.386605, longitude: 20.632886),
+      MuseumPoint(name: 'Замок Гердауэн', latitude: 54.364502, longitude: 21.309507),
+      MuseumPoint(name: 'Музей «Средневековое городище Ушкуй»', latitude: 54.471680, longitude: 21.066061),
+      MuseumPoint(name: 'Музей «Поселение викингов Кауп»', latitude: 54.878422, longitude: 20.278862),
+      MuseumPoint(name: 'Музей филинов и сов «ФилоСовия»', latitude: 54.956090, longitude: 20.477775),
+      MuseumPoint(name: 'Музей «Старая немецкая школа Вальдвинкель»', latitude: 54.867357, longitude: 21.248785),
+      MuseumPoint(name: 'Музей пыток в Орловке', latitude: 54.793098, longitude: 20.533545),
+      MuseumPoint(name: 'Музей кошек «Мурариум» в Зеленоградске', latitude: 54.959795, longitude: 20.482545),
+      MuseumPoint(name: 'Кирха Эйдткунена', latitude: 54.639885, longitude: 22.73345),
+      MuseumPoint(name: 'Кирха святой Барбары', latitude: 54.891268, longitude: 20.564462),
+      MuseumPoint(name: 'Кирха Святого Якоба', latitude: 54.618200, longitude: 21.231529),
+      MuseumPoint(name: 'Кирха Куменена', latitude: 54.820339, longitude: 20.212478),
+
+
 
 
 
@@ -529,6 +548,8 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Трутневская пещера', latitude: 44.14529, longitude: 40.05257),
       ParkPoint(name: 'Место встречи воздухоплавателей', latitude: 56.343104, longitude: 30.515312),
 
+      // Калининградская область
+
 
 
 
@@ -668,6 +689,10 @@ class _MapScreenState extends State<MapScreen> {
 
       // Псковская область
       OutsidePoint(name: 'Чудское озеро', latitude: 58.688003, longitude: 27.443691),
+
+      // Калининградская область
+
+
 
 
 
