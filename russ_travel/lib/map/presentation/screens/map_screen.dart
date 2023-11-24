@@ -432,6 +432,40 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Ребровские пещеры', latitude: 58.725111, longitude: 29.765385),
       ParkPoint(name: 'Пирамида в Екатерининском парке', latitude: 59.709444, longitude: 30.388611),
 
+      // Санкт-Петербург
+    ParkPoint(name: 'Невский проспект', latitude: 59.932473, longitude: 30.349169),
+    ParkPoint(name: 'Дворцовая площадь', latitude: 59.938982, longitude: 30.315500),
+    ParkPoint(name: 'Стрелка Васильевского острова', latitude: 59.944167, longitude: 30.306667),
+    ParkPoint(name: 'Атланты', latitude: 33.7490, longitude: 84.3880),
+    ParkPoint(name: 'Петропавловская крепость', latitude: 59.9500019, longitude: 30.3166718),
+    ParkPoint(name: 'Казанский собор', latitude: 59.9342278, longitude: 30.3245944),
+    ParkPoint(name: 'Александринский, latitude: театр', latitude: 59.93208400, longitude: 30.33637700),
+    ParkPoint(name: 'Мариинский театр', latitude: 59.925919, longitude: 30.2975893),
+    ParkPoint(name: 'Петергоф', latitude: 59.863400, longitude: 29.990947),
+    ParkPoint(name: 'Павловск', latitude: 59.6811976, longitude: 30.44437629999999),
+    ParkPoint(name: 'Царское Село', latitude: 59.717372321389085, longitude: 30.394497798612953),
+    ParkPoint(name: '«Лахта Центр»', latitude: 59.9867525, longitude: 30.1787992),
+    ParkPoint(name: 'Летний сад', latitude: 59.9439113, longitude: 30.3369781),
+    ParkPoint(name: 'Чижик-Пыжик', latitude: 59.941716, longitude: 30.338026),
+    ParkPoint(name: 'Форт «Константин»', latitude: 59.995353, longitude: 29.701168),
+    ParkPoint(name: 'Ленинградский зоопарк', latitude: 59.9518703, longitude: 30.3072287),
+    ParkPoint(name: 'Дворы и парадные', latitude: 59.925146, longitude: 30.325480),
+    ParkPoint(name: 'Крестовский остров', latitude: 59.97211886667353, longitude: 30.244999913933405),
+    ParkPoint(name: 'Александровская колонна', latitude: 59.93917, longitude: 30.31583),
+    ParkPoint(name: 'Марсово поле', latitude: 59.94362, longitude: 30.331793),
+    ParkPoint(name: 'Монетный двор', latitude: 59.9495552, longitude: 30.3146485),
+    ParkPoint(name: 'Океанариум', latitude: 59.9189519, longitude: 30.339051),
+    ParkPoint(name: 'Стадион «Газпром Арена»', latitude: 59.97278, longitude: 30.22056),
+    ParkPoint(name: 'Сфинксы на Университетской набережной', latitude: 59.936969, longitude: 30.29086),
+    ParkPoint(name: 'Михайловский сад', latitude: 59.939846, longitude: 30.332823),
+    ParkPoint(name: 'Ботанический сад', latitude: 59.97028, longitude: 30.32361),
+    ParkPoint(name: 'Ораниенбаум', latitude: 59.9149028, longitude: 29.7539556),
+    ParkPoint(name: 'Каменноостровский проспект', latitude: 59.9622, longitude: 30.315),
+    ParkPoint(name: 'Аничков мост', latitude: 59.9332357, longitude: 30.34341),
+    ParkPoint(name: 'Английская набережная', latitude: 59.9332914, longitude: 30.2912202),
+    ParkPoint(name: 'Памятник Николаю I на Исаакиевской площади', latitude: 59.932114, longitude: 30.308425),
+
+
 
 
 
@@ -552,6 +586,8 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Ястребиное озеро', latitude: 61.141847, longitude: 29.698131),
       OutsidePoint(name: 'Остров Маячный', latitude: 60.572191, longitude: 28.425085),
       OutsidePoint(name: 'Деревня Верхние Мандроги', latitude: 60.89842, longitude: 33.81942),
+
+      // Санкт-Петербург
 
 
 
