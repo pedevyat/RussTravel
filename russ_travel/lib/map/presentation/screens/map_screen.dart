@@ -549,6 +549,25 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Место встречи воздухоплавателей', latitude: 56.343104, longitude: 30.515312),
 
       // Калининградская область
+    ParkPoint(name: 'Башня Бисмарка', latitude: 55.020153, longitude: 22.115297),
+    ParkPoint(name: 'Руины замка Бальга', latitude: 54.552470, longitude: 19.969234),
+    ParkPoint(name: 'Руины замка Бранденбург', latitude: 54.613787, longitude: 20.248433),
+    ParkPoint(name: 'Замковое имение Лангендорф', latitude: 54.660882, longitude: 20.932057),
+    ParkPoint(name: 'Сосновый бор в городе Пионерский', latitude: 54.956787, longitude: 20.252761),
+    ParkPoint(name: 'Парк Фихтенвальде', latitude: 54.586667, longitude: 22.167500),
+    ParkPoint(name: 'Роминтенская пуща (Красный лес)', latitude: 54.394582, longitude: 22.527403),
+    ParkPoint(name: 'Виштынецкий лес', latitude: 54.435387, longitude: 22.521588),
+    ParkPoint(name: 'Парк Три старых липы', latitude: 54.938028, longitude: 20.159168),
+    ParkPoint(name: 'Старейшее дерево Калининградской области', latitude: 54.56933, longitude: 20.173125),
+    ParkPoint(name: '500-летний дуб', latitude: 48.52819, longitude: 23.50056),
+    ParkPoint(name: '«Окно в Европу»', latitude: 55.105065, longitude: 19.620257),
+    ParkPoint(name: 'Балтийская коса', latitude: 54.537583, longitude: 19.765389),
+    ParkPoint(name: 'Танцующий лес', latitude: 55.180734, longitude: 20.861803),
+    ParkPoint(name: 'Камень лжи', latitude: 54.946904, longitude: 20.212209),
+    ParkPoint(name: 'Поющие пески', latitude: 57.537095, longitude: 49.279752),
+    ParkPoint(name: 'Высота Мюллера', latitude: 55.148374, longitude: 20.812023),
+    ParkPoint(name: 'Высота Эфа', latitude: 55.221127, longitude: 20.906135),
+
 
 
 
