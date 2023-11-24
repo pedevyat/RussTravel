@@ -124,6 +124,30 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Этнокультурный центр Ненецкого автономного округа', latitude: 67.6404610, longitude: 53.0034470),
       MuseumPoint(name: 'Несская церковь', latitude: 54.163797755081,longitude: 26.14351272583),
 
+      // Архангельская область
+      MuseumPoint(name: 'Космодром Плесецк', latitude: 62.96, longitude: 40.68),
+      MuseumPoint(name: 'Соловецкий монастырь', latitude: 65.024729, longitude: 35.709728),
+      MuseumPoint(name: 'Малые Корелы', latitude: 64.452927, longitude: 40.931691),
+      MuseumPoint(name: 'Каргополье', latitude: 55.955556, longitude: 64.433333),
+      MuseumPoint(name: 'Историко-мемориальный музей М. В. Ломоносова', latitude: 64.22972, longitude: 41.73361),
+      MuseumPoint(name: 'Антониево-Сийский монастырь', latitude: 63.5539, longitude: 41.5560),
+      MuseumPoint(name: 'Церковь Иоанна Златоуста в Саунино', latitude: 61.50498, longitude: 39.11612),
+      MuseumPoint(name: 'Введенский собор в Сольвычегодске', latitude: 61.3326778, longitude: 46.9263083),
+      MuseumPoint(name: 'Северный морской музей', latitude: 64.5339, longitude: 40.5168),
+      MuseumPoint(name: 'Новодвинская крепость', latitude: 64.699981, longitude: 40.417537),
+      MuseumPoint(name: 'Музей деревянного зодчества «Малые Корелы»', latitude: 64.454843, longitude: 40.951519),
+      MuseumPoint(name: 'музей полярного капитана Александра Кучина', latitude: 64.226920, longitude: 41.838274),
+      MuseumPoint(name: 'Онежский историко-мемориальный музей', latitude: 63.898530715044, longitude: 38.129629777158),
+      MuseumPoint(name: 'Сретено-Михайловская церковь', latitude: 61.59867, longitude: 38.661435),
+      MuseumPoint(name: 'Пинежский краеведческий музей', latitude: 64.698563, longitude: 43.394333),
+      MuseumPoint(name: 'музей домовых росписей Поважья', latitude: 61.0771610, longitude: 42.1119160),
+      MuseumPoint(name: 'Кожеозерский Богоявленский женский монастырь', latitude: 63.1578, longitude: 38.0830),
+      MuseumPoint(name: 'Макарьевская Хергозерская пустынь', latitude: 61.8413, longitude: 38.252968),
+      MuseumPoint(name: 'Холмогорский краеведческий музей', latitude: 64.22685500, longitude: 41.64560500),
+      MuseumPoint(name: 'Каргопольский музей', latitude: 61.502904, longitude: 38.943331),
+      MuseumPoint(name: 'Дом Пикуля', latitude: 56.346846, longitude: 43.847955),
+      MuseumPoint(name: 'Церковь Троицы Живоначальной в Ухте', latitude: 61.193259, longitude: 38.567944),
+
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
