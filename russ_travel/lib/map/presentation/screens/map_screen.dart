@@ -549,24 +549,24 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Место встречи воздухоплавателей', latitude: 56.343104, longitude: 30.515312),
 
       // Калининградская область
-    ParkPoint(name: 'Башня Бисмарка', latitude: 55.020153, longitude: 22.115297),
-    ParkPoint(name: 'Руины замка Бальга', latitude: 54.552470, longitude: 19.969234),
-    ParkPoint(name: 'Руины замка Бранденбург', latitude: 54.613787, longitude: 20.248433),
-    ParkPoint(name: 'Замковое имение Лангендорф', latitude: 54.660882, longitude: 20.932057),
-    ParkPoint(name: 'Сосновый бор в городе Пионерский', latitude: 54.956787, longitude: 20.252761),
-    ParkPoint(name: 'Парк Фихтенвальде', latitude: 54.586667, longitude: 22.167500),
-    ParkPoint(name: 'Роминтенская пуща (Красный лес)', latitude: 54.394582, longitude: 22.527403),
-    ParkPoint(name: 'Виштынецкий лес', latitude: 54.435387, longitude: 22.521588),
-    ParkPoint(name: 'Парк Три старых липы', latitude: 54.938028, longitude: 20.159168),
-    ParkPoint(name: 'Старейшее дерево Калининградской области', latitude: 54.56933, longitude: 20.173125),
-    ParkPoint(name: '500-летний дуб', latitude: 48.52819, longitude: 23.50056),
-    ParkPoint(name: '«Окно в Европу»', latitude: 55.105065, longitude: 19.620257),
-    ParkPoint(name: 'Балтийская коса', latitude: 54.537583, longitude: 19.765389),
-    ParkPoint(name: 'Танцующий лес', latitude: 55.180734, longitude: 20.861803),
-    ParkPoint(name: 'Камень лжи', latitude: 54.946904, longitude: 20.212209),
-    ParkPoint(name: 'Поющие пески', latitude: 57.537095, longitude: 49.279752),
-    ParkPoint(name: 'Высота Мюллера', latitude: 55.148374, longitude: 20.812023),
-    ParkPoint(name: 'Высота Эфа', latitude: 55.221127, longitude: 20.906135),
+      ParkPoint(name: 'Башня Бисмарка', latitude: 55.020153, longitude: 22.115297),
+      ParkPoint(name: 'Руины замка Бальга', latitude: 54.552470, longitude: 19.969234),
+      ParkPoint(name: 'Руины замка Бранденбург', latitude: 54.613787, longitude: 20.248433),
+      ParkPoint(name: 'Замковое имение Лангендорф', latitude: 54.660882, longitude: 20.932057),
+      ParkPoint(name: 'Сосновый бор в городе Пионерский', latitude: 54.956787, longitude: 20.252761),
+      ParkPoint(name: 'Парк Фихтенвальде', latitude: 54.586667, longitude: 22.167500),
+      ParkPoint(name: 'Роминтенская пуща (Красный лес)', latitude: 54.394582, longitude: 22.527403),
+      ParkPoint(name: 'Виштынецкий лес', latitude: 54.435387, longitude: 22.521588),
+      ParkPoint(name: 'Парк Три старых липы', latitude: 54.938028, longitude: 20.159168),
+      ParkPoint(name: 'Старейшее дерево Калининградской области', latitude: 54.56933, longitude: 20.173125),
+      ParkPoint(name: '500-летний дуб', latitude: 48.52819, longitude: 23.50056),
+      ParkPoint(name: '«Окно в Европу»', latitude: 55.105065, longitude: 19.620257),
+      ParkPoint(name: 'Балтийская коса', latitude: 54.537583, longitude: 19.765389),
+      ParkPoint(name: 'Танцующий лес', latitude: 55.180734, longitude: 20.861803),
+      ParkPoint(name: 'Камень лжи', latitude: 54.946904, longitude: 20.212209),
+      ParkPoint(name: 'Поющие пески', latitude: 57.537095, longitude: 49.279752),
+      ParkPoint(name: 'Высота Мюллера', latitude: 55.148374, longitude: 20.812023),
+      ParkPoint(name: 'Высота Эфа', latitude: 55.221127, longitude: 20.906135),
 
 
 
@@ -710,6 +710,23 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Чудское озеро', latitude: 58.688003, longitude: 27.443691),
 
       // Калининградская область
+      OutsidePoint(name: 'Куршская коса', latitude: 54.9757564, longitude: 20.520279),
+      OutsidePoint(name: 'Река Неман', latitude: 53.456437, longitude: 26.728486),
+      OutsidePoint(name: 'Виштынецкое озеро', latitude: 54.426944, longitude: 22.725),
+      OutsidePoint(name: 'Река Шешупе', latitude: 54.967581, longitude: 22.714524),
+      OutsidePoint(name: 'Река Анграпа', latitude: 54.476646, longitude: 22.044280),
+      OutsidePoint(name: 'Река Лава', latitude: 54.398260, longitude: 21.022336),
+      OutsidePoint(name: 'Река Инструч', latitude: 54.812260, longitude: 22.072855),
+      OutsidePoint(name: 'Река Преголя', latitude: 54.645994, longitude: 21.070219),
+      OutsidePoint(name: 'Озеро Мариново', latitude: 54.413653, longitude: 22.507173),
+      OutsidePoint(name: 'Красное озеро', latitude: 54.350511, longitude: 22.325138),
+      OutsidePoint(name: 'Озеро Лебедь', latitude: 55.245163, longitude: 20.944248),
+      OutsidePoint(name: 'Озеро Чайка', latitude: 55.151631, longitude: 20.828563),
+      OutsidePoint(name: 'Озеро Янтарное', latitude: 54.887325, longitude: 19.948436),
+      OutsidePoint(name: 'Голубые озера', latitude: 54.648146, longitude: 20.354639),
+      OutsidePoint(name: 'Лесное озеро', latitude: 54.717142, longitude: 20.389574),
+      OutsidePoint(name: 'Озеро Карповское', latitude: 54.698811, longitude: 20.406921),
+
 
 
 
