@@ -296,6 +296,11 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'р. Пинега', latitude: 59.821, longitude: 33.506),
 
       // Вологодская область
+      OutsidePoint(name: 'Водопад Падун', latitude: 63.882736, longitude: 34.310450),
+      OutsidePoint(name: 'Урочище Опоки', latitude: 56.906, longitude: 30.816),
+      OutsidePoint(name: 'Село Сизьма', latitude: 59.4142, longitude: 38.7083),
+      OutsidePoint(name: 'село Горицы', latitude: 59.8711194, longitude: 38.2588892),
+
 
 
     ];
