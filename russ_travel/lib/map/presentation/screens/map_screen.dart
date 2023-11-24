@@ -325,6 +325,25 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей Северо-Западного фронта в Старой Руссе', latitude: 57.992706, longitude: 31.363169),
       MuseumPoint(name: 'Музей уездного города в Валдае', latitude: 57.977625, longitude: 33.256659),
 
+      // Псковская область
+      MuseumPoint(name: 'Псковский Кремль', latitude: 57.8220008, longitude: 28.3289796),
+      MuseumPoint(name: 'Псково-Печерский монастырь', latitude: 57.8100631, longitude: 27.6149939),
+      MuseumPoint(name: 'Музей-усадьба «Михайловское»', latitude: 56.25670200, longitude: 31.34997700),
+      MuseumPoint(name: 'Музей-усадьба «Петровское»', latitude: 57.07988700, longitude: 28.948374),
+      MuseumPoint(name: 'Музей-усадьба «Тригорское»', latitude: 57.16305700, longitude: 28.839111),
+      MuseumPoint(name: 'Палаты Меньшиковых в Пскове', latitude: 57.812261, longitude: 28.335448),
+      MuseumPoint(name: 'Великолукская крепость', latitude: 56.342690, longitude: 30.507225),
+      MuseumPoint(name: 'Музей-заповедник Н. А. Римского-Корсакова', latitude: 58.39944, longitude: 29.60222),
+      MuseumPoint(name: 'Музей-заповедник М. П. Мусоргского', latitude: 56.27222, longitude: 31.32528),
+      MuseumPoint(name: 'Музей-усадьба С. Ковалевской', latitude: 56.133437, longitude: 30.399968),
+      MuseumPoint(name: 'Мирожский монастырь', latitude: 57.805167, longitude: 28.329288),
+      MuseumPoint(name: 'Церковь Василия Великого на Горке', latitude: 57.815225, longitude: 28.335785),
+      MuseumPoint(name: 'Гдовский кремль', latitude: 56.567222, longitude: 28.775),
+      MuseumPoint(name: 'Спасо-Казанский Симанский монастырь', latitude: 57.338567, longitude: 28.3643),
+      MuseumPoint(name: 'Музей-усадьба народа Сето', latitude: 57.7513, longitude: 27.6346),
+      MuseumPoint(name: 'Ольгинская часовня', latitude: 57.820029, longitude: 28.324886),
+
+
 
 
 
@@ -498,6 +517,8 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк-усадьба Горки', latitude: 54.283234, longitude: 30.995111),
       ParkPoint(name: 'Маловишерский лес', latitude: 58.839277, longitude: 32.186398),
 
+      // Псковская область
+
 
 
 
@@ -633,6 +654,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Река Понеретка', latitude: 58.283150, longitude: 34.039541),
       OutsidePoint(name: 'Водопад «Голубая лагуна»', latitude: 63.88031100, longitude: -22.44927000),
       OutsidePoint(name: 'Карамельный водопад', latitude: 58.464633, longitude: 30.970706),
+
+      // Псковская область
+
 
 
 
