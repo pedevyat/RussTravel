@@ -627,6 +627,13 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Кронштадт', latitude: 59.9954100, longitude: 29.7666800),
 
       // Новгородская область
+      OutsidePoint(name: 'Озеро Селигер', latitude: 57.239082, longitude: 33.034332),
+      OutsidePoint(name: 'Озеро Ильмень', latitude: 58.2667, longitude: 31.2833),
+      OutsidePoint(name: 'Боровичи', latitude: 58.3878, longitude: 33.9155),
+      OutsidePoint(name: 'Река Понеретка', latitude: 58.283150, longitude: 34.039541),
+      OutsidePoint(name: 'Водопад «Голубая лагуна»', latitude: 63.88031100, longitude: -22.44927000),
+      OutsidePoint(name: 'Карамельный водопад', latitude: 58.464633, longitude: 30.970706),
+
 
 
 
