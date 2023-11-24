@@ -188,6 +188,17 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Михайло-Архангельский монастырь в Великом Устюге', latitude: 62.223279, longitude: 50.399606),
       MuseumPoint(name: 'Музей новогодней и рождественской игрушки', latitude: 60.7530, longitude: 46.3117),
 
+      // Мурманская область
+      MuseumPoint(name: 'Кольская сверхглубокая скважина', latitude: 69.396326, longitude: 30.609513),
+      MuseumPoint(name: 'Святоносский маяк', latitude: 68.13611, longitude: 39.76944),
+      MuseumPoint(name: 'Маяк-мемориал в Мурманске', latitude: 68.970663, longitude: 33.074918),
+      MuseumPoint(name: 'Музей ВВС Северного флота', latitude: 69.065369, longitude: 33.294752),
+      MuseumPoint(name: 'Музейно-выставочный центр «Апатит»', latitude: 67.61574353, longitude: 33.66614054),
+      MuseumPoint(name: 'Никольская деревянная церковь в Ковде', latitude: 68.994722, longitude: 33.072222),
+      MuseumPoint(name: 'Заброшенный ж/д вокзал Кировска', latitude: 67.619694, longitude: 33.669787),
+      MuseumPoint(name: 'Наскальные изображения у поселка Чалмны-Варрэ', latitude: 67, longitude: 37.5892356),
+
+
 
     ];
   }
@@ -247,6 +258,8 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Октябрьский мост в Череповце', latitude: 59.109844, longitude: 37.904559),
       ParkPoint(name: 'деревянный мост через р. Мологу в Устюжне', latitude: 58.839148, longitude: 36.418947),
 
+      // Мурманская область
+
 
 
     ];
@@ -300,6 +313,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Урочище Опоки', latitude: 56.906, longitude: 30.816),
       OutsidePoint(name: 'Село Сизьма', latitude: 59.4142, longitude: 38.7083),
       OutsidePoint(name: 'село Горицы', latitude: 59.8711194, longitude: 38.2588892),
+
+      // Мурманская область
+
 
 
 
