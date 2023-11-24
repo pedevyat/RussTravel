@@ -480,6 +480,21 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Водопад Киваккакоски', latitude: 62.268000, longitude: 33.980384),
 
       // Ленинградская область
+      OutsidePoint(name: 'Радоновые озёра', latitude: 59.734545, longitude: 29.401247),
+      OutsidePoint(name: 'Федоровский городок', latitude: 59.725456, longitude: 30.394112),
+      OutsidePoint(name: 'Остров Коневец', latitude: 60.860160, longitude: 30.610129),
+      OutsidePoint(name: 'Липовское озеро', latitude: 59.744134, longitude: 28.152419),
+      OutsidePoint(name: 'Тосненский водопад', latitude: 59.644625, longitude: 30.808623),
+      OutsidePoint(name: 'Лосевские Пороги', latitude: 60.680176, longitude: 29.998775),
+      OutsidePoint(name: 'Водопад на реке Караста', latitude: 59.91490300, longitude: 29.75395600),
+      OutsidePoint(name: '«Скала любви»', latitude: 61.0638, longitude: 28.8705),
+      OutsidePoint(name: 'Староладожская пещера и Святой источник', latitude: 59.542303, longitude: 28.747203),
+      OutsidePoint(name: 'Горчаковщинский водопад', latitude: 60.019167, longitude: 32.330792),
+      OutsidePoint(name: 'Большие скалы', latitude: 61.166667, longitude: 29.7),
+      OutsidePoint(name: 'Ястребиное озеро', latitude: 61.141847, longitude: 29.698131),
+      OutsidePoint(name: 'Остров Маячный', latitude: 60.572191, longitude: 28.425085),
+      OutsidePoint(name: 'Деревня Верхние Мандроги', latitude: 60.89842, longitude: 33.81942),
+
 
 
 
