@@ -518,6 +518,17 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Маловишерский лес', latitude: 58.839277, longitude: 32.186398),
 
       // Псковская область
+      ParkPoint(name: 'Изборская крепость', latitude: 57.70833, longitude: 27.85833),
+      ParkPoint(name: 'Порховская крепость', latitude: 56.567222, longitude: 28.775),
+      ParkPoint(name: 'Словенские ключи в Изборске', latitude: 57.714344, longitude: 27.860846),
+      ParkPoint(name: 'Себежский национальный парк', latitude: 56.164027, longitude: 28.347572),
+      ParkPoint(name: 'Труворово городище', latitude: 57.716998, longitude: 27.85365),
+      ParkPoint(name: 'Цепные мосты через рукава реки Великой', latitude: 56.304444, longitude: 30.474722),
+      ParkPoint(name: 'Полистовский заповедник', latitude: 57.17083, longitude: 30.55694),
+      ParkPoint(name: 'Никандрова пустынь', latitude: 57.823249, longitude: 29.259921),
+      ParkPoint(name: 'Трутневская пещера', latitude: 44.14529, longitude: 40.05257),
+      ParkPoint(name: 'Место встречи воздухоплавателей', latitude: 56.343104, longitude: 30.515312),
+
 
 
 
