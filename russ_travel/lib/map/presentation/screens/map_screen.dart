@@ -298,6 +298,23 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Заказник «Сейдъявврь»', latitude: 67.666760, longitude: 33.395658),
 
       // Карелия
+      ParkPoint(name: 'Онежская набережная', latitude: 61.7921508, longitude: 34.3811189),
+      ParkPoint(name: 'Ботанический сад ПетрГУ', latitude: 61.840927, longitude: 34.410100),
+      ParkPoint(name: 'Зоокомплекс «Три медведя»', latitude: 61.949212, longitude: 33.406829),
+      ParkPoint(name: 'Горный парк «Рускеала»', latitude: 61.946111, longitude: 30.581389),
+      ParkPoint(name: 'Национальный парк «Ладожские Шхеры»', latitude: 61.5218, longitude: 30.5039),
+      ParkPoint(name: 'Национальный парк «Паанаярви»', latitude: 65.7645, longitude: 31.0759),
+      ParkPoint(name: 'горнолыжный курорт «Ялгора»', latitude: 61.8547496, longitude: 34.456752),
+      ParkPoint(name: 'Санаторий «Марциальные воды»', latitude: 62.155286, longitude: 33.897355),
+      ParkPoint(name: 'Национальный парк «Водлозерский»', latitude: 62.236293, longitude: 36.885769),
+      ParkPoint(name: 'Национальный парк «Калевальский»', latitude: 64.99167, longitude: 30.2125),
+      ParkPoint(name: 'Национальный парк Водлозерский', latitude: 62.5, longitude: 36.917),
+      ParkPoint(name: 'Национальный парк Калевальский', latitude: 64.99167, longitude: 30.2125),
+      ParkPoint(name: 'Ландшафтный заказник Толвоярви', latitude: 62.066646, longitude: 35.225032),
+      ParkPoint(name: 'Парк Ваккосалми', latitude: 61.705583, longitude: 30.677228),
+      ParkPoint(name: 'Карельский Зоопарк', latitude: 61.994236, longitude: 30.778658),
+      ParkPoint(name: 'Водохранилище Выгозеро', latitude: 63.60110943, longitude: 34.75592977),
+      ParkPoint(name: 'Остров добрых духов', latitude: 64.836670, longitude: 33.713600),
 
 
 
