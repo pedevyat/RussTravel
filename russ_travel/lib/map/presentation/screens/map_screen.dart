@@ -667,6 +667,7 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Карамельный водопад', latitude: 58.464633, longitude: 30.970706),
 
       // Псковская область
+      OutsidePoint(name: 'Чудское озеро', latitude: 58.688003, longitude: 27.443691),
 
 
 
