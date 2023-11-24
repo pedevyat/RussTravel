@@ -236,7 +236,13 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'озеро Хыйропское', latitude: 43.3771, longitude: 41.6568),
 
       // Архангельская область
-
+      OutsidePoint(name: 'Кий-остров', latitude: 64.0022, longitude: 37.8783),
+      OutsidePoint(name: 'Обсерватория им. Эрнста Кренкеля', latitude: 80.452222, longitude: 58.051758),
+      OutsidePoint(name: 'р. Северная Двина', latitude: 62.730779, longitude: 43.258597),
+      OutsidePoint(name: 'Мыс Пур-Наволок', latitude: 64.475624, longitude: 40.507180),
+      OutsidePoint(name: 'Озеро Лача', latitude: 61.333333, longitude: 61.333333),
+      OutsidePoint(name: 'Белое море', latitude: 66.1119, longitude: 38.2338),
+      OutsidePoint(name: 'р. Пинега', latitude: 59.821, longitude: 33.506),
 
     ];
   }
