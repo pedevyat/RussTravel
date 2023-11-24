@@ -396,7 +396,29 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Кандалакшский берег', latitude: 66.778056, longitude: 33.395278),
 
       // Карелия
-
+      OutsidePoint(name: 'Водопад Кивач', latitude: 62.268000, longitude: 33.980384),
+      OutsidePoint(name: 'Вулкан Гирвас', latitude: 62.484776, longitude: 33.670096),
+      OutsidePoint(name: 'Гора Воттоваара', latitude: 63.074251, longitude: 32.623114),
+      OutsidePoint(name: 'Ладожское озеро', latitude: 60.785, longitude: 31.715),
+      OutsidePoint(name: 'Остров Валаам', latitude: 61.3899, longitude: 30.9471),
+      OutsidePoint(name: 'Водопад «Белые мосты»', latitude: 61.7551484, longitude: 31.4160496),
+      OutsidePoint(name: 'Беломорские петроглифы', latitude: 4.52247560835693, longitude: 34.76414969865403),
+      OutsidePoint(name: 'Гора Нуорунен', latitude: 66.144722, longitude: 30.244722),
+      OutsidePoint(name: 'Лахденпохья', latitude: 61.522222, longitude: 30.1925),
+      OutsidePoint(name: 'Деревня Кинерма', latitude: 61.527222, longitude: 32.828889),
+      OutsidePoint(name: 'Деревня Пегрема', latitude: 62.3265, longitude: 34.766),
+      OutsidePoint(name: 'Гора Сампо', latitude: 62.039219, longitude: 34.096913),
+      OutsidePoint(name: 'Гора Филина', latitude: 61.548857, longitude: 30.199141),
+      OutsidePoint(name: 'Марциальные воды', latitude: 62.156608, longitude: 33.901688),
+      OutsidePoint(name: 'Залив Ляппяярви', latitude: 61.695470, longitude: 30.696523),
+      OutsidePoint(name: 'Шардонский архипелаг', latitude: 61.942343, longitude: 34.737697),
+      OutsidePoint(name: 'Озеро Урозеро', latitude: 59.866879, longitude: 37.383157),
+      OutsidePoint(name: 'Ильинский Водлозерский погост', latitude: 62.380093, longitude: 36.9078),
+      OutsidePoint(name: 'Водопад «Воицкий Падун»', latitude: 62.268000, longitude: 33.980384),
+      OutsidePoint(name: 'Водопад Куми-порог', latitude: 65.276142, longitude: 30.198763),
+      OutsidePoint(name: 'Рускеальские водопады', latitude: 61.915509, longitude: 30.626539),
+      OutsidePoint(name: 'Озеро Янисъярви', latitude: 61.966667, longitude: 30.916667),
+      OutsidePoint(name: 'Водопад Киваккакоски', latitude: 62.268000, longitude: 33.980384),
 
 
 
