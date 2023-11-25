@@ -143,7 +143,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
     return const [
-<<<<<<< HEAD
       // республика Коми
       MuseumPoint(name: 'Дом-музей И. П. Морозова' , latitude: 61.67259571967766, longitude: 50.840373498693104),
       MuseumPoint(name: 'Пожарная каланча Сыктывкара', latitude: 61.673001, longitude: 50.837413),
@@ -406,17 +405,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Кирха святой Барбары', latitude: 54.891268, longitude: 20.564462),
       MuseumPoint(name: 'Кирха Святого Якоба', latitude: 54.618200, longitude: 21.231529),
       MuseumPoint(name: 'Кирха Куменена', latitude: 54.820339, longitude: 20.212478),
-
-
-
-
-
-
-
-
-
-
-=======
       // ЦФО
         // Москва
       MuseumPoint(name: 'Мавзолей В.И. Ленина', // Название точки
@@ -1039,14 +1027,12 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей В.И. Чапаева',
           latitude: 56.116167,
           longitude: 47.257376),
-      
->>>>>>> 1cfbb583a5c46ff5034246f3a9173d49fad4c961
+
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
-<<<<<<< HEAD
       // республика Коми
       ParkPoint(name: 'Югыд Ва', latitude: 63.9690289, longitude: 59.2200899),
       ParkPoint(name: 'Финно-угорский этнокультурный парк', latitude: 61.673248, longitude: 50.832223),
@@ -1239,16 +1225,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       ParkPoint(name: 'Поющие пески', latitude: 57.537095, longitude: 49.279752),
       ParkPoint(name: 'Высота Мюллера', latitude: 55.148374, longitude: 20.812023),
       ParkPoint(name: 'Высота Эфа', latitude: 55.221127, longitude: 20.906135),
-
-
-
-
-
-
-
-
-
-=======
       // ЦФО
       // Москва
       ParkPoint(
@@ -1724,14 +1700,12 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
           name: 'Мемориальный Парк Победы', latitude: 56.14742850642577, longitude: 47.26801031877135),
       ParkPoint(
           name: 'сквер имени Н.И. Пирогова', latitude: 56.141578, longitude: 47.21829),
-      
->>>>>>> 1cfbb583a5c46ff5034246f3a9173d49fad4c961
+
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
-<<<<<<< HEAD
       // республика Коми
       OutsidePoint(name: 'Столбы выветривания', latitude: 62.221329, longitude: 59.305196),
       OutsidePoint(name: 'Гора Народная', latitude: 65.0349, longitude: 60.1150),
@@ -1877,17 +1851,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       OutsidePoint(name: 'Голубые озера', latitude: 54.648146, longitude: 20.354639),
       OutsidePoint(name: 'Лесное озеро', latitude: 54.717142, longitude: 20.389574),
       OutsidePoint(name: 'Озеро Карповское', latitude: 54.698811, longitude: 20.406921),
-
-
-
-
-
-
-
-
-
-
-=======
       // ЦФО
       // Москва
       OutsidePoint(name: 'Останкинская башня', latitude: 55.819721, longitude: 37.611704),
@@ -2126,7 +2089,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       OutsidePoint(name: 'Шупашкар',
           latitude: 56.14849686323186,
           longitude: 47.25917475335799),
->>>>>>> 1cfbb583a5c46ff5034246f3a9173d49fad4c961
     ];
   }
 
