@@ -98,6 +98,9 @@ class _MapScreenState extends State<MapScreen> {
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
   List<MuseumPoint> _getMapPointsM() {
     return const [
+
+      // Северо-Западный округ
+
       // республика Коми
       MuseumPoint(name: 'Дом-музей И. П. Морозова' , latitude: 61.67259571967766, longitude: 50.840373498693104),
       MuseumPoint(name: 'Пожарная каланча Сыктывкара', latitude: 61.673001, longitude: 50.837413),
@@ -117,12 +120,11 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Памятный знак Голова Ленина', latitude: 67.816646, longitude: 34.84826),
       MuseumPoint(name: 'здание администрации Ненецкого АО', latitude: 67.6388917, longitude: 53.0056361),
       MuseumPoint(name: 'здание главпочтамта Ненецкого,  АО', latitude:67.639213562,longitude:53.007827759),
-      MuseumPoint(name: 'Богоявленский собор', latitude: 55.772655, longitude: 37.674772),
       MuseumPoint(name: 'Памятник «Подвигу участников оленно-транспортных батальонов»', latitude: 67.64, longitude: 53.01056),
       MuseumPoint(name: 'Памятник труженикам Печорского лесозавода', latitude: 67.66982400, longitude: 53.09680900),
       MuseumPoint(name: 'Памятник Яку-7Б', latitude: 67.66982400, longitude: 53.09680900),
       MuseumPoint(name: 'Этнокультурный центр Ненецкого автономного округа', latitude: 67.6404610, longitude: 53.0034470),
-      MuseumPoint(name: 'Несская церковь', latitude: 54.163797755081,longitude: 26.14351272583),
+
 
       // Архангельская область
       MuseumPoint(name: 'Космодром Плесецк', latitude: 62.96, longitude: 40.68),
@@ -375,17 +377,19 @@ class _MapScreenState extends State<MapScreen> {
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
     return const [
+
+      // Северо-Западный округ
+
       // республика Коми
       ParkPoint(name: 'Югыд Ва', latitude: 63.9690289, longitude: 59.2200899),
       ParkPoint(name: 'Финно-угорский этнокультурный парк', latitude: 61.673248, longitude: 50.832223),
       ParkPoint(name: 'Печоро-Илычский биосферный заповедник', latitude: 61.822870, longitude: 56.824022),
       ParkPoint(name: 'Кажимский железоделательный завод', latitude: 60.333902, longitude: 51.556093),
-      ParkPoint(name: 'Памятник букве ?', latitude: 61.6695989, longitude: 50.8271581),
+      ParkPoint(name: 'Памятник букве О с точками', latitude: 61.6695989, longitude: 50.8271581),
       ParkPoint(name: 'Город-призрак Хальмер-Ю', latitude: 67.9666700, longitude: 64.8333300),
       ParkPoint(name: 'Девственные леса Коми', latitude: 65.056199, longitude: 60.082262),
       ParkPoint(name: 'Река Щугор', latitude: 63.1859, longitude: 59.2353),
       ParkPoint(name: 'Маньпупунер (мансийские болваны)', latitude: 62.221329, longitude: 59.305196),
-      ParkPoint(name: '«Сад камней» на берегу Ижмы', latitude: 56.731043, longitude: 35.504124),
       ParkPoint(name: 'Село Усть-Цильма', latitude: 65.43333, longitude: 52.15),
       ParkPoint(name: 'Село Усть-Вымь', latitude: 62.22587542933404, longitude: 50.397508999999914),
 
@@ -398,7 +402,6 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Ортинское городище', latitude: 68.055118, longitude: 54.128906),
       ParkPoint(name: 'Центр арктического туризма', latitude: 67.633756, longitude: 53.24157),
       ParkPoint(name: 'Обдорский острог (Город мастеров)', latitude: 66.5222540, longitude: 66.5892110),
-      ParkPoint(name: 'Каменный город', latitude: 58.722733, longitude: 57.6329),
       ParkPoint(name: 'Пым-Ва-Шор', latitude: 67.1889, longitude: 60.873),
 
       // Архангельская область
@@ -581,6 +584,9 @@ class _MapScreenState extends State<MapScreen> {
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
+
+      // Северо-Западный округ
+
       // республика Коми
       OutsidePoint(name: 'Столбы выветривания', latitude: 62.221329, longitude: 59.305196),
       OutsidePoint(name: 'Гора Народная', latitude: 65.0349, longitude: 60.1150),
@@ -588,8 +594,6 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Водопад Буредан', latitude: 68.728056, longitude: 65.352222),
       OutsidePoint(name: 'Гора Еркусей (Шаман-Гора)', latitude: 65.221364, longitude: 60.348099),
       OutsidePoint(name: 'Урочище Медвежья Пещера', latitude: 62, longitude: 58.733),
-      OutsidePoint(name: 'Пик Масленникова', latitude: 53.9, longitude: 27.5667),
-      OutsidePoint(name: 'Гора Тельпос', latitude: 46.6912400, longitude: 21.8033500),
 
       // Ненецкий АО
       OutsidePoint(name: 'Река Печора', latitude: 67.683622, longitude: 52.490428),
@@ -611,7 +615,6 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'озеро Сейзасрёто', latitude: 68.695883, longitude: 60.850163),
       OutsidePoint(name: 'озеро Большое Камбальничье', latitude: 68.6257, longitude: 52.6056),
       OutsidePoint(name: 'озеро Ошкото', latitude: 67.746175, longitude: 57.229256),
-      OutsidePoint(name: 'озеро Хыйропское', latitude: 43.3771, longitude: 41.6568),
 
       // Архангельская область
       OutsidePoint(name: 'Кий-остров', latitude: 64.0022, longitude: 37.8783),
