@@ -7,12 +7,15 @@ import '../../domain/museum_point.dart';
 import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
 import 'clusters_collection.dart';
+<<<<<<< HEAD
 import 'package:csv/csv.dart';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
 
+=======
+>>>>>>> parent of 2d12e26 (test csv)
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
