@@ -7,15 +7,7 @@ import '../../domain/museum_point.dart';
 import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
 import 'clusters_collection.dart';
-<<<<<<< HEAD
-import 'package:csv/csv.dart';
-import 'dart:convert';
-import 'dart:io';
-import 'dart:async' show Future;
-import 'package:flutter/services.dart' show rootBundle;
 
-=======
->>>>>>> parent of 2d12e26 (test csv)
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -42,42 +34,32 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Карта открытий')),
-      body: FutureBuilder<List<PlacemarkMapObject>>(
-        future: _getPlacemarkObjectsM(context, "assets/museums_moscow.csv"),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return CircularProgressIndicator();
-          } else if (snapshot.hasError) {
-            return Text('Error: ${snapshot.error}');
-          } else {
-            List<PlacemarkMapObject> placemarks = snapshot.data ?? [];
-
-            return YandexMap(
-              onMapCreated: (controller) async {
-                _mapController = controller;
-                await _mapController.moveCamera(
-                  CameraUpdate.newCameraPosition(
-                    const CameraPosition(
-                      target: Point(
-                        latitude: 50,
-                        longitude: 20,
-                      ),
-                      zoom: 3,
-                    ),
+      body: YandexMap(
+          onMapCreated: (controller) async {
+            _mapController = controller;
+            await _mapController.moveCamera(
+              CameraUpdate.newCameraPosition(
+                const CameraPosition(
+                  target: Point(
+                    latitude: 50,
+                    longitude: 20,
                   ),
-                );
-              },
-              onCameraPositionChanged: (cameraPosition, _, __) {
-                setState(() {
-                  _mapZoom = cameraPosition.zoom;
-                });
-              },
-              mapObjects: [
-                _getClusterizedCollection(placemarks: placemarks).placemarks,
-              ].expand((element) => element).toList(), // Flatten the list
+                  zoom: 3,
+                ),
+              ),
             );
-          }
-        },
+          },
+          onCameraPositionChanged: (cameraPosition, _, __) {
+            setState(() {
+              _mapZoom = cameraPosition.zoom;
+            });
+          },
+          mapObjects: [
+            _getClusterizedCollection(placemarks: _getPlacemarkObjectsP(context)+
+                _getPlacemarkObjectsO(context) +
+                _getPlacemarkObjectsM(context),
+            ),
+          ]
       ),
     );
   }
@@ -158,26 +140,297 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
 }
   /// Методы для генерации точек на карте
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
-List<MuseumPoint> _getMapPointsM(String csvString) {
-  List<List<dynamic>> csvList = CsvToListConverter().convert(csvString);
-  return csvList
-      .skip(1) // Skip header
-      .map((row) => MuseumPoint(
-    name: row[0],
-    latitude: double.parse(row[1]),
-    longitude: double.parse(row[2]),
-  ))
-      .toList();
-}
+List<MuseumPoint> _getMapPointsM() {
+  return const [
+    // ЦФО
+    // Москва
+    MuseumPoint(name: 'Мавзолей В.И. Ленина', // Название точки
+        latitude: 55.753605, // Координаты
+        longitude: 37.619773),
+    MuseumPoint(name: 'Государственная Третьяковская галерея', latitude: 55.741556, longitude: 37.620028),
+    MuseumPoint(name: 'Государственная Третьяковская галерея, галерея Новая Третьяковка', latitude: 55.734719, longitude: 37.605976),
+    MuseumPoint(name: 'Оружейная палата', latitude: 55.749455, longitude: 37.613473),
+    MuseumPoint(name: 'Музей космонавтики', latitude: 55.822710, longitude: 37.639743),
+    MuseumPoint(name: 'Выставка Алмазный фонд Гохрана России', latitude: 55.749593, longitude: 37.613807),
+    MuseumPoint(name: 'Государственный музей А. С. Пушкина', latitude: 55.743575, longitude: 37.597736),
+    MuseumPoint(name: 'Государственный Дарвиновский музей', latitude: 55.690797, longitude: 37.561547),
+    MuseumPoint(name: 'Музей-Диорама Царь-Макет', latitude: 55.817173, longitude: 37.655321),
+    MuseumPoint(name: 'Музей "Московский транспорт"', latitude: 55.742534, longitude: 37.678120),
+    MuseumPoint(name: 'Исторический парк Россия – моя история', latitude: 55.834244, longitude: 37.626269),
+    MuseumPoint(name: 'Музей Холодной войны в Бункер-42 на Таганке', latitude: 55.741754, longitude: 37.649256),
+    MuseumPoint(name: 'Государственный музей Владимира Высоцкого', latitude: 55.744448, longitude: 37.651790),
+    MuseumPoint(name: 'Музей Михаила Афанасьевича Булгакова', latitude: 55.766996, longitude: 37.593880),
+    MuseumPoint(name: 'Музей автомобильных историй В. Попова', latitude: 55.832010, longitude: 37.518757),
+    MuseumPoint(name: 'Ломаковский музей старинных автомобилей и мотоциклов', latitude: 55.674730, longitude: 37.771688),
+    MuseumPoint(name: 'Московский музей современного искусства', latitude: 55.767011, longitude: 37.614227),
+    MuseumPoint(name: 'Государственный музей истории ГУЛАГа', latitude: 55.777088, longitude: 37.613561),
+    MuseumPoint(name: 'Музей Москвы', latitude: 55.736390, longitude: 37.593596),
+    MuseumPoint(name: 'научно-исследовательский музей архитектуры имени А.В. Щусева', latitude: 55.752481, longitude: 37.607368),
+    MuseumPoint(name: 'Государственный музей Востока', latitude: 55.756432, longitude: 37.599815),
+    MuseumPoint(name: 'Музей Победы', latitude: 55.730588, longitude: 37.504063),
+    MuseumPoint(name: 'Музей Вооружённых Сил ', latitude: 55.784916, longitude: 37.617124),
+    MuseumPoint(name: 'Государственный музей обороны Москвы', latitude: 55.676652, longitude: 37.467568),
+    MuseumPoint(name: 'Музей-панорама Бородинская битва', latitude: 55.738752, longitude: 37.523187),
+    MuseumPoint(name: 'Музей Отечественной войны 1812 года', latitude: 55.756234, longitude: 37.618696),
+    MuseumPoint(name: 'Центр современного искусства Винзавод', latitude: 55.755556, longitude: 37.664613),
+    MuseumPoint(name: 'Павильон Макет Москвы', latitude: 55.834390, longitude: 37.630086),
+    MuseumPoint(name: 'Центр творческих индустрий Фабрика', latitude: 55.779214, longitude: 37.689679),
+    MuseumPoint(name: 'Культурный центр ЗИЛ', latitude: 55.714571, longitude: 37.657863),
+    MuseumPoint(name: 'ГЭС-2', latitude: 55.742751, longitude: 37.612732),
+    MuseumPoint(name: 'Музей Собаки', latitude: 55.716696, longitude: 37.595652),
+    MuseumPoint(name: 'Еврейский музей и центр толерантности', latitude: 55.789271, longitude: 37.607867),
+    // Подмосковье
+    MuseumPoint(name: 'Музей коломенской пастилы', latitude: 55.104594, longitude: 38.769860),
+    MuseumPoint(name: 'Музей "Калачная"', latitude: 55.105801, longitude: 38.763801),
+    MuseumPoint(name: 'Музейная Фабрика Пастилы', latitude: 55.102318, longitude: 38.770315),
+    MuseumPoint(name: 'Музей-резиденция Арткоммуналка. Ерофеев и другие', latitude: 55.100945, longitude: 38.756741),
+    MuseumPoint(name: 'Музей Любимой Игрушки', latitude: 55.100945, longitude: 38.756741),
+    MuseumPoint(name: 'Душистыя радости', latitude: 55.105534, longitude: 38.763729),
+    MuseumPoint(name: 'Тайны Коломенской медовуши', latitude: 55.102541, longitude: 38.752147),
+    MuseumPoint(name: 'Музей Сергиевская кухмистерская и ландринная лавка', latitude: 56.312235, longitude: 38.138408),
+    MuseumPoint(name: 'Музей советского детства', latitude: 56.312261, longitude: 38.138397),
+    MuseumPoint(name: 'Музей современного искусства Кибер Зона', latitude: 56.339176, longitude: 38.126295),
+    MuseumPoint(name: 'Музейный комплекс "Конный двор"', latitude: 56.313635, longitude: 38.133183),
+    MuseumPoint(name: 'Музей Арт-Макет', latitude: 56.312128, longitude: 38.137571),
+    MuseumPoint(name: 'Музей впечатлений', latitude: 56.332259, longitude: 38.132504),
+    MuseumPoint(name: 'Музей Назад в СССР', latitude: 55.730600, longitude: 36.852440),
+    MuseumPoint(name: 'Музей истории русского десерта', latitude: 55.731011, longitude: 36.848045),
+    MuseumPoint(name: 'Музей Лего LEts Go', latitude: 55.733327, longitude: 36.824724),
+    MuseumPoint(name: 'Музей Аэрофлота', latitude: 55.982753, longitude: 37.407782),
+    MuseumPoint(name: 'Химкинская картинная галерея им. С.Н. Горшина', latitude: 55.889104, longitude: 37.445551),
+    MuseumPoint(name: 'Дом-музей Николая Седнина', latitude: 55.970945, longitude: 37.315202),
+    MuseumPoint(name: 'Мытищинский историко-художественный музей', latitude: 55.911310, longitude: 37.735419),
+    MuseumPoint(name: 'МУК Музейно-выставочный комплекс', latitude: 55.676853, longitude: 37.894330),
+    MuseumPoint(name: 'Дом-Музей Чайковского П.И.', latitude: 56.328918, longitude: 36.747430),
+    MuseumPoint(name: 'Клинское Подворье', latitude: 56.337918, longitude: 36.721691),
+    MuseumPoint(name: 'Музей Аркадия Гайдара', latitude: 56.336707, longitude: 36.724668),
+    MuseumPoint(name: 'музей Героев-панфиловцев', latitude: 55.985072, longitude: 36.017115),
+    MuseumPoint(name: 'Ярополецкий народный краеведческий музей', latitude: 56.130489, longitude: 35.823193),
+    MuseumPoint(name: 'Интерактивный музей имени Героев-панфиловцев', latitude: 55.981099, longitude: 36.035060),
+    MuseumPoint(name: 'Музей печати', latitude: 54.917825, longitude: 37.424173),
+    MuseumPoint(name: 'Дом-музей П. А. Кропоткина', latitude: 56.341182, longitude: 37.521146),
+    MuseumPoint(name: 'Музей Дмитровской лягушки', latitude: 56.344531, longitude: 37.522309),
+    MuseumPoint(name: 'Дом-музей священномученика Серафима Звездинского, епископа Дмитровского', latitude: 56.338350, longitude: 37.528386),
+    MuseumPoint(name: 'Орехово-Зуевский городской историко-краеведческий музей', latitude: 55.813600, longitude: 38.999664),
+    MuseumPoint(name: 'Дом-музей скульптора А.С. Голубкиной', latitude: 54.759416, longitude: 38.881574),
+    MuseumPoint(name: 'Можайский историко-краеведческий музей', latitude: 55.509646, longitude: 536.014863),
+    MuseumPoint(name: 'Дом-музей С.В. Герасимова', latitude: 55.521269, longitude: 36.010818),
+    MuseumPoint(name: 'Музей боевой славы', latitude: 55.509672, longitude: 36.015323),
+    MuseumPoint(name: 'Музей техники Вадима Задорожного', latitude: 55.795833, longitude: 37.296648),
+    MuseumPoint(name: 'Музейно-выставочный комплекс Новый Иерусалим', latitude: 55.926575, longitude: 36.845210),
+    MuseumPoint(name: 'Центральный музей ВВС', latitude: 55.832871, longitude: 38.182575),
+    // Рязанская область
+    MuseumPoint(name: 'Музей истории Воздушно-десантных войск', latitude: 54.633091, longitude: 39.736315),
+    MuseumPoint(name: 'Рязанский государственный областной художественный музей имени И. П. Пожалостина', latitude: 54.627273, longitude: 39.751188),
+    MuseumPoint(name: 'Мемориальный музей-усадьба академика И.П. Павлова', latitude: 54.631759, longitude: 39.727231),
+    MuseumPoint(name: 'Рязанский музей дальней авиации', latitude: 54.653798, longitude: 39.588518),
+    MuseumPoint(name: 'Музей истории рязанского леденца', latitude: 54.633637, longitude: 39.743662),
+    MuseumPoint(name: 'Историко-мемориальный зал боевой техники и вооружения ВДВ', latitude: 54.613783, longitude: 39.667641),
+    MuseumPoint(name: 'Интерактивный музей сказок Забава', latitude: 54.627272, longitude: 39.744274),
+    MuseumPoint(name: 'Аромат времени', latitude: 54.629799, longitude: 39.736157),
+    // Тамбовская область
+    MuseumPoint(name: 'Усадьба Асеевых', latitude: 52.707157, longitude: 41.477798),
+    MuseumPoint(name: 'Тамбовский областной краеведческий музей', latitude: 52.725193, longitude: 41.453714),
+    MuseumPoint(name: 'Дом-музей Г.В. Чичерина', latitude: 52.715248, longitude: 41.460724),
+    MuseumPoint(name: 'Музей истории шоколада Такф', latitude: 52.723877, longitude: 41.441458),
+    MuseumPoint(name: 'Музейно-выставочный центр Тамбовской области', latitude: 52.722934, longitude: 41.451026),
+    MuseumPoint(name: 'Тамбовская областная картинная галерея', latitude: 52.724682, longitude: 41.456062),
+    MuseumPoint(name: 'Мичуринский краеведческий музей', latitude: 52.894011, longitude: 40.507838),
+    MuseumPoint(name: 'Дом-музей И.В. Мичурина', latitude: 52.898384, longitude: 40.525992),
+    // Воронежская область
+    MuseumPoint(name: 'Воронежский областной художественный музей имени И.Н. Крамского', latitude: 51.673911, longitude: 39.209867),
+    MuseumPoint(name: 'Петровские корабли', latitude: 51.661738, longitude: 39.188083),
+    MuseumPoint(name: 'Воронежский областной краеведческий музей', latitude: 51.666628, longitude: 39.193560),
+    MuseumPoint(name: 'Музей природы Воронежского заповедника', latitude: 51.875599, longitude: 39.652909),
+    MuseumPoint(name: 'Музей И. А. Бунина', latitude: 51.679787, longitude: 39.215283),
+    // Белгородская область
+    MuseumPoint(name: 'Музей-диорама «Курская битва»', latitude: 50.591283, longitude: 36.587800),
+    MuseumPoint(name: 'Белгородский художественный музей', latitude: 50.592766, longitude: 36.586711),
+    MuseumPoint(name: 'Белгородский государственный историко-краеведческий музей', latitude: 50.592369, longitude: 36.588039),
+    MuseumPoint(name: 'Белгородский государственный музей народной культуры', latitude: 50.594849, longitude: 36.589697),
+    MuseumPoint(name: 'Белгородский государственный литературный музей', latitude: 50.597632, longitude: 36.598884),
+    MuseumPoint(name: 'Центр народных промыслов', latitude: 51.281342, longitude: 37.793572),
+    MuseumPoint(name: 'Музей «Прохоровское поле»', latitude: 51.042701, longitude: 36.749264),
+    // Курская область
+    MuseumPoint(name: 'Курский областной краеведческий музей', latitude: 51.727587, longitude: 36.191589),
+    MuseumPoint(name: 'Литературный музей', latitude: 51.742082, longitude: 36.188181),
+    MuseumPoint(name: 'Курск – город воинской славы', latitude: 51.756923, longitude: 36.187768),
+    MuseumPoint(name: 'Историко-мемориальный музей КП Центрального фронта', latitude: 51.971378, longitude: 36.310867),
+    MuseumPoint(name: 'Железногорский краеведческий музей', latitude: 52.343717, longitude: 35.348376),
+    // Орловская область
+    MuseumPoint(name: 'Орловский краеведческий музей', latitude: 52.964147, longitude: 36.068431),
+    MuseumPoint(name: 'Орловский военно-исторический музей', latitude: 52.953142, longitude: 36.063875),
+    MuseumPoint(name: 'Музей коллекционных кукол', latitude: 52.967462, longitude: 36.128420),
+    MuseumPoint(name: 'музей И.С. Тургенева', latitude: 52.967111, longitude: 36.061254),
+    MuseumPoint(name: 'Дом-музей В. А. Русанова', latitude: 52.963290, longitude: 36.087411),
+    MuseumPoint(name: 'Музей И. А. Бунина', latitude: 52.965983, longitude: 36.060983),
+    MuseumPoint(name: 'Дом-музей Леонида Андреева', latitude: 52.961264, longitude: 36.048971),
+    MuseumPoint(name: 'Орловский музей изобразительных искусств', latitude: 52.972268, longitude: 36.058220),
+    // Липецкая область
+    MuseumPoint(name: 'Липецкий областной краеведческий музей', latitude: 52.613984, longitude: 39.608564),
+    MuseumPoint(name: 'Автолегенда', latitude: 52.583095, longitude: 39.566307),
+    MuseumPoint(name: 'Музей НЛМК', latitude: 52.573166, longitude: 39.621266),
+    MuseumPoint(name: 'Липецкий историко-культурный музей', latitude: 52.617903, longitude: 39.582812),
+    MuseumPoint(name: 'Художественный музей имени В.С. Сорокина - Дом Мастера', latitude: 52.609651, longitude: 39.601860),
+    MuseumPoint(name: 'Музей купечества и сословий', latitude: 52.627139, longitude: 38.498348),
+    MuseumPoint(name: 'Литературно-мемориальный музей И. А. Бунина', latitude: 52.618694, longitude: 38.493767),
+    MuseumPoint(name: 'Музей Елецкого кружева', latitude: 52.619734, longitude: 38.501905),
+    // Тульская область
+    MuseumPoint(name: 'Тульский государственный музей оружия', latitude: 54.204272, longitude: 37.616499),
+    MuseumPoint(name: 'Музей Тульский пряник', latitude: 54.211566, longitude: 37.622105),
+    MuseumPoint(name: 'Музей гармони Деда Филимона', latitude: 54.192505, longitude: 37.621713),
+    MuseumPoint(name: 'Музей станка', latitude: 54.191087, longitude: 37.612136),
+    MuseumPoint(name: 'Тульский Историко-архитектурный музей', latitude: 54.190004, longitude: 37.614505),
+    MuseumPoint(name: 'Музей «Тульские древности»', latitude: 54.186354, longitude: 37.610586),
+    MuseumPoint(name: 'Исторический музей', latitude: 54.197853, longitude: 37.617136),
+    MuseumPoint(name: 'Художественно-краеведческий музей', latitude: 54.513200, longitude: 37.093721),
+    MuseumPoint(name: 'Музейно-мемориальный комплекс героям Куликовской битвы', latitude: 53.670591, longitude: 38.642492),
+    MuseumPoint(name: 'Тульские самовары', latitude: 54.194319, longitude: 37.618821),
+    MuseumPoint(name: 'Музей-лаборатория', latitude: 54.197638, longitude: 37.617157),
+    MuseumPoint(name: 'Музей Мото-Авто-АРТ', latitude: 54.154436, longitude: 37.482534),
+    MuseumPoint(name: 'Музей-заповедник Куликово поле', latitude: 53.623942, longitude: 38.672613),
+    MuseumPoint(name: 'Музей купеческого быта', latitude: 53.827551, longitude: 38.554383),
+    MuseumPoint(name: 'Музей Филимоновская игрушка', latitude: 53.936195, longitude: 36.687622),
+    MuseumPoint(name: 'Усадьба Дворяниново', latitude: 54.704284, longitude: 37.557130),
+    MuseumPoint(name: 'Военно-исторический музей', latitude: 54.195905, longitude: 37.619724),
+    // Калужская область
+    MuseumPoint(name: 'Музей истории космонавтики', latitude: 54.516970, longitude: 36.230691),
+    MuseumPoint(name: 'Мемориальный дом-музей К.Э. Циолковского', latitude: 54.511175, longitude: 36.230194),
+    MuseumPoint(name: 'Музейно-краеведческий комплекс Усадьба Золотарёвых', latitude: 54.510688, longitude: 36.245533),
+    MuseumPoint(name: 'Дом-музей А. Л. Чижевского', latitude: 54.518204, longitude: 36.262700),
+    MuseumPoint(name: 'Калужский музей изобразительных искусств', latitude: 54.508683, longitude: 36.256678),
+    MuseumPoint(name: 'Музей стекла Алексея Зеля', latitude: 54.507302, longitude: 36.254671),
+    MuseumPoint(name: 'Музейно-краеведческий центр Палаты Коробовых', latitude: 54.510564, longitude: 36.242695),
+    MuseumPoint(name: 'Военно-исторический центр Маршал Победы - Георгий Константинович Жуков', latitude: 54.516493, longitude: 36.283567),
+    MuseumPoint(name: 'Обнинский музей', latitude: 55.110739, longitude: 36.589871),
+    MuseumPoint(name: 'Художественный музей мусора МУ МУ', latitude: 55.123313, longitude: 36.825582),
+    MuseumPoint(name: 'Планетарий', latitude: 54.516892, longitude: 36.230838),
+    MuseumPoint(name: 'Музей 1812 года', latitude: 55.012118, longitude: 36.473574),
+    MuseumPoint(name: 'Музей-диорама Великое Стояние на реке Угре', latitude: 54.614173, longitude: 35.999558),
+    MuseumPoint(name: 'Тарусский музей семьи Цветаевых', latitude: 54.730868, longitude: 37.175487),
+    MuseumPoint(name: 'Музей Сергея Жарова', latitude: 54.723248, longitude: 37.181724),
+    MuseumPoint(name: 'Мастерская Эдуарда Штейнберга', latitude: 54.715525, longitude: 37.187720),
+    MuseumPoint(name: 'Бузеон', latitude: 54.738701, longitude: 35.995741),
+    MuseumPoint(name: 'Музей Kомпьютеров', latitude: 55.208550, longitude: 36.486071),
+    MuseumPoint(name: 'Музейно-выставочный центр', latitude: 55.203667, longitude: 36.487626),
+    MuseumPoint(name: 'Брянский музей истории фотографии', latitude: 53.244344, longitude: 34.359779),
+    MuseumPoint(name: 'Литературно-Мемориальный Музей Ф.И. Тютчева', latitude: 53.373080, longitude: 33.878620),
+    // Смоленская область
+    MuseumPoint(name: 'Музей Великой Отечественной войны', latitude: 54.779374, longitude: 32.047485),
+    MuseumPoint(name: 'Музей Смоленская крепость, Башня Громовая', latitude: 54.780070, longitude: 32.043756),
+    MuseumPoint(name: 'Художественная галерея', latitude: 54.780461, longitude: 32.046122),
+    MuseumPoint(name: 'Музей Первого полёта', latitude: 55.553629, longitude: 35.004712),
+    // Тверская область
+    MuseumPoint(name: 'Музей козла', latitude:56.853323 , longitude: 35.910438),
+    MuseumPoint(name: 'Музей Плюшкина', latitude: 56.855986, longitude: 35.917648),
+    MuseumPoint(name: 'Музей тверского быта', latitude: 56.866496, longitude: 35.910294),
+    MuseumPoint(name: 'Музей фотографии Искра', latitude: 56.858277, longitude: 35.909846),
+    MuseumPoint(name: 'Ретро-техно-музей ИнтернетаНЕТ', latitude: 56.854410, longitude: 35.910437),
+    MuseumPoint(name: 'Музей Михаила Круга', latitude: 56.850166, longitude: 35.907613),
+    MuseumPoint(name: 'Музей золотного шитья', latitude: 57.031288, longitude: 34.988408),
+    MuseumPoint(name: 'Музей стекла завода Красный май', latitude: 57.588388, longitude: 34.557879),
+    MuseumPoint(name: 'Вышневолоцкий краеведческий музей имени Г. Г. Монаховой', latitude: 57.584851, longitude: 34.560525),
+    MuseumPoint(name: 'Ржевский краеведческий музей', latitude: 56.260367, longitude: 34.330319),
+    MuseumPoint(name: 'Кимрский краеведческий музей', latitude: 56.872847, longitude: 37.355604),
+    // Ярославская область
+    MuseumPoint(name: 'Музыка и время', latitude: 57.630078, longitude: 39.895167),
+    MuseumPoint(name: 'Ярославский художественный музей', latitude: 57.628289, longitude: 39.897206),
+    MuseumPoint(name: 'Музей истории города Ярославля', latitude: 57.627059, longitude: 39.898601),
+    MuseumPoint(name: 'Мультимедийный музей нового взгляда на историю', latitude: 57.632396, longitude: 39.893411),
+    MuseumPoint(name: 'Музей боевой славы', latitude: 57.633218, longitude: 39.831700),
+    MuseumPoint(name: 'Музей им. В. Ю. Орлова', latitude: 57.626421, longitude: 39.899205),
+    MuseumPoint(name: 'Рыбинский музей-заповедник', latitude: 58.049425, longitude: 38.856285),
+    MuseumPoint(name: 'Музей Советская эпоха', latitude: 58.073149, longitude: 38.815925),
+    MuseumPoint(name: 'Музей Мологского края', latitude: 58.047322, longitude: 38.855442),
+    MuseumPoint(name: 'Русская Атлантида', latitude: 58.049220, longitude: 38.855643),
+    MuseumPoint(name: 'Музей гидроэнергетики', latitude: 57.524446, longitude: 38.303831),
+    MuseumPoint(name: 'Музей тюремного искусства Запретная зона', latitude: 57.529452, longitude: 38.321240),
+    MuseumPoint(name: 'Музей Мифы и суеверия русского народа', latitude: 57.523510, longitude: 38.307963),
+    MuseumPoint(name: 'Музей истории велосипедов Самокатъ', latitude: 57.529358, longitude: 38.321423),
+    MuseumPoint(name: 'Музей кожевенного ремесла', latitude: 57.529793, longitude: 38.321620),
+    MuseumPoint(name: 'Музей Царевны-лягушки', latitude: 57.182759, longitude: 39.405209),
+    MuseumPoint(name: 'Музей Народного Искусства', latitude: 57.181900, longitude: 39.403927),
+    MuseumPoint(name: 'Богатырское подворье Алёши Поповича и мастерская Марьи Искусницы', latitude: 57.183159, longitude: 39.402175),
+    MuseumPoint(name: 'Музей Ростовское подворье', latitude: 57.186380, longitude: 39.416443),
+    MuseumPoint(name: 'Ростовская пряница', latitude: 57.181641, longitude: 39.400977),
+    MuseumPoint(name: 'Музей утюга', latitude: 56.734618, longitude: 38.852470),
+    MuseumPoint(name: 'Шоу-макет Золотое кольцо', latitude: 57.626970, longitude: 39.897280),
+    MuseumPoint(name: 'Музей мыши', latitude: 57.783786, longitude: 38.450742),
+    MuseumPoint(name: 'Музей баклуши и библиотека варенья', latitude: 57.311617, longitude: 39.518694),
+    MuseumPoint(name: 'Мышкины палаты', latitude: 57.785626, longitude: 38.453800),
+    MuseumPoint(name: 'Музей радио', latitude: 56.722978, longitude: 38.824372),
+    MuseumPoint(name: 'Лукова слобода', latitude: 57.194430, longitude: 39.402462),
+    // Костромская область
+    MuseumPoint(name: 'Музей сыра', latitude: 57.762517, longitude: 40.930541),
+    MuseumPoint(name: 'Музей-усадьба льна и бересты', latitude: 57.778283, longitude: 40.912275),
+    MuseumPoint(name: 'Дом городского головы Г.Н. Ботникова', latitude: 57.766890, longitude: 40.931561),
+    MuseumPoint(name: 'Романовский музей', latitude: 57.769630, longitude: 40.929817),
+    MuseumPoint(name: 'Музей народных промыслов Петровская игрушка', latitude: 57.769124, longitude: 40.913451),
+    MuseumPoint(name: 'Лес Чудодей', latitude: 57.775469, longitude: 40.903656),
+    MuseumPoint(name: 'Терем Снегурочки', latitude: 57.755679, longitude: 40.950939),
+    // Ивановская область
+    MuseumPoint(name: 'Музей советского автопрома', latitude: 56.996854, longitude: 40.959893),
+    MuseumPoint(name: 'Музей Ивановского ситца', latitude: 57.004843, longitude: 40.973890),
+    MuseumPoint(name: 'Музей промышленности и искусства', latitude: 57.004354, longitude: 40.974172),
+    MuseumPoint(name: 'Ивановский областной художественный музей', latitude: 57.008145, longitude: 40.971791),
+    MuseumPoint(name: 'Мемориальный дом-музей И.И. Левитана', latitude: 57.459304, longitude: 41.523661),
+    // Владимирская область
+    MuseumPoint(name: 'Музей Старый Владимир', latitude: 56.125151, longitude: 40.398685),
+    MuseumPoint(name: 'Дом-музей пряника', latitude: 56.128181, longitude: 40.404515),
+    MuseumPoint(name: 'Музей ложки', latitude: 56.127450, longitude: 40.403348),
+    MuseumPoint(name: 'Кузница-музей Бородиных', latitude:56.126805, longitude: 40.402610),
+    MuseumPoint(name: 'Музей-сказка Бабуся-Ягуся', latitude: 56.127675, longitude: 40.402115),
+    MuseumPoint(name: 'Музей «Старая аптека»', latitude: 56.127253, longitude: 40.402362),
+    MuseumPoint(name: 'Музей хрусталя имени Мальцовых', latitude: 55.619820, longitude: 40.658117),
+    MuseumPoint(name: 'Кибер музей. Музей воспоминаний', latitude: 55.580339, longitude: 42.054271),
+    MuseumPoint(name: 'Хлебная горница', latitude: 55.569142, longitude: 42.021963),
+    MuseumPoint(name: 'Нескучный Mузей Изба Трактир', latitude: 56.417028, longitude: 40.448934),
+    MuseumPoint(name: 'Музей восковых фигур', latitude: 56.418694, longitude: 40.448229),
+    MuseumPoint(name: 'Музей Огни Владимира', latitude: 56.127620, longitude: 40.399929),
+    // СКФО
+    // Ставропольский край
+    MuseumPoint(name: 'Исторический парк Россия - Моя история', latitude: 45.021690, longitude: 41.895405),
+    MuseumPoint(name: 'Ставропольский государственный историко-культурный и природно-ландшафтный музей-заповедник имени Г. Н. Прозрителева и Г. К. Праве', latitude: 45.044704, longitude: 41.968207),
+    MuseumPoint(name: 'Пятигорский краеведческий музей', latitude: 44.036116, longitude: 43.079856),
+    MuseumPoint(name: 'Музей насекомых Экзотариум', latitude: 44.037612, longitude: 43.083546),
+    MuseumPoint(name: 'Домик М. Ю. Лермонтова', latitude: 44.039582, longitude: 43.078808),
+    MuseumPoint(name: 'Россия – моя история', latitude: 44.036370, longitude: 43.013081),
+    MuseumPoint(name: 'Планетарий', latitude: 44.033742, longitude: 43.065160),
+    MuseumPoint(name: 'Зоопарк Берендеево', latitude: 44.033577, longitude: 43.059645),
+    MuseumPoint(name: 'Лермонтовская галерея', latitude: 44.036681, longitude: 43.081991),
+    MuseumPoint(name: 'музей-усадьба художника Николая Александровича Ярошенко', latitude: 43.892832, longitude: 42.718557),
+    MuseumPoint(name: 'Литературно-музыкальный музей Дача Шаляпина', latitude: 43.900877, longitude: 42.722964),
+    MuseumPoint(name: 'Кисловодский историко-краеведческий музей Крепость', latitude: 43.894760, longitude: 42.716415),
+    MuseumPoint(name: 'Музей истории и природы национального парка Кисловодский', latitude: 43.900446, longitude: 42.717017),
+    MuseumPoint(name: 'Информационно-культурный центр Музей А. И. Солженицына', latitude: 43.901304, longitude: 42.724070),
+    MuseumPoint(name: 'Театр-музей «Благодать»', latitude: 43.900442, longitude: 42.726733),
+    MuseumPoint(name: 'Пушкинская галерея', latitude: 44.135037, longitude: 43.031651),
+    MuseumPoint(name: 'Смирновский источник', latitude: 44.137667, longitude: 43.035159),
+    // Карачаево-Черкесская республика
+    MuseumPoint(name: 'Специальная астрофизическая обсерватория', latitude: 43.677138, longitude: 41.457881),
+    MuseumPoint(name: 'Планетарий САО', latitude: 43.675582, longitude: 41.457283),
+    // Кабардино-Балкарская республика
+    MuseumPoint(name: 'Национальный музей КБР', latitude: 43.486557, longitude: 43.608177),
+    MuseumPoint(name: 'Минеральная питьевая галерея «Источник Нальчик»', latitude: 43.456847, longitude: 43.584925),
+    MuseumPoint(name: 'Музей Обороны Приэльбрусья', latitude: 43.290087, longitude: 42.460457),
+    // Республика Северная Осетия — Алания
+    MuseumPoint(name: 'Национальный музей Республики Северная Осетия-Алания', latitude: 43.027313, longitude: 44.680652),
+    MuseumPoint(name: 'Художественный музей имени М. С. Туганова', latitude: 43.028980, longitude: 44.681150),
+    MuseumPoint(name: 'Музей истории Владикавказа', latitude: 43.034926, longitude: 44.682355),
+    // Чечня
+    MuseumPoint(name: 'Музей Чеченской Республики', latitude: 43.324217, longitude: 45.682400),
+    // Дагестан
+    MuseumPoint(name: 'Национальный музей Республики Дагестан', latitude: 42.982774, longitude: 47.510731),
+    MuseumPoint(name: 'Россия – моя история', latitude: 42.968691, longitude: 47.495393),
+    MuseumPoint(name: 'Дагестанский музей изобразительных искусств имени П.С. Гамзатовой', latitude: 42.982373, longitude: 47.510807),
+    MuseumPoint(name: 'Музей-заповедник – этнографический комплекс Дагестанский аул', latitude: 42.982669, longitude: 47.510925),
+    MuseumPoint(name: 'Музей ковры и декоративно-прикладное искусство Дагестана', latitude: 42.057105, longitude: 48.287133),
+    MuseumPoint(name: 'Дом Петра І', latitude: 42.062012, longitude: 48.304128),
+    MuseumPoint(name: 'Музей боевой славы', latitude: 42.069881, longitude: 48.296077),
+    MuseumPoint(name: 'Этно Дом Кубачи', latitude: 42.061562, longitude: 48.304272),
+    MuseumPoint(name: 'Хунзахский музей', latitude: 42.538085, longitude: 46.702862),
 
-Future<List<MuseumPoint>> readCsvFileM(String filePath) async {
-  try {
-    String csvString = await rootBundle.loadString(filePath);
-    return _getMapPointsM(csvString);
-  } catch (e) {
-    print("Error reading CSV file: $e");
-    return [];
-  }
+  ];
 }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
@@ -720,34 +973,32 @@ Future<List<MuseumPoint>> readCsvFileM(String filePath) async {
   }
 
   /// Методы для генерации объектов маркеров для отображения на карте
-  Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(
-      BuildContext context, String csvString) async {
-    List<MuseumPoint> mapPoints = await readCsvFileM('assets/museums_moscow.csv');
-    print(mapPoints);
-    return mapPoints
-        .map(
-          (point) => PlacemarkMapObject(
-        mapId: MapObjectId('MapObject $point'),
-        point: Point(latitude: point.latitude, longitude: point.longitude),
-        opacity: 1,
-        icon: PlacemarkIcon.single(
-          PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage(
-              'assets/museum.png',
+List<PlacemarkMapObject> _getPlacemarkObjectsM(BuildContext context) {
+  return _getMapPointsM()
+      .map(
+        (point) =>
+        PlacemarkMapObject(
+          mapId: MapObjectId('MapObject $point'),
+          point: Point(latitude: point.latitude, longitude: point.longitude),
+          opacity: 1,
+          icon: PlacemarkIcon.single(
+            PlacemarkIconStyle(
+              image: BitmapDescriptor.fromAssetImage(
+                'assets/museum.png',
+              ),
+              scale: 0.15,
             ),
-            scale: 0.15,
+          ),
+          onTap: (_, __) => showModalBottomSheet(
+            context: context,
+            builder: (context) => _ModalBodyViewM(
+              point: point,
+            ),
           ),
         ),
-        onTap: (_, __) => showModalBottomSheet(
-          context: context,
-          builder: (context) => _ModalBodyViewM(
-            point: point,
-          ),
-        ),
-      ),
-    )
-        .toList();
-  }
+  )
+      .toList();
+}
 
 
   List<PlacemarkMapObject> _getPlacemarkObjectsO(BuildContext context) {
