@@ -62,15 +62,6 @@ flutter_icons:
 
 # The following section is specific to Flutter packages.
 flutter:
-<<<<<<< Updated upstream
-=======
-  assets:
-    - assets/museum.png
-    - assets/binoculars.png
-    - assets/trees.png
-    - assets/splash1.png
-
->>>>>>> Stashed changes
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
