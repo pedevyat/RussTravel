@@ -1,15 +1,18 @@
-import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
-
 import '../../domain/location_service.dart';
 import '../../domain/museum_point.dart';
 import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
 import 'clusters_collection.dart';
 import 'package:csv/csv.dart';
+import 'dart:convert';
+import 'dart:io';
+import 'dart:async' show Future;
+import 'package:flutter/services.dart' show rootBundle;
+
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -36,34 +39,45 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Карта открытий')),
-      body: YandexMap(
-        onMapCreated: (controller) async {
-          _mapController = controller;
-          await _mapController.moveCamera(
-            CameraUpdate.newCameraPosition(
-              const CameraPosition(
-                target: Point(
-                  latitude: 50,
-                  longitude: 20,
-                ),
-                zoom: 3,
-              ),
-            ),
-          );
+      body: FutureBuilder<List<PlacemarkMapObject>>(
+        future: _getPlacemarkObjectsM(context, "assets/museums_moscow.csv"),
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return CircularProgressIndicator();
+          } else if (snapshot.hasError) {
+            return Text('Error: ${snapshot.error}');
+          } else {
+            List<PlacemarkMapObject> placemarks = snapshot.data ?? [];
+
+            return YandexMap(
+              onMapCreated: (controller) async {
+                _mapController = controller;
+                await _mapController.moveCamera(
+                  CameraUpdate.newCameraPosition(
+                    const CameraPosition(
+                      target: Point(
+                        latitude: 50,
+                        longitude: 20,
+                      ),
+                      zoom: 3,
+                    ),
+                  ),
+                );
+              },
+              onCameraPositionChanged: (cameraPosition, _, __) {
+                setState(() {
+                  _mapZoom = cameraPosition.zoom;
+                });
+              },
+              mapObjects: [
+                _getClusterizedCollection(placemarks: placemarks).placemarks,
+              ].expand((element) => element).toList(), // Flatten the list
+            );
+          }
         },
-          onCameraPositionChanged: (cameraPosition, _, __) {
-            setState(() {
-              _mapZoom = cameraPosition.zoom;
-            });
-          },
-        mapObjects: [
-          _getClusterizedCollection(placemarks:
-            _getPlacemarkObjectsM(context, 'assets/museums_moscow.csv'),
-    ),
-    ]
-    ),
+      ),
     );
-}
+  }
 //  /// Проверка разрешений на доступ к геопозиции пользователя
 //  Future<void> _initPermission() async {
 //    if (!await LocationService().checkPermission()) {
@@ -142,7 +156,7 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
   /// Методы для генерации точек на карте
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
 List<MuseumPoint> _getMapPointsM(String csvString) {
-  List<List<dynamic>> csvList = const CsvToListConverter().convert(csvString);
+  List<List<dynamic>> csvList = CsvToListConverter().convert(csvString);
   return csvList
       .skip(1) // Skip header
       .map((row) => MuseumPoint(
@@ -151,6 +165,16 @@ List<MuseumPoint> _getMapPointsM(String csvString) {
     longitude: double.parse(row[2]),
   ))
       .toList();
+}
+
+Future<List<MuseumPoint>> readCsvFileM(String filePath) async {
+  try {
+    String csvString = await rootBundle.loadString(filePath);
+    return _getMapPointsM(csvString);
+  } catch (e) {
+    print("Error reading CSV file: $e");
+    return [];
+  }
 }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
   List<ParkPoint> _getMapPointsP() {
@@ -693,9 +717,9 @@ List<MuseumPoint> _getMapPointsM(String csvString) {
   }
 
   /// Методы для генерации объектов маркеров для отображения на карте
-  List<PlacemarkMapObject> _getPlacemarkObjectsM(
-      BuildContext context, String csvString) {
-    List<MuseumPoint> mapPoints = _getMapPointsM(csvString);
+  Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(
+      BuildContext context, String csvString) async {
+    List<MuseumPoint> mapPoints = await readCsvFileM('assets/museums_moscow.csv');
     print(mapPoints);
     return mapPoints
         .map(

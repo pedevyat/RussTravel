@@ -69,6 +69,7 @@ flutter:
     - assets/museum.png
     - assets/binoculars.png
     - assets/trees.png
+    - assets/museums_moscow.csv
 
 
   # The following line ensures that the Material Icons font is
