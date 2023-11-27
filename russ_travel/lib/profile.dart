@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:http/http.dart' as http;
 
 class Profile extends StatefulWidget{
 
@@ -148,6 +148,28 @@ class SignUpPage extends State<SignUp>
 {
 	bool _isPasswordHidden = true;
 	bool _isRepeatPasswordHidden = true;
+	
+	final TextEditingController usernameController = TextEditingController();
+	final TextEditingController emailController = TextEditingController();
+	final TextEditingController passwordController = TextEditingController();
+	
+	Future<void> makePostRequest() async {
+    	String name = usernameController.text;
+    	String email = emailController.text;
+    	String password = passwordController.text;
+
+    	if (name.isNotEmpty && email.isNotEmpty && password.isNotEmpty) {
+      		String url = 'http://127.0.0.1:8000/users?username=$name&email_addr=$email&password=$password';
+      	
+      		try 
+      		{
+        		final response = await http.post(Uri.parse(url));
+        	}
+        	catch (e) {
+        		;
+      		}
+      	}
+	}
 
 	Widget build(BuildContext context) {
 		return new Center
@@ -168,7 +190,9 @@ class SignUpPage extends State<SignUp>
 						new Container
 						(
 							width : 350,
-							child: new TextField(decoration: InputDecoration
+							child: new TextField(
+								controller : usernameController,
+								decoration: InputDecoration
 								(
 								enabledBorder: OutlineInputBorder(borderSide: BorderSide(
             							color: Colors.black,
@@ -189,7 +213,9 @@ class SignUpPage extends State<SignUp>
 						new Container
 						(
 							width : 350,
-							child: new TextField(decoration: InputDecoration
+							child: new TextField(
+								controller : emailController,
+								decoration: InputDecoration
 								(
 								enabledBorder: OutlineInputBorder(borderSide: BorderSide(
             							color: Colors.black,
@@ -212,6 +238,7 @@ class SignUpPage extends State<SignUp>
 							width : 350,
 							child: new TextField(
 								obscureText: _isPasswordHidden,
+								controller : passwordController,
 								decoration: InputDecoration
 								(
 								enabledBorder: OutlineInputBorder(borderSide: BorderSide(
@@ -279,7 +306,7 @@ class SignUpPage extends State<SignUp>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () {},
+								onPressed: () {makePostRequest();},
 								child: Text('Регистрация'),
 								)
 						),
