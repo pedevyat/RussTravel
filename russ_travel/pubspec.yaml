@@ -68,6 +68,7 @@ flutter:
     - assets/museum.png
     - assets/binoculars.png
     - assets/trees.png
+    - assets/splash1.png
 
 
   # The following line ensures that the Material Icons font is

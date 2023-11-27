@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
+import 'profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //title: 'Yandex Map',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.blue,
       ),
       home: MyHomePage(),
     );
@@ -33,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _pages = [
     MapScreen(),
     Container(),
-    Container(),
+    Profile(),
     // Add other pages/screens as needed
     // Example: const YourOtherScreen(),
   ];
@@ -44,6 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
+        selectedItemColor: Color.fromRGBO(0, 108, 167, 1),
         onTap: (int index) {
           setState(() {
             _currentIndex = index;
@@ -59,8 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Статьи',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.info_outline),
-            label: 'О приложении',
+            icon: Icon(Icons.person_outline),
+            label: 'Профиль',
           ),
         ],
       ),
