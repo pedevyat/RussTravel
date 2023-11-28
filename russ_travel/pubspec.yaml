@@ -41,7 +41,10 @@ dependencies:
   permission_handler: ^11.0.1
   flutter_native_splash: ^2.1.3+1
   url_launcher: ^6.0.12
-
+<<<<<<< HEAD
+  csv: ^5.1.1
+=======
+>>>>>>> parent of 2d12e26 (test csv)
 
 dev_dependencies:
   flutter_test:
@@ -69,7 +72,7 @@ flutter:
     - assets/museum.png
     - assets/binoculars.png
     - assets/trees.png
-    - assets/museums.txt
+    - assets/museums_moscow.csv
 
 
   # The following line ensures that the Material Icons font is
