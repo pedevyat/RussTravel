@@ -145,9 +145,7 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
     return const [
       // СЗФО
       // республика Коми
-      MuseumPoint(name: 'Дом-музей И. П. Морозова' , latitude: 61.67259571967766, longitude: 50.840373498693104),
       MuseumPoint(name: 'Пожарная каланча Сыктывкара', latitude: 61.673001, longitude: 50.837413),
-      MuseumPoint(name: 'Национальная галерея Республики Коми' , latitude: 61.66956900, longitude: 50.84247200),
       MuseumPoint(name: 'Национальный музей Республики Коми' , latitude: 61.66909, longitude: 50.83829),
       // Ненецкий АО
       MuseumPoint(name: 'Музей-заповедник «Пустозерск»', latitude: 67.6413, longitude: 53.0070833),
@@ -155,10 +153,8 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Этнокультурный центр Ненецкого автономного округа', latitude: 67.6404610, longitude: 53.0034470),
       // Архангельская область
       MuseumPoint(name: 'Космодром Плесецк', latitude: 62.96, longitude: 40.68),
-      MuseumPoint(name: 'Соловецкий монастырь', latitude: 65.024729, longitude: 35.709728),
       MuseumPoint(name: 'Малые Корелы', latitude: 64.452927, longitude: 40.931691),
       MuseumPoint(name: 'Историко-мемориальный музей М. В. Ломоносова', latitude: 64.22972, longitude: 41.73361),
-      MuseumPoint(name: 'Антониево-Сийский монастырь', latitude: 63.5539, longitude: 41.5560),
       MuseumPoint(name: 'Музей деревянного зодчества «Малые Корелы»', latitude: 64.454843, longitude: 40.951519),
       MuseumPoint(name: 'музей полярного капитана Александра Кучина', latitude: 64.226920, longitude: 41.838274),
       MuseumPoint(name: 'Онежский историко-мемориальный музей', latitude: 63.898530715044, longitude: 38.129629777158),
@@ -175,21 +171,14 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей «Вологодская ссылка»', latitude: 59.215811, longitude: 39.884481),
       MuseumPoint(name: 'Музей металлургической промышленности', latitude: 59.133528533158405, longitude: 37.84594819858926),
       MuseumPoint(name: 'Музей «Подводная лодка Б-440»', latitude: 60.998236, longitude: 36.433181),
-      MuseumPoint(name: 'Дом Засецких', latitude: 59.22389, longitude: 39.87639),
-      MuseumPoint(name: 'Дом-музей А. Ф. Можайского', latitude: 59.199151, longitude: 39.904215),
-      MuseumPoint(name: 'Михайло-Архангельский монастырь в Великом Устюге', latitude: 62.223279, longitude: 50.399606),
       MuseumPoint(name: 'Музей новогодней и рождественской игрушки', latitude: 60.7530, longitude: 46.3117),
       // Мурманская область
-      MuseumPoint(name: 'Святоносский маяк', latitude: 68.13611, longitude: 39.76944),
-      MuseumPoint(name: 'Маяк-мемориал в Мурманске', latitude: 68.970663, longitude: 33.074918),
       MuseumPoint(name: 'Музей ВВС Северного флота', latitude: 69.065369, longitude: 33.294752),
       // Карелия
       MuseumPoint(name: 'Национальный музей Республики Карелия', latitude: 61.786944, longitude: 34.363889),
       MuseumPoint(name: 'Музей изобразительных искусств Республики Карелия', latitude: 61.787778, longitude: 34.382222),
       MuseumPoint(name: 'Музей-заповедник «Кижи»', latitude: 62.084948, longitude: 35.212189),
-      MuseumPoint(name: 'Валаамский монастырь', latitude: 61.388859, longitude: 30.944827),
       MuseumPoint(name: 'Шелтозерский вепсский этнографический музей', latitude: 61.3687, longitude: 35.358),
-      MuseumPoint(name: 'Муромский монастырь', latitude: 61.483, longitude: 36.250),
       MuseumPoint(name: 'Морской музей «Полярный Одиссей»', latitude: 61.779906, longitude: 34.415936),
       // Ленинградская область
       MuseumPoint(name: 'Фондовая площадка списанных поездов «Пионерский парк»', latitude: 59.953224, longitude: 29.399258),
@@ -204,7 +193,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Родовое имение Строгановых-Голицыных – усадьба Марьино', latitude: 59.41806, longitude: 30.90278),
       MuseumPoint(name: 'Музей-усадьба «Рождествено»', latitude: 59.3251, longitude: 29.9359),
       MuseumPoint(name: 'Музей-усадьба Приютино', latitude: 60.03068924, longitude: 30.655017853),
-      MuseumPoint(name: 'Музей-дача А. С. Пушкина', latitude: 59.724167095570365, longitude: 30.400052998613187),
       // Санкт-Петербург
       MuseumPoint(name: 'Исаакиевский собор', latitude: 59.933694, longitude: 30.3061425),
       MuseumPoint(name: 'Эрмитаж', latitude: 59.939844, longitude: 30.314557),
@@ -303,16 +291,11 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей Дмитровской лягушки', latitude: 56.344531, longitude: 37.522309),
       // Рязанская область
       MuseumPoint(name: 'Музей истории Воздушно-десантных войск', latitude: 54.633091, longitude: 39.736315),
-      MuseumPoint(name: 'Рязанский государственный областной художественный музей имени И. П. Пожалостина', latitude: 54.627273, longitude: 39.751188),
-      MuseumPoint(name: 'Мемориальный музей-усадьба академика И.П. Павлова', latitude: 54.631759, longitude: 39.727231),
       MuseumPoint(name: 'Рязанский музей дальней авиации', latitude: 54.653798, longitude: 39.588518),
-      MuseumPoint(name: 'Музей истории рязанского леденца', latitude: 54.633637, longitude: 39.743662),
       // Тамбовская область
       MuseumPoint(name: 'Усадьба Асеевых', latitude: 52.707157, longitude: 41.477798),
       MuseumPoint(name: 'Тамбовский областной краеведческий музей', latitude: 52.725193, longitude: 41.453714),
-      MuseumPoint(name: 'Дом-музей И.В. Мичурина', latitude: 52.898384, longitude: 40.525992),
       // Воронежская область
-      MuseumPoint(name: 'Воронежский областной художественный музей имени И.Н. Крамского', latitude: 51.673911, longitude: 39.209867),
       MuseumPoint(name: 'Петровские корабли', latitude: 51.661738, longitude: 39.188083),
       MuseumPoint(name: 'Воронежский областной краеведческий музей', latitude: 51.666628, longitude: 39.193560),
       // Белгородская область
@@ -327,7 +310,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       // Липецкая область
       MuseumPoint(name: 'Липецкий областной краеведческий музей', latitude: 52.613984, longitude: 39.608564),
       MuseumPoint(name: 'Автолегенда', latitude: 52.583095, longitude: 39.566307),
-      MuseumPoint(name: 'Музей НЛМК', latitude: 52.573166, longitude: 39.621266),
       MuseumPoint(name: 'Музей Елецкого кружева', latitude: 52.619734, longitude: 38.501905),
       // Тульская область
       MuseumPoint(name: 'Тульский государственный музей оружия', latitude: 54.204272, longitude: 37.616499),
@@ -335,7 +317,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей гармони Деда Филимона', latitude: 54.192505, longitude: 37.621713),
       MuseumPoint(name: 'Музей станка', latitude: 54.191087, longitude: 37.612136),
       MuseumPoint(name: 'Тульский Историко-архитектурный музей', latitude: 54.190004, longitude: 37.614505),
-      MuseumPoint(name: 'Музей «Тульские древности»', latitude: 54.186354, longitude: 37.610586),
       MuseumPoint(name: 'Исторический музей', latitude: 54.197853, longitude: 37.617136),
       MuseumPoint(name: 'Музейно-мемориальный комплекс героям Куликовской битвы', latitude: 53.670591, longitude: 38.642492),
       MuseumPoint(name: 'Музей-заповедник Куликово поле', latitude: 53.623942, longitude: 38.672613),
@@ -345,9 +326,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музейно-краеведческий комплекс Усадьба Золотарёвых', latitude: 54.510688, longitude: 36.245533),
       MuseumPoint(name: 'Военно-исторический центр Маршал Победы - Георгий Константинович Жуков', latitude: 54.516493, longitude: 36.283567),
       MuseumPoint(name: 'Музей-диорама Великое Стояние на реке Угре', latitude: 54.614173, longitude: 35.999558),
-      MuseumPoint(name: 'Тарусский музей семьи Цветаевых', latitude: 54.730868, longitude: 37.175487),
-      MuseumPoint(name: 'Музей Сергея Жарова', latitude: 54.723248, longitude: 37.181724),
-      MuseumPoint(name: 'Мастерская Эдуарда Штейнберга', latitude: 54.715525, longitude: 37.187720),
       MuseumPoint(name: 'Бузеон', latitude: 54.738701, longitude: 35.995741),
       // Смоленская область
       MuseumPoint(name: 'Музей Великой Отечественной войны', latitude: 54.779374, longitude: 32.047485),
@@ -356,8 +334,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей козла', latitude:56.853323 , longitude: 35.910438),
       MuseumPoint(name: 'Музей Плюшкина', latitude: 56.855986, longitude: 35.917648),
       MuseumPoint(name: 'Музей тверского быта', latitude: 56.866496, longitude: 35.910294),
-      MuseumPoint(name: 'Ржевский краеведческий музей', latitude: 56.260367, longitude: 34.330319),
-      MuseumPoint(name: 'Кимрский краеведческий музей', latitude: 56.872847, longitude: 37.355604),
       // Ярославская область
       MuseumPoint(name: 'Музыка и время', latitude: 57.630078, longitude: 39.895167),
       MuseumPoint(name: 'Ярославский художественный музей', latitude: 57.628289, longitude: 39.897206),
@@ -372,16 +348,12 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Богатырское подворье Алёши Поповича и мастерская Марьи Искусницы', latitude: 57.183159, longitude: 39.402175),
       MuseumPoint(name: 'Музей Ростовское подворье', latitude: 57.186380, longitude: 39.416443),
       MuseumPoint(name: 'Ростовская пряница', latitude: 57.181641, longitude: 39.400977),
-      MuseumPoint(name: 'Музей утюга', latitude: 56.734618, longitude: 38.852470),
       MuseumPoint(name: 'Шоу-макет Золотое кольцо', latitude: 57.626970, longitude: 39.897280),
-      MuseumPoint(name: 'Музей мыши', latitude: 57.783786, longitude: 38.450742),
       MuseumPoint(name: 'Музей баклуши и библиотека варенья', latitude: 57.311617, longitude: 39.518694),
       MuseumPoint(name: 'Мышкины палаты', latitude: 57.785626, longitude: 38.453800),
       // Костромская область
-      MuseumPoint(name: 'Музей сыра', latitude: 57.762517, longitude: 40.930541),
       MuseumPoint(name: 'Музей-усадьба льна и бересты', latitude: 57.778283, longitude: 40.912275),
       // Ивановская область
-      MuseumPoint(name: 'Музей советского автопрома', latitude: 56.996854, longitude: 40.959893),
       MuseumPoint(name: 'Музей Ивановского ситца', latitude: 57.004843, longitude: 40.973890),
       // Владимирская область
       MuseumPoint(name: 'Музей Старый Владимир', latitude: 56.125151, longitude: 40.398685),
@@ -392,15 +364,12 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей Огни Владимира', latitude: 56.127620, longitude: 40.399929),
       // СКФО
       // Ставропольский край
-      MuseumPoint(name: 'Исторический парк Россия - Моя история', latitude: 45.021690, longitude: 41.895405),
       MuseumPoint(name: 'Ставропольский государственный историко-культурный и природно-ландшафтный музей-заповедник имени Г. Н. Прозрителева и Г. К. Праве', latitude: 45.044704, longitude: 41.968207),
       MuseumPoint(name: 'Пятигорский краеведческий музей', latitude: 44.036116, longitude: 43.079856),
       MuseumPoint(name: 'Домик М. Ю. Лермонтова', latitude: 44.039582, longitude: 43.078808),
-      MuseumPoint(name: 'Россия – моя история', latitude: 44.036370, longitude: 43.013081),
       MuseumPoint(name: 'Кисловодский историко-краеведческий музей Крепость', latitude: 43.894760, longitude: 42.716415),
       MuseumPoint(name: 'Музей истории и природы национального парка Кисловодский', latitude: 43.900446, longitude: 42.717017),
       // Карачаево-Черкесская республика
-      MuseumPoint(name: 'Специальная астрофизическая обсерватория', latitude: 43.677138, longitude: 41.457881),
       MuseumPoint(name: 'Планетарий САО', latitude: 43.675582, longitude: 41.457283),
       // Кабардино-Балкарская республика
       MuseumPoint(name: 'Национальный музей КБР', latitude: 43.486557, longitude: 43.608177),
@@ -414,7 +383,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей Чеченской Республики', latitude: 43.324217, longitude: 45.682400),
       // Дагестан
       MuseumPoint(name: 'Национальный музей Республики Дагестан', latitude: 42.982774, longitude: 47.510731),
-      MuseumPoint(name: 'Россия – моя история', latitude: 42.968691, longitude: 47.495393),
       MuseumPoint(name: 'Дагестанский музей изобразительных искусств имени П.С. Гамзатовой', latitude: 42.982373, longitude: 47.510807),
       MuseumPoint(name: 'Музей-заповедник – этнографический комплекс Дагестанский аул', latitude: 42.982669, longitude: 47.510925),
       MuseumPoint(name: 'Музей ковры и декоративно-прикладное искусство Дагестана', latitude: 42.057105, longitude: 48.287133),
@@ -425,15 +393,9 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Национальный музей Республики Татарстан',
           latitude: 55.795712,
           longitude: 49.109801),
-      MuseumPoint(name: 'Музей Социалистического Быта',
-          latitude: 55.787088,
-          longitude: 49.119781),
       MuseumPoint(name: 'Музей Чак-Чака',
           latitude: 55.782046,
           longitude: 49.112496),
-      MuseumPoint(name: 'Музей Константина Васильева',
-          latitude: 55.790069,
-          longitude: 49.116646),
       MuseumPoint(name: 'Музей иллюзий',
           latitude: 55.791638,
           longitude: 49.113556),
@@ -449,9 +411,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей Е. А. Боратынского, филиал Национального музея Республики Татарстан',
           latitude: 55.79387,
           longitude: 49.135421),
-      MuseumPoint(name: 'Музей оружия Дух Воина',
-          latitude: 55.798768,
-          longitude: 49.106171),
       MuseumPoint(name: 'Музей-квартира Мусы Джалиля',
           latitude: 55.794072,
           longitude: 49.132214),
@@ -560,36 +519,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Республиканский историко-культурный музей-заповедник Древняя Уфа',
           latitude: 54.733974025182896,
           longitude: 55.9468867281723),
-      MuseumPoint(name: 'Музей современного искусства имени Наиля Латфуллина',
-          latitude: 54.73289755743139,
-          longitude: 55.94484680489321),
-      MuseumPoint(name: 'Музей истории Башкирской организации Всероссийского общества слепых городского округа город Уфа РБ',
-          latitude: 54.72892141235827,
-          longitude: 55.96444884854879),
-      MuseumPoint(name: 'Музей истории органов безопасности управления ФСБ',
-          latitude: 54.728530260538825,
-          longitude: 55.94978438095095),
-      MuseumPoint(name: 'Национальный литературный музей Республики Башкортостан',
-          latitude: 54.728883,
-          longitude: 55.976621),
-      MuseumPoint(name: 'Музей Министерства внутренних дел по Республике Башкортостан',
-          latitude: 54.726871,
-          longitude: 55.950013),
-      MuseumPoint(name: 'Музей Почты УФПС РБ, Почта России',
-          latitude: 54.726418,
-          longitude: 55.947938),
-      MuseumPoint(name: 'Музей полярников имени В.И. Альбанова',
-          latitude: 54.725758,
-          longitude: 55.936853),
-      MuseumPoint(name: 'Башкирский государственный художественный музей имени Михаила Васильевича Нестерова',
-          latitude: 54.7245174812755,
-          longitude: 55.93606949933623),
-      MuseumPoint(name: 'Музей развития образования Республики Башкортостан',
-          latitude: 54.72396760870022,
-          longitude: 55.937245965606685),
-      MuseumPoint(name: 'Мемориальный дом-музей Мажита Гафури',
-          latitude: 54.722789,
-          longitude: 55.936584),
       MuseumPoint(name: 'Музей археологии и этнографии Института этнологических исследований им. Р.Г. Кузеева',
           latitude: 54.721068,
           longitude: 55.939216),
@@ -608,12 +537,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей истории парламента Республики Башкортостан',
           latitude: 54.717792,
           longitude: 55.946339),
-      MuseumPoint(name: 'Мемориальный дом-музей А.Э. Тюлькина',
-          latitude: 54.714724,
-          longitude: 55.945432),
-      MuseumPoint(name: 'Дом-музей С.Т. Аксакова',
-          latitude: 54.713455,
-          longitude: 55.951603),
       
       // Пермь
       MuseumPoint(name: 'Музей Пермского отделения Свердловской железной дороги',
@@ -811,7 +734,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       // Вологодская область
       ParkPoint(name: 'Вотчина Деда Мороза', latitude: 60.749116, longitude: 46.183799),
       ParkPoint(name: 'Национальный парк «Русский Север»', latitude: 59.8535, longitude: 38.3676),
-      ParkPoint(name: 'Дарвинский заповедник', latitude: 65.014714, longitude: 95.464412),
       // Мурманская область
       ParkPoint(name: 'Кандалакшский заповедник', latitude: 66.766237, longitude: 33.632615),
       ParkPoint(name: 'Лапландский заповедник', latitude: 67.651389, longitude: 32.6475),
@@ -848,7 +770,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       ParkPoint(name: 'Невский проспект', latitude: 59.932473, longitude: 30.349169),
       ParkPoint(name: 'Дворцовая площадь', latitude: 59.938982, longitude: 30.315500),
       ParkPoint(name: 'Стрелка Васильевского острова', latitude: 59.944167, longitude: 30.306667),
-      ParkPoint(name: 'Атланты', latitude: 33.7490, longitude: 84.3880),
       ParkPoint(name: 'Петропавловская крепость', latitude: 59.9500019, longitude: 30.3166718),
       ParkPoint(name: 'Казанский собор', latitude: 59.9342278, longitude: 30.3245944),
       ParkPoint(name: 'Александринский, latitude: театр', latitude: 59.93208400, longitude: 30.33637700),
@@ -886,7 +807,6 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       // Псковская область
       ParkPoint(name: 'Себежский национальный парк', latitude: 56.164027, longitude: 28.347572),
       ParkPoint(name: 'Полистовский заповедник', latitude: 57.17083, longitude: 30.55694),
-      ParkPoint(name: 'Трутневская пещера', latitude: 44.14529, longitude: 40.05257),
       // Калининградская область
       ParkPoint(name: 'Сосновый бор в городе Пионерский', latitude: 54.956787, longitude: 20.252761),
       ParkPoint(name: 'Парк Фихтенвальде', latitude: 54.586667, longitude: 22.167500),
