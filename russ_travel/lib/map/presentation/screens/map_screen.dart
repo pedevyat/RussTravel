@@ -125,12 +125,30 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Усадьба-музей М. А. Шолохова в станице Вёшенской', // Название точки
           latitude: 49.626463, // Координаты
           longitude: 41.728758),
-      /*MuseumPoint(name: 'Усадьба-музей М. А. Шолохова в станице Вёшенской', // Название точки
-          latitude: 49.626463, // Координаты
-          longitude: 41.728758),
-      MuseumPoint(name: 'Усадьба-музей М. А. Шолохова в станице Вёшенской', // Название точки
-          latitude: 49.626463, // Координаты
-          longitude: 41.728758),*/
+      MuseumPoint(name: 'Азовский историко-археологический и палеонтологический музей-заповедник', // Название точки
+          latitude: 47.111707, // Координаты
+          longitude: 39.423549),
+      MuseumPoint(name: 'Музей «Лавка Чеховых» в Таганроге', // Название точки
+          latitude: 47.215958, // Координаты
+          longitude: 38.918060),
+      MuseumPoint(name: 'Новочеркасский Атаманский дворец-музей', // Название точки
+          latitude: 47.409413, // Координаты
+          longitude: 40.101561),
+      MuseumPoint(name: 'Старочеркасский музей-заповедник', // Название точки
+          latitude: 47.237337, // Координаты
+          longitude: 40.039041),
+      MuseumPoint(name: 'Донская государственная публичная библиотека', // Название точки
+          latitude: 47.228934, // Координаты
+          longitude: 39.726761),
+      MuseumPoint(name: 'Ливенцовская крепость', // Название точки
+          latitude: 47.223240, // Координаты
+          longitude: 39.559134),
+      MuseumPoint(name: 'Домик Чехова в Таганроге', // Название точки
+          latitude: 47.206864, // Координаты
+          longitude: 38.931255),
+      MuseumPoint(name: 'Парамоновские склады', // Название точки
+          latitude: 47.218429, // Координаты
+          longitude: 39.727050),
     ];
   }
   /// Популярные, знаменитые парки, музеи под открытым небом (икзампел: парк Галицкого (Краснодар), Самбекские высоты, парк Зарядье)
@@ -138,14 +156,43 @@ class _MapScreenState extends State<MapScreen> {
     return const [
       ParkPoint(
           name: 'Парк Зарядье', latitude: 55.751238, longitude: 37.627762),
+      ParkPoint(
+          name: 'Гинкго Парк', latitude: 47.401337, longitude: 40.071135),
+      ParkPoint(
+          name: 'Парк «Малинки»', latitude: 47.745672, longitude: 40.088963),
+      ParkPoint(
+          name: 'Этно-археологический комплекс «Затерянный Мир»', latitude: 47.518159, longitude: 40.610807),
+      ParkPoint(
+          name: 'Парк Лога в хуторе Старая Станица', latitude: 48.351304, longitude: 40.295224),
+      ParkPoint(
+          name: 'Самбекские высоты', latitude: 47.317856, longitude: 39.012731),
+      ParkPoint(
+          name: 'Набережная Ростова-на-Дону', latitude: 47.217242, longitude: 39.726807),
+      ParkPoint(
+          name: 'Ботанический сад ЮФУ', latitude: 47.231051, longitude: 39.659632),
+      ParkPoint(
+          name: 'Мемориальный комплекс «Кумженская роща»', latitude: 47.185104, longitude: 39.618411),
+      ParkPoint(
+          name: 'Заповедник «Золотые горки»', latitude: 47.441969, longitude: 40.390649),
+      ParkPoint(
+          name: 'Природный парк Цимлянские пески', latitude: 48.169465, longitude: 42.676384),
     ];
   }
   /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
   List<OutsidePoint> _getMapPointsO() {
     return const [
-      OutsidePoint(name: 'Останкинская башня',
-          latitude: 55.819721,
-          longitude: 37.611704),
+      OutsidePoint(
+          name: 'Останкинская башня', latitude: 55.819721,  longitude: 37.611704),
+      OutsidePoint(
+          name: 'Маяк в Мержаново', latitude: 47.287558,  longitude: 39.155729),
+      OutsidePoint(
+          name: 'Длинный Каньон или озеро Эльдорадо', latitude: 48.229026,  longitude: 40.349915),
+      OutsidePoint(
+          name: 'Колесо обозрения «Одно небо»', latitude: 47.229193,  longitude: 39.743147),
+      OutsidePoint(
+          name: 'Горы Две Сестры в Белой Калитве', latitude: 48.120806,  longitude: 39.743147),
+      OutsidePoint(
+          name: 'Озеро Маныч-Гудило', latitude: 46.297787,  longitude: 42.840934),
     ];
   }
 
