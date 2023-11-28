@@ -755,6 +755,32 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
       MuseumPoint(name: 'Музей В.И. Чапаева',
           latitude: 56.116167,
           longitude: 47.257376),
+      // ЮФО
+      // Ростовская область
+      MuseumPoint(name: 'Ростовский музей космонавтики', // Название точки
+          latitude: 47.211245, // Координаты
+          longitude: 39.619703),
+      MuseumPoint(name: 'Ростовский областной музей изобразительных искусств', // Название точки
+          latitude: 47.225709, // Координаты
+          longitude: 39.715807),
+      MuseumPoint(name: 'Музей железнодорожной техники Северо-Кавказской железной дороги', // Название точки
+          latitude: 47.190481, // Координаты
+          longitude: 39.636225),
+      MuseumPoint(name: 'Археологический музей-заповедник «Танаис»', // Название точки
+          latitude: 47.269111, // Координаты
+          longitude: 39.334555),
+      MuseumPoint(name: 'Новочеркасский музей истории Донского казачества', // Название точки
+          latitude: 47.412306, // Координаты
+          longitude: 40.104314),
+      MuseumPoint(name: 'Аксайский военно-исторический музей', // Название точки
+          latitude: 47.271300, // Координаты
+          longitude: 39.891289),
+      MuseumPoint(name: 'Волгодонский музей истории донской народной культуры «Казачий курень»', // Название точки
+          latitude: 47.496935, // Координаты
+          longitude: 42.185392),
+      MuseumPoint(name: 'Усадьба-музей М. А. Шолохова в станице Вёшенской', // Название точки
+          latitude: 49.626463, // Координаты
+          longitude: 41.728758),
 
     ];
   }
@@ -1203,6 +1229,28 @@ ClusterizedPlacemarkCollection _getClusterizedCollection({
           name: 'Мемориальный Парк Победы', latitude: 56.14742850642577, longitude: 47.26801031877135),
       ParkPoint(
           name: 'сквер имени Н.И. Пирогова', latitude: 56.141578, longitude: 47.21829),
+      // ЮФО
+      // Ростовская область
+      ParkPoint(
+          name: 'Гинкго Парк', latitude: 47.401337, longitude: 40.071135),
+      ParkPoint(
+          name: 'Парк «Малинки»', latitude: 47.745672, longitude: 40.088963),
+      ParkPoint(
+          name: 'Этно-археологический комплекс «Затерянный Мир»', latitude: 47.518159, longitude: 40.610807),
+      ParkPoint(
+          name: 'Парк Лога в хуторе Старая Станица', latitude: 48.351304, longitude: 40.295224),
+      ParkPoint(
+          name: 'Самбекские высоты', latitude: 47.317856, longitude: 39.012731),
+      ParkPoint(
+          name: 'Набережная Ростова-на-Дону', latitude: 47.217242, longitude: 39.726807),
+      ParkPoint(
+          name: 'Ботанический сад ЮФУ', latitude: 47.231051, longitude: 39.659632),
+      ParkPoint(
+          name: 'Мемориальный комплекс «Кумженская роща»', latitude: 47.185104, longitude: 39.618411),
+      ParkPoint(
+          name: 'Заповедник «Золотые горки»', latitude: 47.441969, longitude: 40.390649),
+      ParkPoint(
+          name: 'Природный парк Цимлянские пески', latitude: 48.169465, longitude: 42.676384),
 
     ];
   }
