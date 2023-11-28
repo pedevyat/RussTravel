@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
 import 'profile.dart';
-import 'articles.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 0;
   final List<Widget> _pages = [
     MapScreen(),
-    JsonScreen(),
+    Container(),
     Profile(),
     // Add other pages/screens as needed
     // Example: const YourOtherScreen(),
