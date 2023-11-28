@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
 import 'profile.dart';
+import 'articles/screens/article_list_screen.dart';
+import 'information/info_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       //title: 'Yandex Map',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
       ),
       home: MyHomePage(),
     );
@@ -30,11 +32,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 0;
+  int _currentIndex = 2;
   final List<Widget> _pages = [
     MapScreen(),
-    Container(),
+    ArticleListScreen(),
     Profile(),
+    InformationWidget(),
     // Add other pages/screens as needed
     // Example: const YourOtherScreen(),
   ];
@@ -44,8 +47,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         currentIndex: _currentIndex,
-        selectedItemColor: Color.fromRGBO(0, 108, 167, 1),
+        backgroundColor: Color.fromRGBO(0, 108, 167, 1),
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white54,
         onTap: (int index) {
           setState(() {
             _currentIndex = index;
@@ -63,6 +69,10 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.person_outline),
             label: 'Профиль',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.info_outline),
+            label: 'О приложении',
           ),
         ],
       ),
