@@ -4,8 +4,8 @@ class Osetia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body:
-        Column(
+        body: SingleChildScrollView(
+        child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Image.network(
@@ -20,11 +20,12 @@ class Osetia extends StatelessWidget {
                 'Но на этой территории такое множество природных красот и исторических памятников, что для полноценного изучения здешних мест в самостоятельном режиме мы бы рекомендовали неделю. ' +
                 'Республика славится интересными локациями, живописной природой и гостеприимными жителями. Разработано множество туристических направлений для последовательного ознакомления гостей Северной Осетии с ее достопримечательностями. Практически во все туры включено посещение горных аулов Цамад, Лац и Цымити, старинных святилищ, Даргавского некрополя, Дзивгисской крепости и других удивительных мест. ' +
                   'Материал: https://bolshayastrana.com/blog/severnaya-osetiya-letom-80'  ,
-                style: TextStyle(fontSize: 15),
+                style: TextStyle(fontSize: 17),
               ),
             ),
           ],
-        )
+        ),
+        ),
     );
   }
 }

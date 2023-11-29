@@ -32,14 +32,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 2;
+  int _currentIndex = 3;
   final List<Widget> _pages = [
     MapScreen(),
     ArticleListScreen(),
     Profile(),
     InformationWidget(),
-    // Add other pages/screens as needed
-    // Example: const YourOtherScreen(),
   ];
 
   @override
