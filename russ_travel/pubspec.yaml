@@ -70,6 +70,8 @@ flutter:
     - assets/trees.png
     - assets/splash1.png
     - assets/splash.png
+    - assets/info.txt
+    - assets/north_caucasus/osetia.txt
 
 
   # The following line ensures that the Material Icons font is
