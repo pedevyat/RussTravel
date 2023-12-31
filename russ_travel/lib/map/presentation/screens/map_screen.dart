@@ -363,6 +363,30 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Кирха Святого Якоба', latitude: 54.618200, longitude: 21.231529),
       MuseumPoint(name: 'Кирха Куменена', latitude: 54.820339, longitude: 20.212478),
 
+      // Сибирь
+
+      // Омская область
+      MuseumPoint(name: 'Государственный литературный музей им. Ф. М. Достоевского', latitude: 54.983603, longitude: 73.368796),
+      MuseumPoint(name: 'Кафедральный собор Успения Божией Матери', latitude: 54.990158, longitude: 73.366838),
+      MuseumPoint(name: 'Музей изобразительных искусств им. М. А. Врубеля', latitude: 54.988319, longitude: 73.372606),
+      MuseumPoint(name: 'Городской музей «Искусство Омска»', latitude: 54.98587, longitude: 73.364445),
+      MuseumPoint(name: 'Ачаирский женский монастырь', latitude: 54.665662, longitude: 73.817262),
+      MuseumPoint(name: 'Никольский Казачий собор', latitude: 54.977629, longitude: 73.379411),
+      MuseumPoint(name: '«Эрмитаж-Сибирь»', latitude: 54.985073, longitude: 73.372856),
+      MuseumPoint(name: 'Воскресенский военный собор', latitude: 54.985262, longitude: 73.367017),
+      MuseumPoint(name: 'Музей просвещения', latitude: 54.985748, longitude: 73.37254),
+      MuseumPoint(name: 'Собор Воздвижения Креста Господня', latitude: 54.997206, longitude: 73.368645),
+      MuseumPoint(name: 'Государственный историко-краеведческий музей', latitude: 54.980086, longitude: 73.378352),
+      MuseumPoint(name: 'Крепость', latitude: 54.989347, longitude: 73.368221),
+      MuseumPoint(name: 'Пожарная каланча', latitude: 54.991328, longitude: 73.37074),
+      MuseumPoint(name: 'Особняк купца Батюшкова', latitude: 54.975086, longitude: 73.378022),
+      MuseumPoint(name: 'Музей воинской славы омичей', latitude: 54.984455, longitude: 73.366188),
+      MuseumPoint(name: 'Кафедральный собор Рождества Христова', latitude: 54.994149, longitude: 73.290865),
+      MuseumPoint(name: 'Дом художника', latitude: 54.981351, longitude: 73.376204),
+      MuseumPoint(name: 'Художественный музей «Либеров-центр»', latitude: 54.983728, longitude: 73.382625),
+      MuseumPoint(name: 'Музей Кондратия Белова', latitude: 54.974517, longitude: 73.38057),
+      MuseumPoint(name: 'Историко-культурный комплекс «Старина Сибирская»', latitude: 56.096102, longitude: 74.642265),
+
 
 
 
