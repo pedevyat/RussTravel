@@ -596,6 +596,42 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Высота Эфа', latitude: 55.221127, longitude: 20.906135),
 
 
+      // Сибирь
+
+      // Омская область
+    ParkPoint(name: 'Деревня Окунево', latitude: 56.442976, longitude: 74.906802),
+    ParkPoint(name: 'Археологический парк Батаково', latitude: 56.193504, longitude: 74.321414),
+    ParkPoint(name: 'Черноозерье', latitude: 55.740147, longitude: 73.991301),
+    ParkPoint(name: 'Баировский заказник', latitude: 56.091376, longitude: 73.331600),
+    ParkPoint(name: 'Заказник Пойма Любинская', latitude: 55.223056, longitude: 72.965278),
+    ParkPoint(name: 'Бор Чернолучье', latitude: 55.261805, longitude: 73.022148),
+    ParkPoint(name: 'Камышловский лог', latitude: 55.023734, longitude: 71.041731),
+    ParkPoint(name: 'Курумбельская степь', latitude: 54.416667, longitude: 75.416667),
+    ParkPoint(name: 'Петропавловский сосновый бор', latitude: 56.417356, longitude: 75.298346),
+    ParkPoint(name: 'Чертов палец', latitude: 55.715427, longitude: 74.304886),
+    ParkPoint(name: 'Чудская гора', latitude: 57.177124, longitude: 73.762335),
+    ParkPoint(name: 'Остров Кировский', latitude: 54.951870, longitude: 73.363532),
+    ParkPoint(name: 'Святой источник Часовня', latitude: 56.201649, longitude: 73.271688),
+    ParkPoint(name: 'Природный парк «Птичья гавань»', latitude: 54.972938, longitude: 73.351189),
+    ParkPoint(name: 'Парк Победы', latitude: 54.9614, longitude: 73.358879),
+    ParkPoint(name: 'Памятник сантехнику', latitude: 54.985364, longitude: 73.374412),
+    ParkPoint(name: 'Сквер имени Дзержинского', latitude: 54.989546, longitude: 73.374065),
+    ParkPoint(name: 'Тобольские ворота', latitude: 54.985184, longitude: 73.362476),
+    ParkPoint(name: 'Государственный академический театр драмы', latitude: 54.987923, longitude: 73.371232),
+    ParkPoint(name: 'Скульптура «Люба»', latitude: 54.986009, longitude: 73.374706),
+    ParkPoint(name: 'Памятник Ф. М. Достоевскому', latitude: 54.985135, longitude: 73.367803),
+    ParkPoint(name: 'Дендропарк', latitude: 54.733234, longitude: 73.640673),
+    ParkPoint(name: 'Пешеходная улица Чокана Валиханова', latitude: 54.9747, longitude: 73.381202),
+    ParkPoint(name: 'Филармония', latitude: 54.977102, longitude: 73.379007),
+    ParkPoint(name: 'Тарские ворота', latitude: 54.987686, longitude: 73.368012),
+    ParkPoint(name: 'Парк культуры и отдыха имени 30-летия ВЛКСМ', latitude: 54.970541, longitude: 73.422039),
+    ParkPoint(name: 'Омские ворота', latitude: 54.984534, longitude: 73.370711),
+    ParkPoint(name: 'Сад «Сибирь»', latitude: 55.01606, longitude: 73.420502),
+    ParkPoint(name: 'Парк культуры и отдыха «Зелёный остров»', latitude: 55.004633, longitude: 73.33627),
+    ParkPoint(name: 'Иртышская набережная', latitude: 54.960369, longitude: 73.378875),
+
+
+
 
 
 
