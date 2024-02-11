@@ -72,6 +72,12 @@ flutter:
     - assets/splash.png
     - assets/info.txt
     - assets/north_caucasus/osetia.txt
+    - assets/north_caucasus/kbr.txt
+    - assets/north_caucasus/ingushetia.txt
+    - assets/north_caucasus/chechnya.txt
+    - assets/north_caucasus/dagestan.txt
+    - assets/north_caucasus/kmv.txt
+    - assets/north_caucasus/stavropol.txt
     - assets/out_points.json
     - assets/museum_points.json
 

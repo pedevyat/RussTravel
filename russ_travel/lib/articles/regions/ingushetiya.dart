@@ -1,31 +1,45 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 class Ingushetia extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Image.network(
-              'https://static.tildacdn.com/tild6430-6361-4566-b037-633131653334/DSCF9411.jpg',
-              height: 200,
-              fit: BoxFit.cover,
-            ),
-            Padding(
-              padding: EdgeInsets.all(16.0),
-              child: Text(
-                'Ингушетия находится на Северном Кавказе. Республика граничит с Северной Осетией, Чечнёй и Грузией. Последнее обстоятельство следует учитывать при подготовке к путешествию. Дело в том, что часть маршрутов проходит по территории погранзоны. ' +
-                'Значительную часть территории республики занимают горы. Они являются главным центром притяжения туристов. По площади Ингушетия считается самым малым регионом среди субъектов Федерации.' +
-                    'Главными достопримечательностями республики являются живописная природа и древние памятники. В Ингушетии вы попадаете в Средние века. Общее число родовых башен, построенных в древности, превышает две тысячи! По меркам того времени это были настоящие небоскрёбы. Самым крупным башенным комплексом считаются Вовнушки. В республике сохранился один из старейших христианских храмов в России — Тхаба-Ерды. В Ингушетию едут поправить здоровье местной минеральной водичкой, а также посетить заповедник Эрзи, который славится разнообразием флоры и фауны.' +
-              'Материал: https://www.vpoxod.ru/page/toponym/ingushetiya_info',
-                style: TextStyle(fontSize: 17),
-              ),
-            ),
-          ],
+      body: SingleChildScrollView(
+        child: FutureBuilder(
+          future: loadDescription(),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.done) {
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  Image.network(
+                    'https://vmeste-rf.tv/upload/resize_cache/iblock/bd8/1040_650_2/lori_0006626453_a6.jpg',
+                    height: 200,
+                    fit: BoxFit.cover,
+                  ),
+                  Padding(
+                    padding: EdgeInsets.all(16.0),
+                    child: Text(
+                      snapshot.data ?? '',
+                      style: TextStyle(fontSize: 18),
+                    ),
+                  ),
+                ],
+              );
+            } else {
+              return Center(
+                child: CircularProgressIndicator(),
+              );
+            }
+          },
         ),
-        ),
+      ),
     );
+  }
+
+
+  Future<String> loadDescription() async {
+    return await rootBundle.loadString('assets/north_caucasus/ingushetia.txt');
   }
 }

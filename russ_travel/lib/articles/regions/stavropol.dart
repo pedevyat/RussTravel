@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Kbr extends StatelessWidget {
+class Stavropol extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +14,7 @@ class Kbr extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://krahmal07.ru/images/sosruko1.jpg',
+                    'https://sfr.gov.ru/files/branches/stavropol/1_1.%5B1%5D.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),
@@ -40,6 +40,6 @@ class Kbr extends StatelessWidget {
 
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/north_caucasus/kbr.txt');
+    return await rootBundle.loadString('assets/north_caucasus/stavropol.txt');
   }
 }
