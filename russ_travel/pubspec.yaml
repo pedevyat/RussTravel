@@ -73,6 +73,7 @@ flutter:
     - assets/info.txt
     - assets/north_caucasus/osetia.txt
     - assets/out_points.json
+    - assets/museum_points.json
 
 
   # The following line ensures that the Material Icons font is

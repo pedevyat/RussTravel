@@ -25,4 +25,13 @@ class MuseumPoint extends Equatable {
 
   @override
   List<Object?> get props => [name, latitude, longitude];
+
+  /// Создание объекта OutsidePoint из JSON данных
+  factory MuseumPoint.fromJson(Map<String, dynamic> json) {
+    return MuseumPoint(
+      name: json['name'],
+      latitude: json['latitude'],
+      longitude: json['longitude'],
+    );
+  }
 }
