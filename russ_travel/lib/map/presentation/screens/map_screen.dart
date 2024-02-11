@@ -1,6 +1,8 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 
@@ -1417,7 +1419,7 @@ class _MapScreenState extends State<MapScreen> {
   //   ];
   // }
 
-  // /// Методы для генерации объектов маркеров для отображения на карте
+// /// Методы для генерации объектов маркеров для отображения на карте
   // List<PlacemarkMapObject> _getPlacemarkObjectsM(BuildContext context) {
   //   return _getMapPointsM()
   //       .map(
@@ -1447,24 +1449,32 @@ class _MapScreenState extends State<MapScreen> {
 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
-  final List<OutsidePoint> points = await OutsidePoint.readPointsFromFile('assets/out_points.json');
-  return points.map((point) => PlacemarkMapObject(
-    mapId: MapObjectId('MapObject $point'),
-    point: Point(latitude: point.latitude, longitude: point.longitude),
-    opacity: 1,
-    icon: PlacemarkIcon.single(
-      PlacemarkIconStyle(
-        image: BitmapDescriptor.fromAssetImage('assets/binoculars.png'),
-        scale: 0.15,
-      ),
-    ),
-    onTap: (_, __) => showModalBottomSheet(
-      context: context,
-      builder: (context) => _ModalBodyViewO(
-        point: point,
-      ),
-    ),
-  )).toList();
+  try {
+    final jsonString = await rootBundle.loadString('assets/out_points.json');
+    final List<dynamic> pointsData = json.decode(jsonString);
+    return pointsData.map((data) {
+      final point = OutsidePoint.fromJson(data);
+      return PlacemarkMapObject(
+        mapId: MapObjectId('MapObject $point'),
+        point: Point(latitude: point.latitude, longitude: point.longitude),
+        opacity: 1,
+        icon: PlacemarkIcon.single(
+          PlacemarkIconStyle(
+            image: BitmapDescriptor.fromAssetImage('assets/binoculars.png'),
+            scale: 0.15,
+          ),
+        ),
+        onTap: (_, __) => showModalBottomSheet(
+          context: context,
+          builder: (context) => _ModalBodyViewO(
+            point: point,
+          ),
+        ),
+      );
+    }).toList();
+  } catch (e) {
+    throw Exception('Ошибка при загрузке данных: $e');
+  }
 }
 
 // List<PlacemarkMapObject> _getPlacemarkObjectsP(BuildContext context) {

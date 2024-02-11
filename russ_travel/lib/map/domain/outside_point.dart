@@ -33,15 +33,15 @@ class OutsidePoint extends Equatable {
     );
   }
 
-  /// Считывание списка точек из файла
-  static Future<List<OutsidePoint>> readPointsFromFile(String filePath) async {
-    final file = File(filePath);
-    try {
-      final jsonString = await file.readAsString();
-      final List<dynamic> pointsData = json.decode(jsonString);
-      return pointsData.map((data) => OutsidePoint.fromJson(data)).toList();
-    } catch (e) {
-      throw Exception('Файл не считывается: $e');
-    }
-  }
-}
+//   /// Считывание списка точек из файла
+//   static Future<List<OutsidePoint>> readPointsFromFile(String filePath) async {
+//     final file = File(filePath);
+//     try {
+//       final jsonString = await file.readAsString();
+//       final List<dynamic> pointsData = json.decode(jsonString);
+//       return pointsData.map((data) => OutsidePoint.fromJson(data)).toList();
+//     } catch (e) {
+//       throw Exception('Файл не считывается: $e');
+//     }
+//   }
+ }
