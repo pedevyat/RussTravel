@@ -777,6 +777,7 @@ class _MapScreenState extends State<MapScreen> {
   //     ParkPoint(name: 'Национальный парк Калевальский', latitude: 64.99167, longitude: 30.2125),
   //     ParkPoint(name: 'Парк Ваккосалми', latitude: 61.705583, longitude: 30.677228),
   //     ParkPoint(name: 'Карельский Зоопарк', latitude: 61.994236, longitude: 30.778658),
+  //     ParkPoint(name: 'Беломорские петроглифы', latitude: 64.498089, longitude: 34.674721
   //     // Ленинградская область
   //     ParkPoint(name: 'Заповедник «Монрепо»', latitude: 60.732939, longitude: 28.727617),
   //     ParkPoint(name: 'Дудергофские высоты', latitude: 59.697778, longitude: 30.133611),
@@ -1195,257 +1196,395 @@ class _MapScreenState extends State<MapScreen> {
   //
   //   ];
   // }
-  /// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
-  // List<OutsidePoint> _getMapPointsO() {
-  //   return const [
-  //     // Северо-Западный округ
-  //     // республика Коми
-  //     OutsidePoint(name: 'Столбы выветривания', latitude: 62.221329, longitude: 59.305196),
-  //     OutsidePoint(name: 'Гора Народная', latitude: 65.0349, longitude: 60.1150),
-  //     OutsidePoint(name: 'Гора Манарага', latitude: 65.039679, longitude: 59.76726),
-  //     OutsidePoint(name: 'Гора Еркусей (Шаман-Гора)', latitude: 65.221364, longitude: 60.348099),
-  //     OutsidePoint(name: 'Урочище Медвежья Пещера', latitude: 62, longitude: 58.733),
-  //     // Ненецкий АО
-  //     OutsidePoint(name: 'смотровая площадка в морпорту (Нарьян-Мар)', latitude: 67.64667, longitude: 52.99417),
-  //     // Архангельская область
-  //     // Вологодская область
-  //     // Мурманская область
-  //     OutsidePoint(name: 'Бараний лоб у озера Семёновское', latitude: 68.99472, longitude: 33.07222),
-  //     OutsidePoint(name: 'Кандалакшский берег', latitude: 66.778056, longitude: 33.395278),
-  //     // Карелия
-  //     OutsidePoint(name: 'Гора Воттоваара', latitude: 63.074251, longitude: 32.623114),
-  //     OutsidePoint(name: 'Гора Нуорунен', latitude: 66.144722, longitude: 30.244722),
-  //     // Ленинградская область
-  //     OutsidePoint(name: '«Скала любви»', latitude: 61.0638, longitude: 28.8705),
-  //     OutsidePoint(name: 'Большие скалы', latitude: 61.166667, longitude: 29.7),
-  //     // СаНкт-Петербург
-  //     OutsidePoint(name: 'Мосты', latitude: 59.942222, longitude: 30.338611),
-  //     OutsidePoint(name: 'Остров «Новая Голландия»', latitude: 59.9292549, longitude: 30.2898002),
-  //     OutsidePoint(name: 'Кронштадт', latitude: 59.9954100, longitude: 29.7666800),
-  //     // Новгородская область
-  //     // Псковская область
-  //     // Калининградская область
-  //     OutsidePoint(name: 'Куршская коса', latitude: 54.9757564, longitude: 20.520279),
-  //     // ЦФО
-  //     // Москва
-  //     OutsidePoint(name: 'Останкинская башня', latitude: 55.819721, longitude: 37.611704),
-  //     OutsidePoint(name: 'Смотровая площадка PANORAMA360 в ММДЦ «Москва-Сити»', latitude: 55.749900, longitude: 37.537237),
-  //     OutsidePoint(name: 'Воробьёвы горы', latitude: 55.709382, longitude: 37.542250),
-  //     OutsidePoint(name: 'Смотровая площадка «Выше Только Любовь»', latitude: 55.749310, longitude: 37.534445),
-  //     OutsidePoint(name: 'Центральная Смотровая ЦДМ', latitude: 55.760094, longitude: 37.624905),
-  //     OutsidePoint(name: 'Московская монорельсовая транспортная система', latitude: 55.821831, longitude: 37.611940),
-  //     OutsidePoint(name: 'Солнце Москвы', latitude: 55.826726, longitude: 37.626548),
-  //     OutsidePoint(name: 'Колесо обозрения в парке развлечений «Сказка»', latitude: 55.772172, longitude: 37.434791),
-  //     OutsidePoint(name: 'Колесо обозрения в парке «Сокольники»', latitude: 55.793959, longitude: 37.673886),
-  //     OutsidePoint(name: 'Колесо обозрения у Измайловского Кремля', latitude: 55.770178, longitude: 37.750795),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 55.744499, longitude: 37.605863),
-  //     OutsidePoint(name: 'Парящий мост', latitude: 55.749475, longitude: 37.629421),
-  //     OutsidePoint(name: 'Смотровая площадка гостиницы Украина', latitude: 55.751226, longitude: 37.565686),
-  //     OutsidePoint(name: 'Смотровая площадка РАН', latitude: 55.712352, longitude: 37.578231),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 55.667756, longitude: 37.671868),
-  //     // Подмосковье
-  //     OutsidePoint(name: 'Колесо Обозрения в Коломне', latitude: 55.085006, longitude: 38.779664),
-  //     OutsidePoint(name: 'Блинная Гора', latitude: 56.307346, longitude: 38.134955),
-  //     OutsidePoint(name: 'Смотровая площадка на Мясиной горе с видом на Монастырь', latitude: 55.722621, longitude: 36.823454),
-  //     OutsidePoint(name: 'Смотровая площадка «Взлетка»', latitude: 55.978974, longitude: 37.454069),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 55.894169, longitude: 37.459792),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 55.825835, longitude: 37.329516),
-  //     OutsidePoint(name: 'Смотровая Площадка Серпуховского Кремля', latitude: 54.916198, longitude: 37.403439),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 54.928715, longitude: 37.443329),
-  //     OutsidePoint(name: 'Смотровая площадка на Оке', latitude: 54.883552, longitude: 37.426449),
-  //     OutsidePoint(name: 'Смотровая площадка у Высоцкого монастыря', latitude: 54.901623, longitude: 37.417605),
-  //     OutsidePoint(name: 'Водонапорная башня 1916 года', latitude: 54.763601, longitude: 38.876740),
-  //     // Рязанская область
-  //     OutsidePoint(name: 'Трубежная набережная Рязани', latitude: 54.635996, longitude: 39.747434),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 54.695335, longitude: 39.799284),
-  //     // Тамбовская область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 52.725928, longitude: 41.458772),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 52.886222, longitude: 40.517541),
-  //     // Воронежская область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 51.707600, longitude: 39.161592),
-  //     OutsidePoint(name: 'Белая Гора', latitude: 51.775253, longitude: 39.238990),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 51.709187, longitude: 39.253297),
-  //     OutsidePoint(name: 'Второй трамвайный уровень Северного моста', latitude: 51.691492, longitude: 39.241238),
-  //     // Белгородская область
-  //     // Курская область
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 52.313456, longitude: 35.405467),
-  //     // Орловская область
-  //     // Липецкая область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 52.604598, longitude: 39.605584),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 52.609591, longitude: 39.602388),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 52.613811, longitude: 39.610487),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 52.627619, longitude: 38.497407),
-  //     OutsidePoint(name: 'Аргамачья гора', latitude: 52.625200, longitude: 38.519176),
-  //     OutsidePoint(name: 'Вид с железнодорожного моста', latitude: 52.605626, longitude: 38.512191),
-  //     OutsidePoint(name: 'Воронов камень', latitude: 52.568691, longitude: 38.385172),
-  //     OutsidePoint(name: 'Скальный массив Звонари', latitude: 52.575115, longitude: 38.352527),
-  //     // Тульская область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 54.191777, longitude: 37.637566),
-  //     // Калужская область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 54.505699, longitude: 36.248211),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 54.505671, longitude: 36.246033),
-  //     OutsidePoint(name: 'Смотровая вышка', latitude: 54.514107, longitude: 36.223148),
-  //     // Брянская область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 53.271217, longitude: 34.366968),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 53.239101, longitude: 34.373795),
-  //     OutsidePoint(name: 'Покровская гора', latitude: 53.244345, longitude: 34.373596),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 53.272183, longitude: 34.364794),
-  //     // Смоленская область
-  //     OutsidePoint(name: 'Соборная гора', latitude: 54.788160, longitude: 32.053921),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 54.785733, longitude: 32.043963),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 54.790954, longitude: 32.046370),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 54.781745, longitude: 32.037866),
-  //     // Тверская область
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 56.862765, longitude: 35.904145),
-  //     OutsidePoint(name: 'Гора Соборная', latitude: 56.259488, longitude: 34.340268),
-  //     // Ярославская область
-  //     OutsidePoint(name: 'Колесо обозрения Золотое кольцо', latitude: 57.614730, longitude: 39.867405),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 57.621222, longitude: 39.889858),
-  //     OutsidePoint(name: 'Смотровая площадка Ростовского Кремля', latitude: 57.184805, longitude: 39.417399),
-  //     OutsidePoint(name: 'Смотровая площадка Спасо-Яковлевского Димитриевого монастыря', latitude: 57.173740, longitude: 39.391197),
-  //     OutsidePoint(name: 'Александрова гора', latitude: 56.781946, longitude: 38.831655),
-  //     // Костромская область
-  //     OutsidePoint(name: 'Смотровая площадка на Лысой горе', latitude: 57.746661, longitude: 40.895281),
-  //     // Ивановская область
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 57.002970, longitude: 40.976711),
-  //     // Владимирская область
-  //     OutsidePoint(name: 'Небо 33', latitude: 56.141940, longitude: 40.415969),
-  //     OutsidePoint(name: 'Круговой обзор', latitude: 55.578913, longitude: 42.059214),
-  //     OutsidePoint(name: 'Смотровая площадка водонапорной башни', latitude: 56.125157, longitude: 40.398710),
-  //     OutsidePoint(name: 'Лысая гора', latitude: 56.192535, longitude: 42.653795),
-  //     // СКФО
-  //     // Ставропольский край
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 45.043220, longitude: 41.974087),
-  //     OutsidePoint(name: 'Солдатская площадь', latitude: 45.049111, longitude: 41.973722),
-  //     OutsidePoint(name: 'Кафедральная площадь', latitude: 45.050200, longitude: 41.978990),
-  //     OutsidePoint(name: 'Смотровая площадка', latitude: 45.013711, longitude: 41.806532),
-  //     OutsidePoint(name: 'Михайловская гора', latitude: 44.040272, longitude: 43.086749),
-  //     OutsidePoint(name: 'Ленинские скалы', latitude: 44.047067, longitude: 43.081855),
-  //     OutsidePoint(name: 'гора Машук', latitude: 44.051173, longitude: 43.086021),
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 43.903138, longitude: 42.718733),
-  //     OutsidePoint(name: 'Красное солнышко', latitude: 43.899595, longitude: 42.750645),
-  //     OutsidePoint(name: 'Гора Крестовая', latitude: 43.899077, longitude: 42.720327),
-  //     OutsidePoint(name: 'Гора Сосновая 912 метров', latitude: 43.893118, longitude: 42.723574),
-  //     OutsidePoint(name: 'Солдатская горка 930 м', latitude: 43.891076, longitude: 42.713399),
-  //     OutsidePoint(name: 'Серые камни', latitude: 43.898425, longitude: 42.733343),
-  //     OutsidePoint(name: 'Скала Человек', latitude: 43.889208, longitude: 42.753648),
-  //     OutsidePoint(name: 'Гора Пикет', latitude: 43.884246, longitude: 42.731947),
-  //     OutsidePoint(name: 'Малое Седло', latitude: 43.885329, longitude: 42.767483),
-  //     OutsidePoint(name: 'Гора Шульгач', latitude: 43.883650, longitude: 42.782546),
-  //     OutsidePoint(name: 'Лермонтовская скала', latitude: 43.868414, longitude: 42.737716),
-  //     OutsidePoint(name: 'Большое Седло', latitude: 43.886953, longitude: 42.788444),
-  //     OutsidePoint(name: 'Гора Кольцо', latitude: 43.941463, longitude: 42.693632),
-  //     OutsidePoint(name: 'Гора Железная', latitude: 44.138927, longitude: 43.030363),
-  //     OutsidePoint(name: 'Селитряные скалы', latitude: 44.156088, longitude: 43.044073),
-  //     OutsidePoint(name: 'Гора Медовая', latitude: 44.134700, longitude: 43.009238),
-  //     OutsidePoint(name: 'Гора Бештау', latitude: 44.098030, longitude: 43.022101),
-  //     OutsidePoint(name: 'Гора Малый Бештау', latitude: 44.106559, longitude: 43.017597),
-  //     OutsidePoint(name: 'Гора Острая', latitude: 44.118432, longitude: 42.997505),
-  //     // Карачаево-Черкесская республика
-  //     OutsidePoint(name: 'Смотровая площадка в парке «Зеленый остров» ', latitude: 44.229066, longitude: 42.042612),
-  //     OutsidePoint(name: 'Плато Бермамыт', latitude: 43.711662, longitude: 42.441171),
-  //     OutsidePoint(name: 'Архыз', latitude: 43.543067, longitude: 41.181210),
-  //     OutsidePoint(name: 'Домбай', latitude: 43.285625, longitude: 41.636821),
-  //     // Кабардино-Балкарская республика
-  //     OutsidePoint(name: 'Гора Малая Кизиловка', latitude: 43.460676, longitude: 43.599715),
-  //     OutsidePoint(name: 'Гора Эльбрус 5642 м', latitude: 43.352469, longitude: 42.437890),
-  //     OutsidePoint(name: 'Гора Чегет', latitude: 43.245183, longitude: 42.522966),
-  //     OutsidePoint(name: 'Старая канатка', latitude: 43.437437, longitude: 43.593747),
-  //     // Республика Северная Осетия - Алания
-  //     OutsidePoint(name: 'Колесо обозрения', latitude: 43.027721, longitude: 44.677123),
-  //     OutsidePoint(name: 'Лысая гора', latitude: 42.987858, longitude: 44.640031),
-  //     OutsidePoint(name: 'Перевал Архонский', latitude: 42.831182, longitude: 44.212334),
-  //     OutsidePoint(name: 'Колесо Балсага', latitude: 42.850126, longitude: 44.442852),
-  //     // Республика Ингушетия
-  //     OutsidePoint(name: 'Горнолыжный комплекс Армхи', latitude: 42.806741, longitude: 44.704836),
-  //     // Чечня
-  //     OutsidePoint(name: 'Лестница в небеса', latitude: 43.267089, longitude: 45.717265),
-  //     // Дагестан
-  //     OutsidePoint(name: 'Гора Тарки-тау', latitude: 42.940136, longitude: 47.453922),
-  //     OutsidePoint(name: 'Гора Пушкин Тау', latitude: 42.559511, longitude: 47.843461),
-  //     OutsidePoint(name: 'Сулакский Каньон', latitude: 43.021772, longitude: 46.826379),
-  //     OutsidePoint(name: 'Водопад Тобот', latitude: 42.554626, longitude: 46.719536),
-  //     OutsidePoint(name: 'Смотровая площадка на Хунзахский каньон', latitude: 42.553516, longitude: 46.721629),
-  //
-  //     // ПФО
-  //     // Самара
-  //     OutsidePoint(name: 'Колесо обозрения "Очень большое"',
-  //         latitude: 53.23052682641655,
-  //         longitude: 50.19808242858878),
-  //
-  //     // Казань
-  //     OutsidePoint(name: 'Колесо обозрения "Вокруг света"',
-  //         latitude: 55.815461656463896,
-  //         longitude: 49.132394811916576),
-  //
-  //     // Нижний Новгород
-  //     OutsidePoint(name: 'Колесо обозрения "НиНо"',
-  //         latitude: 56.32414999756274,
-  //         longitude: 44.03585564133977),
-  //     // Уфа
-  //     OutsidePoint(name: 'Висячий мост',
-  //         latitude: 54.71192834078426,
-  //         longitude: 55.95434360517114),
-  //     OutsidePoint(name: 'Водонапорная башня',
-  //         latitude: 54.722108,
-  //         longitude: 55.918878),
-  //     // Пермь
-  //     OutsidePoint(name: 'Башня смерти',
-  //         latitude: 57.994908,
-  //         longitude: 56.25394),
-  //     OutsidePoint(name: 'Пермская телебашня',
-  //         latitude: 58.005672,
-  //         longitude: 56.291185),
-  //     // Ижевск
-  //     OutsidePoint(name: 'Водонапорная башня 1915 года',
-  //         latitude: 56.850934,
-  //         longitude: 53.207708),
-  //     // Ульяновск
-  //     OutsidePoint(name: 'Башня Ульяновск',
-  //         latitude: 54.31421523455141,
-  //         longitude: 48.501870608675546),
-  //     // Оренбург
-  //     OutsidePoint(name: 'Бывшая водонапорная башня',
-  //         latitude: 51.77502,
-  //         longitude: 55.107466),
-  //     // Пенза
-  //     OutsidePoint(name: 'Оборонительный вал',
-  //         latitude: 53.1826740251631,
-  //         longitude: 45.01523053110502),
-  //     // Чебоксары
-  //     OutsidePoint(name: 'Шупашкар',
-  //         latitude: 56.14849686323186,
-  //         longitude: 47.25917475335799),
-  //   ];
-  // }
+/*/// Открытые виды, пространства (икзампел: гора Машук, колесо обозрения в парке Революции, Лахта-центр)
+List<OutsidePoint> _getMapPointsO() {
+  return const [
 
-// /// Методы для генерации объектов маркеров для отображения на карте
-  // List<PlacemarkMapObject> _getPlacemarkObjectsM(BuildContext context) {
-  //   return _getMapPointsM()
-  //       .map(
-  //         (point) =>
-  //         PlacemarkMapObject(
-  //           mapId: MapObjectId('MapObject $point'),
-  //           point: Point(latitude: point.latitude, longitude: point.longitude),
-  //           opacity: 1,
-  //           icon: PlacemarkIcon.single(
-  //             PlacemarkIconStyle(
-  //               image: BitmapDescriptor.fromAssetImage(
-  //                 'assets/museum.png',
-  //               ),
-  //               scale: 0.15,
-  //             ),
-  //           ),
-  //           onTap: (_, __) => showModalBottomSheet(
-  //             context: context,
-  //             builder: (context) => _ModalBodyViewM(
-  //               point: point,
-  //             ),
-  //           ),
-  //         ),
-  //   )
-  //       .toList();
-  // }
+    // Северо-Западный округ
+
+    // республика Коми
+    OutsidePoint(name: 'Столбы выветривания', latitude: 62.221329, longitude: 59.305196),
+    OutsidePoint(name: 'Гора Народная', latitude: 65.0349, longitude: 60.1150),
+    OutsidePoint(name: 'Гора Манарага', latitude: 65.039679, longitude: 59.76726),
+    OutsidePoint(name: 'Водопад Буредан', latitude: 68.728056, longitude: 65.352222),
+    OutsidePoint(name: 'Гора Еркусей (Шаман-Гора)', latitude: 65.221364, longitude: 60.348099),
+    OutsidePoint(name: 'Урочище Медвежья Пещера', latitude: 62, longitude: 58.733),
+
+    // Ненецкий АО
+    OutsidePoint(name: 'Река Печора', latitude: 67.683622, longitude: 52.490428),
+    OutsidePoint(name: 'Река Пеша', latitude: 66.793508, longitude: 47.726111),
+    OutsidePoint(name: 'Река Ома', latitude: 66.686917, longitude: 46.374264),
+    OutsidePoint(name: 'Река Индига', latitude: 67.459386, longitude: 49.378361),
+    OutsidePoint(name: 'Чёшская губа', latitude: 67.330048, longitude: 46.500698),
+    OutsidePoint(name: 'Печорская губа', latitude: 68.661447, longitude: 54.997287),
+    OutsidePoint(name: 'Поморский пролив', latitude: 68.604739, longitude: 50.284267),
+    OutsidePoint(name: 'Остров Колгуев', latitude: 69.107757, longitude: 49.119853),
+    OutsidePoint(name: 'Озеро Голодная Губа', latitude: 67.863923, longitude: 52.721486),
+    OutsidePoint(name: 'Озеро Урдюжское', latitude: 67.238474, longitude: 50.180269),
+    OutsidePoint(name: 'Сульские водопады', latitude: 66.895059, longitude: 49.538057),
+    OutsidePoint(name: 'Остров Вайгач', latitude: 70.016667, longitude: 59.55),
+    OutsidePoint(name: 'Каньон «Большие ворота»', latitude: 67.314353, longitude: 49.314534),
+    OutsidePoint(name: 'Памятник комару нефтянику', latitude: 65.987386, longitude: 57.563046),
+    OutsidePoint(name: 'смотровая площадка в морпорту (Нарьян-Мар)', latitude: 67.64667, longitude: 52.99417),
+    OutsidePoint(name: 'озеро Хутыто', latitude: 68.01827, longitude: 59.664273),
+    OutsidePoint(name: 'озеро Сейзасрёто', latitude: 68.695883, longitude: 60.850163),
+    OutsidePoint(name: 'озеро Большое Камбальничье', latitude: 68.6257, longitude: 52.6056),
+    OutsidePoint(name: 'озеро Ошкото', latitude: 67.746175, longitude: 57.229256),
+
+    // Архангельская область
+    OutsidePoint(name: 'Кий-остров', latitude: 64.0022, longitude: 37.8783),
+    OutsidePoint(name: 'Обсерватория им. Эрнста Кренкеля', latitude: 80.452222, longitude: 58.051758),
+    OutsidePoint(name: 'р. Северная Двина', latitude: 62.730779, longitude: 43.258597),
+    OutsidePoint(name: 'Мыс Пур-Наволок', latitude: 64.475624, longitude: 40.507180),
+    OutsidePoint(name: 'Озеро Лача', latitude: 61.333333, longitude: 61.333333),
+    OutsidePoint(name: 'Белое море', latitude: 66.1119, longitude: 38.2338),
+    OutsidePoint(name: 'р. Пинега', latitude: 59.821, longitude: 33.506),
+
+    // Вологодская область
+    OutsidePoint(name: 'Водопад Падун', latitude: 63.882736, longitude: 34.310450),
+    OutsidePoint(name: 'Урочище Опоки', latitude: 56.906, longitude: 30.816),
+    OutsidePoint(name: 'Село Сизьма', latitude: 59.4142, longitude: 38.7083),
+    OutsidePoint(name: 'село Горицы', latitude: 59.8711194, longitude: 38.2588892),
+
+    // Мурманская область
+    OutsidePoint(name: 'Кольский залив', latitude: 69.135, longitude: 33.466),
+    OutsidePoint(name: 'село Териберка', latitude: 69.16417, longitude: 35.14056),
+    OutsidePoint(name: 'Хибины (горы)', latitude: 67.730312, longitude: 33.710057),
+    OutsidePoint(name: 'Юдычвумчорр', latitude: 67.734722, longitude: 33.726111),
+    OutsidePoint(name: 'Мемориал «Алёша»', latitude: 68.993056, longitude: 33.071667),
+    OutsidePoint(name: 'Сейдозеро', latitude: 67.814984, longitude: 34.848857),
+    OutsidePoint(name: 'оз. Ловно', latitude: 66.84029700, longitude: 35.17272900),
+    OutsidePoint(name: 'Аметисты мыса Корабль', latitude: 66.294072, longitude: 36.389342),
+    OutsidePoint(name: 'Кузоменьские пески', latitude: 66.284025, longitude: 36.861819),
+    OutsidePoint(name: 'Сейды', latitude: 69.186468, longitude: 35.127593),
+    OutsidePoint(name: 'Семёновское озеро', latitude: 68.991556, longitude: 33.089920),
+    OutsidePoint(name: 'Ловозерские тундры', latitude: 67.845833, longitude: 34.669722),
+    OutsidePoint(name: 'Село Варзуга', latitude: 68.974749, longitude: 33.059807),
+    OutsidePoint(name: 'Амазониты горы Парусная', latitude: 67.6491139, longitude: 37.1807667),
+    OutsidePoint(name: 'Водопад на реке Шуонийок', latitude: 69.346, longitude: 30.046),
+    OutsidePoint(name: 'Озеро Комсозеро', latitude: 67.7430389, longitude: 30.9230528),
+    OutsidePoint(name: '«Юкспоррлак»', latitude: 67.6655583, longitude: 33.8548583),
+    OutsidePoint(name: 'Бараний лоб у озера Семёновское', latitude: 68.99472, longitude: 33.07222),
+    OutsidePoint(name: '«Гранитоиды острова Микков»', latitude: 66.706207, longitude: 33.011705),
+    OutsidePoint(name: '«Лечебные грязи Палкиной губы»', latitude: 67.062575, longitude: 32.289436),
+    OutsidePoint(name: 'Губа Воронья', latitude: 66.766237, longitude: 33.632615),
+    OutsidePoint(name: 'Кандалакшский берег', latitude: 66.778056, longitude: 33.395278),
+
+    // Карелия
+    OutsidePoint(name: 'Водопад Кивач', latitude: 62.268000, longitude: 33.980384),
+    OutsidePoint(name: 'Вулкан Гирвас', latitude: 62.484776, longitude: 33.670096),
+    OutsidePoint(name: 'Гора Воттоваара', latitude: 63.074251, longitude: 32.623114),
+    OutsidePoint(name: 'Ладожское озеро', latitude: 60.785, longitude: 31.715),
+    OutsidePoint(name: 'Остров Валаам', latitude: 61.3899, longitude: 30.9471),
+    OutsidePoint(name: 'Водопад «Белые мосты»', latitude: 61.7551484, longitude: 31.4160496),
+    OutsidePoint(name: 'Беломорские петроглифы', latitude: 4.52247560835693, longitude: 34.76414969865403),
+    OutsidePoint(name: 'Гора Нуорунен', latitude: 66.144722, longitude: 30.244722),
+    OutsidePoint(name: 'Лахденпохья', latitude: 61.522222, longitude: 30.1925),
+    OutsidePoint(name: 'Деревня Кинерма', latitude: 61.527222, longitude: 32.828889),
+    OutsidePoint(name: 'Деревня Пегрема', latitude: 62.3265, longitude: 34.766),
+    OutsidePoint(name: 'Гора Сампо', latitude: 62.039219, longitude: 34.096913),
+    OutsidePoint(name: 'Гора Филина', latitude: 61.548857, longitude: 30.199141),
+    OutsidePoint(name: 'Марциальные воды', latitude: 62.156608, longitude: 33.901688),
+    OutsidePoint(name: 'Залив Ляппяярви', latitude: 61.695470, longitude: 30.696523),
+    OutsidePoint(name: 'Шардонский архипелаг', latitude: 61.942343, longitude: 34.737697),
+    OutsidePoint(name: 'Озеро Урозеро', latitude: 59.866879, longitude: 37.383157),
+    OutsidePoint(name: 'Ильинский Водлозерский погост', latitude: 62.380093, longitude: 36.9078),
+    OutsidePoint(name: 'Водопад «Воицкий Падун»', latitude: 62.268000, longitude: 33.980384),
+    OutsidePoint(name: 'Водопад Куми-порог', latitude: 65.276142, longitude: 30.198763),
+    OutsidePoint(name: 'Рускеальские водопады', latitude: 61.915509, longitude: 30.626539),
+    OutsidePoint(name: 'Озеро Янисъярви', latitude: 61.966667, longitude: 30.916667),
+    OutsidePoint(name: 'Водопад Киваккакоски', latitude: 62.268000, longitude: 33.980384),
+
+    // Ленинградская область
+    OutsidePoint(name: 'Радоновые озёра', latitude: 59.734545, longitude: 29.401247),
+    OutsidePoint(name: 'Федоровский городок', latitude: 59.725456, longitude: 30.394112),
+    OutsidePoint(name: 'Остров Коневец', latitude: 60.860160, longitude: 30.610129),
+    OutsidePoint(name: 'Липовское озеро', latitude: 59.744134, longitude: 28.152419),
+    OutsidePoint(name: 'Тосненский водопад', latitude: 59.644625, longitude: 30.808623),
+    OutsidePoint(name: 'Лосевские Пороги', latitude: 60.680176, longitude: 29.998775),
+    OutsidePoint(name: 'Водопад на реке Караста', latitude: 59.91490300, longitude: 29.75395600),
+    OutsidePoint(name: '«Скала любви»', latitude: 61.0638, longitude: 28.8705),
+    OutsidePoint(name: 'Староладожская пещера и Святой источник', latitude: 59.542303, longitude: 28.747203),
+    OutsidePoint(name: 'Горчаковщинский водопад', latitude: 60.019167, longitude: 32.330792),
+    OutsidePoint(name: 'Большие скалы', latitude: 61.166667, longitude: 29.7),
+    OutsidePoint(name: 'Ястребиное озеро', latitude: 61.141847, longitude: 29.698131),
+    OutsidePoint(name: 'Остров Маячный', latitude: 60.572191, longitude: 28.425085),
+    OutsidePoint(name: 'Деревня Верхние Мандроги', latitude: 60.89842, longitude: 33.81942),
+
+    // Санкт-Петербург
+    // СаНкт-Петербург
+    OutsidePoint(name: 'Мосты', latitude: 59.942222, longitude: 30.338611),
+    OutsidePoint(name: 'Остров «Новая Голландия»', latitude: 59.9292549, longitude: 30.2898002),
+    OutsidePoint(name: 'Кронштадт', latitude: 59.9954100, longitude: 29.7666800),
+
+    // Новгородская область
+    OutsidePoint(name: 'Озеро Селигер', latitude: 57.239082, longitude: 33.034332),
+    OutsidePoint(name: 'Озеро Ильмень', latitude: 58.2667, longitude: 31.2833),
+    OutsidePoint(name: 'Боровичи', latitude: 58.3878, longitude: 33.9155),
+    OutsidePoint(name: 'Река Понеретка', latitude: 58.283150, longitude: 34.039541),
+    OutsidePoint(name: 'Водопад «Голубая лагуна»', latitude: 63.88031100, longitude: -22.44927000),
+    OutsidePoint(name: 'Карамельный водопад', latitude: 58.464633, longitude: 30.970706),
+
+    // Псковская область
+    OutsidePoint(name: 'Чудское озеро', latitude: 58.688003, longitude: 27.443691),
+
+    // Калининградская область
+    OutsidePoint(name: 'Куршская коса', latitude: 54.9757564, longitude: 20.520279),
+    OutsidePoint(name: 'Река Неман', latitude: 53.456437, longitude: 26.728486),
+    OutsidePoint(name: 'Виштынецкое озеро', latitude: 54.426944, longitude: 22.725),
+    OutsidePoint(name: 'Река Шешупе', latitude: 54.967581, longitude: 22.714524),
+    OutsidePoint(name: 'Река Анграпа', latitude: 54.476646, longitude: 22.044280),
+    OutsidePoint(name: 'Река Лава', latitude: 54.398260, longitude: 21.022336),
+    OutsidePoint(name: 'Река Инструч', latitude: 54.812260, longitude: 22.072855),
+    OutsidePoint(name: 'Река Преголя', latitude: 54.645994, longitude: 21.070219),
+    OutsidePoint(name: 'Озеро Мариново', latitude: 54.413653, longitude: 22.507173),
+    OutsidePoint(name: 'Красное озеро', latitude: 54.350511, longitude: 22.325138),
+    OutsidePoint(name: 'Озеро Лебедь', latitude: 55.245163, longitude: 20.944248),
+    OutsidePoint(name: 'Озеро Чайка', latitude: 55.151631, longitude: 20.828563),
+    OutsidePoint(name: 'Озеро Янтарное', latitude: 54.887325, longitude: 19.948436),
+    OutsidePoint(name: 'Голубые озера', latitude: 54.648146, longitude: 20.354639),
+    OutsidePoint(name: 'Лесное озеро', latitude: 54.717142, longitude: 20.389574),
+    OutsidePoint(name: 'Озеро Карповское', latitude: 54.698811, longitude: 20.406921),
+    // ЦФО
+    // Москва
+    OutsidePoint(name: 'Останкинская башня', latitude: 55.819721, longitude: 37.611704),
+    OutsidePoint(name: 'Смотровая площадка PANORAMA360 в ММДЦ «Москва-Сити»', latitude: 55.749900, longitude: 37.537237),
+    OutsidePoint(name: 'Воробьёвы горы', latitude: 55.709382, longitude: 37.542250),
+    OutsidePoint(name: 'Смотровая площадка «Выше Только Любовь»', latitude: 55.749310, longitude: 37.534445),
+    OutsidePoint(name: 'Центральная Смотровая ЦДМ', latitude: 55.760094, longitude: 37.624905),
+    OutsidePoint(name: 'Московская монорельсовая транспортная система', latitude: 55.821831, longitude: 37.611940),
+    OutsidePoint(name: 'Солнце Москвы', latitude: 55.826726, longitude: 37.626548),
+    OutsidePoint(name: 'Колесо обозрения в парке развлечений «Сказка»', latitude: 55.772172, longitude: 37.434791),
+    OutsidePoint(name: 'Колесо обозрения в парке «Сокольники»', latitude: 55.793959, longitude: 37.673886),
+    OutsidePoint(name: 'Колесо обозрения у Измайловского Кремля', latitude: 55.770178, longitude: 37.750795),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.744499, longitude: 37.605863),
+    OutsidePoint(name: 'Парящий мост', latitude: 55.749475, longitude: 37.629421),
+    OutsidePoint(name: 'Смотровая площадка гостиницы Украина', latitude: 55.751226, longitude: 37.565686),
+    OutsidePoint(name: 'Смотровая площадка РАН', latitude: 55.712352, longitude: 37.578231),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.667756, longitude: 37.671868),
+    // Подмосковье
+    OutsidePoint(name: 'Колесо Обозрения в Коломне', latitude: 55.085006, longitude: 38.779664),
+    OutsidePoint(name: 'Блинная Гора', latitude: 56.307346, longitude: 38.134955),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.729114, longitude: 36.814617),
+    OutsidePoint(name: 'Смотровая площадка на Мясиной горе с видом на Монастырь', latitude: 55.722621, longitude: 36.823454),
+    OutsidePoint(name: 'Смотровая площадка «Взлетка»', latitude: 55.978974, longitude: 37.454069),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 55.894169, longitude: 37.459792),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.837026, longitude: 38.142562),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.894859, longitude: 37.773021),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 55.825835, longitude: 37.329516),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.037966, longitude: 35.957746),
+    OutsidePoint(name: 'Смотровая Площадка Серпуховского Кремля', latitude: 54.916198, longitude: 37.403439),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 54.928715, longitude: 37.443329),
+    OutsidePoint(name: 'Смотровая площадка на Оке', latitude: 54.883552, longitude: 37.426449),
+    OutsidePoint(name: 'Смотровая площадка у Высоцкого монастыря', latitude: 54.901623, longitude: 37.417605),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.303821, longitude: 37.499183),
+    OutsidePoint(name: 'Водонапорная башня 1916 года', latitude: 54.763601, longitude: 38.876740),
+    // Рязанская область
+    OutsidePoint(name: 'Трубежная набережная Рязани', latitude: 54.635996, longitude: 39.747434),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 54.695335, longitude: 39.799284),
+    // Тамбовская область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 52.725928, longitude: 41.458772),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 52.886222, longitude: 40.517541),
+    // Воронежская область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 51.707600, longitude: 39.161592),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 51.670493, longitude: 39.210597),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 51.753602, longitude: 39.228816),
+    OutsidePoint(name: 'Белая Гора', latitude: 51.775253, longitude: 39.238990),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 51.709187, longitude: 39.253297),
+    OutsidePoint(name: 'Второй трамвайный уровень Северного моста', latitude: 51.691492, longitude: 39.241238),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 51.647532, longitude: 39.232054),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 50.966712, longitude: 39.292588),
+    // Белгородская область
+    OutsidePoint(name: 'Смотровая площадка', latitude: 50.580618, longitude: 36.583857),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 50.582189, longitude: 36.595646),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 51.283608, longitude: 37.660532),
+    // Курская область
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.313456, longitude: 35.405467),
+    // Орловская область
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.984178, longitude: 36.097789),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.971773, longitude: 36.068362),
+    // Липецкая область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 52.604598, longitude: 39.605584),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.609591, longitude: 39.602388),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.613811, longitude: 39.610487),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 52.627619, longitude: 38.497407),
+    OutsidePoint(name: 'Аргамачья гора', latitude: 52.625200, longitude: 38.519176),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.618708, longitude: 38.508967),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 52.636722, longitude: 38.499774),
+    OutsidePoint(name: 'Вид с железнодорожного моста', latitude: 52.605626, longitude: 38.512191),
+    OutsidePoint(name: 'Воронов камень', latitude: 52.568691, longitude: 38.385172),
+    OutsidePoint(name: 'Скальный массив Звонари', latitude: 52.575115, longitude: 38.352527),
+    // Тульская область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 54.191777, longitude: 37.637566),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.502984, longitude: 37.106730),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.516678, longitude: 37.082329),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 53.771506, longitude: 38.138270),
+    // Калужская область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 54.505699, longitude: 36.248211),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.505671, longitude: 36.246033),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.510171, longitude: 36.249716),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.517460, longitude: 36.229544),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.510430, longitude: 36.234764),
+    OutsidePoint(name: 'Смотровая вышка', latitude: 54.514107, longitude: 36.223148),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.173965, longitude: 36.644671),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.016143, longitude: 36.456460),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.205880, longitude: 36.487609),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.026094, longitude: 35.795081),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.615112, longitude: 35.996058),
+    // Брянская область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 53.271217, longitude: 34.366968),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 53.239101, longitude: 34.373795),
+    OutsidePoint(name: 'Покровская гора', latitude: 53.244345, longitude: 34.373596),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 53.272183, longitude: 34.364794),
+    // Смоленская область
+    OutsidePoint(name: 'Соборная гора', latitude: 54.788160, longitude: 32.053921),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.785733, longitude: 32.043963),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 54.790954, longitude: 32.046370),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 54.781745, longitude: 32.037866),
+    // Тверская область
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.862765, longitude: 35.904145),
+    OutsidePoint(name: 'Гора Соборная', latitude: 56.259488, longitude: 34.340268),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.256536, longitude: 34.317113),
+    // Ярославская область
+    OutsidePoint(name: 'Колесо обозрения Золотое кольцо', latitude: 57.614730, longitude: 39.867405),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 57.621222, longitude: 39.889858),
+    OutsidePoint(name: 'Парк аттракционов', latitude: 58.044766, longitude: 38.851037),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 58.046750, longitude: 38.855976),
+    OutsidePoint(name: 'Молодёжная лестница', latitude: 57.533495, longitude: 38.323581),
+    OutsidePoint(name: 'Смотровая площадка Ростовского Кремля', latitude: 57.184805, longitude: 39.417399),
+    OutsidePoint(name: 'Смотровая площадка Спасо-Яковлевского Димитриевого монастыря', latitude: 57.173740, longitude: 39.391197),
+    OutsidePoint(name: 'Александрова гора', latitude: 56.781946, longitude: 38.831655),
+    // Костромская область
+    OutsidePoint(name: 'Смотровая площадка', latitude: 57.759683, longitude: 40.940846),
+    OutsidePoint(name: 'Смотровая площадка на Лысой горе', latitude: 57.746661, longitude: 40.895281),
+    // Ивановская область
+    OutsidePoint(name: 'Колесо обозрения', latitude: 57.002970, longitude: 40.976711),
+    // Владимирская область
+    OutsidePoint(name: 'Небо 33', latitude: 56.141940, longitude: 40.415969),
+    OutsidePoint(name: 'Круговой обзор', latitude: 55.578913, longitude: 42.059214),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.580540, longitude: 42.061504),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 55.542278, longitude: 42.089961),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.128752, longitude: 40.411607),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.127195, longitude: 40.402835),
+    OutsidePoint(name: 'Смотровая площадка водонапорной башни', latitude: 56.125157, longitude: 40.398710),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 56.126437, longitude: 40.402649),
+    OutsidePoint(name: 'Лысая гора', latitude: 56.192535, longitude: 42.653795),
+    // СКФО
+    // Ставропольский край
+    OutsidePoint(name: 'Колесо обозрения', latitude: 45.043220, longitude: 41.974087),
+    OutsidePoint(name: 'Солдатская площадь', latitude: 45.049111, longitude: 41.973722),
+    OutsidePoint(name: 'Кафедральная площадь', latitude: 45.050200, longitude: 41.978990),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 45.013711, longitude: 41.806532),
+    OutsidePoint(name: 'Михайловская гора', latitude: 44.040272, longitude: 43.086749),
+    OutsidePoint(name: 'Ленинские скалы', latitude: 44.047067, longitude: 43.081855),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 44.054264, longitude: 43.075622),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 44.040264, longitude: 43.091367),
+    OutsidePoint(name: 'гора Машук', latitude: 44.051173, longitude: 43.086021),
+    OutsidePoint(name: 'Колесо обозрения', latitude: 43.903138, longitude: 42.718733),
+    OutsidePoint(name: 'Красное солнышко', latitude: 43.899595, longitude: 42.750645),
+    OutsidePoint(name: 'Гора Крестовая', latitude: 43.899077, longitude: 42.720327),
+    OutsidePoint(name: 'Гора Сосновая 912 метров', latitude: 43.893118, longitude: 42.723574),
+    OutsidePoint(name: 'Солдатская горка 930 м', latitude: 43.891076, longitude: 42.713399),
+    OutsidePoint(name: 'Серые камни', latitude: 43.898425, longitude: 42.733343),
+    OutsidePoint(name: 'Скала Человек', latitude: 43.889208, longitude: 42.753648),
+    OutsidePoint(name: 'Гора Пикет', latitude: 43.884246, longitude: 42.731947),
+    OutsidePoint(name: 'Малое Седло', latitude: 43.885329, longitude: 42.767483),
+    OutsidePoint(name: 'Гора Шульгач', latitude: 43.883650, longitude: 42.782546),
+    OutsidePoint(name: 'Лермонтовская скала', latitude: 43.868414, longitude: 42.737716),
+    OutsidePoint(name: 'Большое Седло', latitude: 43.886953, longitude: 42.788444),
+    OutsidePoint(name: 'Гора Кольцо', latitude: 43.941463, longitude: 42.693632),
+    OutsidePoint(name: 'Гора Железная', latitude: 44.138927, longitude: 43.030363),
+    OutsidePoint(name: 'Селитряные скалы', latitude: 44.156088, longitude: 43.044073),
+    OutsidePoint(name: 'Гора Медовая', latitude: 44.134700, longitude: 43.009238),
+    OutsidePoint(name: 'Гора Бештау', latitude: 44.098030, longitude: 43.022101),
+    OutsidePoint(name: 'Гора Малый Бештау', latitude: 44.106559, longitude: 43.017597),
+    OutsidePoint(name: 'Гора Острая', latitude: 44.118432, longitude: 42.997505),
+    // Карачаево-Черкесская республика
+    OutsidePoint(name: 'Смотровая площадка в парке «Зеленый остров» ', latitude: 44.229066, longitude: 42.042612),
+    OutsidePoint(name: 'Плато Бермамыт', latitude: 43.711662, longitude: 42.441171),
+    OutsidePoint(name: 'Архыз', latitude: 43.543067, longitude: 41.181210),
+    OutsidePoint(name: 'Домбай', latitude: 43.285625, longitude: 41.636821),
+    // Кабардино-Балкарская республика
+    OutsidePoint(name: 'Гора Малая Кизиловка', latitude: 43.460676, longitude: 43.599715),
+    OutsidePoint(name: 'Гора Эльбрус 5642 м', latitude: 43.352469, longitude: 42.437890),
+    OutsidePoint(name: 'Гора Чегет', latitude: 43.245183, longitude: 42.522966),
+    OutsidePoint(name: 'Старая канатка', latitude: 43.437437, longitude: 43.593747),
+    // Республика Северная Осетия - Алания
+    OutsidePoint(name: 'Колесо обозрения', latitude: 43.027721, longitude: 44.677123),
+    OutsidePoint(name: 'Лысая гора', latitude: 42.987858, longitude: 44.640031),
+    OutsidePoint(name: 'Перевал Архонский', latitude: 42.831182, longitude: 44.212334),
+    OutsidePoint(name: 'Колесо Балсага', latitude: 42.850126, longitude: 44.442852),
+    // Республика Ингушетия
+    OutsidePoint(name: 'Горнолыжный комплекс Армхи', latitude: 42.806741, longitude: 44.704836),
+    // Чечня
+    OutsidePoint(name: 'Лестница в небеса', latitude: 43.267089, longitude: 45.717265),
+    // Дагестан
+    OutsidePoint(name: 'Гора Тарки-тау', latitude: 42.940136, longitude: 47.453922),
+    OutsidePoint(name: 'Гора Пушкин Тау', latitude: 42.559511, longitude: 47.843461),
+    OutsidePoint(name: 'Сулакский Каньон', latitude: 43.021772, longitude: 46.826379),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 43.016592, longitude: 46.832421),
+    OutsidePoint(name: 'Смотровая площадка', latitude: 43.028861, longitude: 46.823990),
+    OutsidePoint(name: 'Водопад Тобот', latitude: 42.554626, longitude: 46.719536),
+    OutsidePoint(name: 'Смотровая площадка на Хунзахский каньон', latitude: 42.553516, longitude: 46.721629),
+
+    // ПФО
+    // Самара
+    OutsidePoint(name: 'Колесо обозрения "Очень большое"',
+        latitude: 53.23052682641655,
+        longitude: 50.19808242858878),
+
+    // Казань
+    OutsidePoint(name: 'Колесо обозрения "Вокруг света"',
+        latitude: 55.815461656463896,
+        longitude: 49.132394811916576),
+
+    // Нижний Новгород
+    OutsidePoint(name: 'Колесо обозрения "НиНо"',
+        latitude: 56.32414999756274,
+        longitude: 44.03585564133977),
+
+    // Уфа
+    OutsidePoint(name: 'Висячий мост',
+        latitude: 54.71192834078426,
+        longitude: 55.95434360517114),
+    OutsidePoint(name: 'Водонапорная башня',
+        latitude: 54.722108,
+        longitude: 55.918878),
+
+    // Пермь
+    OutsidePoint(name: 'Башня смерти',
+        latitude: 57.994908,
+        longitude: 56.25394),
+    OutsidePoint(name: 'Пермская телебашня',
+        latitude: 58.005672,
+        longitude: 56.291185),
+
+    // Ижевск
+    OutsidePoint(name: 'Водонапорная башня 1915 года',
+        latitude: 56.850934,
+        longitude: 53.207708),
+
+    // Ульяновск
+    OutsidePoint(name: 'Башня Ульяновск',
+        latitude: 54.31421523455141,
+        longitude: 48.501870608675546),
+
+    // Оренбург
+    OutsidePoint(name: 'Бывшая водонапорная башня',
+        latitude: 51.77502,
+        longitude: 55.107466),
+
+    // Пенза
+    OutsidePoint(name: 'Оборонительный вал',
+        latitude: 53.1826740251631,
+        longitude: 45.01523053110502),
+
+    // Чебоксары
+    OutsidePoint(name: 'Шупашкар',
+        latitude: 56.14849686323186,
+        longitude: 47.25917475335799),
+  ];
+} */
 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
