@@ -78,6 +78,8 @@ flutter:
     - assets/north_caucasus/dagestan.txt
     - assets/north_caucasus/kmv.txt
     - assets/north_caucasus/stavropol.txt
+    - assets/center/belgorod.txt
+    - assets/center/bryansk.txt
     - assets/out_points.json
     - assets/museum_points.json
 

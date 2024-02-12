@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:russ_travel/articles/regions/chechnya.dart';
-import 'package:russ_travel/articles/regions/dagestan.dart';
-import 'package:russ_travel/articles/regions/ingushetiya.dart';
-import 'package:russ_travel/articles/regions/kmv.dart';
-import 'package:russ_travel/articles/regions/stavropol.dart';
-import '../regions/kbr.dart';
-import '../regions/osetia.dart';
+import 'package:russ_travel/articles/regions/center/belgorod.dart';
+import '../regions/center/bryansk.dart';
+import '../regions/north_caucaus/chechnya.dart';
+import '../regions/north_caucaus/dagestan.dart';
+import '../regions/north_caucaus/ingushetiya.dart';
+import '../regions/north_caucaus/kbr.dart';
+import '../regions/north_caucaus/kmv.dart';
+import '../regions/north_caucaus/osetia.dart';
+import '../regions/north_caucaus/stavropol.dart';
 import 'article_detail_screen.dart';
 
 
@@ -18,7 +20,10 @@ class ArticleListScreen extends StatelessWidget {
     Article(title: "Республика Кабардино-Балкария", content: Kbr()),
     Article(title: "Республика Дагестан", content: Dagestan()),
     Article(title: "Ставропольский край: Кавказские Минеральные Воды", content: Kmv()),
-    Article(title: "Ставропольский край", content: Stavropol())
+    Article(title: "Ставропольский край", content: Stavropol()),
+
+    Article(title: "Белгородская область", content: Belgorod()),
+    Article(title: "Брянская область", content: Bryansk()),
   ];
 
   @override
