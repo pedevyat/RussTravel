@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:russ_travel/articles/regions/center/belgorod.dart';
+import 'package:russ_travel/articles/regions/center/ivanovo.dart';
+import 'package:russ_travel/articles/regions/center/vladimir_city.dart';
+import 'package:russ_travel/articles/regions/center/vladimir_region.dart';
+import 'package:russ_travel/articles/regions/center/voronezh.dart';
 import '../regions/center/bryansk.dart';
+import '../regions/center/kaluga.dart';
 import '../regions/north_caucaus/chechnya.dart';
 import '../regions/north_caucaus/dagestan.dart';
 import '../regions/north_caucaus/ingushetiya.dart';
@@ -24,6 +29,11 @@ class ArticleListScreen extends StatelessWidget {
 
     Article(title: "Белгородская область", content: Belgorod()),
     Article(title: "Брянская область", content: Bryansk()),
+    Article(title: "Владимирская область", content: VladimirRegion()),
+    Article(title: "Владимирская область: Владимир", content: VladimirCity()),
+    Article(title: "Воронежская область", content: Voronezh()),
+    Article(title: "Ивановская область", content: Ivanovo()),
+    Article(title: "Калужская область", content: Kaluga())
   ];
 
   @override
@@ -32,22 +42,31 @@ class ArticleListScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Статьи'),
       ),
-      body: ListView.builder(
-        itemCount: articles.length,
-        itemBuilder: (context, index) {
-          return ListTile(
-            title: Text(articles[index].title),
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => ArticleDetailScreen(article: articles[index]),
-                ),
-              );
-            },
-          );
-        },
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            ListView.builder(
+              shrinkWrap: true,
+              physics: NeverScrollableScrollPhysics(),
+              itemCount: articles.length,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  title: Text(articles[index].title),
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ArticleDetailScreen(article: articles[index]),
+                      ),
+                    );
+                  },
+                );
+              },
+            ),
+          ],
+        ),
       ),
     );
   }
+
 }
