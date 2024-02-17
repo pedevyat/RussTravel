@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:russ_travel/articles/regions/center/belgorod.dart';
 import 'package:russ_travel/articles/regions/center/ivanovo.dart';
+import 'package:russ_travel/articles/regions/center/kostroma.dart';
+import 'package:russ_travel/articles/regions/center/kursk.dart';
+import 'package:russ_travel/articles/regions/center/lipetsk.dart';
+import 'package:russ_travel/articles/regions/center/moscow1.dart';
+import 'package:russ_travel/articles/regions/center/moscow2.dart';
+import 'package:russ_travel/articles/regions/center/moscow3.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_city.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_region.dart';
 import 'package:russ_travel/articles/regions/center/voronezh.dart';
@@ -16,6 +22,7 @@ import '../regions/north_caucaus/stavropol.dart';
 import 'article_detail_screen.dart';
 
 // ДОБАВИТЬ ИЗОБРАЖЕНИЕ, ЕСЛИ НЕТ РЕЗУЛЬТАТОВ ПОИСКА
+// ДОБАВИТЬ ПРОКРУТКУ
 
 class ArticleListScreen extends StatefulWidget {
   @override
@@ -33,6 +40,7 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Республика Дагестан", content: Dagestan()),
     Article(title: "Ставропольский край: Кавказские Минеральные Воды", content: Kmv()),
     Article(title: "Ставропольский край", content: Stavropol()),
+
     Article(title: "Белгородская область", content: Belgorod()),
     Article(title: "Брянская область", content: Bryansk()),
     Article(title: "Владимирская область", content: VladimirRegion()),
@@ -40,6 +48,12 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Воронежская область", content: Voronezh()),
     Article(title: "Ивановская область", content: Ivanovo()),
     Article(title: "Калужская область", content: Kaluga()),
+    Article(title: "Костромская область", content: Kostroma()),
+    Article(title: "Курская область", content: Kursk()),
+    Article(title: "Липецкая область", content: Lipetsk()),
+    Article(title: "Москва: Главные достопримечательности (ч. 1)", content: Moscow1()),
+    Article(title: "Москва: Главные достопримечательности (ч. 2)", content: Moscow2()),
+    Article(title: "Москва: Главные достопримечательности (ч. 3)", content: Moscow3()),
   ];
 
   List<Article> _filteredArticles = [];

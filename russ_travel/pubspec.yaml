@@ -85,6 +85,12 @@ flutter:
     - assets/center/voronezh.txt
     - assets/center/ivanovo.txt
     - assets/center/kaluga.txt
+    - assets/center/kostroma.txt
+    - assets/center/kursk.txt
+    - assets/center/lipetsk.txt
+    - assets/center/moscow1.txt
+    - assets/center/moscow2.txt
+    - assets/center/moscow3.txt
     - assets/out_points.json
     - assets/museum_points.json
 
