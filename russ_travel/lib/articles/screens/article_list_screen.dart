@@ -9,17 +9,23 @@ import 'package:russ_travel/articles/regions/center/moscow2.dart';
 import 'package:russ_travel/articles/regions/center/moscow3.dart';
 import 'package:russ_travel/articles/regions/center/moscow_region.dart';
 import 'package:russ_travel/articles/regions/center/ryazan.dart';
+import 'package:russ_travel/articles/regions/center/tambov.dart';
+import 'package:russ_travel/articles/regions/center/tver_city.dart';
+import 'package:russ_travel/articles/regions/center/tver_region.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_city.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_region.dart';
 import 'package:russ_travel/articles/regions/center/voronezh.dart';
+import 'package:russ_travel/articles/regions/center/yaroslavl.dart';
 import '../regions/center/bryansk.dart';
 import '../regions/center/kaluga.dart';
 import '../regions/center/oryol.dart';
 import '../regions/center/smolensk.dart';
+import '../regions/center/tula.dart';
 import '../regions/north_caucaus/chechnya.dart';
 import '../regions/north_caucaus/dagestan.dart';
 import '../regions/north_caucaus/ingushetiya.dart';
 import '../regions/north_caucaus/kbr.dart';
+import '../regions/north_caucaus/kchr.dart';
 import '../regions/north_caucaus/kmv.dart';
 import '../regions/north_caucaus/osetia.dart';
 import '../regions/north_caucaus/stavropol.dart';
@@ -44,6 +50,7 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Республика Дагестан", content: Dagestan()),
     Article(title: "Ставропольский край: Кавказские Минеральные Воды", content: Kmv()),
     Article(title: "Ставропольский край", content: Stavropol()),
+    Article(title: "Республика Карачаево-Черкессия", content: Kchr()),
 
     Article(title: "Белгородская область", content: Belgorod()),
     Article(title: "Брянская область", content: Bryansk()),
@@ -62,6 +69,11 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Орловская область", content: Oryol()),
     Article(title: "Рязанская область", content: Ryazan()),
     Article(title: "Смоленская область", content: Smolensk()),
+    Article(title: "Тамбовская область", content: Tambov()),
+    Article(title: "Тверская область", content: TverRegion()),
+    Article(title: "Тверская область: Тверь", content: TverCity()),
+    Article(title: "Тульская область", content: Tula()),
+    Article(title: "Ярославская область", content: Yaroslavl()),
   ];
 
   List<Article> _filteredArticles = [];
