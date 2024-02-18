@@ -7,11 +7,15 @@ import 'package:russ_travel/articles/regions/center/lipetsk.dart';
 import 'package:russ_travel/articles/regions/center/moscow1.dart';
 import 'package:russ_travel/articles/regions/center/moscow2.dart';
 import 'package:russ_travel/articles/regions/center/moscow3.dart';
+import 'package:russ_travel/articles/regions/center/moscow_region.dart';
+import 'package:russ_travel/articles/regions/center/ryazan.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_city.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_region.dart';
 import 'package:russ_travel/articles/regions/center/voronezh.dart';
 import '../regions/center/bryansk.dart';
 import '../regions/center/kaluga.dart';
+import '../regions/center/oryol.dart';
+import '../regions/center/smolensk.dart';
 import '../regions/north_caucaus/chechnya.dart';
 import '../regions/north_caucaus/dagestan.dart';
 import '../regions/north_caucaus/ingushetiya.dart';
@@ -54,6 +58,10 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Москва: Главные достопримечательности (ч. 1)", content: Moscow1()),
     Article(title: "Москва: Главные достопримечательности (ч. 2)", content: Moscow2()),
     Article(title: "Москва: Главные достопримечательности (ч. 3)", content: Moscow3()),
+    Article(title: "Московская область", content: MoscowRegion()),
+    Article(title: "Орловская область", content: Oryol()),
+    Article(title: "Рязанская область", content: Ryazan()),
+    Article(title: "Смоленская область", content: Smolensk()),
   ];
 
   List<Article> _filteredArticles = [];

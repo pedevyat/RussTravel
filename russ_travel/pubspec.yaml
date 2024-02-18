@@ -91,6 +91,10 @@ flutter:
     - assets/center/moscow1.txt
     - assets/center/moscow2.txt
     - assets/center/moscow3.txt
+    - assets/center/moscow_region.txt
+    - assets/center/oryol.txt
+    - assets/center/ryazan.txt
+    - assets/center/smolensk.txt
     - assets/out_points.json
     - assets/museum_points.json
 
