@@ -839,6 +839,29 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Лебяжье озеро', latitude: 54.780556, longitude: 75.522778),
 
       // республика Алтай
+      OutsidePoint(name: 'Телецкое озеро', latitude: 51.57366, longitude: 87.67227),
+      OutsidePoint(name: 'Река Катунь', latitude: 51.39181, longitude: 86.00168),
+      OutsidePoint(name: 'Гора Белуха', latitude: 49.80844, longitude: 86.58939),
+      OutsidePoint(name: 'Аккемское озеро', latitude: 49.90696, longitude: 86.54696),
+      OutsidePoint(name: 'Долина Ярлу ', latitude: 49.92125, longitude: 86.57646),
+      OutsidePoint(name: 'Водопад Текелю', latitude: 49.98222, longitude: 86.52755),
+      OutsidePoint(name: 'вершина Ак-Оюк', latitude: 49.89914, longitude: 86.50682),
+      OutsidePoint(name: 'Слияние рек Чуя и Катунь', latitude: 50.39416, longitude: 86.67175),
+      OutsidePoint(name: 'Гейзерное озеро', latitude: 50.28924, longitude: 87.66711),
+      OutsidePoint(name: 'Акташский ретранслятор', latitude: 50.34133, longitude: 87.74969),
+      OutsidePoint(name: 'Радужные горы урочища Кызыл-Чин', latitude: 50.05923, longitude: 88.29661),
+      OutsidePoint(name: 'Перевал Кату-Ярык', latitude: 50.90991, longitude: 88.21790),
+      OutsidePoint(name: 'Водопад Учар', latitude: 51.11775, longitude: 88.09055),
+      OutsidePoint(name: 'Водопад Корбу', latitude: 51.7065, longitude: 87.6843),
+      OutsidePoint(name: 'Река Чулышман', latitude: 51.3542, longitude: 87.7604),
+      OutsidePoint(name: 'Водопад Куркуре', latitude: 50.9005, longitude: 88.2565),
+      OutsidePoint(name: 'Голубое озеро в долине Актру', latitude: 50.0797, longitude: 87.7250),
+      OutsidePoint(name: 'Водопад Ширлак', latitude: 50.3456, longitude: 87.2191),
+      OutsidePoint(name: 'Калбак-Таш', latitude: 50.4014, longitude: 86.8181),
+      OutsidePoint(name: 'Перевал Чике-Таман', latitude: 50.6449, longitude: 86.3120),
+      OutsidePoint(name: 'Семинский перевал', latitude: 51.0452, longitude: 85.6043),
+      OutsidePoint(name: 'Плато Укок', latitude: 49.3357, longitude: 87.5000),
+      OutsidePoint(name: 'Аккемское озеро', latitude: 49.9113, longitude: 86.5441),
 
 
 
