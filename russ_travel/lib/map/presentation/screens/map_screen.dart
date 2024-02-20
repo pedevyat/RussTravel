@@ -1024,6 +1024,25 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Красноярский край
+      OutsidePoint(name: 'Манская петля', latitude: 55.872348, longitude: 92.547230),
+      OutsidePoint(name: 'Массив Борус', latitude: 52.789316, longitude: 91.542605),
+      OutsidePoint(name: 'Караульная гора', latitude: 56.023574, longitude: 92.863263),
+      OutsidePoint(name: 'Тальниковый водопад', latitude: 68.445556, longitude: 93.294444),
+      OutsidePoint(name: 'Мраморный водопад', latitude: 52.820403, longitude: 93.379880),
+      OutsidePoint(name: 'Водопад Красные камни', latitude: 69.481080, longitude: 88.531964),
+      OutsidePoint(name: 'Красноярское море', latitude: 55.1098, longitude: 91.5772),
+      OutsidePoint(name: 'Кутурчинское Белогорье', latitude: 54.7068, longitude: 94.6081),
+      OutsidePoint(name: 'Богунайский водопад', latitude: 55.966511, longitude: 92.687425),
+      OutsidePoint(name: 'Озера Шарыповского района', latitude: 55.352708, longitude: 89.116060),
+      OutsidePoint(name: 'Озеро Инголь', latitude: 55.535728, longitude: 88.845026),
+      OutsidePoint(name: 'Черная сопка', latitude: 55.917859, longitude: 93.070979),
+      OutsidePoint(name: 'Сопка Метеоритная', latitude: 54.900000, longitude: 91.800000),
+      OutsidePoint(name: 'Гора Тепсей', latitude: 53.949813, longitude: 91.566249),
+      OutsidePoint(name: 'Озеро Таймыр', latitude: 74.558117, longitude: 102.221515),
+      OutsidePoint(name: 'Озеро Виви', latitude: 66.726032, longitude: 93.968531),
+      OutsidePoint(name: 'Монастырское озеро', latitude: 58.385478, longitude: 91.918908),
+      OutsidePoint(name: 'Озеро Тиберкуль', latitude: 53.894034, longitude: 94.01682),
+
 
 
       // Новосибирская область
