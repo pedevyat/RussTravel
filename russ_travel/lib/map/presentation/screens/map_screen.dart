@@ -418,6 +418,36 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Памятник адмиралу Александру Колчаку', latitude: 52.3, longitude: 104.295),
       MuseumPoint(name: ' Братская ГЭС', latitude: 56.28611, longitude: 101.78417),
 
+      // Кемеровская область
+
+
+      // Красноярский край
+      MuseumPoint(name: 'Красноярский художественный музей им. В.М. Сурикова', latitude: 6.011288, longitude: 92.881615),
+      MuseumPoint(name: 'Красноярский краевой краеведческий музей', latitude: 56.007076, longitude: 92.87443),
+      MuseumPoint(name: 'Арт-галерея Романовых', latitude: 55.997, longitude: 92.9296),
+      MuseumPoint(name: 'Музей-усадьба Г.В. Юдина', latitude: 55.99613588296133, longitude: 92.80885099846493),
+      MuseumPoint(name: 'Музей геологии Центральной Сибири', latitude: 56.032055, longitude: 92.922402),
+      MuseumPoint(name: 'Музей-усадьба В.И. Сурикова', latitude: 56.013192°, longitude: 92.862019),
+      MuseumPoint(name: 'Шестаков-Реставрация', latitude: 55.9941, longitude: 92.9068),
+      MuseumPoint(name: 'Музей меда и этнографии', latitude: 53.368055556, longitude: 24.170277778),
+      MuseumPoint(name: 'Ньютон Парк', latitude: 56.0105880, longitude: 92.8935620),
+      MuseumPoint(name: 'Музей леса Красноярского края', latitude: 55.9885010, longitude: 92.7668730),
+      MuseumPoint(name: 'Тасеевский краеведческий музей', latitude: 57.202622, longitude: 94.888199),
+
+
+      // Новосибирская область
+
+
+      // Томская область
+
+
+      // республика Тыва
+
+
+      // республика Хакасия
+
+
+
 
 
 
@@ -719,6 +749,25 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Долины Шумакских,  источников', latitude: 51.96309, longitude: 101.8751),
       ParkPoint(name: 'Иркутская слобода', latitude: 52.275, longitude: 104.29167),
 
+      // Кемеровская область
+
+
+      // Красноярский край
+
+
+      // Новосибирская область
+
+
+      // Томская область
+
+
+      // республика Тыва
+
+
+      // республика Хакасия
+
+
+
 
 
 
@@ -955,6 +1004,24 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Мыс Хобой', latitude: 53.410625, longitude: 107.789507),
       OutsidePoint(name: 'Патомский кратер', latitude: 59.291529, longitude: 116.577034),
       OutsidePoint(name: ' Мыс Бурхан', latitude: 53.204189, longitude: 107.338578),
+
+      // Кемеровская область
+
+
+      // Красноярский край
+
+
+      // Новосибирская область
+
+
+      // Томская область
+
+
+      // республика Тыва
+
+
+      // республика Хакасия
+
 
 
 
