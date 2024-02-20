@@ -700,6 +700,25 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Касмалинский ленточный бор', latitude: 52.821525, longitude: 81.898141),
 
       // Иркутская область
+      ParkPoint(name: 'Остров Ольхон', latitude: 53.168162, longitude: 107.374305),
+      ParkPoint(name: 'Прибайкальский национальный парк', latitude: 51.848799, longitude: 104.870458),
+      ParkPoint(name: 'Байкало-Ленский заповедник', latitude: 54.226389, longitude: 107.893056),
+      ParkPoint(name: 'Витимский заповедник', latitude: 57.202778, longitude: 116.807778),
+      ParkPoint(name: 'Тофаларский заказник', latitude: 54.306944, longitude: 95.990556),
+      ParkPoint(name: 'Заказник «Бойские болота»', latitude: 55.106944, longitude: 101.396944),
+      ParkPoint(name: 'Родники горы Весёлой', latitude: 52.258611, longitude: 104.593889),
+      ParkPoint(name: 'Шаманский мыс', latitude: 51.694808, longitude: 103.702972),
+      ParkPoint(name: 'Нижнеудинские пещеры', latitude: 54.500000, longitude: 99.216667),
+      ParkPoint(name: 'Глазковский некрополь', latitude: 52.288056, longitude: 104.251667),
+      ParkPoint(name: 'Древняя стоянка Мальта', latitude: 52.838245, longitude: 103.522365),
+      ParkPoint(name: 'Шишкинские писаницы', latitude: 54.006944, longitude: 105.700278),
+      ParkPoint(name: 'Бухта Песчаная', latitude: 52.259688, longitude: 105.703933),
+      ParkPoint(name: 'Гранатовый пляж', latitude: 51.460885, longitude: 104.492930),
+      ParkPoint(name: 'Село Урик', latitude: 52.45803, longitude: 104.2487),
+      ParkPoint(name: 'Село Усть-Куда', latitude: 52.43159, longitude: 104.1342),
+      ParkPoint(name: 'Долины Шумакских,  источников', latitude: 51.96309, longitude: 101.8751),
+      ParkPoint(name: 'Иркутская слобода', latitude: 52.275, longitude: 104.29167),
+
 
 
 
