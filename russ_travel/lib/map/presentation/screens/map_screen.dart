@@ -938,6 +938,24 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Пещерский водопад', latitude: 54.102110, longitude: 84.769930),
 
       // Иркутская область
+      OutsidePoint(name: 'Байкал', latitude: 53.405332, longitude: 107.673058),
+      OutsidePoint(name: 'Скала Шаманка', latitude: 53.203992, longitude: 107.338688),
+      OutsidePoint(name: 'Река Лена', latitude: 53.874734, longitude: 107.151410),
+      OutsidePoint(name: 'Река Ангара', latitude: 52.278340, longitude: 104.268385),
+      OutsidePoint(name: 'Озеро Шара-Нур', latitude: 53.104633, longitude: 107.255027),
+      OutsidePoint(name: 'Озеро Сердце', latitude: 51.509341, longitude: 103.625923),
+      OutsidePoint(name: 'Соляной источник', latitude: 52.766184, longitude: 103.675775),
+      OutsidePoint(name: 'Уковский водопад', latitude: 55.025081, longitude: 98.968164),
+      OutsidePoint(name: 'Приморский хребет', latitude: 52.833333, longitude: 106.166667),
+      OutsidePoint(name: 'Байкальский хребет', latitude: 55.058333, longitude: 108.691667),
+      OutsidePoint(name: 'Кодарский хребет', latitude: 56.915132, longitude: 117.479772),
+      OutsidePoint(name: 'Гора Пихтовая', latitude: 56.174777, longitude: 101.700009),
+      OutsidePoint(name: 'Гора Ехэ-Ёрдо', latitude: 52.790978, longitude: 106.528851),
+      OutsidePoint(name: 'Шаман-Камень', latitude: 51.875345, longitude: 104.821605),
+      OutsidePoint(name: 'Мыс Хобой', latitude: 53.410625, longitude: 107.789507),
+      OutsidePoint(name: 'Патомский кратер', latitude: 59.291529, longitude: 116.577034),
+      OutsidePoint(name: ' Мыс Бурхан', latitude: 53.204189, longitude: 107.338578),
+
 
 
 
