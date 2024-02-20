@@ -387,6 +387,15 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Музей Кондратия Белова', latitude: 54.974517, longitude: 73.38057),
       MuseumPoint(name: 'Историко-культурный комплекс «Старина Сибирская»', latitude: 56.096102, longitude: 74.642265),
 
+      // республика Алтай
+      MuseumPoint(name: 'Музей-усадьба Григория Ивановича Чорос-Гуркина', latitude: 51.5012, longitude: 85.9419),
+      MuseumPoint(name: 'Палеопарк', latitude: 51.4915, longitude: 85.9805),
+      MuseumPoint(name: 'Национальный музей имени А.В. Анохина', latitude: 51.9564, longitude: 85.9464),
+      MuseumPoint(name: 'Музей Чуйского, latitude: тракта', latitude: 52.5391, longitude: 85.2230),
+      MuseumPoint(name: 'Памятник шофёру Кольке Снегирёву', latitude: 50.3529, longitude: 87.0558),
+      MuseumPoint(name: 'Дом-музей Николая Рериха', latitude: 50.2140, longitude: 85.7429),
+
+
 
 
 
@@ -805,6 +814,9 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Озеро Ик', latitude: 56.055161, longitude: 71.550803),
       OutsidePoint(name: 'Лебединое озеро (Круглое)', latitude: 54.992575, longitude: 71.510235),
       OutsidePoint(name: 'Лебяжье озеро', latitude: 54.780556, longitude: 75.522778),
+
+      // республика Алтай
+
 
 
 
