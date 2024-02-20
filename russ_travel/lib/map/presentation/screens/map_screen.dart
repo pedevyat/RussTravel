@@ -753,9 +753,24 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Красноярский край
+      ParkPoint(name: 'Национальный парк «Столбы»', latitude: 55.883333, longitude: 92.766667),
+      ParkPoint(name: 'Ергаки', latitude: 52.805133, longitude: 93.293874),
+      ParkPoint(name: 'Шушенский бор', latitude: 52.699424, longitude: 91.500547),
+      ParkPoint(name: 'Большой Арктический заповедник', latitude: 75.777500, longitude: 98.253056),
+      ParkPoint(name: 'Заповедник «Таймырский»', latitude: 74.100000, longitude: 98.000000),
+      ParkPoint(name: 'Плато Путорана', latitude: 68.946100, longitude: 94.506252),
+      ParkPoint(name: 'Анашенский бор', latitude: 54.891303, longitude: 91.032830),
+      ParkPoint(name: 'Саяно-Шушенский заповедник', latitude: 52.168552, longitude: 91.861326),
+      ParkPoint(name: 'Айдашенская пещера', latitude: 56.203885, longitude: 90.310091),
+      ParkPoint(name: 'Большая Орешная пещера', latitude: 55.293056, longitude: 93.735833),
+      ParkPoint(name: 'Бирюсинские пещеры', latitude: 55.843481, longitude: 92.185758),
+      ParkPoint(name: 'Шалоболинская писаница', latitude: 53.905472, longitude: 92.208236),
+      ParkPoint(name: 'Березово-муравьиная роща', latitude: 56.285620, longitude: 92.742695),
+      ParkPoint(name: 'Остров Татышев', latitude: 56.027052, longitude: 92.943337),
+      ParkPoint(name: 'Краснотуранское побережье', latitude: 54.3186100, longitude: 91.5638900),
 
 
-      // Новосибирская область
+    // Новосибирская область
 
 
       // Томская область
