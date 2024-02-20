@@ -395,6 +395,16 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Памятник шофёру Кольке Снегирёву', latitude: 50.3529, longitude: 87.0558),
       MuseumPoint(name: 'Дом-музей Николая Рериха', latitude: 50.2140, longitude: 85.7429),
 
+      // Алтайский край
+      MuseumPoint(name: 'Музей Г.С. Титова', latitude: 53.215645, longitude: 84.636490),
+      MuseumPoint(name: 'Музей М.Т. Калашникова', latitude: 56.850742, longitude: 53.206720),
+      MuseumPoint(name: 'Музей-заповедник В.М. Шукшина', latitude: 52.42353, longitude: 85.707096),
+      MuseumPoint(name: 'Музей-панорама Алтай', latitude: 52.4269, longitude: 85.5701),
+      MuseumPoint(name: 'Музей истории камнерезного дела', latitude: 56.839192, longitude: 60.606957),
+      MuseumPoint(name: 'Коробейниковский монастырь', latitude: 52.188691, longitude: 83.693178),
+      MuseumPoint(name: 'Знаменский монастырь', latitude: 53.327585, longitude: 83.796278),
+      MuseumPoint(name: 'Историко-архитектурный комплекс Андреевская слобода', latitude: 51.954003, longitude: 84.883513),
+
 
 
 
