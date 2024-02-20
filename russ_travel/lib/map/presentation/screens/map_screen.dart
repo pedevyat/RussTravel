@@ -788,13 +788,36 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Краснотуранское побережье', latitude: 54.3186100, longitude: 91.5638900),
 
 
-    // Новосибирская область
+      // Новосибирская область
 
 
       // Томская область
+      ParkPoint(name: ' Сельский парк «Околица»', latitude: 56.515261845931626, longitude: 84.75752522301502),
+      ParkPoint(name: ' Лагерный сад', latitude: 56.45417, longitude: 84.95),
+      ParkPoint(name: 'Парк Околица ', latitude: 56.515261845931626, longitude: 84.75752522301502),
+      ParkPoint(name: 'Нагорный Иштан',, latitude: 56.747914, longitude: 84.563618),
+      ParkPoint(name: 'Семилуженский казачий острог', latitude: 56.617541, longitude: 85.353229),
+      ParkPoint(name: 'Каравай-парк', latitude: 56.264160, longitude: 83.957439),
+      ParkPoint(name: 'Заварзинская лесная дача', latitude: 56.464614, longitude: 85.107504),
+      ParkPoint(name: 'Белоусовский кедровник', latitude: 56.314772, longitude: 85.170839),
+      ParkPoint(name: 'Лоскутовский кедровник', latitude: 56.385401, longitude: 85.145387),
+      ParkPoint(name: 'Петуховский кедровник', latitude: 56.318333, longitude: 85.255833),
+      ParkPoint(name: 'Суйгинский лесопарк', latitude: 57.910650, longitude: 84.658168),
+      ParkPoint(name: 'Родник «Аннушкин»', latitude: 56.399600, longitude: 85.025605),
+      ParkPoint(name: 'Скважина «Буровая»', latitude: 57.292583, longitude: 88.178028),
+      ParkPoint(name: 'Малиновский термальный источник', latitude: 58.192743, longitude: 82.742441),
+      ParkPoint(name: 'Родник свв. Петра и Февронии', latitude: 58.273896, longitude: 85.206734),
+      ParkPoint(name: 'Чажемто', latitude: 58.077028, longitude: 82.835389),
+      ParkPoint(name: 'Чистый яр', latitude: 58.835229, longitude: 81.501390),
+      ParkPoint(name: 'Обь-Енисейский канал', latitude: 59.187513, longitude: 88.553606),
+      ParkPoint(name: 'Польто', latitude: 59.592909, longitude: 81.452151),
+      ParkPoint(name: 'Ларинский ландшафтный заказник', latitude: 56.214306, longitude: 85.043382),
+      ParkPoint(name: 'Тугояковский травертиновый каскад', latitude: 56.234111, longitude: 84.980464),
+      ParkPoint(name: 'Таловские чаши', latitude: 56.297217, longitude: 85.420784),
 
 
-      // республика Тыва
+
+    // республика Тыва
 
 
       // республика Хакасия
