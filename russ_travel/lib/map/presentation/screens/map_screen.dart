@@ -672,6 +672,19 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Усть-Канская пещера', latitude: 50.9117, longitude: 84.8144),
       ParkPoint(name: 'Джумалинские источники', latitude: 49.4581, longitude: 88.0535),
 
+      // Алтайский край
+      ParkPoint(name: 'Скала Четыре Брата', latitude: 51.953577, longitude: 84.982803),
+      ParkPoint(name: 'Каменный останец Стожок', latitude: 51.355618, longitude: 83.718591),
+      ParkPoint(name: 'Пещера Денисова', latitude: 51.397272, longitude: 84.676702),
+      ParkPoint(name: 'Тавдинские пещеры', latitude: 51.777307, longitude: 85.731056),
+      ParkPoint(name: 'Грот Ихтиандра', latitude: 51.775787, longitude: 85.735338),
+      ParkPoint(name: 'Пещера Страшная', latitude: 51.170720, longitude: 83.020834),
+      ParkPoint(name: 'Пещера Загонная', latitude: 51.444586, longitude: 83.121520),
+      ParkPoint(name: 'Лебединый заказник', latitude: 52.292235, longitude: 85.655206),
+      ParkPoint(name: 'Тигирекский заповедник', latitude: 51.000000, longitude: 82.916667),
+      ParkPoint(name: 'Барнаульский ленточный бор', latitude: 52.130340, longitude: 81.189313),
+      ParkPoint(name: 'Касмалинский ленточный бор', latitude: 52.821525, longitude: 81.898141),
+
 
 
 
