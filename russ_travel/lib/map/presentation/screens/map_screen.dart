@@ -405,6 +405,20 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Знаменский монастырь', latitude: 53.327585, longitude: 83.796278),
       MuseumPoint(name: 'Историко-архитектурный комплекс Андреевская слобода', latitude: 51.954003, longitude: 84.883513),
 
+      // Иркутская область
+
+      MuseumPoint(name: 'Музей «Тальцы»', latitude: 51.996414, longitude: 104.664236),
+      MuseumPoint(name: 'Кругобайкальская железная дорога', latitude: 51.729483, longitude: 103.726433),
+      MuseumPoint(name: 'Музей «Ангарская деревня»', latitude: 56.221760, longitude: 101.681152),
+      MuseumPoint(name: 'Байкальская астрофизическая обсерватория', latitude: 51.846472, longitude: 104.891889),
+      MuseumPoint(name: 'Памятник Александру III', latitude: 52.275556, longitude: 104.277222),
+      MuseumPoint(name: ' краеведческий музей ', latitude: 52.2757990, longitude: 104.2781010),
+      MuseumPoint(name: ' Памятник основателям Иркутска ', latitude: 52.292534, longitude: 104.28171),
+      MuseumPoint(name: 'Памятник Турист ', latitude: 52.28436, longitude: 104.288101),
+      MuseumPoint(name: 'Памятник адмиралу Александру Колчаку', latitude: 52.3, longitude: 104.295),
+      MuseumPoint(name: ' Братская ГЭС', latitude: 56.28611, longitude: 101.78417),
+
+
 
 
 
@@ -685,6 +699,8 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Барнаульский ленточный бор', latitude: 52.130340, longitude: 81.189313),
       ParkPoint(name: 'Касмалинский ленточный бор', latitude: 52.821525, longitude: 81.898141),
 
+      // Иркутская область
+
 
 
 
@@ -901,6 +917,8 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Чертов палец', latitude: 51.893957, longitude: 85.826778),
       OutsidePoint(name: 'Каскады на реке Шинок', latitude: 51.355850, longitude: 84.555788),
       OutsidePoint(name: 'Пещерский водопад', latitude: 54.102110, longitude: 84.769930),
+
+      // Иркутская область
 
 
 
