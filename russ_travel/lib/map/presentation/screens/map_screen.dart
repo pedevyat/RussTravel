@@ -439,6 +439,24 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Томская область
+      MuseumPoint(name: ' Усадьба Шишкова', latitude: 56.296495, longitude: 85.419978),
+      MuseumPoint(name: 'Музей «Профессорская квартира»', latitude: 84.955199 longitude: 56.467354),
+      MuseumPoint(name: 'Театр живых кукол «2+Ку»', latitude: 56.457154, longitude: 84.941917),
+      MuseumPoint(name: 'Памятник «Щас спою…»', latitude: 56.477905, longitude: 84.991612),
+      MuseumPoint(name: 'Лютеранская церковь святой Марии', latitude: 56.46935806, longitude: 84.96171611),
+      MuseumPoint(name: 'Особняк архитектора С. В. Хомича', latitude: 56.47112, longitude: 84.95752),
+      MuseumPoint(name: 'Дом с жар-птицами', latitude: 56.471075, longitude: 84.964732),
+      MuseumPoint(name: 'Томский областной Российско-Немецкий Дом', latitude: 56.4696670, longitude: 84.9646640),
+      MuseumPoint(name: 'Томский областной художественный музей', latitude: 56.48278, longitude: 84.94722),
+      MuseumPoint(name: 'Томский областной краеведческий музей им. М.Б. Шатилова', latitude: 56.476551056, longitude: 84.950813293),
+      MuseumPoint(name: 'Первый музей славянской мифологии', latitude: 56.48882311466737, longitude: 84.95424397666324),
+      MuseumPoint(name: 'Музей истории Томска', latitude: 56.48891800, longitude: 84.952809),
+      MuseumPoint(name: 'Дом с драконами', latitude: 56.472272, longitude: 84.966002),
+      MuseumPoint(name: 'Кафедральный Богоявленский собор', latitude: 56.488577, longitude: 84.947249),
+      MuseumPoint(name: 'Богородице-Алексеевский мужской монастырь', latitude: 56.481534, longitude: 84.955742),
+      MuseumPoint(name: 'Томский областной театр драмы', latitude: 56.48769800, longitude: 84.94738),
+      MuseumPoint(name: 'Музей деревянного зодчества', latitude: 56.466191, longitude: 84.956264),
+      MuseumPoint(name: '«Усадьба Н.А. Лампсакова»', latitude: 57.058236, longitude: 86.044077),
 
 
       // республика Тыва
