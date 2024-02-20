@@ -886,6 +886,23 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Плато Укок', latitude: 49.3357, longitude: 87.5000),
       OutsidePoint(name: 'Аккемское озеро', latitude: 49.9113, longitude: 86.5441),
 
+      // Алтайски край
+      OutsidePoint(name: 'Река Катунь', latitude: 52.448069, longitude: 85.178460),
+      OutsidePoint(name: 'Кулундинское озеро', latitude: 52.980044, longitude: 79.545513),
+      OutsidePoint(name: 'Озеро Ая', latitude: 51.904532, longitude: 85.853654),
+      OutsidePoint(name: 'Колыванское озеро', latitude: 51.365577, longitude: 82.194079),
+      OutsidePoint(name: 'Озеро Моховое', latitude: 51.252746, longitude: 82.560115),
+      OutsidePoint(name: 'Малиновое озеро', latitude: 51.701987, longitude: 79.746080),
+      OutsidePoint(name: 'Озеро Горькое', latitude: 51.365971, longitude: 80.561588),
+      OutsidePoint(name: 'Озеро Зеркальное', latitude: 52.514637, longitude: 81.857148),
+      OutsidePoint(name: 'Белое озеро', latitude: 52.232509, longitude: 83.852405),
+      OutsidePoint(name: 'Гора Синюха', latitude: 51.241431, longitude: 82.607293),
+      OutsidePoint(name: 'Гора Очаровательная', latitude: 51.356768, longitude: 82.606683),
+      OutsidePoint(name: 'Чертов палец', latitude: 51.893957, longitude: 85.826778),
+      OutsidePoint(name: 'Каскады на реке Шинок', latitude: 51.355850, longitude: 84.555788),
+      OutsidePoint(name: 'Пещерский водопад', latitude: 54.102110, longitude: 84.769930),
+
+
 
 
 
