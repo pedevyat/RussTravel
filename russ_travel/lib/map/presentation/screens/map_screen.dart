@@ -817,7 +817,7 @@ class _MapScreenState extends State<MapScreen> {
 
 
 
-    // республика Тыва
+      // республика Тыва
 
 
       // республика Хакасия
@@ -1090,6 +1090,19 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Томская область
+      OutsidePoint(name: 'Васюганские болота', latitude: 57.566667, longitude: 75.650000),
+      OutsidePoint(name: 'Озеро Мирное', latitude: 57.721142, longitude: 79.098808),
+      OutsidePoint(name: 'Река Обь', latitude: 56.700861, longitude: 84.362882),
+      OutsidePoint(name: 'Озеро Варгато', latitude: 58.761642, longitude: 84.214983),
+      OutsidePoint(name: 'Озеро Иллипех', latitude: 60.195841, longitude: 79.317673),
+      OutsidePoint(name: 'Озеро Кирекское', latitude: 56.111644, longitude: 84.231512),
+      OutsidePoint(name: 'Синие утёсы', latitude: 56.330716, longitude: 84.918347),
+      OutsidePoint(name: 'Аникин Камень', latitude: 56.112347, longitude: 84.981623),
+      OutsidePoint(name: 'Камень Боец', latitude: 56.138555, longitude: 84.963563),
+      OutsidePoint(name: 'Колпашевский яр', latitude: 58.309630, longitude: 82.921121),
+      OutsidePoint(name: 'Гора Кулайка', latitude: 57.777559, longitude: 82.632883),
+      OutsidePoint(name: 'Самусь', latitude: 56.745937, longitude: 84.698151),
+      OutsidePoint(name: 'Маяк на реке Обь', latitude: 56.146560, longitude: 83.955404),
 
 
       // республика Тыва
