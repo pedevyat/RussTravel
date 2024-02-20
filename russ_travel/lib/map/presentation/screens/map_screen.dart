@@ -639,6 +639,29 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Парк культуры и отдыха «Зелёный остров»', latitude: 55.004633, longitude: 73.33627),
       ParkPoint(name: 'Иртышская набережная', latitude: 54.960369, longitude: 73.378875),
 
+      // республика Алтай
+      ParkPoint(name: 'Чуйский тракт – Шелковый путь Сибири', latitude: 51.93813, longitude: 85.83996),
+      ParkPoint(name: 'Манжерок', latitude: 51.83233, longitude: 85.78185),
+      ParkPoint(name: 'Чемал ', latitude: 51.40975, longitude: 86.00080),
+      ParkPoint(name: 'Долина Семи Озёр', latitude: 49.89914, longitude: 86.50682),
+      ParkPoint(name: 'Озеро Горных Духов', latitude: 49.87791, longitude: 86.57321),
+      ParkPoint(name: 'Мультинские озёра', latitude: 50.00575, longitude: 85.83103),
+      ParkPoint(name: 'Село Верхний Уймон', latitude: 50.21316, longitude: 85.73954),
+      ParkPoint(name: 'Петроглифы урочища Калбак-Таш', latitude: 50.40135, longitude: 86.81858),
+      ParkPoint(name: 'Чуйские меандры', latitude: 50.26508, longitude: 87.70329),
+      ParkPoint(name: 'Курайская степь', latitude: 50.17592, longitude: 87.94752),
+      ParkPoint(name: 'Ледники долины Актру', latitude: 50.08138, longitude: 87.69682),
+      ParkPoint(name: 'Каменные грибы в долине Чулышман', latitude: 51.11171, longitude: 87.97292),
+      ParkPoint(name: 'Плато Укок', latitude: 49.26847, longitude: 87.41377),
+      ParkPoint(name: 'Красные Ворота', latitude: 50.3645, longitude: 87.6336),
+      ParkPoint(name: 'База Перевалка', latitude: 50.1457, longitude: 87.8105),
+      ParkPoint(name: 'Гора Купол Трёх Озёр', latitude: 50.0478, longitude: 87.7933),
+      ParkPoint(name: 'Альплагерь Актру', latitude: 50.0837, longitude: 87.7788),
+      ParkPoint(name: 'Шавлинские, latitude: озёра', latitude: 50.1043, longitude: 87.4263),
+      ParkPoint(name: 'Каменные ворота Айры-таш', latitude: 50.5110, longitude: 86.5635),
+      ParkPoint(name: 'Усть-Канская пещера', latitude: 50.9117, longitude: 84.8144),
+      ParkPoint(name: 'Джумалинские источники', latitude: 49.4581, longitude: 88.0535),
+
 
 
 
