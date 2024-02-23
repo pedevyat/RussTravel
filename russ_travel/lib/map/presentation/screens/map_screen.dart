@@ -449,7 +449,7 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Арт-галерея Романовых', latitude: 55.997, longitude: 92.9296),
       MuseumPoint(name: 'Музей-усадьба Г.В. Юдина', latitude: 55.99613588296133, longitude: 92.80885099846493),
       MuseumPoint(name: 'Музей геологии Центральной Сибири', latitude: 56.032055, longitude: 92.922402),
-      MuseumPoint(name: 'Музей-усадьба В.И. Сурикова', latitude: 56.013192°, longitude: 92.862019),
+      MuseumPoint(name: 'Музей-усадьба В.И. Сурикова', latitude: 56.013192, longitude: 92.862019),
       MuseumPoint(name: 'Шестаков-Реставрация', latitude: 55.9941, longitude: 92.9068),
       MuseumPoint(name: 'Музей меда и этнографии', latitude: 53.368055556, longitude: 24.170277778),
       MuseumPoint(name: 'Ньютон Парк', latitude: 56.0105880, longitude: 92.8935620),
@@ -895,7 +895,7 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: ' Сельский парк «Околица»', latitude: 56.515261845931626, longitude: 84.75752522301502),
       ParkPoint(name: ' Лагерный сад', latitude: 56.45417, longitude: 84.95),
       ParkPoint(name: 'Парк Околица ', latitude: 56.515261845931626, longitude: 84.75752522301502),
-      ParkPoint(name: 'Нагорный Иштан',, latitude: 56.747914, longitude: 84.563618),
+      ParkPoint(name: 'Нагорный Иштан', latitude: 56.747914, longitude: 84.563618),
       ParkPoint(name: 'Семилуженский казачий острог', latitude: 56.617541, longitude: 85.353229),
       ParkPoint(name: 'Каравай-парк', latitude: 56.264160, longitude: 83.957439),
       ParkPoint(name: 'Заварзинская лесная дача', latitude: 56.464614, longitude: 85.107504),
@@ -931,6 +931,21 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // республика Хакасия
+      ParkPoint(name: 'Кашкулакская пещера', latitude: 54.464656, longitude: 89.676476),
+      ParkPoint(name: 'Крепость Тарпиг', latitude: 54.779722, longitude: 89.758611),
+      ParkPoint(name: 'Оглахтинская крепость', latitude: 54.448500, longitude: 90.890312),
+      ParkPoint(name: 'Туим-кольцо', latitude: 54.406905, longitude: 89.935578),
+      ParkPoint(name: 'Ширинские столбы', latitude: 54.242681, longitude: 89.587624),
+      ParkPoint(name: 'Тропа предков', latitude: 54.451657, longitude: 89.458717),
+      ParkPoint(name: 'Сафроновский курганный комплекс', latitude: 53.054106, longitude: 90.062315),
+      ParkPoint(name: 'Курган «Барсучий лог»', latitude: 54.007930, longitude: 91.197073),
+      ParkPoint(name: 'Уйбатский замок (Манихейский храм)', latitude: 53.511595, longitude: 91.095529),
+      ParkPoint(name: 'Музей-заповедник Казановка', latitude: 53.226042, longitude: 90.089287),
+      ParkPoint(name: 'Хакасский государственный природный заповедник', latitude: 54.700704, longitude: 90.162313),
+      ParkPoint(name: 'Смирновский бор', latitude: 53.373442, longitude: 91.415191),
+      ParkPoint(name: 'Хакасский заповедник', latitude: 54.477056, longitude: 90.275350),
+      ParkPoint(name: 'Ширинский археологический парк', latitude: 54.469676, longitude: 89.445826),
+      ParkPoint(name: 'Заимка Лыковых на реке Еринат (Таежный тупик)', latitude: 51.46073, longitude: 88.42687),
 
 
 
