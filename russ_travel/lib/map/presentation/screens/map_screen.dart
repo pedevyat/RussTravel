@@ -493,9 +493,29 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // республика Тыва
+      MuseumPoint(name: 'Крепость Пор-Бажын', latitude: 50.615124, longitude: 97.384937),
+      MuseumPoint(name: 'Монастырь Устуу-Хурээ', latitude: 51.257327, longitude: 91.656588),
+      MuseumPoint(name: 'Алдын-Булак', latitude: 51.553458, longitude: 93.887711),
+      MuseumPoint(name: 'Часовня Саска', latitude: 51.576182, longitude: 92.393910),
+      MuseumPoint(name: 'Буддийская ниша Суме', latitude: 61.6584, longitude: 92.428187),
+      MuseumPoint(name: 'Буддийский храм Цеченлинг', latitude: 51.723755, longitude: 94.450597),
+      MuseumPoint(name: 'Драматический театр имени Виктора Кёк-оола', latitude: 51.720028, longitude: 94.439329),
+      MuseumPoint(name: 'Музей Нади Рушевой', latitude: 51.721524, longitude: 94.450028),
+      MuseumPoint(name: 'Национальный музей имени Алдан Маадыр', latitude: 51.719077, longitude: 94.429339),
+      MuseumPoint(name: 'Национальный парк культуры и отдыха Республики Тыва', latitude: 51.723534, longitude: 94.461193),
+      MuseumPoint(name: 'Обелиск «Центр Азии»', latitude: 51.724907, longitude: 94.443610),
+      MuseumPoint(name: 'Памятник Кадарчы', latitude: 51.654699, longitude: 94.432915),
+      MuseumPoint(name: 'Площадь Победы', latitude: 51.722500, longitude: 94.452600),
+      MuseumPoint(name: 'Площадь Арата', latitude: 51.720068, longitude: 94.438655),
+      MuseumPoint(name: 'Кызыл-Мажалыкский филиал Национального музея', latitude: 51.14920, longitude: 90.57640),
+      MuseumPoint(name: 'Музей имени Сафьяновых в г. Туране', latitude: 52.14511, longitude: 93.92124),
+      MuseumPoint(name: 'Кочетовский историко-мемориальный комплекс', latitude: 51.34312, longitude: 94.06124),
+      MuseumPoint(name: 'Церковь Иннокентия, епископа Иркутского', latitude: 52.15007, longitude: 93.92453),
+      MuseumPoint(name: 'Сарыг-Сепский историко-мемориальный музей', latitude: 51.50057, longitude: 95.53919),
+      MuseumPoint(name: 'Чадаанский филиал Национального музея', latitude: 51.28401, longitude: 91.56525),
 
 
-      // республика Хакасия
+    // республика Хакасия
 
 
 
