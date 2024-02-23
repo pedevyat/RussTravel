@@ -790,6 +790,26 @@ class _MapScreenState extends State<MapScreen> {
       ParkPoint(name: 'Иркутская слобода', latitude: 52.275, longitude: 104.29167),
 
       // Кемеровская область
+      ParkPoint(name: 'Заповедник «Кузнецкий Алатау»', latitude: 54.365000, longitude: 88.119722),
+      ParkPoint(name: 'Шорский национальный парк', latitude: 52.772964, longitude: 87.926010),
+      ParkPoint(name: 'Поднебесные Зубья', latitude: 54.133333, longitude: 88.750000),
+      ParkPoint(name: 'Азасская пещера', latitude: 52.765790, longitude: 88.497888),
+      ParkPoint(name: 'Большая Кизасская пещера', latitude: 52.642450, longitude: 88.683452),
+      ParkPoint(name: 'Гавриловские пещеры', latitude: 54.257814, longitude: 85.858618),
+      ParkPoint(name: 'Гавриловский святой источник', latitude: 54.254047, longitude: 85.846475),
+      ParkPoint(name: 'Свято-Никольский источник', latitude: 54.973879, longitude: 86.717231),
+      ParkPoint(name: 'Шестаковский археологический комплекс', latitude: 55.907449, longitude: 87.953523),
+      ParkPoint(name: 'Томская писаница', latitude: 55.668870, longitude: 85.623606),
+      ParkPoint(name: 'Новоромановские скалы', latitude: 55.682457, longitude: 85.338589),
+      ParkPoint(name: 'Кузедеевская липовая роща', latitude: 53.352500, longitude: 87.296667),
+      ParkPoint(name: 'Природный заказник «Антибесский»', latitude: 55.965490, longitude: 87.281271),
+      ParkPoint(name: 'Композиция "Скамья здоровья"', latitude: 55.348731, longitude: 86.117694),
+      ParkPoint(name: 'Скульптура "Облако в луже"', latitude: 55.356654, longitude: 86.091396),
+      ParkPoint(name: 'Скульптура "Ради жизни"', latitude: 55.352275, longitude: 86.094906),
+      ParkPoint(name: 'Скульптура "Усталый ковбой"', latitude: 55.351955, longitude: 86.075058),
+      ParkPoint(name: '"Парк Чудес" (Бывший городской сад)', latitude: 55.360704, longitude: 86.078529),
+      ParkPoint(name: 'Светомузыкальный фонтан "Сила шахтерских традиций"', latitude: 55.353576, longitude: 86.0934),
+      ParkPoint(name: 'Нулевой километр', latitude: 55.35496, longitude: 86.087299),
 
 
       // Красноярский край
