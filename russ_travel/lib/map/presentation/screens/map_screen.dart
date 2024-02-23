@@ -458,11 +458,22 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Новосибирская область
+      MuseumPoint(name: 'Умревинский острог', latitude: 55.573704, longitude: 83.595186),
+      MuseumPoint(name: 'Шипуновский мраморный карьер', latitude: 54.602640, longitude: 83.344840),
+      MuseumPoint(name: 'Курганный комплекс Быстровка', latitude: 54.53870908854932, longitude: 82.58233929756462),
+      MuseumPoint(name: 'Палеонтологический памятник природы Волчья грива', latitude: 54.40, longitude: 80.17),
+      MuseumPoint(name: 'Городище Чичабург', latitude: 54.705833, longitude: 78.590000),
+      MuseumPoint(name: 'Умревинский острог', latitude: 55.57559303386144, longitude: 83.5959165257112),
+      MuseumPoint(name: 'Источник Святой ключ', latitude: 54.5742262726708, longitude: 83.35433333913059),
+      MuseumPoint(name: 'Музей железнодорожной техники', latitude: 54.868637, longitude: 83.076014),
+      MuseumPoint(name: 'Народный музей "Танкоград" под Новосибирском', latitude: 55.1586, longitude: 61.4680),
+      MuseumPoint(name: 'Музей мировой погребальной культуры', latitude: 55.028739, longitude: 82.906928),
+
 
 
       // Томская область
       MuseumPoint(name: ' Усадьба Шишкова', latitude: 56.296495, longitude: 85.419978),
-      MuseumPoint(name: 'Музей «Профессорская квартира»', latitude: 84.955199 longitude: 56.467354),
+      MuseumPoint(name: 'Музей «Профессорская квартира»', latitude: 84.955199, longitude: 56.467354),
       MuseumPoint(name: 'Театр живых кукол «2+Ку»', latitude: 56.457154, longitude: 84.941917),
       MuseumPoint(name: 'Памятник «Щас спою…»', latitude: 56.477905, longitude: 84.991612),
       MuseumPoint(name: 'Лютеранская церковь святой Марии', latitude: 56.46935806, longitude: 84.96171611),
@@ -1117,7 +1128,7 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Водопад Сага', latitude: 52.986627, longitude: 88.370484),
       OutsidePoint(name: 'Иткаринский водопад', latitude: 55.967033, longitude: 84.979489),
       OutsidePoint(name: 'Кедровский угольный разрез', latitude: 55.519695282, longitude: 86.092903137),
-      
+
 
       // Красноярский край
       OutsidePoint(name: 'Манская петля', latitude: 55.872348, longitude: 92.547230),
