@@ -419,6 +419,28 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: ' Братская ГЭС', latitude: 56.28611, longitude: 101.78417),
 
       // Кемеровская область
+      MuseumPoint(name: 'Этнографический музей «Тазгол»', latitude: 53.051177, longitude: 88.415015),
+      MuseumPoint(name: 'Скульптура "Колыбель"', latitude: 55.358868, longitude: 86.083754),
+      MuseumPoint(name: 'Скульптурная композиция "В 6 часов вечера после войны..."', latitude: 55.355453, longitude: 86.081812),
+      MuseumPoint(name: 'Скульптурная композиция "Земля Кузнецкая"', latitude: 55.352525, longitude: 86.080589),
+      MuseumPoint(name: '"Мост влюбленных"', latitude: 55.349439, longitude: 86.077362),
+      MuseumPoint(name: 'Скульптурная композиция "Дружба народов"', latitude: 55.354507, longitude: 86.081023),
+      MuseumPoint(name: 'Памятник рудознатцу Михайло Волкову', latitude: 55.348117, longitude: 86.075645),
+      MuseumPoint(name: 'Мемориал славы воинов кузбассовцев', latitude: 55.35831, longitude: 86.05974),
+      MuseumPoint(name: 'Скульптура "Бездомный пёс"', latitude: 55.359554, longitude: 86.087252),
+      MuseumPoint(name: 'Скульптура "Драгоценная бабушка"', latitude: 55.360731, longitude: 86.085041),
+      MuseumPoint(name: 'Скультура "От улыбки..."', latitude: 55.359966, longitude: 86.086227),
+      MuseumPoint(name: 'Памятник реке "Томь"', latitude: 55.357048, longitude: 86.09223),
+      MuseumPoint(name: 'Скульптура Философ', latitude: 55.357048, longitude: 86.09223),
+      MuseumPoint(name: 'Памятник простому рабочему', latitude: 55.356514, longitude: 86.092116),
+      MuseumPoint(name: 'Памятник хоккейному мячу', latitude: 55.355816, longitude: 86.074227),
+      MuseumPoint(name: 'Скульптура "Модница"', latitude: 55.334893, longitude: 86.174836),
+      MuseumPoint(name: 'Памятник Алексею Архиповичу Леонову', latitude: 55.357104, longitude: 86.082212),
+      MuseumPoint(name: 'Памятник В. Д Мартемьянову', latitude: 55.361752, longitude: 86.083027),
+      MuseumPoint(name: 'Памятник Г. К. Орджоникидзе', latitude: 55.358484, longitude: 86.079686),
+      MuseumPoint(name: 'Парк Ангелов', latitude: 55.343693, longitude: 86.077965),
+      MuseumPoint(name: 'Церковь Святой Троицы', latitude: 55.34584, longitude: 86.18166),
+      MuseumPoint(name: 'Кемеровский областной краеведческий музей', latitude: 55.3565, longitude: 86.08051),
 
 
       // Красноярский край
@@ -1062,6 +1084,8 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: ' Мыс Бурхан', latitude: 53.204189, longitude: 107.338578),
 
       // Кемеровская область
+
+
 
 
       // Красноярский край
