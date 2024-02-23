@@ -1169,6 +1169,27 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Новосибирская область
+      OutsidePoint(name: 'Озеро Карачи', latitude: 55.355403, longitude: 76.944745),
+      OutsidePoint(name: 'Салаирский кряж', latitude: 54.457453, longitude: 85.000337),
+      OutsidePoint(name: 'Буготакские сопки', latitude: 55.092873, longitude: 83.884125),
+      OutsidePoint(name: 'Бердские скалы', latitude: 54.609534, longitude: 84.006770),
+      OutsidePoint(name: 'Улантова гора', latitude: 54.882803, longitude: 84.299987),
+      OutsidePoint(name: 'Озеро Чаны', latitude: 54.866321, longitude: 77.619345),
+      OutsidePoint(name: 'Убинское озеро', latitude: 55.467861, longitude: 80.060652),
+      OutsidePoint(name: 'Озеро Горькое', latitude: 54.227414, longitude: 77.975600),
+      OutsidePoint(name: 'Данилово озеро', latitude: 56.426343, longitude: 75.838992),
+      OutsidePoint(name: 'Беловский водопад', latitude: 54.559800, longitude: 83.620666),
+      OutsidePoint(name: 'Карпысакский водопад', latitude: 55.053096, longitude: 83.730956),
+      OutsidePoint(name: 'Водопад Бучило', latitude: 54.629166, longitude: 83.830223),
+      OutsidePoint(name: 'Волчья грива', latitude: 55.004215, longitude: 80.595922),
+      OutsidePoint(name: 'Суенгинские водопады', latitude: 54.42504139769147, longitude: 84.54182788329612),
+      OutsidePoint(name: 'Река Буготак', latitude: 55.066888445741704, longitude: 83.90990672974539),
+      OutsidePoint(name: 'Буготакские сопки', latitude: 54.88333, longitude: 83.66666),
+      OutsidePoint(name: 'Мраморное озеро Абрашино', latitude: 54.22810690815401, longitude: 81.70717615243939),
+      OutsidePoint(name: 'Курумбельская степь', latitude: 54.416667, longitude: 75.416667),
+      OutsidePoint(name: ' Озеро Тандово', latitude: 55.1552526143972, longitude: 77.98651042705598),
+      OutsidePoint(name: ' Остров Таньвань', latitude: 54.81662469183576, longitude: 83.03725416798395),
+
 
 
       // Томская область
