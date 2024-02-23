@@ -1239,6 +1239,24 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // республика Тыва
+      OutsidePoint(name: 'Гора Монгун-Тайга', latitude: 50.275072, longitude: 90.126282),
+      OutsidePoint(name: 'Озеро Чедер', latitude: 51.359143, longitude: 94.785746),
+      OutsidePoint(name: 'Озеро Чагытай', latitude: 51.016115, longitude: 94.729431),
+      OutsidePoint(name: 'Река Енисей', latitude: 51.642179, longitude: 94.241396),
+      OutsidePoint(name: 'Озеро Дус-Холь', latitude: 50.336302, longitude: 95.016532),
+      OutsidePoint(name: 'Озеро Кара-Холь', latitude: 50.528730, longitude: 95.203741),
+      OutsidePoint(name: 'Озеро Сут-Холь', latitude: 51.518674, longitude: 91.166299),
+      OutsidePoint(name: 'Озеро Торе-Холь', latitude: 50.064660, longitude: 95.082163),
+      OutsidePoint(name: 'Уш-Белдир', latitude: 51.472229, longitude: 98.051297),
+      OutsidePoint(name: 'Аржаан Чойган', latitude: 52.060988, longitude: 96.000086),
+      OutsidePoint(name: 'Дургенский водопад', latitude: 51.145134, longitude: 94.010814),
+      OutsidePoint(name: 'Гора Кежеге', latitude: 50.035397, longitude: 95.463646),
+      OutsidePoint(name: 'Гора Хайыракан', latitude: 51.563245, longitude: 93.028420),
+      OutsidePoint(name: 'Гора Догээ', latitude: 51.762082, longitude: 94.423686),
+      OutsidePoint(name: 'Гора Кызыл-Тайга', latitude: 51.474474, longitude: 89.923141),
+      OutsidePoint(name: 'Хребет Академика Обручева', latitude: 51.833333, longitude: 96.000000),
+      OutsidePoint(name: 'Гора Уттуг-Хая', latitude: 51.133766, longitude: 90.726945),
+
 
 
       // республика Хакасия
