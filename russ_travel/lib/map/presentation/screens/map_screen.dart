@@ -515,7 +515,18 @@ class _MapScreenState extends State<MapScreen> {
       MuseumPoint(name: 'Чадаанский филиал Национального музея', latitude: 51.28401, longitude: 91.56525),
 
 
-    // республика Хакасия
+      // республика Хакасия
+      MuseumPoint(name: 'Крепость Чебаки', latitude: 54.628889, longitude: 89.250278),
+      MuseumPoint(name: 'Боярская писаница', latitude: 54.291584, longitude: 91.188234),
+      MuseumPoint(name: 'Сулекская писаница', latitude: 54.967894, longitude: 89.582704),
+      MuseumPoint(name: 'Малоарбатская писаница', latitude: 52.653923, longitude: 90.361582),
+      MuseumPoint(name: 'Памятник Скифскому Оленю', latitude: 53.741742, longitude: 91.424377),
+      MuseumPoint(name: 'Памятник маленькому принцу', latitude: 53.739216, longitude: 91.431676),
+      MuseumPoint(name: 'Краеведческий музей им. Д.С. Лалетина', latitude: 54.487155, longitude: 89.962251),
+      MuseumPoint(name: 'Хакасский национальный краеведческий музей', latitude: 53.71776500, longitude: 91.45508100),
+      MuseumPoint(name: 'Ширинский районный краеведческий музей', latitude: 54.48849, longitude: 89.96276),
+      MuseumPoint(name: 'Крепость Тарпиг', latitude: 54.76792, longitude: 89.81993),
+      MuseumPoint(name: 'Оглахтинская крепость', latitude: 54.67411, longitude: 90.85743),
 
 
 
