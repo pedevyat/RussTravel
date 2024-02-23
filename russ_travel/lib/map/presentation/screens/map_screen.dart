@@ -907,6 +907,16 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // республика Тыва
+      ParkPoint(name: 'Заповедник «Убсунурская котловина»', latitude: 50.637721, longitude: 93.191919),
+      ParkPoint(name: 'Заповедник «Азас»', latitude: 52.464827, longitude: 96.119437),
+      ParkPoint(name: 'Тарысские источники', latitude: 50.380951, longitude: 98.204379),
+      ParkPoint(name: 'Кундустуг аржаан', latitude: 51.568754, longitude: 95.180832),
+      ParkPoint(name: 'Курганы Аржаан', latitude: 52.095976, longitude: 93.711233),
+      ParkPoint(name: 'Дорога Чингисхана ', latitude: 51.605473, longitude: 91.950313),
+      ParkPoint(name: 'Кижи-Кожээ', latitude: 51.085277, longitude: 90.625741),
+      ParkPoint(name: 'Писаница Мугур-Саргол', latitude: 51.516651, longitude: 92.332448),
+      ParkPoint(name: 'Сквер Центр Азии', latitude: 51.724754, longitude: 94.444386),
+      ParkPoint(name: ' Убсунурская котловина', latitude: 50.33805, longitude: 92.75749),
 
 
       // республика Хакасия
