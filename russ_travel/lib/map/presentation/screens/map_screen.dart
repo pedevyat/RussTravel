@@ -842,6 +842,22 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // Новосибирская область
+      ParkPoint(name: 'Новосибирское водохранилище', latitude: 54.489278, longitude: 82.327003),
+      ParkPoint(name: 'Караканский бор', latitude: 54.395563, longitude: 82.295597),
+      ParkPoint(name: 'Елбанские ельники', latitude: 54.300000, longitude: 84.550000),
+      ParkPoint(name: 'Кудряшовский бор', latitude: 55.169581, longitude: 82.685655),
+      ParkPoint(name: 'Реликтовая липовая роща', latitude: 55.950000, longitude: 80.950000),
+      ParkPoint(name: 'Святой ключ', latitude: 54.573949, longitude: 83.354765),
+      ParkPoint(name: 'Новососедовская пещера', latitude: 54.650777, longitude: 83.986399),
+      ParkPoint(name: 'Барсуковская пещера', latitude: 54.371087, longitude: 83.959672),
+      ParkPoint(name: 'Талицкий заказник', latitude: 54.239633, longitude: 84.470382),
+      ParkPoint(name: 'Мануйловский заказник', latitude: 55.500000, longitude: 84.300000),
+      ParkPoint(name: 'Легостаевский заказник', latitude: 54.700000, longitude: 83.900000),
+      ParkPoint(name: 'Кирзинский заказник', latitude: 54.672016, longitude: 78.232207),
+      ParkPoint(name: 'Васюганский заповедник', latitude: 56.944299, longitude: 78.746275),
+      ParkPoint(name: 'Пихтовый гребень', latitude: 54.71401606551393, longitude: 84.34527545448222),
+      ParkPoint(name: 'Шипуновский (Искитимский) мраморный карьер', latitude: 54.60228151667749, longitude: 83.34464482563862),
+      ParkPoint(name: 'Новососедовская пещера', latitude: 54.650767, longitude: 83.986319),
 
 
       // Томская область
