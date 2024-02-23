@@ -1286,6 +1286,33 @@ class _MapScreenState extends State<MapScreen> {
 
 
       // республика Хакасия
+      OutsidePoint(name: 'Гора Куня', latitude: 53.896932, longitude: 91.410617),
+      OutsidePoint(name: 'Гора Борус', latitude: 52.787621, longitude: 91.540896),
+      OutsidePoint(name: 'Гора Любви', latitude: 53.701876, longitude: 91.515893),
+      OutsidePoint(name: 'Гора Чалпан', latitude: 54.705052, longitude: 90.152876),
+      OutsidePoint(name: 'Гора Чаргажах', latitude: 54.462336, longitude: 90.161196),
+      OutsidePoint(name: 'Гора Уйтаг', latitude: 53.329226, longitude: 90.822657),
+      OutsidePoint(name: 'Туимский провал', latitude: 54.3240114, longitude: 89.9060834),
+      OutsidePoint(name: 'Бородинская пещера', latitude: 54.047660, longitude: 91.002989),
+      OutsidePoint(name: 'Озеро Белё', latitude: 54.653193, longitude: 90.120543),
+      OutsidePoint(name: 'Озеро Шира', latitude: 54.508279, longitude: 90.206234),
+      OutsidePoint(name: 'Озеро Баланкуль', latitude: 53.460401, longitude: 90.413601),
+      OutsidePoint(name: 'Озеро Тус', latitude: 54.734950, longitude: 89.958020),
+      OutsidePoint(name: 'Озеро Маранкуль', latitude: 51.850990, longitude: 89.863697),
+      OutsidePoint(name: 'Ивановские озера', latitude: 54.615049, longitude: 88.651565),
+      OutsidePoint(name: 'Озеро Матарак', latitude: 54.405750, longitude: 90.191817),
+      OutsidePoint(name: 'Озеро Шунет', latitude: 54.419133, longitude: 90.227188),
+      OutsidePoint(name: 'Озеро Итколь', latitude: 54.466314, longitude: 90.087913),
+      OutsidePoint(name: 'Большой Салбыкский курган', latitude: 53.894205, longitude: 90.77297),
+      OutsidePoint(name: 'Смотровая площадка на Саяно-Шушенскую ГЭС', latitude: 52.835596, longitude: 91.389331),
+      OutsidePoint(name: 'Горы Сундуки', latitude: 54.676321, longitude: 89.706347),
+      OutsidePoint(name: 'Озеро Орлово', latitude: 54.483107, longitude: 89.986326),
+      OutsidePoint(name: 'Озеро Камышовое', latitude: 54.468620, longitude: 89.983622),
+      OutsidePoint(name: 'Озеро Фыркал', latitude: 54.611294, longitude: 89.796395),
+      OutsidePoint(name: 'Река Туим', latitude: 54.402937, longitude: 89.936281),
+      OutsidePoint(name: 'Горная гряда «Сундуки»', latitude: 54.66370, longitude: 89.70732),
+      OutsidePoint(name: 'Гора Куня', latitude: 53.89192, longitude: 91.40586),
+
 
 
 
