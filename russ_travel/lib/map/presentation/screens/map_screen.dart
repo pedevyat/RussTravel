@@ -1104,9 +1104,20 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: ' Мыс Бурхан', latitude: 53.204189, longitude: 107.338578),
 
       // Кемеровская область
-
-
-
+      OutsidePoint(name: 'Озеро Большой Берчикуль', latitude: 55.611043, longitude: 88.343891),
+      OutsidePoint(name: 'Салаирский кряж', latitude: 54.089722, longitude: 85.827778),
+      OutsidePoint(name: 'Гора Зелёная', latitude: 52.948556, longitude: 87.928537),
+      OutsidePoint(name: 'Тутальские скалы', latitude: 55.708333, longitude: 85.006111),
+      OutsidePoint(name: 'Царские ворота', latitude: 53.050987, longitude: 88.415012),
+      OutsidePoint(name: 'Разрезы Кузбасса', latitude: 54.228056, longitude: 87.020278),
+      OutsidePoint(name: 'Озеро Танай', latitude: 54.795328, longitude: 84.998784),
+      OutsidePoint(name: 'Беловское водохранилище', latitude: 54.424582, longitude: 86.462406),
+      OutsidePoint(name: 'Озеро Среднетерсинское', latitude: 54.386939, longitude: 88.359351),
+      OutsidePoint(name: 'Озеро Рыбное', latitude: 54.329709, longitude: 88.403153),
+      OutsidePoint(name: 'Водопад Сага', latitude: 52.986627, longitude: 88.370484),
+      OutsidePoint(name: 'Иткаринский водопад', latitude: 55.967033, longitude: 84.979489),
+      OutsidePoint(name: 'Кедровский угольный разрез', latitude: 55.519695282, longitude: 86.092903137),
+      
 
       // Красноярский край
       OutsidePoint(name: 'Манская петля', latitude: 55.872348, longitude: 92.547230),
