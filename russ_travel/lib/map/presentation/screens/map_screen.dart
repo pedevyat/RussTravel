@@ -169,6 +169,35 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Санкт-Петербург
+    HotelPoint(name: 'Первая линия health care resort', latitude: 60.1840400695801, longitude: 29.7516002655029),
+    HotelPoint(name: 'Wawelberg', latitude: 59.936607, longitude: 30.31426),
+    HotelPoint(name: 'Оранжевое небо', latitude: 59.930303, longitude: 30.346042),
+    HotelPoint(name: 'Трезини', latitude: 59.9369, longitude: 30.2881),
+    HotelPoint(name: 'Green Loft', latitude: 59.9188741, longitude: 30.370723),
+    HotelPoint(name: 'Гамма', latitude: 59.9087, longitude: 30.2911),
+    HotelPoint(name: 'Тучков Отель', latitude: 59.948136, longitude: 30.277537),
+    HotelPoint(name: 'Галунов отель', latitude: 59.93004, longitude: 30.36985),
+    HotelPoint(name: ' Wynwood', latitude: 59.934562, longitude: 30.326293),
+    HotelPoint(name: '1715 duplex hotel', latitude: 59.943458, longitude: 30.326522),
+    HotelPoint(name: 'Hotel 812', latitude: 59.932031, longitude: 30.369857),
+    HotelPoint(name: 'Калейдоскоп на рубинштейна 13', latitude: 59.930837, longitude: 30.345132),
+    HotelPoint(name: 'Terra place by mix hotels', latitude: 59.935983, longitude: 30.33033),
+    HotelPoint(name: 'Калейдоскоп на итальянской', latitude: 59.936079, longitude: 30.33776),
+    HotelPoint(name: 'Лахта Плаза', latitude: 59.987609, longitude: 30.19014),
+    HotelPoint(name: 'Международный академический центр гармония', latitude: 60.1512298583984, longitude: 29.9139976501465),
+    HotelPoint(name: 'Ridge', latitude: 59.916415, longitude: 30.361161),
+    HotelPoint(name: 'Welton club hotel apartments', latitude: 59.952081, longitude: 30.350572),
+    HotelPoint(name: 'Гостевой дом 16 8', latitude: 59.9641, longitude: 30.2982),
+    HotelPoint(name: 'Helen', latitude: 59.933888, longitude: 30.313425),
+    HotelPoint(name: 'Невский форум', latitude: 59.9317, longitude: 30.3544),
+    HotelPoint(name: 'Деметра', latitude: 59.943421, longitude: 30.360766),
+    HotelPoint(name: 'The faces petrogradskaya', latitude: 59.9594, longitude: 30.3145),
+    HotelPoint(name: 'Гостиница Аркадия', latitude: 59.9317, longitude: 30.3146),
+    HotelPoint(name: 'Дом Достоевского', latitude: 59.9277, longitude: 30.3146),
+    HotelPoint(name: 'Волков', latitude: 53.0943298339844, longitude: 45.1015586853027),
+    HotelPoint(name: 'Аветпарк', latitude: 59.900624, longitude: 30.421057),
+
+
 
 
     // Новгородская область
@@ -213,7 +242,7 @@ List<HotelPoint> _getMapPointsH() {
 
 
 
-  // Кемеровская область
+    // Кемеровская область
 
 
     // Красноярский край
