@@ -190,9 +190,30 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Иркутская область
+    HotelPoint(name: 'Добрый кот', latitude: 52.284068, longitude: 104.252034),
+    HotelPoint(name: 'Гостиница учебного центра профсоюзов', latitude: 52.256408, longitude: 104.355283),
+    HotelPoint(name: 'Иркут', latitude: 52.288866, longitude: 104.285376),
+    HotelPoint(name: 'Союз', latitude: 52.253558, longitude: 104.253441),
+    HotelPoint(name: 'Гостиница 130 hotel', latitude: 52.276299, longitude: 104.290236),
+    HotelPoint(name: 'Апартаменты центральный парк премиум в жк 4 солнца', latitude: 54.785029, longitude: 32.039466),
+    HotelPoint(name: 'Гостиница Академическая', latitude: 52.2487, longitude: 104.27118),
+    HotelPoint(name: 'Байкал', latitude: 52.281401, longitude: 104.275962),
+    HotelPoint(name: 'Baikalmi', latitude: 53.0132522583008, longitude: 106.880104064941),
+    HotelPoint(name: 'Панорама', latitude: 53.0203437805176, longitude: 106.882247924805),
+    HotelPoint(name: 'Байкалина', latitude: 51.538201, longitude: 04.047512),
+    HotelPoint(name: 'Байкал йети', latitude: 51.538201, longitude: 104.047512),
+    HotelPoint(name: 'Порт Ольхон', latitude: 53.1931425712, longitude: 107.3320035),
+    HotelPoint(name: 'Флагман', latitude: 53.192522, longitude: 107.35624),
+    HotelPoint(name: ' Байкальский рай', latitude: 51.731466, longitude: 103.724657),
+    HotelPoint(name: 'Лола', latitude: 103.621955, longitude: 52.756491),
+    HotelPoint(name: 'Байкальские сезоны', latitude: 51.90671, longitude: 104.805699),
+    HotelPoint(name: 'Байкальский бриз', latitude: 52.03008096381, longitude: 105.40383338928),
+    HotelPoint(name: ' ГостиныйдворАнна', latitude: 52.313021, longitude: 104.27563),
+    HotelPoint(name: 'Русское Подворье', latitude: 52.0471, longitude: 105.408),
 
 
-    // Кемеровская область
+
+  // Кемеровская область
 
 
     // Красноярский край
