@@ -166,9 +166,37 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Ленинградская область
+      HotelPoint(name: 'ЯроМир', latitude: 59.9367, longitude: 30.3253),
+      HotelPoint(name: 'Кировские Дачи', latitude: 60.73728, longitude: 28.75747),
+      HotelPoint(name: 'Мурино', latitude: 60.049864, longitude: 30.462212),
+      HotelPoint(name: 'Гатчина', latitude: 59.562986, longitude: 30.122218),
+      HotelPoint(name: 'столица', latitude: 59.5596960, longitude: 30.1248740),
+      HotelPoint(name: 'Приорат ', latitude: 59.561545, longitude: 30.123045),
+      HotelPoint(name: 'Снежный Курорт', latitude: 60.521970, longitude: 29.764107),
+      HotelPoint(name: 'Коробицыно Каскад', latitude: 60.522325, longitude: 29.762892),
+      HotelPoint(name: 'Сириус', latitude: 59.90695, longitude: 29.077037),
+      HotelPoint(name: 'Сосновый бор', latitude: 59.906951904296, longitude: 29.077037811279),
+      HotelPoint(name: 'Хуторок', latitude: 59.877271, longitude: 29.068004),
+      HotelPoint(name: 'Загородный клуб ДаВинчи', latitude: 60.5975, longitude: 30.0005),
+      HotelPoint(name: 'Загородный клуб дача', latitude: 60.67173, longitude: 30.168797),
+      HotelPoint(name: 'База отдыха связист ', latitude: 60.644630, longitude: 30.201429),
+      HotelPoint(name: 'Витязь', latitude: 59.3758, longitude: 28.2218),
+      HotelPoint(name: 'Тихий дворик', latitude: 59.369746, longitude: 28.215894),
+      HotelPoint(name: 'Купеческий гостевой дом', latitude: 59.3709700, longitude: 28.2182100),
+      HotelPoint(name: 'Fox Inn', latitude: 60.014453, longitude: 30.010493),
+      HotelPoint(name: 'Гостиница Спортивная', latitude: 59.4505996704102, longitude: 32.027904510498),
+      HotelPoint(name: 'Север', latitude: 32.03556, longitude: 59.452952),
+      HotelPoint(name: 'Огниво светлое', latitude: 60.549827, longitude: 29.784434),
+      HotelPoint(name: 'Дачники', latitude: 60.55540455934, longitude: 29.809628066547),
+      HotelPoint(name: 'Гостиница уютная', latitude: 59.748451, longitude: 30.611889),
+      HotelPoint(name: 'Пирамида', latitude: 59.742715, longitude: 30.616772),
+      HotelPoint(name: ' Берег', latitude: 59.7339, longitude: 30.6054),
+      HotelPoint(name: 'Онегин', latitude: 59.926, longitude: 30.3606),
+      HotelPoint(name: 'Отдохни', latitude: 59.897704, longitude: 32.365482),
 
 
-    // Санкт-Петербург
+
+  // Санкт-Петербург
     HotelPoint(name: 'Первая линия health care resort', latitude: 60.1840400695801, longitude: 29.7516002655029),
     HotelPoint(name: 'Wawelberg', latitude: 59.936607, longitude: 30.31426),
     HotelPoint(name: 'Оранжевое небо', latitude: 59.930303, longitude: 30.346042),
