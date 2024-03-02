@@ -280,9 +280,36 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Томская область
+    HotelPoint(name: 'скандинавия', latitude: 56.496989, longitude: 84.956613),
+    HotelPoint(name: 'пятерочка', latitude: 84.971153, longitude: 56.474149),
+    HotelPoint(name: 'Бон Апарт', latitude: 56.471546, longitude: 84.952167),
+    HotelPoint(name: 'Магистрат', latitude: 56.4885, longitude: 84.950),
+    HotelPoint(name: 'кухтерин отель', latitude: 56.482404, longitude: 84.950883),
+    HotelPoint(name: 'Xander ', latitude: 56.47696, longitude: 84.956632),
+    HotelPoint(name: 'бастон на герцена', latitude: 56.471429, longitude: 84.96434),
+    HotelPoint(name: 'первый апарт ', latitude: 56.495931, longitude: 84.968643),
+    HotelPoint(name: 'Гостиница Африка ', latitude: 56.4728, longitude: 84.9905),
+    HotelPoint(name: 'Отель Галерея', latitude: 56.4903, longitude: 84.9529),
+    HotelPoint(name: 'гостиница октябрьская', latitude: 56.4895210266113, longitude: 84.9445037841797),
+    HotelPoint(name: 'mirway', latitude: 56.542854309082, longitude: 84.9596252441406),
+    HotelPoint(name: 'Гостиница Союз', latitude: 56.466369, longitude: 84.982627),
+    HotelPoint(name: 'гостиница заречная', latitude: 56.4973, longitude: 84.9429),
+    HotelPoint(name: 'шишки ', latitude: 56.518577, longitude: 85.04305),
+    HotelPoint(name: 'hostel rus tomsk', latitude: 56.4813842773438, longitude: 84.9506759643555),
+    HotelPoint(name: 'отель классик', latitude: 56.4673, longitude: 84.9381),
+    HotelPoint(name: 'Montana', latitude: 56.5026, longitude: 84.9624),
+    HotelPoint(name: 'как дома и точка', latitude: 84.993324, longitude: 56.486134),
+    HotelPoint(name: 'Алые паруса', latitude: 56.498, longitude: 84.9478),
+    HotelPoint(name: 'да винчи ', latitude: 56.4754, longitude: 84.9715),
+    HotelPoint(name: 'Отель «Халиф»', latitude: 56.5073, longitude: 84.9408),
+    HotelPoint(name: ' дом охотника', latitude: 56.477759, longitude: 84.951767),
+    HotelPoint(name: 'puzzle hostel', latitude: 84.986149, longitude: 56.49984),
+    HotelPoint(name: 'Monomakh', latitude: 56.5012, longitude: 85.0016),
+    HotelPoint(name: 'Гостиница Университетская', latitude: 56.4677, longitude: 84.9408),
 
 
-    // республика Тыва
+
+  // республика Тыва
 
 
     // республика Хакасия
