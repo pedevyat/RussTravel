@@ -160,9 +160,35 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Мурманская область
+      HotelPoint(name: 'Хостел Акка Книбекайзе', latitude: 67.6183700561523, longitude: 33.683219909668),
+      HotelPoint(name: 'Ренессанс', latitude: 68.9715, longitude: 33.0889),
+      HotelPoint(name: 'Arctic Hotel', latitude: 68.9791641235352, longitude: 33.083324432373),
+      HotelPoint(name: 'Териберка', latitude: 69.165502, longitude: 35.135133),
+      HotelPoint(name: 'Три барсука', latitude: 68.96446, longitude: 33.0703),
+      HotelPoint(name: 'Ледокол ', latitude: 33.08295, longitude: 68.945469),
+      HotelPoint(name: 'Северный берег', latitude: 69.002743, longitude: 33.11119),
+      HotelPoint(name: 'Парк-отель Экспедиция', latitude: 68.920536, longitude: 33.109647),
+      HotelPoint(name: 'Отель Русь', latitude: 67.597728, longitude: 33.0836),
+      HotelPoint(name: 'Ягель лофт', latitude: 68.908254, longitude: 33.095956),
+      HotelPoint(name: 'Спутник', latitude: 68.8948341021, longitude: 33.088178368),
+      HotelPoint(name: 'Меридиан', latitude: 68.9697, longitude: 33.0725),
+      HotelPoint(name: 'Арктик хоум даунтаун', latitude: 68.9739074707031, longitude: 33.0896835327148),
+      HotelPoint(name: 'Тундра', latitude: 68.956362, longitude: 33.080972),
+      HotelPoint(name: 'Скандинавия', latitude: 67.1550064086914, longitude: 32.4164810180664),
+      HotelPoint(name: 'Полярный круг', latitude: 68.9413, longitude: 33.1009),
+      HotelPoint(name: 'Рус Мурманск', latitude: 68.992202, longitude: 33.0994534),
+      HotelPoint(name: 'Гринвич', latitude: 67.162842, longitude: 32.411153),
+      HotelPoint(name: 'Арктик-Сервис', latitude: 68.985179, longitude: 33.0965811),
+      HotelPoint(name: 'Good night rooms hostel', latitude: 68.9630661010742, longitude: 33.0743598937988),
+      HotelPoint(name: 'Смарт Асгард', latitude: 68.9682227938, longitude: 33.08256787),
+      HotelPoint(name: 'Вокзал для двоих', latitude: 67.1611862182617, longitude: 32.4193115234375),
+      HotelPoint(name: 'Barents holiday village', latitude: 69.1707498, longitude: 35.1255676),
+      HotelPoint(name: 'Отель Фьорд', latitude: 69.0193, longitude: 33.0849),
+      HotelPoint(name: 'Колтак', latitude: 68.8837230, longitude: 33.0370620),
 
 
-    // Карелия
+
+  // Карелия
 
 
     // Ленинградская область
