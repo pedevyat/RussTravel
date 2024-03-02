@@ -302,6 +302,32 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Новосибирская область
+    HotelPoint(name: 'Хостел ovb', latitude: 54.995385, longitude: 82.692033),
+    HotelPoint(name: 'Отель Метелица', latitude: 55.02879, longitude: 82.97805),
+    HotelPoint(name: 'Hotel Barracuda', latitude: 55.0746, longitude: 82.9616),
+    HotelPoint(name: 'Санаторий рассвет', latitude: 82.794010, longitude: 54.898271),
+    HotelPoint(name: 'Домина', latitude: 55.0292, longitude: 82.9071),
+    HotelPoint(name: 'Отель Н', latitude: 55.0289, longitude: 82.8968),
+    HotelPoint(name: 'Роял Марин', latitude: 54.773034, longitude: 83.096508),
+    HotelPoint(name: 'Шале на Комсомольском', latitude: 55.032136, longitude: 82.906876),
+    HotelPoint(name: 'Гостиниц net на Ядринцевской', latitude: 82.93518, longitude: 55.03445),
+    HotelPoint(name: 'Маринс парк-отель', latitude: 55.0355567932129, longitude: 82.9006500244141),
+    HotelPoint(name: 'Сити-отель Новосибирск', latitude: 54.9889, longitude: 82.9146),
+    HotelPoint(name: 'якутия', latitude: 55.001162, longitude: 82.954633),
+    HotelPoint(name: 'Гостиница Скайпорт ', latitude: 55.0038, longitude: 82.6722),
+    HotelPoint(name: 'Золотая долина - Академгородок', latitude: 54.841, longitude: 83.0928),
+    HotelPoint(name: 'СКАЙЭКСПО', latitude: 54.997771, longitude: 82.749301),
+    HotelPoint(name: 'Вавилон', latitude: 55.0411, longitude: 82.9879),
+    HotelPoint(name: 'Отель 54', latitude: 78.345337, longitude: 55.336303),
+    HotelPoint(name: 'Гостиница Центральная', latitude: 55.0295, longitude: 82.9174),
+    HotelPoint(name: 'Аквилон', latitude: 55.0568, longitude: 82.9819),
+    HotelPoint(name: 'Барракуда ', latitude: 55.107231, longitude: 82.952535),
+    HotelPoint(name: 'у петровича', latitude: 54.9990570, longitude: 82.6573340),
+    HotelPoint(name: 'Былина', latitude: 54.792587, longitude: 83.109785),
+    HotelPoint(name: 'Хостел Обской возле Толмачево', latitude: 54.99477, longitude: 82.69468),
+    HotelPoint(name: 'Гостиница Оксид', latitude: 55.013420, longitude: 82.945259),
+    HotelPoint(name: 'Emodji Hostel', latitude: 55.0359, longitude: 82.9062),
+
 
 
     // Томская область
