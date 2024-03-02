@@ -8,6 +8,7 @@ import '../../domain/location_service.dart';
 import '../../domain/museum_point.dart';
 import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
+import '../../domain/hotel_point.dart';
 
 class MapScreen extends StatefulWidget {
   const MapScreen({super.key});
@@ -50,7 +51,8 @@ class _MapScreenState extends State<MapScreen> {
         },
         mapObjects: _getPlacemarkObjectsP(context)+
             _getPlacemarkObjectsO(context) +
-            _getPlacemarkObjectsM(context),
+            _getPlacemarkObjectsM(context) +
+            _getPlacemarkObjectsH(context),
       ),
     );
   }
@@ -93,6 +95,78 @@ class _MapScreenState extends State<MapScreen> {
 //    );
 //  }
 //}
+
+
+/// Методы для генерации точек на карте
+/// отели, гостиницы
+List<HotelPoint> _getMapPointsH() {
+  return const [
+
+    // республика Коми
+
+
+    // Ненецкий АО
+
+
+    // Архангельская область
+
+
+    // Вологодская область
+
+
+    // Мурманская область
+
+
+    // Карелия
+
+
+    // Ленинградская область
+
+
+    // Санкт-Петербург
+
+
+    // Новгородская область
+
+
+    // Псковская область
+
+
+    // Калининградская область
+
+
+    // Омская область
+
+
+    // республика Алтай
+
+
+    // Алтайский край
+
+
+    // Иркутская область
+
+
+    // Кемеровская область
+
+
+    // Красноярский край
+
+
+    // Новосибирская область
+
+
+    // Томская область
+
+
+    // республика Тыва
+
+
+    // республика Хакасия
+
+
+  ];
+}
 
   /// Методы для генерации точек на карте
   /// Музеи, исторические здания (икзампел: Спасская башня, Эрмитаж, Исакиевский собор, ...)
@@ -1312,19 +1386,40 @@ class _MapScreenState extends State<MapScreen> {
       OutsidePoint(name: 'Река Туим', latitude: 54.402937, longitude: 89.936281),
       OutsidePoint(name: 'Горная гряда «Сундуки»', latitude: 54.66370, longitude: 89.70732),
       OutsidePoint(name: 'Гора Куня', latitude: 53.89192, longitude: 91.40586),
-
-
-
-
-
-
-
-
-
     ];
   }
 
-  /// Методы для генерации объектов маркеров для отображения на карте
+
+
+/// Методы для генерации объектов маркеров для отображения на карте
+
+List<PlacemarkMapObject> _getPlacemarkObjectsH(BuildContext context) {
+  return _getMapPointsH()
+      .map(
+        (point) =>
+        PlacemarkMapObject(
+          mapId: MapObjectId('MapObject $point'),
+          point: Point(latitude: point.latitude, longitude: point.longitude),
+          opacity: 1,
+          icon: PlacemarkIcon.single(
+            PlacemarkIconStyle(
+              image: BitmapDescriptor.fromAssetImage(
+                'assets/hotels.png',
+              ),
+              scale: 0.15,
+            ),
+          ),
+          onTap: (_, __) => showModalBottomSheet(
+            context: context,
+            builder: (context) => _ModalBodyViewM(
+              point: point,
+            ),
+          ),
+        ),
+  )
+      .toList();
+}
+
   List<PlacemarkMapObject> _getPlacemarkObjectsM(BuildContext context) {
     return _getMapPointsM()
         .map(
@@ -1408,6 +1503,33 @@ List<PlacemarkMapObject> _getPlacemarkObjectsP(BuildContext context) {
 
 
 /// Содержимое модального окна с информацией о точке на карте
+
+class _ModalBodyView extends StatelessWidget {
+  const _ModalBodyView({required this.point});
+
+
+  final HotelPoint point;
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40),
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Text(point.name, style: const TextStyle(fontSize: 20)),
+        const SizedBox(height: 20),
+        Text(
+          '${point.latitude}, ${point.longitude}',
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.grey,
+          ),
+        ),
+      ]),
+    );
+  }
+}
+
 class _ModalBodyView extends StatelessWidget {
   const _ModalBodyView({required this.point});
 
