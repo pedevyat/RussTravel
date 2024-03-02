@@ -244,9 +244,34 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Алтайский край
+      HotelPoint(name: 'База отдыха Etnica', latitude: 52.000325, longitude: 85.881150),
+      HotelPoint(name: 'Гостиница Арарат', latitude: 53.7976, longitude: 81.3104),
+      HotelPoint(name: 'Алтай green', latitude: 52.032397867827, longitude: 84.868143415772),
+      HotelPoint(name: 'Гостиница Благодать', latitude: 51.980808, longitude: 84.958725),
+      HotelPoint(name: 'Беловодье', latitude: 51.994825, longitude: 84.993556),
+      HotelPoint(name: 'Белый Аист', latitude: 51.925307144349, longitude: 85.822104517756),
+      HotelPoint(name: 'Эко-отель Эхо', latitude: 51.984259, longitude: 84.966127),
+      HotelPoint(name: '4 rooms', latitude: 55.0062141418457, longitude: 73.2918167114258),
+      HotelPoint(name: 'Алейка', latitude: 52.494919, longitude: 82.752885),
+      HotelPoint(name: 'Sleep box hostel', latitude: 53.348473, longitude: 83.758054),
+      HotelPoint(name: 'Кедровый Отель', latitude: 51.993016, longitude: 84.974293),
+      HotelPoint(name: 'Столичный отель', latitude: 53.3369321, longitude: 83.7894899),
+      HotelPoint(name: 'Хостел Арбуз', latitude: 53.3728, longitude: 83.7443),
+      HotelPoint(name: 'Хостел Вагон ', latitude: 53.3517, longitude: 83.7777),
+      HotelPoint(name: 'Hotel palma', latitude: 53.3838, longitude: 83.7368),
+      HotelPoint(name: 'Отель Нео', latitude: 51.993801116943, longitude: 84.977996826172),
+      HotelPoint(name: 'Отель баваренок', latitude: 51.9930458068848, longitude: 84.9766845703125),
+      HotelPoint(name: 'Гостиница Олимп ', latitude: 51.9532127380371, longitude: 84.8833465576172),
+      HotelPoint(name: 'Время Счастья', latitude: 51.9316, longitude: 85.815),
+      HotelPoint(name: 'Star', latitude: 52.000325, longitude: 85.881150),
+      HotelPoint(name: 'Сити Фокс', latitude: 53.339501, longitude: 83.678352),
+      HotelPoint(name: 'Redfox', latitude: 53.347865, longitude: 83.786864),
+      HotelPoint(name: 'На старом месте', latitude: 52.541581, longitude: 85.226989),
+      HotelPoint(name: 'Центральный Барнаул', latitude: 53.345962, longitude: 83.777512),
 
 
-    // Иркутская область
+
+  // Иркутская область
     HotelPoint(name: 'Добрый кот', latitude: 52.284068, longitude: 104.252034),
     HotelPoint(name: 'Гостиница учебного центра профсоюзов', latitude: 52.256408, longitude: 104.355283),
     HotelPoint(name: 'Иркут', latitude: 52.288866, longitude: 104.285376),
