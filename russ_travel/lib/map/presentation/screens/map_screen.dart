@@ -345,9 +345,38 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Омская область
+      HotelPoint(name: 'Космос ', latitude: 54.9539, longitude: 73.3802),
+      HotelPoint(name: 'Рабисон', latitude: 54.9973564147949, longitude: 73.3747863769531),
+      HotelPoint(name: 'Глория', latitude: 55.0092, longitude: 73.3381),
+      HotelPoint(name: 'Отель Д&А', latitude: 55.0470740, longitude: 74.5678430),
+      HotelPoint(name: 'Гrban', latitude: 55.003823, longitude: 73.364394),
+      HotelPoint(name: 'Нова ', latitude: 55.00424, longitude: 73.37218),
+      HotelPoint(name: 'Гостиница авеню', latitude: 55.0012, longitude: 73.3532),
+      HotelPoint(name: 'Миллениум', latitude: 54.9414, longitude: 73.3828),
+      HotelPoint(name: 'Hi Loft ', latitude: 54.9982, longitude: 73.3771),
+      HotelPoint(name: 'Жуков Отель', latitude: 54.970695, longitude: 73.390587),
+      HotelPoint(name: 'Отель 41', latitude: 54.9512, longitude: 73.3482),
+      HotelPoint(name: 'Аврора ', latitude: 54.9432, longitude: 73.3528),
+      HotelPoint(name: 'Подкова Омск', latitude: 55.03091, longitude: 73.27721),
+      HotelPoint(name: 'Ля мезон ', latitude: 54.9701, longitude: 73.4105),
+      HotelPoint(name: 'Турист', latitude: 54.9796, longitude: 73.3735),
+      HotelPoint(name: 'Подкова Омск на проспекте Губкина', latitude: 55.0619430541992, longitude: 73.2526397705078),
+      HotelPoint(name: 'Спутник', latitude: 55.007973, longitude: 73.338268),
+      HotelPoint(name: 'На Октябрьской', latitude: 54.99949, longitude: 73.375273),
+      HotelPoint(name: 'Гостиница «Маяк» - корпус «Омь»', latitude: 54.9811, longitude: 73.3718),
+      HotelPoint(name: '40 подушек', latitude: 73.381513, longitude: 54.933386),
+      HotelPoint(name: 'Жемчужина ика', latitude: 56.017519844147, longitude: 71.54250259916),
+      HotelPoint(name: 'Cronwell Ника-Центр ', latitude: 54.982185, longitude: 73.395704),
+      HotelPoint(name: 'Нора ', latitude: 55.0358, longitude: 73.2584),
+      HotelPoint(name: 'Mini hotel filin', latitude: 54.9985, longitude: 73.2873),
+      HotelPoint(name: 'Отель Lucky', latitude: 54.9757, longitude: 73.4193),
+      HotelPoint(name: 'Хостел Пушкинъ', latitude: 54.987062, longitude: 73.384345),
+      HotelPoint(name: 'Отель 50 60 Омск', latitude: 55.025503, longitude: 73.377033),
+      HotelPoint(name: 'Курилотрансавто', latitude: 55.230521, longitude: 72.900068),
 
 
-      // республика Алтай
+
+  // республика Алтай
 
 
       // Алтайский край
