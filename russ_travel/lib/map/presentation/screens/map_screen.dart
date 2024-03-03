@@ -535,6 +535,33 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // республика Хакасия
+    HotelPoint(name: 'Чалпан', latitude: 53.7242813110352, longitude: 91.4687805175781),
+    HotelPoint(name: 'Азия', latitude: 53.727320, longitude: 91.435908),
+    HotelPoint(name: 'Гранд Шале', latitude: 53.6776084899902, longitude: 91.3665313720703),
+    HotelPoint(name: 'lucomoria hostel Аbakan', latitude: 53.738208770752, longitude: 91.4209136962891),
+    HotelPoint(name: 'Абакан', latitude: 53.722377, longitude: 91.447049),
+    HotelPoint(name: 'Персона', latitude: 53.721678, longitude: 91.452169),
+    HotelPoint(name: 'Хакасия', latitude: 53.722732, longitude: 91.443548),
+    HotelPoint(name: 'Гостиница Анзас ', latitude: 53.715983, longitude: 91.445690),
+    HotelPoint(name: 'Енисей', latitude: 53.095409, longitude: 91.419013),
+    HotelPoint(name: 'Саяногорск', latitude: 53.10563, longitude: 91.412167),
+    HotelPoint(name: 'Жарки', latitude: 52.9879, longitude: 90.9668),
+    HotelPoint(name: 'Притяжение', latitude: 54.652872, longitude: 88.704902),
+    HotelPoint(name: 'Таежная резиденция Ажур Приисковое', latitude: 54.657977, longitude: 88.690544),
+    HotelPoint(name: 'Снежный Избасс', latitude: 54.652638, longitude: 88.697321),
+    HotelPoint(name: 'Бегущая по волнам', latitude: 54.498955, longitude: 90.158896),
+    HotelPoint(name: 'Озеро Шира', latitude: 54.49877, longitude: 90.146674),
+    HotelPoint(name: 'Pjat ozer', latitude: 54.496453, longitude: 90.148517),
+    HotelPoint(name: 'V gostjah u skazki', latitude: 53.739216, longitude: 91.431676),
+    HotelPoint(name: 'All Inn', latitude: 54.662937, longitude: 88.687844),
+    HotelPoint(name: 'Golden rocks hotel', latitude: 54.653899, longitude: 88.692765),
+    HotelPoint(name: 'Izbass (Избасс)', latitude: 54.652638, longitude: 88.697321),
+    HotelPoint(name: 'Максим', latitude: 53.122787, longitude: 90.503280),
+    HotelPoint(name: 'Советский', latitude: 53.146594, longitude: 90.549717),
+    HotelPoint(name: 'Кедр', latitude: 53.259940, longitude: 89.556321),
+    HotelPoint(name: 'Sjugesh', latitude: 52.717732, longitude: 89.921380),
+    HotelPoint(name: 'Северная', latitude: 53.593949, longitude: 91.381208),
+
 
 
   ];
