@@ -432,6 +432,34 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // республика Алтай
+      HotelPoint(name: 'Pinewood resort spa', latitude: 51.75712, longitude: 85.727812),
+      HotelPoint(name: 'Podgoritsa', latitude: 51.758922, longitude: 85.720941),
+      HotelPoint(name: 'Saykol Inegen Glamping', latitude: 50.299284, longitude: 86.702480),
+      HotelPoint(name: 'Holiday park Mikhailovo', latitude: 51.6247406005859, longitude: 85.6772918701172),
+      HotelPoint(name: 'Мини-отель Gorny', latitude: 50.812457752315, longitude: 85.942303612771),
+      HotelPoint(name: 'Saykol Kuray glamping', latitude: 50.251076, longitude: 87.887047),
+      HotelPoint(name: 'Гостевой дом Белуха Чендек', latitude: 50.2619, longitude: 85.9598),
+      HotelPoint(name: 'Медуница', latitude: 85.992095, longitude: 50.181889),
+      HotelPoint(name: 'Царская охота', latitude: 51.682045, longitude: 85.78001),
+      HotelPoint(name: 'Скала', latitude: 51.672912545546, longitude: 85.776394062296),
+      HotelPoint(name: 'Эко-отель Алтика', latitude: 51.812258, longitude: 85.989048),
+      HotelPoint(name: 'Туристический комплекс Остров', latitude: 51.097337, longitude: 86.180212),
+      HotelPoint(name: 'Глэмпинг Август', latitude: 51.8279, longitude: 85.74859),
+      HotelPoint(name: 'Отель Деревня Берендеевка', latitude: 51.6269989013672, longitude: 85.679801940918),
+      HotelPoint(name: 'Заимка камза', latitude: 50.2979, longitude: 85.3985),
+      HotelPoint(name: 'Беркут', latitude: 51.969779, longitude: 85.007415),
+      HotelPoint(name: 'Благодать', latitude: 51.980808, longitude: 84.958725),
+      HotelPoint(name: 'Урочище Актра', latitude: 51.788309, longitude: 87.321453),
+      HotelPoint(name: 'Артыбаш', latitude: 51.787128, longitude: 87.242153),
+      HotelPoint(name: 'Телецкое золотое', latitude: 51.7934303283691, longitude: 87.3075790405273),
+      HotelPoint(name: 'O&K', latitude: 51.7943000793457, longitude: 87.2755126953125),
+      HotelPoint(name: 'Горное озеро', latitude: 51.7921658, longitude: 87.3136413),
+      HotelPoint(name: 'Altay village Teletskoe', latitude: 51.7512, longitude: 87.4009),
+      HotelPoint(name: 'Green house at Teletskoye lake', latitude: 51.7903060913086, longitude: 87.2487106323242),
+      HotelPoint(name: 'Turbaza Kedroviy bereg', latitude: 51.7941551208496, longitude: 87.2968063354492),
+      HotelPoint(name: 'Глыба', latitude: 51.7464637756348, longitude: 87.2941284179688),
+      HotelPoint(name: 'Ойер-парк', latitude: 51.78713, longitude: 87.24215),
+
 
 
       // Алтайский край
