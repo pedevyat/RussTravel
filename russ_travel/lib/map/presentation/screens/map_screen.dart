@@ -339,9 +339,36 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Псковская область
+      HotelPoint(name: 'Гостиница Ангельская ', latitude: 57.821349, longitude: 28.356984),
+      HotelPoint(name: 'Отель Покровский', latitude: 57.8051, longitude: 28.3357),
+      HotelPoint(name: 'Гостиница 12 месяцев', latitude: 57.8135, longitude: 27.6147),
+      HotelPoint(name: 'jazz hostelpskov', latitude: 57.8068, longitude: 28.3493),
+      HotelPoint(name: 'Гостиница 903', latitude: 57.8235, longitude: 28.3199),
+      HotelPoint(name: 'Отель Барселона', latitude: 57.8074, longitude: 28.3135),
+      HotelPoint(name: 'Гостиница Оазис', latitude: 57.7966, longitude: 28.3725),
+      HotelPoint(name: 'Служебная', latitude: 56.352294921875, longitude: 30.5090484619141),
+      HotelPoint(name: 'Соколиха', latitude: 57.8374366760254, longitude: 28.2795238494873),
+      HotelPoint(name: 'Печоры парк-отель', latitude: 57.816356, longitude: 27.617149),
+      HotelPoint(name: 'Гостиница Амарис', latitude: 56.3522529602051, longitude: 30.5643100738525),
+      HotelPoint(name: 'Прибалтийский отель', latitude: 28.460611, longitude: 56.287752),
+      HotelPoint(name: 'Имение Алтунъ', latitude: 57.0549, longitude: 29.1327),
+      HotelPoint(name: 'Луки-Сервис', latitude: 56.3445205688477, longitude: 30.5644493103027),
+      HotelPoint(name: 'Лукоморье', latitude: 57.85136, longitude: 27.93518),
+      HotelPoint(name: 'Двор Подзноева студии и апартаменты', latitude: 57.811043, longitude: 28.337403),
+      HotelPoint(name: 'Хостел Себеж', latitude: 56.2769130, longitude: 28.4942280),
+      HotelPoint(name: 'Hostel 60', latitude: 57.8162, longitude: 28.3258),
+      HotelPoint(name: 'Двор Подзноева Главный Корпус', latitude: 57.8104, longitude: 28.3371),
+      HotelPoint(name: 'Имение Алтунъ дом у озера', latitude: 57.053245, longitude: 29.132455),
+      HotelPoint(name: 'Гостиничный комплекс Изборск', latitude: 57.7065, longitude: 27.8631),
+      HotelPoint(name: 'Золотая набережная', latitude: 57.8221, longitude: 28.3319),
+      HotelPoint(name: 'Отель Остров', latitude: 57.341812, longitude: 28.364925),
+      HotelPoint(name: 'Мальская Долина', latitude: 57.754267, longitude: 27.824172),
+      HotelPoint(name: 'Пилигрим', latitude: 57.7961845397949, longitude: 28.412618637085),
+      HotelPoint(name: 'Соседи Пушкина', latitude: 57.06174, longitude: 28.90269),
 
 
-      // Калининградская область
+
+  // Калининградская область
 
 
       // Омская область
