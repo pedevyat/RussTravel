@@ -188,10 +188,34 @@ List<HotelPoint> _getMapPointsH() {
 
 
 
-  // Карелия
+      // Карелия
+      HotelPoint(name: 'Вегарус', latitude: 62.299458, longitude: 32.097504),
+      HotelPoint(name: 'Nigizhma house', latitude: 61.6708, longitude: 36.3594),
+      HotelPoint(name: 'Чуньки', latitude: 62.211089, longitude: 34.080812),
+      HotelPoint(name: 'Верховье', latitude: 62.030796857671, longitude: 34.14114196556),
+      HotelPoint(name: 'Домик гида', latitude: 61.929643, longitude: 34.211033),
+      HotelPoint(name: 'Ranta', latitude: 62.251042, longitude: 33.815524),
+      HotelPoint(name: 'Abracadabra', latitude: 61.62902, longitude: 30.57564),
+      HotelPoint(name: 'Сосновый бор', latitude: 61.759578705, longitude: 34.312427521),
+      HotelPoint(name: 'Rauta', latitude: 60.557316, longitude: 30.255493),
+      HotelPoint(name: 'Шуйский залив', latitude: 61.8691765, longitude: 34.0084469),
+      HotelPoint(name: 'Вилга', latitude: 61.8153, longitude: 34.1023),
+      HotelPoint(name: 'Гардарика', latitude: 62.124958, longitude: 30.754537),
+      HotelPoint(name: 'Нуозъярви', latitude: 61.916736, longitude: 33.375092),
+      HotelPoint(name: 'Остров', latitude: 62.127789, longitude: 34.007791),
+      HotelPoint(name: 'Хутор Ярви', latitude: 61.563068, longitude: 30.377403),
+      HotelPoint(name: 'Северяночка', latitude: 66.074326, longitude: 33.037871),
+      HotelPoint(name: 'Ремстройреконструкция', latitude: 66.073135376, longitude: 33.016448975),
+      HotelPoint(name: 'Karelskie Zori', latitude: 63.415436, longitude: 31.183232),
+      HotelPoint(name: 'Villa vitele', latitude: 61.181045, longitude: 32.391291),
+      HotelPoint(name: 'Видлица', latitude: 61.138946, longitude: 32.501542),
+      HotelPoint(name: 'Дом у озера', latitude: 61.180562, longitude: 29.864404),
+      HotelPoint(name: 'Царевичи', latitude: 62.002313, longitude: 34.158595),
+      HotelPoint(name: 'Aviaretro', latitude: 61.96936, longitude: 34.23083),
 
 
-    // Ленинградская область
+
+      // Ленинградская область
       HotelPoint(name: 'ЯроМир', latitude: 59.9367, longitude: 30.3253),
       HotelPoint(name: 'Кировские Дачи', latitude: 60.73728, longitude: 28.75747),
       HotelPoint(name: 'Мурино', latitude: 60.049864, longitude: 30.462212),
@@ -322,9 +346,37 @@ List<HotelPoint> _getMapPointsH() {
 
 
     // Кемеровская область
+  HotelPoint(name: 'Оздоровительный комплекс Кедр', latitude: 53.142833709717, longitude: 87.556190490723),
+  HotelPoint(name: 'Гостиница Сity', latitude: 53.5093410, longitude: 87.2765760),
+  HotelPoint(name: 'Вилла Маралис', latitude: 55.36363, longitude: 86.211722),
+  HotelPoint(name: 'Хостел История', latitude: 55.35496, longitude: 86.087299),
+  HotelPoint(name: 'Олимп Плаза', latitude: 55.346440, longitude: 86.066905),
+  HotelPoint(name: 'Клуб-отель Тайм', latitude: 55.355454, longitude: 86.094725),
+  HotelPoint(name: 'Карамелька', latitude: 52.946687, longitude: 87.987359),
+  HotelPoint(name: 'Парк-отель Горный', latitude: 52.952344, longitude: 87.953988),
+  HotelPoint(name: 'Паркоффка', latitude: 52.952344, longitude: 87.953988),
+  HotelPoint(name: 'Царская охота', latitude: 53.664238, longitude: 87.136764),
+  HotelPoint(name: 'Тетрис', latitude: 53.7823905944824, longitude: 87.1314086914063),
+  HotelPoint(name: 'Отель Бардин', latitude: 53.760735, longitude: 87.108901),
+  HotelPoint(name: 'Гостевой дом Пати холл', latitude: 56.6526298522949, longitude: 47.8737106323242),
+  HotelPoint(name: 'Гостиница 12 футов', latitude: 55.725814, longitude: 84.934473),
+  HotelPoint(name: 'Куба', latitude: 53.670053, longitude: 88.085437),
+  HotelPoint(name: 'Отель Робинзон', latitude: 53.681915, longitude: 88.07653),
+  HotelPoint(name: 'Мини-отель Виктория', latitude: 54.6938591003418, longitude: 86.1994476318359),
+  HotelPoint(name: 'Аврора', latitude: 53.7987, longitude: 86.7973),
+  HotelPoint(name: 'Гостиница Альянс ', latitude: 53.8736, longitude: 86.6548),
+  HotelPoint(name: 'Гостиница Притомье', latitude: 55.2178, longitude: 86.2919),
+  HotelPoint(name: 'Парк-отель Застава', latitude: 54.128685384575, longitude: 86.404580460327),
+  HotelPoint(name: 'Танай', latitude: 55.870844, longitude: 78.397682),
+  HotelPoint(name: 'Медведь', latitude: 54.366882, longitude: 86.377033),
+  HotelPoint(name: 'Янушка', latitude: 86.300997, longitude: 54.415739),
+  HotelPoint(name: 'Замок Эдельвейс', latitude: 52.767152, longitude: 87.962749),
+  HotelPoint(name: 'Анжерская', latitude: 56.083286, longitude: 86.01951),
+  HotelPoint(name: 'ИП Лищенко', latitude: 56.078382, longitude: 86.019581),
 
 
-    // Красноярский край
+
+  // Красноярский край
 
 
     // Новосибирская область
