@@ -367,8 +367,36 @@ List<HotelPoint> _getMapPointsH() {
       HotelPoint(name: 'Соседи Пушкина', latitude: 57.06174, longitude: 28.90269),
 
 
+      // Калининградская область
+      HotelPoint(name: 'Хостел Bed idea', latitude: 20.436375, longitude: 54.722155),
+      HotelPoint(name: 'Vanva', latitude: 54.738654, longitude: 20.50715),
+      HotelPoint(name: 'Хостел 2028', latitude: 20.487932, longitude: 54.71677),
+      HotelPoint(name: 'Скворечник', latitude: 54.7006, longitude: 20.4969),
+      HotelPoint(name: 'Отель Чайковский', latitude: 54.7259, longitude: 20.4831),
+      HotelPoint(name: 'Maziiz Hotel', latitude: 54.748379, longitude: 20.459831),
+      HotelPoint(name: 'Отель Черепаха', latitude: 54.72385, longitude: 20.489943),
+      HotelPoint(name: 'Mr. Justs hotel', latitude: 54.965387, longitude: 20.489373),
+      HotelPoint(name: 'Вилла Лана', latitude: 54.959036, longitude: 20.468753),
+      HotelPoint(name: 'Арт-хостел', latitude: 54.9597816467285, longitude: 20.4767951965332),
+      HotelPoint(name: 'Кристалл', latitude: 54.957729, longitude: 20.464750),
+      HotelPoint(name: 'Малина Штольц', latitude: 54.9434050, longitude: 20.1453040),
+      HotelPoint(name: 'Гостиница Круиз', latitude: 54.953397, longitude: 20.218958),
+      HotelPoint(name: 'Florange', latitude: 54.951632, longitude: 20.228434),
+      HotelPoint(name: 'Вальде Парк', latitude: 55.011019, longitude: 20.617625),
+      HotelPoint(name: 'Отель у медведя', latitude: 54.631029, longitude: 21.811249),
+      HotelPoint(name: 'Отель Кочар', latitude: 54.635958, longitude: 21.814312),
+      HotelPoint(name: 'La Belle', latitude: 20.618144, longitude: 54.778315),
+      HotelPoint(name: 'Металлург', latitude: 85.966091, longitude: 54.286762),
+      HotelPoint(name: 'Аквамарин', latitude: 38.699770, longitude: 44.310460),
+      HotelPoint(name: 'Мельница', latitude: 44.304, longitude: 38.7555),
+      HotelPoint(name: 'Гостиный двор', latitude: 54.600271, longitude: 21.966811),
+      HotelPoint(name: 'Мини-гостиница на Куршской косе', latitude: 55.1578636169434, longitude: 20.8481273651123),
+      HotelPoint(name: 'Трактир', latitude: 55.157929, longitude: 20.843601),
+      HotelPoint(name: 'Hotel Ritsa', latitude: 54.647385, longitude: 21.073853),
+      HotelPoint(name: 'санаторий гостиничный комплекс оздоровительного туризма Амбер Сакрум', latitude: 54.893042, longitude: 21.067907),
+      HotelPoint(name: 'Гастхофгренц', latitude: 54.747730255127, longitude: 20.2310752868652),
+      HotelPoint(name: 'Alena', latitude: 54.662205, longitude: 20.109059),
 
-  // Калининградская область
 
 
       // Омская область
@@ -403,7 +431,7 @@ List<HotelPoint> _getMapPointsH() {
 
 
 
-  // республика Алтай
+      // республика Алтай
 
 
       // Алтайский край
