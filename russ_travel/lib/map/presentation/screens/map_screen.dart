@@ -154,6 +154,35 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Архангельская область
+      HotelPoint(name: 'Botanica Arkhangelsk', latitude: 64.552014, longitude: 40.517927),
+      HotelPoint(name: 'Лазурит ', latitude: 64.5645904541016, longitude: 39.8440361022949),
+      HotelPoint(name: 'Северница', latitude: 64.5301, longitude: 40.5404),
+      HotelPoint(name: 'Столица Поморья', latitude: 64.541076, longitude: 40.510322),
+      HotelPoint(name: 'Аврора', latitude: 64.5289, longitude: 40.557),
+      HotelPoint(name: 'Гостиница адмирал', latitude: 64.530162, longitude: 40.540232),
+      HotelPoint(name: 'Арго', latitude: 64.551056, longitude: 40.550392),
+      HotelPoint(name: 'Паркинг', latitude: 39.838373, longitude: 64.565604),
+      HotelPoint(name: 'Малые карелы', latitude: 64.4521, longitude: 40.9312),
+      HotelPoint(name: 'Старое место', latitude: 64.5365371704102, longitude: 40.5236015319824),
+      HotelPoint(name: 'Кирова 60 ', latitude: 61.2546880, longitude: 46.625752),
+      HotelPoint(name: 'Лукоморье', latitude: 64.681741, longitude: 40.709532),
+      HotelPoint(name: 'Вега-отель', latitude: 40.557061, longitude: 64.528919),
+      HotelPoint(name: 'Гостиница на набережной', latitude: 61.253827, longitude: 46.622186),
+      HotelPoint(name: 'Limе-отель', latitude: 64.56618, longitude: 39.8506),
+      HotelPoint(name: 'Хостел как дома', latitude: 64.5586, longitude: 40.5381),
+      HotelPoint(name: 'Villa Pia', latitude: 64.518783, longitude: 40.660214),
+      HotelPoint(name: 'Отель roomi', latitude: 64.5388107299805, longitude: 40.5312385559082),
+      HotelPoint(name: 'Hermitage', latitude: 64.5669708251953, longitude: 39.825611114502),
+      HotelPoint(name: 'Никольская гавань', latitude: 64.597048, longitude: 39.820313),
+      HotelPoint(name: 'Серафима', latitude: 64.536323,longitude: 40.538031),
+      HotelPoint(name: 'Hostel na Vologodskoi', latitude: 64.5407, longitude: 40.522),
+      HotelPoint(name: 'Отель Парк-отель', latitude: 64.568133, longitude: 39.838632),
+      HotelPoint(name: 'Полянка', latitude: 64.5736, longitude: 39.8441),
+      HotelPoint(name: 'Отель Южная 35', latitude: 61.253554, longitude: 46.634556),
+      HotelPoint(name: 'Советская на Карла Маркса', latitude: 61.253187, longitude: 46.635079),
+      HotelPoint(name: 'Пур-Наволок', latitude: 64.541137, longitude: 40.511324),
+      HotelPoint(name: 'Gostinica rechnaya', latitude: 61.256298, longitude: 46.623309),
+
 
 
       // Вологодская область
