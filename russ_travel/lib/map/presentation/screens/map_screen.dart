@@ -336,9 +336,37 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Новгородская область
+      HotelPoint(name: 'Palazzo 5', latitude: 58.5205948783, longitude: 31.2853295342),
+      HotelPoint(name: 'Карелинн', latitude: 58.530875, longitude: 31.269383),
+      HotelPoint(name: '65 home', latitude: 58.50989400, longitude: 31.25501200),
+      HotelPoint(name: 'Отель София', latitude: 58.524121, longitude: 31.270571),
+      HotelPoint(name: 'Аист', latitude: 58.55134200, longitude: 31.216771),
+      HotelPoint(name: 'Гостиница Ганза', latitude: 58.5199, longitude: 31.2848),
+      HotelPoint(name: 'Береста Парк Отель Великий Новгород', latitude: 58.5365447998047, longitude: 31.292049407959),
+      HotelPoint(name: 'Берген', latitude: 58.527977, longitude: 31.298849),
+      HotelPoint(name: 'Гостиница Волхов', latitude: 58.523737116749, longitude: 31.26563864418),
+      HotelPoint(name: 'Отель «БИАНКИ»', latitude: 58.52065000, longitude: 31.28985000),
+      HotelPoint(name: 'History (Хистори)', latitude: 58.52504, longitude: 31.274),
+      HotelPoint(name: 'Рахманинов', latitude: 58.517706, longitude: 31.286588),
+      HotelPoint(name: 'Хостел home', latitude: 58.5075340270996, longitude: 31.2645454406738),
+      HotelPoint(name: 'Хостел академ ВН', latitude: 58.5404180, longitude: 31.258084),
+      HotelPoint(name: 'hotel on prusskaya 8', latitude: 58.5195388793945, longitude: 31.265474319458),
+      HotelPoint(name: 'Гостиница садко', latitude: 58.521645, longitude: 31.297089),
+      HotelPoint(name: 'юрьевское подворье', latitude: 58.48947700, longitude: 31.27112000),
+      HotelPoint(name: 'Новгородская', latitude: 58.5212, longitude: 31.2631),
+      HotelPoint(name: 'Отель Интурист', latitude: 58.53139, longitude: 31.281701),
+      HotelPoint(name: 'Voyaj', latitude: 58.519948, longitude: 31.284836),
+      HotelPoint(name: 'Апарт-отель Неревский ', latitude: 58.52633900, longitude: 31.27847600),
+      HotelPoint(name: 'Отель Дилижанс', latitude: 58.53458500, longitude: 31.305691),
+      HotelPoint(name: 'Хостел Ярослав', latitude: 58.517321, longitude: 31.283758),
+      HotelPoint(name: 'Отель Grace', latitude: 58.5297, longitude: 31.2353),
+      HotelPoint(name: 'АМАКС Отель Россия', latitude: 58.516451, longitude: 31.284312),
+      HotelPoint(name: 'БМ-хостел', latitude: 58.5293807983398, longitude: 31.2717094421387),
+      HotelPoint(name: 'Роза Ветров', latitude: 58.52826500, longitude: 31.26437400),
 
 
-      // Псковская область
+
+        // Псковская область
       HotelPoint(name: 'Гостиница Ангельская ', latitude: 57.821349, longitude: 28.356984),
       HotelPoint(name: 'Отель Покровский', latitude: 57.8051, longitude: 28.3357),
       HotelPoint(name: 'Гостиница 12 месяцев', latitude: 57.8135, longitude: 27.6147),
