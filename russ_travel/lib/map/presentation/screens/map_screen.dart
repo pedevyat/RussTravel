@@ -151,6 +151,13 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Ненецкий АО
+      HotelPoint(name: 'Отель Авантаж', latitude: 67.6735, longitude: 53.1337),
+      HotelPoint(name: 'Отель Заполярная столица', latitude: 67.636230468750, longitude: 52.991012573242),
+      HotelPoint(name: 'Pechora hotel', latitude: 67.6363, longitude: 52.9942),
+      HotelPoint(name: 'Фрегат в Пустозерск', latitude: 67.6367, longitude: 52.9893),
+      HotelPoint(name: 'Hostel agat', latitude: 54.987608, longitude: 73.411608),
+      HotelPoint(name: 'Пустозерск', latitude: 67.6366, longitude: 52.9894),
+
 
 
       // Архангельская область
