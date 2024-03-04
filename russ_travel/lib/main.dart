@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:russ_travel/map/presentation/screens/hotels_collection.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
 import 'profile.dart';
@@ -32,12 +33,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 3;
+  int _currentIndex = 2;
   final List<Widget> _pages = [
     MapScreen(),
     ArticleListScreen(),
     Profile(),
-    InformationWidget(),
+    HotelMapScreen(),
   ];
 
   @override
@@ -69,8 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Профиль',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.info_outline),
-            label: 'О приложении',
+            icon: Icon(Icons.bed),
+            label: 'Отели',
           ),
         ],
       ),
