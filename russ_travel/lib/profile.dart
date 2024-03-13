@@ -98,8 +98,8 @@ class SignInPage extends State<SignIn>
 							child: new TextButton(
 								style: TextButton.styleFrom
 								(
-									primary: Color.fromRGBO(255, 255, 255, 1),
-									onSurface: Colors.red,
+									foregroundColor: Color.fromRGBO(255, 255, 255, 1),
+									disabledForegroundColor: Colors.red,
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
@@ -114,8 +114,8 @@ class SignInPage extends State<SignIn>
 							child: new TextButton(
 								style: TextButton.styleFrom
 								(
-									primary: Color.fromRGBO(0, 108, 167, 1),
-									onSurface: Colors.red,
+									foregroundColor: Color.fromRGBO(0, 108, 167, 1),
+									disabledForegroundColor: Colors.red,
 									minimumSize: Size(double.infinity, 0.5), 
 								),
 								onPressed: () { widget.onPageChanged(1);},
@@ -129,8 +129,8 @@ class SignInPage extends State<SignIn>
 							child: new TextButton(
 								style: TextButton.styleFrom
 								(
-									primary: Color.fromRGBO(0, 108, 167, 1),
-									onSurface: Colors.red,
+									foregroundColor: Color.fromRGBO(0, 108, 167, 1),
+									disabledForegroundColor: Colors.red,
 									minimumSize: Size(double.infinity, 0.5), 
 								),
 								onPressed: () {},
@@ -274,8 +274,8 @@ class SignUpPage extends State<SignUp>
 							child: new TextButton(
 								style: TextButton.styleFrom
 								(
-									primary: Color.fromRGBO(255, 255, 255, 1),
-									onSurface: Colors.red,
+									foregroundColor: Color.fromRGBO(255, 255, 255, 1),
+									disabledForegroundColor: Colors.red,
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
@@ -290,8 +290,8 @@ class SignUpPage extends State<SignUp>
 							child: new TextButton(
 								style: TextButton.styleFrom
 								(
-									primary: Color.fromRGBO(0, 108, 167, 1),
-									onSurface: Colors.red,
+									foregroundColor: Color.fromRGBO(0, 108, 167, 1),
+									disabledForegroundColor: Colors.red,
 									minimumSize: Size(double.infinity, 0.5), 
 								),
 								onPressed: () { widget.onPageChanged(0); },
@@ -305,8 +305,8 @@ class SignUpPage extends State<SignUp>
 							child: new TextButton(
 								style: TextButton.styleFrom
 								(
-									primary: Color.fromRGBO(0, 108, 167, 1),
-									onSurface: Colors.red,
+									foregroundColor: Color.fromRGBO(0, 108, 167, 1),
+									disabledForegroundColor: Colors.red,
 									minimumSize: Size(double.infinity, 0.5), 
 								),
 								onPressed: () {},
