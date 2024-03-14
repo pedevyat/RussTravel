@@ -106,6 +106,7 @@ flutter:
     - assets/center/yaroslavl.txt
     - assets/out_points.json
     - assets/museum_points.json
+    - assets/park_points.json
     - assets/hotels.json
 
 
