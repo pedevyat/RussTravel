@@ -165,11 +165,11 @@ class _MapScreenState extends State<MapScreen> {
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
-    final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
-    final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
+    //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
+    //final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
     final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
-    combinedPlacemarkObjects.addAll(placemarkObjectsO);
-    combinedPlacemarkObjects.addAll(placemarkObjectsM);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsM);
     combinedPlacemarkObjects.addAll(placemarkObjectsP);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
@@ -238,10 +238,10 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/park_points.json');
+    final jsonString = await rootBundle.loadString('assets/park_points_test.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     return pointsData.map((data) {
-      final point = OutsidePoint.fromJson(data);
+      final point = ParkPoint.fromJson(data);
       return PlacemarkMapObject(
         mapId: MapObjectId('MapObject $point'),
         point: Point(latitude: point.latitude, longitude: point.longitude),
@@ -254,8 +254,12 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
         ),
         onTap: (_, __) => showModalBottomSheet(
           context: context,
-          builder: (context) => _ModalBodyViewO(
-            point: point,
+          builder: (context) => Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Image.network(point.photoUrl),
+              _ModalBodyView(point: point),
+            ],
           ),
         ),
       );
@@ -266,32 +270,52 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
 }
 
 
-/// Содержимое модального окна с информацией о точке на карте
+/// Содержимое модального окна с информацией о точке на карте
 class _ModalBodyView extends StatelessWidget {
   const _ModalBodyView({required this.point});
 
-
   final ParkPoint point;
-
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
-        Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: [
+        Padding(
+          padding: const EdgeInsets.all(10.0), // Уменьшаем отступы
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                point.name,
+                style: const TextStyle(fontSize: 20),
+              ),
+              const SizedBox(height: 10), // Уменьшаем верхний отступ
+              Text(
+                '${point.latitude}, ${point.longitude}',
+                style: const TextStyle(
+                  fontSize: 16,
+                  color: Colors.grey,
+                ),
+              ),
+            ],
           ),
         ),
-      ]),
+        SizedBox(
+          height: 160, // Выбираем подходящую высоту изображения
+          child: Image.network(
+            point.photoUrl,
+            fit: BoxFit.cover, // чтобы изображение заполняло доступное пространство
+          ),
+        ),
+      ],
     );
   }
 }
+
+
+
+
 
 class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
