@@ -238,7 +238,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/park_points_test.json');
+    final jsonString = await rootBundle.loadString('assets/park_points.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     return pointsData.map((data) {
       final point = ParkPoint.fromJson(data);
@@ -270,40 +270,25 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
 class _ModalBodyView extends StatelessWidget {
   const _ModalBodyView({required this.point});
 
+
   final ParkPoint point;
+
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Image.network(
-              point.photoUrl,
-              fit: BoxFit.cover,
-            ),
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Text(point.name, style: const TextStyle(fontSize: 20)),
+        const SizedBox(height: 20),
+        Text(
+          '${point.latitude}, ${point.longitude}',
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.grey,
           ),
-          const SizedBox(height: 20),
-          Text(
-            point.name,
-            style: const TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          const SizedBox(height: 10),
-          Text(
-            '${point.latitude}, ${point.longitude}',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
-            ),
-          ),
-        ],
-      ),
+        ),
+      ]),
     );
   }
 }
