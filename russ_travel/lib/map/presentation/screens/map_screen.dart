@@ -254,12 +254,8 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
         ),
         onTap: (_, __) => showModalBottomSheet(
           context: context,
-          builder: (context) => Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Image.network(point.photoUrl),
-              _ModalBodyView(point: point),
-            ],
+          builder: (context) => _ModalBodyView(
+            point: point,
           ),
         ),
       );
@@ -278,44 +274,39 @@ class _ModalBodyView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisSize: MainAxisSize.min,
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(10.0), // Уменьшаем отступы
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                point.name,
-                style: const TextStyle(fontSize: 20),
-              ),
-              const SizedBox(height: 10), // Уменьшаем верхний отступ
-              Text(
-                '${point.latitude}, ${point.longitude}',
-                style: const TextStyle(
-                  fontSize: 16,
-                  color: Colors.grey,
-                ),
-              ),
-            ],
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Image.network(
+              point.photoUrl,
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        SizedBox(
-          height: 160, // Выбираем подходящую высоту изображения
-          child: Image.network(
-            point.photoUrl,
-            fit: BoxFit.cover, // чтобы изображение заполняло доступное пространство
+          const SizedBox(height: 20),
+          Text(
+            point.name,
+            style: const TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-        ),
-      ],
+          const SizedBox(height: 10),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
-
-
-
-
 
 class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
