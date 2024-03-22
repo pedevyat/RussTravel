@@ -103,7 +103,7 @@ List<HotelPoint> _getMapPointsH() {
   return const [
 
       // республика Коми
-      HotelPoint(name: 'Луза', latitude: 60.3361300, longitude: 49.6096400°),
+      HotelPoint(name: 'Луза', latitude: 60.3361300, longitude: 49.6096400),
       HotelPoint(name: 'Мира 23', latitude: 65.10523, longitude: 57.05614),
       HotelPoint(name: 'Надежда', latitude: 61.07224609999999, longitude: 50.0645454),
       HotelPoint(name: 'У дяди Вани', latitude: 61.857493408857, longitude: 51.522336885353),
