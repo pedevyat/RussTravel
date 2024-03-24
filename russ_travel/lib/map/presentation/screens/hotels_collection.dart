@@ -136,7 +136,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjects(BuildContext context) asyn
         opacity: 1,
         icon: PlacemarkIcon.single(
           PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage('assets/museum.png'),
+            image: BitmapDescriptor.fromAssetImage('assets/bed_test.png'),
             scale: 0.15,
           ),
         ),

@@ -109,6 +109,7 @@ flutter:
     - assets/park_points.json
     - assets/hotels.json
     - assets/park_points_test.json
+    - assets/bed_test.png
 
 
   # The following line ensures that the Material Icons font is
