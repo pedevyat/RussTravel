@@ -758,7 +758,6 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Введенский собор в Сольвычегодске', latitude: 61.3326778, longitude: 46.9263083),
       MuseumPoint(name: 'Северный морской музей', latitude: 64.5339, longitude: 40.5168),
       MuseumPoint(name: 'Новодвинская крепость', latitude: 64.699981, longitude: 40.417537),
-      MuseumPoint(name: 'Музей деревянного зодчества «Малые Корелы»', latitude: 64.454843, longitude: 40.951519),
       MuseumPoint(name: 'музей полярного капитана Александра Кучина', latitude: 64.226920, longitude: 41.838274),
       MuseumPoint(name: 'Онежский историко-мемориальный музей', latitude: 63.898530715044, longitude: 38.129629777158),
       MuseumPoint(name: 'Сретено-Михайловская церковь', latitude: 61.59867, longitude: 38.661435),
