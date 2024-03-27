@@ -125,12 +125,12 @@ class _MapScreenState extends State<MapScreen> {
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
-    final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
+    //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
     final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
-    final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
-    combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    //final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsO);
     combinedPlacemarkObjects.addAll(placemarkObjectsM);
-    combinedPlacemarkObjects.addAll(placemarkObjectsP);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsP);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
   }
@@ -139,7 +139,7 @@ Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/museum_points.json');
+    final jsonString = await rootBundle.loadString('assets/museum_points_test.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     return pointsData.map((data) {
       final point = MuseumPoint.fromJson(data);
@@ -165,6 +165,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
+
 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
@@ -256,25 +257,34 @@ class _ModalBodyView extends StatelessWidget {
 class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
-
   final MuseumPoint point;
-
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
-        Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(point.name, style: const TextStyle(fontSize: 20)),
+          const SizedBox(height: 20),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
           ),
-        ),
-      ]),
+          const SizedBox(height: 20),
+          // Загрузка и отображение изображения из поля photoUrl
+          Image.network(
+            point.photoUrl, // Используем ссылку на фото из MuseumPoint
+            width: 200, // Ширина изображения
+            height: 200, // Высота изображения
+            fit: BoxFit.cover, // Режим заполнения изображения
+          ),
+        ],
+      ),
     );
   }
 }
