@@ -23,7 +23,6 @@ class _MapScreenState extends State<MapScreen> {
   late final YandexMapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
-  PointType selectedPointType = PointType.Museum;
 
   @override
   void initState() {
@@ -39,70 +38,36 @@ class _MapScreenState extends State<MapScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3, // Number of tabs
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('Карта открытий'),
-          bottom: TabBar(
-            tabs: [
-              Tab(text: 'Музеи'),
-              Tab(text: 'Парки'),
-              Tab(text: 'Внешние объекты'),
-            ],
-            onTap: (index) {
-              setState(() {
-                selectedPointType = PointType.values[index];
-              });
-            },
-          ),
-        ),
-        body: FutureBuilder<List<PlacemarkMapObject>>(
-          future: _placemarkObjectsFuture,
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Center(child: CircularProgressIndicator());
-            } else if (snapshot.hasError) {
-              return Center(child: Text('Error: ${snapshot.error}'));
-            } else {
-              return _buildMapWithPlacemarks(snapshot.data);
-            }
-          },
-        ),
+    return Scaffold(
+      appBar: AppBar(title: const Text('Карта открытий')),
+      body: FutureBuilder<List<PlacemarkMapObject>>(
+        future: _placemarkObjectsFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else {
+            return YandexMap(
+              onMapCreated: (controller) {
+                _mapController = controller;
+                _moveCameraToInitialPosition();
+              },
+              onCameraPositionChanged: (cameraPosition, _, __) {
+                setState(() {
+                  _mapZoom = cameraPosition.zoom;
+                });
+              },
+              mapObjects: [
+                _getClusterizedCollection(placemarks: snapshot.data!),
+              ],
+            );
+          }
+        },
       ),
     );
   }
-  Widget _buildMapWithPlacemarks(List<PlacemarkMapObject>? placemarks) {
-    final filteredPlacemarks = placemarks?.where((placemark) {
-      final objectId = placemark.mapId;
-      final pointType = objectId.toString().split(' ')[2];
-      switch (selectedPointType) {
-        case PointType.Museum:
-          return pointType == 'Museum';
-        case PointType.Park:
-          return pointType == 'Park';
-        case PointType.Outside:
-          return pointType == 'Outside';
-        default:
-          return false;
-      }
-    }).toList();
 
-    return YandexMap(
-      onMapCreated: (controller) {
-        _mapController = controller;
-        _moveCameraToInitialPosition();
-      },
-      onCameraPositionChanged: (cameraPosition, _, __) {
-        setState(() {
-          _mapZoom = cameraPosition.zoom;
-        });
-      },
-      mapObjects: [
-        _getClusterizedCollection(placemarks: filteredPlacemarks ?? []),
-      ],
-    );
-  }
   void _moveCameraToInitialPosition() async {
     await _mapController.moveCamera(
       CameraUpdate.newCameraPosition(
@@ -156,13 +121,6 @@ class _MapScreenState extends State<MapScreen> {
     );
   }
 }
-
-enum PointType {
-  Museum,
-  Park,
-  Outside,
-}
-
 
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
