@@ -41,6 +41,9 @@ dependencies:
   permission_handler: ^11.0.1
   flutter_native_splash: ^2.1.3+1
   url_launcher: ^6.0.12
+  flutter_map: ^6.1.0
+  http: ^1.1.0
+
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +71,42 @@ flutter:
     - assets/museum.png
     - assets/binoculars.png
     - assets/trees.png
+    - assets/splash1.png
+    - assets/splash.png
+    - assets/info.txt
+    - assets/north_caucasus/osetia.txt
+    - assets/north_caucasus/kbr.txt
+    - assets/north_caucasus/ingushetia.txt
+    - assets/north_caucasus/chechnya.txt
+    - assets/north_caucasus/dagestan.txt
+    - assets/north_caucasus/kmv.txt
+    - assets/north_caucasus/stavropol.txt
+    - assets/north_caucasus/kchr.txt
+    - assets/center/belgorod.txt
+    - assets/center/bryansk.txt
+    - assets/center/vladimir.txt
+    - assets/center/vladimir_city.txt
+    - assets/center/voronezh.txt
+    - assets/center/ivanovo.txt
+    - assets/center/kaluga.txt
+    - assets/center/kostroma.txt
+    - assets/center/kursk.txt
+    - assets/center/lipetsk.txt
+    - assets/center/moscow1.txt
+    - assets/center/moscow2.txt
+    - assets/center/moscow3.txt
+    - assets/center/moscow_region.txt
+    - assets/center/oryol.txt
+    - assets/center/ryazan.txt
+    - assets/center/smolensk.txt
+    - assets/center/tambov.txt
+    - assets/center/tver.txt
+    - assets/center/tver_city.txt
+    - assets/center/tula.txt
+    - assets/center/yaroslavl.txt
+    - assets/out_points.json
+    - assets/museum_points.json
+    - assets/hotels.json
 
 
   # The following line ensures that the Material Icons font is

@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:russ_travel/map/presentation/screens/hotels_collection.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
+import 'profile.dart';
+import 'articles/screens/article_list_screen.dart';
+import 'information/info_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,13 +33,12 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 0;
+  int _currentIndex = 2;
   final List<Widget> _pages = [
     MapScreen(),
-    Container(),
-    Container(),
-    // Add other pages/screens as needed
-    // Example: const YourOtherScreen(),
+    ArticleListScreen(),
+    Profile(),
+    HotelMapScreen(),
   ];
 
   @override
@@ -43,7 +46,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         currentIndex: _currentIndex,
+        backgroundColor: Color.fromRGBO(0, 108, 167, 1),
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white54,
         onTap: (int index) {
           setState(() {
             _currentIndex = index;
@@ -59,8 +66,12 @@ class _MyHomePageState extends State<MyHomePage> {
             label: 'Статьи',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.info_outline),
-            label: 'О приложении',
+            icon: Icon(Icons.person_outline),
+            label: 'Профиль',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.bed),
+            label: 'Отели',
           ),
         ],
       ),
