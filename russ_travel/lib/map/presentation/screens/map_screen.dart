@@ -23,7 +23,6 @@ class _MapScreenState extends State<MapScreen> {
   late final YandexMapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
-  PointType selectedPointType = PointType.Museum;
 
   @override
   void initState() {
@@ -39,70 +38,36 @@ class _MapScreenState extends State<MapScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3, // Number of tabs
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('Карта открытий'),
-          bottom: TabBar(
-            tabs: [
-              Tab(text: 'Музеи'),
-              Tab(text: 'Парки'),
-              Tab(text: 'Внешние объекты'),
-            ],
-            onTap: (index) {
-              setState(() {
-                selectedPointType = PointType.values[index];
-              });
-            },
-          ),
-        ),
-        body: FutureBuilder<List<PlacemarkMapObject>>(
-          future: _placemarkObjectsFuture,
-          builder: (context, snapshot) {
-            if (snapshot.connectionState == ConnectionState.waiting) {
-              return const Center(child: CircularProgressIndicator());
-            } else if (snapshot.hasError) {
-              return Center(child: Text('Error: ${snapshot.error}'));
-            } else {
-              return _buildMapWithPlacemarks(snapshot.data);
-            }
-          },
-        ),
+    return Scaffold(
+      appBar: AppBar(title: const Text('Карта открытий')),
+      body: FutureBuilder<List<PlacemarkMapObject>>(
+        future: _placemarkObjectsFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else {
+            return YandexMap(
+              onMapCreated: (controller) {
+                _mapController = controller;
+                _moveCameraToInitialPosition();
+              },
+              onCameraPositionChanged: (cameraPosition, _, __) {
+                setState(() {
+                  _mapZoom = cameraPosition.zoom;
+                });
+              },
+              mapObjects: [
+                _getClusterizedCollection(placemarks: snapshot.data!),
+              ],
+            );
+          }
+        },
       ),
     );
   }
-  Widget _buildMapWithPlacemarks(List<PlacemarkMapObject>? placemarks) {
-    final filteredPlacemarks = placemarks?.where((placemark) {
-      final objectId = placemark.mapId;
-      final pointType = objectId.toString().split(' ')[2];
-      switch (selectedPointType) {
-        case PointType.Museum:
-          return pointType == 'Museum';
-        case PointType.Park:
-          return pointType == 'Park';
-        case PointType.Outside:
-          return pointType == 'Outside';
-        default:
-          return false;
-      }
-    }).toList();
 
-    return YandexMap(
-      onMapCreated: (controller) {
-        _mapController = controller;
-        _moveCameraToInitialPosition();
-      },
-      onCameraPositionChanged: (cameraPosition, _, __) {
-        setState(() {
-          _mapZoom = cameraPosition.zoom;
-        });
-      },
-      mapObjects: [
-        _getClusterizedCollection(placemarks: filteredPlacemarks ?? []),
-      ],
-    );
-  }
   void _moveCameraToInitialPosition() async {
     await _mapController.moveCamera(
       CameraUpdate.newCameraPosition(
@@ -157,22 +122,15 @@ class _MapScreenState extends State<MapScreen> {
   }
 }
 
-enum PointType {
-  Museum,
-  Park,
-  Outside,
-}
-
-
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
-    final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
+    //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
     final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
-    final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
-    combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    //final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsO);
     combinedPlacemarkObjects.addAll(placemarkObjectsM);
-    combinedPlacemarkObjects.addAll(placemarkObjectsP);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsP);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
   }
@@ -181,7 +139,7 @@ Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/museum_points.json');
+    final jsonString = await rootBundle.loadString('assets/museum_points_test.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     return pointsData.map((data) {
       final point = MuseumPoint.fromJson(data);
@@ -207,6 +165,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
+
 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
@@ -298,25 +257,34 @@ class _ModalBodyView extends StatelessWidget {
 class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
-
   final MuseumPoint point;
-
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
-        Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(point.name, style: const TextStyle(fontSize: 20)),
+          const SizedBox(height: 20),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
           ),
-        ),
-      ]),
+          const SizedBox(height: 20),
+          // Загрузка и отображение изображения из поля photoUrl
+          Image.network(
+            point.photoUrl, // Используем ссылку на фото из MuseumPoint
+            width: 200, // Ширина изображения
+            height: 200, // Высота изображения
+            fit: BoxFit.cover, // Режим заполнения изображения
+          ),
+        ],
+      ),
     );
   }
 }
