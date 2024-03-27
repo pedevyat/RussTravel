@@ -33,11 +33,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 1;
+  int _currentIndex = 2;
   final List<Widget> _pages = [
     MapScreen(),
     ArticleListScreen(),
-    //Profile(),
+    Profile(),
     HotelMapScreen(),
   ];
 
@@ -64,6 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.list_alt),
             label: 'Статьи',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person_outline),
+            label: 'Профиль',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.bed),
