@@ -125,12 +125,12 @@ class _MapScreenState extends State<MapScreen> {
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
-    //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
-    final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
-    //final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
-    //combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
+    List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
+    List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
     combinedPlacemarkObjects.addAll(placemarkObjectsM);
-    //combinedPlacemarkObjects.addAll(placemarkObjectsP);
+    combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    combinedPlacemarkObjects.addAll(placemarkObjectsP);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
   }
@@ -139,59 +139,108 @@ Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/museum_points_test.json');
-    final List<dynamic> pointsData = json.decode(jsonString);
-    return pointsData.map((data) {
-      final point = MuseumPoint.fromJson(data);
-      return PlacemarkMapObject(
-        mapId: MapObjectId('MapObject $point'),
-        point: Point(latitude: point.latitude, longitude: point.longitude),
-        opacity: 1,
-        icon: PlacemarkIcon.single(
-          PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage('assets/museum.png'),
-            scale: 0.15,
-          ),
-        ),
-        onTap: (_, __) => showModalBottomSheet(
-          context: context,
-          builder: (context) => _ModalBodyViewM(
-            point: point,
-          ),
-        ),
-      );
-    }).toList();
+    final jsonString = await rootBundle.loadString('assets/museum_points.json');
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    for (int i = 0; i < pointsData.length; i++)
+    {
+    	final point = OutsidePoint.fromJson(pointsData[i]);
+    	listPlacemarkMapObject.add(
+	    PlacemarkMapObject(
+		mapId: MapObjectId('MuseumObject $i'),
+		point: Point(latitude: point.latitude, longitude: point.longitude),
+		opacity: 1,
+		icon: PlacemarkIcon.single(
+		  PlacemarkIconStyle(
+		    image: BitmapDescriptor.fromAssetImage('assets/museum.png'),
+		    scale: 0.15,
+		  ),
+		),
+		onTap: (_, __) => showModalBottomSheet(
+		  context: context,
+		  builder: (context) => _ModalBodyViewO(
+		    point: point,
+		  ),
+		),
+	      )
+        );
+    }
+    
+    return listPlacemarkMapObject;
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
 
+/*
+Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
+  try {
+    final jsonString = await rootBundle.loadString('assets/museum_points.json');
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    
+    for (int i = 0; i < pointsData.length; i++)
+    {
+    	final point = MuseumPoint.fromJson(pointsData[i]);
+    	listPlacemarkMapObject.add(
+	    	PlacemarkMapObject(
+		mapId: MapObjectId('MuseumObject $i'),
+		point: Point(latitude: point.latitude, longitude: point.longitude),
+		opacity: 1,
+		icon: PlacemarkIcon.single(
+		  PlacemarkIconStyle(
+		    image: BitmapDescriptor.fromAssetImage('assets/museum.png'),
+		    scale: 0.15,
+		  ),
+		),
+		onTap: (_, __) => showModalBottomSheet(
+		  context: context,
+		  builder: (context) => _ModalBodyViewM(
+		    point: point,
+		  ),
+		),
+	      )
+      );    
+    }
+    
+    return listPlacemarkMapObject;
+  } catch (e) {
+    throw Exception('Ошибка при загрузке данных: $e');
+  }
+}
+*/
 
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
-    final List<dynamic> pointsData = json.decode(jsonString);
-    return pointsData.map((data) {
-      final point = OutsidePoint.fromJson(data);
-      return PlacemarkMapObject(
-        mapId: MapObjectId('MapObject $point'),
-        point: Point(latitude: point.latitude, longitude: point.longitude),
-        opacity: 1,
-        icon: PlacemarkIcon.single(
-          PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage('assets/binoculars.png'),
-            scale: 0.15,
-          ),
-        ),
-        onTap: (_, __) => showModalBottomSheet(
-          context: context,
-          builder: (context) => _ModalBodyViewO(
-            point: point,
-          ),
-        ),
-      );
-    }).toList();
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    for (int i = 0; i < pointsData.length; i++)
+    {
+    	final point = OutsidePoint.fromJson(pointsData[i]);
+    	listPlacemarkMapObject.add(
+	    PlacemarkMapObject(
+		mapId: MapObjectId('OutsideObject $i'),
+		point: Point(latitude: point.latitude, longitude: point.longitude),
+		opacity: 1,
+		icon: PlacemarkIcon.single(
+		  PlacemarkIconStyle(
+		    image: BitmapDescriptor.fromAssetImage('assets/binoculars.png'),
+		    scale: 0.15,
+		  ),
+		),
+		onTap: (_, __) => showModalBottomSheet(
+		  context: context,
+		  builder: (context) => _ModalBodyViewO(
+		    point: point,
+		  ),
+		),
+	      )
+        );
+    }
+    
+    return listPlacemarkMapObject;
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
@@ -201,6 +250,34 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
   try {
     final jsonString = await rootBundle.loadString('assets/park_points.json');
     final List<dynamic> pointsData = json.decode(jsonString);
+    List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    
+    for (int i = 0; i < pointsData.length; i++)
+    {
+    	final point = ParkPoint.fromJson(pointsData[i]);
+    	listPlacemarkMapObject.add(
+	    	PlacemarkMapObject(
+		mapId: MapObjectId('ParkObject $i'),
+		point: Point(latitude: point.latitude, longitude: point.longitude),
+		opacity: 1,
+		icon: PlacemarkIcon.single(
+		  PlacemarkIconStyle(
+		    image: BitmapDescriptor.fromAssetImage('assets/trees.png'),
+		    scale: 0.15,
+		  ),
+		),
+		onTap: (_, __) => showModalBottomSheet(
+		  context: context,
+		  builder: (context) => _ModalBodyView(
+		    point: point,
+		  ),
+		),
+	      )
+    	);
+    }
+    
+    return listPlacemarkMapObject;
+    
     return pointsData.map((data) {
       final point = ParkPoint.fromJson(data);
       return PlacemarkMapObject(
