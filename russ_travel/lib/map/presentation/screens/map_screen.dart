@@ -266,6 +266,14 @@ class _ModalBodyViewM extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          // Загрузка и отображение изображения из поля photoUrl
+          Image.network(
+            point.photoUrl, // Используем ссылку на фото из MuseumPoint
+            width: 200, // Ширина изображения
+            height: 200, // Высота изображения
+            fit: BoxFit.cover, // Режим заполнения изображения
+          ),
+          const SizedBox(height: 20),
           Text(point.name, style: const TextStyle(fontSize: 20)),
           const SizedBox(height: 20),
           Text(
@@ -275,19 +283,12 @@ class _ModalBodyViewM extends StatelessWidget {
               color: Colors.grey,
             ),
           ),
-          const SizedBox(height: 20),
-          // Загрузка и отображение изображения из поля photoUrl
-          Image.network(
-            point.photoUrl, // Используем ссылку на фото из MuseumPoint
-            width: 200, // Ширина изображения
-            height: 200, // Высота изображения
-            fit: BoxFit.cover, // Режим заполнения изображения
-          ),
         ],
       ),
     );
   }
 }
+
 
 class _ModalBodyViewO extends StatelessWidget {
   const _ModalBodyViewO({required this.point});
