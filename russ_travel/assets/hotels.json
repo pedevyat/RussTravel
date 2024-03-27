@@ -4420,19 +4420,6 @@
 },
 {
   "type": "node",
-  "id": 4561365851,
-  "lat": 49.2294662,
-  "lon": 50.3166767,
-  "tags": {
-    "int_name": "Jañaqala LPW jataqxanası",
-    "name": "Жаңақала ЛПУ жатақханасы",
-    "name:kk": "Жаңақала ЛПУ жатақханасы",
-    "name:ru": "Общежитие Жангалинского ЛПУ",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4570442415,
   "lat": 51.2053583,
   "lon": 51.3789018,
@@ -4568,19 +4555,6 @@
     "smoking": "outside",
     "tourism": "hotel",
     "website": "https://afina34.ru"
-  }
-},
-{
-  "type": "node",
-  "id": 4679778593,
-  "lat": 50.1840498,
-  "lon": 51.1738335,
-  "tags": {
-    "name": "Керемет",
-    "name:en": "Keremet",
-    "name:kk": "Керемет",
-    "name:ru": "Керемет",
-    "tourism": "hotel"
   }
 },
 {
