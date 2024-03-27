@@ -8781,7 +8781,5266 @@
     "name": "Батыс",
     "tourism": "hotel"
   }
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.3361300,
+"lon": 49.6096400,
+"tags": {
+"name": "Луза",
+"tourism": "hotel"
 }
-
+},
+{
+"type": "node",
+"id": -1,
+"lat": 65.10523,
+"lon": 57.05614,
+"tags": {
+"name": "Мира 23",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.07224609999999,
+"lon": 50.0645454,
+"tags": {
+"name": "Надежда",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.857493408857,
+"lon": 51.522336885353,
+"tags": {
+"name": "У дяди Вани",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5473365783691,
+"lon": 53.8045921325684,
+"tags": {
+"name": "Геолог",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 68.177526,
+"lon": 54.266453,
+"tags": {
+"name": "Izhma",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 50.808045,
+"lon": 61.638149,
+"tags": {
+"name": "Савапиян",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.4341,
+"lon": 48.7009,
+"tags": {
+"name": "Единственная",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 62.7195587158203,
+"lon": 56.1670379638672,
+"tags": {
+"name": "Наш Край",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 62.7111663818359,
+"lon": 56.183910369873,
+"tags": {
+"name": "Печора",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.27009,
+"lon": 50.575146,
+"tags": {
+"name": "Финноугория",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.2651901245117,
+"lon": 50.5386276245117,
+"tags": {
+"name": "Морошка",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 66.0342712402344,
+"lon": 60.111701965332,
+"tags": {
+"name": "Инта",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 66.036813,
+"lon": 60.144499,
+"tags": {
+"name": "Спарта",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 6.0379104614258,
+"lon": 60.1242713928223,
+"tags": {
+"name": "Северянка",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 66.036845,
+"lon": 60.109357,
+"tags": {
+"name": "66 параллель",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 66.039794921875,
+"lon": 60.1468811035156,
+"tags": {
+"name": "Guest House Izbushka",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 66.0300674438477,
+"lon": 60.1563758850098,
+"tags": {
+"name": "Ооо Цпэм",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 62.3589550,
+"lon": 50.0819210,
+"tags": {
+"name": "Apartamenty, ul. Pionerskaya, 55",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 62.3589550,
+"lon": 50.0819210,
+"tags": {
+"name": "Apartamenti, ul. Zheleznodorozhnaya, d. 4",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 65.12676,
+"lon": 57.16693,
+"tags": {
+"name": "РЭСТ",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 65.123161315917,
+"lon": 57.156223297119,
+"tags": {
+"name": "Альфа",
+"tourism": "hotel"
+}
+},
+{
+"type" : "node",
+"id": -1,
+"lat": 65.140701293945,
+"lon": 57.213001251221,
+"tags": {
+"name": "Гостиница центральная",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 65.123281,
+"lon": 57.154546,
+"tags": {
+"name": "Mini hotel gostinka",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.558903,
+"lon": 53.667457,
+"tags": {
+"name": "Домашний очаг",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.570964813232,
+"lon": 53.653995513916,
+"tags": {
+"name": "Чибью",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.565421,
+"lon": 53.700955,
+"tags": {
+"name": "Северный Отель",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5581550598145,
+"lon": 53.6921234130859,
+"tags": {
+"name": "Dragonfly",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5629190,
+"lon": 53.6802480,
+"tags": {
+"name": "Тиман",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5488,
+"lon": 53.8102,
+"tags": {
+"name": "Гостиница Аэропорт",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5599,
+"lon": 53.65,
+"tags": {
+"name": "Европейская",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5638084411621,
+"lon": 53.6754264831543,
+"tags": {
+"name": "На Север на проспекте Ленина",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5753402709961,
+"lon": 53.7041511535645,
+"tags": {
+"name": "Северное сияние",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5551,
+"lon": 53.6842,
+"tags": {
+"name": "Приал Групп",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5711250305176,
+"lon": 53.6521644592285,
+"tags": {
+"name": "Sky",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.6328,
+"lon": 55.6563,
+"tags": {
+"name": "Велью",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 67.502334594726,
+"lon": 64.060562133789,
+"tags": {
+"name": "Воркута",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 64.051372,
+"lon": 67.491645,
+"tags": {
+"name": "Горняк",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6717681884766,
+"lon": 50.8388862609863,
+"tags": {
+"name": "Пелысь",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6689,
+"lon": 50.8314,
+"tags": {
+"name": "Авалон",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6646920,
+"lon": 50.8003430,
+"tags": {
+"name": "Пульман",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 50.849223,
+"lon": 61.664676,
+"tags": {
+"name": "Klukva hostel",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6480407714844,
+"lon": 50.8256759643555,
+"tags": {
+"name": "Северная звезда",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.675664,
+"lon": 50.841036,
+"tags": {
+"name": "Югор",
+"tourism": "hotel"
+}
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 67.6735,
+  "lon": 53.1337,
+  "tags": {
+     "name": "Отель Авантаж",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 67.636230468750,
+  "lon": 52.991012573242,
+  "tags": {
+     "name": "Отель Заполярная столица",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 67.6363,
+  "lon": 52.9942,
+  "tags": {
+     "name": "Pechora hotel",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 67.6367,
+  "lon": 52.9893,
+  "tags": {
+     "name": "Фрегат в Пустозерск",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 54.987608,
+  "lon": 73.411608,
+  "tags": {
+     "name": "Hostel agat",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 67.6366,
+  "lon": 52.9894,
+  "tags": {
+     "name": "Пустозерск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 64.552014,
+  "lon": 40.517927,
+  "tags": {
+     "name": "Botanica Arkhangelsk",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5645904541016,
+  "lon": 39.8440361022949,
+  "tags": {
+     "name": "Лазурит",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5301,
+  "lon": 40.5404,
+  "tags": {
+     "name": "Северница",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.541076,
+  "lon": 40.510322,
+  "tags": {
+     "name": "Столица Поморья",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5289,
+  "lon": 40.557,
+  "tags": {
+     "name": "Аврора",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.530162,
+  "lon": 40.540232,
+  "tags": {
+     "name": "Гостиница адмирал",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.551056,
+  "lon": 40.550392,
+  "tags": {
+     "name": "Арго",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 39.838373,
+  "lon": 64.565604,
+  "tags": {
+     "name": "Паркинг",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.4521,
+  "lon": 40.9312,
+  "tags": {
+     "name": "Малые карелы",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5365371704102,
+  "lon": 40.5236015319824,
+  "tags": {
+     "name": "Старое место",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 61.2546880,
+  "lon": 46.625752,
+  "tags": {
+     "name": "Кирова 60",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.681741,
+  "lon": 40.709532,
+  "tags": {
+     "name": "Лукоморье",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 40.557061,
+  "lon": 64.528919,
+  "tags": {
+     "name": "Вега-отель",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 61.253827,
+  "lon": 46.622186,
+  "tags": {
+     "name": "Гостиница на набережной",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.56618,
+  "lon": 39.8506,
+  "tags": {
+     "name": "Limе-отель",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5586,
+  "lon": 40.5381,
+  "tags": {
+     "name": "Хостел как дома",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.518783,
+  "lon": 40.660214,
+  "tags": {
+     "name": "Villa Pia",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5388107299805,
+  "lon": 40.5312385559082,
+  "tags": {
+     "name": "Отель roomi",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5669708251953,
+  "lon": 39.825611114502,
+  "tags": {
+     "name": "Hermitage",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.597048,
+  "lon": 39.820313,
+  "tags": {
+     "name": "Никольская гавань",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.536323,
+  "lon": 40.538031,
+  "tags": {
+     "name": "Серафима",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5407,
+  "lon": 40.522,
+  "tags": {
+     "name": "Hostel na Vologodskoi",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.568133,
+  "lon": 39.838632,
+  "tags": {
+     "name": "Отель Парк-отель",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.5736,
+  "lon": 39.8441,
+ "tags": {
+     "name": "Полянка",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 61.253554,
+  "lon": 46.634556,
+  "tags": {
+     "name": "Отель Южная 35",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 61.253187,
+  "lon": 46.635079,
+  "tags": {
+     "name": "Советская на Карла Маркса",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 64.541137,
+  "lon": 40.511324,
+  "tags": {
+     "name": "Пур-Наволок",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 61.256298,
+  "lon": 46.623309,
+  "tags": {
+     "name": "Gostinica rechnaya",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 57.7616157531738,
+  "lon": 40.9343032836914,
+  "tags": {
+     "name": "19 историй",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.199645996,
+  "lon": 39.921089172,
+  "tags": {
+     "name": "Саквояж",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.216428,
+  "lon": 39.880435,
+  "tags": {
+     "name": "Губерния",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.2343788146973,
+  "lon": 39.876350402832,
+  "tags": {
+     "name": "Dragon spa",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.131326,
+  "lon": 38.015625,
+  "tags": {
+     "name": "Азалия",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.2245979309082,
+  "lon": 39.8947219848633,
+  "tags": {
+     "name": "Светлица",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.2227,
+  "lon": 39.8716,
+  "tags": {
+     "name": "Аура",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.223724,
+  "lon": 39.886357,
+  "tags": {
+     "name": "Палисад",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.1357,
+  "lon": 37.9201,
+  "tags": {
+     "name": "Business Vesna",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.1316223144531,
+  "lon": 37.8996238708496,
+  "tags": {
+     "name": "Машбах",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 60.7585,
+  "lon": 46.2406,
+  "tags": {
+     "name": "Гостиница на Волге",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.135,
+  "lon": 37.9174,
+  "tags": {
+     "name": "Рус ясная поляна",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.199002,
+  "lon": 39.8439,
+  "tags": {
+     "name": "Николаевский Отель",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.226187,
+  "lon": 39.871349,
+  "tags": {
+     "name": "Отель История",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 60.0372695922852,
+  "lon": 37.8142318725586,
+  "tags": {
+     "name": "Панорама",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.20935,
+  "lon": 39.87728,
+  "tags": {
+     "name": "Спутник",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.2298,
+  "lon": 39.9116,
+  "tags": {
+     "name": "Архитектор",
+    "tourism":"hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.2053,
+  "lon": 39.9242,
+  "tags": {
+     "name": "Дом аспиранта",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 60.02963,
+  "lon": 37.801957,
+  "tags": {
+     "name": "Legenda",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.962402,
+  "lon": 42.941839,
+  "tags": {
+     "name": "Картуши",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.537653,
+  "lon": 45.453684,
+  "tags": {
+     "name": "Камелия",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.209792,
+  "lon": 39.924024,
+  "tags": {
+     "name": "Антеро",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.8605,
+  "lon": 38.3744,
+  "tags": {
+     "name": "Корона",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.229801177979,
+  "lon": 39.911499023438,
+  "tags": {
+     "name": "Вояж",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.199624,
+  "lon": 39.824392,
+  "tags": {
+     "name": "Центральный",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.206803,
+  "lon": 39.883088,
+  "tags": {
+     "name": "Smart Hotel КДО Вологда",
+    "tourism": "hotel"
+  }
+},
+      {
+  "type": "node",
+  "id": -1,
+  "lat": 59.2274061263,
+  "lon": 39.8950188565,
+  "tags": {
+     "name": "Библиотека",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 67.6183700561523,
+  "lon": 33.683219909668,
+  "tags": {
+     "name": "Хостел Акка Книбекайзе",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9715,
+  "lon": 33.0889,
+  "tags": {
+     "name": "Ренессанс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9791641235352,
+  "lon": 33.083324432373,
+  "tags": {
+     "name": "Arctic Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.165502,
+  "lon": 35.135133,
+  "tags": {
+     "name": "Териберка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.96446,
+  "lon": 33.0703,
+  "tags": {
+     "name": "Три барсука",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 33.08295,
+  "lon": 68.945469,
+  "tags": {
+     "name": "Ледокол",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.002743,
+  "lon": 33.11119,
+  "tags": {
+     "name": "Северный берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.920536,
+  "lon": 33.109647,
+  "tags": {
+     "name": "Парк-отель Экспедиция",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 67.597728,
+  "lon": 33.0836,
+  "tags": {
+     "name": "Отель Русь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.908254,
+  "lon": 33.095956,
+  "tags": {
+     "name": "Ягель лофт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.8948341021,
+  "lon": 33.088178368,
+  "tags": {
+     "name": "Спутник",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9697,
+  "lon": 33.0725,
+  "tags": {
+     "name": "Меридиан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9739074707031,
+  "lon": 33.0896835327148,
+  "tags": {
+     "name": "Арктик хоум даунтаун",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.956362,
+  "lon": 33.080972,
+  "tags": {
+     "name": "Тундра",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 67.1550064086914,
+  "lon": 32.4164810180664,
+  "tags": {
+     "name": "Скандинавия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9413,
+  "lon": 33.1009,
+  "tags": {
+     "name": "Полярный круг",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.992202,
+  "lon": 33.0994534,
+  "tags": {
+     "name": "Рус Мурманск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 67.162842,
+  "lon": 32.411153,
+  "tags": {
+     "name": "Гринвич",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.985179,
+  "lon": 33.0965811,
+  "tags": {
+     "name": "Арктик-Сервис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9630661010742,
+  "lon": 33.0743598937988,
+  "tags": {
+     "name": "Good night rooms hostel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.9682227938,
+  "lon": 33.08256787,
+  "tags": {
+     "name": "Смарт Асгард",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 67.1611862182617,
+  "lon": 32.4193115234375,
+  "tags": {
+     "name": "Вокзал для двоих",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.1707498,
+  "lon": 35.1255676,
+  "tags": {
+     "name": "Barents holiday village",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.0193,
+ "lon": 33.0849,
+  "tags": {
+     "name": "Отель Фьорд",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 68.883723,
+  "lon": 33.037062,
+  "tags": {
+     "name": "Колтак",
+    "tourism": "hotel"
+  }
+},{
+  "type": "node",
+  "id": -1,
+  "lat": 62.299458,
+  "lon": 32.097504,
+  "tags": {
+    "name": "Вегарус",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.6708,
+  "lon": 36.3594,
+  "tags": {
+    "name": "Nigizhma house",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 62.211089,
+  "lon": 34.080812,
+  "tags": {
+    "name": "Чуньки",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 62.030796857671,
+  "lon": 34.14114196556,
+  "tags": {
+    "name": "Верховье",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.929643,
+  "lon": 34.211033,
+  "tags": {
+    "name": "Домик гида",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 62.251042,
+  "lon": 33.815524,
+  "tags": {
+    "name": "Ranta",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.62902,
+  "lon": 30.57564,
+  "tags": {
+    "name": "Abracadabra",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.759578705,
+  "lon": 34.312427521,
+  "tags": {
+    "name": "Сосновый бор",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.557316,
+  "lon": 30.255493,
+  "tags": {
+    "name": "Rauta",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.8691765,
+  "lon": 34.0084469,
+  "tags": {
+    "name": "Шуйский залив",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.8153,
+  "lon": 34.1023,
+  "tags": {
+    "name": "Вилга",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 62.124958,
+  "lon": 30.754537,
+  "tags": {
+    "name": "Гардарика",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.916736,
+  "lon": 33.375092,
+  "tags": {
+    "name": "Нуозъярви",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 62.127789,
+  "lon": 34.007791,
+  "tags": {
+    "name": "Остров",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.563068,
+  "lon": 30.377403,
+  "tags": {
+    "name": "Хутор Ярви",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 66.074326,
+  "lon": 33.037871,
+  "tags": {
+    "name": "Северяночка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 66.073135376,
+  "lon": 33.016448975,
+  "tags": {
+    "name": "Ремстройреконструкция",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 63.415436,
+  "lon": 31.183232,
+  "tags": {
+    "name": "Karelskie Zori",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.181045,
+  "lon": 32.391291,
+  "tags": {
+    "name": "Villa vitele",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.138946,
+  "lon": 32.501542,
+  "tags": {
+    "name": "Видлица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.180562,
+  "lon": 29.864404,
+  "tags": {
+    "name": "Дом у озера",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 62.002313,
+  "lon": 34.158595,
+  "tags": {
+    "name": "Царевичи",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 61.96936,
+  "lon": 34.23083,
+  "tags": {
+    "name": "Aviaretro",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9367,
+  "lon": 30.3253,
+  "tags": {
+    "name": "ЯроМир",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.73728,
+  "lon": 28.75747,
+  "tags": {
+    "name": "Кировские Дачи",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.049864,
+  "lon": 30.462212,
+  "tags": {
+    "name": "Мурино",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.562986,
+  "lon": 30.122218,
+  "tags": {
+    "name": "Гатчина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.559696,
+  "lon": 30.124874,
+  "tags": {
+    "name": "столица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.561545,
+  "lon": 30.123045,
+  "tags": {
+    "name": "Приорат",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.52197,
+  "lon": 29.764107,
+  "tags": {
+    "name": "Снежный Курорт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.522325,
+  "lon": 29.762892,
+  "tags": {
+    "name": "Коробицыно Каскад",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.90695,
+  "lon": 29.077037,
+  "tags": {
+    "name": "Сириус",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9069519,
+  "lon": 29.0770378,
+  "tags": {
+    "name": "Сосновый бор",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.877271,
+  "lon": 29.068004,
+  "tags": {
+    "name": "Хуторок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.5975,
+  "lon": 30.0005,
+  "tags": {
+    "name": "Загородный клуб ДаВинчи",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.67173,
+  "lon": 30.168797,
+  "tags": {
+    "name": "Загородный клуб дача",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.64463,
+  "lon": 30.201429,
+  "tags": {
+    "name": "База отдыха связист",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.3758,
+  "lon": 28.2218,
+  "tags": {
+    "name": "Витязь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.369746,
+  "lon": 28.215894,
+  "tags": {
+    "name": "Тихий дворик",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.37097,
+  "lon": 28.21821,
+  "tags": {
+    "name": "Купеческий гостевой дом",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.014453,
+  "lon": 30.010493,
+  "tags": {
+    "name": "Fox Inn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.4505997,
+  "lon": 32.0279045,
+  "tags": {
+    "name": "Гостиница Спортивная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.452952,
+  "lon": 32.03556,
+  "tags": {
+    "name": "Север",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.549827,
+  "lon": 29.784434,
+  "tags": {
+    "name": "Огниво светлое",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.5554046,
+  "lon": 29.8096281,
+  "tags": {
+    "name": "Дачники",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.748451,
+  "lon": 30.611889,
+  "tags": {
+    "name": "Гостиница уютная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.742715,
+  "lon": 30.616772,
+  "tags": {
+    "name": "Пирамида",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.7339,
+  "lon": 30.6054,
+  "tags": {
+    "name": "Берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.926,
+  "lon": 30.3606,
+  "tags": {
+    "name": "Онегин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.897704,
+  "lon": 32.365482,
+  "tags": {
+    "name": "Отдохни",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.1840400695801,
+  "lon": 29.7516002655029,
+  "tags": {
+    "name": "Первая линия health care resort",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.936607,
+  "lon": 30.31426,
+  "tags": {
+    "name": "Wawelberg",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.930303,
+  "lon": 30.346042,
+  "tags": {
+    "name": "Оранжевое небо",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9369,
+  "lon": 30.2881,
+  "tags": {
+    "name": "Трезини",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9188741,
+  "lon": 30.370723,
+  "tags": {
+    "name": "Green Loft",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9087,
+  "lon": 30.2911,
+  "tags": {
+    "name": "Гамма",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.948136,
+  "lon": 30.277537,
+  "tags": {
+    "name": "Тучков Отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.93004,
+  "lon": 30.36985,
+  "tags": {
+    "name": "Галунов отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.934562,
+  "lon": 30.326293,
+  "tags": {
+    "name": "Wynwood",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.943458,
+  "lon": 30.326522,
+  "tags": {
+    "name": "1715 duplex hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.932031,
+  "lon": 30.369857,
+  "tags": {
+    "name": "Hotel 812",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.930837,
+  "lon": 30.345132,
+  "tags": {
+    "name": "Калейдоскоп на рубинштейна 13",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.935983,
+  "lon": 30.33033,
+  "tags": {
+    "name": "Terra place by mix hotels",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.936079,
+  "lon": 30.33776,
+  "tags": {
+    "name": "Калейдоскоп на итальянской",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.987609,
+  "lon": 30.19014,
+  "tags": {
+    "name": "Лахта Плаза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 60.1512298583984,
+  "lon": 29.9139976501465,
+  "tags": {
+    "name": "Международный академический центр гармония",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.916415,
+  "lon": 30.361161,
+  "tags": {
+    "name": "Ridge",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.952081,
+  "lon": 30.350572,
+  "tags": {
+    "name": "Welton club hotel apartments",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9641,
+  "lon": 30.2982,
+  "tags": {
+    "name": "Гостевой дом 16 8",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.933888,
+  "lon": 30.313425,
+  "tags": {
+    "name": "Helen",
+    "tourism": "hotel"
+  }
+ 
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9317,
+  "lon": 30.3544,
+  "tags": {
+    "name": "Невский форум",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.943421,
+  "lon": 30.360766,
+  "tags": {
+    "name": "Деметра",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9594,
+  "lon": 30.3145,
+  "tags": {
+    "name": "The faces petrogradskaya",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9317,
+  "lon": 30.3146,
+  "tags": {
+    "name": "Гостиница Аркадия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.9277,
+  "lon": 30.3146,
+  "tags": {
+    "name": "Дом Достоевского",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.0943298339844,
+  "lon": 45.1015586853027,
+  "tags": {
+    "name": "Волков",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 59.900624,
+  "lon": 30.421057,
+  "tags": {
+    "name": "Аветпарк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5205948783,
+  "lon": 31.2853295342,
+  "tags": {
+    "name": "Palazzo 5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.530875,
+  "lon": 31.269383,
+  "tags": {
+    "name": "Карелинн",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.509894,
+  "lon": 31.255012,
+  "tags": {
+    "name": "65 home",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.524121,
+  "lon": 31.270571,
+  "tags": {
+    "name": "Отель София",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.551342,
+  "lon": 31.216771,
+  "tags": {
+    "name": "Аист",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5199,
+  "lon": 31.2848,
+  "tags": {
+    "name": "Гостиница Ганза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5365447998047,
+  "lon": 31.292049407959,
+  "tags": {
+    "name": "Береста Парк Отель Великий Новгород",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.527977,
+  "lon": 31.298849,
+  "tags": {
+    "name": "Берген",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.523737116749,
+  "lon": 31.26563864418,
+  "tags": {
+    "name": "Гостиница Волхов",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.52065000,
+  "lon": 31.28985000,
+  "tags": {
+    "name": "Отель «БИАНКИ»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.52504,
+  "lon": 31.274,
+  "tags": {
+    "name": "History (Хистори)",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.517706,
+  "lon": 31.286588,
+  "tags": {
+    "name": "Рахманинов",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5075340270996,
+  "lon": 31.2645454406738,
+  "tags": {
+    "name": "Хостел home",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5404180,
+  "lon": 31.258084,
+  "tags": {
+    "name": "Хостел академ ВН",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5195388793945,
+  "lon": 31.265474319458,
+  "tags": {
+    "name": "hotel on prusskaya 8",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.521645,
+  "lon": 31.297089,
+  "tags": {
+    "name": "Гостиница садко",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.48947700,
+  "lon": 31.27112000,
+  "tags": {
+    "name": "юрьевское подворье",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5212,
+  "lon": 31.2631,
+  "tags": {
+    "name": "Новгородская",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.53139,
+  "lon": 31.281701,
+  "tags": {
+    "name": "Отель Интурист",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.519948,
+  "lon": 31.284836,
+  "tags": {
+    "name": "Voyaj",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.52633900,
+  "lon": 31.27847600,
+  "tags": {
+    "name": "Апарт-отель Неревский ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.53458500,
+  "lon": 31.305691,
+  "tags": {
+    "name": "Отель Дилижанс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.517321,
+  "lon": 31.283758,
+  "tags": {
+    "name": "Хостел Ярослав",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5297,
+  "lon": 31.2353,
+  "tags": {
+    "name": "Отель Grace",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.516451,
+  "lon": 31.284312,
+  "tags": {
+    "name": "АМАКС Отель Россия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.5293807983398,
+  "lon": 31.2717094421387,
+  "tags": {
+    "name": "БМ-хостел",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.52826500,
+  "lon": 31.26437400,
+  "tags": {
+    "name": "Роза Ветров",
+    "tourism": "hotel"
+  }
+},
+{
+        "type": "node",
+        "id": -1,
+        "lat": 57.821349,
+        "lon": 28.356984,
+        "tags": {
+            "name": "Гостиница Ангельская",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8051,
+        "lon": 28.3357,
+        "tags": {
+            "name": "Отель Покровский",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8135,
+        "lon": 27.6147,
+        "tags": {
+            "name": "Гостиница 12 месяцев",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8068,
+        "lon": 28.3493,
+        "tags": {
+            "name": "jazz hostelpskov",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8235,
+        "lon": 28.3199,
+        "tags": {
+            "name": "Гостиница 903",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8074,
+        "lon": 28.3135,
+        "tags": {
+            "name": "Отель Барселона",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.7966,
+        "lon": 28.3725,
+        "tags": {
+            "name": "Гостиница Оазис",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 56.352294921875,
+        "lon": 30.5090484619141,
+        "tags": {
+            "name": "Служебная",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8374366760254,
+        "lon": 28.2795238494873,
+        "tags": {
+            "name": "Соколиха",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.816356,
+        "lon": 27.617149,
+        "tags": {
+            "name": "Печоры парк-отель",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 56.3522529602051,
+        "lon": 30.5643100738525,
+        "tags": {
+            "name": "Гостиница Амарис",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 28.460611,
+        "lon": 56.287752,
+        "tags": {
+            "name": "Прибалтийский отель",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.0549,
+        "lon": 29.1327,
+        "tags": {
+            "name": "Имение Алтунъ",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 56.3445205688477,
+        "lon": 30.5644493103027,
+        "tags": {
+            "name": "Луки-Сервис",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.85136,
+        "lon": 27.93518,
+        "tags": {
+            "name": "Лукоморье",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.811043,
+        "lon": 28.337403,
+        "tags": {
+            "name": "Двор Подзноева студии и апартаменты",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 56.2769130,
+        "lon": 28.4942280,
+        "tags": {
+            "name": "Хостел Себеж",
+            "tourism": "hostel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8162,
+        "lon": 28.3258,
+        "tags": {
+            "name": "Hostel 60",
+            "tourism": "hostel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8104,
+        "lon": 28.3371,
+        "tags": {
+            "name": "Двор Подзноева Главный Корпус",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.053245,
+        "lon": 29.132455,
+        "tags": {
+            "name": "Имение Алтунъ дом у озера",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.7065,
+        "lon": 27.8631,
+        "tags": {
+            "name": "Гостиничный комплекс Изборск",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.8221,
+        "lon": 28.3319,
+        "tags": {
+            "name": "Золотая набережная",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.341812,
+        "lon": 28.364925,
+        "tags": {
+            "name": "Отель Остров",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.754267,
+        "lon": 27.824172,
+        "tags": {
+            "name": "Мальская Долина",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 57.7961845397949,
+        "lon": 28.412618637085,
+        "tags": {
+            "name": "Пилигрим",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 57.06174,
+        "lon": 28.90269,
+        "tags": {
+            "name": "Соседи Пушкина",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 20.436375,
+        "lon": 54.722155,
+        "tags": {
+            "name": "Хостел Bed idea",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.738654,
+        "lon": 20.50715,
+        "tags": {
+            "name": "Vanva",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 20.487932,
+        "lon": 54.71677,
+        "tags": {
+            "name": "Хостел 2028",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.7006,
+        "lon": 20.4969,
+        "tags": {
+            "name": "Скворечник",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.7259,
+        "lon": 20.4831,
+        "tags": {
+            "name": "Отель Чайковский",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.748379,
+        "lon": 20.459831,
+        "tags": {
+            "name": "Maziiz Hotel",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.72385,
+        "lon": 20.489943,
+        "tags": {
+            "name": "Отель Черепаха",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.965387,
+        "lon": 20.489373,
+        "tags": {
+            "name": "Mr. Justs hotel",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.959036,
+        "lon": 20.468753,
+        "tags": {
+            "name": "Вилла Лана",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9597816467285,
+        "lon": 20.4767951965332,
+        "tags": {
+            "name": "Арт-хостел",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.957729,
+        "lon": 20.464750,
+        "tags": {
+            "name": "Кристалл",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9434050,
+        "lon": 20.1453040,
+        "tags": {
+            "name": "Малина Штольц",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.953397,
+        "lon": 20.218958,
+        "tags": {
+            "name": "Гостиница Круиз",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.951632,
+        "lon": 20.228434,
+        "tags": {
+            "name": "Florange",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.011019,
+        "lon": 20.617625,
+        "tags": {
+            "name": "Вальде Парк",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.631029,
+        "lon": 21.811249,
+        "tags": {
+            "name": "Отель у медведя",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.635958,
+        "lon": 21.814312,
+        "tags": {
+            "name": "Отель Кочар",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 20.618144,
+        "lon": 54.778315,
+        "tags": {
+            "name": "La Belle",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 85.966091,
+        "lon": 54.286762,
+        "tags": {
+            "name": "Металлург",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 38.699770,
+        "lon": 44.310460,
+        "tags": {
+            "name": "Аквамарин",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 44.304,
+        "lon": 38.7555,
+        "tags": {
+            "name": "Мельница",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.600271,
+        "lon": 21.966811,
+        "tags": {
+            "name": "Гостиный двор",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 55.1578636169434,
+        "lon": 20.8481273651123,
+        "tags": {
+            "name": "Мини-гостиница на Куршской косе",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.157929,
+        "lon": 20.843601,
+        "tags": {
+            "name": "Трактир",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.647385,
+        "lon": 21.073853,
+        "tags": {
+            "name": "Hotel Ritsa",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.893042,
+        "lon": 21.067907,
+        "tags": {
+            "name": "санаторий гостиничный комплекс оздоровительного туризма Амбер Сакрум",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.747730255127,
+        "lon": 20.2310752868652,
+        "tags": {
+            "name": "Гастхофгренц",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.662205,
+        "lon": 20.109059,
+        "tags": {
+            "name": "Alena",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 54.9539,
+        "lon": 73.3802,
+        "tags": {
+            "name": "Космос",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9973564147949,
+        "lon": 73.3747863769531,
+        "tags": {
+            "name": "Рабисон",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.0092,
+        "lon": 73.3381,
+        "tags": {
+            "name": "Глория",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.047074,
+        "lon": 74.567843,
+        "tags": {
+            "name": "Отель Д&А",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.003823,
+        "lon": 73.364394,
+        "tags": {
+            "name": "Гrban",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.00424,
+        "lon": 73.37218,
+        "tags": {
+            "name": "Нова",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.0012,
+        "lon": 73.3532,
+        "tags": {
+            "name": "Гостиница авеню",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9414,
+        "lon": 73.3828,
+        "tags": {
+            "name": "Миллениум",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9982,
+        "lon": 73.3771,
+        "tags": {
+            "name": "Hi Loft",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.970695,
+        "lon": 73.390587,
+        "tags": {
+            "name": "Жуков Отель",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9512,
+        "lon": 73.3482,
+        "tags": {
+            "name": "Отель 41",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9432,
+        "lon": 73.3528,
+        "tags": {
+            "name": "Аврора",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.03091,
+        "lon": 73.27721,
+        "tags": {
+            "name": "Подкова Омск",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9701,
+        "lon": 73.4105,
+        "tags": {
+            "name": "Ля мезон",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9796,
+        "lon": 73.3735,
+        "tags": {
+            "name": "Турист",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.0619430541992,
+        "lon": 73.2526397705078,
+        "tags": {
+            "name": "Подкова Омск на проспекте Губкина",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.007973,
+        "lon": 73.338268,
+        "tags": {
+            "name": "Спутник",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.99949,
+        "lon": 73.375273,
+        "tags": {
+            "name": "На Октябрьской",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9811,
+        "lon": 73.3718,
+        "tags": {
+            "name": "Гостиница «Маяк» - корпус «Омь»",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.933386,
+        "lon": 73.381513,
+        "tags": {
+            "name": "40 подушек",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 56.017519844147,
+        "lon": 71.54250259916,
+        "tags": {
+            "name": "Жемчужина ика",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.982185,
+        "lon": 73.395704,
+        "tags": {
+            "name": "Cronwell Ника-Центр",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.0358,
+        "lon": 73.2584,
+        "tags": {
+            "name": "Нора",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 54.9985,
+        "lon": 73.2873,
+        "tags": {
+            "name": "Mini hotel filin",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.9757,
+        "lon": 73.4193,
+        "tags": {
+            "name": "Отель Lucky",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 54.987062,
+        "lon": 73.384345,
+        "tags": {
+            "name": "Хостел Пушкинъ",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.025503,
+        "lon": 73.377033,
+        "tags": {
+            "name": "Отель 50 60 Омск",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 55.230521,
+        "lon": 72.900068,
+        "tags": {
+            "name": "Курилотрансавто",
+            "tourism": "hotel"
+        }
+    },
+	{
+        "type": "node",
+        "id": -1,
+        "lat": 51.75712,
+        "lon": 85.727812,
+        "tags": {
+            "name": "Pinewood resort spa",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.758922,
+        "lon": 85.720941,
+        "tags": {
+            "name": "Podgoritsa",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 50.299284,
+        "lon": 86.70248,
+        "tags": {
+            "name": "Saykol Inegen Glamping",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.6247406005859,
+        "lon": 85.6772918701172,
+        "tags": {
+            "name": "Holiday park Mikhailovo",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 50.812457752315,
+        "lon": 85.942303612771,
+        "tags": {
+            "name": "Мини-отель Gorny",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 50.251076,
+        "lon": 87.887047,
+        "tags": {
+            "name": "Saykol Kuray glamping",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 50.2619,
+        "lon": 85.9598,
+        "tags": {
+            "name": "Гостевой дом Белуха Чендек",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 85.992095,
+        "lon": 50.181889,
+        "tags": {
+            "name": "Медуница",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.682045,
+        "lon": 85.78001,
+        "tags": {
+            "name": "Царская охота",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.672912545546,
+        "lon": 85.776394062296,
+        "tags": {
+            "name": "Скала",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.812258,
+        "lon": 85.989048,
+        "tags": {
+            "name": "Эко-отель Алтика",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.097337,
+        "lon": 86.180212,
+        "tags": {
+            "name": "Туристический комплекс Остров",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.8279,
+        "lon": 85.74859,
+        "tags": {
+            "name": "Глэмпинг Август",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.6269989013672,
+        "lon": 85.679801940918,
+        "tags": {
+            "name": "Отель Деревня Берендеевка",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 50.2979,
+        "lon": 85.3985,
+        "tags": {
+            "name": "Заимка камза",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.969779,
+        "lon": 85.007415,
+        "tags": {
+            "name": "Беркут",
+            "tourism": "hotel"
+        }
+    },
+	 {
+        "type": "node",
+        "id": -1,
+        "lat": 51.980808,
+        "lon": 84.958725,
+        "tags": {
+            "name": "Благодать",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.788309,
+        "lon": 87.321453,
+        "tags": {
+            "name": "Урочище Актра",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.787128,
+        "lon": 87.242153,
+        "tags": {
+            "name": "Артыбаш",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7934303283691,
+        "lon": 87.3075790405273,
+        "tags": {
+            "name": "Телецкое золотое",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7943000793457,
+        "lon": 87.2755126953125,
+        "tags": {
+            "name": "O&K",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7921658,
+        "lon": 87.3136413,
+        "tags": {
+            "name": "Горное озеро",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7512,
+        "lon": 87.4009,
+        "tags": {
+            "name": "Altay village Teletskoe",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7903060913086,
+        "lon": 87.2487106323242,
+        "tags": {
+            "name": "Green house at Teletskoye lake",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7941551208496,
+        "lon": 87.2968063354492,
+        "tags": {
+            "name": "Turbaza Kedroviy bereg",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.7464637756348,
+        "lon": 87.2941284179688,
+        "tags": {
+            "name": "Глыба",
+            "tourism": "hotel"
+        }
+    },
+    {
+        "type": "node",
+        "id": -1,
+        "lat": 51.78713,
+        "lon": 87.24215,
+        "tags": {
+            "name": "Ойер-парк",
+            "tourism": "hotel"
+        }
+    },
+	{
+"type": "node",
+"id": -2,
+"lat": 52.000325,
+"lon": 85.881150,
+"tags": {
+"name": "База отдыха Etnica",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -3,
+"lat": 53.7976,
+"lon": 81.3104,
+"tags": {
+"name": "Гостиница Арарат",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -4,
+"lat": 52.032397867827,
+"lon": 84.868143415772,
+"tags": {
+"name": "Алтай green",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -5,
+"lat": 51.980808,
+"lon": 84.958725,
+"tags": {
+"name": "Гостиница Благодать",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -6,
+"lat": 51.994825,
+"lon": 84.993556,
+"tags": {
+"name": "Беловодье",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -7,
+"lat": 51.925307144349,
+"lon": 85.822104517756,
+"tags": {
+"name": "Белый Аист",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -8,
+"lat": 51.984259,
+"lon": 84.966127,
+"tags": {
+"name": "Эко-отель Эхо",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -9,
+"lat": 55.0062141418457,
+"lon": 73.2918167114258,
+"tags": {
+"name": "4 rooms",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -10,
+"lat": 52.494919,
+"lon": 82.752885,
+"tags": {
+"name": "Алейка",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -11,
+"lat": 53.348473,
+"lon": 83.758054,
+"tags": {
+"name": "Sleep box hostel",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -12,
+"lat": 51.993016,
+"lon": 84.974293,
+"tags": {
+"name": "Кедровый Отель",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -13,
+"lat": 53.3369321,
+"lon": 83.7894899,
+"tags": {
+"name": "Столичный отель",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -14,
+"lat": 53.3728,
+"lon": 83.7443,
+"tags": {
+"name": "Хостел Арбуз",
+"tourism": "hotel"
+}
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.3517,
+  "lon": 83.7777,
+  "tags": {
+    "name": "Хостел Вагон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.3838,
+  "lon": 83.7368,
+  "tags": {
+    "name": "Hotel palma",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.993801116943,
+  "lon": 84.977996826172,
+  "tags": {
+    "name": "Отель Нео",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.9930458068848,
+  "lon": 84.9766845703125,
+  "tags": {
+    "name": "Отель баваренок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.9532127380371,
+  "lon": 84.8833465576172,
+  "tags": {
+    "name": "Гостиница Олимп",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.9316,
+  "lon": 85.815,
+  "tags": {
+    "name": "Время Счастья",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.000325,
+  "lon": 85.881150,
+  "tags": {
+    "name": "Star",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.339501,
+  "lon": 83.678352,
+  "tags": {
+    "name": "Сити Фокс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.347865,
+  "lon": 83.786864,
+  "tags": {
+    "name": "Redfox",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.541581,
+  "lon": 85.226989,
+  "tags": {
+    "name": "На старом месте",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.345962,
+  "lon": 83.777512,
+  "tags": {
+    "name": "Центральный Барнаул",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.284068,
+  "lon": 104.252034,
+  "tags": {
+    "name": "Добрый кот",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.256408,
+  "lon": 104.355283,
+  "tags": {
+    "name": "Гостиница учебного центра профсоюзов",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.288866,
+  "lon": 104.285376,
+  "tags": {
+    "name": "Иркут",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.253558,
+  "lon": 104.253441,
+  "tags": {
+    "name": "Союз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.276299,
+  "lon": 104.290236,
+  "tags": {
+    "name": "Гостиница 130 hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.785029,
+  "lon": 32.039466,
+  "tags": {
+    "name": "Апартаменты центральный парк премиум в жк 4 солнца",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.2487,
+  "lon": 104.27118,
+  "tags": {
+    "name": "Гостиница Академическая",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.281401,
+  "lon": 104.275962,
+  "tags": {
+    "name": "Байкал",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.0132522583008,
+  "lon": 106.880104064941,
+  "tags": {
+    "name": "Baikalmi",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.0203437805176,
+  "lon": 106.882247924805,
+  "tags": {
+    "name": "Панорама",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.538201,
+  "lon": 104.047512,
+  "tags": {
+    "name": "Байкалина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.538201,
+  "lon": 104.047512,
+  "tags": {
+    "name": "Байкал йети",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.1931425712,
+  "lon": 107.3320035,
+  "tags": {
+    "name": "Порт Ольхон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.192522,
+  "lon": 107.35624,
+  "tags": {
+    "name": "Флагман",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.731466,
+  "lon": 103.724657,
+  "tags": {
+    "name": "Байкальский рай",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 103.621955,
+  "lon": 52.756491,
+  "tags": {
+    "name": "Лола",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.90671,
+  "lon": 104.805699,
+  "tags": {
+    "name": "Байкальские сезоны",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.03008096381,
+  "lon": 105.40383338928,
+  "tags": {
+    "name": "Байкальский бриз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.313021,
+  "lon": 104.27563,
+  "tags": {
+    "name": "ГостиныйдворАнна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.0471,
+  "lon": 105.408,
+  "tags": {
+    "name": "Русское Подворье",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.142833709717,
+  "lon": 87.556190490723,
+  "tags": {
+    "name": "Оздоровительный комплекс Кедр",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.5093410,
+  "lon": 87.2765760,
+  "tags": {
+    "name": "Гостиница Сity",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.36363,
+  "lon": 86.211722,
+  "tags": {
+    "name": "Вилла Маралис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.35496,
+  "lon": 86.087299,
+  "tags": {
+    "name": "Хостел История",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.346440,
+  "lon": 86.066905,
+  "tags": {
+    "name": "Олимп Плаза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.355454,
+  "lon": 86.094725,
+  "tags": {
+    "name": "Клуб-отель Тайм",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.946687,
+  "lon": 87.987359,
+  "tags": {
+    "name": "Карамелька",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.952344,
+  "lon": 87.953988,
+  "tags": {
+    "name": "Парк-отель Горный",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.952344,
+  "lon": 87.953988,
+  "tags": {
+    "name": "Паркоффка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.664238,
+  "lon": 87.136764,
+  "tags": {
+    "name": "Царская охота",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.7823905944824,
+  "lon": 87.1314086914063,
+  "tags": {
+    "name": "Тетрис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.760735,
+  "lon": 87.108901,
+  "tags": {
+    "name": "Отель Бардин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.6526298522949,
+  "lon": 47.8737106323242,
+  "tags": {
+    "name": "Гостевой дом Пати холл",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.725814,
+  "lon": 84.934473,
+  "tags": {
+    "name": "Гостиница 12 футов",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.670053,
+  "lon": 88.085437,
+  "tags": {
+    "name": "Куба",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.681915,
+  "lon": 88.07653,
+  "tags": {
+    "name": "Отель Робинзон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.6938591003418,
+  "lon": 86.1994476318359,
+  "tags": {
+    "name": "Мини-отель Виктория",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.7987,
+  "lon": 86.7973,
+  "tags": {
+    "name": "Аврора",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.8736,
+  "lon": 86.6548,
+  "tags": {
+    "name": "Гостиница Альянс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.2178,
+  "lon": 86.2919,
+  "tags": {
+    "name": "Гостиница Притомье",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.128685384575,
+  "lon": 86.404580460327,
+  "tags": {
+    "name": "Парк-отель Застава",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.870844,
+  "lon": 78.397682,
+  "tags": {
+    "name": "Танай",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.366882,
+  "lon": 86.377033,
+  "tags": {
+    "name": "Медведь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 86.300997,
+  "lon": 54.415739,
+  "tags": {
+    "name": "Янушка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.767152,
+  "lon": 87.962749,
+  "tags": {
+    "name": "Замок Эдельвейс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.083286,
+  "lon": 86.01951,
+  "tags": {
+    "name": "Анжерская",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.078382,
+  "lon": 86.019581,
+  "tags": {
+    "name": "ИП Лищенко",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.013699,
+  "lon": 92.880258,
+  "tags": {
+    "name": "Полиарт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.011359,
+  "lon": 92.862478,
+  "tags": {
+    "name": "Дом-отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.014609,
+  "lon": 92.873745,
+  "tags": {
+    "name": "Гостиница Sky-центр",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.014488,
+  "lon": 92.849547,
+  "tags": {
+    "name": "Купеческий отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.014031,
+  "lon": 92.857485,
+  "tags": {
+    "name": "Дом-отель Нео",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.013423,
+  "lon": 92.888991,
+  "tags": {
+    "name": "Метелица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.97,
+  "lon": 92.7653,
+  "tags": {
+    "name": "Хуторок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.009113,
+  "lon": 92.87015,
+  "tags": {
+    "name": "Гостиница Красноярск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.994179,
+  "lon": 92.92913,
+  "tags": {
+    "name": "Гостиница Дворик",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.009033203125,
+  "lon": 92.8765640258789,
+  "tags": {
+    "name": "Гостиница Ермак",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.0094200,
+  "lon": 92.8684510,
+  "tags": {
+    "name": "Новотель Красноярск Центр",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.979089,
+  "lon": 92.873165,
+  "tags": {
+    "name": "Sky отель Красноярск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.006789,
+  "lon": 92.963435,
+  "tags": {
+    "name": "Отель Радуга",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.0255,
+  "lon": 92.8632,
+  "tags": {
+    "name": "Отель Сова",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.9945,
+  "lon": 92.9156,
+  "tags": {
+    "name": "Отель Alioth",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.0114593505859,
+  "lon": 92.8767395019531,
+  "tags": {
+    "name": "Софт-отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.01447,
+  "lon": 92.88885,
+  "tags": {
+    "name": "Хостел Inwood",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.3510360717773,
+  "lon": 88.2098236083984,
+  "tags": {
+    "name": "Гостиница Норильск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.3380889892578,
+  "lon": 88.235481262207,
+  "tags": {
+    "name": "Север",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.3501586914063,
+  "lon": 88.1966934204102,
+  "tags": {
+    "name": "Север Гранд",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.3562393188477,
+  "lon": 88.1787261962891,
+  "tags": {
+    "name": "Arctik room",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.3219620,
+  "lon": 88.2083720,
+  "tags": {
+    "name": "Norilsk hostel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 69.3215713500977,
+  "lon": 88.2080841064453,
+  "tags": {
+    "name": "Рус Норильск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4816,
+  "lon": 84.9794,
+  "tags": {
+    "name": "Мандарин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.219813,
+  "lon": 92.501843,
+  "tags": {
+    "name": "Виталина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.26279,
+  "lon": 93.54104,
+  "tags": {
+    "name": "Гостиный дом Железногорский",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.20866,
+  "lon": 95.704938,
+  "tags": {
+    "name": "Сибирь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.268821,
+  "lon": 90.497324,
+  "tags": {
+    "name": "VICTORIA CITY",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 58.3819,
+  "lon": 97.4681,
+  "tags": {
+    "name": "Полет",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.995385,
+  "lon": 82.692033,
+  "tags": {
+    "name": "Хостел ovb",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.02879,
+  "lon": 82.97805,
+  "tags": {
+    "name": "Отель Метелица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0746,
+  "lon": 82.9616,
+  "tags": {
+    "name": "Hotel Barracuda",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.898271,
+  "lon": 82.794010,
+  "tags": {
+    "name": "Санаторий рассвет",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0292,
+  "lon": 82.9071,
+  "tags": {
+    "name": "Домина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0289,
+  "lon": 82.8968,
+  "tags": {
+    "name": "Отель Н",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.773034,
+  "lon": 83.096508,
+  "tags": {
+    "name": "Роял Марин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.032136,
+  "lon": 82.906876,
+  "tags": {
+    "name": "Шале на Комсомольском",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.03445,
+  "lon": 82.93518,
+  "tags": {
+    "name": "Гостиниц net на Ядринцевской",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0355567932129,
+  "lon": 82.9006500244141,
+  "tags": {
+    "name": "Маринс парк-отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.9889,
+  "lon": 82.9146,
+  "tags": {
+    "name": "Сити-отель Новосибирск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.001162,
+  "lon": 82.954633,
+  "tags": {
+    "name": "якутия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0038,
+  "lon": 82.6722,
+  "tags": {
+    "name": "Гостиница Скайпорт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.841,
+  "lon": 83.0928,
+  "tags": {
+    "name": "Золотая долина - Академгородок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.997771,
+  "lon": 82.749301,
+  "tags": {
+    "name": "СКАЙЭКСПО",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0411,
+  "lon": 82.9879,
+  "tags": {
+    "name": "Вавилон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 78.345337,
+  "lon": 55.336303,
+  "tags": {
+    "name": "Отель 54",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0295,
+  "lon": 82.9174,
+  "tags": {
+    "name": "Гостиница Центральная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0568,
+  "lon": 82.9819,
+  "tags": {
+    "name": "Аквилон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.107231,
+  "lon": 82.952535,
+  "tags": {
+    "name": "Барракуда",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.9990570,
+  "lon": 82.6573340,
+  "tags": {
+    "name": "у петровича",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.792587,
+  "lon": 83.109785,
+  "tags": {
+    "name": "Былина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.99477,
+  "lon": 82.69468,
+  "tags": {
+    "name": "Хостел Обской возле Толмачево",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.013420,
+  "lon": 82.945259,
+  "tags": {
+    "name": "Гостиница Оксид",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 55.0359,
+  "lon": 82.9062,
+  "tags": {
+    "name": "Emodji Hostel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.496989,
+  "lon": 84.956613,
+  "tags": {
+    "name": "Скандинавия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 84.971153,
+  "lon": 56.474149,
+  "tags": {
+    "name": "Пятерочка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.471546,
+  "lon": 84.952167,
+  "tags": {
+    "name": "Бон Апарт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4885,
+  "lon": 84.95,
+  "tags": {
+    "name": "Магистрат",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.482404,
+  "lon": 84.950883,
+  "tags": {
+    "name": "кухтерин отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.47696,
+  "lon": 84.956632,
+  "tags": {
+    "name": "Xander",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.471429,
+  "lon": 84.96434,
+  "tags": {
+    "name": "Бастон на герцена",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.495931,
+  "lon": 84.968643,
+  "tags": {
+    "name": "Первый апарт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4728,
+  "lon": 84.9905,
+  "tags": {
+    "name": "Гостиница Африка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4903,
+  "lon": 84.9529,
+  "tags": {
+    "name": "Отель Галерея",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4895210266113,
+  "lon": 84.9445037841797,
+  "tags": {
+    "name": "Гостиница Октябрьская",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.542854309082,
+  "lon": 84.9596252441406,
+  "tags": {
+    "name": "Mirway",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.466369,
+  "lon": 84.982627,
+  "tags": {
+    "name": "Гостиница Союз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4973,
+  "lon": 84.9429,
+  "tags": {
+    "name": "Гостиница Заречная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.518577,
+  "lon": 85.04305,
+  "tags": {
+    "name": "Шишки",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4813842773438,
+  "lon": 84.9506759643555,
+  "tags": {
+    "name": "Hostel rus tomsk",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4673,
+  "lon": 84.9381,
+  "tags": {
+    "name": "Отель Классик",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.5026,
+  "lon": 84.9624,
+  "tags": {
+    "name": "Montana",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 84.993324,
+  "lon": 56.486134,
+  "tags": {
+    "name": "Как дома и точка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.498,
+  "lon": 84.9478,
+  "tags": {
+    "name": "Алые паруса",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4754,
+  "lon": 84.9715,
+  "tags": {
+    "name": "Да винчи",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.5073,
+  "lon": 84.9408,
+  "tags": {
+    "name": "Отель «Халиф»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.477759,
+  "lon": 84.951767,
+  "tags": {
+    "name": "Дом охотника",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 84.986149,
+  "lon": 56.49984,
+  "tags": {
+    "name": "Puzzle hostel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.5012,
+  "lon": 85.0016,
+  "tags": {
+    "name": "Monomakh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 56.4677,
+  "lon": 84.9408,
+  "tags": {
+    "name": "Гостиница Университетская",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.7192349877,
+  "lon": 94.4377463736,
+  "tags": {
+    "name": "Страйк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 94.447402,
+  "lon": 51.722773,
+  "tags": {
+    "name": "Чалама",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.723962,
+  "lon": 94.438098,
+  "tags": {
+    "name": "Гостиница одуген",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.705315,
+  "lon": 94.407501,
+  "tags": {
+    "name": "Буян бадыргы",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 94.436076,
+  "lon": 51.723586,
+  "tags": {
+    "name": "Кызыл гранд",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 51.2840200,
+  "lon": 91.5690000,
+  "tags": {
+    "name": "Жарки",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.7242813110352,
+  "lon": 91.4687805175781,
+  "tags": {
+    "name": "Чалпан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.727320,
+  "lon": 91.435908,
+  "tags": {
+    "name": "Азия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.6776084899902,
+  "lon": 91.3665313720703,
+  "tags": {
+    "name": "Гранд Шале",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.738208770752,
+  "lon": 91.4209136962891,
+  "tags": {
+    "name": "lucomoria hostel Аbakan",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.722377,
+  "lon": 91.447049,
+  "tags": {
+    "name": "Абакан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.721678,
+  "lon": 91.452169,
+  "tags": {
+    "name": "Персона",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.722732,
+  "lon": 91.443548,
+  "tags": {
+    "name": "Хакасия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.715983,
+  "lon": 91.445690,
+  "tags": {
+    "name": "Гостиница Анзас",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.095409,
+  "lon": 91.419013,
+  "tags": {
+    "name": "Енисей",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.10563,
+  "lon": 91.412167,
+  "tags": {
+    "name": "Саяногорск",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.9879,
+  "lon": 90.9668,
+  "tags": {
+    "name": "Жарки",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.652872,
+  "lon": 88.704902,
+  "tags": {
+    "name": "Притяжение",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.657977,
+  "lon": 88.690544,
+  "tags": {
+    "name": "Таежная резиденция Ажур Приисковое",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.652638,
+  "lon": 88.697321,
+  "tags": {
+    "name": "Снежный Избасс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.498955,
+  "lon": 90.158896,
+  "tags": {
+    "name": "Бегущая по волнам",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.49877,
+  "lon": 90.146674,
+  "tags": {
+    "name": "Озеро Шира",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.496453,
+  "lon": 90.148517,
+  "tags": {
+    "name": "Pjat ozer",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.739216,
+  "lon": 91.431676,
+  "tags": {
+    "name": "V gostjah u skazki",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.662937,
+  "lon": 88.687844,
+  "tags": {
+    "name": "All Inn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.653899,
+  "lon": 88.692765,
+  "tags": {
+    "name": "Golden rocks hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 54.652638,
+  "lon": 88.697321,
+  "tags": {
+    "name": "Izbass (Избасс)",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.122787,
+  "lon": 90.503280,
+  "tags": {
+    "name": "Максим",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.146594,
+  "lon": 90.549717,
+  "tags": {
+    "name": "Советский",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.259940,
+  "lon": 89.556321,
+  "tags": {
+    "name": "Кедр",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 52.717732,
+  "lon": 89.921380,
+  "tags": {
+    "name": "Sjugesh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "lat": 53.593949,
+  "lon": 91.381208,
+  "tags": {
+    "name": "Северная",
+    "tourism": "hotel"
+  }
+},
   ]
 }
