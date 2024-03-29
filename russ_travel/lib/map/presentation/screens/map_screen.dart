@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
+import 'package:flutter/cupertino.dart';
 
 import '../../domain/location_service.dart';
 import '../../domain/museum_point.dart';
@@ -20,6 +21,7 @@ class MapScreen extends StatefulWidget {
 }
 
 class _MapScreenState extends State<MapScreen> {
+  int _currentIndex = 0;
   late final YandexMapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
@@ -27,7 +29,7 @@ class _MapScreenState extends State<MapScreen> {
   @override
   void initState() {
     super.initState();
-    _placemarkObjectsFuture = _combinePlacemarkObjects(context);
+    _placemarkObjectsFuture = _museumPlacemarkObjects(context);
   }
 
   @override
@@ -39,7 +41,40 @@ class _MapScreenState extends State<MapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Карта открытий')),
+      appBar: AppBar(
+      	  title: const Text('Карта открытий'),
+      	  bottom: PreferredSize(
+        preferredSize: Size.fromHeight(50.0),
+        child: Container(
+          width: MediaQuery.of(context).size.width,
+          color: Colors.blue,  // Устанавливаем желаемый цвет blue для подложки
+          child: CupertinoSegmentedControl(
+            selectedColor: Colors.blue,  // Устанавливаем цвет выделенного сегмента
+            children: {
+              0: Text('Музеи'),
+              1: Text('Парки'),
+              2: Text('Другое'),
+            },
+            onValueChanged: (value) {
+              setState(() {
+                _currentIndex = value;
+                switch (value) {
+                  case 0:
+                    _placemarkObjectsFuture = _museumPlacemarkObjects(context);
+                    break;
+                  case 1:
+                    _placemarkObjectsFuture = _parksPlacemarkObjects(context);
+                    break;
+                  case 2:
+                    _placemarkObjectsFuture = _outPlacemarkObjects(context);
+                    break;
+                }
+              });
+            },
+          ),
+        ),
+      ),
+    ),
       body: FutureBuilder<List<PlacemarkMapObject>>(
         future: _placemarkObjectsFuture,
         builder: (context, snapshot) {
@@ -125,11 +160,44 @@ class _MapScreenState extends State<MapScreen> {
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
-    List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
-    List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
+    //List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
+    //List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
     List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsM);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    combinedPlacemarkObjects.addAll(placemarkObjectsP);
+  } catch (e) {
+    throw Exception('Ошибка при объединении данных: $e');
+  }
+  return combinedPlacemarkObjects;
+}
+
+Future<List<PlacemarkMapObject>> _museumPlacemarkObjects(BuildContext context) async {
+  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
+  try {
+    List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
     combinedPlacemarkObjects.addAll(placemarkObjectsM);
+  } catch (e) {
+    throw Exception('Ошибка при объединении данных: $e');
+  }
+  return combinedPlacemarkObjects;
+}
+
+Future<List<PlacemarkMapObject>> _outPlacemarkObjects(BuildContext context) async {
+  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
+  try {
+    List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
     combinedPlacemarkObjects.addAll(placemarkObjectsO);
+  } catch (e) {
+    throw Exception('Ошибка при объединении данных: $e');
+  }
+  return combinedPlacemarkObjects;
+}
+
+Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) async {
+  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
+  try {
+    List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
     combinedPlacemarkObjects.addAll(placemarkObjectsP);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
