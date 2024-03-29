@@ -109,6 +109,7 @@ flutter:
     - assets/park_points.json
     - assets/hotels.json
     - assets/museum_points_test.json
+    - assets/park_points_test.json
     - assets/bed_test.png
 
 

@@ -127,10 +127,10 @@ Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) 
   try {
     //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
     final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
-    //final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
+    final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
     //combinedPlacemarkObjects.addAll(placemarkObjectsO);
     combinedPlacemarkObjects.addAll(placemarkObjectsM);
-    //combinedPlacemarkObjects.addAll(placemarkObjectsP);
+    combinedPlacemarkObjects.addAll(placemarkObjectsP);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
   }
@@ -199,7 +199,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/park_points.json');
+    final jsonString = await rootBundle.loadString('assets/park_points_test.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     return pointsData.map((data) {
       final point = ParkPoint.fromJson(data);
@@ -239,17 +239,27 @@ class _ModalBodyView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
-        Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Image.network(
+            point.photoUrl,
+            width: 200,
+            height: 200,
+            fit: BoxFit.cover, // Режим заполнения изображения
           ),
-        ),
-      ]),
+          const SizedBox(height: 20),
+          Text(point.name, style: const TextStyle(fontSize: 20)),
+          const SizedBox(height: 20),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -266,11 +276,10 @@ class _ModalBodyViewM extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          // Загрузка и отображение изображения из поля photoUrl
           Image.network(
-            point.photoUrl, // Используем ссылку на фото из MuseumPoint
-            width: 200, // Ширина изображения
-            height: 200, // Высота изображения
+            point.photoUrl,
+            width: 200,
+            height: 200,
             fit: BoxFit.cover, // Режим заполнения изображения
           ),
           const SizedBox(height: 20),
