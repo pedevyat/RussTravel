@@ -223,12 +223,12 @@ Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) as
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/museum_points.json');
+    final jsonString = await rootBundle.loadString('assets/museum_points_test.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
     for (int i = 0; i < pointsData.length; i++)
     {
-    	final point = OutsidePoint.fromJson(pointsData[i]);
+    	final point = MuseumPoint.fromJson(pointsData[i]);
     	listPlacemarkMapObject.add(
 	    PlacemarkMapObject(
 		mapId: MapObjectId('MuseumObject $i'),
@@ -242,7 +242,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 		),
 		onTap: (_, __) => showModalBottomSheet(
 		  context: context,
-		  builder: (context) => _ModalBodyViewO(
+		  builder: (context) => _ModalBodyViewM(
 		    point: point,
 		  ),
 		),
