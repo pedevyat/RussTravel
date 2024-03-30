@@ -10,7 +10,7 @@ class ParkPoint extends Equatable {
     required this.name,
     required this.latitude,
     required this.longitude,
-    //required this.photoUrl,
+    required this.photoUrl,
   });
 
   /// Название населенного пункта
@@ -23,10 +23,10 @@ class ParkPoint extends Equatable {
   final double longitude;
 
   /// Ссылка на фото
-  //final String photoUrl;
+  final String photoUrl;
 
   @override
-  List<Object?> get props => [name, latitude, longitude];//, photoUrl];
+  List<Object?> get props => [name, latitude, longitude, photoUrl];
 
   /// Создание объекта OutsidePoint из JSON данных
   factory ParkPoint.fromJson(Map<String, dynamic> json) {
@@ -34,7 +34,7 @@ class ParkPoint extends Equatable {
       name: json['name'],
       latitude: json['latitude'],
       longitude: json['longitude'],
-      //photoUrl: json['photoUrl'],
+      photoUrl: json['photoUrl'],
     );
   }
 }
