@@ -1082,7 +1082,6 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Курганный комплекс Быстровка', latitude: 54.53870908854932, longitude: 82.58233929756462),
       MuseumPoint(name: 'Палеонтологический памятник природы Волчья грива', latitude: 54.40, longitude: 80.17),
       MuseumPoint(name: 'Городище Чичабург', latitude: 54.705833, longitude: 78.590000),
-      MuseumPoint(name: 'Умревинский острог', latitude: 55.57559303386144, longitude: 83.5959165257112),
       MuseumPoint(name: 'Источник Святой ключ', latitude: 54.5742262726708, longitude: 83.35433333913059),
       MuseumPoint(name: 'Музей железнодорожной техники', latitude: 54.868637, longitude: 83.076014),
       MuseumPoint(name: 'Народный музей "Танкоград" под Новосибирском', latitude: 55.1586, longitude: 61.4680),
