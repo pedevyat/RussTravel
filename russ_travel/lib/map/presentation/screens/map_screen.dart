@@ -1010,7 +1010,7 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Музей-усадьба Григория Ивановича Чорос-Гуркина', latitude: 51.5012, longitude: 85.9419),
       MuseumPoint(name: 'Палеопарк', latitude: 51.4915, longitude: 85.9805),
       MuseumPoint(name: 'Национальный музей имени А.В. Анохина', latitude: 51.9564, longitude: 85.9464),
-      MuseumPoint(name: 'Музей Чуйского, latitude: тракта', latitude: 52.5391, longitude: 85.2230),
+      MuseumPoint(name: 'Музей Чуйского тракта', latitude: 52.5391, longitude: 85.2230),
       MuseumPoint(name: 'Памятник шофёру Кольке Снегирёву', latitude: 50.3529, longitude: 87.0558),
       MuseumPoint(name: 'Дом-музей Николая Рериха', latitude: 50.2140, longitude: 85.7429),
 
