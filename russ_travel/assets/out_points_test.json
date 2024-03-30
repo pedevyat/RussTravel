@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Русский мост",
+        "latitude": 43.064860,
+        "longitude": 131.910413,
+        "image": "https://sportishka.com/uploads/posts/2022-11/1667575580_1-sportishka-com-p-vantovii-most-na-ostrov-russkii-vkontakte-1.jpg"
+    },
+    {
+        "name": "Маяк Анива",
+        "latitude": 46.018884,
+        "longitude": 143.413989,
+        "image": "https://img.geliophoto.com/aniva/15_aniva.jpg"
+    },
+    {
+        "name": "Токаревский маяк (маяк Эгершельд)",
+        "latitude": 43.073160,
+        "longitude": 131.843129,
+        "image": "https://sun9-8.userapi.com/impg/iLEz8AowNixRlm1dyYKby-drXrYdAU-AFuhItg/ZYkdUuISpFg.jpg?size=1280x853&quality=95&sign=e4ae44e21f911b8312e28861712dbe44&c_uniq_tag=6TD0jB-nxj4MWTV3t40aB76OWK255Xya-5epPKkYtMM&type=album"
+    },
+    {
+        "name": "Набережная реки Бира",
+        "latitude": 49.000934,
+        "longitude": 132.463074,
+        "image": "https://panevin.ru/uploads/photo/2019/naberezhnaya_reki_bira_1_1024.jpg"
+    },
+    {
+        "name": "Село Оймякон",
+        "latitude": 63.464547,
+        "longitude": 142.785220,
+        "image": "https://wikiway.com/upload/uf/048/oyamikon_024.jpg"
+    },
+    {
+        "name": "Село Лаврентия",
+        "latitude": 65.584903,
+        "longitude": -171.011050,
+        "image": "https://postila.ru/data/43/10/61/49/43106149982b1ae05a42800a1690da878d2c1c84326c8c63e1970cdefe5625fe.jpg"
+    },
+    {
+        "name": "Космодром Восточный",
+        "latitude": 51.883715,
+        "longitude": 128.334033,
+        "image": "https://www.putin-today.ru/wp-content/uploads/2022/11/2-7.webp"
+    },
+    {
+        "name": "Иволгинский дацан Хамбын Хурээ — Бурятия",
+        "latitude": 51.758736,
+        "longitude": 107.202503,
+        "image": "https://a.d-cd.net/boAAAgKe-OA-1920.jpg"
+    },
+    {
+        "name": "Посольский Спасо-Преображенский монастырь",
+        "latitude": 52.017592,
+        "longitude": 106.178423,
+        "image": "https://a.d-cd.net/_pzu3na_DGhYNUzJY2PxIkCk15E-1920.jpg"
+    },
+    {
+        "name": "Спасо-Преображенский Кафедральный собор г. Хабаровска",
+        "latitude": 48.466135,
+        "longitude": 135.067027,
+        "image": "https://avatars.dzeninfra.ru/get-zen_doc/29030/pub_5a09d818a936f4716bf70ba7_5a09dc862f578c5053707adf/scale_1200"
+    },
+    {
+        "name": "Место высадки первой колымской геологической экспедиции",
+        "latitude": 59.566178,
+        "longitude": 151.248664,
+        "image": "https://must-see.top/wp-content/uploads/2018/11/mesto-vysadki-pervoj-kolymskoj-geologicheskoj-ehkspedicii.jpg"
+    },
+    {
+        "name": "Маяк на мысе Анива",
+        "latitude": 46.018889,
+        "longitude": 143.414061,
+        "image": "http://crimeangazette.ru/wp-content/uploads/2023/06/1670757016_10.jpg"
+    },
+    {
+        "name": "Городской парк культуры и отдыха имени Гагарина",
+        "latitude": 46.96709968493483,
+        "longitude": 142.75344565355505,
+        "image": "https://traland.ru/wp-content/uploads/2022/07/gorodskoi-park-kulturi-gagarina.jpg"
+    },
+    {
+        "name": "Китовая аллея — Чукотка",
+        "latitude": 64.63425143017652,
+        "longitude": -172.5940974131969,
+        "image": "https://trip-guru.ru/images/easyblog_articles/40/b2ap3_large_trip-guru.ru0030.jpg"
+    },
+    {
+        "name": "Наукан — Чукотка",
+        "latitude": 66.02741305834503,
+        "longitude": -169.702479513543,
+        "image": "https://avatars.dzeninfra.ru/get-zen_doc/1594475/pub_5d8a4b0f8d5b5f00aff0a4a0_5d8a52b6e882c300afa3efd1/scale_1200"
+    },
+    {
+        "name": "Мыс Наварин — Чукотка",
+        "latitude": 62.277677150657425,
+        "longitude": 179.0962827367673,
+        "image": "https://chukotka.travel/upload/cape-cape.jpg"
+    },
+    {
+        "name": "Анадырь — Чукотка",
+        "latitude": 64.73336042822693,
+        "longitude": 177.50562675135268,
+        "image": "https://geelyemgrand.ru/wp-content/uploads/2020/10/3-1.jpg"
+    },
+    {
+        "name": "Фонтан Менора",
+        "latitude": 48.792641,
+        "longitude": 132.934281,
+        "image": "http://i75.fastpic.org/big/2015/1207/d7/930f44e16acd4fcb646390ef3c6971d7.jpg"
+    }
+]
