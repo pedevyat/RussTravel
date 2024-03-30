@@ -1189,7 +1189,6 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Ортинское городище', latitude: 68.055118, longitude: 54.128906),
       ParkPoint(name: 'Центр арктического туризма', latitude: 67.633756, longitude: 53.24157),
       ParkPoint(name: 'Обдорский острог (Город мастеров)', latitude: 66.5222540, longitude: 66.5892110),
-      ParkPoint(name: 'Пым-Ва-Шор', latitude: 67.1889, longitude: 60.873),
 
       // Архангельская область
       ParkPoint(name: 'Кенозерский национальный парк', latitude: 61.7709, longitude: 38.0473),
