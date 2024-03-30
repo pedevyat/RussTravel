@@ -11,6 +11,7 @@ import '../../domain/location_service.dart';
 import '../../domain/museum_point.dart';
 import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
+import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
 
 class MapScreen extends StatefulWidget {
@@ -53,7 +54,8 @@ class _MapScreenState extends State<MapScreen> {
             children: {
               0: Text('Музеи'),
               1: Text('Парки'),
-              2: Text('Другое'),
+              2: Text('Смотровые'),
+              3: Text('Отели'),
             },
             onValueChanged: (value) {
               setState(() {
@@ -67,6 +69,9 @@ class _MapScreenState extends State<MapScreen> {
                     break;
                   case 2:
                     _placemarkObjectsFuture = _outPlacemarkObjects(context);
+                    break;
+                  case 3:
+                    _placemarkObjectsFuture = _hotelsPlacemarkObjects(context);
                     break;
                 }
               });
@@ -166,6 +171,17 @@ Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) 
     //combinedPlacemarkObjects.addAll(placemarkObjectsM);
     //combinedPlacemarkObjects.addAll(placemarkObjectsO);
     combinedPlacemarkObjects.addAll(placemarkObjectsP);
+  } catch (e) {
+    throw Exception('Ошибка при объединении данных: $e');
+  }
+  return combinedPlacemarkObjects;
+}
+
+Future<List<PlacemarkMapObject>> _hotelsPlacemarkObjects(BuildContext context) async {
+  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
+  try {
+    List<PlacemarkMapObject> placemarkObjectsH = await _getPlacemarkObjectsH(context);
+    combinedPlacemarkObjects.addAll(placemarkObjectsH);
   } catch (e) {
     throw Exception('Ошибка при объединении данных: $e');
   }
@@ -336,31 +352,68 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
 		),
 		onTap: (_, __) => showModalBottomSheet(
 		  context: context,
-		  builder: (context) => _ModalBodyView(
+		  builder: (context) => _ModalBodyViewP(
 		    point: point,
 		  ),
 		),
 	      )
     	);
     }
+    return listPlacemarkMapObject;
+  }
+  catch (e) {
+    throw Exception('Ошибка при загрузке данных: $e');
+  }
+}
+
+Future<List<PlacemarkMapObject>> _getPlacemarkObjectsH(BuildContext context) async {
+  try {
+    final jsonString = await rootBundle.loadString('assets/hotels.json');
+    final Map<String, dynamic> jsonData = json.decode(jsonString);
+    final List<dynamic> pointsData = jsonData['elements'];
+    List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    
+    for (int i = 0; i < pointsData.length; i++)
+    {
+    	final point = HotelPoint.fromJson(pointsData[i]);
+    	listPlacemarkMapObject.add(PlacemarkMapObject(
+        mapId: MapObjectId('HotelPoint $i'),
+        point: Point(latitude: point.latitude, longitude: point.longitude),
+        opacity: 1,
+        icon: PlacemarkIcon.single(
+          PlacemarkIconStyle(
+            image: BitmapDescriptor.fromAssetImage('assets/bed_test.png'),
+            scale: 0.15,
+          ),
+        ),
+        onTap: (_, __) => showModalBottomSheet(
+          context: context,
+          builder: (context) => _ModalBodyViewH(
+            point: point,
+          ),
+        ),
+      )
+      );
+      
+    }
     
     return listPlacemarkMapObject;
     
     return pointsData.map((data) {
-      final point = ParkPoint.fromJson(data);
+      final point = HotelPoint.fromJson(data);
       return PlacemarkMapObject(
         mapId: MapObjectId('MapObject $point'),
         point: Point(latitude: point.latitude, longitude: point.longitude),
         opacity: 1,
         icon: PlacemarkIcon.single(
           PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage('assets/trees.png'),
+            image: BitmapDescriptor.fromAssetImage('assets/bed_test.png'),
             scale: 0.15,
           ),
         ),
         onTap: (_, __) => showModalBottomSheet(
           context: context,
-          builder: (context) => _ModalBodyView(
+          builder: (context) => _ModalBodyViewH(
             point: point,
           ),
         ),
@@ -373,8 +426,8 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
 
 
 /// Содержимое модального окна с информацией о точке на карте
-class _ModalBodyView extends StatelessWidget {
-  const _ModalBodyView({required this.point});
+class _ModalBodyViewP extends StatelessWidget {
+  const _ModalBodyViewP({required this.point});
 
 
   final ParkPoint point;
@@ -439,6 +492,32 @@ class _ModalBodyViewO extends StatelessWidget {
 
 
   final OutsidePoint point;
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40),
+      child: Column(mainAxisSize: MainAxisSize.min, children: [
+        Text(point.name, style: const TextStyle(fontSize: 20)),
+        const SizedBox(height: 20),
+        Text(
+          '${point.latitude}, ${point.longitude}',
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.grey,
+          ),
+        ),
+      ]),
+    );
+  }
+}
+
+class _ModalBodyViewH extends StatelessWidget {
+  const _ModalBodyViewH({required this.point});
+
+
+  final HotelPoint point;
 
 
   @override
