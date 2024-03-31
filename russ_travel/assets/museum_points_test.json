@@ -258,5 +258,227 @@
     {"name": "Дом Петра І", "latitude": 42.062012, "longitude": 48.304128, "photoUrl": "https://i.pinimg.com/736x/15/36/55/153655f8d93435d57fbeb8f17f730e91.jpg"},
     {"name": "Музей боевой славы", "latitude": 42.069881, "longitude": 48.296077, "photoUrl": "https://www.gradyar.ru/wp-content/uploads/2021/02/img-0851-396x246.jpg"},
     {"name": "Этно Дом Кубачи", "latitude": 42.061562, "longitude": 48.304272, "photoUrl": "https://sun9-46.userapi.com/c834401/v834401495/1916f0/hLQVEdmcCSE.jpg"},
-    {"name": "Хунзахский музей", "latitude": 42.538085, "longitude": 46.702862, "photoUrl": "https://www.culture.ru/storage/images/9c05750d-594d-5245-b452-74e5f6b171a1/c_fill,g_center,w_400,h_292/7585b9f56953774e01c87742710d9418.jpeg"}
+    {"name": "Хунзахский музей", "latitude": 42.538085, "longitude": 46.702862, "photoUrl": "https://www.culture.ru/storage/images/9c05750d-594d-5245-b452-74e5f6b171a1/c_fill,g_center,w_400,h_292/7585b9f56953774e01c87742710d9418.jpeg"},
+    {
+        "name": "Мемориал «Маска скорби»",
+        "latitude": 59.591679,
+        "longitude": 150.812086,
+        "photoUrl": "https://cdn.iportal.ru/news/2015/99/preview/4b8e4f34e9d30553cf5fe92e38136eb50693934d_1100.jpg"
+    },
+    {
+        "name": "Памятник «Здесь начинается Россия»",
+        "latitude": 53.188597,
+        "longitude": 158.425708,
+        "photoUrl": "https://kamtoday.ru/upload/iblock/4c4/IMG_5294.JPG"
+    },
+    {
+        "name": "Сахалинский областной краеведческий музей",
+        "latitude": 46.959025,
+        "longitude": 142.744455,
+        "photoUrl": "https://cs13.pikabu.ru/post_img/big/2021/03/17/5/1615965620179341957.jpg"
+    },
+    {
+        "name": "Иволгинский дацан",
+        "latitude": 51.759171,
+        "longitude": 107.203334,
+        "photoUrl": "https://i01.fotocdn.net/s205/e03048852284618b/public_pin_l/2349937603.jpg"
+    },
+    {
+        "name": "Арка Полярного круга",
+        "latitude": 66.513603,
+        "longitude": -179.192325,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/1222191/pub_60ad43029943417b359d96d5_60ad545a54881146f4b28591/scale_1200"
+    },
+    {
+        "name": "Триумфальная арка",
+        "latitude": 50.256733,
+        "longitude": 127.521610,
+        "photoUrl": "https://top10a.ru/wp-content/uploads/2019/11/4-101.jpg"
+    },
+    {
+        "name": "Владивостокская крепость",
+        "latitude": 43.113726,
+        "longitude": 131.892815,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2021/04/vladivostokskaya-krepost.jpg"
+    },
+    {
+        "name": "Петроглифы Сикачи-Аляна",
+        "latitude": 48.751670,
+        "longitude": 135.647898,
+        "photoUrl": "https://static.tildacdn.com/tild6264-3264-4337-b666-316436373130/DSC08710.JPG"
+    },
+    {
+        "name": "Комплекс «Царство вечной мерзлоты» в Якутске",
+        "latitude": 62.044143805624806,
+        "longitude": 129.62401456960816,
+        "photoUrl": "https://ic.pics.livejournal.com/dementievskiy/13523675/1542564/1542564_1000.jpg"
+    },
+    {
+        "name": "Скульптура мамонта в Магадане",
+        "latitude": 62.044056,
+        "longitude": 129.624337,
+        "photoUrl": "http://s2.fotokto.ru/photo/full/312/3123083.jpg"
+    },
+	{
+        "name": "Музей истории БАМа в Тынде",
+        "latitude": 55.146737,
+        "longitude": 124.731071,
+        "photoUrl": "https://s9.travelask.ru/uploads/hint_place/000/099/742/photoUrl/39e152a55305962374eb1264b4d56054.jpg"
+    },
+    {
+        "name": "Дальневосточный аэрокосмический музей",
+        "latitude": 50.378787,
+        "longitude": 128.014815,
+        "photoUrl": "https://static.tildacdn.com/tild6137-6337-4439-a565-633930366234/1595813228122077914.jpg"
+    },
+    {
+        "name": "Этнографический комплекс «Эвенкийская деревня»",
+        "latitude": 55.115110,
+        "longitude": 124.890591,
+        "photoUrl": "https://gazeta-bam.ru/media/resized/iyHWwDg6jQfD2Cia0Eyf_6nm2jX3S59rXjmFv2eKRJ8/rs:fit:1024:768/aHR0cHM6Ly9nYXpl/dGEtYmFtLnJ1L21l/ZGlhL3Byb2plY3Rf/c21pM183MjEvODEv/MWEvZTMvNDUvYmUv/NTIvc2FqdC5qcGc.jpg"
+    },
+    {
+        "name": "Амурский Областной театр драмы",
+        "latitude": 50.259405,
+        "longitude": 127.513775,
+        "photoUrl": "https://fb.ru/misc/i/gallery/55971/3184564.jpg"
+    },
+    {
+        "name": "Этнографический музей народов Забайкалья, государственное автономное учреждение культуры РБ — Бурятия",
+        "latitude": 51.884390,
+        "longitude": 107.651242,
+        "photoUrl": "https://i5.photo.2gis.com/photoUrls/branch/37/5207287087881047_36e9.jpg"
+    },
+    {
+        "name": "Национальный музей Республики Бурятия",
+        "latitude": 51.825474,
+        "longitude": 107.589479,
+        "photoUrl": "https://moi-goda.ru/photoUrls/opengraph/gradient_article_183896.jpg"
+    },
+    {
+        "name": "Кяхтинский краеведческий музей им. ак. В.А. Обручева",
+        "latitude": 50.357592,
+        "longitude": 106.450153,
+        "photoUrl": "https://putidorogi-nn.ru/photoUrls/stories/evropa/rossiya/respublika_buryatiya_6.jpg"
+    },
+    {
+        "name": "Бурятский государственный академический театр оперы и балета",
+        "latitude": 51.832882,
+        "longitude": 107.583377,
+        "photoUrl": "https://www.infpol.ru/upload/iblock/53c/53c7a6e0b9cb75b6103e6368884ddca6.jpg"
+    },
+    {
+        "name": "Камчатский театр Драмы и Комедии",
+        "latitude": 53.022021,
+        "longitude": 158.645915,
+        "photoUrl": "https://mk.mrgcdn.ru/cab49f751b7e1c5a318bfbea91a17152.jpg"
+    },
+    {
+        "name": "Музей вулканов 'Вулканариум' — Камчатка",
+        "latitude": 53.034248,
+        "longitude": 158.644747,
+        "photoUrl": "https://tripplanet.ru/wp-content/uploads/europe/russia/kamchatka/volcano-museum-volcanarium.jpg"
+    },
+    {
+        "name": "Хабаровский краевой музей имени Н.И. Гродекова",
+        "latitude": 48.473345,
+        "longitude": 135.050538,
+        "photoUrl": "https://farm2.staticflickr.com/1493/25707120836_31e0cbe728_o.jpg"
+    },
+    {
+        "name": "Дальневосточный художественный музей",
+        "latitude": 48.472994,
+        "longitude": 135.052506,
+        "photoUrl": "https://tourkhv.ru/upload/iblock/438/438ee14cb453e48ca5235b93e1a36a41.jpg"
+    },
+    {
+        "name": "Магаданский областной краеведческий музей",
+        "latitude": 59.558485,
+        "longitude": 150.815368,
+        "photoUrl": "https://primamedia_2537050521.s3.cloud.mts.ru/files/big/1678/1677490.jpg"
+    },
+    {
+        "name": "Сквер Победы (Узел Памяти) — Магадан",
+        "latitude": 59.563665,
+        "longitude": 150.805486,
+        "photoUrl": "https://mck49.ru/uploads/posts/2017-06/1498540628_monument.jpg"
+    },
+    {
+        "name": "Магаданский музыкальный и драматический театр",
+        "latitude": 59.565586,
+        "longitude": 150.800211,
+        "photoUrl": "https://oteatre.info/wp-content/uploads/2020/10/magadan.jpg"
+    },
+    {
+        "name": "Магаданский областной театр кукол",
+        "latitude": 59.560161,
+        "longitude": 150.804275,
+        "photoUrl": "https://theatrekukol.ru/uploads/posts/2021-06/1624935643_00.jpeg"
+    },
+    {
+        "name": "Музей «Память Колымы»",
+        "latitude": 62.519454,
+        "longitude": 149.613840,
+        "photoUrl": "https://www.nko49.ru/wp-content/uploads/2019/03/35.jpg"
+    },
+    {
+        "name": "Музей-квартира В. А. Козина — Магадан",
+        "latitude": 59.565057,
+        "longitude": 150.800634,
+        "photoUrl": "https://cdn.culture.ru/photoUrls/f1200c2a-c44d-5736-afc1-c40df2b221d3"
+    },
+    {
+        "name": "Приморский океанариум Научно-образовательный комплекс",
+        "latitude": 43.014276,
+        "longitude": 131.930319,
+        "photoUrl": "https://i5.photo.2gis.com/photoUrls/branch/0/30258560062788394_1b3a.jpg"
+    },
+    {
+        "name": "Военно-исторический музей Тихоокеанского флота",
+        "latitude": 43.114444,
+        "longitude": 131.900921,
+        "photoUrl": "https://fototerra.ru/photo/Russia/Vladivostok/large-276465.jpg"
+    },
+    {
+        "name": "Борцам за Власть Советов на Дальнем Востоке 1917-1922гг, Памятник",
+        "latitude": 43.115475,
+        "longitude": 131.885455,
+        "photoUrl": "https://top7travel.ru/wp-content/uploads/2022/04/8yayv6a7y6va786y7a.jpg"
+    },
+    {
+        "name": "Музей истории Дальнего Востока имени В.К. Арсеньева",
+        "latitude": 43.116312,
+        "longitude": 131.881985,
+        "photoUrl": "https://avatars.mds.yandex.net/get-altay/1886119/2a0000016ae327e91cdfe9824a5aff79d525/XXL"
+    },
+    {
+        "name": "Приморская сцена Государственного академического Мариинского театра",
+        "latitude": 43.100635,
+        "longitude": 131.898223,
+        "photoUrl": "https://visit-primorye.ru/upload/iblock/c3e/f_21.jpg"
+    },
+    {
+        "name": "Приморский академический краевой драматический театр имени М. Горького",
+        "latitude": 43.115868,
+        "longitude": 131.893219,
+        "photoUrl": "https://worldpodium.ru/sites/default/files/tula.jpg"
+    },
+    {
+        "name": "Амурский областной театр драмы",
+        "latitude": 50.259205,
+        "longitude": 127.514033,
+        "photoUrl": "https://fb.ru/misc/i/gallery/55971/3184564.jpg"
+    },
+    {
+        "name": "Сахалинский областной краеведческий музей",
+        "latitude": 46.95902244847989,
+        "longitude": 142.74447918424318,
+        "photoUrl": "https://cs13.pikabu.ru/post_img/big/2021/03/17/5/1615965620179341957.jpg"
+    },
+    {
+        "name": "Музей истории Сахалинской железной дороги",
+        "latitude": 46.96037902619447,
+        "longitude": 142.72555815540716,
+        "photoUrl": "https://photoUrls3.imgbox.com/ce/18/FdwJYj08_o.jpg"
+    }
 ]
