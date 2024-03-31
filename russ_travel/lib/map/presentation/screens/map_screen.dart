@@ -439,7 +439,7 @@ List<HotelPoint> _getMapPointsH() {
       HotelPoint(name: 'Рабисон', latitude: 54.9973564147949, longitude: 73.3747863769531),
       HotelPoint(name: 'Глория', latitude: 55.0092, longitude: 73.3381),
       HotelPoint(name: 'Отель Д&А', latitude: 55.0470740, longitude: 74.5678430),
-      HotelPoint(name: 'Гrban', latitude: 55.003823, longitude: 73.364394),
+      HotelPoint(name: 'Urban', latitude: 55.003823, longitude: 73.364394),
       HotelPoint(name: 'Нова ', latitude: 55.00424, longitude: 73.37218),
       HotelPoint(name: 'Гостиница авеню', latitude: 55.0012, longitude: 73.3532),
       HotelPoint(name: 'Миллениум', latitude: 54.9414, longitude: 73.3828),
