@@ -123,19 +123,32 @@ class _MapScreenState extends State<MapScreen> {
 }
 
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
-  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
+    /*// Показываем индикатор загрузки
+    showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          content: CircularProgressIndicator(),
+        );
+      },
+    );*/
+  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
     //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
-    final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
+   // final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
     final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
     //combinedPlacemarkObjects.addAll(placemarkObjectsO);
-    combinedPlacemarkObjects.addAll(placemarkObjectsM);
+    //combinedPlacemarkObjects.addAll(placemarkObjectsM);
     combinedPlacemarkObjects.addAll(placemarkObjectsP);
+    //Navigator.of(context).pop();
+    return combinedPlacemarkObjects;
   } catch (e) {
+    //Navigator.of(context).pop();
     throw Exception('Ошибка при объединении данных: $e');
   }
-  return combinedPlacemarkObjects;
-}
+
+  }
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
