@@ -1249,8 +1249,6 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Санаторий «Марциальные воды»', latitude: 62.155286, longitude: 33.897355),
       ParkPoint(name: 'Национальный парк «Водлозерский»', latitude: 62.236293, longitude: 36.885769),
       ParkPoint(name: 'Национальный парк «Калевальский»', latitude: 64.99167, longitude: 30.2125),
-      ParkPoint(name: 'Национальный парк Водлозерский', latitude: 62.5, longitude: 36.917),
-      ParkPoint(name: 'Национальный парк Калевальский', latitude: 64.99167, longitude: 30.2125),
       ParkPoint(name: 'Ландшафтный заказник Толвоярви', latitude: 62.066646, longitude: 35.225032),
       ParkPoint(name: 'Парк Ваккосалми', latitude: 61.705583, longitude: 30.677228),
       ParkPoint(name: 'Карельский Зоопарк', latitude: 61.994236, longitude: 30.778658),
