@@ -1535,7 +1535,7 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Заповедник «Убсунурская котловина»', latitude: 50.637721, longitude: 93.191919),
       ParkPoint(name: 'Заповедник «Азас»', latitude: 52.464827, longitude: 96.119437),
       ParkPoint(name: 'Тарысские источники', latitude: 50.380951, longitude: 98.204379),
-      ParkPoint(name: 'Кундустуг аржаан', latitude: 51.568754, longitude: 95.180832),
+      ParkPoint(name: 'Кундустуг Аржаан', latitude: 51.568754, longitude: 95.180832),
       ParkPoint(name: 'Курганы Аржаан', latitude: 52.095976, longitude: 93.711233),
       ParkPoint(name: 'Дорога Чингисхана ', latitude: 51.605473, longitude: 91.950313),
       ParkPoint(name: 'Кижи-Кожээ', latitude: 51.085277, longitude: 90.625741),
