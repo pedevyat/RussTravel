@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 
@@ -28,6 +29,7 @@ class _MapScreenState extends State<MapScreen> {
   void initState() {
     super.initState();
     _placemarkObjectsFuture = _combinePlacemarkObjects(context);
+
   }
 
   @override
@@ -44,7 +46,12 @@ class _MapScreenState extends State<MapScreen> {
         future: _placemarkObjectsFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
+            return Center(
+              child: SpinKitChasingDots(
+                color: Colors.blue,
+                size: 50.0,
+              ),
+            );
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
