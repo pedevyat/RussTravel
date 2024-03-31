@@ -1287,7 +1287,7 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Атланты', latitude: 33.7490, longitude: 84.3880),
       ParkPoint(name: 'Петропавловская крепость', latitude: 59.9500019, longitude: 30.3166718),
       ParkPoint(name: 'Казанский собор', latitude: 59.9342278, longitude: 30.3245944),
-      ParkPoint(name: 'Александринский, latitude: театр', latitude: 59.93208400, longitude: 30.33637700),
+      ParkPoint(name: 'Александринский театр', latitude: 59.93208400, longitude: 30.33637700),
       ParkPoint(name: 'Мариинский театр', latitude: 59.925919, longitude: 30.2975893),
       ParkPoint(name: 'Петергоф', latitude: 59.863400, longitude: 29.990947),
       ParkPoint(name: 'Павловск', latitude: 59.6811976, longitude: 30.44437629999999),
