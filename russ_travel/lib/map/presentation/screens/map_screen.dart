@@ -1507,9 +1507,8 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Томская область
-      ParkPoint(name: ' Сельский парк «Околица»', latitude: 56.515261845931626, longitude: 84.75752522301502),
-      ParkPoint(name: ' Лагерный сад', latitude: 56.45417, longitude: 84.95),
-      ParkPoint(name: 'Парк Околица ', latitude: 56.515261845931626, longitude: 84.75752522301502),
+      ParkPoint(name: 'Сельский парк «Околица»', latitude: 56.515261845931626, longitude: 84.75752522301502),
+      ParkPoint(name: 'Лагерный сад', latitude: 56.45417, longitude: 84.95),
       ParkPoint(name: 'Нагорный Иштан', latitude: 56.747914, longitude: 84.563618),
       ParkPoint(name: 'Семилуженский казачий острог', latitude: 56.617541, longitude: 85.353229),
       ParkPoint(name: 'Каравай-парк', latitude: 56.264160, longitude: 83.957439),
@@ -1542,7 +1541,7 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Кижи-Кожээ', latitude: 51.085277, longitude: 90.625741),
       ParkPoint(name: 'Писаница Мугур-Саргол', latitude: 51.516651, longitude: 92.332448),
       ParkPoint(name: 'Сквер Центр Азии', latitude: 51.724754, longitude: 94.444386),
-      ParkPoint(name: ' Убсунурская котловина', latitude: 50.33805, longitude: 92.75749),
+      ParkPoint(name: 'Убсунурская котловина', latitude: 50.33805, longitude: 92.75749),
 
 
       // республика Хакасия
