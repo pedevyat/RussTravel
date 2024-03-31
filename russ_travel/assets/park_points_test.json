@@ -3,318 +3,318 @@
         "name": "Дальневосточный морской заповедник",
         "latitude": 42.936010,
         "longitude": 131.728059,
-        "image": "http://rasfokus.ru/images/photos/medium/e3773c07642e0f6d832d7a77f87fdfe6.jpg"
+        "photoUrl": "http://rasfokus.ru/photoUrls/photos/medium/e3773c07642e0f6d832d7a77f87fdfe6.jpg"
     },
     {
         "name": "Ленские столбы",
         "latitude": 61.104791,
         "longitude": 127.357334,
-        "image": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_5fd797bc82e75655d13bd9d0_5fd7a2dc1c5dc11652cd4d23/scale_1200"
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/1852570/pub_5fd797bc82e75655d13bd9d0_5fd7a2dc1c5dc11652cd4d23/scale_1200"
     },
     {
         "name": "Шантарские острова",
         "latitude": 54.931862,
         "longitude": 137.718839,
-        "image": "http://vsegda-pomnim.com/uploads/posts/2022-03/1647619482_63-vsegda-pomnim-com-p-shantarskoe-more-foto-66.jpg"
+        "photoUrl": "http://vsegda-pomnim.com/uploads/posts/2022-03/1647619482_63-vsegda-pomnim-com-p-shantarskoe-more-foto-66.jpg"
     },
     {
         "name": "Долина гейзеров",
         "latitude": 54.430809,
         "longitude": 160.125292,
-        "image": "https://proza.ru/pics/2019/10/17/1039.jpg"
+        "photoUrl": "https://proza.ru/pics/2019/10/17/1039.jpg"
     },
     {
         "name": "Мыс Дежнева",
         "latitude": 66.082655,
         "longitude": -169.672524,
-        "image": "https://s.ekabu.ru/localStorage/post/4d/1b/70/e7/4d1b70e7.jpg"
+        "photoUrl": "https://s.ekabu.ru/localStorage/post/4d/1b/70/e7/4d1b70e7.jpg"
     },
     {
         "name": "Соболиные озера",
         "latitude": 51.394629,
         "longitude": 104.647173,
-        "image": "http://vsetemi.ru/wp-content/uploads/2021/09/1.jpg"
+        "photoUrl": "http://vsetemi.ru/wp-content/uploads/2021/09/1.jpg"
     },
     {
         "name": "Авачинская сопка",
         "latitude": 53.255577,
         "longitude": 158.836758,
-        "image": "https://c1.35photo.pro/photos_temp/sizes/592/2964375_1500n.jpg"
+        "photoUrl": "https://c1.35photo.pro/photos_temp/sizes/592/2964375_1500n.jpg"
     },
     {
         "name": "Чарские пески",
         "latitude": 56.843314,
         "longitude": 118.139985,
-        "image": "https://celes.club/uploads/posts/2022-09/1662096417_20-celes-club-p-charskie-peski-priroda-22.jpg"
+        "photoUrl": "https://celes.club/uploads/posts/2022-09/1662096417_20-celes-club-p-charskie-peski-priroda-22.jpg"
     },
     {
         "name": "Мыс Крильон",
         "latitude": 45.896124,
         "longitude": 142.080869,
-        "image": "https://cs12.pikabu.ru/post_img/2022/07/12/11/og_og_1657649245231658280.jpg"
+        "photoUrl": "https://cs12.pikabu.ru/post_img/2022/07/12/11/og_og_1657649245231658280.jpg"
     },
     {
         "name": "Мертвый лес",
         "latitude": 55.648743,
         "longitude": 160.267260,
-        "image": "https://sun9-27.userapi.com/impg/gSjxWX0LSlvjG5J0DrJJqiZn1viH5aYgyah2NA/pVtkMkXNJeg.jpg?size=1194x800&quality=95&sign=2ca93fdf21bcefce6f1c4ece9c990399&c_uniq_tag=KvP-yMpROlaHgI7i9nl0uvhSJhnhZkFGGvpBS8p20HE"
+        "photoUrl": "https://sun9-27.userapi.com/impg/gSjxWX0LSlvjG5J0DrJJqiZn1viH5aYgyah2NA/pVtkMkXNJeg.jpg?size=1194x800&quality=95&sign=2ca93fdf21bcefce6f1c4ece9c990399&c_uniq_tag=KvP-yMpROlaHgI7i9nl0uvhSJhnhZkFGGvpBS8p20HE"
     },
     {
         "name": "Курильское озеро",
         "latitude": 51.455563,
         "longitude": 157.098742,
-        "image": "https://www.larecz.ru/wp-content/uploads/2023/09/Ozero-Kurilskoe-3.jpg"
+        "photoUrl": "https://www.larecz.ru/wp-content/uploads/2023/09/Ozero-Kurilskoe-3.jpg"
     },
     {
         "name": "Остров Врангеля",
         "latitude": 71.239859,
         "longitude": -178.912703,
-        "image": "https://rosspectr.ru/wp-content/uploads/e/a/1/ea1319590a589a4fa46174e9cb701160.jpeg"
+        "photoUrl": "https://rosspectr.ru/wp-content/uploads/e/a/1/ea1319590a589a4fa46174e9cb701160.jpeg"
     },
     {
         "name": "Озеро Майниц",
         "latitude": 63.280518,
         "longitude": 176.680183,
-        "image": "https://visitnord.ru/wp-content/uploads/2022/02/e-sopki-na-majnice-1200.jpg"
+        "photoUrl": "https://visitnord.ru/wp-content/uploads/2022/02/e-sopki-na-majnice-1200.jpg"
     },
     {
         "name": "Водопады Курулуур",
         "latitude": 61.407571,
         "longitude": 129.557665,
-        "image": "https://storage.yandexcloud.net/storage.yasno.media/nat-geo/images/2019/5/17/92b7ef108eea4148864f09b7ac2ff1f0.max-2500x1500.jpg"
+        "photoUrl": "https://storage.yandexcloud.net/storage.yasno.media/nat-geo/photoUrls/2019/5/17/92b7ef108eea4148864f09b7ac2ff1f0.max-2500x1500.jpg"
     },
     {
         "name": "Волочаевская сопка",
         "latitude": 48.564691,
         "longitude": 134.498819,
-        "image": "https://kdb27.ru/upload/iblock/c2e/%D0%92%D0%BE%D0%BB%D0%BE%D1%87%D0%B0%D0%B5%D0%B2%D0%BA%D0%B0.jpg3.jpg"
+        "photoUrl": "https://kdb27.ru/upload/iblock/c2e/%D0%92%D0%BE%D0%BB%D0%BE%D1%87%D0%B0%D0%B5%D0%B2%D0%BA%D0%B0.jpg3.jpg"
     },
     {
         "name": "Озеро Джека Лондона",
         "latitude": 62.076793,
         "longitude": 149.528415,
-        "image": "https://pibig.info/uploads/posts/2022-12/1670247485_6-pibig-info-p-priroda-dalnego-vostoka-krasivo-6.jpg"
+        "photoUrl": "https://pibig.info/uploads/posts/2022-12/1670247485_6-pibig-info-p-priroda-dalnego-vostoka-krasivo-6.jpg"
     }
 	{
         "name": "Командорские острова",
         "latitude": 55.061751,
         "longitude": 166.262106,
-        "image": "https://www.rgo.ru/sites/default/files/node/35604/lazurnyy-bereg-komandor-527653.jpg"
+        "photoUrl": "https://www.rgo.ru/sites/default/files/node/35604/lazurnyy-bereg-komandor-527653.jpg"
     },
     {
         "name": "Быстринский природный парк",
         "latitude": 55.927518,
         "longitude": 158.702774,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%B2_%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B52.jpg"
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/%D0%94%D0%BE%D0%BB%D0%B8%D0%BD%D0%B0_%D0%B2_%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B52.jpg"
     },
     {
         "name": "Вулкан Узон",
         "latitude": 54.473304,
         "longitude": 160.016034,
-        "image": "https://www.airpano.com/photogallery/images_1550/81_597463.jpg"
+        "photoUrl": "https://www.airpano.com/photogallery/photoUrls_1550/81_597463.jpg"
     },
     {
         "name": "Арка Стеллера",
         "latitude": 54.939979,
         "longitude": 166.203973,
-        "image": "https://cdn.tripster.ru/photos/c14d5d51-591d-441c-98e2-e1ad73837573.jpg"
+        "photoUrl": "https://cdn.tripster.ru/photos/c14d5d51-591d-441c-98e2-e1ad73837573.jpg"
     },
     {
         "name": "Мыс Зеленый",
         "latitude": 68.784118,
         "longitude": 161.374525,
-        "image": "http://photos.wikimapia.org/p/00/02/01/68/70_big.jpg"
+        "photoUrl": "http://photos.wikimapia.org/p/00/02/01/68/70_big.jpg"
     },
     {
         "name": "Бухта Безымянная",
         "latitude": 64.770896,
         "longitude": -174.879097,
-        "image": "https://pibig.info/uploads/posts/2023-10/1698239929_pibig-info-p-bukhta-bezimyannaya-shikotan-krasivo-28.jpg"
+        "photoUrl": "https://pibig.info/uploads/posts/2023-10/1698239929_pibig-info-p-bukhta-bezimyannaya-shikotan-krasivo-28.jpg"
     },
     {
         "name": "Белые скалы на Итурупе",
         "latitude": 45.271775,
         "longitude": 148.274014,
-        "image": "https://tripplanet.ru/wp-content/uploads/europe/russia/iturup/white-rocks.jpg"
+        "photoUrl": "https://tripplanet.ru/wp-content/uploads/europe/russia/iturup/white-rocks.jpg"
     },
     {
         "name": "Долина смерти",
         "latitude": 44.656907,
         "longitude": 37.753884,
-        "image": "https://farm9.staticflickr.com/8694/16904000612_e938ea6789_k.jpg"
+        "photoUrl": "https://farm9.staticflickr.com/8694/16904000612_e938ea6789_k.jpg"
     },
     {
         "name": "Кундурское месторождение динозавров",
         "latitude": 64.104463,
         "longitude": 144.934727,
-        "image": "http://litcult.ru/u/dd/newstat/6645/foto.jpg"
+        "photoUrl": "http://litcult.ru/u/dd/newstat/6645/foto.jpg"
     },
     {
         "name": "Горящие горы",
         "latitude": 52.282959,
         "longitude": 126.437835,
-        "image": "https://vsegda-pomnim.com/uploads/posts/2022-02/1645830438_2-vsegda-pomnim-com-p-goryashchie-gori-foto-2.jpg"
+        "photoUrl": "https://vsegda-pomnim.com/uploads/posts/2022-02/1645830438_2-vsegda-pomnim-com-p-goryashchie-gori-foto-2.jpg"
     }
 	 {
         "name": "Черпельские кривуны",
         "latitude": 53.978569,
         "longitude": 123.937937,
-        "image": "https://sdelanounas.ru/i/d/3/d/f_d3d3Lm5hdC1nZW8ucnUvdXBsb2FkL2libG9jay9iNjgvYjY4MDdmYjQ2NjM1YjNjNjA4NzIwZWUwNWYzMjBhMTEuanBnP19faWQ9MTA3NDM0.jpeg"
+        "photoUrl": "https://sdelanounas.ru/i/d/3/d/f_d3d3Lm5hdC1nZW8ucnUvdXBsb2FkL2libG9jay9iNjgvYjY4MDdmYjQ2NjM1YjNjNjA4NzIwZWUwNWYzMjBhMTEuanBnP19faWQ9MTA3NDM0.jpeg"
     },
     {
         "name": "Михайловские столбы",
         "latitude": 50.6494,
         "longitude": 127.340065,
-        "image": "https://a.d-cd.net/psAAAgBg5uA-1920.jpg"
+        "photoUrl": "https://a.d-cd.net/psAAAgBg5uA-1920.jpg"
     },
     {
         "name": "Амурские писаницы",
         "latitude": 53.796488,
         "longitude": 126.560659,
-        "image": "https://avatars.dzeninfra.ru/get-zen_doc/4080538/pub_639e145ab77e0514ee3ccd93_639e1669f477ee4227b8603c/scale_1200"
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4080538/pub_639e145ab77e0514ee3ccd93_639e1669f477ee4227b8603c/scale_1200"
     },
     {
         "name": "Озеро лотосов",
         "latitude": 48.537269,
         "longitude": 135.383003,
-        "image": "https://krots.top/uploads/posts/2021-12/1638658963_94-krot-info-p-ozero-s-lotosami-krasivie-foto-99.jpg"
+        "photoUrl": "https://krots.top/uploads/posts/2021-12/1638658963_94-krot-info-p-ozero-s-lotosami-krasivie-foto-99.jpg"
     },
     {
         "name": "Зейский заповедник",
         "latitude": 53.735016,
         "longitude": 127.262351,
-        "image": "http://img-fotki.yandex.ru/get/6622/30121490.37/0_72eb6_86eef17b_orig"
+        "photoUrl": "http://img-fotki.yandex.ru/get/6622/30121490.37/0_72eb6_86eef17b_orig"
     },
     {
         "name": "Национальный парк Тункинский — Бурятия",
         "latitude": 51.681446,
         "longitude": 102.123284,
-        "image": "https://turizm.pibig.info/uploads/posts/2023-04/1681960833_turizm-pibig-info-p-tunkinskii-natsionalnii-park-turizm-pinter-2.jpg"
+        "photoUrl": "https://turizm.pibig.info/uploads/posts/2023-04/1681960833_turizm-pibig-info-p-tunkinskii-natsionalnii-park-turizm-pinter-2.jpg"
     },
     {
         "name": "Баргузинский государственный природный биосферный заповедник имени К.А. Забелина",
         "latitude": 53.399136,
         "longitude": 109.0205,
-        "image": "https://mineralogist.club/uploads/posts/2023-06/1686114942_mineralogist-club-p-dzherginskii-zapovednik-buryatiya-krasivo-47.jpg"
+        "photoUrl": "https://mineralogist.club/uploads/posts/2023-06/1686114942_mineralogist-club-p-dzherginskii-zapovednik-buryatiya-krasivo-47.jpg"
     },
     {
         "name": "Ключевская Сопка",
         "latitude": 56.056783,
         "longitude": 160.640672,
-        "image": "https://nomadsclub.ru/uploads/posts/2021-02/1614093717_enjoykamchatka-_-klyuchevskaya-sopka-_2_.jpg"
+        "photoUrl": "https://nomadsclub.ru/uploads/posts/2021-02/1614093717_enjoykamchatka-_-klyuchevskaya-sopka-_2_.jpg"
     },
     {
         "name": "Вилючинский водопад — Камчатка",
         "latitude": 52.718227,
         "longitude": 158.237136,
-        "image": "https://not-only-bears.com/wp-content/uploads/2023/03/Vilyuchinskij-vodopad.jpeg"
+        "photoUrl": "https://not-only-bears.com/wp-content/uploads/2023/03/Vilyuchinskij-vodopad.jpeg"
     },
     {
         "name": "Озеро Курильское",
         "latitude": 51.455563,
         "longitude": 157.098742,
-        "image": "https://www.larecz.ru/wp-content/uploads/2023/09/Ozero-Kurilskoe-2.jpg"
+        "photoUrl": "https://www.larecz.ru/wp-content/uploads/2023/09/Ozero-Kurilskoe-2.jpg"
     },
     {
         "name": "Мишенная сопка",
         "latitude": 53.042151,
         "longitude": 158.637745,
-        "image": "https://sportishka.com/uploads/posts/2023-12/1701950665_sportishka-com-p-samaya-visokaya-gora-kamchatki-krasivo-78.jpg"
+        "photoUrl": "https://sportishka.com/uploads/posts/2023-12/1701950665_sportishka-com-p-samaya-visokaya-gora-kamchatki-krasivo-78.jpg"
     },
     {
         "name": "Халактырский пляж — Камчатка",
         "latitude": 52.993791,
         "longitude": 158.857953,
-        "image": "http://vsegda-pomnim.com/uploads/posts/2022-04/1649323911_16-vsegda-pomnim-com-p-khalaktirskii-plyazh-kamchatka-foto-19.jpg"
+        "photoUrl": "http://vsegda-pomnim.com/uploads/posts/2022-04/1649323911_16-vsegda-pomnim-com-p-khalaktirskii-plyazh-kamchatka-foto-19.jpg"
     },
     {
         "name": "вулкан Мутновский — Камчатка",
         "latitude": 52.449212,
         "longitude": 158.19516,
-        "image": "https://avatars.dzeninfra.ru/get-zen_doc/9662441/pub_6437f4799947f32af75af16c_6437f4fce108263b5ffba297/scale_1200"
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/9662441/pub_6437f4799947f32af75af16c_6437f4fce108263b5ffba297/scale_1200"
     },
     {
         "name": "Мотыклейские источники",
         "latitude": 59.421573,
         "longitude": 148.707228,
-        "image": "https://i.pinimg.com/originals/97/11/0a/97110a8e5cc199036988a2e66690a5be.jpg"
+        "photoUrl": "https://i.pinimg.com/originals/97/11/0a/97110a8e5cc199036988a2e66690a5be.jpg"
     },
     {
         "name": "Остров Талан",
         "latitude": 59.311009,
         "longitude": 149.082365,
-        "image": "https://magadanpravda.ru/images/2022/oktabr_2022/29.10.2022/TaLaN_10.29.2022.jpg"
+        "photoUrl": "https://magadanpravda.ru/photoUrls/2022/oktabr_2022/29.10.2022/TaLaN_10.29.2022.jpg"
     },
     {
         "name": "Приморский Сафари-парк — Приморский край",
         "latitude": 43.324921,
         "longitude": 132.404171,
-        "image": "https://4914339348.obj-storage.com/files/big/1850/1849621.jpg?727fb77ea657b5e256d1f1eb0fdd6a03"
+        "photoUrl": "https://4914339348.obj-storage.com/files/big/1850/1849621.jpg?727fb77ea657b5e256d1f1eb0fdd6a03"
     },
     {
         "name": "Национальный парк 'Зов тигра'",
         "latitude": 43.380879,
         "longitude": 133.898159,
-        "image": "https://windowman.ru/wp-content/uploads/2/8/6/28677c3b192370d469b02745b3df2910.jpeg"
+        "photoUrl": "https://windowman.ru/wp-content/uploads/2/8/6/28677c3b192370d469b02745b3df2910.jpeg"
     },
     {
         "name": "Зейский государственный природный заповедник — Амурская область",
         "latitude": 53.734988,
         "longitude": 127.26231,
-        "image": "https://24warez.ru/uploads/posts/291012/115415/23.jpg"
+        "photoUrl": "https://24warez.ru/uploads/posts/291012/115415/23.jpg"
     },
     {
         "name": "Пугачевский грязевой вулкан — Сахалин",
         "latitude": 48.2274,
         "longitude": 142.564477,
-        "image": "https://yarkiymirostrovov.ru/thumb/2/enkqYn5zo2PcGbArd9b5xg/r/d/pugachevskij_gryazevoj_vulkan_maguntan_1.jpg"
+        "photoUrl": "https://yarkiymirostrovov.ru/thumb/2/enkqYn5zo2PcGbArd9b5xg/r/d/pugachevskij_gryazevoj_vulkan_maguntan_1.jpg"
     },
     {
         "name": "Остров Монерон",
         "latitude": 46.254633,
         "longitude": 141.232105,
-        "image": "https://www.airpano.ru/files/moneron-island/images/image5.jpg"
+        "photoUrl": "https://www.airpano.ru/files/moneron-island/photoUrls/photoUrl5.jpg"
     },
     {
         "name": "Остров Тюленей",
         "latitude": 48.50056776872929,
         "longitude": 144.64394880135166,
-        "image": "https://svastour.ru/upload/resize_cache/iblock/379/1200_768_16b22fea647da8f295128ba83cdee5f87/tuleny1.jpg"
+        "photoUrl": "https://svastour.ru/upload/resize_cache/iblock/379/1200_768_16b22fea647da8f295128ba83cdee5f87/tuleny1.jpg"
     },
     {
         "name": "Озеро Буссе — Сахалин",
         "latitude": 46.53596851069051,
         "longitude": 143.32913140532204,
-        "image": "https://sun9-80.userapi.com/impg/bRmx7FsYOnKp_g3MqX-BefCF0NiLd3R1a_l2FA/7mPWzFGc7II.jpg?size=604x334&quality=96&sign=ff6772d16e0e1a521c4b2b39999afa03&c_uniq_tag=vcSfOPb2nt92bWKTcJK2f5_C2DsKEDgCTB3H-0Hepgw&type=album"
+        "photoUrl": "https://sun9-80.userapi.com/impg/bRmx7FsYOnKp_g3MqX-BefCF0NiLd3R1a_l2FA/7mPWzFGc7II.jpg?size=604x334&quality=96&sign=ff6772d16e0e1a521c4b2b39999afa03&c_uniq_tag=vcSfOPb2nt92bWKTcJK2f5_C2DsKEDgCTB3H-0Hepgw&type=album"
     },
     {
         "name": "Сахалинский зооботанический парк",
         "latitude": 46.967832885336236,
         "longitude": 142.75400778424358,
-        "image": "https://avatars.dzeninfra.ru/get-zen_doc/4473624/pub_64dc7908f5e7443b713326f1_64ef576a362ad0038a0fd810/scale_1200"
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4473624/pub_64dc7908f5e7443b713326f1_64ef576a362ad0038a0fd810/scale_1200"
     },
     {
         "name": "Заповедник «Остров Врангеля»",
         "latitude": 71.23921247819509,
         "longitude": -179.1258421672467,
-        "image": "https://rosspectr.ru/wp-content/uploads/1/b/a/1bad4027bcbdb9725f421f1689023f21.jpeg"
+        "photoUrl": "https://rosspectr.ru/wp-content/uploads/1/b/a/1bad4027bcbdb9725f421f1689023f21.jpeg"
     },
     {
         "name": "Национальный парк «Берингия»",
         "latitude": 64.43224983485723,
         "longitude": -173.2386389032847,
-        "image": "https://www.russiadiscovery.com/upload/files/expediciya-v-bukhtu-provideniy%20(2)_1590391534.jpg"
+        "photoUrl": "https://www.russiadiscovery.com/upload/files/expediciya-v-bukhtu-provideniy%20(2)_1590391534.jpg"
     },
     {
         "name": "Бухта Провидения — Чукотка",
         "latitude": 64.37976511362726,
         "longitude": -173.4406400091283,
-        "image": "https://s5o.ru/storage/simple/ru/ugc/66/9f/5e/d6/ruu1375b3e206.jpg"
+        "photoUrl": "https://s5o.ru/storage/simple/ru/ugc/66/9f/5e/d6/ruu1375b3e206.jpg"
     },
     {
         "name": "Острова Диомида",
         "latitude": 65.77673603945951,
         "longitude": -169.05077818292384,
-        "image": "https://priroda.club/uploads/posts/2022-06/1656025637_39-priroda-club-p-ostrov-ratmanova-pogranzastava-priroda-kra-39.jpg"
+        "photoUrl": "https://priroda.club/uploads/posts/2022-06/1656025637_39-priroda-club-p-ostrov-ratmanova-pogranzastava-priroda-kra-39.jpg"
     }
 ]
