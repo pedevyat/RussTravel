@@ -1408,7 +1408,7 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'База Перевалка', latitude: 50.1457, longitude: 87.8105),
       ParkPoint(name: 'Гора Купол Трёх Озёр', latitude: 50.0478, longitude: 87.7933),
       ParkPoint(name: 'Альплагерь Актру', latitude: 50.0837, longitude: 87.7788),
-      ParkPoint(name: 'Шавлинские, latitude: озёра', latitude: 50.1043, longitude: 87.4263),
+      ParkPoint(name: 'Шавлинские озёра', latitude: 50.1043, longitude: 87.4263),
       ParkPoint(name: 'Каменные ворота Айры-таш', latitude: 50.5110, longitude: 86.5635),
       ParkPoint(name: 'Усть-Канская пещера', latitude: 50.9117, longitude: 84.8144),
       ParkPoint(name: 'Джумалинские источники', latitude: 49.4581, longitude: 88.0535),
