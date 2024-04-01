@@ -6,13 +6,15 @@ import 'package:equatable/equatable.dart';
 
 /// Модель точки на карте
 class ParkPoint extends Equatable {
-  const ParkPoint({
+  ParkPoint({
+    required this.id,
     required this.name,
     required this.latitude,
     required this.longitude,
     required this.photoUrl,
   });
 
+  int id;
   /// Название населенного пункта
   final String name;
 
@@ -31,6 +33,7 @@ class ParkPoint extends Equatable {
   /// Создание объекта OutsidePoint из JSON данных
   factory ParkPoint.fromJson(Map<String, dynamic> json) {
     return ParkPoint(
+      id : 0,
       name: json['name'],
       latitude: json['latitude'].toDouble(),
       longitude: json['longitude'].toDouble(),

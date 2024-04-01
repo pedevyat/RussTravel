@@ -36,7 +36,7 @@ class _MapScreenState extends State<MapScreen> {
   void initState() {
     super.initState();
     _placemarkObjectsFuture = _museumPlacemarkObjects(context);
-
+  }
   @override
   void dispose() {
     _mapController.dispose();
@@ -172,6 +172,7 @@ class _MapScreenState extends State<MapScreen> {
 }
 
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
+  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
     //List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
     //List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
@@ -349,15 +350,17 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
     final jsonString = await rootBundle.loadString('assets/park_points_test.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    var box = await Hive.openBox('parkBox');
     
     for (int i = 0; i < pointsData.length; i++)
     {
     	final point = ParkPoint.fromJson(pointsData[i]);
+    	point.id = i;
     	listPlacemarkMapObject.add(
 	    	PlacemarkMapObject(
 		mapId: MapObjectId('ParkObject $i'),
 		point: Point(latitude: point.latitude, longitude: point.longitude),
-		opacity: 1,
+		opacity: !box.containsKey(i) ? 1 : 0.25,
 		icon: PlacemarkIcon.single(
 		  PlacemarkIconStyle(
 		    image: BitmapDescriptor.fromAssetImage('assets/trees.png'),
@@ -454,6 +457,20 @@ class _ModalBodyViewP extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+        	Align(
+		  alignment: Alignment.topRight,
+		  child: IconButton(
+		    icon: Icon(Icons.star),
+		    onPressed: () async {
+		      var box = await Hive.openBox('parkBox');
+		      if (box.containsKey(point.id))
+		        box.delete(point.id);
+		      else
+		        box.put(point.id, point.id);
+		      //point.isVisited = !point.isVisited;
+		    },
+		  ),
+		),
           Image.network(
             point.photoUrl,
             width: 200,
@@ -540,6 +557,20 @@ class _ModalBodyViewO extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          Align(
+		  alignment: Alignment.topRight,
+		  child: IconButton(
+		    icon: Icon(Icons.star),
+		    onPressed: () async {
+		      //var box = await Hive.openBox('outsideBox');
+		      //if (box.containsKey(point.id))
+		      //  box.delete(point.id);
+		      //else
+		      //  box.put(point.id, point.id);
+		      //point.isVisited = !point.isVisited;
+		    },
+		  ),
+		),
           Image.network(
             point.photoUrl,
             width: 200,
