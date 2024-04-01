@@ -40,8 +40,8 @@ class MuseumPoint extends Equatable {
     return MuseumPoint(
       id: 0,
       name: json['name'],
-      latitude: json['latitude'],
-      longitude: json['longitude'],
+      latitude: json['latitude'].toDouble(),
+      longitude: json['longitude'].toDouble(),
       photoUrl: json['photoUrl'], // Получаем ссылку на фото из JSON
     );
   }

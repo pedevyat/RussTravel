@@ -5,6 +5,7 @@ import 'backend.dart';
 import 'package:hive/hive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'package:flutter/cupertino.dart';
@@ -34,9 +35,7 @@ class _MapScreenState extends State<MapScreen> {
   @override
   void initState() {
     super.initState();
-    //await Hive.initFlutter();
     _placemarkObjectsFuture = _museumPlacemarkObjects(context);
-  }
 
   @override
   void dispose() {
@@ -89,7 +88,12 @@ class _MapScreenState extends State<MapScreen> {
         future: _placemarkObjectsFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
+            return Center(
+              child: SpinKitChasingDots(
+                color: Colors.blue,
+                size: 50.0,
+              ),
+            );
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
@@ -168,7 +172,6 @@ class _MapScreenState extends State<MapScreen> {
 }
 
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
-  List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
     //List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
     //List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
@@ -220,11 +223,14 @@ Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) as
   try {
     List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
     combinedPlacemarkObjects.addAll(placemarkObjectsP);
+    //Navigator.of(context).pop();
+    return combinedPlacemarkObjects;
   } catch (e) {
+    //Navigator.of(context).pop();
     throw Exception('Ошибка при объединении данных: $e');
   }
-  return combinedPlacemarkObjects;
-}
+
+  }
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
@@ -531,17 +537,27 @@ class _ModalBodyViewO extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
-        Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Image.network(
+            point.photoUrl,
+            width: 200,
+            height: 200,
+            fit: BoxFit.cover, // Режим заполнения изображения
           ),
-        ),
-      ]),
+          const SizedBox(height: 20),
+          Text(point.name, style: const TextStyle(fontSize: 20)),
+          const SizedBox(height: 20),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

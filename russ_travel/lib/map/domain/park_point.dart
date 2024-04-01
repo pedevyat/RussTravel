@@ -32,8 +32,8 @@ class ParkPoint extends Equatable {
   factory ParkPoint.fromJson(Map<String, dynamic> json) {
     return ParkPoint(
       name: json['name'],
-      latitude: json['latitude'],
-      longitude: json['longitude'],
+      latitude: json['latitude'].toDouble(),
+      longitude: json['longitude'].toDouble(),
       photoUrl: json['photoUrl'],
     );
   }
