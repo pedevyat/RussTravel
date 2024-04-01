@@ -1456,5 +1456,823 @@
         "latitude": 65.77673603945951,
         "longitude": -169.05077818292384,
         "photoUrl": "https://priroda.club/uploads/posts/2022-06/1656025637_39-priroda-club-p-ostrov-ratmanova-pogranzastava-priroda-kra-39.jpg"
-    }
+    },
+	{"name": "Парк Тысячелетия Казани", "latitude": 55.783094, "longitude": 49.126446, "photoUrl": "https://dimg04.c-ctrip.com/images/220j0z000000n5tbwD588_R_600_400_R5_D.jpg"},
+    {"name": "Парк Победы", "latitude": 55.829309210570905, "longitude": 49.108129074096674, "photoUrl": "https://apartos.ru/static/340x180/uploads/images/landmarks/f_1-49999/f900-999/gallery-landmark-959-0005.jpg"},
+    {"name": "Центральный парк культуры и отдыха имени Горького", "latitude": 55.793414, "longitude": 49.167023, "photoUrl": "https://rusprolife.ru/wp-content/uploads/2016/06/anins_kazan_1-300x201.jpg"},
+    {"name": "Парк Юрия Гагарина (детский парк культуры и отдыха)", "latitude": 53.229557133967695, "longitude": 50.20058978592961, "photoUrl": "https://vgorodesamara.ru/assets/upload/photo/mesta/parki/park-gagarina-1.jpg"},
+    {"name": "Парк Победы", "latitude": 53.192646, "longitude": 50.200787, "photoUrl": "https://apartos.ru/static/340x180/uploads/images/landmarks/f_1-49999/f900-999/gallery-landmark-959-0005.jpg"},
+    {"name": "Парк Дружбы", "latitude": 53.203769524388285, "longitude": 50.21815191284176, "photoUrl": "https://i.ytimg.com/vi/lFBtzzmLBuw/default.jpg"},
+    {"name": "Парк им. А. С. Пушкина", "latitude": 56.30836253698265, "longitude": 43.99708115249622, "photoUrl": "https://sun9-59.userapi.com/impf/iOgETCvYdbcBjxME0BmCk_Mn2ziBXh_pRRp0Jw/Fhke1yMSxPc.jpg?size=320x240&quality=96&keep_aspect_ratio=1&background=000000&sign=8d67d74351d431dc581ab06eeb549164&type=video_thumb"},
+    {"name": "Автозаводский парк", "latitude": 56.235851, "longitude": 43.855986, "photoUrl": "https://api.parkseason.ru/images/styles/690_388/a7/2c/156005c5baf40ff51a327f1c34f2975b598db42aced66157050806.jpg"},
+    {"name": "Парк Победы", "latitude": 56.32776344392905, "longitude": 44.03511141454527, "photoUrl": "https://apartos.ru/static/340x180/uploads/images/landmarks/f_1-49999/f900-999/gallery-landmark-959-0005.jpg"},
+    {"name": "Сквер имени Мидхата Закировича Шакирова", "latitude": 54.725034290461515, "longitude": 55.95708130125798, "photoUrl": "https://api.rbsmi.ru/attachments/5a57f1b11432dbe80eb12de84c81f02692ef1fb9/store/crop/0/0/236/157/236/157/0/8a68841613057f2952392f86da000b42cf36fc06c2875c641b74a935f961/3_jpg_crop1595486849.jpg"},
+    {"name": "Театральный сквер", "latitude": 54.72573335200597, "longitude": 55.946387571505134, "photoUrl": "https://sun9-3.userapi.com/c857324/v857324110/1aa321/5iI-znThog0.jpg"},
+    {"name": "Сквер Ленина", "latitude": 54.72573945293541, "longitude": 55.94639159614707, "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Памятник_Ленину_в_сквере_им._Ленина_01.jpg/274px-Памятник_Ленину_в_сквере_им._Ленина_01.jpg"},
+    {"name": "Аллея современной городской скульптуры ArtTerria", "latitude": 54.72058152767348, "longitude": 55.9448115553253, "photoUrl": "https://tengri.ru/UserFiles/Image/photogall/small/1973557_Ufa_-_vostochnaya_tochka_Evropy_-_3_6.jpg"},
+    {"name": "Парк имени Ленина", "latitude": 54.718078, "longitude": 55.943231, "photoUrl": "https://ufa.bezformata.com/content/image417674879.jpg"},
+    {"name": "Сквер им. Зии Нуриева", "latitude": 54.715976328703334, "longitude": 55.94415207011409, "photoUrl": "https://avatars.mds.yandex.net/get-altay/2378041/2a0000017289eac78d48e5b564ac5e29b8eb/M"},
+    {"name": "Сад Салавата Юлаева", "latitude": 54.71222766045911, "longitude": 55.952360950401285, "photoUrl": "https://rb7.ru/system/images/image_links/770276/page_medium_5ee78c1bc1011-8440-sad-salavata-julaeva.jpeg"},
+    {"name": "Особо охраняемая природная территория местного значения – охраняемый природный ландшафт Черняевский лес", "latitude": 57.983754, "longitude": 56.153778, "photoUrl": "https://avatars.mds.yandex.net/get-altay/7456447/2a00000183fafe88687b3e461de16c29ccfa/M_height"},
+    {"name": "Сад имени В. Л. Миндовского", "latitude": 57.982495980767176, "longitude": 56.20489978339288, "photoUrl": "https://sun9-48.userapi.com/impg/pwP7uHYLzvannPM13ll_dW4LgFQrSrsD6jh-5g/LnxgNtxmrQU.jpg?size=604x402&quality=95&sign=efe13544b7704429e6897032ef4e6482&c_uniq_tag=sQim_nvaFdK5goWl5lWV8EMLtVmGg0dCPODdD3o1clM&type=album"},
+    {"name": "Слудская горка", "latitude": 58.009997, "longitude": 56.218798, "photoUrl": "https://sun9-75.userapi.com/impg/OVT_iJ26ESNukj1a7r6vIf6NkCZABHAFcQen8g/nsss9EJifC0.jpg?size=604x340&quality=96&sign=e50c6d8f520d4aba149e8ef8f6a3319c&type=album"},
+    {"name": "Сад имени Гоголя", "latitude": 58.014965, "longitude": 56.220936, "photoUrl": "https://img.smi2.net/120x90/4ff33c05685b4f7fa9f9cefdd9628456fc644989.jpg?u=aHR0cHM6Ly9zdGF0aWMubWsucnUvdXBsb2FkL2VudGl0aWVzLzIwMjQvMDIvMDUvMTQvYXJ0aWNsZXMvZmFjZWJvb2tQaWN0dXJlLzAzLzc4L2I2LzUzL2Y2OTkyYTE1MDY5NzAwOTM5NzJlNmMwNDMxOWYwYmY1LmpwZw"},
+    {"name": "Театральный сад", "latitude": 58.015018, "longitude": 56.246763, "photoUrl": "https://i5.photo.2gis.com/images/geo/16/2251799846153301_100d_328x170.jpg"},
+    {"name": "Сад Декабристов", "latitude": 58.013435, "longitude": 56.260543, "photoUrl": "https://ic.pics.livejournal.com/polikliet/10442109/147616/147616_900.jpg"},
+    {"name": "Детский парк", "latitude": 51.53173866070316, "longitude": 46.00755361143541, "photoUrl": "https://parki-samara.ru/wp-content/uploads/3716-263x221.jpg"},
+    {"name": "сквер им. О. И. Янковского", "latitude": 51.532377893910734, "longitude": 46.03449699755856, "photoUrl": "https://tur-ray.ru/wp-content/uploads/2017/10/pamyatnik-o.i.-yankovskomu-300x202.jpg"},
+    {"name": "Городской парк культуры и отдыха", "latitude": 51.52003, "longitude": 45.997399, "photoUrl": "https://cdn-irec.r-99.com/sites/default/files/imagecache/copyright/user-images/2270552/t7AfbBhqefF6AC2MKvbIA.jpg"},
+    {"name": "Сквер Имени 1905 Года", "latitude": 51.533562, "longitude": 46.034266, "photoUrl": "https://sun9-7.userapi.com/impf/c845421/v845421176/17a7bd/_QdRmjjdJrU.jpg?size=75x50&quality=96&sign=63117d634c09c51750cd14cea1b5299f&type=album"},
+    {"name": "Центральный парк культуры и отдыха", "latitude": 53.50983118817226, "longitude": 49.41875647148436, "photoUrl": "https://gorodskoyportal.ru/kurgan/pictures/places/28325/28325_big.jpg"},
+    {"name": "ФАННИ Парк", "latitude": 53.517501, "longitude": 49.266467, "photoUrl": "https://vsedomarossii.ru/photos/area_63/city_2474/street_1970/7605_12_200.jpg"},
+    {"name": "Дендропарк", "latitude": 53.540618, "longitude": 49.370941, "photoUrl": "https://gdenahoditsya.ru/wp-content/uploads/2019/09/sad1toli6-300x200.jpg"},
+    {"name": "Сквер 32 квартал", "latitude": 53.574606569327216, "longitude": 49.07816719279854, "photoUrl": "https://sun9-13.userapi.com/impg/xOJ2H6iDJlbIEniAfmq9Rn64b6uCEZ7vBgJlkw/xvyqt8TkrHI.jpg?size=320x213&quality=96&sign=fa91392ae4b7399d73215ace7f740d61&c_uniq_tag=mBGfxr6dNAXecXRtY7rn5vtPeVPFBEL7IV7HUI4HpNQ&type=album"},
+    {"name": "парк имени Горького", "latitude": 56.846981, "longitude": 53.198528, "photoUrl": "https://izhlife.ru/uploads/posts/newsimg/p_img-1569608671.jpg"},
+    {"name": "Козий парк", "latitude": 56.858587, "longitude": 53.233391, "photoUrl": "https://fb.ru/misc/i/thumb/a/2/8/5/3/0/5/2/2853052.jpg"},
+    {"name": "Сквер им. Татьяны Барамзиной", "latitude": 56.86258773286028, "longitude": 53.27932299964397, "photoUrl": "https://asninfo.ru/images/news/9d992b2f/dde3659cb52b3d9f721d93da.jpg"},
+    {"name": "Сквер Ивана Яковлева", "latitude": 54.309744785613546, "longitude": 48.37957619957372, "photoUrl": "https://geocaching.su/photos/areas/thumbnails/97478.jpg"},
+    {"name": "Сквер Строителей", "latitude": 54.30548518073345, "longitude": 48.38218070240778, "photoUrl": "https://73online.ru/pic/sz/400x270/upld_32944.jpg"},
+    {"name": "Парк Газовиков и Нефтяков", "latitude": 54.339829451150635, "longitude": 48.37591619999099, "photoUrl": "https://avatars.mds.yandex.net/get-altay/9724410/2a00000189c24778bea689ad45aeae657450/M_height"},
+    {"name": "Парк Культуры И Отдыха", "latitude": 55.682869, "longitude": 52.28477, "photoUrl": "https://i0.wp.com/chelny-izvest.ru/images/uploads/ckeditor/2021/5/21/img_60a74da1cf365_парк%20на%20гэесе.jpg?resize=160,120"},
+    {"name": "Парк Гренада", "latitude": 55.73320327385288, "longitude": 52.41746245401297, "photoUrl": "https://rutraveller.ru/icache/place/8/563/002/85632_210x160.jpg"},
+    {"name": "Парк Тополя", "latitude": 51.769702089470414, "longitude": 55.092514966903636, "photoUrl": "https://gdenahoditsya.ru/wp-content/uploads/2019/09/park-topolya-300x200.jpg"},
+    {"name": "Железнодорожный парк имени В.И. Ленина", "latitude": 51.77175782876066, "longitude": 55.08496659790034, "photoUrl": "https://img2.fedpress.ru/thumbs/600x360-facebook/2021/05/2635/a1d158888d9dc4326ff1cc4afa8b5101.jpg"},
+    {"name": "Сквер у Дома Советов", "latitude": 51.767473594252415, "longitude": 55.09761894893012, "photoUrl": "https://sun9-22.userapi.com/impg/3VPDvReNWVD6ytbxxYDfNdEFUGDC9BR1czzQNg/hH8gqEc30io.jpg?size=604x400&quality=95&sign=5cf6a84df88d4cf3ea9e0753e2c2fe84&c_uniq_tag=REGkuhiUGPWOZPv3--v64fdOT2nJ22hOUPTO0_eg5ZQ&type=album"},
+    {"name": "Парк Союз", "latitude": 53.18406092970557, "longitude": 44.97629661932136, "photoUrl": "https://img.smi2.net/470x246/cb4497a1710b96cc4f2207a900f3f0601c833cc5.jpg?u=aHR0cHM6Ly9wZW56YS1wb3N0LnJ1L3VwbG9hZHMvMjAyMC9OQVNULzEvMS8xLzEvMS8xMDU0ODc1Nzg1OTg1NjU2LmpwZw"},
+    {"name": "Аллея 70-летия Великой Победы", "latitude": 53.165587, "longitude": 44.999694, "photoUrl": "https://avatars.mds.yandex.net/get-altay/2389272/2a000001748c2712491e01af6635b468227d/L"},
+    {"name": "Пионерский сквер", "latitude": 53.211897, "longitude": 44.990495, "photoUrl": "http://ng58.ru/upload/iblock/289/news_text_10063_78906_1.jpg"},
+    {"name": "Сквер имени М. Ю. Лермонтова", "latitude": 53.18289315407612, "longitude": 45.0124893134918, "photoUrl": "https://penza-8412.my1.ru/_pu/3/85215691.jpg"},
+    {"name": "Парк Роща Гузовского", "latitude": 56.136983, "longitude": 47.176976, "photoUrl": "https://old-mosk.cap.ru/home/258/2013/Fonderkina/albom8/fotoviktorina/images/fullsize/image004.JPG"},
+    {"name": "Центральный парк культуры и отдыха Лакреевский лес", "latitude": 56.117321, "longitude": 47.24117, "photoUrl": "https://sun9-72.userapi.com/impf/gxhGz6fbeTu-7ocjYRTL-cvC2Xd7Lcj36vY9Dw/Ru67TeNpfYg.jpg?size=604x354&quality=96&sign=7d20861fbe45aca29a0c5ddad85cd9ef&type=album"},
+    {"name": "Мемориальный Парк Победы", "latitude": 56.14742850642577, "longitude": 47.26801031877135, "photoUrl": "https://vatravel.ru/wp-content/uploads/2019/05/266-IMG_20140525_132934_1-360x270.jpg"},
+    {"name": "сквер имени Н.И. Пирогова", "latitude": 56.141578, "longitude": 47.21829, "photoUrl": "https://avatars.mds.yandex.net/get-altay/2701879/2a000001739e04ed633698306f190d695f15/L_height"},
+    {"name": "Зелёная роща", "latitude": 56.82109788581832, "longitude": 60.59482023320735, "photoUrl": "https://i.uralweb.ru/novosti/240x-/40/000/520/520250.jpeg"},
+    {"name": "ЦПКиО им. В. В. Маяковского", "latitude": 56.81471, "longitude": 60.645274, "photoUrl": "https://zabota154.msp.midural.ru/upload/news/2023/03/21/nGVKFe5A22.png"},
+    {"name": "сквер имени Н.И. Пирогова", "latitude": 56.826587, "longitude": 60.620265, "photoUrl": "https://avatars.mds.yandex.net/get-altay/2701879/2a000001739e04ed633698306f190d695f15/L_height"},
+    {"name": "Парк Им. 50 - летия Советской Власти", "latitude": 56.826138, "longitude": 60.615117, "photoUrl": "https://otpuskpro.ru/wp-content/uploads/820x0.jpg"},
+    {"name": "Дендрологический парк-выставка", "latitude": 56.829547, "longitude": 60.604383, "photoUrl": "https://img1.advisor.travel/fs440x440px-Ekaterinbowrgi_dendropark_3.jpg"},
+    {"name": "Кленовая роща", "latitude": 55.164053, "longitude": 61.407135, "photoUrl": "https://i.pinimg.com/236x/f2/9d/9e/f29d9ee34a6ba4de93fb15db8c2a8b78.jpg?nii=t"},
+    {"name": "Парк Гагарина", "latitude": 55.158169, "longitude": 61.363405, "photoUrl": "https://i.ytimg.com/vi/wQEfDcwiiw4/hqdefault.jpg"},
+    {"name": "Детский парк им. В.В. Терешковой", "latitude": 55.159393, "longitude": 61.443175, "photoUrl": "https://kartin.papik.pro/uploads/posts/2023-07/thumbs/1689183679_kartin-papik-pro-p-kartinki-park-tereshkovoi-7.png"},
+    {"name": "Парк имени А. С. Пушкина", "latitude": 55.152526, "longitude": 61.403578, "photoUrl": "https://sun9-3.userapi.com/impg/Fec30BomKoF22L_W38e0tU-_MQvuXAYQwEWF5A/KyRBfRJeYpw.jpg?size=604x284&quality=96&sign=9e648fcac301c2d099c95a9728f07fd2&type=album"},
+    {"name": "Сквер им. Колющенко", "latitude": 55.139905, "longitude": 61.392501, "photoUrl": "https://media-1obl-ru.storage.yandexcloud.net/resize_cache/803496/9367b9185d1c331639f14900dd6161db/iblock/705/7053177f1719b6cb0c423a2a451e2791.jpg"},
+    {"name": "Городской парк культуры и отдыха г. Тюмени", "latitude": 57.152223, "longitude": 65.532675, "photoUrl": "https://a.d-cd.net/QAAAAgKdEOA-480.jpg"},
+    {"name": "Александровский Сад", "latitude": 57.157676, "longitude": 65.568796, "photoUrl": "https://sun9-61.userapi.com/impg/MOYdSQ_0rF8ARDiJBXW0pRmW7lyBK3Wf3Ad10Q/Ya8oQft9nbk.jpg?size=200x133&quality=96&crop=2,0,895,595&sign=3d0d964542c4dde88c4c43717d8f3454&type=album"},
+    {"name": "Сквер Петра Потапова", "latitude": 57.158506, "longitude": 65.574599, "photoUrl": "https://photos.wikimapia.org/p/00/08/04/28/39_big.jpg"},
+    {"name": "Экопарк Затюменский", "latitude": 57.163426, "longitude": 65.460118, "photoUrl": "https://img.tourister.ru/files/2/3/5/7/5/5/1/0/clones/200_133_blur.jpg"},
+    {"name": "Сквер Авиаторов", "latitude": 57.143439, "longitude": 65.497551, "photoUrl": "https://yandex-images.clstorage.net/f47Vo2N32/081530uhl0I/ClVNXHQfPUNB800-4Doihp1vIzRmmLmusIAgLn_dJZbbd4HMGhZLF4o_x6QZG7Blq1ouKNFVzsijv_noLZeZjFiWCNrgTKiGlLZIbPcv5gENfKu6qBbiZb4O_2X3Un1Q2DEAiw_RmgaT5gN6S0z9uj2O-3mLS1WW9azmcWXHmgSMgBuGNpS2R8U3Sq2te2OZkiUsMC2Y7Ki3gXfk8xk1m555iQwLiVUHmKTQdAaFezl1RbywSE2Z3brkof7hgxrJjkZfw3cedo6HNwAnL_EgXhuuZDvsWiYpMobyK_3UtlrdsMRBCMKfg5Kkm_BPznS7cUT39czDXtA1amW47M1UzIAGUoY1VLiFzzWN72g1p5fb5GQ2Ld3prD9OMaZ0XXCVnjsHxozJWo8dbBAxQYF8ff0Ae_BNwBse-OIo_CjAlcqDxt5KvNmzAw1-AuFo8StRUqQtveHTI2FyQ7-rvRuyVVr5DQ-LT5uJ1SdWvURLuvAyxHA9D8qV33MvKLCvihRETg4fRrAQ-w2MPMmsLv6tHxZnrj8j26wt-I_47HgcMJvacE2PC8aXQFxsF7MEhnFxPYA0tw_A3N06rSA5oIkdCU5GX8520LHKC30HYWo2rNfSqWu3LpuvJzjN9-Q-EHdbnXFAAEhMl0Waal44yQux9byAObeERZtYeOvtd2WF1U7Pi5iOOlY7TwE6TOZt-C0YX6bsO-0Qo-x0gLMpu1J0VVw8hwLEjFLLF-fRuYpO_LS1h_g1wAtRUHSlbbcsR5kPzM7dwjfbdk6JfUKmbrNmkJYuareiEuwtvQ7w43ec8FueOETJwg5ex1Hl1rRAAzh6Mw64uY1DXBT1oe537gfVjEUPXAw42jQOwfTD5qUxIBxZ7uE4LhKpLrmIs2_w0PTdFfNIAweD30ffLZX9g0b-NznC_zcOi9kf_qWntmDOUckHxtOLP9M9R4R7gyPt8e2dmWegNCyT5-m3ybiq_Y"},
+    {"name": "Парк у Вечного огня", "latitude": 53.402729, "longitude": 58.987622, "photoUrl": "https://sun9-82.userapi.com/sun9-33/impg/cSpo0TpePUFGvPopSc0g0md9svYU91S0eoDkPg/y6_SHKBsJN8.jpg?size=320x213&quality=96&crop=99,0,1082,720&sign=887c840428b8ebcf748308c2d65f7194&c_uniq_tag=Av-r1SyvMURLiqdsQBdXvQRlGosOFLQivvpx44ZKITM&type=album"},
+    {"name": "Парк Магниткиул", "latitude": 53.402299, "longitude": 58.952803, "photoUrl": "https://psj.ru/images/ф882-1.JPG"},
+    {"name": "Сквер Магнит", "latitude": 53.37742, "longitude": 58.974803, "photoUrl": "https://i.ytimg.com/vi/BbRb1asE8SI/mqdefault.jpg"},
+    {"name": "Экологический парк", "latitude": 53.402299, "longitude": 58.952803, "photoUrl": "https://i.ytimg.com/vi/e730x0Mg2dc/mqdefault.jpg"},
+    {"name": "Парк Культуры и Отдыха Ветеранов", "latitude": 53.428463, "longitude": 59.000306, "photoUrl": "https://i.ytimg.com/vi/HNECzk1spQI/default.jpg"},
+    {"name": "Парк Газпром", "latitude": 61.244977, "longitude": 73.403812, "photoUrl": "https://sun9-27.userapi.com/impg/JRMU9g_29Av9mcOgZokNv2nIKgkHl7ny9RL94Q/D-gr8lLtcTc.jpg?size=604x395&quality=96&sign=b266fff2038c24ea071a77a7d80b4579&type=album"},
+    {"name": "Сургутский Ботанический Сад", "latitude": 61.248175, "longitude": 73.432181, "photoUrl": "https://sun9-36.userapi.com/c857320/v857320144/588c2/E1K_NFL4duw.jpg"},
+    {"name": "Кедровый Лог", "latitude": 61.262635, "longitude": 73.356139, "photoUrl": "https://siapress.ru/images/news/main/97794_236x172@2x.jpg"},
+    {"name": "Парк Нефтяник", "latitude": 61.259770019847515, "longitude": 73.35610012530165, "photoUrl": "https://detkino.ru/info/files/styles/thumbnail/public/node_images/bd44279b66101bff6a28bceeaf80a81a.png?itok=8uKSAfmm"},
+    {"name": "Парк Энергетиков имени БСФ", "latitude": 61.248292, "longitude": 73.391281, "photoUrl": "https://sun9-67.userapi.com/impf/c852036/v852036796/17b0a6/7DVnlfLvigA.jpg?size=320x214&quality=96&sign=af89c8e38aa23a606a2c83574dd565e2&c_uniq_tag=F-2tduPMME6oGjblaoka1Q8tPIiQD6vdpE3jySv0LTI&type=album"},
+    {"name": "Лагуна-2", "latitude": 57.899614, "longitude": 59.991273, "photoUrl": "https://i0.wp.com/stagila.ru/wp-content/uploads/2021/04/m2zrnttpt2ciwo11.jpg?resize=160,120"},
+    {"name": "Театральный сквер", "latitude": 57.906381, "longitude": 59.97231, "photoUrl": "https://sun9-3.userapi.com/c857324/v857324110/1aa321/5iI-znThog0.jpg"},
+    {"name": "Нижнетагильский городской парк культуры и отдыха", "latitude": 57.907562, "longitude": 59.971474, "photoUrl": "https://kartin.papik.pro/uploads/posts/2023-07/thumbs/1689206178_kartin-papik-pro-p-kartinki-nizhnii-tagil-park-bondina-2.jpg"},
+    {"name": "Парк им. М. Горького", "latitude": 57.920083, "longitude": 59.937608, "photoUrl": "https://sun9-43.userapi.com/impg/HyO3t_dIHRgxDANVwjEZW5tBjfVC78_mdOymvA/_qvq_S1Hk_c.jpg?size=604x412&quality=96&sign=f9b5ffac1f39639f198efa421a07f5f2&c_uniq_tag=EBWDfCtyyi6ge3bJFFHpI5M55c_SLlxXMJnxjxRyu7U&type=album"},
+    {"name": "Курган-Парк Ландшафтный парк", "latitude": 55.458613, "longitude": 65.282755, "photoUrl": "https://sun9-74.userapi.com/impf/c639331/v639331740/8d80/whZ3kT2TUyE.jpg?size=604x453&quality=96&sign=b72da30844178ea85edac8f576e128aa&type=album"},
+    {"name": "Курган-Парк", "latitude": 55.437659, "longitude": 65.341226, "photoUrl": "https://ural-meridian.ru/wp-content/uploads/2021/05/umui8urintm-350x233.jpg"},
+    {"name": "Центральный парк культуры и отдыха", "latitude": 55.430845, "longitude": 65.326952, "photoUrl": "https://gorodskoyportal.ru/kurgan/pictures/places/28325/28325_big.jpg"},
+    {"name": "Парк победы", "latitude": 60.932465, "longitude": 76.564822, "photoUrl": "https://kurgan.bezformata.com/content/image417930070.jpg"},
+    {"name": "ПКиО", "latitude": 56.38328505809856, "longitude": 61.97519984788508, "photoUrl": "https://kamensk-uralskiy.ru/uploads/filemanager/ff/ffcb045a30cc89c64dfd9ffe7321f4cb87ec96b83a05ed5369edbb747b89571f7_300x200.jpg"},
+    {"name": "Разгуляевский лесопарк", "latitude": 56.40626238246093, "longitude": 61.91753674063027, "photoUrl": "https://avatars.mds.yandex.net/get-altay/3767262/2a00000175d65fe49697e1b91d329505c271/M"},
+    {"name": "Крылатко", "latitude": 55.14792389476495, "longitude": 59.67162652472473, "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipNYkdhdinQe2ZAEaC3U1nAJN7Xr5crT7pxe7SXD=h100"},
+    {"name": "Крылатко", "latitude": 55.05069855594692, "longitude": 60.10626176602715, "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipNYkdhdinQe2ZAEaC3U1nAJN7Xr5crT7pxe7SXD=h100"},
+	  {
+    "name": "Югыд Ва",
+    "latitude": 63.9690289,
+    "longitude": 59.2200899,
+    "photoUrl": "https://fsd.multiurok.ru/html/2022/06/02/s_6298652571cea/img6.jpg"
+  },
+  {
+    "name": "Финно-угорский этнокультурный парк",
+    "latitude": 61.673248,
+    "longitude": 50.832223,
+    "photoUrl": "https://i.ytimg.com/vi/VZRJGs8-ulU/hqdefault.jpg"
+  },
+  {
+    "name": "Печоро-Илычский биосферный заповедник",
+    "latitude": 61.82287,
+    "longitude": 56.824022,
+    "photoUrl": "https://www.vsedostoprimechatelnosti.ru/assets/cache/images/evropa/rossiya6/respublika-komi/pechoro-ilychskij-biosfernyj-zapovednik-860x-1ae.jpg"
+  },
+  {
+    "name": "Кажимский железоделательный завод",
+    "latitude": 60.333902,
+    "longitude": 51.556093,
+    "photoUrl": "https://sun9-61.userapi.com/impf/c848628/v848628431/180072/rDRA2UCEuPE.jpg?size=640x383&quality=96&sign=43b11d8a33de03a90ff935a87721102d&c_uniq_tag=c2Ch1ahQNwm3c6YoyPhoO1R19oxoFRee6Sp2KX8fpu0&type=album"
+  },
+  {
+    "name": "Памятник букве О с точками",
+    "latitude": 61.6695989,
+    "longitude": 50.8271581,
+    "photoUrl": "https://sun9-65.userapi.com/impg/yqTQ6uJWB0X7Xt2l4DzGP6hf3rsd4BSS5igpvA/CaGz21o0-8c.jpg?size=604x403&quality=96&sign=7e69c44047e099716e6244af061eb0b9&c_uniq_tag=nU5s5bgV0VmMFoGq1h_Nqdx_PfQVQgq1rpxPNsfg2qY&type=album"
+  },
+  {
+    "name": "Город-призрак Хальмер-Ю",
+    "latitude": 67.96667,
+    "longitude": 64.83333,
+    "photoUrl": "https://xn----8sbhhl7abf5b.xn--p1ai/wp-content/uploads/2023/05/zag-3-768x512.jpg"
+  },
+  {
+    "name": "Девственные леса Коми",
+    "latitude": 65.056199,
+    "longitude": 60.082262,
+    "photoUrl": "https://basetop.ru/wp-content/uploads/2021/02/viv0hrh5.jpg"
+  },
+  {
+    "name": "Река Щугор",
+    "latitude": 63.1859,
+    "longitude": 59.2353,
+    "photoUrl": "https://vsegda-pomnim.com/uploads/posts/2022-03/thumbs/1647092436_9-vsegda-pomnim-com-p-reka-shchugor-foto-9.jpg"
+  },
+  {
+    "name": "Маньпупунер (мансийские болваны)",
+    "latitude": 62.221329,
+    "longitude": 59.305196,
+    "photoUrl": "https://i10.fotocdn.net/s217/3afe5bd4a6ad0d5c/public_pin_m/2965577495.jpg"
+  },
+  {
+    "name": "Село Усть-Цильма",
+    "latitude": 65.43333,
+    "longitude": 52.15,
+    "photoUrl": "https://sun9-88.userapi.com/impg/4L2sYJID8NgjRZr86iQeztDyzih2a8v_K740Ag/X9R1MCJIvDQ.jpg?size=604x403&quality=95&sign=6bbecde1dea1d98f8849f28a4719f6b0&c_uniq_tag=6O_cUHkrscwirRc0Jq3JcZC5BPW-AavX_m0xGlrQ4lI&type=album"
+  },
+  {
+    "name": "Село Усть-Вымь",
+    "latitude": 62.22587542933404,
+    "longitude": 50.397508999999914,
+    "photoUrl": "https://www.uhta24.ru/foto/files/26696.jpg"
+  },
+      {
+        "name": "Онежская набережная",
+        "latitude": 61.7921508,
+        "longitude": 34.3811189,
+        "photoUrl": "https://sun9-51.userapi.com/impg/F2tWdIL30vDRbiB_Bg23DtGdKAqEHldIs4kQbQ/_tF1-RpMVTs.jpg?size=604x453&quality=95&sign=13de2fe44f4405997bebbdb4ec4e2ffd&type=album"
+    },
+    {
+        "name": "Ботанический сад ПетрГУ",
+        "latitude": 61.840927,
+        "longitude": 34.4101,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4423710/pub_621b2b4b4a8ee15cf1160018_621b2d8a02a3e361aa099ddf/scale_1200"
+    },
+    {
+        "name": "Зоокомплекс «Три медведя»",
+        "latitude": 61.949212,
+        "longitude": 33.406829,
+        "photoUrl": "https://tur-ray.ru/wp-content/uploads/2019/11/zookompleks-tri-medvedya-.jpg"
+    },
+    {
+        "name": "Горный парк «Рускеала»",
+        "latitude": 61.946111,
+        "longitude": 30.581389,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/1866101/pub_5d501f8df8a62300aee01fdd_5d516e6aa98a2a00ad257e4d/scale_1200"
+    },
+    {
+        "name": "Национальный парк «Ладожские Шхеры»",
+        "latitude": 61.5218,
+        "longitude": 30.5039,
+        "photoUrl": "https://static.guidego.ru/625feca031b8e8d905c054d5.640x480.jpeg"
+    },
+    {
+        "name": "Национальный парк «Паанаярви»",
+        "latitude": 65.7645,
+        "longitude": 31.0759,
+        "photoUrl": "https://sun9-22.userapi.com/impg/hhwyVBYJ5LZJpPMNw4PTCAgvDLIjCzbu5TkVmg/7s9Xo3Wv6mc.jpg?size=604x463&quality=96&sign=3a47ff12d353fe7dbeaeab982e19c55b&type=album"
+    },
+    {
+        "name": "горнолыжный курорт «Ялгора»",
+        "latitude": 61.8547496,
+        "longitude": 34.456752,
+        "photoUrl": "https://ibrasport.ru/wp-content/uploads/2019/02/Yalgora_03-768x451.png"
+    },
+    {
+        "name": "Санаторий «Марциальные воды»",
+        "latitude": 62.155286,
+        "longitude": 33.897355,
+        "photoUrl": "https://dailyfish.ru/uploads/posts/2021-07/gallery_baza-otdyha-marcialnye-kljuchi-4.jpg"
+    },
+    {
+        "name": "Национальный парк «Водлозерский»",
+        "latitude": 62.236293,
+        "longitude": 36.885769,
+        "photoUrl": "https://tn.fishki.net/42/upload/post/2018/01/20/2488225/tn/a01ace20b28e52348757786e96dfc0e1.jpg"
+    },
+    {
+        "name": "Национальный парк «Калевальский»",
+        "latitude": 64.99167,
+        "longitude": 30.2125,
+        "photoUrl": "https://sun9-44.userapi.com/impf/HodSFCvb6yD2LerKXNpEJBEiNxwpt_odVEQKyQ/SrrHmELivuo.jpg?size=604x401&quality=96&sign=a4f7e440a8e23e4b33e1a444b3b16044&type=album"
+    },
+    {
+        "name": "Ландшафтный заказник Толвоярви",
+        "latitude": 62.066646,
+        "longitude": 35.225032,
+        "photoUrl": "https://live.staticflickr.com/65535/50033343771_4420606031.jpg"
+    },
+    {
+        "name": "Парк Ваккосалми",
+        "latitude": 61.705583,
+        "longitude": 30.677228,
+        "photoUrl": "https://kstrip.ru/wp-content/uploads/2022/07/2020.jpg"
+    },
+    {
+        "name": "Карельский Зоопарк",
+        "latitude": 61.994236,
+        "longitude": 30.778658,
+        "photoUrl": "https://27.img.avito.st/image/1/1.DhB-FraBovkIs1D_bi5GP621pv_cs6L_u9am_wizUP_Isa79yLeivQ.vJ9dlYdOh1TTQSU9mayRZCFWEFPaM1KhFWMOdYffitg"
+    },
+    {
+        "name": "Водохранилище Выгозеро",
+        "latitude": 63.60110943,
+        "longitude": 34.75592977,
+        "photoUrl": "https://sun9-29.userapi.com/impg/6wTo9gUfEAxcdBZCVWPXZN2bCc1ffE4NzXpSvg/cRHs_egm5eE.jpg?size=604x408&quality=96&sign=e6e5882309bbcb5f62ee238aba1ff902&c_uniq_tag=FwH1BrtkSi6lA7lijRki8jslas9UIUSLizFp5OLkXrI&type=album"
+    },
+    {
+        "name": "Остров добрых духов",
+        "latitude": 64.83667,
+        "longitude": 33.7136,
+        "photoUrl": "https://sun9-5.userapi.com/impg/ZyrLHR4GIRoCQVMEddYLA3NzL_lqk8RDUEStVw/FSS3lCCdgUg.jpg?size=338x338&quality=95&sign=cf4740a0f87655fe7edec5052366a3b0&c_uniq_tag=d-ugMmf3dC_o2gMoSLQnySpQVhwhVYNN5YQDaIysg-o&type=album"
+    },
+    {
+        "name": "Лабиринт на острове Крутояр",
+        "latitude": 60.47497,
+        "longitude": 27.866627,
+        "photoUrl": "https://tamtravel.ru/wp-content/uploads/2022/01/13_full-768x576.jpg"
+    },
+    {
+        "name": "«Камень-голова», уходящая в землю",
+        "latitude": 59.894369,
+        "longitude": 29.84022,
+        "photoUrl": "https://cdn.fishki.net/upload/post/2023/11/24/4529367/tn/4a3092ae65d1b74177b61ca35a1c40ec.jpg"
+    },
+    {
+        "name": "Оредежские пещеры",
+        "latitude": 58.8442176,
+        "longitude": 30.363121,
+        "photoUrl": "https://izverzhenie-vulkana.ru/images/posts/pimg/pimg-970199.jpg"
+    },
+    {
+        "name": "Избушка Бабы-Яги",
+        "latitude": 59.616618,
+        "longitude": 30.740165,
+        "photoUrl": "https://sun9-38.userapi.com/impg/JRpaq1XOMKOUSnXOb76Rg9cq7OVyjkLiSTexdw/WDgbZhS78ZQ.jpg?size=604x483&quality=95&sign=669857cfd4e92b9f57d09c7dbd333bd3&type=album"
+    },
+    {
+        "name": "Токсовский Зубропитомник",
+        "latitude": 60.152518,
+        "longitude": 30.456215,
+        "photoUrl": "https://sun9-8.userapi.com/impg/Kp7JGVvoupTbF3x18xLatAlXR4LlpChP4dI52g/kKZ-iceh7RE.jpg?size=604x400&quality=95&sign=6c9553640b2e1391601f8ec0d4bd15ea&type=album"
+    },
+    {
+        "name": "Саблинские пещеры",
+        "latitude": 59.66719,
+        "longitude": 30.796787,
+        "photoUrl": "https://sun9-39.userapi.com/impg/SCWhqZG_OlwXnlWQIvDT22sYQmp7c-kYFeOQYA/1lexqVBrMSs.jpg?size=604x425&quality=96&sign=d89650af86571e0dd8cd61e22f171c40&type=album"
+    },
+    {
+        "name": "Заповедник «Монрепо»",
+        "latitude": 60.732939,
+        "longitude": 28.727617,
+        "photoUrl": "https://i.pinimg.com/736x/94/6e/44/946e44aab88100a43347f12e7dba0e44.jpg"
+    },
+    {
+        "name": "Дудергофские высоты",
+        "latitude": 59.697778,
+        "longitude": 30.133611,
+        "photoUrl": "https://tury5.ru/wp-content/uploads/6a2751aa-03e6-11eb-8bd5-667d7ef75b87.800x600-3.jpg"
+    },
+    {
+        "name": "Гатчинские гейзеры",
+        "latitude": 59.546808,
+        "longitude": 30.012693,
+        "photoUrl": "https://excursion.org.ru/wp-content/uploads/2022/05/05-702x399.jpg"
+    },
+    {
+        "name": "Линдуловская роща",
+        "latitude": 60.237994,
+        "longitude": 29.540083,
+        "photoUrl": "https://sun6-20.userapi.com/s/v1/ig2/o34l7Nk7hvFRxKq5iJkxebqqf3w47XkMF_vKmeYmOea9P8SPqNFbWEj-PEmJEjOyf-cPZz3b8DIy2uuLQT9ZO6wQ.jpg?size=604x496&quality=95&type=album"
+    },
+    {
+        "name": "Святой источник при часовне",
+        "latitude": 60.007451,
+        "longitude": 32.295494,
+        "photoUrl": "https://kingisepp1.ru/images/dostoprimechatelnosti/hram_vseh_svyatyh_03.jpg"
+    },
+    {
+        "name": "Девонский обрыв",
+        "latitude": 59.12993,
+        "longitude": 29.298584,
+        "photoUrl": "https://sun9-14.userapi.com/impg/FzHmFds0MrdsQKxnM5iHQ0AmkNXzxAGaTjDT4A/9O-1Ln0Z7lM.jpg?size=604x344&quality=96&sign=9992c010c44c58d2a4ff1f6882d07528&c_uniq_tag=Cp9UWys8tywd5WcvXsID2DbQBq0fJZyvdbTaeBjbM0o&type=album"
+    },
+    {
+        "name": "Вепсский Лес",
+        "latitude": 60.5,
+        "longitude": 34.11667,
+        "photoUrl": "https://sun9-49.userapi.com/Ii-T_l0KkdD1Y6vU-i01yFOAVf9Q_pOO8zTY1w/O_KD1PsnhxU.jpg"
+    },
+    {
+        "name": "Карьер и известковые печи",
+        "latitude": 60.117882,
+        "longitude": 30.203168,
+        "photoUrl": "https://kvsspb.ru/upload/sprint.editor/4c7/dedzm5jpv390v3shl8u6bpzxchaelnq8.webp"
+    },
+    {
+        "name": "Карьер у деревни Питкелево",
+        "latitude": 59.166183,
+        "longitude": 30.360511,
+        "photoUrl": "https://sun9-27.userapi.com/impg/c857428/v857428573/22d7e3/A-AY0Qf8aes.jpg?size=604x453&quality=96&sign=70056ec3d2c7d2827ef2fb6c07984dd2&type=album"
+    },
+    {
+        "name": "Линия Маннергейма",
+        "latitude": 60.789018,
+        "longitude": 28.996747,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/1705212/pub_5e7a87d6a75b266905405f46_5e7a8cfab70c57285fbf5648/scale_1200"
+    },
+    {
+        "name": "Невский лесопарк",
+        "latitude": 59.83333,
+        "longitude": 30.58333,
+        "photoUrl": "https://oranges3.com/assets/cache_image/assets/img/богословка_640x480_7d4.jpg"
+    },
+    {
+        "name": "Каньон реки Лавы",
+        "latitude": 59.893945,
+        "longitude": 31.594464,
+        "photoUrl": "https://w-sail.com/wp-content/uploads/2022/04/vodopad-768x512.jpg"
+    },
+    {
+        "name": "Тропа Хо Ши Мина",
+        "latitude": 61.144366,
+        "longitude": 29.759182,
+        "photoUrl": "https://excursion.org.ru/wp-content/uploads/2021/04/38753-1280-702x399.jpg"
+    },
+    {
+        "name": "БУС «Вертикаль»",
+        "latitude": 59.907374,
+        "longitude": 29.035726,
+        "photoUrl": "https://guide-tours.ru/wp-content/uploads/2022/08/bus-vertikal.jpg"
+    },
+    {
+        "name": "Назия — деревня-призрак",
+        "latitude": 59.8163941488237,
+        "longitude": 31.62927067714842,
+        "photoUrl": "https://sun9-51.userapi.com/impf/c854128/v854128858/ee296/GEbC04fzIx0.jpg?size=604x483&quality=96&sign=ae6610bf6aff113d05914051c1d3b0bd&c_uniq_tag=GV47q_8U5FGObmq0VqLOrDDbqxfZsw7n0ypgqoGjo40&type=album"
+    },
+    {
+        "name": "Ребровские пещеры",
+        "latitude": 58.725111,
+        "longitude": 29.765385,
+        "photoUrl": "https://peterburg2.ru/uploads/15/07/16/ga2_реброво.jpg"
+    },
+    {
+        "name": "Пирамида в Екатерининском парке",
+        "latitude": 59.709444,
+        "longitude": 30.388611,
+        "photoUrl": "https://sun9-4.userapi.com/impg/hsN-FD-vwIMzVGjAkGpFWOXUecPr3uQJxFkxJg/H2c3n-py-a0.jpg?size=807x535&quality=95&sign=c7e413609c298cf2fbde4d57af1a57a4&c_uniq_tag=NCOlX4FmJVh2cBzlGwYa30ovB6VcRCP_-G9-m4Gjwws&type=album"
+    },
+	 {
+        "name": "Невский проспект",
+        "latitude": 59.932473,
+        "longitude": 30.349169,
+        "photoUrl": "https://russiacb.com/upload/resize_cache/iblock/bae/915_480_1/bae327b84a32a85d0a947d26873e03f6.jpeg"
+    },
+    {
+        "name": "Дворцовая площадь",
+        "latitude": 59.938982,
+        "longitude": 30.3155,
+        "photoUrl": "https://regruss.ru/wp-content/uploads/2022/03/dvortsovaya-ploshchad.jpg"
+    },
+    {
+        "name": "Стрелка Васильевского острова",
+        "latitude": 59.944167,
+        "longitude": 30.306667,
+        "photoUrl": "https://sun9-55.userapi.com/impg/mV1iG8Xtrw_RlSfMg1FLfCqAPRo-KVnkVkZQJw/VlZgswbTSYQ.jpg?size=807x454&quality=96&sign=52666fb1731710c119f8ae1c53eac9b4&c_uniq_tag=cKbKRmdvdRIJomGdi9aw42VY4iHlZI615bV2aiMFACo&type=album"
+    },
+    {
+        "name": "Атланты",
+        "latitude": 33.749,
+        "longitude": 84.388,
+        "photoUrl": "https://i.ytimg.com/vi/OXG4bU3y5N8/hqdefault.jpg"
+    },
+    {
+        "name": "Петропавловская крепость",
+        "latitude": 59.9500019,
+        "longitude": 30.3166718,
+        "photoUrl": "https://sun9-67.userapi.com/c855624/v855624892/179bba/BsCpq6R0jK8.jpg"
+    },
+    {
+        "name": "Казанский собор",
+        "latitude": 59.9342278,
+        "longitude": 30.3245944,
+        "photoUrl": "https://cathedral.ru/storage/posts/GW97VeSKTtlWe7AxbtxxDmoOLVykxtK7UntRBvI8_300x200.jpeg"
+    },
+    {
+        "name": "Александринский театр",
+        "latitude": 59.932084,
+        "longitude": 30.336377,
+        "photoUrl": "https://spbinteres.ru/wp-content/uploads/2019/01/imgonline-com-ua-Compressed-6aipCZ0KiE1f.jpg"
+    },
+    {
+        "name": "Мариинский театр",
+        "latitude": 59.925919,
+        "longitude": 30.2975893,
+        "photoUrl": "https://www.advantour.com/img/russia/tours/moscow-st-petersburg-backstage-theatres-tour/mini/saint-petersburg-mariinsky-theater_sm.jpg"
+    },
+    {
+        "name": "Петергоф",
+        "latitude": 59.8634,
+        "longitude": 29.990947,
+        "photoUrl": "https://experience-ireland.s3.amazonaws.com/thumbs2/7ef7f4a0-9372-11e9-9d4b-02b782d69cda.800x600.jpg"
+    },
+    {
+        "name": "Павловск",
+        "latitude": 59.6811976,
+        "longitude": 30.4443763,
+        "photoUrl": "https://st03.kakprosto.ru/tumb/325x178/images/article/2021/8/18/385690_611d50548b46e611d50548b4ac.jpeg"
+    },
+    {
+        "name": "Царское Село",
+        "latitude": 59.717372321389085,
+        "longitude": 30.394497798612953,
+        "photoUrl": "https://i.ytimg.com/vi/ZvXTcm7sbfo/hqdefault.jpg"
+    },
+    {
+        "name": "«Лахта Центр»",
+        "latitude": 59.9867525,
+        "longitude": 30.1787992,
+        "photoUrl": "https://storage.myseldon.com/news-pict-bf/BF32A31B408E3C8A790631944F39907B"
+    },
+    {
+        "name": "Летний сад",
+        "latitude": 59.9439113,
+        "longitude": 30.3369781,
+        "photoUrl": "https://canyou.ru/img/pages/13-parks-in-st-petersburg-that-you-must-visit/13-parks-in-st-petersburg-that-you-must-visit2.webp"
+    },
+    {
+        "name": "Чижик-Пыжик",
+        "latitude": 59.941716,
+        "longitude": 30.338026,
+        "photoUrl": "https://554a875a-71dc-4f5f-b6bf-ae8967f137d5.selcdn.net/thumbs2/7d8b3ec2-bb8b-11e9-afb6-025c4c6e7a28.800x600.jpg"
+    },
+    {
+        "name": "Форт «Константин»",
+        "latitude": 59.995353,
+        "longitude": 29.701168,
+        "photoUrl": "https://sun9-29.userapi.com/impg/NrXjba_GZT55k8QsOgDE4infSnJnB_lJ1Z_4dw/GshPJP5YEsc.jpg?size=604x403&quality=95&sign=f261c96d77ff156fa4676b1262a0566a&type=album"
+    },
+    {
+        "name": "Ленинградский зоопарк",
+        "latitude": 59.9518703,
+        "longitude": 30.3072287,
+        "photoUrl": "https://www.vladtime.ru/uploads/posts/2018-04/thumbs/1523178130_2012-07-07_0005.jpg"
+    },
+    {
+        "name": "Дворы и парадные",
+        "latitude": 59.925146,
+        "longitude": 30.32548,
+        "photoUrl": "https://cdn.tripster.ru/thumbs2/faf6877e-7274-11ed-86fc-e23255b5fcd2.384x289.jpeg"
+    },
+    {
+        "name": "Крестовский остров",
+        "latitude": 59.97211886667353,
+        "longitude": 30.244999913933405,
+        "photoUrl": "https://static.piter.tv/images/news_photos/0B1acEYt45S2DcQQSzROGycMSLygFv3a.jpg"
+    },
+    {
+        "name": "Александровская колонна",
+        "latitude": 59.93917,
+        "longitude": 30.31583,
+        "photoUrl": "https://bezistorii.ru/wp-content/uploads/2020/07/aleksandrijskij-stolp-768x512.jpg"
+    },
+    {
+        "name": "Марсово поле",
+        "latitude": 59.94362,
+        "longitude": 30.331793,
+        "photoUrl": "https://spytravel.ru/wp-content/uploads/2022/02/marsovo-pole-istoriya-zahoroneniya-otkuda-takoe-nazvanie-mify-i-legendy-memorial.jpg"
+    },
+    {
+        "name": "Монетный двор",
+        "latitude": 59.9495552,
+        "longitude": 30.3146485,
+        "photoUrl": "https://korona-severa.ru/wp-content/uploads/e/6/4/e644d5d82aff61a78782c754cfb6864a.jpeg"
+    },
+    {
+        "name": "Океанариум",
+        "latitude": 59.9189519,
+        "longitude": 30.339051,
+        "photoUrl": "https://i0.wp.com/kikimoraki.ru/wp-content/uploads/2020/08/dlyakota.ru_puteshestvie_leningradskiy-okeanarium_26.jpeg?resize=700%2C394&ssl=1"
+    },
+    {
+        "name": "Стадион «Газпром Арена»",
+        "latitude": 59.97278,
+        "longitude": 30.22056,
+        "photoUrl": "https://static.life.ru/publications/2020/11/15/978163199911.837-1200x.jpeg"
+    },
+    {
+        "name": "Сфинксы на Университетской набережной",
+        "latitude": 59.936969,
+        "longitude": 30.29086,
+        "photoUrl": "https://sun9-24.userapi.com/Y6O02yQQKdjpDeNpAs0Piox5FUvSp_NoA5StrA/Hk4YClW-5g4.jpg"
+    },
+    {
+        "name": "Михайловский сад",
+        "latitude": 59.939846,
+        "longitude": 30.332823,
+        "photoUrl": "https://arenda-sutki-spb.ru/wp-content/uploads/2023/08/Михайловский-сад-640x480.jpeg"
+    },
+    {
+        "name": "Ботанический сад",
+        "latitude": 59.97028,
+        "longitude": 30.32361,
+        "photoUrl": "https://i0.wp.com/kikimoraki.ru/wp-content/uploads/2020/08/sady-i-parki-sankt-peterburga-gde-pogulyat-v-horoshuyu-pogodu-3.jpg?resize=700%2C455&ssl=1"
+    },
+    {
+        "name": "Ораниенбаум",
+        "latitude": 59.9149028,
+        "longitude": 29.7539556,
+        "photoUrl": "https://cdn.fishki.net/upload/post/2020/12/20/3509025/sankt-peterburg-079.jpg"
+    },
+    {
+        "name": "Каменноостровский проспект",
+        "latitude": 59.9622,
+        "longitude": 30.315,
+        "photoUrl": "https://sun9-9.userapi.com/s/v1/ig2/Z1j0DtmGS98-w4s2mnGxp5FPYLEgjBrBbR5Lrm3DMGfjHOulqeSASw_eBfceRISUmWbNp17QG5Y0Xs_XlSBKBh1U.jpg?size=604x403&quality=95&type=album"
+    },
+    {
+        "name": "Аничков мост",
+        "latitude": 59.9332357,
+        "longitude": 30.34341,
+        "photoUrl": "https://cdn.tripster.ru/thumbs2/0442c220-f881-11ec-b53c-ce5fed60c907.800x600.jpeg"
+    },
+    {
+        "name": "Английская набережная",
+        "latitude": 59.9332914,
+        "longitude": 30.2912202,
+        "photoUrl": "https://triiips.com/storage/app/media/excursion/6f/46/26/5531_74f8de55fc38468b_md.jpg"
+    },
+    {
+        "name": "Памятник Николаю I на Исаакиевской площади",
+        "latitude": 59.932114,
+        "longitude": 30.308425,
+        "photoUrl": "https://img.tourister.ru/files/2/9/5/6/8/9/0/1/clones/900_900_fixed.jpg"
+    },
+	    {
+        "name": "Валдайский национальный парк",
+        "latitude": 57.9855,
+        "longitude": 33.2535,
+        "photoUrl": "https://sun9-60.userapi.com/impg/c853624/v853624234/250556/KMcMarNlJYI.jpg?size=604x403&quality=96&sign=7f1e30a524fed0ef4a03daf4b568ebef&c_uniq_tag=l0TCjUZCuUtTGBLolkTT5my3VWyj3gOXMykkqAmS3mU&type=album"
+    },
+    {
+        "name": "Рдейский заповедник",
+        "latitude": 57.15901,
+        "longitude": 31.180272,
+        "photoUrl": "http://xn----8sbg3aonx.xn--p1ai/wp-content/uploads/zapovednik-3_1-768x576.jpg"
+    },
+    {
+        "name": "Рюриково городище",
+        "latitude": 58.4942856,
+        "longitude": 31.2981459,
+        "photoUrl": "https://korona-severa.ru/wp-content/uploads/6/f/d/6fd9292c8ca617e207e3dc9aacbbc74a.jpeg"
+    },
+    {
+        "name": "Ярославово дворище",
+        "latitude": 58.518886,
+        "longitude": 31.284647,
+        "photoUrl": "https://sun9-65.userapi.com/impg/Cto5oM4hXK8hu6bx3v8_RJrHeQONpzf5Fu9EHg/lFC_lk5I_1U.jpg?size=807x529&quality=95&sign=777e112c752b9d477d3ae8b8f078ea15&c_uniq_tag=W4McUrzCvWdZASq8lzNbBVPWW-IQGwElP8UaLRGNzyw&type=album"
+    },
+    {
+        "name": "Ганзейский фонтан",
+        "latitude": 58.51922,
+        "longitude": 31.283976,
+        "photoUrl": "https://sun9-48.userapi.com/impg/Zc1mQfnWI17y2F150JPrvYtLClf5dxHpp3C2ow/8g2bxoxHQyg.jpg?size=604x340&quality=95&sign=26d2231bc05cd4941cb0748a28357f71&c_uniq_tag=Gc-xUv5AdT9Skn_fzStRQ9L2q18vZfVR_DcYmSgg93w&type=album"
+    },
+    {
+        "name": "Природный фонтан в деревне Меглецы",
+        "latitude": 58.430391,
+        "longitude": 34.553933,
+        "photoUrl": "https://lemurtour.ru/wp-content/uploads/prirodnyj-fontan-v-d-meglecy.jpg"
+    },
+    {
+        "name": "Парк-усадьба Горки",
+        "latitude": 54.283234,
+        "longitude": 30.995111,
+        "photoUrl": "https://sun9-2.userapi.com/impg/O_sReI5I022VVmo9-1UHgTdKGk0nLlz1ns6mPA/YLh1NKPA51Q.jpg?size=604x396&quality=95&sign=86413e04c76441a6d24d1335a497c15e&c_uniq_tag=vlgsfRSOLvegJayMv6PbEzXx76t1fOAf15BzgaYQrjQ&type=album"
+    },
+    {
+        "name": "Маловишерский лес",
+        "latitude": 58.839277,
+        "longitude": 32.186398,
+        "photoUrl": "https://novvedomosti.ru/images/news/61380-67-news-image.jpg?1586621021"
+    },
+	  {
+    "name": "Чуйский тракт – Шелковый путь Сибири",
+    "latitude": 51.93813,
+    "longitude": 85.83996,
+    "photoUrl": "https://sun9-2.userapi.com/impg/DAd1nAlrNOijx56lP2BfVLWMIVMsSKobJjfQew/jYKoM8Jj_bE.jpg?size=604x400&quality=95&sign=1060bd4a4457bc0cc9da0f62981e8407&type=album"
+  },
+  {
+    "name": "Манжерок",
+    "latitude": 51.83233,
+    "longitude": 85.78185,
+    "photoUrl": "https://i.olan.ru/system/photos/entity/001/007/980/654/medium/img.jpg?1705182774"
+  },
+  {
+    "name": "Чемал",
+    "latitude": 51.40975,
+    "longitude": 86.0008,
+    "photoUrl": "https://data12.proshkolu.ru/content/media/pic/std/7000000/6688000/6687114-57786bad7fca4c98.jpg"
+  },
+  {
+    "name": "Долина Семи Озёр",
+    "latitude": 49.89914,
+    "longitude": 86.50682,
+    "photoUrl": "https://sun9-8.userapi.com/impg/-6eTApp6r5eWjelobYiV-5dapQI7VLVRnf4e7w/KTpbTQAJuIs.jpg?size=604x453&quality=95&sign=9a771574cf6ad7723821e87c3b1c1450&type=album"
+  },
+  {
+    "name": "Озеро Горных Духов",
+    "latitude": 49.87791,
+    "longitude": 86.57321,
+    "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/5231757/pub_6255a8d3720ed8665e68f5d3_6256d42ee6015f2fcd862648/scale_1200"
+  },
+  {
+    "name": "Мультинские озёра",
+    "latitude": 50.00575,
+    "longitude": 85.83103,
+    "photoUrl": "https://trip-tur.ru/wp-content/uploads/elementor/thumbs/den-2.1-nizhnee-i-srednee-multinskie-ozera-q2wned5vzsp1835t1tjaaeegq8pptkdeytzexr7ulc.jpg"
+  },
+  {
+    "name": "Село Верхний Уймон",
+    "latitude": 50.21316,
+    "longitude": 85.73954,
+    "photoUrl": "https://b1.vpoxod.ru/ckeditor/11/40/3a/154203.jpg"
+  },
+  {
+    "name": "Петроглифы урочища Калбак-Таш",
+    "latitude": 50.40135,
+    "longitude": 86.81858,
+    "photoUrl": "https://i.pinimg.com/736x/f3/72/45/f372454c7c38374498d23f6393e80262.jpg"
+  },
+  {
+    "name": "Чуйские меандры",
+    "latitude": 50.26508,
+    "longitude": 87.70329,
+    "photoUrl": "https://content-19.foto.my.mail.ru/community/altai_segodnia/_groupsphoto/h-123377.jpg"
+  },
+  {
+    "name": "Курайская степь",
+    "latitude": 50.17592,
+    "longitude": 87.94752,
+    "photoUrl": "https://travel-or-die.ru/wp-content/uploads/2020/06/Dostoprimechatelnosti-Altaya-kurajskaya-step-9793-768x480.jpg"
+  },
+  {
+    "name": "Ледники долины Актру",
+    "latitude": 50.08138,
+    "longitude": 87.69682,
+    "photoUrl": "https://sun9-40.userapi.com/impg/Josl820Vom_H5cHaBMihlyD_D_AnDe5jyBoSEg/Ejh_dRweMps.jpg?size=604x421&quality=96&sign=cb565bb52d700afdb6742f1f6f85d271&c_uniq_tag=cCTAPHFaQZecNc_V4eZGj9LNc-aJZq19yjWXevk9myk&type=album"
+  },
+  {
+    "name": "Каменные грибы в долине Чулышман",
+    "latitude": 51.11171,
+    "longitude": 87.97292,
+    "photoUrl": "https://sun9-27.userapi.com/impf/c852236/v852236679/10c193/WSyw401G1BU.jpg?size=604x283&quality=96&sign=0539be57e8c4826f2989d4a036e8069d&type=album"
+  },
+  {
+    "name": "Плато Укок",
+    "latitude": 49.26847,
+    "longitude": 87.41377,
+    "photoUrl": "https://sun1-90.userapi.com/impg/YpIdI-rfjoV2jrrPLIoJTyyTUcqmp4WKEDFuIg/AUnWQYHUP9k.jpg?size=604x604&quality=95&sign=54243215a7c7e23b50b165e5c5d55d40&c_uniq_tag=RJTGFmSnBNL1G7afcvV1C0JaeG6Dqo9NXj70h7XART4&type=album"
+  },
+  {
+    "name": "Красные Ворота",
+    "latitude": 50.3645,
+    "longitude": 87.6336,
+    "photoUrl": "https://r5.mt.ru/r18/photo3F02/20883982037-0/jpg/bp.jpeg"
+  },
+  {
+    "name": "База Перевалка",
+    "latitude": 50.1457,
+    "longitude": 87.8105,
+    "photoUrl": "https://www.vtourisme.com/images/a_big001/perevalka-na-aktru02.jpg"
+  },
+  {
+    "name": "Беловодский перевал",
+    "latitude": 50.49729,
+    "longitude": 88.06228,
+    "photoUrl": "https://i.ytimg.com/vi/EpWgAh5V5Gs/maxresdefault.jpg"
+  },
+  {
+    "name": "Мультинские озёра",
+    "latitude": 50.00575,
+    "longitude": 85.83103,
+    "photoUrl": "https://trip-tur.ru/wp-content/uploads/elementor/thumbs/den-2.1-nizhnee-i-srednee-multinskie-ozera-q2wned5vzsp1835t1tjaaeegq8pptkdeytzexr7ulc.jpg"
+  },
+    {
+    "name": "Национальный парк «Столбы»",
+    "latitude": 55.883333,
+    "longitude": 92.766667,
+    "photoUrl": "https://top10.travel/wp-content/uploads/2017/09/zapovednik-stolby-m.jpg"
+  },
+  {
+    "name": "Ергаки",
+    "latitude": 52.805133,
+    "longitude": 93.293874,
+    "photoUrl": "https://i.ytimg.com/vi/ngjMsmr_VMc/hqdefault.jpg"
+  },
+  {
+    "name": "Шушенский бор",
+    "latitude": 52.699424,
+    "longitude": 91.500547,
+    "photoUrl": "https://trekkingmania.ru/aimages/1008/c1/uvez27-7vho.jpg"
+  },
+  {
+    "name": "Большой Арктический заповедник",
+    "latitude": 75.7775,
+    "longitude": 98.253056,
+    "photoUrl": "https://pogodnik.com/wp-content/uploads/2016/12/725_1_851.jpg"
+  },
+  {
+    "name": "Заповедник «Таймырский»",
+    "latitude": 74.1,
+    "longitude": 98,
+    "photoUrl": "https://sun9-15.userapi.com/impg/VneG4Ip0hfxwiy-5WjD7UfpYnqm0OgdYh2EI3A/e8V8znHNfVI.jpg?size=320x213&quality=95&sign=56979798118111ae5ea03de2a75aed01&c_uniq_tag=j8npUIlFVho2M49lG4073a8gVr17i51mEsmwpZvDhh4&type=album"
+  },
+  {
+    "name": "Плато Путорана",
+    "latitude": 68.9461,
+    "longitude": 94.506252,
+    "photoUrl": "https://isolyanka.ru/wp-content/uploads/2018/10/putorana-0-1.png"
+  },
+  {
+    "name": "Анашенский бор",
+    "latitude": 54.891303,
+    "longitude": 91.03283,
+    "photoUrl": "https://sun9-64.userapi.com/impf/c841131/v841131088/1b8d0/u_WRDGUWdrI.jpg?size=604x453&quality=96&sign=e651443051434c075e496e553790406d&c_uniq_tag=zqU0gK0Ce96tlAUun0H-tL2rpe0pKCR0zGbwSE0j7bA&type=album"
+  },
+  {
+    "name": "Саяно-Шушенский заповедник",
+    "latitude": 52.168552,
+    "longitude": 91.861326,
+    "photoUrl": "https://ecologyofrussia.ru/upload/iblock/266/hoto.jpg"
+  },
+  {
+    "name": "Айдашенская пещера",
+    "latitude": 56.203885,
+    "longitude": 90.310091,
+    "photoUrl": "https://sun9-41.userapi.com/impg/lw5-DWyaoIq60zm7VvKAGK6PIJolt-pkL3FxsQ/R8TafVi3cXo.jpg?size=807x537&quality=95&sign=eaf7fc198f4a1c8067c43c5efe8b780b&c_uniq_tag=l6OqxCtpBVjpJESdobc2G6wdOZvZ1cqSWF8_rdywYuI&type=album"
+  },
+  {
+    "name": "Большая Орешная пещера",
+    "latitude": 55.293056,
+    "longitude": 93.735833,
+    "photoUrl": "https://sun9-33.userapi.com/impf/cqB2_zQTbD1w0fRZU8Pnqpg-WGylHg6YyNs3jg/iAscwiSh0WY.jpg?size=604x412&quality=96&sign=fae9f3f8eda5d0eaf98aa4b859034371&c_uniq_tag=kPDGi3QDIdXYspGRqOZ5chstp1ahv40r1YR9Pl-Ai10&type=album"
+  },
+  {
+    "name": "Бирюсинские пещеры",
+    "latitude": 55.843481,
+    "longitude": 92.185758,
+    "photoUrl": "https://static.tildacdn.com/tild3565-6138-4935-b237-666365343735/noroot.png"
+  },
+  {
+    "name": "Шалоболинская писаница",
+    "latitude": 53.905472,
+    "longitude": 92.208236,
+    "photoUrl": "https://worldrockart.ru/wp-content/uploads/shalabolinskaya-pisanitsa-02-640x480.jpg"
+  },
+  {
+    "name": "Березово-муравьиная роща",
+    "latitude": 56.28562,
+    "longitude": 92.742695,
+    "photoUrl": "https://www.doopt.ru/img/27/2787/2787-01.jpg"
+  },
+  {
+    "name": "Остров Татышев",
+    "latitude": 56.027052,
+    "longitude": 92.943337,
+    "photoUrl": "https://c1.35photo.pro/photos_temp/sizes/704/3520263_500n.jpg"
+  },
+  {
+    "name": "Краснотуранское побережье",
+    "latitude": 54.31861,
+    "longitude": 91.56389,
+    "photoUrl": "https://sun9-64.userapi.com/s/v1/ig2/GD2_2znZXfV5-5ekNXfQ7a6VpMSMQqFIciwLoG5-n0UXRHF0-WZvpFRh6FntOLqSDHyuvdPrkHeUifHgv4PQhgyq.jpg?size=604x453&quality=95&type=album"
+  },
+  {
+    "name": "Новосибирские острова",
+    "latitude": 54.958056,
+    "longitude": 93.0675,
+    "photoUrl": "https://sun9-65.userapi.com/impg/z-eCOPy6x4S-QqlyZvSn8AGSMgIqKX2sInvm3Q/O7Zas6gFG24.jpg?size=700x466&quality=96&sign=33c8ed67e8558bf3805b1076203a30d0&c_uniq_tag=F0BYYumjzN8ym2TAmYZ2lgHwHptpA7AtWcHw6Agca7U&type=album"
+  },
+  {
+    "name": "Заповедник «Богдарский-Баскунчакский»",
+    "latitude": 51.951944,
+    "longitude": 95.242778,
+    "photoUrl": "https://chashka4l.ru/_nw/0/14251362.jpg"
+  }
 ]
