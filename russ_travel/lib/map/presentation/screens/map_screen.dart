@@ -103,7 +103,7 @@ List<HotelPoint> _getMapPointsH() {
   return const [
 
       // республика Коми
-      HotelPoint(name: 'Луза', latitude: 60.3361300, longitude: 49.6096400°),
+      HotelPoint(name: 'Луза', latitude: 60.3361300, longitude: 49.6096400),
       HotelPoint(name: 'Мира 23', latitude: 65.10523, longitude: 57.05614),
       HotelPoint(name: 'Надежда', latitude: 61.07224609999999, longitude: 50.0645454),
       HotelPoint(name: 'У дяди Вани', latitude: 61.857493408857, longitude: 51.522336885353),
@@ -439,7 +439,7 @@ List<HotelPoint> _getMapPointsH() {
       HotelPoint(name: 'Рабисон', latitude: 54.9973564147949, longitude: 73.3747863769531),
       HotelPoint(name: 'Глория', latitude: 55.0092, longitude: 73.3381),
       HotelPoint(name: 'Отель Д&А', latitude: 55.0470740, longitude: 74.5678430),
-      HotelPoint(name: 'Гrban', latitude: 55.003823, longitude: 73.364394),
+      HotelPoint(name: 'Urban', latitude: 55.003823, longitude: 73.364394),
       HotelPoint(name: 'Нова ', latitude: 55.00424, longitude: 73.37218),
       HotelPoint(name: 'Гостиница авеню', latitude: 55.0012, longitude: 73.3532),
       HotelPoint(name: 'Миллениум', latitude: 54.9414, longitude: 73.3828),
@@ -740,7 +740,7 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Заброшенный поселок Рудник', latitude: 65.031667, longitude: 53.969167),
       MuseumPoint(name: 'Памятный знак Голова Ленина', latitude: 67.816646, longitude: 34.84826),
       MuseumPoint(name: 'здание администрации Ненецкого АО', latitude: 67.6388917, longitude: 53.0056361),
-      MuseumPoint(name: 'здание главпочтамта Ненецкого,  АО', latitude:67.639213562,longitude:53.007827759),
+      MuseumPoint(name: 'здание главпочтамта Ненецкого АО', latitude:67.639213562,longitude:53.007827759),
       MuseumPoint(name: 'Памятник «Подвигу участников оленно-транспортных батальонов»', latitude: 67.64, longitude: 53.01056),
       MuseumPoint(name: 'Памятник труженикам Печорского лесозавода', latitude: 67.66982400, longitude: 53.09680900),
       MuseumPoint(name: 'Памятник Яку-7Б', latitude: 67.66982400, longitude: 53.09680900),
@@ -758,7 +758,6 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Введенский собор в Сольвычегодске', latitude: 61.3326778, longitude: 46.9263083),
       MuseumPoint(name: 'Северный морской музей', latitude: 64.5339, longitude: 40.5168),
       MuseumPoint(name: 'Новодвинская крепость', latitude: 64.699981, longitude: 40.417537),
-      MuseumPoint(name: 'Музей деревянного зодчества «Малые Корелы»', latitude: 64.454843, longitude: 40.951519),
       MuseumPoint(name: 'музей полярного капитана Александра Кучина', latitude: 64.226920, longitude: 41.838274),
       MuseumPoint(name: 'Онежский историко-мемориальный музей', latitude: 63.898530715044, longitude: 38.129629777158),
       MuseumPoint(name: 'Сретено-Михайловская церковь', latitude: 61.59867, longitude: 38.661435),
@@ -831,7 +830,6 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Военный комплекс «Гора Филина»', latitude: 61.548857, longitude: 30.199141),
       MuseumPoint(name: 'Шелтозерский вепсский этнографический музей', latitude: 61.3687, longitude: 35.358),
       MuseumPoint(name: 'Государственный Национальный театр Республики Карелия', latitude: 61.787483215, longitude: 34.379283905),
-      MuseumPoint(name: 'Шелтозерский вепсский этнографический музей', latitude: 61.3687, longitude: 35.358),
       MuseumPoint(name: 'Муромский монастырь', latitude: 61.483, longitude: 36.250),
       MuseumPoint(name: 'Морской музей «Полярный Одиссей»', latitude: 61.779906, longitude: 34.415936),
       MuseumPoint(name: 'Богоявленская церковь в селе Челмужи', latitude: 62.578435, longitude: 35.576927),
@@ -1012,7 +1010,7 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Музей-усадьба Григория Ивановича Чорос-Гуркина', latitude: 51.5012, longitude: 85.9419),
       MuseumPoint(name: 'Палеопарк', latitude: 51.4915, longitude: 85.9805),
       MuseumPoint(name: 'Национальный музей имени А.В. Анохина', latitude: 51.9564, longitude: 85.9464),
-      MuseumPoint(name: 'Музей Чуйского, latitude: тракта', latitude: 52.5391, longitude: 85.2230),
+      MuseumPoint(name: 'Музей Чуйского тракта', latitude: 52.5391, longitude: 85.2230),
       MuseumPoint(name: 'Памятник шофёру Кольке Снегирёву', latitude: 50.3529, longitude: 87.0558),
       MuseumPoint(name: 'Дом-музей Николая Рериха', latitude: 50.2140, longitude: 85.7429),
 
@@ -1084,7 +1082,6 @@ List<HotelPoint> _getMapPointsH() {
       MuseumPoint(name: 'Курганный комплекс Быстровка', latitude: 54.53870908854932, longitude: 82.58233929756462),
       MuseumPoint(name: 'Палеонтологический памятник природы Волчья грива', latitude: 54.40, longitude: 80.17),
       MuseumPoint(name: 'Городище Чичабург', latitude: 54.705833, longitude: 78.590000),
-      MuseumPoint(name: 'Умревинский острог', latitude: 55.57559303386144, longitude: 83.5959165257112),
       MuseumPoint(name: 'Источник Святой ключ', latitude: 54.5742262726708, longitude: 83.35433333913059),
       MuseumPoint(name: 'Музей железнодорожной техники', latitude: 54.868637, longitude: 83.076014),
       MuseumPoint(name: 'Народный музей "Танкоград" под Новосибирском', latitude: 55.1586, longitude: 61.4680),
@@ -1192,7 +1189,6 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Ортинское городище', latitude: 68.055118, longitude: 54.128906),
       ParkPoint(name: 'Центр арктического туризма', latitude: 67.633756, longitude: 53.24157),
       ParkPoint(name: 'Обдорский острог (Город мастеров)', latitude: 66.5222540, longitude: 66.5892110),
-      ParkPoint(name: 'Пым-Ва-Шор', latitude: 67.1889, longitude: 60.873),
 
       // Архангельская область
       ParkPoint(name: 'Кенозерский национальный парк', latitude: 61.7709, longitude: 38.0473),
@@ -1253,8 +1249,6 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Санаторий «Марциальные воды»', latitude: 62.155286, longitude: 33.897355),
       ParkPoint(name: 'Национальный парк «Водлозерский»', latitude: 62.236293, longitude: 36.885769),
       ParkPoint(name: 'Национальный парк «Калевальский»', latitude: 64.99167, longitude: 30.2125),
-      ParkPoint(name: 'Национальный парк Водлозерский', latitude: 62.5, longitude: 36.917),
-      ParkPoint(name: 'Национальный парк Калевальский', latitude: 64.99167, longitude: 30.2125),
       ParkPoint(name: 'Ландшафтный заказник Толвоярви', latitude: 62.066646, longitude: 35.225032),
       ParkPoint(name: 'Парк Ваккосалми', latitude: 61.705583, longitude: 30.677228),
       ParkPoint(name: 'Карельский Зоопарк', latitude: 61.994236, longitude: 30.778658),
@@ -1293,7 +1287,7 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Атланты', latitude: 33.7490, longitude: 84.3880),
       ParkPoint(name: 'Петропавловская крепость', latitude: 59.9500019, longitude: 30.3166718),
       ParkPoint(name: 'Казанский собор', latitude: 59.9342278, longitude: 30.3245944),
-      ParkPoint(name: 'Александринский, latitude: театр', latitude: 59.93208400, longitude: 30.33637700),
+      ParkPoint(name: 'Александринский театр', latitude: 59.93208400, longitude: 30.33637700),
       ParkPoint(name: 'Мариинский театр', latitude: 59.925919, longitude: 30.2975893),
       ParkPoint(name: 'Петергоф', latitude: 59.863400, longitude: 29.990947),
       ParkPoint(name: 'Павловск', latitude: 59.6811976, longitude: 30.44437629999999),
@@ -1414,7 +1408,7 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'База Перевалка', latitude: 50.1457, longitude: 87.8105),
       ParkPoint(name: 'Гора Купол Трёх Озёр', latitude: 50.0478, longitude: 87.7933),
       ParkPoint(name: 'Альплагерь Актру', latitude: 50.0837, longitude: 87.7788),
-      ParkPoint(name: 'Шавлинские, latitude: озёра', latitude: 50.1043, longitude: 87.4263),
+      ParkPoint(name: 'Шавлинские озёра', latitude: 50.1043, longitude: 87.4263),
       ParkPoint(name: 'Каменные ворота Айры-таш', latitude: 50.5110, longitude: 86.5635),
       ParkPoint(name: 'Усть-Канская пещера', latitude: 50.9117, longitude: 84.8144),
       ParkPoint(name: 'Джумалинские источники', latitude: 49.4581, longitude: 88.0535),
@@ -1513,9 +1507,8 @@ List<HotelPoint> _getMapPointsH() {
 
 
       // Томская область
-      ParkPoint(name: ' Сельский парк «Околица»', latitude: 56.515261845931626, longitude: 84.75752522301502),
-      ParkPoint(name: ' Лагерный сад', latitude: 56.45417, longitude: 84.95),
-      ParkPoint(name: 'Парк Околица ', latitude: 56.515261845931626, longitude: 84.75752522301502),
+      ParkPoint(name: 'Сельский парк «Околица»', latitude: 56.515261845931626, longitude: 84.75752522301502),
+      ParkPoint(name: 'Лагерный сад', latitude: 56.45417, longitude: 84.95),
       ParkPoint(name: 'Нагорный Иштан', latitude: 56.747914, longitude: 84.563618),
       ParkPoint(name: 'Семилуженский казачий острог', latitude: 56.617541, longitude: 85.353229),
       ParkPoint(name: 'Каравай-парк', latitude: 56.264160, longitude: 83.957439),
@@ -1542,13 +1535,13 @@ List<HotelPoint> _getMapPointsH() {
       ParkPoint(name: 'Заповедник «Убсунурская котловина»', latitude: 50.637721, longitude: 93.191919),
       ParkPoint(name: 'Заповедник «Азас»', latitude: 52.464827, longitude: 96.119437),
       ParkPoint(name: 'Тарысские источники', latitude: 50.380951, longitude: 98.204379),
-      ParkPoint(name: 'Кундустуг аржаан', latitude: 51.568754, longitude: 95.180832),
+      ParkPoint(name: 'Кундустуг Аржаан', latitude: 51.568754, longitude: 95.180832),
       ParkPoint(name: 'Курганы Аржаан', latitude: 52.095976, longitude: 93.711233),
       ParkPoint(name: 'Дорога Чингисхана ', latitude: 51.605473, longitude: 91.950313),
       ParkPoint(name: 'Кижи-Кожээ', latitude: 51.085277, longitude: 90.625741),
       ParkPoint(name: 'Писаница Мугур-Саргол', latitude: 51.516651, longitude: 92.332448),
       ParkPoint(name: 'Сквер Центр Азии', latitude: 51.724754, longitude: 94.444386),
-      ParkPoint(name: ' Убсунурская котловина', latitude: 50.33805, longitude: 92.75749),
+      ParkPoint(name: 'Убсунурская котловина', latitude: 50.33805, longitude: 92.75749),
 
 
       // республика Хакасия
