@@ -142,11 +142,11 @@ Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) 
       },
     );*/
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
-    //final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
-   // final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
+    final List<PlacemarkMapObject> placemarkObjectsO = await _getPlacemarkObjectsO(context);
+    final List<PlacemarkMapObject> placemarkObjectsM = await _getPlacemarkObjectsM(context);
     final List<PlacemarkMapObject> placemarkObjectsP = await _getPlacemarkObjectsP(context);
-    //combinedPlacemarkObjects.addAll(placemarkObjectsO);
-    //combinedPlacemarkObjects.addAll(placemarkObjectsM);
+    combinedPlacemarkObjects.addAll(placemarkObjectsO);
+    combinedPlacemarkObjects.addAll(placemarkObjectsM);
     combinedPlacemarkObjects.addAll(placemarkObjectsP);
     //Navigator.of(context).pop();
     return combinedPlacemarkObjects;
@@ -190,7 +190,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/out_points.json');
+    final jsonString = await rootBundle.loadString('assets/out_points_test.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     return pointsData.map((data) {
       final point = OutsidePoint.fromJson(data);
@@ -330,17 +330,27 @@ class _ModalBodyViewO extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(mainAxisSize: MainAxisSize.min, children: [
-        Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
-        Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Image.network(
+            point.photoUrl,
+            width: 200,
+            height: 200,
+            fit: BoxFit.cover, // Режим заполнения изображения
           ),
-        ),
-      ]),
+          const SizedBox(height: 20),
+          Text(point.name, style: const TextStyle(fontSize: 20)),
+          const SizedBox(height: 20),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

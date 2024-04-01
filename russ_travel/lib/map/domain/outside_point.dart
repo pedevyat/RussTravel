@@ -10,6 +10,7 @@ class OutsidePoint extends Equatable {
     required this.name,
     required this.latitude,
     required this.longitude,
+    required this.photoUrl,
   });
 
   /// Название населенного пункта
@@ -21,27 +22,19 @@ class OutsidePoint extends Equatable {
   /// Долгота
   final double longitude;
 
+  /// Ссылка на фото
+  final String photoUrl;
+
   @override
-  List<Object?> get props => [name, latitude, longitude];
+  List<Object?> get props => [name, latitude, longitude, photoUrl];
 
   /// Создание объекта OutsidePoint из JSON данных
   factory OutsidePoint.fromJson(Map<String, dynamic> json) {
     return OutsidePoint(
       name: json['name'],
-      latitude: json['latitude'],
-      longitude: json['longitude'],
+      latitude: json['latitude'].toDouble(),
+      longitude: json['longitude'].toDouble(),
+      photoUrl: json['photoUrl'],
     );
   }
-
-//   /// Считывание списка точек из файла
-//   static Future<List<OutsidePoint>> readPointsFromFile(String filePath) async {
-//     final file = File(filePath);
-//     try {
-//       final jsonString = await file.readAsString();
-//       final List<dynamic> pointsData = json.decode(jsonString);
-//       return pointsData.map((data) => OutsidePoint.fromJson(data)).toList();
-//     } catch (e) {
-//       throw Exception('Файл не считывается: $e');
-//     }
-//   }
- }
+}
