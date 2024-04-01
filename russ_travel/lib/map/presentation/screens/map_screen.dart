@@ -312,17 +312,20 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/out_points.json');
+    final jsonString = await rootBundle.loadString('assets/out_points_test.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    var box = await Hive.openBox('outsideBox');
+    
     for (int i = 0; i < pointsData.length; i++)
     {
     	final point = OutsidePoint.fromJson(pointsData[i]);
+    	point.id = i;
     	listPlacemarkMapObject.add(
 	    PlacemarkMapObject(
 		mapId: MapObjectId('OutsideObject $i'),
 		point: Point(latitude: point.latitude, longitude: point.longitude),
-		opacity: 1,
+		opacity: !box.containsKey(i) ? 1 : 0.25,
 		icon: PlacemarkIcon.single(
 		  PlacemarkIconStyle(
 		    image: BitmapDescriptor.fromAssetImage('assets/binoculars.png'),
@@ -562,11 +565,11 @@ class _ModalBodyViewO extends StatelessWidget {
 		  child: IconButton(
 		    icon: Icon(Icons.star),
 		    onPressed: () async {
-		      //var box = await Hive.openBox('outsideBox');
-		      //if (box.containsKey(point.id))
-		      //  box.delete(point.id);
-		      //else
-		      //  box.put(point.id, point.id);
+		      var box = await Hive.openBox('outsideBox');
+		      if (box.containsKey(point.id))
+		        box.delete(point.id);
+		      else
+		        box.put(point.id, point.id);
 		      //point.isVisited = !point.isVisited;
 		    },
 		  ),
