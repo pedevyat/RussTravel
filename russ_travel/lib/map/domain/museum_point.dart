@@ -5,12 +5,20 @@ import 'package:equatable/equatable.dart';
 
 /// Модель точки на карте
 class MuseumPoint extends Equatable {
-  const MuseumPoint({
+  MuseumPoint({
+    required this.id,
+    //required this.isVisited,
     required this.name,
     required this.latitude,
     required this.longitude,
     required this.photoUrl, // Добавлено новое поле для ссылки на фото
   });
+  
+  // Идентификационный номер
+  int id;
+  
+  // Посещена ли метка
+  //final bool isVisited;
 
   /// Название населенного пункта
   final String name;
@@ -30,6 +38,7 @@ class MuseumPoint extends Equatable {
   /// Создание объекта MuseumPoint из JSON данных
   factory MuseumPoint.fromJson(Map<String, dynamic> json) {
     return MuseumPoint(
+      id: 0,
       name: json['name'],
       latitude: json['latitude'],
       longitude: json['longitude'],

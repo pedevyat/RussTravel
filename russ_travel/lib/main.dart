@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+//import 'package:hive_flutter_templates/hive_functions.dart';
+import 'package:hive/hive.dart';
 import 'package:russ_travel/map/presentation/screens/hotels_collection.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
@@ -6,7 +9,9 @@ import 'profile.dart';
 import 'articles/screens/article_list_screen.dart';
 import 'information/info_screen.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized(); 		
+  await Hive.initFlutter(); 
   runApp(const MyApp());
 }
 

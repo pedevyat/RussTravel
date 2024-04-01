@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
+import 'backend.dart';
 
+import 'package:hive/hive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
@@ -23,6 +25,8 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   int _currentIndex = 0;
+  //var stringBox = await Hive.openBox<String>('museum');
+  
   late final YandexMapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
@@ -30,6 +34,7 @@ class _MapScreenState extends State<MapScreen> {
   @override
   void initState() {
     super.initState();
+    //await Hive.initFlutter();
     _placemarkObjectsFuture = _museumPlacemarkObjects(context);
   }
 
@@ -226,14 +231,17 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
     final jsonString = await rootBundle.loadString('assets/museum_points_test.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
+    var box = await Hive.openBox('museumBox');
+    
     for (int i = 0; i < pointsData.length; i++)
     {
     	final point = MuseumPoint.fromJson(pointsData[i]);
+    	point.id = i;
     	listPlacemarkMapObject.add(
 	    PlacemarkMapObject(
 		mapId: MapObjectId('MuseumObject $i'),
 		point: Point(latitude: point.latitude, longitude: point.longitude),
-		opacity: 1,
+		opacity: !box.containsKey(i) ? 1 : 0.25,
 		icon: PlacemarkIcon.single(
 		  PlacemarkIconStyle(
 		    image: BitmapDescriptor.fromAssetImage('assets/museum.png'),
@@ -466,34 +474,49 @@ class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
   final MuseumPoint point;
+  //var box = await Hive.openBox('museumBox');
 
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Image.network(
-            point.photoUrl,
-            width: 200,
-            height: 200,
-            fit: BoxFit.cover, // Режим заполнения изображения
-          ),
-          const SizedBox(height: 20),
-          Text(point.name, style: const TextStyle(fontSize: 20)),
-          const SizedBox(height: 20),
-          Text(
-            '${point.latitude}, ${point.longitude}',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
+	@override
+	Widget build(BuildContext context) {
+	  return Padding(
+	    padding: const EdgeInsets.symmetric(vertical: 40),
+	    child: Column(
+	      mainAxisSize: MainAxisSize.min,
+	      children: [
+		Align(
+		  alignment: Alignment.topRight,
+		  child: IconButton(
+		    icon: Icon(Icons.star),
+		    onPressed: () async {
+		      var box = await Hive.openBox('museumBox');
+		      if (box.containsKey(point.id))
+		        box.delete(point.id);
+		      else
+		        box.put(point.id, point.id);
+		      //point.isVisited = !point.isVisited;
+		    },
+		  ),
+		),
+		Image.network(
+		  point.photoUrl,
+		  width: MediaQuery.of(context).size.width,
+		  height: 200,
+		  fit: BoxFit.cover,
+		),
+		const SizedBox(height: 20),
+		Text(point.name, style: const TextStyle(fontSize: 20)),
+		const SizedBox(height: 20),
+		Text(
+		  '${point.latitude}, ${point.longitude}',
+		  style: const TextStyle(
+		    fontSize: 16,
+		    color: Colors.grey,
+		  ),
+		),
+	      ],
+	    ),
+	  );
+	}
 }
 
 
