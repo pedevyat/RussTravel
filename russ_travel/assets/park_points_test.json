@@ -2274,5 +2274,65 @@
     "latitude": 51.951944,
     "longitude": 95.242778,
     "photoUrl": "https://chashka4l.ru/_nw/0/14251362.jpg"
-  }
+  },
+      {
+        "name": "Гинкго Парк",
+        "latitude": 47.401337,
+        "longitude": 40.071135,
+        "photoUrl": "https://xn----etbfmiekefsq6k.xn--p1ai/wp-content/uploads/novocherkassk-dostoprimechatelnosti-na-karte-foto-chto-posmotret-razvlecheniya-kuda-shodit17.jpg"
+    },
+    {
+        "name": "Парк «Малинки»",
+        "latitude": 47.745672,
+        "longitude": 40.088963,
+        "photoUrl": "https://atmosferatravel.ru/wp-content/uploads/2023/04/04-2-300x200.jpg"
+    },
+    {
+        "name": "Этно-археологический комплекс «Затерянный Мир»",
+        "latitude": 47.518159,
+        "longitude": 40.610807,
+        "photoUrl": "https://taplink.st/a/9/6/5/d/1f0ccf.jpg?145"
+    },
+    {
+        "name": "Парк Лога в хуторе Старая Станица",
+        "latitude": 48.351304,
+        "longitude": 40.295224,
+        "photoUrl": "https://i.ytimg.com/vi/ZYwsMBVEUj0/mqdefault.jpg"
+    },
+    {
+        "name": "Самбекские высоты",
+        "latitude": 47.317856,
+        "longitude": 39.012731,
+        "photoUrl": "https://sun9-79.userapi.com/impg/8_AXlC8x6NjrQ9d2VwnEmziXy25tcWUGwZUkDA/dbR3_lGR2XU.jpg?size=604x421&quality=95&sign=e0d393b9a6e54399b1f2aaad89627ed3&type=album"
+    },
+    {
+        "name": "Набережная Ростова-на-Дону",
+        "latitude": 47.217242,
+        "longitude": 39.726807,
+        "photoUrl": "https://znakka4estva.ru/uploads/posts/2017-10/thumbs/1507655428_1507555454_rostov.jpg"
+    },
+    {
+        "name": "Ботанический сад ЮФУ",
+        "latitude": 47.231051,
+        "longitude": 39.659632,
+        "photoUrl": "http://tgt.ru/ext_images/982/img_38384510f9489d31503c736c2d550d28"
+    },
+    {
+        "name": "Мемориальный комплекс «Кумженская роща»",
+        "latitude": 47.185104,
+        "longitude": 39.618411,
+        "photoUrl": "https://voicedaily.ru/wp-content/uploads/2022/10/whatsapp-image-2022-10-25-at-12.46.09.jpeg"
+    },
+    {
+        "name": "Заповедник «Золотые горки»",
+        "latitude": 47.441969,
+        "longitude": 40.390649,
+        "photoUrl": "https://southklad.ru/forum/thumb/73944.jpg"
+    },
+    {
+        "name": "Природный парк Цимлянские пески",
+        "latitude": 48.169465,
+        "longitude": 42.676384,
+        "photoUrl": "https://www.tursar.ru/img_mini/img4229_0.jpg"
+    }
 ]
