@@ -39,6 +39,12 @@ class _MapScreenState extends State<MapScreen> {
   }
   @override
   void dispose() {
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.landscapeLeft,
+      DeviceOrientation.landscapeRight,
+      DeviceOrientation.portraitDown,
+    ]);
     _mapController.dispose();
     super.dispose();
   }
@@ -455,6 +461,10 @@ class _ModalBodyViewP extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Запретить переворот экрана
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
       child: Column(
@@ -500,61 +510,68 @@ class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
   final MuseumPoint point;
-  //var box = await Hive.openBox('museumBox');
 
-	@override
-	Widget build(BuildContext context) {
-	  return Padding(
-	    padding: const EdgeInsets.symmetric(vertical: 40),
-	    child: Column(
-	      mainAxisSize: MainAxisSize.min,
-	      children: [
-		Align(
-		  alignment: Alignment.topRight,
-		  child: IconButton(
-		    icon: Icon(Icons.star),
-		    onPressed: () async {
-		      var box = await Hive.openBox('museumBox');
-		      if (box.containsKey(point.id))
-		        box.delete(point.id);
-		      else
-		        box.put(point.id, point.id);
-		      //point.isVisited = !point.isVisited;
-		    },
-		  ),
-		),
-		Image.network(
-		  point.photoUrl,
-		  width: MediaQuery.of(context).size.width,
-		  height: 200,
-		  fit: BoxFit.cover,
-		),
-		const SizedBox(height: 20),
-		Text(point.name, style: const TextStyle(fontSize: 20)),
-		const SizedBox(height: 20),
-		Text(
-		  '${point.latitude}, ${point.longitude}',
-		  style: const TextStyle(
-		    fontSize: 16,
-		    color: Colors.grey,
-		  ),
-		),
-	      ],
-	    ),
-	  );
-	}
+  @override
+  Widget build(BuildContext context) {
+    // Запретить переворот экрана
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 40),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Align(
+            alignment: Alignment.topRight,
+            child: IconButton(
+              icon: Icon(Icons.star),
+              onPressed: () async {
+                var box = await Hive.openBox('museumBox');
+                if (box.containsKey(point.id))
+                  box.delete(point.id);
+                else
+                  box.put(point.id, point.id);
+                //point.isVisited = !point.isVisited;
+              },
+            ),
+          ),
+          Image.network(
+            point.photoUrl,
+            width: MediaQuery.of(context).size.width,
+            height: 200,
+            fit: BoxFit.cover,
+          ),
+          const SizedBox(height: 20),
+          Text(point.name, style: const TextStyle(fontSize: 20)),
+          const SizedBox(height: 20),
+          Text(
+            '${point.latitude}, ${point.longitude}',
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.grey,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
 }
-
 
 class _ModalBodyViewO extends StatelessWidget {
   const _ModalBodyViewO({required this.point});
 
 
   final OutsidePoint point;
-
-
   @override
   Widget build(BuildContext context) {
+    // Запретить переворот экрана
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
+
+
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
       child: Column(
@@ -605,6 +622,10 @@ class _ModalBodyViewH extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Запретить переворот экрана
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+    ]);
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
       child: Column(mainAxisSize: MainAxisSize.min, children: [
