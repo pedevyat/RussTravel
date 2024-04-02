@@ -271,12 +271,7 @@
         "longitude": 158.425708,
         "photoUrl": "https://kamtoday.ru/upload/iblock/4c4/IMG_5294.JPG"
     },
-    {
-        "name": "Сахалинский областной краеведческий музей",
-        "latitude": 46.959025,
-        "longitude": 142.744455,
-        "photoUrl": "https://cs13.pikabu.ru/post_img/big/2021/03/17/5/1615965620179341957.jpg"
-    },
+
     {
         "name": "Иволгинский дацан",
         "latitude": 51.759171,
@@ -907,8 +902,8 @@
   },
   {
     "name": "музей «Дом И. А. Милютина»",
-    "latitude": 37.925378,
-    "longitude": 59.118698,
+    "latitude": 59.118698,
+    "longitude": 37.925378,
     "photoUrl": "https://uroki35.ru/upload/iblock/37b/2.jpeg"
   },
   {
@@ -1699,8 +1694,8 @@
     },
     {
         "name": "Красноярский художественный музей им. В.М. Сурикова",
-        "latitude": 6.011288,
-        "longitude": 92.881615,
+        "latitude": 56.013266,
+        "longitude": 92.889886,
         "photoUrl": "https://sun9-74.userapi.com/impg/L_d1-wfGD1OkHxUmF-lhOc3MtwJJnmyb9mmbUg/RYLrB9fhtUA.jpg?size=604x480&quality=96&sign=b2a45f54052edb68e85c147c4b275eaf&c_uniq_tag=d10wCp-vZUgj0XwY7Aa5EBc803agbcvnMxR8Oa2dJQ8&type=album"
     },
     {
@@ -1825,8 +1820,8 @@
     },
     {
         "name": "Музей «Профессорская квартира»",
-        "latitude": 84.955199,
-        "longitude": 56.467354,
+        "latitude": 56.467354,
+        "longitude": 84.955199,
         "photoUrl": "https://sarpust.ru/wp-content/uploads/2019/12/Professorskaya-kvartira-768x576.jpg"
     },
     {
