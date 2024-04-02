@@ -241,7 +241,7 @@ Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) as
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/museum_points_test.json');
+    final jsonString = await rootBundle.loadString('assets/museum_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
     var box = await Hive.openBox('museumBox');
@@ -318,7 +318,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/out_points_test.json');
+    final jsonString = await rootBundle.loadString('assets/out_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
     var box = await Hive.openBox('outsideBox');
@@ -356,7 +356,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) asy
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/park_points_test.json');
+    final jsonString = await rootBundle.loadString('assets/park_points.json');
     final List<dynamic> pointsData = json.decode(jsonString);
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
     var box = await Hive.openBox('parkBox');
