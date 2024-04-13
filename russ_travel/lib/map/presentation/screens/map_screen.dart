@@ -32,8 +32,7 @@ class _MapScreenState extends State<MapScreen> {
   
   late final YandexMapController _mapController;
   double _mapZoom = 0.0;
-  //late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
-  late final Map<int, List<PlacemarkMapObject>> _placemarkObjectsMap;
+  late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
 
   final GeolocatorPlatform _geolocator = GeolocatorPlatform.instance;
   Position? _currentPosition;
@@ -42,38 +41,8 @@ class _MapScreenState extends State<MapScreen> {
   void initState() {
     super.initState();
     _determinePosition();
-    //_placemarkObjectsFuture = _museumPlacemarkObjects(context);
-    _placemarkObjectsMap = {
-      0: [], // Музеи
-      1: [], // Парки
-      2: [], // Смотровые
-      3: [], // Отели
-    };
-    _loadPlacemarkObjects(0); // Загружаем метки для первой категории (музеи)
+    _placemarkObjectsFuture = _museumPlacemarkObjects(context);
   }
-  void _loadPlacemarkObjects(int categoryIndex) async {
-    List<PlacemarkMapObject> placemarkObjects;
-    switch (categoryIndex) {
-      case 0:
-        placemarkObjects = await _museumPlacemarkObjects(context);
-        break;
-      case 1:
-        placemarkObjects = await _parksPlacemarkObjects(context);
-        break;
-      case 2:
-        placemarkObjects = await _outPlacemarkObjects(context);
-        break;
-      case 3:
-        placemarkObjects = await _hotelsPlacemarkObjects(context);
-        break;
-      default:
-        placemarkObjects = [];
-    }
-    setState(() {
-      _placemarkObjectsMap[categoryIndex] = placemarkObjects;
-    });
-  }
-
   void _determinePosition() async {
     bool serviceEnabled;
     LocationPermission permission;
@@ -130,14 +99,27 @@ class _MapScreenState extends State<MapScreen> {
             onValueChanged: (value) {
               setState(() {
                 _currentIndex = value;
+                switch (value) {
+                  case 0:
+                    _placemarkObjectsFuture = _museumPlacemarkObjects(context);
+                    break;
+                  case 1:
+                    _placemarkObjectsFuture = _parksPlacemarkObjects(context);
+                    break;
+                  case 2:
+                    _placemarkObjectsFuture = _outPlacemarkObjects(context);
+                    break;
+                  case 3:
+                    _placemarkObjectsFuture = _hotelsPlacemarkObjects(context);
+                    break;
+                }
               });
-              _loadPlacemarkObjects(value);
             },
           ),
         ),
       ),
     ),
-      body: _buildMap(),/*FutureBuilder<List<PlacemarkMapObject>>(
+      body: FutureBuilder<List<PlacemarkMapObject>>(
         future: _placemarkObjectsFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
@@ -166,7 +148,7 @@ class _MapScreenState extends State<MapScreen> {
             );
           }
         },
-      ),*/
+      ),
     );
   }
 
@@ -191,24 +173,6 @@ class _MapScreenState extends State<MapScreen> {
           zoom: zoom,
         ),
       ),
-    );
-  }
-
-  Widget _buildMap() {
-    List<PlacemarkMapObject> placemarkObjects = _placemarkObjectsMap[_currentIndex] ?? [];
-    return YandexMap(
-      onMapCreated: (controller) {
-        _mapController = controller;
-        _moveCameraToInitialPosition();
-      },
-      onCameraPositionChanged: (cameraPosition, _, __) {
-        setState(() {
-          _mapZoom = cameraPosition.zoom;
-        });
-      },
-      mapObjects: [
-        _getClusterizedCollection(placemarks: placemarkObjects),
-      ],
     );
   }
 
