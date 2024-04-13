@@ -1,5 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:geolocator/geolocator.dart';
+
 import 'backend.dart';
 
 import 'package:hive/hive.dart';
@@ -32,10 +34,37 @@ class _MapScreenState extends State<MapScreen> {
   double _mapZoom = 0.0;
   late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
 
+  final GeolocatorPlatform _geolocator = GeolocatorPlatform.instance;
+  Position? _currentPosition;
+
   @override
   void initState() {
     super.initState();
+    _determinePosition();
     _placemarkObjectsFuture = _museumPlacemarkObjects(context);
+  }
+  void _determinePosition() async {
+    bool serviceEnabled;
+    LocationPermission permission;
+
+    serviceEnabled = await _geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      return;
+    }
+
+    permission = await _geolocator.requestPermission();
+    if (permission == LocationPermission.denied) {
+      return;
+    }
+
+    if (permission == LocationPermission.deniedForever) {
+      return;
+    }
+
+    final position = await _geolocator.getCurrentPosition();
+    setState(() {
+      _currentPosition = position;
+    });
   }
   @override
   void dispose() {
@@ -124,14 +153,24 @@ class _MapScreenState extends State<MapScreen> {
   }
 
   void _moveCameraToInitialPosition() async {
+    double targetLatitude = 50; // Значение по умолчанию
+    double targetLongitude = 20; // Значение по умолчанию
+    double zoom = 3; // Значение по умолчанию
+
+    if (_currentPosition != null) {
+      targetLatitude = _currentPosition!.latitude;
+      targetLongitude = _currentPosition!.longitude;
+      zoom = 10; // Используем более высокий зум, если есть текущее местоположение
+    }
+
     await _mapController.moveCamera(
       CameraUpdate.newCameraPosition(
-        const CameraPosition(
+        CameraPosition(
           target: Point(
-            latitude: 50,
-            longitude: 20,
+            latitude: targetLatitude,
+            longitude: targetLongitude,
           ),
-          zoom: 3,
+          zoom: zoom,
         ),
       ),
     );
