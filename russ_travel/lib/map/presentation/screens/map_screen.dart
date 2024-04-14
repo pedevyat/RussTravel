@@ -289,10 +289,20 @@ Future<List<Marker>> _getMuseumMarkers(BuildContext context) async {
       markers.add(
         Marker(
           point: LatLng(point.latitude, point.longitude),
-          child: Container( // Add a simple Container as the child
-            width: 40.0,
-            height: 40.0,
-            child: Image.asset('assets/museum.png'),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewM(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/museum.png'),
+            ),
           ),
         ),
       );
@@ -355,10 +365,20 @@ Future<List<Marker>> _getParkMarkers(BuildContext context) async {
       markers.add(
         Marker(
           point: LatLng(point.latitude, point.longitude),
-          child: Container( // Add a simple Container as the child
-            width: 40.0,
-            height: 40.0,
-            child: Image.asset('assets/trees.png'),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewP(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/trees.png'),
+            ),
           ),
         ),
       );
@@ -382,10 +402,20 @@ Future<List<Marker>> _getOutsideMarkers(BuildContext context) async {
       markers.add(
         Marker(
           point: LatLng(point.latitude, point.longitude),
-          child: Container( // Add a simple Container as the child
-            width: 40.0,
-            height: 40.0,
-            child: Image.asset('assets/binoculars.png'),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewO(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/binoculars.png'),
+            ),
           ),
         ),
       );
@@ -410,10 +440,20 @@ Future<List<Marker>> _getHotelMarkers(BuildContext context) async {
       markers.add(
         Marker(
           point: LatLng(point.latitude, point.longitude),
-          child: Container( // Add a simple Container as the child
-            width: 40.0,
-            height: 40.0,
-            child: Image.asset('assets/bed_test.png'),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewH(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/bed_test.png'),
+            ),
           ),
         ),
       );
@@ -485,6 +525,7 @@ class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
   final MuseumPoint point;
+  //final BuildContext context;
 
   @override
   Widget build(BuildContext context) {
@@ -508,7 +549,7 @@ class _ModalBodyViewM extends StatelessWidget {
                   box.delete(point.id);
                 else
                   box.put(point.id, point.id);
-                //point.isVisited = !point.isVisited;
+                Navigator.pop(context);
               },
             ),
           ),
