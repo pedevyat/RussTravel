@@ -13995,6 +13995,935 @@
     "name": "Северная",
     "tourism": "hotel"
   }
+},
+{
+  "type": "node",
+  "id": 927025147,
+  "lat": 54.6385096,
+  "lon": 19.8946834,
+  "tags": {
+    "building": "yes",
+    "name": "Золотой якорь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3688925825,
+  "lat": 54.6263659,
+  "lon": 19.8785110,
+  "tags": {
+    "name": "База",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4700189729,
+  "lat": 54.6795314,
+  "lon": 19.9167623,
+  "tags": {
+    "name": "Золотая орхидея",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4702925657,
+  "lat": 54.6519185,
+  "lon": 19.9155859,
+  "tags": {
+    "name": "Отель \"Жемчужина Балтики\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4705650432,
+  "lat": 54.6402341,
+  "lon": 19.8904298,
+  "tags": {
+    "name": "Валентина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8589488070,
+  "lat": 54.6600191,
+  "lon": 19.8991305,
+  "tags": {
+    "entrance": "yes",
+    "name": "Пилау апарт",
+    "tourism": "hotel",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 763368455,
+  "lat": 54.9457525,
+  "lon": 20.1487261,
+  "tags": {
+    "addr:city": "Светлогорск",
+    "addr:housenumber": "2",
+    "addr:street": "Береговой переулок",
+    "contact:website": "http://grandhotel.ru",
+    "name": "Grand Palace",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 850708083,
+  "lat": 54.9404941,
+  "lon": 20.1461223,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "переулок Сказочника Гофмана",
+    "name": "Дом сказочника",
+    "name:de": "Hoffmann haus",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 850729376,
+  "lat": 54.9436804,
+  "lon": 20.1487782,
+  "tags": {
+    "contact:facebook": "art.hotel.lumiere",
+    "contact:instagram": "lumier.hotel.spa",
+    "contact:vk": "hotel_lumiere",
+    "email": "reception@hotellumier.ru",
+    "name": "Люмьер",
+    "phone": "+7 963 3507750; +7 4012 507750",
+    "tourism": "hotel",
+    "website": "https://hotellumier.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 850777960,
+  "lat": 54.9414023,
+  "lon": 20.1584102,
+  "tags": {
+    "addr:city": "Светлогорск",
+    "addr:housenumber": "17",
+    "addr:street": "улица Гагарина",
+    "leisure": "resort",
+    "name": "Санаторий «Светлогорск»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 856644737,
+  "lat": 54.9454904,
+  "lon": 20.1653474,
+  "tags": {
+    "name": "пансионат Балтика",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 858500694,
+  "lat": 54.9408666,
+  "lon": 20.1665913,
+  "tags": {
+    "name": "Балтийская жемчужина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 858733246,
+  "lat": 54.9434739,
+  "lon": 20.1032389,
+  "tags": {
+    "name": "СОЛ КГТУ Отрадное",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 858794122,
+  "lat": 54.9450525,
+  "lon": 20.1538043,
+  "tags": {
+    "full_name": "гостиница Лазурный берег",
+    "name": "Лазурный берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 858801955,
+  "lat": 54.9426851,
+  "lon": 20.1595546,
+  "tags": {
+    "addr:city": "Светлогорск",
+    "addr:housenumber": "23",
+    "addr:street": "улица Гагарина",
+    "name": "Старый дуб",
+    "old_name": "база отдыха Факел",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 859026929,
+  "lat": 54.9392386,
+  "lon": 20.1591385,
+  "tags": {
+    "addr:city": "Светлогорск",
+    "addr:housenumber": "2",
+    "addr:street": "Балтийская улица",
+    "brand": "http://sanatoriy39.ru/",
+    "internet_access": "yes",
+    "name": "Санаторий-профилакторий \"Энергетик\"",
+    "rooms": "7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 859054970,
+  "lat": 54.9415995,
+  "lon": 20.1453504,
+  "tags": {
+    "contact:vk": "public113468220",
+    "email": "hotel-flamingo39@yandex.ru",
+    "fax": "+7 4012 743725",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Фламинго",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_electron": "yes",
+    "phone": "+7 4012 743725; +7 4012 743728; +7 909 7752272",
+    "tourism": "hotel",
+    "website": "https://hotel-flamingo.ru/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 859058732,
+  "lat": 54.9482747,
+  "lon": 20.1711265,
+  "tags": {
+    "name": "детский лагерь им. А.П.Гайдара",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 941200770,
+  "lat": 54.9480550,
+  "lon": 20.0114828,
+  "tags": {
+    "name": "Турбаза ДКБФ \"Янтарный берег\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1363577130,
+  "lat": 54.9394122,
+  "lon": 20.1371356,
+  "tags": {
+    "addr:country": "RU",
+    "email": "villa-alita@mail.ru",
+    "name": "Вилла-Алита",
+    "phone": "+7 906 2114519",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2370272848,
+  "lat": 54.9626745,
+  "lon": 20.4834558,
+  "tags": {
+    "name": "Amore",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2405296498,
+  "lat": 54.9185566,
+  "lon": 20.1766918,
+  "tags": {
+    "name": "Villa Severin Holiday Village",
+    "source": "http://www.hotelscombined.cz/Hotel/Villa_Severin.htm",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2978799522,
+  "lat": 54.9599977,
+  "lon": 20.4841574,
+  "tags": {
+    "name": "Геркулес",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3200987339,
+  "lat": 54.9421700,
+  "lon": 20.0384980,
+  "tags": {
+    "name": "Приморье",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3523515203,
+  "lat": 54.9493883,
+  "lon": 20.2240710,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4331844589,
+  "lat": 54.9555037,
+  "lon": 20.4583430,
+  "tags": {
+    "name": "Строитель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4379598600,
+  "lat": 54.9654313,
+  "lon": 20.4894268,
+  "tags": {
+    "addr:housenumber": "24Г",
+    "addr:street": "улица Володарского",
+    "name": "Золотые пески",
+    "name:ru": "Золотые пески",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4694370262,
+  "lat": 54.9594626,
+  "lon": 20.4778257,
+  "tags": {
+    "name": "Элиза Инн",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6764189363,
+  "lat": 54.9644669,
+  "lon": 20.4855267,
+  "tags": {
+    "name": "Exclusive apartments",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8614111419,
+  "lat": 54.9430231,
+  "lon": 20.1340127,
+  "tags": {
+    "name": "Санаторий \"Янтарный берег\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8614115617,
+  "lat": 54.9430215,
+  "lon": 20.1339981,
+  "tags": {
+    "name": "Янтарный берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8941330317,
+  "lat": 54.9367075,
+  "lon": 20.1635512,
+  "tags": {
+    "addr:housenumber": "20",
+    "addr:street": "Железнодорожный переулок",
+    "internet_access": "wlan",
+    "name:en": "Whale apart",
+    "opening_hours": "24/7",
+    "phone": "+79114516021",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9016936138,
+  "lat": 54.9471270,
+  "lon": 20.1680497,
+  "tags": {
+    "air_conditioning": "no",
+    "bar": "no",
+    "brand": "Sunny Svetlogorsk",
+    "email": "balticahouse@mail.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "internet_access:ssid": "406",
+    "level": "3",
+    "name": "Sunny Svetlogorsk 22",
+    "payment:cash": "yes",
+    "phone": "+7 909 7815546",
+    "rooms": "1",
+    "tourism": "hotel",
+    "website": "https://balt-apartments.ru/shop/vitrina1/sunny-svetlogorsk-22.html",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9724122117,
+  "lat": 54.9437786,
+  "lon": 20.1599160,
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "улица Ленина",
+    "name:en": "Karmann’s",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9891902617,
+  "lat": 54.9620550,
+  "lon": 20.4967322,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Большая Окружная улица",
+    "check_date": "2023-09-03",
+    "name:en": "GreenDorf HOTEL&SPA",
+    "phone": "+74012210110",
+    "tourism": "hotel",
+    "website": "https://greendorf.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 10130275949,
+  "lat": 54.9310879,
+  "lon": 20.3295992,
+  "tags": {
+    "addr:city": "Куликово",
+    "addr:housenumber": "6Г",
+    "addr:street": "Лесная улица",
+    "name": "Флюгер",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10130388013,
+  "lat": 54.9323318,
+  "lon": 20.3349887,
+  "tags": {
+    "addr:city": "Куликово",
+    "addr:housenumber": "18",
+    "addr:street": "Лесная улица",
+    "name": "Вилла Apart39",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10130389518,
+  "lat": 54.9305627,
+  "lon": 20.3395160,
+  "tags": {
+    "addr:city": "Куликово",
+    "addr:housenumber": "17",
+    "addr:street": "Сосновая улица",
+    "name": "Гостевой дом Ритенбург",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10130389567,
+  "lat": 54.9332853,
+  "lon": 20.3414948,
+  "tags": {
+    "addr:city": "Куликово",
+    "addr:housenumber": "113",
+    "addr:street": "1-я Магистральная улица",
+    "name": "Гостиница",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10130431451,
+  "lat": 54.9327859,
+  "lon": 20.3548931,
+  "tags": {
+    "addr:city": "Куликово",
+    "addr:housenumber": "287",
+    "addr:street": "Курортная улица",
+    "name": "Лайна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10132321877,
+  "lat": 54.9526691,
+  "lon": 20.1880496,
+  "tags": {
+    "addr:city": "Рыбное",
+    "addr:housenumber": "25",
+    "addr:street": "Липовая аллея",
+    "name": "Дикий берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10878437126,
+  "lat": 54.9458243,
+  "lon": 20.1493378,
+  "tags": {
+    "air_conditioning": "no",
+    "check_date": "2023-05-08",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Зеештерн",
+    "tourism": "hotel",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11164692507,
+  "lat": 54.9615348,
+  "lon": 20.4822740,
+  "tags": {
+    "check_date": "2023-09-03",
+    "name": "Мистер Юстс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 518447378,
+  "lat": 54.7237253,
+  "lon": 20.4900093,
+  "tags": {
+    "name": "Черепаха",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 550413143,
+  "lat": 54.7216355,
+  "lon": 20.4195685,
+  "tags": {
+    "name": "Гостевой дом \"Анна\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 735177122,
+  "lat": 54.6983580,
+  "lon": 20.5552228,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1124599321,
+  "lat": 54.6801582,
+  "lon": 20.4829934,
+  "tags": {
+    "name": "Прусссия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1193845841,
+  "lat": 54.7349126,
+  "lon": 20.4742524,
+  "tags": {
+    "addr:postcode": "236023",
+    "internet_access": "wlan",
+    "name": "Гладиатор",
+    "name:en": "Gladiator",
+    "opening_hours": "24/7",
+    "phone": "+7 4012 213258",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1238547174,
+  "lat": 54.7074142,
+  "lon": 20.6169103,
+  "tags": {
+    "name": "Hotel Baltika",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1354233533,
+  "lat": 54.7120400,
+  "lon": 20.5093499,
+  "tags": {
+    "addr:city": "Калининград",
+    "addr:country": "RU",
+    "addr:housenumber": "81",
+    "addr:postcode": "236040",
+    "addr:street": "Ленинский проспект",
+    "contact:email": "rezerv@hotel.kaliningrad.ru",
+    "contact:phone": "8 (4012) 536-021",
+    "contact:website": "http://hotel.kaliningrad.ru/",
+    "entrance": "main",
+    "internet_access": "wlan",
+    "name": "Калининград",
+    "name:de": "Hotel Kaliningrad",
+    "name:en": "Kaliningrad",
+    "name:ru": "Калининград",
+    "opening_hours": "24/7",
+    "rooms": "206",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1419122616,
+  "lat": 54.7317687,
+  "lon": 20.5310994,
+  "tags": {
+    "name": "Турист",
+    "name:en": "Tourist",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1732701858,
+  "lat": 54.7198960,
+  "lon": 20.5048151,
+  "tags": {
+    "brand": "Raddison Blu",
+    "email": "info.kaliningrad@radissonblu.com",
+    "fax": "+7 4012 593345",
+    "name": "Рэдиссон Калининград",
+    "name:en": "Radisson Blu Hotel, Kaliningrad",
+    "operator": "Рэдиссон",
+    "phone": "+7 4012 593344",
+    "tourism": "hotel",
+    "website": "http://www.radisson.ru/hotel-kaliningrad"
+  }
+},
+{
+  "type": "node",
+  "id": 2405291871,
+  "lat": 54.7319213,
+  "lon": 20.5211091,
+  "tags": {
+    "name": "Villa Severin",
+    "source": "http://www.villa-severin.ru/",
+    "tourism": "hotel",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3158291833,
+  "lat": 54.6972367,
+  "lon": 20.5084665,
+  "tags": {
+    "addr:city": "Калининград",
+    "addr:housenumber": "53",
+    "addr:postcode": "236039",
+    "addr:street": "улица Богдана Хмельницкого",
+    "email": "goldbuhta@slavhotels.ru",
+    "fax": "8 (4012) 645-777",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Золотая бухта",
+    "operator": "Гостиничный комплекс \"Славянка\"",
+    "phone": "8 (4012) 645-777",
+    "reservation": "yes",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://z-buhta-slavhotels.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4321402736,
+  "lat": 54.7430547,
+  "lon": 20.5136209,
+  "tags": {
+    "addr:housenumber": "2Б",
+    "addr:street": "улица Демьяна Бедного",
+    "description": "24x7",
+    "name": "Votre Maison",
+    "phone": "+7 4012 780078;+7 981 4780078",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4422719690,
+  "lat": 54.7476750,
+  "lon": 20.5251254,
+  "tags": {
+    "name": "Ашман",
+    "name:ru": "Нордберг",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4448663192,
+  "lat": 54.6690120,
+  "lon": 20.4250094,
+  "tags": {
+    "name": "Зеркальный Карп",
+    "name:en": "Zerkalny Karp",
+    "name:ru": "Зеркальный Карп",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4704261690,
+  "lat": 54.7203011,
+  "lon": 20.5490773,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4757747819,
+  "lat": 54.7179387,
+  "lon": 20.5067357,
+  "tags": {
+    "addr:city": "Калиининград",
+    "addr:housenumber": "8",
+    "addr:postcode": "236040",
+    "addr:street": "улица Подполковника Иванникова",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Орион",
+    "rooms": "7",
+    "smoking": "no",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4945723822,
+  "lat": 54.7476503,
+  "lon": 20.5250021,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5043065422,
+  "lat": 54.7364532,
+  "lon": 20.5061714,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5506781945,
+  "lat": 54.7102414,
+  "lon": 20.5471909,
+  "tags": {
+    "email": "marton-olimpic@mail.ru",
+    "entrance": "yes",
+    "name": "Мартон Олимпик",
+    "name:en": "Marton Olimpic",
+    "name:ru": "Мартон Олимпик",
+    "payment:coins": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:notes": "yes",
+    "payment:visa": "yes",
+    "phone": "+7 4012 580010;+7 4012 580040;+7 800 7772155",
+    "tourism": "hotel",
+    "website": "http://hotel-marton.ru/kaliningrad/marton-olimpic/"
+  }
+},
+{
+  "type": "node",
+  "id": 5846398488,
+  "lat": 54.7062269,
+  "lon": 20.5171783,
+  "tags": {
+    "addr:postcode": "236000",
+    "name": "У Медового моста",
+    "name:en": "Honey Bridge Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6578243465,
+  "lat": 54.7652315,
+  "lon": 20.4450068,
+  "tags": {
+    "name": "Чикаго",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6618571485,
+  "lat": 54.7059292,
+  "lon": 20.5431361,
+  "tags": {
+    "addr:postcode": "236003",
+    "email": "riversidehotel@mail.ru",
+    "internet_access": "wlan",
+    "name": "Отель RiverSide",
+    "name:en": "RiverSide hotel",
+    "opening_hours": "24/7",
+    "phone": "663002",
+    "tourism": "hotel",
+    "website": "https://riverside-relax.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 6655202851,
+  "lat": 54.7195576,
+  "lon": 20.5242248,
+  "tags": {
+    "description": "завтрак - шведский стол",
+    "email": "reception@hoteldona.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Дона",
+    "operator": "AGroup",
+    "phone": "+7 (4012) 35-16-50",
+    "rooms": "30",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://ageevgroup.ru/hotels/dona/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6725686329,
+  "lat": 54.7215452,
+  "lon": 20.5165215,
+  "tags": {
+    "brand": "Mercure",
+    "brand:wikidata": "Q1709809",
+    "name": "Mercure",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6945433886,
+  "lat": 54.7174222,
+  "lon": 20.5003850,
+  "tags": {
+    "email": "info@hoteleuropa.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Европа",
+    "operator": "Европа-отель",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "payment:visa_electron": "yes",
+    "rooms": "80",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://www.hoteleuropa.ru/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7772161885,
+  "lat": 54.7245057,
+  "lon": 20.5080677,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Шерлок",
+    "name:en": "Sherlock",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8738029619,
+  "lat": 54.7105761,
+  "lon": 20.5058217,
+  "tags": {
+    "name": "Коперник",
+    "name:en": "Kopernik",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9222061806,
+  "lat": 54.7197313,
+  "lon": 20.4872569,
+  "tags": {
+    "contact:facebook": "https://www.facebook.com/hotelmoskva.info",
+    "contact:tripadvisor": "http://www.tripadvisor.ru/Hotel_Review-g298500-d300487-Reviews-Moskva_Moscow_Hotel-Kaliningrad_Kaliningrad_Oblast_Northwestern_District.html",
+    "contact:vk": "http://vk.com/public71493170",
+    "email": "welcomemsk@hotel.kaliningrad.ru",
+    "name": "Москва",
+    "opening_hours": "24/7",
+    "phone": "+7 4012 352300",
+    "tourism": "hotel",
+    "website": "http://hotelmoskva.info/"
+  }
+},
+{
+  "type": "node",
+  "id": 5048447427,
+  "lat": 55.0811151,
+  "lon": 21.8790542,
+  "tags": {
+    "tourism": "hotel"
+  }
 }
   ]
 }
