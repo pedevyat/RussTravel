@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-app = FastAPI(title="RussTravel")
+app = FastAPI()
 
-@app.get("/users")
-def get_user():
-    return {"user"}
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
