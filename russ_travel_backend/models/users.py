@@ -3,7 +3,6 @@ from sqlalchemy.dialects.postgresql import UUID
 
 metadata = sqlalchemy.MetaData()
 
-
 users_table = sqlalchemy.Table(
     "users",
     metadata,
@@ -12,7 +11,6 @@ users_table = sqlalchemy.Table(
     sqlalchemy.Column("name", sqlalchemy.String(100)),
     sqlalchemy.Column("hashed_password", sqlalchemy.String())
 )
-
 
 # tokens_table = sqlalchemy.Table(
 #     "tokens",
