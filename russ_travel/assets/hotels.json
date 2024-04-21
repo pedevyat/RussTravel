@@ -14924,6 +14924,1252 @@
   "tags": {
     "tourism": "hotel"
   }
+},
+{
+  "type": "node",
+  "id": 559060328,
+  "lat": 47.2559970,
+  "lon": 39.7168939,
+  "tags": {
+    "name": "Вертол",
+    "name:en": "Vertol",
+    "name:ru": "Вертол",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 598052979,
+  "lat": 47.2494320,
+  "lon": 38.9350906,
+  "tags": {
+    "addr:housenumber": "2Д",
+    "addr:postcode": "347909",
+    "addr:street": "улица Бабушкина",
+    "name": "Гостиница «Приазовье»",
+    "name:en": "Hotel \"Priazovye\"",
+    "name:ru": "Гостиница «Приазовье»",
+    "phone": "(8634) 32-00-15",
+    "tourism": "hotel",
+    "website": "https://priazovie-spa.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 654006471,
+  "lat": 47.1380461,
+  "lon": 39.7482814,
+  "tags": {
+    "name": "Славянский",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 727308676,
+  "lat": 47.1642602,
+  "lon": 39.3465734,
+  "tags": {
+    "name": "Рогожкино",
+    "tourism": "hotel",
+    "website": "http://rogojkino.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 804199313,
+  "lat": 47.2074996,
+  "lon": 38.9500200,
+  "tags": {
+    "addr:city": "Таганрог",
+    "addr:housenumber": "1-2",
+    "addr:street": "Портовая улица",
+    "name": "Темиринда",
+    "name:de": "Temirinda",
+    "name:en": "Temirinda",
+    "name:ru": "Темиринда",
+    "phone": "+ 7 (8634) 321-122",
+    "tourism": "hotel",
+    "website": "http://www.temirinda.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 804222389,
+  "lat": 47.2530589,
+  "lon": 38.9346991,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 804251758,
+  "lat": 47.2155790,
+  "lon": 38.9224022,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 819639310,
+  "lat": 47.8134351,
+  "lon": 38.9072813,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 877262947,
+  "lat": 47.2204913,
+  "lon": 39.6355492,
+  "tags": {
+    "name": "Западная",
+    "tourism": "hotel",
+    "website": "http://www.zapadhotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 921232429,
+  "lat": 47.2133102,
+  "lon": 39.8060805,
+  "tags": {
+    "name": "Лебердон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 924165542,
+  "lat": 47.2667818,
+  "lon": 39.8557960,
+  "tags": {
+    "name": "Майдан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1042879465,
+  "lat": 47.1994035,
+  "lon": 38.8872723,
+  "tags": {
+    "name": "Гостиница Ассоль",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1124745535,
+  "lat": 47.2891209,
+  "lon": 39.8502325,
+  "tags": {
+    "name": "«Евразия-Аксай»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1130924353,
+  "lat": 47.5058290,
+  "lon": 40.7619018,
+  "tags": {
+    "name": "дом Рыбака",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1156270437,
+  "lat": 47.7121456,
+  "lon": 40.2074968,
+  "tags": {
+    "name": "Горняк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1156273813,
+  "lat": 47.7151420,
+  "lon": 40.2084457,
+  "tags": {
+    "name": "Восток",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1156277260,
+  "lat": 47.7157677,
+  "lon": 40.2300829,
+  "tags": {
+    "name": "Кузбасс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1283892700,
+  "lat": 47.7118753,
+  "lon": 40.1433395,
+  "tags": {
+    "name": "Гостиница \"Дио Лакруа\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1343123655,
+  "lat": 47.6393584,
+  "lon": 40.8726172,
+  "tags": {
+    "addr:city": "Усть-Донецкий",
+    "addr:housenumber": "1",
+    "addr:street": "улица Ленина",
+    "name": "Волна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1474889259,
+  "lat": 47.2215031,
+  "lon": 39.7185685,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:country": "RU",
+    "addr:housenumber": "41/112",
+    "addr:postcode": "344002",
+    "addr:street": "Ворошиловский проспект",
+    "email": "hoteleurope@aaanet.ru",
+    "internet_access:fee": "yes",
+    "name": "Европа",
+    "name:de": "Europa",
+    "name:en": "Europe",
+    "name:ru": "Европа",
+    "phone": "+78632008001",
+    "tourism": "hotel",
+    "website": "https://europahotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 1476170912,
+  "lat": 47.2207489,
+  "lon": 39.7147525,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:country": "RU",
+    "addr:housenumber": "90",
+    "addr:street": "улица Шаумяна",
+    "email": "rose@hotelparkcity.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Парк Сити Rose",
+    "opening_hours": "24/7",
+    "phone": "+7 863 2888222",
+    "tourism": "hotel",
+    "website": "http://www.hotelparkcity.ru/hotels/park-city-rose/"
+  }
+},
+{
+  "type": "node",
+  "id": 1555930371,
+  "lat": 47.4122110,
+  "lon": 40.2577129,
+  "tags": {
+    "name": "Огонёк",
+    "name:ru": "Огонёк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1719192194,
+  "lat": 47.2191525,
+  "lon": 39.6847563,
+  "tags": {
+    "name": "Нимфа",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1831242965,
+  "lat": 47.2262553,
+  "lon": 39.7751916,
+  "tags": {
+    "name": "M&G Holl",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2066640248,
+  "lat": 47.1860648,
+  "lon": 39.8699640,
+  "tags": {
+    "name": "Мираж",
+    "source": "+78632487575",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2099666775,
+  "lat": 47.2493608,
+  "lon": 39.7350554,
+  "tags": {
+    "addr:housenumber": "98",
+    "addr:street": "проспект Ленина",
+    "name": "Ростов",
+    "phone": "+7 (863) 279-61-61",
+    "tourism": "hotel",
+    "website": "https://www.paradise-rostov.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 2228669864,
+  "lat": 47.7095859,
+  "lon": 40.1512568,
+  "tags": {
+    "name": "Замок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2284935349,
+  "lat": 47.2597123,
+  "lon": 39.8512315,
+  "tags": {
+    "name": "«Аксу»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2299496761,
+  "lat": 47.2500748,
+  "lon": 39.6848955,
+  "tags": {
+    "addr:housenumber": "19Б",
+    "addr:street": "проспект Ленина",
+    "name": "Радуга",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2615179073,
+  "lat": 47.2661961,
+  "lon": 39.7209951,
+  "tags": {
+    "fax": "+7 863 2310047",
+    "name": "Villa de Ville",
+    "phone": "+7 863 2310041",
+    "tourism": "hotel",
+    "website": "http://villadeville.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2965673681,
+  "lat": 47.2633619,
+  "lon": 39.7956926,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "45",
+    "addr:street": "Можайская улица",
+    "name": "Отель «На Зеленой»",
+    "phone": "8 (863) 300-28-62",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3080858670,
+  "lat": 47.2180857,
+  "lon": 39.6159905,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Гостиница Альфа",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3150479895,
+  "lat": 47.1285533,
+  "lon": 39.8783979,
+  "tags": {
+    "name": "Дилижанс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3234975029,
+  "lat": 47.2725393,
+  "lon": 39.7052868,
+  "tags": {
+    "name": "Крепость",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3241159847,
+  "lat": 47.2330316,
+  "lon": 39.6990800,
+  "tags": {
+    "name": "Островский",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3248908098,
+  "lat": 47.2326321,
+  "lon": 39.6961884,
+  "tags": {
+    "contact:phone": "8 928 9022288",
+    "contact:phone2": "8 863 2290431",
+    "description": "час, сутки",
+    "name": "Ростов-61",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3429300976,
+  "lat": 47.2119828,
+  "lon": 38.9347252,
+  "tags": {
+    "addr:city": "Таганрог",
+    "addr:housenumber": "64",
+    "addr:street": "Петровская улица",
+    "name": "Гостиница «Бристоль»",
+    "name:en": "Bristol Hotel",
+    "name:ru": "Гостиница «Бристоль»",
+    "name:uk": "Готель «Брістоль»",
+    "phone": "(8634) 38-30-22",
+    "tourism": "hotel",
+    "website": "http://bristolhotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 3542712005,
+  "lat": 47.2718390,
+  "lon": 39.7531650,
+  "tags": {
+    "name": "Лотос",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3729403205,
+  "lat": 47.2776008,
+  "lon": 39.8027931,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3731383532,
+  "lat": 47.2378657,
+  "lon": 39.6168615,
+  "tags": {
+    "addr:housenumber": "144/25",
+    "addr:street": "улица Доватора",
+    "name": "Магнолия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3737981035,
+  "lat": 47.7630130,
+  "lon": 39.9396594,
+  "tags": {
+    "addr:city": "Новошахтинск",
+    "addr:housenumber": "52",
+    "addr:street": "проспект Ленина",
+    "name": "Гостиница «Заря»",
+    "name:de": "Hotel Sarja",
+    "name:en": "Hotel Zarya",
+    "name:ru": "Гостиница «Заря»",
+    "name:uk": "Готель «Зоря»",
+    "phone": "8(86369)-2-08-09",
+    "tourism": "hotel",
+    "website": "https://zaria.ucoz.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 3789756054,
+  "lat": 47.2762434,
+  "lon": 39.7859412,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "13/92",
+    "addr:province": "Ростовская область",
+    "addr:street": "Лесозащитная улица",
+    "name": "Кокос",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3804673878,
+  "lat": 47.2159633,
+  "lon": 39.7116575,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "32",
+    "addr:street": "Тургеневская улица",
+    "name": "Старый Ростов",
+    "name:de": "Stary Rostow",
+    "name:en": "Stary Rostov",
+    "name:ru": "Старый Ростов",
+    "phone": "8 (863) 269 83 30",
+    "tourism": "hotel",
+    "website": "https://www.stariyrostov.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 3893015325,
+  "lat": 47.2143172,
+  "lon": 38.9344238,
+  "tags": {
+    "addr:city": "Таганрог",
+    "addr:housenumber": "76",
+    "addr:postcode": "347900",
+    "addr:street": "Греческая улица",
+    "name": "Бутик-отель Варваци",
+    "name:ru": "Бутик-отель Варваци",
+    "phone": "8 (8634) 319-001",
+    "tourism": "hotel",
+    "website": "http://www.varvaci.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4107340416,
+  "lat": 47.2311880,
+  "lon": 39.7653780,
+  "tags": {
+    "bar": "yes",
+    "internet_access": "wlan",
+    "name": "Севан Плаза",
+    "name:en": "Sevan Plaza",
+    "name:ru": "Севан Плаза",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "http://www.sevan-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4233370989,
+  "lat": 47.2275293,
+  "lon": 39.7130882,
+  "tags": {
+    "email": "hi@hotelnabokov.com",
+    "internet_access": "wlan",
+    "name": "Лофт Отель Набоков",
+    "opening_hours": "24/7",
+    "operator": "Никита Погодин",
+    "phone": "+7 (928) 270-60-04",
+    "tourism": "hotel",
+    "website": "https://nabokov-loft.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4238898763,
+  "lat": 47.2122207,
+  "lon": 39.7522432,
+  "tags": {
+    "addr:housenumber": "39",
+    "addr:street": "Левобережная улица",
+    "name": "Султан СПА",
+    "phone": "+7 (863) 30-30-710",
+    "tourism": "hotel",
+    "website": "https://sultanspa.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4284707890,
+  "lat": 47.2113547,
+  "lon": 39.6590220,
+  "tags": {
+    "name": "Marton",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4343036689,
+  "lat": 47.5394735,
+  "lon": 40.8061888,
+  "tags": {
+    "addr:city": "Семикаракорск",
+    "addr:housenumber": "16",
+    "addr:street": "Портовая улица",
+    "name": "БАРКАС Гостиница",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4347909092,
+  "lat": 47.2117408,
+  "lon": 39.6006402,
+  "tags": {
+    "addr:housenumber": "320",
+    "addr:street": "проспект Стачки",
+    "name": "Отель \"Стачки 320\"",
+    "opening_hours": "24/7",
+    "phone": "2701947",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4415295782,
+  "lat": 47.6903062,
+  "lon": 40.0819073,
+  "tags": {
+    "name": "Вирго",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4417660420,
+  "lat": 47.2091310,
+  "lon": 38.8891341,
+  "tags": {
+    "name": "Николь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4490986989,
+  "lat": 47.2430623,
+  "lon": 39.7668260,
+  "tags": {
+    "addr:postcode": "344030",
+    "internet_access": "wlan",
+    "name:en": "Villa Rio",
+    "opening_hours": "24/7",
+    "phone": "+7 (863) 2831101",
+    "tourism": "hotel",
+    "website": "http://www.отели-марченко.рф"
+  }
+},
+{
+  "type": "node",
+  "id": 4912812548,
+  "lat": 47.3752274,
+  "lon": 40.4112148,
+  "tags": {
+    "leisure": "resort",
+    "name": "База отдыха НПИ",
+    "resort": "recreation_center",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5022913609,
+  "lat": 47.2119377,
+  "lon": 39.6034196,
+  "tags": {
+    "name": "Алиби",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5087935728,
+  "lat": 47.2864634,
+  "lon": 39.7580849,
+  "tags": {
+    "addr:housenumber": "118",
+    "addr:postcode": "344065",
+    "addr:street": "Днепровский переулок",
+    "name": "Общежитие пединститута ЮФУ",
+    "name:ru": "Общежитие пединститута ЮФУ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5140715690,
+  "lat": 47.2081261,
+  "lon": 38.8932166,
+  "tags": {
+    "addr:city": "Таганрог",
+    "addr:housenumber": "125",
+    "addr:street": "10-й переулок",
+    "name": "ТАвиа",
+    "operator": "ТАНТК им. Бериева",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5219270630,
+  "lat": 47.2945518,
+  "lon": 39.6584552,
+  "tags": {
+    "description": "номера для некурящих",
+    "name": "Вояж",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5620198121,
+  "lat": 47.2176725,
+  "lon": 39.6464722,
+  "tags": {
+    "email": "tesoro.hotel@yandex.ru",
+    "name": "Тесоро",
+    "name:en": "Hotel Tesoro",
+    "phone": "+7 (863) 210-90-10;+7 (863) 210-00-01;+7 (928) 100-84-85;+7 (928) 111-45-95",
+    "tourism": "hotel",
+    "website": "https://tesoro-hotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 5664676603,
+  "lat": 47.2652456,
+  "lon": 39.7217747,
+  "tags": {
+    "name": "Лимонадный Джо",
+    "tourism": "hotel",
+    "website": "http://limonadnijo.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 5834096988,
+  "lat": 47.3568669,
+  "lon": 39.8759092,
+  "tags": {
+    "name": "Апартаменты Рассвет",
+    "phone": "+7 950 861 52 88",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5938515560,
+  "lat": 47.2502902,
+  "lon": 39.7666981,
+  "tags": {
+    "contact:phone": "+7 863 2960084;+7 938 1513208",
+    "internet_access": "wlan",
+    "name": "Мини-отель \"Гранат\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5981905417,
+  "lat": 47.2531224,
+  "lon": 39.7728541,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "55",
+    "addr:street": "улица Просвещения",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Апарт отель Грин Холл",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5982744772,
+  "lat": 47.2255339,
+  "lon": 39.7439719,
+  "tags": {
+    "name": "Отель Театральный",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5982754258,
+  "lat": 47.2380573,
+  "lon": 39.7641226,
+  "tags": {
+    "name": "Селена",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6283658739,
+  "lat": 47.2172286,
+  "lon": 38.8125705,
+  "tags": {
+    "addr:city": "Таганрог",
+    "addr:housenumber": "54Г",
+    "addr:postcode": "347939",
+    "addr:street": "Мариупольское шоссе",
+    "brand": "Загородный клуб \"Golden Horse\"",
+    "email": "goldenhorsetag@mail.ru",
+    "internet_access": "wlan",
+    "level": "1",
+    "name": "Загородный клуб \"Golden Horse\"",
+    "payment:cash": "yes",
+    "phone": "89889526776",
+    "rooms": "12",
+    "tourism": "hotel",
+    "website": "https://goldenhorse161.ru/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 6550971986,
+  "lat": 47.2204012,
+  "lon": 39.7130597,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6550982885,
+  "lat": 47.2199443,
+  "lon": 39.7134027,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6551031685,
+  "lat": 47.2240178,
+  "lon": 39.7150918,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6637693208,
+  "lat": 47.0602961,
+  "lon": 39.4406739,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6642523085,
+  "lat": 47.2208668,
+  "lon": 39.7141078,
+  "tags": {
+    "addr:housenumber": "57",
+    "addr:street": "улица Шаумяна",
+    "internet_access": "wlan",
+    "name": "Анри",
+    "name:en": "Anry",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6649620491,
+  "lat": 47.1185272,
+  "lon": 39.4174782,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6649803285,
+  "lat": 47.1177781,
+  "lon": 39.4120947,
+  "tags": {
+    "name": "Прибой",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6717868226,
+  "lat": 47.2242171,
+  "lon": 39.6118142,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "4",
+    "addr:postcode": "344091",
+    "addr:street": "4-й Глазурный переулок",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Шале Ростов",
+    "name:en": "Chalet Rostov",
+    "phone": "+78632378577",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6787563485,
+  "lat": 47.1160877,
+  "lon": 39.8546138,
+  "tags": {
+    "name": "Вилена",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6808409785,
+  "lat": 47.6752769,
+  "lon": 40.0675398,
+  "tags": {
+    "name": "Колос",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6937689385,
+  "lat": 47.2891836,
+  "lon": 39.8504659,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7780121885,
+  "lat": 47.2450817,
+  "lon": 39.6878565,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7810965011,
+  "lat": 47.2546758,
+  "lon": 39.6135445,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "67",
+    "addr:street": "улица Малиновского",
+    "name": "Либхабер",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8116880046,
+  "lat": 47.2644314,
+  "lon": 39.8539620,
+  "tags": {
+    "addr:city": "Аксай",
+    "addr:housenumber": "34",
+    "addr:postcode": "346720",
+    "addr:street": "Западная улица",
+    "brand": "Парк-отель «Аксай»",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Парк-отель «Аксай»",
+    "rooms": "18",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8305243617,
+  "lat": 47.7534188,
+  "lon": 40.1440272,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Кукуруза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8346348417,
+  "lat": 47.2195973,
+  "lon": 39.6447514,
+  "tags": {
+    "addr:housenumber": "51/114",
+    "addr:postcode": "344090",
+    "email": "vrostovezhit@gmail.com",
+    "internet_access": "wlan",
+    "name": "Мини-отель «В Ростове Жить»",
+    "name:en": "Hotel “Live in Rostov”",
+    "opening_hours": "24/7",
+    "phone": "+79081930903",
+    "tourism": "hotel",
+    "website": "https://vrostovezhit.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8652506317,
+  "lat": 47.2236197,
+  "lon": 39.7260438,
+  "tags": {
+    "name": "Арка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8705247625,
+  "lat": 47.2497195,
+  "lon": 39.6615424,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "2К",
+    "addr:street": "Природная улица",
+    "internet_access": "yes",
+    "internet_access:fee": "customers",
+    "name": "Каштан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8990714117,
+  "lat": 47.4026592,
+  "lon": 40.0549203,
+  "tags": {
+    "name": "Вояж",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9041309856,
+  "lat": 47.2197037,
+  "lon": 38.9376602,
+  "tags": {
+    "addr:city": "Таганрог",
+    "addr:housenumber": "2А",
+    "addr:street": "улица Адмирала Крюйса",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9098858670,
+  "lat": 47.3596068,
+  "lon": 39.8853011,
+  "tags": {
+    "mobile": "+7 (938) 408-95-06",
+    "name": "FAMILY HOTEL",
+    "phone": "+7 (938) 408-95-06",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9343174805,
+  "lat": 47.1387342,
+  "lon": 39.7549119,
+  "tags": {
+    "name": "Отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9343699111,
+  "lat": 47.1116105,
+  "lon": 39.7457292,
+  "tags": {
+    "name": "Панфилов",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9346768289,
+  "lat": 47.1542932,
+  "lon": 39.7692997,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9346782750,
+  "lat": 47.1544558,
+  "lon": 39.7710490,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9832995123,
+  "lat": 47.2267000,
+  "lon": 39.7360000,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "121",
+    "addr:street": "Большая Садовая улица",
+    "contact:phone": "+7 863 2381234",
+    "contact:website": "https://premiumhotelrostov.ru",
+    "name": "Гранд Ростов Хаятт Ридженси",
+    "name:en": "Grand Rostov by Hyatt Regency",
+    "name:ru": "Гранд Ростов Хаятт Ридженси",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9921219318,
+  "lat": 47.2758077,
+  "lon": 39.8722932,
+  "tags": {
+    "name": "Оптимист",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10157287117,
+  "lat": 47.2299944,
+  "lon": 38.9349303,
+  "tags": {
+    "name": "Парк Отель",
+    "name:en": "Krystal Park Hotel",
+    "phone": "+79188510009",
+    "tourism": "hotel",
+    "website": "http://Hotel-taganrog.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 10185820617,
+  "lat": 47.2637683,
+  "lon": 39.8518192,
+  "tags": {
+    "name": "Черная жемчужина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11215364637,
+  "lat": 47.2910644,
+  "lon": 39.6400442,
+  "tags": {
+    "name": "Отель РИО",
+    "name:en": "Hotel Rio",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11373230169,
+  "lat": 47.2229459,
+  "lon": 39.7074855,
+  "tags": {
+    "addr:housenumber": "50/42",
+    "addr:postcode": "344002",
+    "addr:street": "Пушкинская улица",
+    "internet_access": "wlan",
+    "name": "Русский",
+    "opening_hours": "24/7",
+    "phone": "+78632557131",
+    "tourism": "hotel",
+    "website": "http://continentalrostov@gmail.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11588931443,
+  "lat": 47.2214947,
+  "lon": 39.6553079,
+  "tags": {
+    "addr:city": "Ростов-на-Дону",
+    "addr:housenumber": "81",
+    "addr:street": "улица Мадояна",
+    "name": "Шекспир",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1340877814,
+  "lat": 47.5702231,
+  "lon": 42.0462537,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1420876180,
+  "lat": 47.5136433,
+  "lon": 42.1858727,
+  "tags": {
+    "name": "Ковчег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1420876223,
+  "lat": 47.5178388,
+  "lon": 42.1953409,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1427150368,
+  "lat": 47.5477146,
+  "lon": 42.1129958,
+  "tags": {
+    "name": "Папирус",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4184478190,
+  "lat": 47.5139571,
+  "lon": 42.2045932,
+  "tags": {
+    "name": "Отель ",
+    "tourism": "hotel"
+  }
 }
   ]
 }
