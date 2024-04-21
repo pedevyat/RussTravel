@@ -253,7 +253,7 @@
 },
     {"name": "Колесо обозрения Очень большое", "latitude": 53.23052682641655, "longitude": 50.19808242858878, "photoUrl": "https://i.ytimg.com/vi/XFhM2qF0W-I/hqdefault.jpg"},
     {"name": "Колесо обозрения Вокруг света", "latitude": 55.815461656463896, "longitude": 49.132394811916576, "photoUrl": "https://cf.bstatic.com/xdata/images/hotel/max200/232056837.jpg?k=34667514ee1295e2228535c28511e2d09f0fbfcf1b369436aa21a9aa4d3fd4b8&o=&hp=1"},
-    {"name": "Колесо обозрения НиНо", "latitude": 56.32414999756274, "longitude": 44.03585564133977, "photoUrl": "https://nnov.bebeshka.info/crop_t/220/150/images/catalog/980654.jpg"},
+    {"name": "Колесо обозрения НиНо", "latitude": 56.32414999756274, "longitude": 44.03585564133977, "photoUrl": "https://i.otzovik.com/objects/b/1970000/1967793.png"},
     {"name": "Висячий мост", "latitude": 54.71192834078426, "longitude": 55.95434360517114, "photoUrl": "https://i5.photo.2gis.com/images/geo/17/2392537346646629_7a8b_328x170.jpg"},
     {"name": "Водонапорная башня", "latitude": 54.722108, "longitude": 55.918878, "photoUrl": "https://sun9-11.userapi.com/impg/7QnYZ4pNfflrxrva3Y_H2YR8qeEES_pohdhZ3Q/VVnRR6r8o5M.jpg?size=604x341&quality=96&sign=f4662bb35b395d223ebbbae035f045f3&type=album"},
     {"name": "Башня смерти", "latitude": 57.994908, "longitude": 56.25394, "photoUrl": "https://www.avtodispetcher.ru/_upload/wp-content/gallery/perm-buildings/thumbs/thumbs_death-tower1.jpg"},
@@ -450,12 +450,6 @@
         "latitude": 64.475624,
         "longitude": 40.50718,
         "photoUrl": "https://лесобаза.рф/upload/cpub/pre/56477/2513920f73e5a792a1cf60aa7c438bff_56477.jpg"
-    },
-    {
-        "name": "Озеро Лача",
-        "latitude": 61.333333,
-        "longitude": 61.333333,
-        "photoUrl": "https://tourweek.ru/file/image?path=uploads/gallery_media/609_6097be10c87396790c1575c69ddd46a3.jpg&w=350&h=250&fit=crop&s=b51d0500efaddd158626339ed2b9318d"
     },
     {
         "name": "Белое море",

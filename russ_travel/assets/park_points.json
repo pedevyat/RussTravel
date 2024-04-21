@@ -1143,7 +1143,7 @@
         "name": "Дальневосточный морской заповедник",
         "latitude": 42.936010,
         "longitude": 131.728059,
-        "photoUrl": "http://rasfokus.ru/photoUrls/photos/medium/e3773c07642e0f6d832d7a77f87fdfe6.jpg"
+        "photoUrl": "https://visit-primorye.ru/upload/resize_cache/webp/iblock/319/ID_15136892_Dmitri_Zakovorotny_Dreamstime.com.webp"
     },
     {
         "name": "Ленские столбы",
@@ -1335,7 +1335,7 @@
         "name": "Баргузинский государственный природный биосферный заповедник имени К.А. Забелина",
         "latitude": 53.399136,
         "longitude": 109.0205,
-        "photoUrl": "https://mineralogist.club/uploads/posts/2023-06/1686114942_mineralogist-club-p-dzherginskii-zapovednik-buryatiya-krasivo-47.jpg"
+        "photoUrl": "https://fanatbaikala.ru/wp-content/uploads/2015/12/bukhta-Sosnovka-Barguzinskijj-zapovednik-e1450020824765.jpg"
     },
     {
         "name": "Ключевская Сопка",
@@ -1380,12 +1380,6 @@
         "photoUrl": "https://i.pinimg.com/originals/97/11/0a/97110a8e5cc199036988a2e66690a5be.jpg"
     },
     {
-        "name": "Остров Талан",
-        "latitude": 59.311009,
-        "longitude": 149.082365,
-        "photoUrl": "https://magadanpravda.ru/photoUrls/2022/oktabr_2022/29.10.2022/TaLaN_10.29.2022.jpg"
-    },
-    {
         "name": "Приморский Сафари-парк — Приморский край",
         "latitude": 43.324921,
         "longitude": 132.404171,
@@ -1413,7 +1407,7 @@
         "name": "Остров Монерон",
         "latitude": 46.254633,
         "longitude": 141.232105,
-        "photoUrl": "https://www.airpano.ru/files/moneron-island/photoUrls/photoUrl5.jpg"
+        "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/e6/d9/f5/caption.jpg?w=1200&h=1200&s=1"
     },
     {
         "name": "Остров Тюленей",
@@ -1541,8 +1535,8 @@
     {"name": "Парк победы", "latitude": 60.932465, "longitude": 76.564822, "photoUrl": "https://kurgan.bezformata.com/content/image417930070.jpg"},
     {"name": "ПКиО", "latitude": 56.38328505809856, "longitude": 61.97519984788508, "photoUrl": "https://kamensk-uralskiy.ru/uploads/filemanager/ff/ffcb045a30cc89c64dfd9ffe7321f4cb87ec96b83a05ed5369edbb747b89571f7_300x200.jpg"},
     {"name": "Разгуляевский лесопарк", "latitude": 56.40626238246093, "longitude": 61.91753674063027, "photoUrl": "https://avatars.mds.yandex.net/get-altay/3767262/2a00000175d65fe49697e1b91d329505c271/M"},
-    {"name": "Крылатко", "latitude": 55.14792389476495, "longitude": 59.67162652472473, "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipNYkdhdinQe2ZAEaC3U1nAJN7Xr5crT7pxe7SXD=h100"},
-    {"name": "Крылатко", "latitude": 55.05069855594692, "longitude": 60.10626176602715, "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipNYkdhdinQe2ZAEaC3U1nAJN7Xr5crT7pxe7SXD=h100"},
+    {"name": "Гора Косотур", "latitude": 55.186291, "longitude": 59.691232, "photoUrl": "https://nashural.ru/assets/uploads/Gora-Kosotur-1.jpg"},
+    {"name": "бульвар Мира", "latitude": 55.05069855594692, "longitude": 60.10626176602715, "photoUrl": "https://rutraveller.ru/icache/place/1/773/072/177372_603x354.jpg"},
 	  {
     "name": "Югыд Ва",
     "latitude": 63.9690289,
