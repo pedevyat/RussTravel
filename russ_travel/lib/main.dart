@@ -38,10 +38,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _currentIndex = 0;
+  int _currentIndex = 2;
   final List<Widget> _pages = [
     MapScreen(),
-    ArticleListScreen()
+    ArticleListScreen(),
+    Profile(),
   ];
 
   @override
@@ -67,6 +68,10 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.list_alt),
             label: 'Статьи',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person_outline),
+            label: 'Профиль',
           ),
         ],
       ),

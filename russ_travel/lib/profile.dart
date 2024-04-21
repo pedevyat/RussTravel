@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 
 class Profile extends StatefulWidget{
 
@@ -148,6 +149,36 @@ class SignUpPage extends State<SignUp>
 {
 	bool _isPasswordHidden = true;
 	bool _isRepeatPasswordHidden = true;
+	
+	String _name = '';
+	String _email = '';
+	String _password = '';
+	
+	void _submitData() async {
+	    http.get(Uri.parse('http://127.0.0.1:8000/')).then((response) {
+	    print("Response status: ${response.statusCode}");
+	    print("Response body: ${response.body}");
+	    }).catchError((error){
+	        print("Error: $error");
+	    });
+	
+	    final response = await http.post(
+	      Uri.parse('http://127.0.0.1:8000/sign-up'), // URL вашего API
+	      headers: {
+      			'accept': 'application/json',
+      			'Content-Type': 'application/json',
+    		},
+    		body: '{"email": "${_email}", "name": "${_name}", "password": "${_password}"}',
+	    );
+
+	    if (response.statusCode == 200) {
+	      // Обработка успешного ответа
+	      print('Success: ${response.body}');
+	    } else {
+	      // Обработка ошибки
+	      print('${response.statusCode} - Error: ${response.reasonPhrase}');
+	    }
+	}
 
 	Widget build(BuildContext context) {
 		return new Center
@@ -180,8 +211,13 @@ class SignUpPage extends State<SignUp>
             							width : 2.0,
           							),
           						),
-								hintText : 'Введите ваш логин...',
+								hintText : 'Введите ваше имя...',
 								contentPadding: EdgeInsets.symmetric(horizontal: 20),),
+								onChanged: (value) {
+								    setState(() {
+								      _name = value;
+								    });
+								  },
 								cursorColor: Color.fromRGBO(0, 108, 167, 1),
 								),
 						),
@@ -203,6 +239,11 @@ class SignUpPage extends State<SignUp>
           						),
 								hintText : 'Введите ваш email...',
 								contentPadding: EdgeInsets.symmetric(horizontal: 20),),
+								onChanged: (value) {
+								    setState(() {
+								      _email = value;
+								    });
+								  },
 								cursorColor: Color.fromRGBO(0, 108, 167, 1),
 								),
 						),
@@ -233,6 +274,11 @@ class SignUpPage extends State<SignUp>
                     					setState(() { _isPasswordHidden = !_isPasswordHidden; });
                       				}),
 								),
+								onChanged: (value) {
+								    setState(() {
+								      _password = value;
+								    });
+								  },
 								cursorColor: Color.fromRGBO(0, 108, 167, 1),
 							),
 						),
@@ -279,7 +325,7 @@ class SignUpPage extends State<SignUp>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () {},
+								onPressed: () {_submitData();},
 								child: Text('Регистрация'),
 								)
 						),

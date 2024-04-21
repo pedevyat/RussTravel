@@ -12,18 +12,18 @@ users_table = sqlalchemy.Table(
     sqlalchemy.Column("hashed_password", sqlalchemy.String())
 )
 
-# tokens_table = sqlalchemy.Table(
-#     "tokens",
-#     metadata,
-#     sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
-#     sqlalchemy.Column(
-#         "token",
-#         UUID(as_uuid=False),
-#         server_default=sqlalchemy.text("uuid_generate_v4()"),
-#         unique=True,
-#         nullable=False,
-#         index=True,
-#     ),
-#     sqlalchemy.Column("expires", sqlalchemy.DateTime()),
-#     sqlalchemy.Column("user_id", sqlalchemy.ForeignKey("users.id")),
-# )
+tokens_table = sqlalchemy.Table(
+    "tokens",
+    metadata,
+    sqlalchemy.Column("id", sqlalchemy.Integer, primary_key=True),
+    sqlalchemy.Column(
+        "token",
+        UUID(as_uuid=False),
+        server_default=sqlalchemy.text("uuid_generate_v4()"),
+        unique=True,
+        nullable=False,
+        index=True,
+    ),
+    sqlalchemy.Column("expires", sqlalchemy.DateTime()),
+    sqlalchemy.Column("user_id", sqlalchemy.ForeignKey("users.id")),
+)
