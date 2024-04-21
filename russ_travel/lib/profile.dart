@@ -123,6 +123,7 @@ class SignInPage extends State<SignIn>
 								child: Text('Регистрация'),
 								)
 						),
+						/*
 						new SizedBox(height: 4),
 						new Container
 						(
@@ -138,6 +139,7 @@ class SignInPage extends State<SignIn>
 								child: Text('Политика конфиденциальности'),
 								)
 						),
+						*/
 					]
 				)
 			)
@@ -153,6 +155,29 @@ class SignUpPage extends State<SignUp>
 	String _name = '';
 	String _email = '';
 	String _password = '';
+	String _textMessageRegistration = '';
+	
+	static const String emailErrMsg =  "Invalid Email Address, Please provide a valid email.";
+  	static const String passwordErrMsg = "Password must have at least 6 characters.";
+  	static const String confirmPasswordErrMsg = "Two passwords don't match.";
+	
+	String? passwordVlidator(String? val) {
+	    final String password = val as String;
+	    if (password.isEmpty || password.length <= 5) return passwordErrMsg;
+	    return null;
+	}
+	
+	String? emailValidator(String? val) {
+	    final String email = val as String;
+	    if (email.length <= 3) return emailErrMsg;
+	    final hasAtSymbol = email.contains('@');
+	    final indexOfAt = email.indexOf('@');
+	    final numbersOfAt = "@".allMatches(email).length;
+	    if (!hasAtSymbol) return emailErrMsg;
+	    if (numbersOfAt != 1) return emailErrMsg;
+	    if (indexOfAt == 0 || indexOfAt == email.length - 1) return emailErrMsg;
+	    return null;
+	  }
 	
 	void _submitData() async {
 	    http.get(Uri.parse('http://127.0.0.1:8000/')).then((response) {
@@ -161,9 +186,26 @@ class SignUpPage extends State<SignUp>
 	    }).catchError((error){
 	        print("Error: $error");
 	    });
+	    
+	    final email_temp = emailValidator(_email);
+	    final pass_temp = passwordVlidator(_password);
+	    if (email_temp != null)
+	    {
+	    	_textMessageRegistration = email_temp;
+	    	return;
+	    }
+	    else if (pass_temp != null)
+	    {
+	    	_textMessageRegistration = pass_temp;
+	    	return;
+	    }
+	    else
+	    {
+		_textMessageRegistration = '';	    
+	    }
 	
 	    final response = await http.post(
-	      Uri.parse('http://127.0.0.1:8000/sign-up'), // URL вашего API
+	      Uri.parse('http://127.0.0.1:8000/sign-up'),
 	      headers: {
       			'accept': 'application/json',
       			'Content-Type': 'application/json',
@@ -344,6 +386,7 @@ class SignUpPage extends State<SignUp>
 								child: Text('Авторизация'),
 								)
 						),
+						/*
 						new SizedBox(height: 4),
 						new Container
 						(
@@ -359,6 +402,16 @@ class SignUpPage extends State<SignUp>
 								child: Text('Политика конфиденциальности'),
 								)
 						),
+						*/
+						new SizedBox(height: 8),
+						Container(
+						  width: 350,
+						  child: Text(
+						  style: TextStyle(
+						    color: Colors.red,
+						  ),
+						  _textMessageRegistration)
+						)  
 					]
 				)
 			)
@@ -378,8 +431,8 @@ class ProfilePage extends State<Profile>
 	
 	Widget build(BuildContext context) {
 		final List<Widget> _pages = [
-    	SignIn(changePage),
-    	SignUp(changePage),
+		    	SignIn(changePage),
+		    	SignUp(changePage),
 		];	
 		return _pages[_currentIndex];
 	}
