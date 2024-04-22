@@ -1447,16 +1447,7 @@
     "tourism": "hotel"
   }
 },
-{
-  "type": "node",
-  "id": 1371915218,
-  "lat": 50.2578208,
-  "lon": 58.4359583,
-  "tags": {
-    "name": "Хромит",
-    "tourism": "hotel"
-  }
-},
+
 {
   "type": "node",
   "id": 1381457392,
@@ -2406,17 +2397,7 @@
     "tourism": "hotel"
   }
 },
-{
-  "type": "node",
-  "id": 2702425214,
-  "lat": 50.2971049,
-  "lon": 57.1331031,
-  "tags": {
-    "description": "гостиничный комплекс",
-    "name": "Айхан",
-    "tourism": "hotel"
-  }
-},
+
 {
   "type": "node",
   "id": 2723888861,
@@ -2534,24 +2515,6 @@
     "description": "5 номеров, 8 мест",
     "name": "Гостиница Дружба",
     "phone": "+7 (83434) 2-13-05",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 2930975386,
-  "lat": 50.2922996,
-  "lon": 57.1593270,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "56",
-    "addr:street": "Әбілқайыр хан даңғылы",
-    "check_date": "2022-09-24",
-    "internet_access": "wlan",
-    "internet_access:fee": "customers",
-    "level": "0",
-    "name": "Жомарт",
-    "name:ru": "Жомарт",
     "tourism": "hotel"
   }
 },
@@ -2731,29 +2694,6 @@
 },
 {
   "type": "node",
-  "id": 3239580601,
-  "lat": 50.2759800,
-  "lon": 57.2276280,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "11",
-    "addr:street": "Матросова",
-    "name": "Сая",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 3269205499,
-  "lat": 50.2617098,
-  "lon": 57.2233966,
-  "tags": {
-    "name": "Авиатор",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 3287433050,
   "lat": 49.9335676,
   "lon": 43.3663273,
@@ -2795,15 +2735,6 @@
   "id": 3365887830,
   "lat": 52.5858155,
   "lon": 41.4956367,
-  "tags": {
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 3414045467,
-  "lat": 48.8193372,
-  "lon": 46.7711958,
   "tags": {
     "tourism": "hotel"
   }
@@ -3067,41 +2998,6 @@
 },
 {
   "type": "node",
-  "id": 4006139359,
-  "lat": 49.4185336,
-  "lon": 46.8579635,
-  "tags": {
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4037018484,
-  "lat": 51.2245633,
-  "lon": 51.3734664,
-  "tags": {
-    "contact:fax": "51-18-36",
-    "contact:phone": "51-17-78",
-    "name": "Женис",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4056402467,
-  "lat": 51.2144481,
-  "lon": 51.3649570,
-  "tags": {
-    "contact:website": "http://vegus.kz/apart-otel/",
-    "internet_access": "wlan",
-    "internet_access:fee": "no",
-    "name": "VEGUS",
-    "stars": "4",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4059843611,
   "lat": 53.2169853,
   "lon": 50.1887225,
@@ -3139,19 +3035,6 @@
     "addr:housenumber": "4",
     "addr:street": "Роликовый переулок",
     "name": "Уют",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4096972236,
-  "lat": 50.2748833,
-  "lon": 57.2313774,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "29",
-    "addr:street": "Заводская",
-    "name": "Гостиница \"Хан-Тенгри\"",
     "tourism": "hotel"
   }
 },
@@ -3370,16 +3253,6 @@
 },
 {
   "type": "node",
-  "id": 4216958390,
-  "lat": 51.2497531,
-  "lon": 51.3101864,
-  "tags": {
-    "name": "Арыстан",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4218199194,
   "lat": 53.1735711,
   "lon": 45.0036591,
@@ -3451,21 +3324,6 @@
 },
 {
   "type": "node",
-  "id": 4241773789,
-  "lat": 51.2192093,
-  "lon": 51.3817421,
-  "tags": {
-    "beds": "4",
-    "contact:email": "ayazan@mail.ru",
-    "contact:phone": "+7 701 4692411",
-    "internet_access": "wlan",
-    "internet_access:fee": "no",
-    "name": "Победа, апарт отель",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4247751989,
   "lat": 53.0843778,
   "lon": 56.4248023,
@@ -3486,30 +3344,6 @@
     "name": "База отдыха \"Нугуш\"",
     "opening_hours": "24/7",
     "resort": "recreation_center",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4254745319,
-  "lat": 50.2922802,
-  "lon": 57.2080149,
-  "tags": {
-    "email": "a.aldabergenov@list.ru",
-    "fax": "87716080999, 8702 3770999",
-    "name": "Комфорт",
-    "phone": "8(7132) 220443",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4256972001,
-  "lat": 51.2551781,
-  "lon": 51.3522614,
-  "tags": {
-    "name": "Парк отель",
-    "stars": "4",
     "tourism": "hotel"
   }
 },
@@ -3636,44 +3470,11 @@
 },
 {
   "type": "node",
-  "id": 4315671900,
-  "lat": 50.3186131,
-  "lon": 57.1505531,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "5/1",
-    "addr:street": "Бейбитшилик пр.",
-    "name": "Гостиница \"Flamingo\"",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4315757389,
-  "lat": 50.2959253,
-  "lon": 57.1523553,
-  "tags": {
-    "name": "Общежитие ЗКГМУ",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4316189393,
   "lat": 48.7218727,
   "lon": 45.2158793,
   "tags": {
     "contact:phone": "+7(905)3913438",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4316752922,
-  "lat": 50.2935053,
-  "lon": 57.1472345,
-  "tags": {
-    "name": "Гостиничный комплекс \"Султан\"",
     "tourism": "hotel"
   }
 },
@@ -3777,20 +3578,6 @@
 },
 {
   "type": "node",
-  "id": 4324852231,
-  "lat": 50.2905317,
-  "lon": 57.1314824,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "28Е",
-    "addr:street": "Санкибай батыра пр.",
-    "name": "Royal Hotel",
-    "stars": "4",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4325061392,
   "lat": 51.8421038,
   "lon": 55.1191131,
@@ -3888,16 +3675,6 @@
   "lon": 52.6063556,
   "tags": {
     "name": "СЫРЫМ",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4365177291,
-  "lat": 50.2608482,
-  "lon": 52.6034933,
-  "tags": {
-    "name": "Алаш",
     "tourism": "hotel"
   }
 },
@@ -4037,16 +3814,6 @@
 },
 {
   "type": "node",
-  "id": 4414575609,
-  "lat": 49.0751823,
-  "lon": 54.6660035,
-  "tags": {
-    "operator": "Исатай",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 4416273321,
   "lat": 54.7504754,
   "lon": 56.0322310,
@@ -4062,20 +3829,6 @@
   "lon": 60.3946480,
   "tags": {
     "name": "Гостиница",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4430114790,
-  "lat": 50.2449171,
-  "lon": 58.4301582,
-  "tags": {
-    "internet_access": "wlan",
-    "name": "Уют",
-    "name:ru": "Уют",
-    "opening_hours": "24/7",
-    "phone": "+77711870764",
     "tourism": "hotel"
   }
 },
@@ -4121,16 +3874,6 @@
   "lat": 52.8244756,
   "lon": 41.5072931,
   "tags": {
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4488050029,
-  "lat": 50.2802562,
-  "lon": 57.2219831,
-  "tags": {
-    "name": "Альбион",
     "tourism": "hotel"
   }
 },
@@ -4190,76 +3933,12 @@
 },
 {
   "type": "node",
-  "id": 4533461584,
-  "lat": 51.2469635,
-  "lon": 51.4025726,
-  "tags": {
-    "internet_access": "wlan",
-    "internet_access:fee": "no",
-    "name:ru": "Рахат",
-    "opening_hours": "24/7",
-    "rooms": "35",
-    "stars": "3",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4533465431,
-  "lat": 51.2386236,
-  "lon": 51.3805822,
-  "tags": {
-    "name": "Бивуак",
-    "stars": "0",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4533470931,
-  "lat": 51.2108228,
-  "lon": 51.3728622,
-  "tags": {
-    "fax": "+7 7112 510459",
-    "name": "Chagala",
-    "name:ru": "Шагала",
-    "phone": "+7 7112 509855",
-    "stars": "3",
-    "tourism": "hotel",
-    "website": "https://www.chagalagroup.com/"
-  }
-},
-{
-  "type": "node",
   "id": 4533473561,
   "lat": 51.1576625,
   "lon": 53.0249738,
   "tags": {
     "name": "Ренко",
     "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4533473587,
-  "lat": 51.2495432,
-  "lon": 51.4307152,
-  "tags": {
-    "name": "Ереван",
-    "name:ru": "Ереван",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4533473904,
-  "lat": 51.2243090,
-  "lon": 51.4001327,
-  "tags": {
-    "name": "Айдана",
-    "name:ru": "Айдана",
-    "tourism": "hotel",
-    "website": "http://aidana-complex.kz/"
   }
 },
 {
@@ -4274,104 +3953,11 @@
 },
 {
   "type": "node",
-  "id": 4533474104,
-  "lat": 51.1910094,
-  "lon": 51.3759365,
-  "tags": {
-    "email": "reservation@pushkinhotel.com",
-    "fax": "+7(7112)513566",
-    "internet_access": "wlan",
-    "internet_access:fee": "no",
-    "name": "Пушкин отель",
-    "name:en": "Pushkin hotel",
-    "name:ru": "Пушкин отель",
-    "phone": "+7(7112)513560, +7(7112)507733",
-    "stars": "4",
-    "tourism": "hotel",
-    "website": "http://ru.pushkinhotel.com"
-  }
-},
-{
-  "type": "node",
-  "id": 4533474265,
-  "lat": 51.2089324,
-  "lon": 51.3677801,
-  "tags": {
-    "email": "sayahat38@mail.ru",
-    "fax": "+7 7112 504349",
-    "name:ru": "Саяхат",
-    "opening_hours": "24/7",
-    "phone": "+7 7112 513003",
-    "tourism": "hotel",
-    "website": "http://www.sayahathotel.kz/"
-  }
-},
-{
-  "type": "node",
-  "id": 4533474269,
-  "lat": 51.2064513,
-  "lon": 51.3835367,
-  "tags": {
-    "name:ru": "Урал",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4533474472,
-  "lat": 51.2437784,
-  "lon": 51.4283913,
-  "tags": {
-    "email": "victoria-hotel@inbox.ru",
-    "fax": "+7 7112 228352",
-    "name": "Виктория",
-    "name:en": "Victoria",
-    "name:ru": "Виктория",
-    "phone": "+7 7112 228352, 228346",
-    "tourism": "hotel",
-    "website": "http://uralsk-victoriahotel.kz/"
-  }
-},
-{
-  "type": "node",
-  "id": 4533475220,
-  "lat": 51.1641385,
-  "lon": 53.0387396,
-  "tags": {
-    "barrier": "fence",
-    "email": "nomad_hotel@mail.ru",
-    "fax": "+7 (71133) 92557",
-    "name": "Nomad",
-    "name:ru": "Номад",
-    "opening_hours": "24/7",
-    "phone": "+7 (71133) 92555",
-    "tourism": "hotel",
-    "website": "https://nomadhotel.kz/"
-  }
-},
-{
-  "type": "node",
   "id": 4534034390,
   "lat": 52.3923066,
   "lon": 41.3997825,
   "tags": {
     "name": "Империал",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4541628678,
-  "lat": 51.2232513,
-  "lon": 51.3806827,
-  "tags": {
-    "internet_access": "yes",
-    "internet_access:fee": "no",
-    "name": "Престиж",
-    "name:en": "Prestige",
-    "name:kk": "Prestige",
-    "name:ru": "Престиж",
-    "phone": "+7 (7112) 54–22–02",
     "tourism": "hotel"
   }
 },
@@ -4415,17 +4001,6 @@
     "name:en": "Hotel",
     "operator": "Александр",
     "phone": "+79272270317",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4570442415,
-  "lat": 51.2053583,
-  "lon": 51.3789018,
-  "tags": {
-    "name": "Урал",
-    "name:ru": "Урал",
     "tourism": "hotel"
   }
 },
@@ -4555,28 +4130,6 @@
     "smoking": "outside",
     "tourism": "hotel",
     "website": "https://afina34.ru"
-  }
-},
-{
-  "type": "node",
-  "id": 4693825689,
-  "lat": 50.3154854,
-  "lon": 57.1494703,
-  "tags": {
-    "email": "info@hoteltumar.kz",
-    "name:ru": "Тумар",
-    "operator": "501436; 501625",
-    "phone": "+77132501330",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4695527090,
-  "lat": 50.7512327,
-  "lon": 56.5009300,
-  "tags": {
-    "tourism": "hotel"
   }
 },
 {
@@ -5504,19 +5057,6 @@
 },
 {
   "type": "node",
-  "id": 5598065910,
-  "lat": 50.2880035,
-  "lon": 57.2163682,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "52",
-    "addr:street": "улица Жургенова",
-    "name": "Старый город",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 5628642609,
   "lat": 53.3106087,
   "lon": 44.7749090,
@@ -5852,16 +5392,6 @@
   "lon": 51.7392111,
   "tags": {
     "name": "БАСТАУ",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 5940907404,
-  "lat": 48.8858471,
-  "lon": 53.7863512,
-  "tags": {
-    "name": "Ахан",
     "tourism": "hotel"
   }
 },
@@ -6296,16 +5826,6 @@
 },
 {
   "type": "node",
-  "id": 6447714590,
-  "lat": 49.2740459,
-  "lon": 60.6240572,
-  "tags": {
-    "internet_access": "wlan",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 6514566641,
   "lat": 49.9255650,
   "lon": 40.5098722,
@@ -6333,16 +5853,6 @@
   "lon": 47.9249778,
   "tags": {
     "name": "У Альберта",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 6524184638,
-  "lat": 48.5573632,
-  "lon": 51.7511058,
-  "tags": {
-    "name": "Aqsai",
     "tourism": "hotel"
   }
 },
@@ -7225,22 +6735,6 @@
 },
 {
   "type": "node",
-  "id": 8208091826,
-  "lat": 50.2916684,
-  "lon": 57.1896984,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "5",
-    "addr:street": "улица Отегена Сеитова",
-    "brand": "Ibis",
-    "brand:wikidata": "Q920166",
-    "brand:wikipedia": "en:Ibis (hotel)",
-    "name": "Ibis",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 8239478104,
   "lat": 54.2891627,
   "lon": 50.4829276,
@@ -7379,16 +6873,6 @@
   "lon": 49.2532502,
   "tags": {
     "name": "Жара",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 8681834794,
-  "lat": 50.2952401,
-  "lon": 57.6067084,
-  "tags": {
-    "name": "Alem",
     "tourism": "hotel"
   }
 },
@@ -7563,16 +7047,6 @@
 },
 {
   "type": "node",
-  "id": 8953614154,
-  "lat": 50.2750362,
-  "lon": 57.1721018,
-  "tags": {
-    "name": "Baitau",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 8959827717,
   "lat": 51.9452171,
   "lon": 43.4920769,
@@ -7695,21 +7169,6 @@
     "addr:housenumber": "20",
     "addr:street": "улица Клочкова",
     "name": "Уют",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 9244960264,
-  "lat": 50.2826960,
-  "lon": 57.2130789,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "18",
-    "addr:street": "улица 8 марта",
-    "internet_access": "wlan",
-    "internet_access:fee": "no",
-    "name": "Fresh",
     "tourism": "hotel"
   }
 },
@@ -8399,26 +7858,6 @@
 },
 {
   "type": "node",
-  "id": 11042230428,
-  "lat": 50.2249274,
-  "lon": 57.1832409,
-  "tags": {
-    "name": "Южный",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 11043464651,
-  "lat": 50.2420686,
-  "lon": 57.1616806,
-  "tags": {
-    "name": "Keryen",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 11057903342,
   "lat": 53.2259006,
   "lon": 50.2053285,
@@ -8615,22 +8054,6 @@
 },
 {
   "type": "node",
-  "id": 11379822456,
-  "lat": 50.2821512,
-  "lon": 57.2140354,
-  "tags": {
-    "addr:city": "Актобе",
-    "addr:housenumber": "9",
-    "addr:street": "улица 8 марта",
-    "email": "wa.me/77052108471",
-    "internet_access": "wlan",
-    "name": "Береке",
-    "phone": "+7 705 2108471",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
   "id": 11401000307,
   "lat": 51.7982901,
   "lon": 55.1114881,
@@ -8656,30 +8079,6 @@
     "name": "Колибри",
     "opening_hours": "24/7",
     "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 11486762915,
-  "lat": 50.1530601,
-  "lon": 55.6511028,
-  "tags": {
-    "name": "Асхана",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 11491228895,
-  "lat": 51.1553346,
-  "lon": 51.5377400,
-  "tags": {
-    "addr:city": "Орал",
-    "brand": "Гостиница",
-    "internet_access": "no",
-    "name": "Гостиница Аэропорта Уральска",
-    "tourism": "hotel",
-    "wikidata": "Гостиница Аэропорта Уральска"
   }
 },
 {
@@ -8747,16 +8146,6 @@
   }
 },
 {
-  "type": "node",
-  "id": 11613243545,
-  "lat": 50.2752232,
-  "lon": 57.1374813,
-  "tags": {
-    "name": "Батыс",
-    "tourism": "hotel"
-  }
-},
-{
 "type": "node",
 "id": -1,
 "lat": 60.3361300,
@@ -8813,16 +8202,6 @@
 "lon": 54.266453,
 "tags": {
 "name": "Izhma",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -1,
-"lat": 50.808045,
-"lon": 61.638149,
-"tags": {
-"name": "Савапиян",
 "tourism": "hotel"
 }
 },
@@ -9163,16 +8542,6 @@
 "lon": 50.8003430,
 "tags": {
 "name": "Пульман",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -1,
-"lat": 50.849223,
-"lon": 61.664676,
-"tags": {
-"name": "Klukva hostel",
 "tourism": "hotel"
 }
 },
