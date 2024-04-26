@@ -103,7 +103,7 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            TextField(
+            /*TextField(
               controller: _searchController,
               decoration: InputDecoration(
                 labelText: 'Поиск',
@@ -112,7 +112,7 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
               onChanged: (value) {
                 _filterArticles(value);
               },
-            ),
+            ),*/
             ListView.builder(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),
