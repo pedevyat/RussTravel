@@ -19,6 +19,12 @@ class SignUp extends StatefulWidget{
 	SignUpPage createState()=> SignUpPage();
 }
 
+class Account extends StatefulWidget{
+	final void Function(int) onPageChanged;
+	Account(this.onPageChanged);
+	AccountPage createState()=> AccountPage();
+}
+
 class SignInPage extends State<SignIn>
 {
 	bool _isPasswordHidden = true;
@@ -210,12 +216,16 @@ class SignUpPage extends State<SignUp>
       			'accept': 'application/json',
       			'Content-Type': 'application/json',
     		},
-    		body: '{"email": "${_email}", "name": "${_name}", "password": "${_password}"}',
+    	      body: '{"email": "${_email}", "name": "${_name}", "password": "${_password}"}',
 	    );
 
 	    if (response.statusCode == 200) {
 	      // Обработка успешного ответа
 	      print('Success: ${response.body}');
+	      final lstStr = response.body.split(RegExp(r'[:{}, ]'));
+	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + lstStr[lstStr.indexOf("\"name\"") + 1]);
+	      //var _userData = Hive.box('UserData');
+	      widget.onPageChanged(2);
 	    } else {
 	      // Обработка ошибки
 	      print('${response.statusCode} - Error: ${response.reasonPhrase}');
@@ -419,13 +429,60 @@ class SignUpPage extends State<SignUp>
 	}
 }
 
+class AccountPage extends State<Account>
+{
+	Widget build(BuildContext context) {
+		return MaterialApp(
+		      home: Scaffold(
+			appBar: AppBar(
+			  title: Text('NAME'),
+			),
+			body: ListView(
+			  children: <Widget>[
+			    ListTile(
+			      title: Text('Музеи'),
+			      onTap: () {
+				// Действие при нажатии на кнопку 'Отели'
+			      },
+			    ),
+			    ListTile(
+			      title: Text('Парки'),
+			      onTap: () {
+				// Действие при нажатии на кнопку 'Парки'
+			      },
+			    ),
+			    ListTile(
+			      title: Text('Внешние объекты'),
+			      onTap: () {
+				// Действие при нажатии на кнопку 'Внешки'
+			      },
+			    ),
+			    ListTile(
+			      title: Text('Отели'),
+			      onTap: () {
+				// Действие при нажатии на кнопку 'Отели'
+			      },
+			    ),
+			    ListTile(
+			      title: Text('Выйти...'),
+			      onTap: () {
+				// Действие при нажатии на кнопку 'Выйти...'
+			      },
+			    ),
+			  ],
+			),
+		      ),
+		    );
+	}
+}
+
 class ProfilePage extends State<Profile>
 {
-	int _currentIndex = 0;
+	int _currentIndex = 1;
 	
 	void changePage(int page) {
     	setState(() {
-      	_currentIndex = page;
+      		_currentIndex = page;
     	});
   	}
 	
@@ -433,6 +490,7 @@ class ProfilePage extends State<Profile>
 		final List<Widget> _pages = [
 		    	SignIn(changePage),
 		    	SignUp(changePage),
+		    	Account(changePage),
 		];	
 		return _pages[_currentIndex];
 	}

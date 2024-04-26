@@ -29,5 +29,7 @@ async def create_user(user: user_schema.UserCreate):
         email=user.email, name=user.name, hashed_password=user.password
     )
     user_id = await database.execute(query)
+    print(user_id)
 
-    return {**user.dict(), "id": user_id}
+    return {**user.dict(), "id" : user_id}
+    #return {"id" : user_id, "email" : user.email}
