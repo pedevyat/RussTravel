@@ -9,6 +9,8 @@ class HotelPoint extends Equatable {
     required this.latitude,
     required this.longitude,
     required this.url,
+    required this.price,
+
   });
 
 
@@ -26,9 +28,12 @@ class HotelPoint extends Equatable {
   /// Сайт отеля
   final String url;
 
+  /// Начальная цена
+  final String price;
+
 
   @override
-  List<Object?> get props => [name, latitude, longitude];
+  List<Object?> get props => [name, latitude, longitude, url, price];
 
   /// Создание объекта HotelPoint из JSON данных
   factory HotelPoint.fromJson(Map<String, dynamic> json) {
@@ -37,6 +42,7 @@ class HotelPoint extends Equatable {
       latitude: json['lat'].toDouble(),
       longitude: json['lon'].toDouble(),
       url: json['tags']['website'] ?? '',
+      price: json['tags']['begin_price'] ?? '',
     );
   }
 }

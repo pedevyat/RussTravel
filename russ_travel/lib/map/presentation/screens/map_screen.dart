@@ -649,12 +649,12 @@ class _ModalBodyViewH extends StatelessWidget {
         Text(point.name, style: const TextStyle(fontSize: 20)),
         const SizedBox(height: 20),
         Text(
-          '${point.latitude}, ${point.longitude}',
-          style: const TextStyle(
-            fontSize: 16,
-            color: Colors.grey,
-          ),
+            'Цена за сутки: от ${point.price} руб.',
+            style: const TextStyle(
+              fontSize: 16,
+            )
         ),
+        const SizedBox(height: 10),
         GestureDetector(
           onTap: () {
             _launchURL(point.url);
@@ -665,6 +665,14 @@ class _ModalBodyViewH extends StatelessWidget {
               color: Colors.blue, // Цвет ссылки
               decoration: TextDecoration.underline, // Подчеркивание ссылки
             ),
+          ),
+        ),
+
+        Text(
+          '${point.latitude}, ${point.longitude}',
+          style: const TextStyle(
+            fontSize: 16,
+            color: Colors.grey,
           ),
         ),
       ]),
