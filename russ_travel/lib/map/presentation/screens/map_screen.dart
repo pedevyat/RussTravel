@@ -19,6 +19,7 @@ import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
 import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MapScreen extends StatefulWidget {
   const MapScreen({Key? key}) : super(key: key);
@@ -654,8 +655,29 @@ class _ModalBodyViewH extends StatelessWidget {
             color: Colors.grey,
           ),
         ),
+        GestureDetector(
+          onTap: () {
+            _launchURL(point.url);
+          },
+          child: Text(
+            '${point.url}',
+            style: TextStyle(
+              color: Colors.blue, // Цвет ссылки
+              decoration: TextDecoration.underline, // Подчеркивание ссылки
+            ),
+          ),
+        ),
       ]),
     );
+  }
+
+  // Функция для открытия ссылки
+  Future<void> _launchURL(String url) async {
+    if (await canLaunchUrl(url as Uri)) {
+      await launchUrl(url as Uri);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 }
 

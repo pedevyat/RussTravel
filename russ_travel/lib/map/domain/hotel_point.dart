@@ -8,6 +8,7 @@ class HotelPoint extends Equatable {
     required this.name,
     required this.latitude,
     required this.longitude,
+    required this.url,
   });
 
 
@@ -22,6 +23,9 @@ class HotelPoint extends Equatable {
   /// Долгота
   final double longitude;
 
+  /// Сайт отеля
+  final String url;
+
 
   @override
   List<Object?> get props => [name, latitude, longitude];
@@ -32,6 +36,7 @@ class HotelPoint extends Equatable {
       name: json['tags']['name'] ?? '',
       latitude: json['lat'].toDouble(),
       longitude: json['lon'].toDouble(),
+      url: json['tags']['website'] ?? '',
     );
   }
 }
