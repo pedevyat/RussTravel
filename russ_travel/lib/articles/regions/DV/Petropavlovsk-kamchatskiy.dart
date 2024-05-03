@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Petropavlovsk-kamchatskiy extends StatelessWidget {
+class Petropavlovsk_kamchatskiy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Sevastopol' extends StatelessWidget {
+class Sevastopol extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,6 +40,6 @@ class Sevastopol' extends StatelessWidget {
 
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/Yufo/Sevastopol'.txt');
+    return await rootBundle.loadString("assets/Yufo/Sevastopol'.txt");
   }
 }

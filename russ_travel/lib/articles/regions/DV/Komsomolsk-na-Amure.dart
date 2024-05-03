@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-class Komsomolsk-na-Amure extends StatelessWidget {
+class Komsomolsk_na_Amure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
