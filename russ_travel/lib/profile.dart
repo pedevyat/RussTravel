@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:hive/hive.dart';
 import 'dart:convert';
 
 class Profile extends StatefulWidget{
@@ -223,8 +224,10 @@ class SignUpPage extends State<SignUp>
 	      // Обработка успешного ответа
 	      print('Success: ${response.body}');
 	      final lstStr = response.body.split(RegExp(r'[:{}, ]'));
-	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + lstStr[lstStr.indexOf("\"name\"") + 1]);
-	      //var _userData = Hive.box('UserData');
+	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + " " + lstStr[lstStr.indexOf("\"name\"") + 1]);
+	      var _userData = await Hive.openBox('UserData');
+	      _userData.put('id', lstStr[lstStr.indexOf("\"id\"") + 1]);
+	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
 	      widget.onPageChanged(2);
 	    } else {
 	      // Обработка ошибки
@@ -431,67 +434,121 @@ class SignUpPage extends State<SignUp>
 
 class AccountPage extends State<Account>
 {
+	
 	Widget build(BuildContext context) {
-		return MaterialApp(
-		      home: Scaffold(
-			appBar: AppBar(
-			  title: Text('NAME'),
-			),
-			body: ListView(
-			  children: <Widget>[
-			    ListTile(
-			      title: Text('Музеи'),
-			      onTap: () {
-				// Действие при нажатии на кнопку 'Отели'
-			      },
-			    ),
-			    ListTile(
-			      title: Text('Парки'),
-			      onTap: () {
-				// Действие при нажатии на кнопку 'Парки'
-			      },
-			    ),
-			    ListTile(
-			      title: Text('Внешние объекты'),
-			      onTap: () {
-				// Действие при нажатии на кнопку 'Внешки'
-			      },
-			    ),
-			    ListTile(
-			      title: Text('Отели'),
-			      onTap: () {
-				// Действие при нажатии на кнопку 'Отели'
-			      },
-			    ),
-			    ListTile(
-			      title: Text('Выйти...'),
-			      onTap: () {
-				// Действие при нажатии на кнопку 'Выйти...'
-			      },
-			    ),
-			  ],
-			),
+	    return FutureBuilder(
+	    future: Hive.openBox('UserData'),
+	    builder: (BuildContext context, AsyncSnapshot<Box> snapshot) {
+	      if (snapshot.connectionState == ConnectionState.done) {
+		if (snapshot.hasData) {
+		  final userData = snapshot.data;
+		  int id = int.parse(userData?.get('id'));
+		  String name = userData?.get('name');
+		  return MaterialApp(
+		    home: Scaffold(
+		      appBar: AppBar(
+		        title: Text(name ?? 'Loading...'),
 		      ),
-		    );
+		      body: ListView(
+		        children: <Widget>[
+		          ListTile(
+		            title: Text('Музеи'),
+		            onTap: () {
+		              // Действие при нажатии на кнопку 'Музеи'
+		            },
+		          ),
+		          ListTile(
+		            title: Text('Парки'),
+		            onTap: () {
+		              // Действие при нажатии на кнопку 'Парки'
+		            },
+		          ),
+		          ListTile(
+		            title: Text('Внешние объекты'),
+		            onTap: () {
+		              // Действие при нажатии на кнопку 'Внешки'
+		            },
+		          ),
+		          ListTile(
+		            title: Text('Отели'),
+		            onTap: () {
+		              // Действие при нажатии на кнопку 'Отели'
+		            },
+		          ),
+		          ListTile(
+		            title: Text('Выйти...'),
+		            onTap: () {
+	      		      userData?.clear();
+		              widget.onPageChanged(0);
+		            },
+		          ),
+		        ],
+		      ),
+		    ),
+		  );
+		}
+	      }
+	      return CircularProgressIndicator(); // Show loading indicator
+	    },
+	  );
 	}
 }
 
 class ProfilePage extends State<Profile>
 {
-	int _currentIndex = 1;
-	
+	int _currentIndex = 2;	
 	void changePage(int page) {
     	setState(() {
       		_currentIndex = page;
     	});
   	}
 	
+	/*
 	Widget build(BuildContext context) {
+		var _userData = await Hive.openBox('UserData');
+		if (_userData.containsKey('id'))
+		{
+			print("UNFOUND");
+			_currentIndex = 0;
+		}
+		else
+		{
+			print("ABSOLUTELY FOUND");
+	      		_currentIndex = 2;
+	      	}
 		final List<Widget> _pages = [
 		    	SignIn(changePage),
 		    	SignUp(changePage),
 		    	Account(changePage),
 		];	
 		return _pages[_currentIndex];
+	}
+	*/
+	
+	Widget build(BuildContext context) {
+	    return FutureBuilder(
+		future: Hive.openBox('UserData'),
+		builder: (BuildContext context, AsyncSnapshot<Box> snapshot) {
+		    if (snapshot.connectionState == ConnectionState.done) {
+		    	//print(snapshot?.data?.values.toList());
+		        if (snapshot?.data?.values.toList().isEmpty ?? false) {
+		            print("UNFOUND");
+		            if (_currentIndex == 2)
+		            _currentIndex = 0;
+		        } else {
+		            print("ABSOLUTELY FOUND");
+		            _currentIndex = 2;
+		        }
+		        final List<Widget> _pages = [
+		            SignIn(changePage),
+		            SignUp(changePage),
+		            Account(changePage),
+		        ];    
+		        return _pages[_currentIndex];
+		    } else {
+		        return CircularProgressIndicator();
+		    }
+		},
+	    );
 	}
 }
