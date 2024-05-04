@@ -54645,6 +54645,404 @@
     "name": "Cascade",
     "tourism": "hotel"
   }
+},
+{
+  "type": "node",
+  "id": 1096015396,
+  "lat": 44.0965372,
+  "lon": 40.0160204,
+  "tags": {
+    "addr:country": "RU",
+    "contact:phone": "+7 928 4611844",
+    "internet_access": "no",
+    "internet_access:fee": "no",
+    "name": "Лаго-Наки",
+    "name:en": "Lago-Naki",
+    "name:ru": "Лаго-Наки",
+    "smoking": "no",
+    "tourism": "hotel",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1141058802,
+  "lat": 44.3045348,
+  "lon": 40.1896507,
+  "tags": {
+    "name": "Графство Хаджох",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3414252016,
+  "lat": 44.6053991,
+  "lon": 40.1039353,
+  "tags": {
+    "name": "Майкоп",
+    "name:ady": "Мыекъуапэ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3735773916,
+  "lat": 44.5936157,
+  "lon": 40.1087425,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4134011411,
+  "lat": 44.2286720,
+  "lon": 39.9039830,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4178177793,
+  "lat": 44.5701332,
+  "lon": 40.0905590,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Кубанская улица",
+    "internet_access": "wlan",
+    "name": "Турист",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4194769989,
+  "lat": 44.2304464,
+  "lon": 39.9022668,
+  "tags": {
+    "name": "Куршавель",
+    "tourism": "hotel",
+    "website": "https://xn--80aafyalthgkgdkldm7d.xn--p1ai/places/7-gostinica-kurshevel.html"
+  }
+},
+{
+  "type": "node",
+  "id": 4231853838,
+  "lat": 44.5989692,
+  "lon": 40.0730131,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4256260593,
+  "lat": 44.6008216,
+  "lon": 40.1082061,
+  "tags": {
+    "name": "Биба",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4479299808,
+  "lat": 44.6303339,
+  "lon": 40.4569272,
+  "tags": {
+    "addr:city": "Ярославская",
+    "addr:housenumber": "2",
+    "addr:street": "улица Чапаева",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Кремниевые термы",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4503718789,
+  "lat": 44.6214855,
+  "lon": 40.1115298,
+  "tags": {
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4542621992,
+  "lat": 44.5096361,
+  "lon": 40.1782714,
+  "tags": {
+    "name": "Метра",
+    "name:ru": "Метра",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4858604143,
+  "lat": 44.0062876,
+  "lon": 40.1395840,
+  "tags": {
+    "email": "belay-reka.g@mail.ru",
+    "name": "Белая река",
+    "phone": "+7 989 2905029",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4949563576,
+  "lat": 44.2451947,
+  "lon": 39.9103629,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:street": "Нижегородский переулок",
+    "internet_access": "wlan",
+    "name": "Отель \"Добрыня\"",
+    "name:ru": "Отель \"Добрыня\"",
+    "opening_hours": "24/7",
+    "phone": "+7 938 4252525",
+    "tourism": "hotel",
+    "website": "https://www.гуамка-добрыня.рф"
+  }
+},
+{
+  "type": "node",
+  "id": 4989789724,
+  "lat": 44.4942104,
+  "lon": 40.1423625,
+  "tags": {
+    "addr:city": "Цветочный",
+    "addr:housenumber": "16А",
+    "addr:street": "Школьная улица",
+    "name": "Кедровый бор",
+    "smoking": "isolated",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5344920907,
+  "lat": 44.6016000,
+  "lon": 40.1129880,
+  "tags": {
+    "name": "Нарт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5471051450,
+  "lat": 44.3041016,
+  "lon": 40.1896700,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "улица Карла Маркса",
+    "name": "Фишт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5697017523,
+  "lat": 44.1576993,
+  "lon": 40.0302365,
+  "tags": {
+    "name": "Усадьба \"Колхидские Ворота\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7747476626,
+  "lat": 44.2358828,
+  "lon": 40.1954117,
+  "tags": {
+    "addr:city": "Даховская",
+    "addr:housenumber": "5",
+    "addr:street": "улица Александра Закурдаева",
+    "email": "info@hotel-kashtan.ru",
+    "internet_access": "yes",
+    "internet_access:fee": "customers",
+    "name": "Каштан",
+    "name:en": "Kashtan",
+    "phone": "+7 918 9212288",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://hotel-kashtan.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 7997615821,
+  "lat": 44.2670854,
+  "lon": 40.1932129,
+  "tags": {
+    "name": "Руфабго",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8126742325,
+  "lat": 44.6017409,
+  "lon": 40.0997878,
+  "tags": {
+    "addr:city": "Майкоп",
+    "addr:housenumber": "284",
+    "addr:street": "улица Пушкина",
+    "air_conditioning": "yes",
+    "building:levels": "4",
+    "check_date": "2023-10-11",
+    "email": "hotel.hatti@mail.ru",
+    "fax": "78772531910",
+    "name": "Hatti",
+    "opening_hours": "24/7",
+    "phone": "+7 988 080-19-10",
+    "reservation": "yes",
+    "tourism": "hotel",
+    "website": "https://hotel-hatti.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8688406425,
+  "lat": 44.1066678,
+  "lon": 40.1224505,
+  "tags": {
+    "name": "Гранд Хаус",
+    "opening_hours": "24/7",
+    "phone": "+7 (928) 291-38-88",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9128647217,
+  "lat": 44.2374112,
+  "lon": 40.2028861,
+  "tags": {
+    "name": "База отдыха Денница",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9451109654,
+  "lat": 44.6143683,
+  "lon": 40.1409410,
+  "tags": {
+    "name": "Гостиница Версаль",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9493167629,
+  "lat": 44.6103605,
+  "lon": 40.1114461,
+  "tags": {
+    "name": "Централь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10576795751,
+  "lat": 44.2301217,
+  "lon": 40.1788742,
+  "tags": {
+    "contact:phone": "+7 918 5191444",
+    "contact:website": "https://tutprorancho.ru",
+    "name": "Ранчо",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10923538605,
+  "lat": 44.2185595,
+  "lon": 40.1958092,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Ореховая роща",
+    "name:en": "Walnut Grove",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10923538606,
+  "lat": 44.2185244,
+  "lon": 40.1957832,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Ореховая роща",
+    "name:en": "Walnut Grove",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10923540205,
+  "lat": 44.2186160,
+  "lon": 40.1957353,
+  "tags": {
+    "addr:housenumber": "55",
+    "addr:street": "Ключевая улица",
+    "internet_access": "wlan",
+    "name": "Ореховая роща",
+    "name:en": "Walnut Grove",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10976513105,
+  "lat": 44.1017723,
+  "lon": 40.1238666,
+  "tags": {
+    "name": "Китайская деревня",
+    "opening_hours": "24/7",
+    "phone": "+79182923636",
+    "tourism": "hotel",
+    "website": "http://китайскаядеревня.рф"
+  }
+},
+{
+  "type": "node",
+  "id": 11126971905,
+  "lat": 44.2359930,
+  "lon": 40.1526677,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Deep Sky",
+    "opening_hours": "24/7",
+    "phone": "+7 (995) 608-69-07",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11845258269,
+  "lat": 44.0109196,
+  "lon": 40.1470680,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Гузерипль Вилладж",
+    "tourism": "hotel",
+    "website": "https://guzeriple-village.ru"
+  }
 }
   ]
 }
