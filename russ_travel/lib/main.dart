@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:hive_flutter/hive_flutter.dart';
+//import 'package:hive_flutter_templates/hive_functions.dart';
+import 'package:hive/hive.dart';
+import 'package:russ_travel/map/presentation/screens/hotels_collection.dart';
 import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'map/presentation/screens/map_screen.dart';
+import 'profile.dart';
+import 'articles/screens/article_list_screen.dart';
+import 'information/info_screen.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized(); 		
+  await Hive.initFlutter(); 
   runApp(const MyApp());
 }
 
@@ -32,10 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 0;
   final List<Widget> _pages = [
     MapScreen(),
-    Container(),
-    Container(),
-    // Add other pages/screens as needed
-    // Example: const YourOtherScreen(),
+    ArticleListScreen()
   ];
 
   @override
@@ -43,7 +49,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       body: _pages[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         currentIndex: _currentIndex,
+        backgroundColor: Color.fromRGBO(0, 108, 167, 1),
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white54,
         onTap: (int index) {
           setState(() {
             _currentIndex = index;
@@ -57,10 +67,6 @@ class _MyHomePageState extends State<MyHomePage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.list_alt),
             label: 'Статьи',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.info_outline),
-            label: 'О приложении',
           ),
         ],
       ),
