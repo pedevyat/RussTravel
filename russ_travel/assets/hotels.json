@@ -47677,6 +47677,6974 @@
     "opening_hours": "24/7",
     "tourism": "hotel"
   }
+},
+{
+  "type": "node",
+  "id": 412801259,
+  "lat": 44.7105800,
+  "lon": 37.4556592,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 455879522,
+  "lat": 44.7133051,
+  "lon": 37.8449395,
+  "tags": {
+    "name": "Корсар",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 494318107,
+  "lat": 44.5553907,
+  "lon": 38.0722669,
+  "tags": {
+    "name": "Самара",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 494318582,
+  "lat": 44.5548413,
+  "lon": 38.0706309,
+  "tags": {
+    "name": "Кино",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 494319456,
+  "lat": 44.5558691,
+  "lon": 38.0730317,
+  "tags": {
+    "name": "Music Hall",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 536734661,
+  "lat": 44.7865842,
+  "lon": 37.6740711,
+  "tags": {
+    "name": "Жемчужина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 765304901,
+  "lat": 44.9007732,
+  "lon": 37.3209396,
+  "tags": {
+    "name": "Отель \"Плаза\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151328,
+  "lat": 44.5780989,
+  "lon": 38.0202217,
+  "tags": {
+    "name": "Пансионат \"Северянка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151338,
+  "lat": 44.5711853,
+  "lon": 38.0788410,
+  "tags": {
+    "access": "customers",
+    "addr:housenumber": "26",
+    "addr:street": "улица Халтурина",
+    "amenity": "sanatorium",
+    "leisure": "resort",
+    "name": "Дом отдыха «Звёздочка»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151341,
+  "lat": 44.5875127,
+  "lon": 38.0490188,
+  "tags": {
+    "name": "Пансионат \"Лазурный берег\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151354,
+  "lat": 44.5827583,
+  "lon": 38.0228629,
+  "tags": {
+    "name": "База отдыха \"Авиатор\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151367,
+  "lat": 44.5820311,
+  "lon": 38.0201309,
+  "tags": {
+    "name": "База отдыха \"Здоровье\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151369,
+  "lat": 44.5540179,
+  "lon": 38.0560375,
+  "tags": {
+    "name": "База отдыха «Ростсельмаш»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151390,
+  "lat": 44.5118761,
+  "lon": 38.1325143,
+  "tags": {
+    "fire_rank": "2",
+    "name": "д.о. Баргузин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151394,
+  "lat": 44.5843941,
+  "lon": 38.0228653,
+  "tags": {
+    "name": "База отдыха \"Светлячок\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151401,
+  "lat": 44.5104070,
+  "lon": 38.1307134,
+  "tags": {
+    "name": "т\\б Дивна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151417,
+  "lat": 44.5710510,
+  "lon": 38.0724121,
+  "tags": {
+    "name": "Александрия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151419,
+  "lat": 44.5821180,
+  "lon": 38.0615380,
+  "tags": {
+    "name": "Пансионат \"Приветливый берег\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151432,
+  "lat": 44.5824986,
+  "lon": 38.0234407,
+  "tags": {
+    "name": "База отдыха \"Ромашка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151435,
+  "lat": 44.5864817,
+  "lon": 38.0334504,
+  "tags": {
+    "addr:city": "Геленджик",
+    "addr:housenumber": "25",
+    "addr:street": "Туристическая улица",
+    "name": "Пансионат \"Строитель\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151440,
+  "lat": 44.5023328,
+  "lon": 38.1273624,
+  "tags": {
+    "fire_rank": "2",
+    "name": "б.о. Вагончик",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151442,
+  "lat": 44.5869811,
+  "lon": 38.0293636,
+  "tags": {
+    "name": "Санаторий \"Голубая волна\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151446,
+  "lat": 44.4367572,
+  "lon": 38.1914129,
+  "tags": {
+    "name": "База отдыха",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151450,
+  "lat": 44.5788559,
+  "lon": 38.0199148,
+  "tags": {
+    "name": "База отдыха \"Северянка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151451,
+  "lat": 44.5057406,
+  "lon": 38.1296599,
+  "tags": {
+    "fire_rank": "2",
+    "name": "б.о. Радуга",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151480,
+  "lat": 44.5753985,
+  "lon": 38.0222925,
+  "tags": {
+    "name": "Чайка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151482,
+  "lat": 44.5915507,
+  "lon": 38.0412532,
+  "tags": {
+    "name": "Горизонт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151484,
+  "lat": 44.5026732,
+  "lon": 38.1373429,
+  "tags": {
+    "name": "б.о. Юнармеец",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151488,
+  "lat": 44.4621556,
+  "lon": 38.1533016,
+  "tags": {
+    "addr:city": "Джанхот",
+    "addr:housenumber": "1",
+    "addr:street": "Черноморская улица",
+    "fire_rank": "2",
+    "name": "панс. Джанхот",
+    "phone": "+7 861 4164839",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151494,
+  "lat": 44.5867548,
+  "lon": 38.0315330,
+  "tags": {
+    "addr:city": "Геленджик",
+    "addr:housenumber": "27",
+    "addr:street": "Туристическая улица",
+    "name": "Санаторий \"Голубая Волна\"",
+    "operator": "АлРоса",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151511,
+  "lat": 44.5802399,
+  "lon": 38.0215579,
+  "tags": {
+    "name": "Санаторий \"Алые Паруса\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151513,
+  "lat": 44.5046262,
+  "lon": 38.1309283,
+  "tags": {
+    "name": "Парадиз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151516,
+  "lat": 44.5702673,
+  "lon": 38.0744578,
+  "tags": {
+    "addr:city": "Геленджик",
+    "addr:housenumber": "38",
+    "addr:street": "улица Мира",
+    "name": "Санаторий \"Красная Талка\"",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151526,
+  "lat": 44.5034940,
+  "lon": 38.1421033,
+  "tags": {
+    "name": "Фламинго",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151533,
+  "lat": 44.5802599,
+  "lon": 38.0627249,
+  "tags": {
+    "name": "Санаторий «Солнечный берег»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151537,
+  "lat": 44.5768838,
+  "lon": 38.0207999,
+  "tags": {
+    "name": "Рубин (детский)",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151539,
+  "lat": 44.5829061,
+  "lon": 38.0221056,
+  "tags": {
+    "name": "База отдыха \"Нептун\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151544,
+  "lat": 44.5875225,
+  "lon": 38.0407602,
+  "tags": {
+    "name": "Турбаза \"Черноморская\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151567,
+  "lat": 44.5812507,
+  "lon": 38.0219938,
+  "tags": {
+    "name": "База отдыха \"Бештау\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151586,
+  "lat": 44.5849472,
+  "lon": 38.0235728,
+  "tags": {
+    "name": "База отдыха \"Росинка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151599,
+  "lat": 44.5784501,
+  "lon": 38.0155432,
+  "tags": {
+    "name": "База отдыха \"Вологодские Зори\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151602,
+  "lat": 44.5836593,
+  "lon": 38.0224760,
+  "tags": {
+    "name": "База отдыха \"Незабудка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151604,
+  "lat": 44.5902406,
+  "lon": 38.0496254,
+  "tags": {
+    "name": "Рассвет",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151607,
+  "lat": 44.5000046,
+  "lon": 38.1352467,
+  "tags": {
+    "fire_rank": "1 бис",
+    "name": "панс. Приморский",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151620,
+  "lat": 44.5817714,
+  "lon": 38.0210846,
+  "tags": {
+    "name": "База отдыха \"Моторист\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 946151631,
+  "lat": 44.5897277,
+  "lon": 38.0320918,
+  "tags": {
+    "name": "База отдыха \"Голубая Волна\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 960120092,
+  "lat": 45.2860063,
+  "lon": 36.9897718,
+  "tags": {
+    "name": "Штурвал",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1184798848,
+  "lat": 45.2649333,
+  "lon": 38.1482060,
+  "tags": {
+    "name": "Амара",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1219433529,
+  "lat": 44.5836442,
+  "lon": 38.0590242,
+  "tags": {
+    "name": "Золотая лоза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1221423928,
+  "lat": 44.5889675,
+  "lon": 38.0671768,
+  "tags": {
+    "name": "«Горный воздух»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1249272838,
+  "lat": 45.2914046,
+  "lon": 36.9954913,
+  "tags": {
+    "name": "Бриз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1249272852,
+  "lat": 45.2850806,
+  "lon": 36.9892095,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1249287707,
+  "lat": 45.2835507,
+  "lon": 36.9895046,
+  "tags": {
+    "name": "Фея",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1251058501,
+  "lat": 44.5668889,
+  "lon": 38.0770653,
+  "tags": {
+    "name": "Пальмира",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1251059667,
+  "lat": 44.5673734,
+  "lon": 38.0766715,
+  "tags": {
+    "name": "Валерия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1253610202,
+  "lat": 44.5723105,
+  "lon": 38.0713069,
+  "tags": {
+    "name": "Санаторий \"Эдельвейс\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1253639553,
+  "lat": 44.5782617,
+  "lon": 38.0642228,
+  "tags": {
+    "name": "Отель «Белый дом»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1260020085,
+  "lat": 44.7170081,
+  "lon": 37.7786781,
+  "tags": {
+    "addr:city": "Новороссийск",
+    "addr:housenumber": "56",
+    "addr:street": "улица Советов",
+    "name": "Отель София",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1280753299,
+  "lat": 44.5654181,
+  "lon": 38.0303763,
+  "tags": {
+    "name": "Пансионат \"Тонкий мыс\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1282547773,
+  "lat": 44.5549096,
+  "lon": 38.0771288,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Столовая",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1282550069,
+  "lat": 44.5554314,
+  "lon": 38.0793780,
+  "tags": {
+    "name": "Семь жемчужин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1344115951,
+  "lat": 45.0531601,
+  "lon": 37.1150042,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Лотос",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1349282026,
+  "lat": 44.9791562,
+  "lon": 37.2745783,
+  "tags": {
+    "name": "Каракатица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1425154626,
+  "lat": 44.9879105,
+  "lon": 37.2586402,
+  "tags": {
+    "name": "Константинополь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1425154627,
+  "lat": 44.9878084,
+  "lon": 37.2588075,
+  "tags": {
+    "name": "Фаворит",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1426379819,
+  "lat": 44.9887351,
+  "lon": 37.2582453,
+  "tags": {
+    "name": "Арго",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1431031095,
+  "lat": 44.9901142,
+  "lon": 37.2621649,
+  "tags": {
+    "name": "Мария",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1431661392,
+  "lat": 44.9866521,
+  "lon": 37.2602361,
+  "tags": {
+    "name": "Золотой клен",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1431667537,
+  "lat": 44.9882874,
+  "lon": 37.2652250,
+  "tags": {
+    "name": "Алекс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1432461657,
+  "lat": 44.9893391,
+  "lon": 37.2545376,
+  "tags": {
+    "name": "Зодиак",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1433578010,
+  "lat": 44.6793083,
+  "lon": 37.5439222,
+  "tags": {
+    "name": "База отдыха \"Моряк\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1433578011,
+  "lat": 44.6742838,
+  "lon": 37.5895222,
+  "tags": {
+    "name": "Звёздный",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373072,
+  "lat": 44.9867208,
+  "lon": 37.2598569,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Red rose",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373075,
+  "lat": 44.9895476,
+  "lon": 37.2560228,
+  "tags": {
+    "name": "Бумеранг",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373081,
+  "lat": 44.9843535,
+  "lon": 37.2585596,
+  "tags": {
+    "name": "Дельфин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373083,
+  "lat": 44.9829776,
+  "lon": 37.2563916,
+  "tags": {
+    "name": "Золотые дюны",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373085,
+  "lat": 44.9845147,
+  "lon": 37.2588417,
+  "tags": {
+    "name": "Константинополь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373086,
+  "lat": 44.9870829,
+  "lon": 37.2586221,
+  "tags": {
+    "name": "Корона",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373094,
+  "lat": 44.9897248,
+  "lon": 37.2556215,
+  "tags": {
+    "name": "Палладиум",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373106,
+  "lat": 44.9868713,
+  "lon": 37.2588476,
+  "tags": {
+    "name": "Южная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373107,
+  "lat": 44.9879946,
+  "lon": 37.2595036,
+  "tags": {
+    "leisure": "resort",
+    "name": "Пансионат Ангарa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1436373979,
+  "lat": 44.9889040,
+  "lon": 37.2576127,
+  "tags": {
+    "fixme": "Название гостиницы",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1459099156,
+  "lat": 45.0137055,
+  "lon": 37.7523558,
+  "tags": {
+    "name": "Losa Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1464050390,
+  "lat": 44.5760215,
+  "lon": 37.9842129,
+  "tags": {
+    "addr:country": "RU",
+    "contact:phone": "+7 861 4128271",
+    "fire_rank": "1bis",
+    "name": "Санаторий \"Голубая бухта\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1618863663,
+  "lat": 44.5049099,
+  "lon": 38.1304054,
+  "tags": {
+    "contact:website": "http://www.hotel-acropol.ru",
+    "name": "Акрополь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1618883137,
+  "lat": 44.5034140,
+  "lon": 38.1273799,
+  "tags": {
+    "description": "база отдыха ДГТУ",
+    "fire_rank": "2",
+    "name": "Радуга",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1757123578,
+  "lat": 44.7065267,
+  "lon": 37.5975841,
+  "tags": {
+    "name": "Империал Hotel & Champagne SPA",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1757123581,
+  "lat": 44.6807289,
+  "lon": 37.5616152,
+  "tags": {
+    "name": "Шоколад",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1803662140,
+  "lat": 44.9752648,
+  "lon": 37.2709361,
+  "tags": {
+    "access": "customers",
+    "amenity": "sanatorium",
+    "name": "Санаторий Парус",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1813667375,
+  "lat": 44.6480113,
+  "lon": 37.9434061,
+  "tags": {
+    "name": "ФандоринЪ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1822586022,
+  "lat": 44.9416624,
+  "lon": 37.3487334,
+  "tags": {
+    "name": "Восток",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1823994321,
+  "lat": 44.4626735,
+  "lon": 38.1519716,
+  "tags": {
+    "name": "Гостевой дом Джанхот",
+    "tourism": "hotel",
+    "website": "https://azur.ru/dzhanxot/o/634"
+  }
+},
+{
+  "type": "node",
+  "id": 1872984671,
+  "lat": 44.6494360,
+  "lon": 37.9408934,
+  "tags": {
+    "name": "Отель \"Диана\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1877855017,
+  "lat": 44.6494945,
+  "lon": 37.9370480,
+  "tags": {
+    "addr:city": "Кабардинка",
+    "addr:housenumber": "15А",
+    "addr:street": "улица Мира",
+    "name": "Козмос",
+    "name:en": "Kozmos",
+    "name:ru": "Козмос",
+    "tourism": "hotel",
+    "website": "https://www.kozmos-otel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 1877855059,
+  "lat": 44.6504660,
+  "lon": 37.9377869,
+  "tags": {
+    "addr:housenumber": "17В",
+    "addr:street": "улица Мира",
+    "alt_name": "Леман",
+    "internet_access": "wlan",
+    "name": "ЛеМан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1888675200,
+  "lat": 44.8929624,
+  "lon": 37.3107403,
+  "tags": {
+    "name": "Де ла Мапа",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1892972958,
+  "lat": 44.5651098,
+  "lon": 38.0776051,
+  "tags": {
+    "name": "Геленджик",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1896423435,
+  "lat": 44.6579730,
+  "lon": 37.9252114,
+  "tags": {
+    "name": "Изумрудный",
+    "phone": "+7 86141 66638",
+    "tourism": "hotel",
+    "website": "https://hotel-izumrud.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 1896546529,
+  "lat": 44.6589808,
+  "lon": 37.9353302,
+  "tags": {
+    "name": "Санаторий \"Кировец\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1896670010,
+  "lat": 44.6487068,
+  "lon": 37.9460572,
+  "tags": {
+    "name": "Золотое руно",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1900470040,
+  "lat": 44.6483799,
+  "lon": 37.9419720,
+  "tags": {
+    "name": "Морская звезда",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1900470073,
+  "lat": 44.6500439,
+  "lon": 37.9434256,
+  "tags": {
+    "name": "Камелот",
+    "tourism": "hotel",
+    "website": "http://камелот-отель.рф"
+  }
+},
+{
+  "type": "node",
+  "id": 1901199139,
+  "lat": 44.9856222,
+  "lon": 37.2572457,
+  "tags": {
+    "name": "National",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1901199142,
+  "lat": 44.9819284,
+  "lon": 37.2542538,
+  "tags": {
+    "name": "Palace",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1904461998,
+  "lat": 44.6360593,
+  "lon": 37.9187653,
+  "tags": {
+    "name": "Прометей",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1908195768,
+  "lat": 44.9890185,
+  "lon": 37.2539664,
+  "tags": {
+    "name": "Астория",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1908197845,
+  "lat": 44.9890356,
+  "lon": 37.2550257,
+  "tags": {
+    "name": "Флагман",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1908197846,
+  "lat": 44.9891305,
+  "lon": 37.2548326,
+  "tags": {
+    "name": "Парадиз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1911099936,
+  "lat": 44.9861021,
+  "lon": 37.2559437,
+  "tags": {
+    "addr:housenumber": "181Б",
+    "addr:street": "Черноморская улица",
+    "contact:phone": "+7 86133 73009",
+    "contact:website": "http://meridian-anapa.ru/",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Ателика Гранд Меридиан",
+    "rooms": "100",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1922177387,
+  "lat": 44.5895603,
+  "lon": 38.0469409,
+  "tags": {
+    "name": "Плаза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1922226874,
+  "lat": 44.5032278,
+  "lon": 38.1323015,
+  "tags": {
+    "name": "Мечта - корпус 1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1922226950,
+  "lat": 44.5035077,
+  "lon": 38.1324645,
+  "tags": {
+    "name": "Мечта - корпус 3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1922226956,
+  "lat": 44.5035894,
+  "lon": 38.1318992,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Прибой",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1923321527,
+  "lat": 44.5024263,
+  "lon": 38.1312662,
+  "tags": {
+    "name": "Ива",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1925651196,
+  "lat": 44.6745828,
+  "lon": 37.7797211,
+  "tags": {
+    "name": "Шоколад 3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1949903997,
+  "lat": 44.5708364,
+  "lon": 38.0721557,
+  "tags": {
+    "name": "Bravissimo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1950339117,
+  "lat": 44.9868188,
+  "lon": 37.2552280,
+  "tags": {
+    "name": "Фаворит",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1983958510,
+  "lat": 44.8970870,
+  "lon": 37.3069368,
+  "tags": {
+    "contact:phone": "+7 86133 39796",
+    "contact:website": "http://www.anapakapitan.ru/",
+    "name": "Отель «Капитан»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1984097735,
+  "lat": 44.8977684,
+  "lon": 37.3197089,
+  "tags": {
+    "contact:phone": "+7 86133 22293",
+    "contact:website": "http://www.hotel-albatros.ru/",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Альбатрос",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2086895072,
+  "lat": 44.9599635,
+  "lon": 37.2901294,
+  "tags": {
+    "contact:website": "http://www.olimphotel.ru",
+    "name": "О! Деревня в Анапе",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2102000379,
+  "lat": 44.8646617,
+  "lon": 38.1742823,
+  "tags": {
+    "name": "Надежда",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2110519630,
+  "lat": 44.9927583,
+  "lon": 37.2674405,
+  "tags": {
+    "name": "Горлинка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2154656583,
+  "lat": 44.8918555,
+  "lon": 37.3027663,
+  "tags": {
+    "name": "Отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2162822673,
+  "lat": 44.9900128,
+  "lon": 37.2456769,
+  "tags": {
+    "addr:housenumber": "8",
+    "addr:street": "Санаторный проезд",
+    "amenity": "sanatorium",
+    "email": "megapolis-hotel@mail.ru",
+    "name": "Megapolis Hotel",
+    "phone": "+7 988 1397722",
+    "tourism": "hotel",
+    "website": "megapolis-otel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 2270587635,
+  "lat": 44.6590402,
+  "lon": 37.7698421,
+  "tags": {
+    "name": "Загородный Отель Мысхако",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2330690081,
+  "lat": 44.4912653,
+  "lon": 38.1349833,
+  "tags": {
+    "name": "Морской клуб",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2388986086,
+  "lat": 44.5786191,
+  "lon": 38.0646198,
+  "tags": {
+    "name": "Корсар",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2400047104,
+  "lat": 44.7990141,
+  "lon": 37.3717443,
+  "tags": {
+    "name": "Пансионат \"Шингари\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401713486,
+  "lat": 44.9239777,
+  "lon": 37.3213583,
+  "tags": {
+    "name": "Анапский бриз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401713487,
+  "lat": 44.9244423,
+  "lon": 37.3228755,
+  "tags": {
+    "name": "Камчатка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401714374,
+  "lat": 44.9231698,
+  "lon": 37.3175589,
+  "tags": {
+    "name": "Кристалл уют",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401714375,
+  "lat": 44.9233807,
+  "lon": 37.3195631,
+  "tags": {
+    "name": "София",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401715963,
+  "lat": 44.9242098,
+  "lon": 37.3189943,
+  "tags": {
+    "name": "ДОЛ Приазовец",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401726158,
+  "lat": 44.9289558,
+  "lon": 37.3153292,
+  "tags": {
+    "name": "Бимлюк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401726161,
+  "lat": 44.9285145,
+  "lon": 37.3179446,
+  "tags": {
+    "name": "Буревестник",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401726165,
+  "lat": 44.9264765,
+  "lon": 37.3175117,
+  "tags": {
+    "name": "Нефтяник Кубани",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401729614,
+  "lat": 44.9262811,
+  "lon": 37.3203429,
+  "tags": {
+    "name": "Мандарин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401734254,
+  "lat": 44.9227573,
+  "lon": 37.3195227,
+  "tags": {
+    "name": "ДОЛ Полярная звезда",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401738883,
+  "lat": 44.9291718,
+  "lon": 37.3203839,
+  "tags": {
+    "name": "ЛОК Дорожник",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401738884,
+  "lat": 44.9228231,
+  "lon": 37.3228764,
+  "tags": {
+    "name": "ЛОК «Звёздочка-Юг»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401748930,
+  "lat": 44.9146041,
+  "lon": 37.3260698,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Пионерский проспект",
+    "air_conditioning": "yes",
+    "email": "booking@sunrise-anapa.ru",
+    "internet_access": "wlan",
+    "name": "Санрайз парк-отель",
+    "name:en": "SUNRISE Park Hotel Relax&Spa",
+    "phone": "+7 800 200-52-58",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "http://sunrise-anapa.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 2401748931,
+  "lat": 44.9161298,
+  "lon": 37.3216433,
+  "tags": {
+    "name": "ДОЛ «Звёздочка»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401748932,
+  "lat": 44.9168863,
+  "lon": 37.3213635,
+  "tags": {
+    "name": "ДОЛ Планета",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401748933,
+  "lat": 44.9176731,
+  "lon": 37.3267609,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "26",
+    "addr:street": "Симферопольское шоссе",
+    "name": "Довиль",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401752091,
+  "lat": 44.9195046,
+  "lon": 37.3226130,
+  "tags": {
+    "name": "ДОЛ Ока",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2401752094,
+  "lat": 44.9200255,
+  "lon": 37.3221842,
+  "tags": {
+    "name": "Солнечный берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2406789942,
+  "lat": 44.6535302,
+  "lon": 37.7004355,
+  "tags": {
+    "name": "Метроклуб",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2417432329,
+  "lat": 44.5676555,
+  "lon": 38.0815449,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2442349223,
+  "lat": 44.6526422,
+  "lon": 37.9361594,
+  "tags": {
+    "addr:postcode": "353480",
+    "internet_access": "wlan",
+    "name": "Капри",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2443574805,
+  "lat": 44.5010568,
+  "lon": 38.1336703,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2443575091,
+  "lat": 44.5005709,
+  "lon": 38.1391099,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2443595863,
+  "lat": 44.4961879,
+  "lon": 38.1329461,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2445465356,
+  "lat": 44.5048067,
+  "lon": 38.1264030,
+  "tags": {
+    "name": "Атриум",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2461260802,
+  "lat": 45.2136431,
+  "lon": 36.7152417,
+  "tags": {
+    "name": "Волна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2486501060,
+  "lat": 44.4634020,
+  "lon": 38.1562480,
+  "tags": {
+    "name": "Императрица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2538115634,
+  "lat": 44.6777912,
+  "lon": 37.5962269,
+  "tags": {
+    "name": "Усадьба \"Круглое Озеро\"",
+    "phone": "+7 918 0631314",
+    "tourism": "hotel",
+    "website": "http://visitabrau.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 2540971677,
+  "lat": 44.6720661,
+  "lon": 37.6315950,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2541256959,
+  "lat": 44.7838214,
+  "lon": 37.3838581,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2541257001,
+  "lat": 44.7835307,
+  "lon": 37.3835316,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2541257026,
+  "lat": 44.7884454,
+  "lon": 37.3930500,
+  "tags": {
+    "name": "Отель \"Долина Сукко\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2541257030,
+  "lat": 44.7879714,
+  "lon": 37.3933290,
+  "tags": {
+    "name": "Гостиничный комплекс \"Дельмонт\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2542835033,
+  "lat": 44.7622356,
+  "lon": 37.3888369,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2552435886,
+  "lat": 44.7624718,
+  "lon": 37.3895350,
+  "tags": {
+    "name": "База отдыха \"Морской залив\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2556907553,
+  "lat": 44.6698614,
+  "lon": 37.6286407,
+  "tags": {
+    "name": "База отдыха \"Риф\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2577438191,
+  "lat": 44.5876177,
+  "lon": 38.0534266,
+  "tags": {
+    "name": "Bounty",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2578102712,
+  "lat": 44.9957734,
+  "lon": 37.2752778,
+  "tags": {
+    "name": "Александр",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2578993853,
+  "lat": 44.9831346,
+  "lon": 37.2662850,
+  "tags": {
+    "name": "Афалина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2578993877,
+  "lat": 44.9910718,
+  "lon": 37.2568951,
+  "tags": {
+    "name": "Лиманный берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2637686887,
+  "lat": 44.9485352,
+  "lon": 37.2961444,
+  "tags": {
+    "name": "Розовый фонтан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2637686891,
+  "lat": 44.9484858,
+  "lon": 37.2956670,
+  "tags": {
+    "name": "Каурма",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2637686894,
+  "lat": 44.9433715,
+  "lon": 37.3038852,
+  "tags": {
+    "name": "Гранд Круиз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2637686895,
+  "lat": 44.9448865,
+  "lon": 37.3003018,
+  "tags": {
+    "name": "База отдыха \"Снегири\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2637686896,
+  "lat": 44.9458433,
+  "lon": 37.3056019,
+  "tags": {
+    "name": "Евро парк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2637686908,
+  "lat": 44.9511965,
+  "lon": 37.2956455,
+  "tags": {
+    "name": "Сибирь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2664613003,
+  "lat": 44.4416310,
+  "lon": 38.1931171,
+  "tags": {
+    "fire_rank": "1 бис",
+    "name": "Райский сад",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2844207842,
+  "lat": 44.5856524,
+  "lon": 38.0575818,
+  "tags": {
+    "name": "Отель \"222\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2852265310,
+  "lat": 44.6470260,
+  "lon": 37.9396053,
+  "tags": {
+    "name": "Катюша",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2852276846,
+  "lat": 44.6481517,
+  "lon": 37.9400923,
+  "tags": {
+    "name": "В гостях у Надежды",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2852290304,
+  "lat": 44.6477108,
+  "lon": 37.9415145,
+  "tags": {
+    "name": "Лакис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2852394911,
+  "lat": 44.6506684,
+  "lon": 37.9380607,
+  "tags": {
+    "name": "Кастро",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2852518963,
+  "lat": 44.6452560,
+  "lon": 37.9471533,
+  "tags": {
+    "name": "Надежда",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2855130045,
+  "lat": 44.9890349,
+  "lon": 37.2579729,
+  "tags": {
+    "amenity": "pharmacy",
+    "dispensing": "no",
+    "healthcare": "pharmacy",
+    "name": "Валентина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2887597827,
+  "lat": 44.7874659,
+  "lon": 37.3902830,
+  "tags": {
+    "name": "Смена - Нептун2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2887597838,
+  "lat": 44.7829395,
+  "lon": 37.3827301,
+  "tags": {
+    "name": "Гостиница \"Дельфин\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2893976878,
+  "lat": 44.9814234,
+  "lon": 37.2565216,
+  "tags": {
+    "name": "Вита",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2904986290,
+  "lat": 45.1244664,
+  "lon": 36.7046947,
+  "tags": {
+    "name": "Уют Тамани",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2918435077,
+  "lat": 44.6472801,
+  "lon": 37.9346121,
+  "tags": {
+    "addr:country": "RU",
+    "contact:phone": "+7 861 4165662",
+    "fire_rank": "2",
+    "name": "ДОЛ \"Спасение\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2918539186,
+  "lat": 44.6492518,
+  "lon": 37.9356684,
+  "tags": {
+    "addr:country": "RU",
+    "contact:phone": "+7 861 4166498",
+    "fire_rank": "1bis",
+    "name": "Пансионат \"Почтовик\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2924274921,
+  "lat": 44.5109793,
+  "lon": 38.1338528,
+  "tags": {
+    "addr:country": "RU",
+    "contact:phone": "+7 861 4163285",
+    "fire_rank": "2",
+    "name": "Талка Виладж",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2924403152,
+  "lat": 44.5645477,
+  "lon": 38.0775522,
+  "tags": {
+    "addr:country": "RU",
+    "contact:phone": "+7 861 4167954",
+    "fire_rank": "1bis",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2938065609,
+  "lat": 44.5983961,
+  "lon": 38.0304258,
+  "tags": {
+    "name": "Линкор",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2953908333,
+  "lat": 44.5646566,
+  "lon": 38.0786725,
+  "tags": {
+    "name": "Пристань",
+    "phone": "+78614132587",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2963025727,
+  "lat": 44.6505280,
+  "lon": 37.9393349,
+  "tags": {
+    "addr:city": "Кабардинка",
+    "addr:housenumber": "63Б",
+    "addr:street": "Революционная улица",
+    "name": "Фиеста",
+    "smoking": "no",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3007996466,
+  "lat": 44.8978992,
+  "lon": 37.3325347,
+  "tags": {
+    "name": "Алекс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3214625321,
+  "lat": 44.9648178,
+  "lon": 37.2931644,
+  "tags": {
+    "designation": "Отели, Гостевые дома",
+    "name": "Гостевой дом Экодом Белые росы",
+    "shop": "convenience",
+    "source": "Экодом белые росы",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3283557467,
+  "lat": 44.6778826,
+  "lon": 37.6300159,
+  "tags": {
+    "name": "Астерия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3284166117,
+  "lat": 45.0666832,
+  "lon": 37.0400418,
+  "tags": {
+    "name": "Размещение отдыхающих",
+    "phone": "+7 904 5000077",
+    "tourism": "hotel",
+    "website": "https://ok.ru/makler103"
+  }
+},
+{
+  "type": "node",
+  "id": 3508948937,
+  "lat": 44.6585592,
+  "lon": 37.6866382,
+  "tags": {
+    "name": "ЗАО \"Санаторий Лесная гавань\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3508948947,
+  "lat": 44.6676000,
+  "lon": 37.6844472,
+  "tags": {
+    "name": "База отдыха \"Горный родник\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3508948948,
+  "lat": 44.6573137,
+  "lon": 37.6975684,
+  "tags": {
+    "name": "База отдыха \"Лесная горка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3508948949,
+  "lat": 44.6662272,
+  "lon": 37.6822739,
+  "tags": {
+    "name": "База отдыха \"Меркурий\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3508948950,
+  "lat": 44.6555936,
+  "lon": 37.7002856,
+  "tags": {
+    "name": "б/о \"Якорь\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3560345822,
+  "lat": 44.8979590,
+  "lon": 37.3224163,
+  "tags": {
+    "name": "Hotel de Paris",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3596865523,
+  "lat": 45.2593680,
+  "lon": 38.1366557,
+  "tags": {
+    "name": "Galar Hall Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3598471393,
+  "lat": 44.9518232,
+  "lon": 37.2954564,
+  "tags": {
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Дженифер",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3673252522,
+  "lat": 44.9439200,
+  "lon": 37.3039060,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "81",
+    "addr:street": "Пионерский проспект",
+    "name": "Гранд Круиз",
+    "operator": "ООО \"Круиз\"",
+    "phone": "+7 918 0533505;+7 86133 33960;+7 86133 33930",
+    "smoking": "separated",
+    "tourism": "hotel",
+    "website": "https://grand-kruiz.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 3673254072,
+  "lat": 44.9429414,
+  "lon": 37.3030220,
+  "tags": {
+    "addr:housenumber": "81",
+    "addr:street": "Пионерский проспект",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Ателика Гранд Прибой 3 корпус",
+    "opening_hours": "24/7",
+    "operator": "Гранд Прибой",
+    "rooms": "15",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3713389025,
+  "lat": 44.5635913,
+  "lon": 38.0255952,
+  "tags": {
+    "addr:city": "Геленджик",
+    "addr:housenumber": "55",
+    "addr:street": "Ясная улица",
+    "ele": "5",
+    "name": "Вишнёвый сад",
+    "operator": "И. П. Папин А. В.",
+    "phone": "+7 918 4635456",
+    "smoking": "outside",
+    "tourism": "hotel",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3831304691,
+  "lat": 44.8884468,
+  "lon": 37.2990723,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "1А",
+    "addr:street": "Крепостная улица",
+    "name": "Боспор",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3834479158,
+  "lat": 44.6418210,
+  "lon": 37.9291331,
+  "tags": {
+    "name": "База отдыха \"Искра\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3835395359,
+  "lat": 44.6476639,
+  "lon": 37.9371955,
+  "tags": {
+    "name": "База отдыха \"Малахит\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3836137586,
+  "lat": 44.6415855,
+  "lon": 37.9347764,
+  "tags": {
+    "name": "Кедровая роща",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3924335722,
+  "lat": 45.2149849,
+  "lon": 36.7205662,
+  "tags": {
+    "name": "Гостевой двор \"Диканька\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3924335723,
+  "lat": 45.2163085,
+  "lon": 36.7158203,
+  "tags": {
+    "name": "Татьяна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3958147528,
+  "lat": 44.6562910,
+  "lon": 37.6957505,
+  "tags": {
+    "name": "База отдыха \"Чайка\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4107156306,
+  "lat": 44.5825341,
+  "lon": 38.0600277,
+  "tags": {
+    "name": "Отель \"Фрегат\"",
+    "phone": "+7 915 2220305",
+    "tourism": "hotel",
+    "website": "http://fregathotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4133475945,
+  "lat": 44.9939340,
+  "lon": 37.2746411,
+  "tags": {
+    "internet_access": "yes",
+    "name": "Априори",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4185753493,
+  "lat": 44.8830773,
+  "lon": 37.3186083,
+  "tags": {
+    "addr:housenumber": "82",
+    "addr:street": "улица Ленина",
+    "email": "2013utrish@mail.ru",
+    "internet_access": "wlan",
+    "name": "Отель Паланга",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4207856264,
+  "lat": 44.8917442,
+  "lon": 37.2980486,
+  "tags": {
+    "fire_operator": "RU-KDA-11-44",
+    "fire_rank": "1bis",
+    "leisure": "resort",
+    "name": "ЗАО «Санаторий «Малая бухта»",
+    "phone": "+7 499 1105872",
+    "resort": "sanatorium",
+    "tourism": "hotel",
+    "website": "https://malaya-bukhta-anapa.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4210473730,
+  "lat": 44.9047094,
+  "lon": 37.3337916,
+  "tags": {
+    "fire_operator": "RU-KDA-11-44",
+    "fire_rank": "1bis",
+    "name": "Монарх",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4216612994,
+  "lat": 44.9505158,
+  "lon": 37.3031751,
+  "tags": {
+    "email": "chernomorskaya.zorka@mail.ru",
+    "name": "Пионерская зорька",
+    "phone": "+7 900 2556316",
+    "tourism": "hotel",
+    "website": "http://anapa-zorka.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4216898089,
+  "lat": 44.8965451,
+  "lon": 37.3066959,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "3",
+    "addr:street": "улица Ленина",
+    "email": "marketing@anapaokean.ru",
+    "internet_access": "wlan",
+    "name": "Санаторий «Анапа-Океан»",
+    "phone": "+7 800 2502755",
+    "rooms": "100",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://anapaokean.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4220937889,
+  "lat": 44.9939161,
+  "lon": 37.2745327,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Априори",
+    "tourism": "hotel",
+    "website": "http://www.hotelapriori.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4227939528,
+  "lat": 44.6472809,
+  "lon": 37.9403596,
+  "tags": {
+    "addr:city": "Кабардинка",
+    "addr:housenumber": "9",
+    "addr:postcode": "353480",
+    "addr:street": "Тихий переулок",
+    "name": "Август",
+    "phone": "+7 967 6656633",
+    "tourism": "hotel",
+    "website": "http://www.август-кабардинка.рф"
+  }
+},
+{
+  "type": "node",
+  "id": 4238758690,
+  "lat": 44.9444894,
+  "lon": 37.8737552,
+  "tags": {
+    "addr:country": "RU",
+    "addr:housenumber": "12/1Б",
+    "addr:street": "улица Фрунзе",
+    "internet_access": "wlan",
+    "name": "Лефкадия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4242521720,
+  "lat": 44.8906604,
+  "lon": 37.3009796,
+  "tags": {
+    "name": "Старый город",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4270465391,
+  "lat": 44.6651054,
+  "lon": 37.6839788,
+  "tags": {
+    "email": "pansionatdiana@yandex.ru",
+    "name": "Диана",
+    "phone": "+7 988 7620720",
+    "tourism": "hotel",
+    "website": "http://diana-23.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4273939993,
+  "lat": 44.5596067,
+  "lon": 38.0772872,
+  "tags": {
+    "description": "2-х комнатный номер на 3-4 человека. На берегу моря. Душ санузел кухня в номере. Сплит, тв, холодильник.",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4283670293,
+  "lat": 44.5767487,
+  "lon": 37.9862199,
+  "tags": {
+    "name": "Villa Laguna",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4299081995,
+  "lat": 44.9882445,
+  "lon": 37.2543667,
+  "tags": {
+    "name": "Золотые пески",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4309361089,
+  "lat": 44.9849604,
+  "lon": 37.2581854,
+  "tags": {
+    "name": "Золотой Ямал",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4341926704,
+  "lat": 44.8937062,
+  "lon": 37.4273229,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:postcode": "353435",
+    "addr:street": "улица Автомобилистов",
+    "internet_access": "wlan",
+    "name": "У Любавы",
+    "opening_hours": "24/7",
+    "operator": "Любовь Ивановна",
+    "phone": "+7 918 4827417",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4344728590,
+  "lat": 44.9734057,
+  "lon": 37.2704137,
+  "tags": {
+    "addr:postcode": "353456",
+    "email": "info@anapaselena.ru",
+    "name": "пансионат \"Селена\"",
+    "phone": "+7 86133 33155",
+    "tourism": "hotel",
+    "website": "https://anapaselena.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4344920266,
+  "lat": 45.2570612,
+  "lon": 38.0937957,
+  "tags": {
+    "description": "2200р. 2хместный номер\n100р. стоянка",
+    "name": "Копыл",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4359361991,
+  "lat": 44.5928888,
+  "lon": 38.0501870,
+  "tags": {
+    "name": "Антре",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4359855957,
+  "lat": 44.5797035,
+  "lon": 38.0757740,
+  "tags": {
+    "name": "Атлас",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4366482489,
+  "lat": 44.4940264,
+  "lon": 38.1330725,
+  "tags": {
+    "name": "Голубая даль",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4367756094,
+  "lat": 44.8957523,
+  "lon": 37.3174207,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Гранд-отель \"Валентина\"",
+    "name:en": "GRAND HOTEL VALENTINA",
+    "name:ru": "Гранд-отель \"Валентина\"",
+    "phone": "+78613339828",
+    "tourism": "hotel",
+    "website": "http://m.grandvalentina.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4368028398,
+  "lat": 44.8938768,
+  "lon": 37.3194059,
+  "tags": {
+    "name": "Отель \"Якорь\"",
+    "name:ru": "Отель \"Якорь\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4368950789,
+  "lat": 44.8954596,
+  "lon": 37.3176487,
+  "tags": {
+    "name": "Отель «Альтаир»",
+    "name:en": "Altair Hotel",
+    "name:ru": "Отель «Альтаир»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4375158889,
+  "lat": 44.9105439,
+  "lon": 37.3203586,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "проезд Золотой Берег",
+    "internet_access": "wlan",
+    "name": "клуб-отель Золотая бухта",
+    "name:en": "Long Beach",
+    "name:ru": "клуб-отель Золотая бухта",
+    "opening_hours": "24/7",
+    "phone": "+7 929 8438888",
+    "tourism": "hotel",
+    "website": "https://www.zb-anapa.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4380314089,
+  "lat": 44.4997523,
+  "lon": 38.1400864,
+  "tags": {
+    "name": "Relax House",
+    "operator": "Галина Михайловна",
+    "phone": "+7 918 2163211",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4382026693,
+  "lat": 44.8976771,
+  "lon": 37.3183137,
+  "tags": {
+    "name": "Спорт",
+    "name:ru": "Спорт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4391456418,
+  "lat": 44.9434713,
+  "lon": 37.3044922,
+  "tags": {
+    "name": "Гранд-Круиз",
+    "phone": "+7 800 3333349",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4396340194,
+  "lat": 44.9824602,
+  "lon": 37.2550476,
+  "tags": {
+    "name": "Георгий",
+    "name:ru": "Георгий",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4407985091,
+  "lat": 44.5566535,
+  "lon": 38.0857312,
+  "tags": {
+    "name": "Дядя Володя",
+    "name:ru": "Дядя Володя",
+    "phone": "+7 918 9532030",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4409516091,
+  "lat": 44.6466198,
+  "lon": 37.9325181,
+  "tags": {
+    "addr:postcode": "353480",
+    "internet_access": "wlan",
+    "name": "Дача",
+    "name:ru": "Дача",
+    "phone": "+7 86141 66800",
+    "tourism": "hotel",
+    "website": "https://dacha-kabardinka.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4550430041,
+  "lat": 44.4632051,
+  "lon": 38.1514250,
+  "tags": {
+    "name": "Коттеджи Санторини",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4563737994,
+  "lat": 44.6566880,
+  "lon": 37.7527989,
+  "tags": {
+    "name": "Viva Victoria",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4595423035,
+  "lat": 44.6504539,
+  "lon": 37.9459753,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4629927261,
+  "lat": 45.2936123,
+  "lon": 37.3639616,
+  "tags": {
+    "name": "Бриг",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4644424191,
+  "lat": 44.7107073,
+  "lon": 37.5870093,
+  "tags": {
+    "description": "Небольшой уютный ,стильный отель.Очень приветливый персонал.Хорошая кухня .Сауна ,бассейн. Уютные номера.",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Крылья",
+    "name:ru": "Крылья",
+    "smoking": "outside",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4688810390,
+  "lat": 45.2083670,
+  "lon": 36.7102573,
+  "tags": {
+    "addr:housenumber": "13",
+    "addr:postcode": "353555",
+    "addr:street": "улица Островского",
+    "email": "disco765@yandex.ru",
+    "internet_access": "wlan",
+    "name": "ВиллаАвто",
+    "name:en": "VillaAvto",
+    "name:ru": "ВиллаАвто",
+    "opening_hours": "24/7",
+    "phone": "+79186621110",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4811345195,
+  "lat": 44.9433620,
+  "lon": 37.3031627,
+  "tags": {
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Гранд Прибой",
+    "operator": "Гранд Прибой",
+    "phone": "+7 86133 33425",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://grandpriboy.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4811346396,
+  "lat": 44.9430352,
+  "lon": 37.3034349,
+  "tags": {
+    "internet_access": "yes",
+    "name": "Ателика Гранд Прибой 2 корпус",
+    "operator": "Гранд Прибой",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4820249722,
+  "lat": 44.5014959,
+  "lon": 38.1375114,
+  "tags": {
+    "name": "У Лукоморья",
+    "name:ru": "У Лукоморья",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4861171958,
+  "lat": 45.2568725,
+  "lon": 38.0937640,
+  "tags": {
+    "addr:city": "Славянск-на-Кубани",
+    "addr:housenumber": "24",
+    "addr:street": "Российская улица",
+    "fire_object:type": "szo",
+    "fire_rank": "1bis",
+    "phone": "+7 861 4643075",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4886035122,
+  "lat": 44.9348686,
+  "lon": 37.3118825,
+  "tags": {
+    "addr:housenumber": "23А",
+    "addr:postcode": "353456",
+    "addr:street": "Пионерский проспект",
+    "email": "info@kristall-anapa.net",
+    "internet_access": "wlan",
+    "name": "санаторий \"Кристалл\"",
+    "phone": "+7 861 3333072",
+    "tourism": "hotel",
+    "website": "https://kristall-anapa.net/"
+  }
+},
+{
+  "type": "node",
+  "id": 4909449587,
+  "lat": 44.5501851,
+  "lon": 38.0838181,
+  "tags": {
+    "addr:city": "Геленджик",
+    "addr:housenumber": "20",
+    "addr:region": "Краснодарский край",
+    "addr:street": "Вишнёвая улица",
+    "name": "Didi Tair",
+    "smoking": "yes",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4931020015,
+  "lat": 45.2668936,
+  "lon": 37.4171645,
+  "tags": {
+    "internet_access:fee": "no",
+    "name": "Золотое кольцо",
+    "smoking": "outside",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4931975421,
+  "lat": 44.9816114,
+  "lon": 37.2673279,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Марика",
+    "name:ru": "Марика",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4931987121,
+  "lat": 44.9455008,
+  "lon": 37.3007233,
+  "tags": {
+    "name": "Родничок",
+    "name:ru": "Родничок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4941467122,
+  "lat": 44.9833386,
+  "lon": 37.2528116,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "улица Золотые Пески",
+    "email": "greekhotel@yandex.ru",
+    "internet_access": "wlan",
+    "name": "Грек Отель",
+    "name:en": "Greek Hotel",
+    "name:ru": "Грек Отель",
+    "opening_hours": "24/7",
+    "phone": "+7 918 4673344",
+    "tourism": "hotel",
+    "website": "http://www.greekhotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4980537726,
+  "lat": 44.9431037,
+  "lon": 37.3027369,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "81",
+    "addr:postcode": "353440",
+    "addr:street": "Пионерский проспект",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Круиз",
+    "rooms": "50",
+    "tourism": "hotel",
+    "website": "https://otel-kruiz.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 5043898123,
+  "lat": 44.5554458,
+  "lon": 38.0962717,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5073025223,
+  "lat": 44.9281822,
+  "lon": 37.3381912,
+  "tags": {
+    "name:en": "Well",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5238600921,
+  "lat": 45.2843800,
+  "lon": 36.9947500,
+  "tags": {
+    "name": "У Татьяны",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5284422421,
+  "lat": 44.9166828,
+  "lon": 38.0049578,
+  "tags": {
+    "name": "«Южная ночь»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5350085850,
+  "lat": 44.4628921,
+  "lon": 38.1514913,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5391442522,
+  "lat": 44.5649457,
+  "lon": 38.0850677,
+  "tags": {
+    "addr:postcode": "353460",
+    "email": "el-greco_hotel@mail.com",
+    "internet_access": "wlan",
+    "name:en": "Отель “El-Greco”",
+    "opening_hours": "24/7",
+    "operator": "Сотирова Г.К",
+    "phone": "+7 928 2606100",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5515698692,
+  "lat": 44.7089803,
+  "lon": 37.7860404,
+  "tags": {
+    "addr:city": "Новороссийск",
+    "addr:housenumber": "29Г",
+    "addr:postcode": "353900",
+    "addr:street": "улица набережная Адмирала Серебрякова",
+    "contact:facebook": "https://www.facebook.com/hiltonnovorossiysk",
+    "contact:instagram": "https://www.instagram.com/hginovorossiysk",
+    "email": "reservation@hginov.ru",
+    "internet_access": "yes",
+    "name": "Hilton Garden Inn Novorossiysk",
+    "operator": "Hilton",
+    "phone": "+7 861 7767600",
+    "rooms": "130",
+    "smoking": "no",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "https://hiltongardeninn3.hilton.com/en/hotels/russian-federation/hilton-garden-inn-novorossiysk-NOICLGI/index.html?WT.mc_id=zVSEC0RU1GI2NaturalSearch3GoogleMyBusiness4luau-HGINovoro_Dec5Luau6NOICLGI7EN8i1",
+    "wheelchair": "yes",
+    "wikidata": "Q56214797"
+  }
+},
+{
+  "type": "node",
+  "id": 5552600113,
+  "lat": 44.5759467,
+  "lon": 38.0236531,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5568909912,
+  "lat": 44.6000854,
+  "lon": 38.1066323,
+  "tags": {
+    "name": "Комплекс коттеджей",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5583369070,
+  "lat": 45.2172268,
+  "lon": 36.7315607,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Капитан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5583396521,
+  "lat": 45.2175051,
+  "lon": 36.7289096,
+  "tags": {
+    "name": "Боспор",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5585806235,
+  "lat": 44.8981059,
+  "lon": 37.3205518,
+  "tags": {
+    "name": "На Горького",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5585806236,
+  "lat": 44.8984631,
+  "lon": 37.3214423,
+  "tags": {
+    "name": "Патио",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5585806237,
+  "lat": 44.8972737,
+  "lon": 37.3184945,
+  "tags": {
+    "addr:housenumber": "7А",
+    "addr:street": "улица Горького",
+    "name": "Олимп",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5630208610,
+  "lat": 45.0384436,
+  "lon": 37.5167400,
+  "tags": {
+    "leisure": "resort",
+    "name": "Усадьба Деревенька",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5643768374,
+  "lat": 44.9521045,
+  "lon": 37.2997119,
+  "tags": {
+    "name": "Улыбка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5643768375,
+  "lat": 44.9520533,
+  "lon": 37.2991862,
+  "tags": {
+    "name": "Аленка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5644822684,
+  "lat": 44.9445802,
+  "lon": 37.3011742,
+  "tags": {
+    "name": "Анапская",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5644822685,
+  "lat": 44.9438813,
+  "lon": 37.3012875,
+  "tags": {
+    "name": "Калина красная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5682451476,
+  "lat": 44.9215490,
+  "lon": 37.3199010,
+  "tags": {
+    "name": "ДБО Краснодарская Смена",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5682451499,
+  "lat": 44.9142974,
+  "lon": 37.3218231,
+  "tags": {
+    "name": "ДОЛ Счастливое детство",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5682451504,
+  "lat": 44.9105591,
+  "lon": 37.3221197,
+  "tags": {
+    "name": "Лето",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5682563697,
+  "lat": 44.9263620,
+  "lon": 37.3207928,
+  "tags": {
+    "name": "Агат",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5682986708,
+  "lat": 44.9176523,
+  "lon": 37.3235016,
+  "tags": {
+    "name": "Виктория - Люкс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5684643798,
+  "lat": 44.9004909,
+  "lon": 37.3212530,
+  "tags": {
+    "name": "Sunmarinn",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5694151923,
+  "lat": 44.5832897,
+  "lon": 38.0605430,
+  "tags": {
+    "addr:housenumber": "133",
+    "addr:street": "Геленджикский проспект",
+    "internet_access": "wlan",
+    "name": "Орхидея",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5709695158,
+  "lat": 44.8917397,
+  "lon": 37.3055696,
+  "tags": {
+    "name": "Мишель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5709695160,
+  "lat": 44.8919364,
+  "lon": 37.3055020,
+  "tags": {
+    "name": "Черноморье",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5709695165,
+  "lat": 44.8921071,
+  "lon": 37.3054273,
+  "tags": {
+    "name": "Идилия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5709782851,
+  "lat": 44.8941169,
+  "lon": 37.3019028,
+  "tags": {
+    "name": "БФО, АО",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5725822040,
+  "lat": 44.9034475,
+  "lon": 37.3217978,
+  "tags": {
+    "name": "Сибирь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5749069631,
+  "lat": 44.9854950,
+  "lon": 37.2550574,
+  "tags": {
+    "name": "Эмеральд",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5749069650,
+  "lat": 44.9856906,
+  "lon": 37.2545491,
+  "tags": {
+    "name": "Горгиппия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5797121073,
+  "lat": 44.9518491,
+  "lon": 37.3019447,
+  "tags": {
+    "addr:housenumber": "68",
+    "addr:street": "Пионерский проспект",
+    "name": "Дол Полярные Зори",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5806710963,
+  "lat": 44.6566908,
+  "lon": 37.9393580,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5829732860,
+  "lat": 44.9132445,
+  "lon": 38.0030209,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5865786385,
+  "lat": 44.5555059,
+  "lon": 38.0698787,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Яхта",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5916119334,
+  "lat": 44.6428570,
+  "lon": 37.9318607,
+  "tags": {
+    "name": "Акрит",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5916129988,
+  "lat": 44.6431078,
+  "lon": 37.9327256,
+  "tags": {
+    "name": "Тихая Гавань",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6088058420,
+  "lat": 44.6697448,
+  "lon": 37.6280868,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6159937385,
+  "lat": 45.2175851,
+  "lon": 36.7110049,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6368849789,
+  "lat": 44.9568112,
+  "lon": 37.2921211,
+  "tags": {
+    "name": "Петроградский форт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6372506370,
+  "lat": 44.9587481,
+  "lon": 37.2898339,
+  "tags": {
+    "name": "Караван",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6372506372,
+  "lat": 44.9593997,
+  "lon": 37.2911401,
+  "tags": {
+    "name": "Ателика Олимп",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6372506373,
+  "lat": 44.9596340,
+  "lon": 37.2935855,
+  "tags": {
+    "name": "Колибри",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6532034905,
+  "lat": 45.1153033,
+  "lon": 36.8737833,
+  "tags": {
+    "name": "Усадьба \"Соленое озеро\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6582588248,
+  "lat": 44.8902855,
+  "lon": 37.3084186,
+  "tags": {
+    "addr:housenumber": "31А",
+    "addr:street": "Крымская улица",
+    "internet_access": "wlan",
+    "name": "Блум. Наташа",
+    "name:ru": "Блум.",
+    "operator": "Наташа",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6589001836,
+  "lat": 45.1271139,
+  "lon": 36.7147115,
+  "tags": {
+    "name": "Звезда Тамани",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6612031305,
+  "lat": 45.0500226,
+  "lon": 37.0978510,
+  "tags": {
+    "name": "Отель \"Aurum Family Resort & Spa\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6696950185,
+  "lat": 44.5833535,
+  "lon": 38.0616974,
+  "tags": {
+    "name": "Неолит",
+    "name:ru": "Неолит",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6740031986,
+  "lat": 45.2616001,
+  "lon": 37.4481669,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Широкий переулок",
+    "internet_access": "wlan",
+    "name": "Ялта",
+    "name:en": "Yalta",
+    "phone": "+7 918 0545252",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6744017750,
+  "lat": 44.4992074,
+  "lon": 38.1335166,
+  "tags": {
+    "fire_rank": "2",
+    "name": "ФГБУ СКК \"Анапский\" МО РФ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6753823285,
+  "lat": 44.5067101,
+  "lon": 38.1329765,
+  "tags": {
+    "addr:housenumber": "2А",
+    "addr:street": "Совхозный переулок",
+    "name": "Бригантина",
+    "phone": "+7 928 4444590",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6813957785,
+  "lat": 44.5676041,
+  "lon": 38.0755643,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Приморье Grand Resort Hotel",
+    "name:en": "Primorie Grand Resort Hotel",
+    "tourism": "hotel",
+    "website": "https://www.primore.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 6936642385,
+  "lat": 44.9586666,
+  "lon": 37.2947944,
+  "tags": {
+    "addr:housenumber": "29",
+    "addr:postcode": "353456",
+    "addr:street": "Гостевой проезд",
+    "email": "raduga@raduga-anapa.ru",
+    "internet_access": "wlan",
+    "name": "Пансионат «Радуга»",
+    "name:en": "Raduga pension",
+    "phone": "+7 800 3029905",
+    "tourism": "hotel",
+    "website": "https://raduga-anapa.ru/pansionat-raduga"
+  }
+},
+{
+  "type": "node",
+  "id": 7063051121,
+  "lat": 44.5592175,
+  "lon": 38.0839935,
+  "tags": {
+    "name": "Оскар",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7114830768,
+  "lat": 44.5592003,
+  "lon": 38.0840187,
+  "tags": {
+    "addr:housenumber": "35",
+    "addr:street": "улица Островского",
+    "description": "Гостиница Oscar",
+    "name": "Оскар",
+    "opening_hours": "Mo-Su 12:00-24:00",
+    "phone": "+7 938 5200544",
+    "tourism": "hotel",
+    "website": "oscarhotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 7152291998,
+  "lat": 44.5746239,
+  "lon": 37.9889712,
+  "tags": {
+    "name": "Мраморный",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7259651562,
+  "lat": 44.6818340,
+  "lon": 37.5670228,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7557386305,
+  "lat": 44.9793957,
+  "lon": 37.2655578,
+  "tags": {
+    "addr:housenumber": "253-1",
+    "addr:street": "Пионерский проспект",
+    "name": "Отель «Фюнф»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7557386306,
+  "lat": 44.9779132,
+  "lon": 37.2635797,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7687870133,
+  "lat": 44.9614702,
+  "lon": 37.2942903,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "19",
+    "addr:street": "Славная улица",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "BellaVita",
+    "rooms": "28",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7768192685,
+  "lat": 45.2240124,
+  "lon": 37.1603639,
+  "tags": {
+    "addr:housenumber": "5Г",
+    "addr:street": "Красноармейский переулок",
+    "name": "Крымский мост",
+    "phone": "+7 918 4700431",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7847096525,
+  "lat": 44.6387100,
+  "lon": 37.9225489,
+  "tags": {
+    "name": "ДОЛ \"Надежда\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7904772587,
+  "lat": 44.9850044,
+  "lon": 37.2486259,
+  "tags": {
+    "addr:street": "улица Мира",
+    "internet_access": "wlan",
+    "name": "Династия",
+    "name:en": "Dinastia",
+    "phone": "+7 968 2711888",
+    "tourism": "hotel",
+    "website": "https://dinastia-hotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 7912664228,
+  "lat": 44.6524124,
+  "lon": 37.9403038,
+  "tags": {
+    "addr:city": "Кабардинка",
+    "addr:housenumber": "83А",
+    "addr:postcode": "353480",
+    "addr:street": "Коллективная улица",
+    "name": "MONAKO",
+    "rooms": "88002221344",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7948336318,
+  "lat": 44.6732938,
+  "lon": 37.7790683,
+  "tags": {
+    "name": "Олимп",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7952460590,
+  "lat": 44.9922703,
+  "lon": 37.2430553,
+  "tags": {
+    "name": "База отдыха Баргузин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8032499819,
+  "lat": 44.5770267,
+  "lon": 37.9742597,
+  "tags": {
+    "name": "Гостиничный комплекс \"Берег Роз\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8283495040,
+  "lat": 44.8762849,
+  "lon": 37.3118109,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "2В",
+    "addr:postcode": "353454",
+    "addr:street": "улица Маяковского",
+    "internet_access": "yes",
+    "name": "Utesov",
+    "tourism": "hotel",
+    "website": "http://utesov-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147061,
+  "lat": 44.9084610,
+  "lon": 37.3203413,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147062,
+  "lat": 44.9085674,
+  "lon": 37.3210487,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147063,
+  "lat": 44.9078395,
+  "lon": 37.3220965,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147064,
+  "lat": 44.9084610,
+  "lon": 37.3215426,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147065,
+  "lat": 44.9092007,
+  "lon": 37.3210053,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147066,
+  "lat": 44.9091629,
+  "lon": 37.3205749,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147071,
+  "lat": 44.9091492,
+  "lon": 37.3216351,
+  "tags": {
+    "addr:housenumber": "3В",
+    "addr:street": "Пионерский проспект",
+    "name": "Посейдон",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8344147081,
+  "lat": 44.9098789,
+  "lon": 37.3205387,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8519685527,
+  "lat": 45.0464646,
+  "lon": 37.1117522,
+  "tags": {
+    "name": "База отдыха \"Сигнал\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8519685551,
+  "lat": 45.0478389,
+  "lon": 37.1073436,
+  "tags": {
+    "name": "Парк-отель \"Благовещенская\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8552240900,
+  "lat": 44.8973999,
+  "lon": 37.3201291,
+  "tags": {
+    "name": "Богема",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8606625349,
+  "lat": 44.4944291,
+  "lon": 38.1379857,
+  "tags": {
+    "name": "Le Sea",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8684440918,
+  "lat": 44.9805673,
+  "lon": 37.2686256,
+  "tags": {
+    "addr:housenumber": "93",
+    "addr:street": "улица Горького",
+    "email": "info@anaparepin.ru",
+    "internet_access": "wlan",
+    "name": "отель \"Репин\"",
+    "name:en": "hotel \"Repin\"",
+    "opening_hours": "24/7",
+    "phone": "+7 (861) 3331-555",
+    "tourism": "hotel",
+    "website": "http://www.anaparepin.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 8705212288,
+  "lat": 44.8921987,
+  "lon": 37.3152747,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "89",
+    "addr:street": "Новороссийская улица",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "RS-Royal",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8786765617,
+  "lat": 44.5524205,
+  "lon": 38.0856620,
+  "tags": {
+    "name": "Квартира-студия для летнего отдыха",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "phone": "+7 903 4593747",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8829323418,
+  "lat": 45.0496671,
+  "lon": 37.1001840,
+  "tags": {
+    "name": "«Анапа 1» - база отдыха",
+    "phone": "+79184188958",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8829327718,
+  "lat": 45.0473815,
+  "lon": 37.1094407,
+  "tags": {
+    "name": "«Искра» - база отдыха",
+    "phone": "+79180651800",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8829327817,
+  "lat": 45.0510896,
+  "lon": 37.0949590,
+  "tags": {
+    "name": "«Белый берег» - база отдыха",
+    "phone": "+79153000001",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8829327818,
+  "lat": 45.0476771,
+  "lon": 37.1082837,
+  "tags": {
+    "name": "«Русалочка» - база отдыха",
+    "phone": "+79184774366",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8829328017,
+  "lat": 45.0469985,
+  "lon": 37.1103932,
+  "tags": {
+    "name": "“Sunrise” - экопарк отель",
+    "phone": "+79180201496",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8839115617,
+  "lat": 44.6673153,
+  "lon": 37.9142491,
+  "tags": {
+    "name": "Аура",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8862864441,
+  "lat": 44.6557840,
+  "lon": 37.6965353,
+  "tags": {
+    "name": "Черномор",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8863311998,
+  "lat": 44.6555442,
+  "lon": 37.6971952,
+  "tags": {
+    "name": "Черномор база отдыха",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8863314851,
+  "lat": 44.6553366,
+  "lon": 37.6966760,
+  "tags": {
+    "name": "Черномор РОСМОРПОРТ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8916785319,
+  "lat": 44.5566118,
+  "lon": 38.0799243,
+  "tags": {
+    "contact:email": "info@hotel-azaria.ru",
+    "contact:phone": "+7 86141 21510",
+    "contact:website": "http://hotel-azaria.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Азария",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8944554817,
+  "lat": 44.5732122,
+  "lon": 38.0722472,
+  "tags": {
+    "name": "Геленджик",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8972994934,
+  "lat": 44.5559097,
+  "lon": 38.0841181,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8984044317,
+  "lat": 44.5666829,
+  "lon": 38.0799677,
+  "tags": {
+    "name:en": "Mari",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9025336947,
+  "lat": 44.9150907,
+  "lon": 37.3266211,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Sunparco",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9026497794,
+  "lat": 44.9090812,
+  "lon": 37.3221448,
+  "tags": {
+    "name": "Жара",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9045446933,
+  "lat": 44.8907484,
+  "lon": 37.2996126,
+  "tags": {
+    "name": "Черная жемчужина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9068707145,
+  "lat": 44.9542580,
+  "lon": 37.2983717,
+  "tags": {
+    "name": "Гостевой дом \"Солнечный\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9068847009,
+  "lat": 44.9862650,
+  "lon": 37.2677388,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9074776835,
+  "lat": 44.9632028,
+  "lon": 37.2798292,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9077266691,
+  "lat": 44.9563301,
+  "lon": 37.2901007,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9077266692,
+  "lat": 44.9564857,
+  "lon": 37.2904420,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9084566912,
+  "lat": 45.2187872,
+  "lon": 36.7218717,
+  "tags": {
+    "air_conditioning": "yes",
+    "name": "Комплекс \"Диканька 2\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9201723417,
+  "lat": 45.2299640,
+  "lon": 38.1540830,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Берёzка",
+    "opening_hours": "24/7",
+    "tourism": "hotel",
+    "website": "http://Береzка Маевское ш., 10 https://yandex.ru/maps/org/124838262966"
+  }
+},
+{
+  "type": "node",
+  "id": 9360408608,
+  "lat": 44.6676124,
+  "lon": 37.9160650,
+  "tags": {
+    "name": "Alion",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9370206990,
+  "lat": 44.7848375,
+  "lon": 37.6778613,
+  "tags": {
+    "name": "Альянс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9374527058,
+  "lat": 44.9088600,
+  "lon": 38.0227338,
+  "tags": {
+    "name": "Турист",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9691075717,
+  "lat": 44.5023002,
+  "lon": 38.1395381,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Каштановая улица",
+    "internet_access": "wlan",
+    "name": "Альпина-хутор",
+    "name:en": "Alpina Hutor",
+    "name:ru": "Альпина Хутор",
+    "phone": "+79054703315",
+    "tourism": "hotel",
+    "website": "https://alpina-hutor.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 9903861417,
+  "lat": 44.9888816,
+  "lon": 37.2433311,
+  "tags": {
+    "name:en": "Corudo Family",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9903875317,
+  "lat": 44.9920372,
+  "lon": 37.2531215,
+  "tags": {
+    "addr:housenumber": "3",
+    "addr:street": "Гиацинтовый проезд",
+    "name:en": "Mar Nero",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10027643479,
+  "lat": 44.8658549,
+  "lon": 38.1494062,
+  "tags": {
+    "name": "100 % гостиница",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10648045345,
+  "lat": 44.8964197,
+  "lon": 37.3118773,
+  "tags": {
+    "name": "Парк-отель \"Анапа\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10741754730,
+  "lat": 44.5551673,
+  "lon": 38.0851078,
+  "tags": {
+    "name": "Спортивная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759606587,
+  "lat": 44.5798975,
+  "lon": 38.0169868,
+  "tags": {
+    "contact:email": "veles-ht@yandex.ru",
+    "contact:phone": "+7 800 1015818",
+    "contact:website": "https://veleshotel.com/",
+    "name": "Veles",
+    "opening_hours": "Mo-Su 00:00-00:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759613994,
+  "lat": 44.9987523,
+  "lon": 37.2764423,
+  "tags": {
+    "contact:phone": "+7 938 5460033",
+    "contact:website": "https://trapezund-hotel.ru",
+    "name": "Трапезунд",
+    "opening_hours": "Mo-Su 00:00-00:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759614136,
+  "lat": 44.5592150,
+  "lon": 38.0765855,
+  "tags": {
+    "contact:email": "andreygavrilov@mail.ru",
+    "contact:phone": "+7 800 4444585;+7 928 4406666",
+    "contact:website": "https://blackwoodhotel.ru/",
+    "name": "Blackwood",
+    "opening_hours": "Mo-Su 09:00-02:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10923455176,
+  "lat": 45.1082618,
+  "lon": 36.8895400,
+  "tags": {
+    "addr:city": "Веселовка",
+    "addr:housenumber": "353544",
+    "addr:postcode": "353544",
+    "addr:street": "проезд Кизилташский 47",
+    "brand": "Альбатрос",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "гостевой дом Альбатрос",
+    "phone": "+79184512031",
+    "rooms": "6",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10960305806,
+  "lat": 44.9863676,
+  "lon": 37.2626334,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10960306105,
+  "lat": 44.9862991,
+  "lon": 37.2624617,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11016638316,
+  "lat": 44.5577950,
+  "lon": 38.0773688,
+  "tags": {
+    "contact:email": "trianon-hotel@yandex.ru",
+    "contact:phone": "+7 938 4041515",
+    "contact:website": "https://trianon-hotel.ru/",
+    "name": "Trianon",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11050134096,
+  "lat": 45.0044192,
+  "lon": 37.3399812,
+  "tags": {
+    "name": "Аэропорт Анапа",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11067209466,
+  "lat": 44.8900473,
+  "lon": 37.3119602,
+  "tags": {
+    "contact:email": "kelyabidina@mail.ru",
+    "contact:phone": "+7 988 3392205;+7 988 4042205",
+    "contact:website": "https://ru.poisk-oteli.ru/directory/n5154/",
+    "name": "По-свойски",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11067209470,
+  "lat": 44.5862590,
+  "lon": 38.0552137,
+  "tags": {
+    "contact:phone": "+7 909 7647244;+7 928 3450637",
+    "contact:website": "https://70000001075299446.2gis.biz",
+    "name": "Малахит",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11067209483,
+  "lat": 44.6752183,
+  "lon": 37.7957689,
+  "tags": {
+    "contact:email": "pomido23@yandex.ru",
+    "contact:phone": "+7 800 2504202;+7 988 3524441;+7 988 7700104",
+    "contact:website": "https://pomido-hotel.ru",
+    "name": "Pomido`r",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11067242266,
+  "lat": 45.0469998,
+  "lon": 37.1122885,
+  "tags": {
+    "contact:email": "info@letootel.com",
+    "contact:phone": "+7 928 2480101;+7 928 2485656",
+    "contact:website": "https://letootel.com/",
+    "name": "ЛетоотеЛь",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11092784106,
+  "lat": 44.9507983,
+  "lon": 37.2982941,
+  "tags": {
+    "addr:housenumber": "121",
+    "addr:street": "Пионерский проспект",
+    "internet_access": "wlan",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11193985675,
+  "lat": 44.9419408,
+  "lon": 37.3029304,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "6Б",
+    "addr:street": "Джеметинский проезд",
+    "name": "La Costa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11193985676,
+  "lat": 44.9420770,
+  "lon": 37.3030746,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "6А",
+    "addr:street": "Джеметинский проезд",
+    "name": "Кручар",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11193985681,
+  "lat": 44.9422060,
+  "lon": 37.3032031,
+  "tags": {
+    "addr:city": "Анапа",
+    "addr:housenumber": "6Г",
+    "addr:street": "Джеметинский проезд",
+    "name": "Фон Мишель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11193985682,
+  "lat": 44.9418313,
+  "lon": 37.3031225,
+  "tags": {
+    "name": "Сириус",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11217587237,
+  "lat": 44.7981432,
+  "lon": 37.4131138,
+  "tags": {
+    "addr:housenumber": "135А",
+    "addr:street": "Советская улица",
+    "contact:instagram": "usadba_sukko",
+    "internet_access": "wlan",
+    "name": "Эко-отель Усадьба Сукко",
+    "name:en": "Hotel Usadba Sukko",
+    "opening_hours": "24/7",
+    "phone": "+79182793333",
+    "tourism": "hotel",
+    "website": "http://usadbasukko.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 11303877469,
+  "lat": 44.6813145,
+  "lon": 37.6334521,
+  "tags": {
+    "addr:housenumber": "1М",
+    "addr:postcode": "353997",
+    "addr:street": "улица Ильича",
+    "email": "booking.gardenoz@yandex.ru",
+    "name": "Гарден Оз",
+    "name:en": "Garden Oz",
+    "opening_hours": "24/7",
+    "phone": "+79883237050",
+    "tourism": "hotel",
+    "website": "https://garden-oz.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 11399861769,
+  "lat": 45.1253363,
+  "lon": 36.8952564,
+  "tags": {
+    "name": "Веселовка Парк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11400948070,
+  "lat": 44.8271121,
+  "lon": 37.5742936,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Сосновая улица",
+    "name": "Фасоль",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11464626283,
+  "lat": 44.8987921,
+  "lon": 37.3233421,
+  "tags": {
+    "name": "Центральная",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11537187860,
+  "lat": 44.9860762,
+  "lon": 37.2485432,
+  "tags": {
+    "name": "Галини Резорт",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553787,
+  "lat": 44.8762346,
+  "lon": 37.3159861,
+  "tags": {
+    "contact:email": "booking.villapark@yandex.ru",
+    "contact:phone": "+7 918 4690255",
+    "contact:website": "https://villaparkanapa.ru",
+    "name": "Villa park & Spa",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 736694948,
+  "lat": 43.5729017,
+  "lon": 39.7350363,
+  "tags": {
+    "name": "Отель \"Валентин\"",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 736761646,
+  "lat": 43.5761102,
+  "lon": 39.7258462,
+  "tags": {
+    "name": "City Park Hotel",
+    "old_name": "Маринс Парк Отель",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "www.cph-sochi.com"
+  }
+},
+{
+  "type": "node",
+  "id": 948203233,
+  "lat": 43.5726527,
+  "lon": 39.7325921,
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Комсомольская улица",
+    "name": "Отель \"Жемчуг\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1026579388,
+  "lat": 43.3798085,
+  "lon": 40.0526791,
+  "tags": {
+    "contact:website": "http://www.gagra-tour.ru/catalog/obj/14/396/",
+    "fixme": "address? operator?",
+    "name": "Дом отдыха «Псоу»",
+    "name:en": "Holiday House \"Psou\"",
+    "name:ru": "Дом отдыха «Псоу»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1027744584,
+  "lat": 43.3790408,
+  "lon": 40.0678503,
+  "tags": {
+    "fixme": "address? operator? opening_hours?",
+    "name": "Аве-Мария",
+    "name:en": "Ave Maria",
+    "name:ru": "Аве-Мария",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1323204199,
+  "lat": 43.5808926,
+  "lon": 39.7227223,
+  "tags": {
+    "addr:city": "Сочи",
+    "internet_access": "wlan",
+    "name": "МИРИТ",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1362320485,
+  "lat": 43.4652322,
+  "lon": 39.9003712,
+  "tags": {
+    "name": "Меридиан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1370976583,
+  "lat": 43.4662557,
+  "lon": 39.8976375,
+  "tags": {
+    "name": "Коралл",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1398326714,
+  "lat": 43.4712738,
+  "lon": 39.8975160,
+  "tags": {
+    "name": "Нептун",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1449074195,
+  "lat": 43.4276924,
+  "lon": 39.9180891,
+  "tags": {
+    "name": "Корсар",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1521215547,
+  "lat": 43.6214072,
+  "lon": 39.7020619,
+  "tags": {
+    "leisure": "park",
+    "name": "Санаторий Салют",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589583311,
+  "lat": 43.4605177,
+  "lon": 39.8997783,
+  "tags": {
+    "name": "Анна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589583324,
+  "lat": 43.4608934,
+  "lon": 39.9017312,
+  "tags": {
+    "name": "Орион",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589583328,
+  "lat": 43.4608740,
+  "lon": 39.9015220,
+  "tags": {
+    "name": "Парадиз",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589583330,
+  "lat": 43.4607416,
+  "lon": 39.9009373,
+  "tags": {
+    "name": "Гаянэ",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589590335,
+  "lat": 43.4626757,
+  "lon": 39.8970579,
+  "tags": {
+    "name": "Жасмин",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589593516,
+  "lat": 43.4731745,
+  "lon": 39.8959328,
+  "tags": {
+    "name": "Ковчег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589593517,
+  "lat": 43.4727660,
+  "lon": 39.8960503,
+  "tags": {
+    "name": "Грейс Арли",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589593518,
+  "lat": 43.4733341,
+  "lon": 39.8958845,
+  "tags": {
+    "name": "Алые паруса",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1589835176,
+  "lat": 43.4250911,
+  "lon": 39.9245776,
+  "tags": {
+    "name": "МиЛи",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1590577898,
+  "lat": 43.4185980,
+  "lon": 39.9278718,
+  "tags": {
+    "name": "Давид",
+    "tourism": "hotel",
+    "website": "https://adlerdavid.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 1599762384,
+  "lat": 43.4754830,
+  "lon": 39.8971065,
+  "tags": {
+    "name": "Иветтис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1599762387,
+  "lat": 43.4747939,
+  "lon": 39.8974176,
+  "tags": {
+    "name": "Парадиз Парк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1675415624,
+  "lat": 43.4741353,
+  "lon": 39.8961355,
+  "tags": {
+    "name": "Надежда",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1675415625,
+  "lat": 43.4750828,
+  "lon": 39.8972384,
+  "tags": {
+    "name": "Акватория",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1859716038,
+  "lat": 43.5717633,
+  "lon": 39.7398019,
+  "tags": {
+    "name": "Вилла \"Анна\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2083270011,
+  "lat": 43.6742486,
+  "lon": 40.1923467,
+  "tags": {
+    "name": "Дом Исакова",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2083313439,
+  "lat": 43.6971855,
+  "lon": 40.1916490,
+  "tags": {
+    "name": "Горный хрусталь",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2178886260,
+  "lat": 43.4133187,
+  "lon": 39.9323966,
+  "tags": {
+    "name": "Имеретинский - Прибрежный квартал",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2181712522,
+  "lat": 43.5772504,
+  "lon": 39.7223214,
+  "tags": {
+    "name": "Мини-отель \"Маяк\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2196524288,
+  "lat": 43.4060382,
+  "lon": 39.9976721,
+  "tags": {
+    "name": "Ост",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2514339346,
+  "lat": 43.6580788,
+  "lon": 39.6521307,
+  "tags": {
+    "name": "Алая Роза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2514339347,
+  "lat": 43.6514574,
+  "lon": 39.6521227,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Генрих",
+    "phone": "+7 918 0080308",
+    "tourism": "hotel",
+    "website": "https://www.genrihotel.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 2514340498,
+  "lat": 43.6613291,
+  "lon": 39.6579511,
+  "tags": {
+    "name": "Анна Вояж",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2857562133,
+  "lat": 43.4354295,
+  "lon": 39.9081608,
+  "tags": {
+    "name": "Огонёк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2857674222,
+  "lat": 43.4783951,
+  "lon": 39.8930332,
+  "tags": {
+    "name": "Лидия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2862997459,
+  "lat": 43.4281720,
+  "lon": 39.9165655,
+  "tags": {
+    "name": "Грант",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3027830090,
+  "lat": 43.4198144,
+  "lon": 39.9281796,
+  "tags": {
+    "name": "Ирена",
+    "tourism": "hotel",
+    "website": "https://irenahotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 3063850920,
+  "lat": 43.4707106,
+  "lon": 39.9032210,
+  "tags": {
+    "name": "Weiler Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3730652025,
+  "lat": 43.4117574,
+  "lon": 39.9561320,
+  "tags": {
+    "name": "Грант",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4045824143,
+  "lat": 43.3810847,
+  "lon": 40.0666497,
+  "tags": {
+    "name": "Золотая Корона",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4072901609,
+  "lat": 43.4267860,
+  "lon": 39.9154215,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "5",
+    "addr:postcode": "354340",
+    "addr:street": "улица 8 Марта",
+    "name": "Касабланка",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4118677615,
+  "lat": 43.4299438,
+  "lon": 39.9181421,
+  "tags": {
+    "addr:housenumber": "63",
+    "addr:street": "улица Ленина",
+    "internet_access": "wlan",
+    "name": "Shine",
+    "opening_hours": "24/7",
+    "phone": "+7 862 2405777",
+    "tourism": "hotel",
+    "website": "https://www.shine-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4195872999,
+  "lat": 43.6562791,
+  "lon": 39.6537395,
+  "tags": {
+    "addr:housenumber": "54С",
+    "addr:street": "Армавирская улица",
+    "phone": "+7 918 6121787",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4199103088,
+  "lat": 43.4678390,
+  "lon": 39.9009175,
+  "tags": {
+    "addr:housenumber": "282/25",
+    "addr:street": "улица Ленина",
+    "email": "m.otel@bk.ru",
+    "internet_access": "wlan",
+    "name": "М-отель",
+    "opening_hours": "24/7",
+    "phone": "+7 918 9010021",
+    "tourism": "hotel",
+    "website": "m-otel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4205042940,
+  "lat": 43.3820822,
+  "lon": 40.0662896,
+  "tags": {
+    "addr:housenumber": "7",
+    "addr:street": "Лапстинская улица",
+    "internet_access": "wlan",
+    "name": "Резиденция Апсны",
+    "phone": "+7 940 9978611",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4246173492,
+  "lat": 43.4774629,
+  "lon": 39.8928020,
+  "tags": {
+    "name": "Эллас",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4281963807,
+  "lat": 43.4054159,
+  "lon": 39.9961617,
+  "tags": {
+    "name": "Hotel Veseloye",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4284096790,
+  "lat": 43.4243045,
+  "lon": 39.9215364,
+  "tags": {
+    "contact:email": "elonahotel@mail.ru",
+    "contact:phone": "+7 989 1654144",
+    "contact:website": "https://elonahotel.ru",
+    "internet_access": "wlan",
+    "name": "Элона",
+    "opening_hours": "24/7",
+    "operator": "Буюклян Элона",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4327828193,
+  "lat": 43.4286617,
+  "lon": 39.9158027,
+  "tags": {
+    "name": "Михаил",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4330450092,
+  "lat": 43.3807517,
+  "lon": 40.0651759,
+  "tags": {
+    "addr:housenumber": "374",
+    "addr:street": "Октябрьская улица",
+    "internet_access": "wlan",
+    "name": "Белая Панама",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4331502996,
+  "lat": 43.6523964,
+  "lon": 39.6504769,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4331507391,
+  "lat": 43.6538477,
+  "lon": 39.6549232,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4331507393,
+  "lat": 43.6525942,
+  "lon": 39.6497571,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "50",
+    "addr:street": "Летняя улица",
+    "name": "Генрих II",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4348786790,
+  "lat": 43.4250504,
+  "lon": 39.9216593,
+  "tags": {
+    "name": "Маргарита",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4369173790,
+  "lat": 43.5397789,
+  "lon": 39.8056311,
+  "tags": {
+    "addr:postcode": "354024",
+    "internet_access": "wlan",
+    "name": "Корпус 3 \"Высотный\"",
+    "name:en": "Alean Family Resort & Spa Sputnik",
+    "name:ru": "Alean Family Resort & Spa Sputnik",
+    "tourism": "hotel",
+    "website": "https://www.alean.ru/rossiya/krasnodarskiy_kray/sochi_kurort/alean_family_resort_i_spa_sputnik_otel/"
+  }
+},
+{
+  "type": "node",
+  "id": 4369348389,
+  "lat": 43.5395270,
+  "lon": 39.8056505,
+  "tags": {
+    "addr:housenumber": "17/1",
+    "addr:street": "Новороссийское шоссе",
+    "internet_access": "wlan",
+    "name": "Сочинский оздоровительный комплекс \"Спутник\"",
+    "name:ru": "Сочинский оздоровительный комплекс \"Спутник\"",
+    "tourism": "hotel",
+    "website": "https://www.sputnik-sochi.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4370076889,
+  "lat": 43.5387088,
+  "lon": 39.8059640,
+  "tags": {
+    "addr:street": "Новороссийское шоссе",
+    "name": "Корпус 1",
+    "name:ru": "Корпус 1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4370780891,
+  "lat": 43.4222099,
+  "lon": 39.9205416,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "11",
+    "addr:postcode": "354000",
+    "addr:street": "улица Кирова",
+    "brand": "Family Park Hotel",
+    "contact:email": "familyholidayhotel@mail.ru",
+    "contact:phone": "+7 988 1655245",
+    "contact:website": "https://familyholidayhotel.ru/",
+    "internet_access": "wlan",
+    "name": "Family Park Hotel",
+    "name:en": "Alex & Mari",
+    "name:ru": "Алекс и Мари",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4370807729,
+  "lat": 43.5174265,
+  "lon": 39.8470263,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Новороссийское шоссе",
+    "name": "ФГБУ \"Санаторий РОП РС \"Электроника\"",
+    "name:ru": "ФГБУ \"Санаторий РОП РС \"Электроника\"",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "tourism": "hotel",
+    "website": "https://sochi-el.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4393265790,
+  "lat": 43.6222790,
+  "lon": 39.6995663,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Отель «Империя»",
+    "name:ru": "Отель «Империя»",
+    "opening_hours": "24/7",
+    "phone": "+7 918 9153916",
+    "tourism": "hotel",
+    "website": "http://imperiasochi.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 4398105389,
+  "lat": 43.5577022,
+  "lon": 39.7667905,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Романов",
+    "name:en": "Romanov",
+    "name:ru": "Романов",
+    "tourism": "hotel",
+    "website": "https://hotel-romanov.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4426452241,
+  "lat": 43.6505845,
+  "lon": 39.6561137,
+  "tags": {
+    "name": "VIP-корпус «Меркурий»",
+    "stars": "5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4426452245,
+  "lat": 43.6534183,
+  "lon": 39.6581990,
+  "tags": {
+    "name": "Оздоровительный комплекс «ДАГОМЫС»",
+    "name:cs": "Rekreační komplex Dagomys",
+    "name:en": "Recreation complex Dagomys",
+    "tourism": "hotel",
+    "website": "https://www.dagomys.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4462745090,
+  "lat": 43.4200290,
+  "lon": 39.9231403,
+  "tags": {
+    "addr:housenumber": "7Б",
+    "addr:postcode": "354340",
+    "addr:street": "Интернациональная улица",
+    "internet_access": "wlan",
+    "name": "Аладан",
+    "name:en": "Aladan",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4467961989,
+  "lat": 43.6397758,
+  "lon": 39.6782046,
+  "tags": {
+    "email": "otel-zvezda@mail.ru",
+    "internet_access": "wlan",
+    "name": "Звезда",
+    "name:en": "Star",
+    "name:ru": "Звезда",
+    "phone": "+7 900 2430006",
+    "tourism": "hotel",
+    "website": "https://www.otel-zvezda.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4469957897,
+  "lat": 43.4199059,
+  "lon": 39.9204398,
+  "tags": {
+    "name": "Фестиваль",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4471663232,
+  "lat": 43.4735761,
+  "lon": 39.8966492,
+  "tags": {
+    "name": "Мадрид Парк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4471663234,
+  "lat": 43.4727816,
+  "lon": 39.8976179,
+  "tags": {
+    "name": "Смена",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4648872694,
+  "lat": 43.3830228,
+  "lon": 40.0404188,
+  "tags": {
+    "addr:housenumber": "1А",
+    "addr:street": "улица Гулия",
+    "internet_access": "wlan",
+    "name": "У Анжеллы",
+    "name:en": "mini hotel",
+    "name:ru": "У Анжеллы",
+    "opening_hours": "24/7",
+    "operator": "Анжелла",
+    "phone": "+7 940 9946401",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4689475913,
+  "lat": 43.3879564,
+  "lon": 40.0522460,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4702073077,
+  "lat": 43.4135601,
+  "lon": 39.9617548,
+  "tags": {
+    "addr:housenumber": "39",
+    "addr:street": "Ружейная улица",
+    "name": "Империя",
+    "phone": "+7 862 2577770;+7 862 2364030;+7 927 5105075",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4706161636,
+  "lat": 43.4110295,
+  "lon": 39.9605409,
+  "tags": {
+    "addr:city": "Адлер",
+    "addr:housenumber": "44",
+    "addr:postcode": "354340",
+    "addr:street": "Тростниковая улица",
+    "contact:telegram": "BlueMarineHotel",
+    "contact:whatsapp": "+7 918 001 53 93",
+    "email": "maaks241189@gmail.com",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Blue Marine hotel",
+    "phone": "+7 918 001 53 93",
+    "rooms": "22",
+    "tourism": "hotel",
+    "website": "https://bluemarine-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 4708413661,
+  "lat": 43.3919651,
+  "lon": 39.9853179,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "21",
+    "addr:street": "улица Попова",
+    "email": "sales@fregat-adler.ru",
+    "name": "Фрегат-2",
+    "phone": "+7 862 2432756;+7 918 9103583",
+    "tourism": "hotel",
+    "website": "www.fregat-adler.ru/korpus_2"
+  }
+},
+{
+  "type": "node",
+  "id": 4708413663,
+  "lat": 43.4052449,
+  "lon": 39.9842070,
+  "tags": {
+    "addr:city": "Весёлое",
+    "addr:housenumber": "25",
+    "addr:street": "Апрельская улица",
+    "name": "Ангелина",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4708436060,
+  "lat": 43.3988497,
+  "lon": 39.9666202,
+  "tags": {
+    "addr:city": "Адлер",
+    "addr:housenumber": "4",
+    "addr:street": "улица 65 лет Победы",
+    "name": "Абрис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4708436063,
+  "lat": 43.3979610,
+  "lon": 39.9712658,
+  "tags": {
+    "addr:city": "Адлер",
+    "addr:housenumber": "37",
+    "addr:street": "улица 65 лет Победы",
+    "name": "Победа",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4712092442,
+  "lat": 43.3989565,
+  "lon": 39.9668263,
+  "tags": {
+    "name": "Abris",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4728913621,
+  "lat": 43.4223439,
+  "lon": 39.9173948,
+  "tags": {
+    "name": "Prichal",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4860615621,
+  "lat": 43.4656465,
+  "lon": 39.9071721,
+  "tags": {
+    "addr:housenumber": "20/6",
+    "addr:street": "Орбитовская улица",
+    "internet_access": "wlan",
+    "name": "Отель Аранда",
+    "name:en": "Hotel Aranda",
+    "opening_hours": "24/7",
+    "phone": "+7 967 3222267",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4894447733,
+  "lat": 43.4125889,
+  "lon": 39.9396281,
+  "tags": {
+    "name": "Имеретинский - Парковый квартал",
+    "smoking": "no",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4931886321,
+  "lat": 43.4261456,
+  "lon": 39.9175407,
+  "tags": {
+    "addr:housenumber": "12А",
+    "addr:street": "переулок Богдана Хмельницкого",
+    "beds": "30",
+    "contact:email": "hotelmarina@mail.ru",
+    "contact:fax": "+7 862240024",
+    "contact:phone": "+7 862 2400124;+7 918 9020781;+7 918 4052222",
+    "contact:website": "www.marina-sochi.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "yes",
+    "name": "Марина",
+    "name:ru": "Марина",
+    "opening_hours": "24/7",
+    "operator": "Тимохина Марина Николаевна",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:contactless": "yes",
+    "payment:credit_cards": "yes",
+    "payment:mastercard": "yes",
+    "payment:visa": "yes",
+    "rooms": "15",
+    "smoking": "outside",
+    "stars": "3",
+    "tourism": "hotel",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4985022111,
+  "lat": 43.5800081,
+  "lon": 39.7275415,
+  "tags": {
+    "name": "У Оксаны",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4986725623,
+  "lat": 43.5760320,
+  "lon": 39.7242648,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Апартаменты в Маяке",
+    "opening_hours": "24/7",
+    "operator": "15 3х комнатных апартаментов к вашим услугам",
+    "phone": "+7 918 4304543",
+    "tourism": "hotel",
+    "website": "https://grasgroup.business.site/"
+  }
+},
+{
+  "type": "node",
+  "id": 5063986547,
+  "lat": 43.5712628,
+  "lon": 39.7359049,
+  "tags": {
+    "name": "Чемодан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5267688942,
+  "lat": 43.4230660,
+  "lon": 39.9214891,
+  "tags": {
+    "addr:housenumber": "23",
+    "addr:street": "улица Кирова",
+    "fixme": "Здание не прорисовано на карте",
+    "name": "Liberty fly",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5318590921,
+  "lat": 43.4337779,
+  "lon": 39.9174911,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5743464666,
+  "lat": 43.4069197,
+  "lon": 39.9429370,
+  "tags": {
+    "entrance": "main",
+    "name": "Имеретинский - Морской и Заповедный квартал",
+    "smoking": "no",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5814333230,
+  "lat": 43.3979809,
+  "lon": 39.9693130,
+  "tags": {
+    "addr:housenumber": "139",
+    "addr:street": "Нижнеимеритинская улица",
+    "addr:suburb": "Адлер",
+    "name": "Колибри",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6308858786,
+  "lat": 43.6045197,
+  "lon": 39.7140437,
+  "tags": {
+    "addr:postcode": "354008",
+    "name": "Ресепшн санаторий Заполярье",
+    "name:en": "Reception health resort Zapolyarye",
+    "phone": "+78622591777",
+    "tourism": "hotel",
+    "website": "https://www.zapolarye.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 6494252594,
+  "lat": 43.4474298,
+  "lon": 39.9321533,
+  "tags": {
+    "name": "Отель Атрия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6568240763,
+  "lat": 43.6815173,
+  "lon": 39.6063378,
+  "tags": {
+    "name": "Камелия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6590015485,
+  "lat": 43.5168599,
+  "lon": 39.8615334,
+  "tags": {
+    "addr:housenumber": "9/1",
+    "addr:street": "Шоссейная улица",
+    "name": "Очарование моря",
+    "name:en": "Allure of the Sea",
+    "opening_hours": "24/7",
+    "phone": "+7 928 2348823",
+    "tourism": "hotel",
+    "website": "http://allure-sea.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 6687342557,
+  "lat": 43.6011485,
+  "lon": 39.7177941,
+  "tags": {
+    "air_conditioning": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Утомленные солнцем",
+    "stars": "2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6938319486,
+  "lat": 43.4124370,
+  "lon": 39.9659713,
+  "tags": {
+    "name": "Дельта Сириус Парк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7052607818,
+  "lat": 43.4035066,
+  "lon": 39.9865182,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Листопадная улица",
+    "addr:suburb": "Адлер",
+    "name": "Фаворит",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7080256551,
+  "lat": 43.4564128,
+  "lon": 39.9126361,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "68",
+    "addr:street": "Троицкая улица",
+    "name": "Гостевой дом Гуэнос Плаза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7115085741,
+  "lat": 43.4260269,
+  "lon": 39.9151498,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "70",
+    "addr:street": "улица Просвещения",
+    "internet_access": "wlan",
+    "name": "El Paraiso",
+    "opening_hours": "24/7",
+    "phone": "+7 988 2378009",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7115162128,
+  "lat": 43.4275197,
+  "lon": 39.9280934,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "1",
+    "addr:street": "Старонасыпная улица",
+    "name": "Center Plaza",
+    "phone": "+7 989 0879123;+7 988 1447800",
+    "tourism": "hotel",
+    "website": "https://centerplaza-sochi.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 7117751086,
+  "lat": 43.4009183,
+  "lon": 39.9785164,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Воскресенская улица",
+    "name": "Пансионат Sigma Sirius Park",
+    "name:en": "Sigma Sirius Park",
+    "name:ru": "Sigma Sirius Park",
+    "opening_hours": "24/7",
+    "phone": "+78622433833",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7123898243,
+  "lat": 43.4152784,
+  "lon": 39.9294571,
+  "tags": {
+    "name": "На Цветочной",
+    "opening_hours": "24/7",
+    "tourism": "hotel",
+    "website": "https://zvetok35.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 7147243200,
+  "lat": 43.3918521,
+  "lon": 39.9863648,
+  "tags": {
+    "name": "SerTiDi",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7164437317,
+  "lat": 43.4851882,
+  "lon": 39.8903085,
+  "tags": {
+    "name": "Аквариум",
+    "tourism": "hotel",
+    "website": "www.hotelaquarium.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 7164495092,
+  "lat": 43.4784163,
+  "lon": 39.8945745,
+  "tags": {
+    "name": "ЭкоДом",
+    "phone": "+7 800 3331374",
+    "tourism": "hotel",
+    "website": "https://ekodom-hotels.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 7164578453,
+  "lat": 43.4622813,
+  "lon": 39.9046715,
+  "tags": {
+    "name": "Спутник",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7169680844,
+  "lat": 43.4443602,
+  "lon": 39.9048938,
+  "tags": {
+    "name": "F & G",
+    "tourism": "hotel",
+    "website": "https://www.fg-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 7230367208,
+  "lat": 43.6629903,
+  "lon": 39.6693321,
+  "tags": {
+    "name": "Royal",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7233567542,
+  "lat": 43.6549200,
+  "lon": 39.6496473,
+  "tags": {
+    "name": "Рассвет",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7342978826,
+  "lat": 43.5586829,
+  "lon": 39.7597608,
+  "tags": {
+    "name": "Таис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7345928591,
+  "lat": 43.4273462,
+  "lon": 39.9357441,
+  "tags": {
+    "name": "Три Сезона",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7491729629,
+  "lat": 43.6267979,
+  "lon": 39.6967882,
+  "tags": {
+    "name": "Форсаж",
+    "tourism": "hotel",
+    "website": "https://www.forsage-sochi.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 7563276630,
+  "lat": 43.4244961,
+  "lon": 39.9263651,
+  "tags": {
+    "name": "Каян",
+    "phone": "+7 918 6057345",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7659392485,
+  "lat": 43.5123797,
+  "lon": 39.8707292,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:postcode": "354037",
+    "addr:street": "Ялтинская улица",
+    "email": "lotos.y14@gmail.com",
+    "name": "Золотой лотос",
+    "name:en": "Golden Lotos",
+    "opening_hours": "24/7",
+    "operator": "ООО Лотос",
+    "phone": "+7 800 3509493",
+    "rooms": "18",
+    "stars": "3",
+    "tourism": "hotel",
+    "website": "https://lotos.bz"
+  }
+},
+{
+  "type": "node",
+  "id": 7891121078,
+  "lat": 43.5128529,
+  "lon": 39.8609393,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "14",
+    "addr:street": "Железнодорожная улица",
+    "name": "Кавказ",
+    "phone": "+7 938 8728000",
+    "tourism": "hotel",
+    "website": "www.san-kavkaz.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 7948102923,
+  "lat": 43.4923122,
+  "lon": 39.8899063,
+  "tags": {
+    "name": "Берег",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7948116896,
+  "lat": 43.4939399,
+  "lon": 39.8897276,
+  "tags": {
+    "name": "Искра",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8193141630,
+  "lat": 43.3791991,
+  "lon": 40.0860676,
+  "tags": {
+    "name": "Eco life",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8198207017,
+  "lat": 43.3935298,
+  "lon": 39.9938832,
+  "tags": {
+    "brand": "Бархатные сезоны",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Семейный квартал - ресепшн",
+    "tourism": "hotel",
+    "website": "https://bh-s.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8198207117,
+  "lat": 43.3910260,
+  "lon": 39.9938393,
+  "tags": {
+    "name": "Бархатные Сезоны Фигурная 29",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8199801034,
+  "lat": 43.3813928,
+  "lon": 40.0448998,
+  "tags": {
+    "name": "Напра",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8199851213,
+  "lat": 43.3867204,
+  "lon": 40.0395665,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8253762590,
+  "lat": 43.5420515,
+  "lon": 39.8306660,
+  "tags": {
+    "name": "Барские бани",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8386199473,
+  "lat": 43.3955421,
+  "lon": 39.9782474,
+  "tags": {
+    "addr:city": "Сириус",
+    "addr:street": "Шкиперская улица",
+    "name": "Sea Side",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8393747164,
+  "lat": 43.4712483,
+  "lon": 39.9014881,
+  "tags": {
+    "name": "Азалия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8424805030,
+  "lat": 43.4742530,
+  "lon": 39.8936425,
+  "tags": {
+    "name": "Zara",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8448352104,
+  "lat": 43.3994846,
+  "lon": 39.9693622,
+  "tags": {
+    "name": "Celentano",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8474990753,
+  "lat": 43.4658544,
+  "lon": 39.9098376,
+  "tags": {
+    "name": "Diana Palace",
+    "tourism": "hotel",
+    "website": "https://dianapalace.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8504620920,
+  "lat": 43.5137641,
+  "lon": 39.8694089,
+  "tags": {
+    "contact:phone": "+7 928 203 88 88",
+    "contact:website": "http://garden.garden-namaste.ru/",
+    "name": "Хоста Garden",
+    "name:ru": "Хоста Гарден",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8541891228,
+  "lat": 43.5146214,
+  "lon": 39.8672255,
+  "tags": {
+    "name": "Весна",
+    "tourism": "hotel",
+    "website": "www.vesn.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 8660302065,
+  "lat": 43.5991573,
+  "lon": 39.7084095,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:country": "RU",
+    "addr:housenumber": "33А",
+    "addr:street": "Виноградная улица",
+    "name": "Санаторий \"Юность\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8687921017,
+  "lat": 43.3829770,
+  "lon": 40.0372226,
+  "tags": {
+    "addr:housenumber": "452",
+    "addr:street": "Октябрьская улица",
+    "internet_access": "wlan",
+    "name": "Амра Санрайз",
+    "name:en": "Amra Sunrise",
+    "phone": "+79409381188",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8872412718,
+  "lat": 43.5764415,
+  "lon": 39.7236410,
+  "tags": {
+    "addr:postcode": "354000",
+    "email": "zakaz@grace-gorizont.ru",
+    "internet_access": "wlan",
+    "name": "СПА-отель \"Грейс Горизонт\"",
+    "name:en": "SPA-hotel \"Grace Gorizont\"",
+    "opening_hours": "24/7",
+    "phone": "+7 800 3025792",
+    "tourism": "hotel",
+    "website": "https://grace-gorizont.ru/?utm_source=maps&utm_medium=cpc&utm_campaign=mapsme"
+  }
+},
+{
+  "type": "node",
+  "id": 8897683304,
+  "lat": 43.3788412,
+  "lon": 40.0743491,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8932134771,
+  "lat": 43.4732599,
+  "lon": 39.8936156,
+  "tags": {
+    "addr:housenumber": "219А/5",
+    "addr:street": "улица Ленина",
+    "internet_access": "wlan",
+    "name": "Black Sea",
+    "rooms": "26",
+    "stars": "2",
+    "tourism": "hotel",
+    "website": "https://black-sea-sochi.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8951230053,
+  "lat": 43.5889113,
+  "lon": 39.7203505,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8975796817,
+  "lat": 43.4464817,
+  "lon": 39.9038367,
+  "tags": {
+    "name": "Терминал Адлер",
+    "name:en": "Terminal Adler",
+    "official_name": "Отель \"Терминал Адлер\"",
+    "tourism": "hotel",
+    "website": "https://terminal-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 9079226417,
+  "lat": 43.5463687,
+  "lon": 39.8030267,
+  "tags": {
+    "name": "Рест Мацеста",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9080245018,
+  "lat": 43.5463683,
+  "lon": 39.8030917,
+  "tags": {
+    "name": "Рест Мацеста",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9080866482,
+  "lat": 43.4837601,
+  "lon": 39.8929913,
+  "tags": {
+    "addr:housenumber": "221/8",
+    "addr:street": "улица Ленина",
+    "name": "Янаис",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9107200697,
+  "lat": 43.4535511,
+  "lon": 39.9053940,
+  "tags": {
+    "name": "Атлантида",
+    "phone": "+7-938-446-4544",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9168113593,
+  "lat": 43.4293273,
+  "lon": 39.9175353,
+  "tags": {
+    "name": "Анастасия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9175385617,
+  "lat": 43.3683954,
+  "lon": 40.1013423,
+  "tags": {
+    "addr:housenumber": "42А",
+    "addr:street": "Октябрьская улица",
+    "internet_access": "wlan",
+    "name": "Белые скалы",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9256509684,
+  "lat": 43.6282064,
+  "lon": 39.6928323,
+  "tags": {
+    "name": "Сон у моря",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9651097782,
+  "lat": 43.3913088,
+  "lon": 39.9829232,
+  "tags": {
+    "name": "Саяны",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9764181317,
+  "lat": 43.5766209,
+  "lon": 39.7304914,
+  "tags": {
+    "name": "Магнолия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9773757323,
+  "lat": 43.3606315,
+  "lon": 40.1248009,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9875280518,
+  "lat": 43.5816918,
+  "lon": 39.7277483,
+  "tags": {
+    "name": "Магеллан Панорама",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9908709817,
+  "lat": 43.5876832,
+  "lon": 39.7242927,
+  "tags": {
+    "addr:postcode": "354000",
+    "email": "galleryparksochi@gmail.com",
+    "internet_access": "wlan",
+    "name": "Отель Сочи Галерея Парк",
+    "name:en": "Hotel Sochi Gallery Park",
+    "phone": "+79897550888",
+    "tourism": "hotel",
+    "website": "https://sochigallerypark.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 10058556917,
+  "lat": 43.4284390,
+  "lon": 39.9153879,
+  "tags": {
+    "name": "Островок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10118233110,
+  "lat": 43.5626775,
+  "lon": 39.7566382,
+  "tags": {
+    "name": "Swissotel Resort Сочи Камелия",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10574252909,
+  "lat": 43.4226689,
+  "lon": 39.9241694,
+  "tags": {
+    "name:en": "Relax club exsclusive",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10734977305,
+  "lat": 43.3909852,
+  "lon": 39.9839281,
+  "tags": {
+    "name": "Севан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759606594,
+  "lat": 43.5741612,
+  "lon": 39.7393969,
+  "tags": {
+    "contact:email": "ranovsky.dep@yandex.ru",
+    "contact:phone": "+7 862 2918740",
+    "contact:website": "https://ranovsky-park.ru/",
+    "name": "RP Ranovsky Park",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759606596,
+  "lat": 43.5869054,
+  "lon": 39.7245803,
+  "tags": {
+    "contact:email": "ranovsky.park@yandex.ru",
+    "contact:phone": "+7 862 2593527",
+    "contact:website": "https://ranovskypark.ru",
+    "name": "Рановский парк",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759614195,
+  "lat": 43.4244336,
+  "lon": 39.9162591,
+  "tags": {
+    "contact:email": "info@goldentennisclub.ru",
+    "contact:phone": "+7 800 7072448;+7 918 4192336",
+    "contact:website": "https://goldentennisclub.ru/",
+    "name": "Golden Tennis Club",
+    "opening_hours": "Mo-Su 00:00-00:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10858734694,
+  "lat": 43.4623607,
+  "lon": 39.8992896,
+  "tags": {
+    "name": "Моне",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10967527654,
+  "lat": 43.6151666,
+  "lon": 39.7195995,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "134/1",
+    "addr:street": "Виноградная улица",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Антика",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11011900394,
+  "lat": 43.7321110,
+  "lon": 39.7027909,
+  "tags": {
+    "brand": "Villy Uley",
+    "internet_access": "wlan",
+    "name": "Вилли Улей",
+    "opening_hours": "24/7",
+    "phone": "+79888882348",
+    "reservation": "yes",
+    "tourism": "hotel",
+    "website": "https://villy-uley.ru/sochi/"
+  }
+},
+{
+  "type": "node",
+  "id": 11016631787,
+  "lat": 43.4606348,
+  "lon": 39.9008712,
+  "tags": {
+    "contact:email": "adler-2024@mail.ru",
+    "contact:phone": "+7 928 4500990",
+    "contact:website": "https://www.sochi-aerostar.ru",
+    "name": "Аэростар",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11016638373,
+  "lat": 43.5852870,
+  "lon": 39.7212732,
+  "tags": {
+    "contact:email": "gg@grand-gallery.net",
+    "contact:phone": "+7 800 3503371-1;+7 800 3503371-2;+7 862 4440225-1;+7 862 4440225-2;+7 939 8844604",
+    "contact:website": "https://grand-gallery.net/",
+    "name": "Grand Gallery",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11016638375,
+  "lat": 43.5838370,
+  "lon": 39.7263210,
+  "tags": {
+    "contact:email": "veryhotel@yandex.ru",
+    "contact:phone": "+7 988 1878700",
+    "contact:website": "https://veryhotel.ru/",
+    "name": "Veryhotel",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11017411115,
+  "lat": 43.3602071,
+  "lon": 40.1181868,
+  "tags": {
+    "addr:city": "Баӷрыпсҭа - Багрыпста",
+    "addr:street": "Сухумское шоссе",
+    "name": "Пансионат Солнечный",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11029975305,
+  "lat": 43.4195898,
+  "lon": 39.9216320,
+  "tags": {
+    "name": "Эльза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11029978905,
+  "lat": 43.4195513,
+  "lon": 39.9216343,
+  "tags": {
+    "name": "Эльза",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11067209459,
+  "lat": 43.6006084,
+  "lon": 39.7182262,
+  "tags": {
+    "contact:email": "usadba023@mail.ru",
+    "contact:phone": "+7 862 5552859",
+    "contact:website": "https://rpusadba.ru/",
+    "name": "Rp",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11138786325,
+  "lat": 43.4312708,
+  "lon": 39.9212828,
+  "tags": {
+    "contact:email": "chernomor.sochi@mail.ru",
+    "contact:phone": "+7 939 4444411",
+    "contact:website": "https://chernomor-sochi.ru/",
+    "name": "Черномор",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11138786328,
+  "lat": 43.5865946,
+  "lon": 39.7245079,
+  "tags": {
+    "contact:email": "ranovsky.park@yandex.ru",
+    "contact:phone": "+7 862 2593527",
+    "contact:website": "https://ranovskypark.ru/",
+    "name": "RP Manhattan",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11138786368,
+  "lat": 43.4763616,
+  "lon": 39.8995274,
+  "tags": {
+    "contact:email": "banara1@yandex.ru",
+    "contact:phone": "+7 938 4475375;+7 938 4708280;+7 989 1685986",
+    "contact:website": "http://banara.ru/",
+    "name": "Банановый рай",
+    "opening_hours": "Mo-Su 00:00-00:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11138788609,
+  "lat": 43.4120603,
+  "lon": 39.9622965,
+  "tags": {
+    "contact:email": "palmresort.sochi@mail.ru",
+    "contact:phone": "+7 967 3293555",
+    "contact:website": "https://palmresortsochi.ru/",
+    "name": "Palm resort",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11155862524,
+  "lat": 43.3749193,
+  "lon": 40.0952776,
+  "tags": {
+    "check_date": "2023-08-30",
+    "name": "Адзгара у моря",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11190910581,
+  "lat": 43.4115027,
+  "lon": 39.9358143,
+  "tags": {
+    "name": "Alpha Sirius",
+    "phone": "8‒800‒350‒44‒00",
+    "tourism": "hotel",
+    "website": "https://siriushotels.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 11238118158,
+  "lat": 43.3849777,
+  "lon": 40.0345742,
+  "tags": {
+    "addr:housenumber": "1А",
+    "addr:street": "переулок Адыгов",
+    "name": "Viva Glamp",
+    "name:en": "Viva Glamp",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222978,
+  "lat": 43.5820074,
+  "lon": 39.7272116,
+  "tags": {
+    "contact:phone": "+7 980 8887744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222979,
+  "lat": 43.5764775,
+  "lon": 39.7315300,
+  "tags": {
+    "contact:phone": "+7 993 5557744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222981,
+  "lat": 43.5654550,
+  "lon": 39.7478270,
+  "tags": {
+    "contact:phone": "+7 934 5557744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222982,
+  "lat": 43.4141977,
+  "lon": 39.9623019,
+  "tags": {
+    "contact:phone": "+7 969 5557744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222983,
+  "lat": 43.6330973,
+  "lon": 39.7142190,
+  "tags": {
+    "contact:phone": "+7 862 2258848",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222984,
+  "lat": 43.5949850,
+  "lon": 39.7267395,
+  "tags": {
+    "contact:phone": "+7 933 8887744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222985,
+  "lat": 43.6093387,
+  "lon": 39.7119927,
+  "tags": {
+    "contact:phone": "+7 930 5557744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11304222987,
+  "lat": 43.5701348,
+  "lon": 39.7389704,
+  "tags": {
+    "contact:phone": "+7 939 8887744",
+    "contact:website": "https://grandwayhotels.ru",
+    "name": "Grand Way",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11331531334,
+  "lat": 43.4451502,
+  "lon": 39.9040650,
+  "tags": {
+    "addr:city": "Сочи",
+    "addr:housenumber": "118Б",
+    "addr:street": "улица Просвещения",
+    "name": "Белладжио",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11482369120,
+  "lat": 43.6828945,
+  "lon": 39.6032721,
+  "tags": {
+    "contact:email": "pavel90@mail.ru",
+    "contact:phone": "+7 800 2012941;+7 962 8886522",
+    "contact:website": "https://www.marrakeshhotel.ru",
+    "name": "Марракеш",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11497670982,
+  "lat": 43.5897671,
+  "lon": 39.7172009,
+  "tags": {
+    "check_date": "2024-01-07",
+    "name": "Арт-отель",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11521416444,
+  "lat": 43.6088039,
+  "lon": 39.7144559,
+  "tags": {
+    "name": "Русалина",
+    "tourism": "hotel",
+    "website": "https://hotelrusalina.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 11637552371,
+  "lat": 43.4187719,
+  "lon": 39.9306857,
+  "tags": {
+    "addr:postcode": "354340",
+    "internet_access": "wlan",
+    "name": "Родос",
+    "name:en": "Rodos",
+    "opening_hours": "24/7",
+    "phone": "+7 (995) 170-99-09",
+    "tourism": "hotel",
+    "website": "https://rodos-apart.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 11637558669,
+  "lat": 43.4182208,
+  "lon": 39.9294634,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Родос Лайт",
+    "name:en": "Rodos lite",
+    "opening_hours": "24/7",
+    "phone": "+7 (995) 170-99-09",
+    "tourism": "hotel",
+    "website": "https://rodos-lite.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 11843545840,
+  "lat": 43.6823786,
+  "lon": 39.6038729,
+  "tags": {
+    "contact:email": "loobeach@bk.ru",
+    "contact:phone": "+7 988 4129888",
+    "contact:website": "https://loobeach-gorniy-vozdyh.ru",
+    "name": "Горный Воздух",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843545854,
+  "lat": 43.4194425,
+  "lon": 39.9218944,
+  "tags": {
+    "contact:email": "ellishotel@mail.ru",
+    "contact:phone": "+7 989 7588658",
+    "contact:website": "https://ellis-hotel.ru",
+    "name": "Ellis",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843545856,
+  "lat": 43.4250540,
+  "lon": 39.9176170,
+  "tags": {
+    "contact:email": "marcopolohotel@mail.ru",
+    "contact:phone": "+7 918 9190033",
+    "contact:website": "https://marcopolohotel.ru",
+    "name": "Marco Polo",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843545860,
+  "lat": 43.4674154,
+  "lon": 39.8996964,
+  "tags": {
+    "contact:email": "hotel.flora.adler@gmail.com",
+    "contact:phone": "+7 906 8511777;+7 989 0890010",
+    "contact:website": "https://flora-adler.com",
+    "name": "Флора",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843545861,
+  "lat": 43.4762253,
+  "lon": 39.8991492,
+  "tags": {
+    "contact:email": "adlerpanorama@yandex.ru",
+    "contact:phone": "+7 918 9025058",
+    "contact:website": "https://adlerpanorama.ru",
+    "name": "Панорама",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553789,
+  "lat": 43.6083832,
+  "lon": 39.7141010,
+  "tags": {
+    "contact:email": "as.palatkin@neolit.su",
+    "contact:phone": "+7 862 5552996",
+    "contact:website": "https://sochiaparts.ru",
+    "name": "Millennials",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553790,
+  "lat": 43.6107175,
+  "lon": 39.7178829,
+  "tags": {
+    "contact:email": "vinogradniy@neolit.su",
+    "contact:phone": "+7 862 5552996",
+    "contact:website": "https://vinogradniy.neolitapart.ru",
+    "name": "Виноградный",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553791,
+  "lat": 43.5657815,
+  "lon": 39.7626811,
+  "tags": {
+    "contact:email": "lissabon@neolit.su",
+    "contact:phone": "+7 862 5552996",
+    "contact:website": "https://lissabon-hotel.ru",
+    "name": "Лиссабон",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553792,
+  "lat": 43.5958475,
+  "lon": 39.7293573,
+  "tags": {
+    "contact:email": "park@neolit.su",
+    "contact:phone": "+7 862 5552996",
+    "contact:website": "https://park.neolitapart.ru",
+    "name": "Парк Горького",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553793,
+  "lat": 43.6054991,
+  "lon": 39.7157264,
+  "tags": {
+    "contact:phone": "+7 862 5552996",
+    "contact:website": "https://pushkin.neolitapart.ru",
+    "name": "Пушкин",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553834,
+  "lat": 43.5880905,
+  "lon": 39.7160589,
+  "tags": {
+    "contact:email": "rivieraart@mail.ru",
+    "contact:phone": "+7 989 1600080",
+    "name": "Ривьера Арт",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553838,
+  "lat": 43.4363252,
+  "lon": 39.9151057,
+  "tags": {
+    "contact:email": "ofeliahotel@mail.ru",
+    "contact:phone": "+7 967 6426400",
+    "contact:website": "https://ofeliahotel.ru",
+    "name": "Офелия",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11843553839,
+  "lat": 43.4259550,
+  "lon": 39.9173480,
+  "tags": {
+    "contact:email": "arcadia_plus@mail.ru",
+    "contact:phone": "+7 918 1062255",
+    "contact:website": "https://arcadiaplushotel.ru/",
+    "name": "Аркадия+",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11866202895,
+  "lat": 43.4253046,
+  "lon": 39.9148089,
+  "tags": {
+    "check_date": "2024-04-29",
+    "name": "Cascade",
+    "tourism": "hotel"
+  }
 }
   ]
 }
