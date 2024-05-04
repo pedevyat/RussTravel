@@ -46669,6 +46669,1014 @@
     "tourism": "hotel"
   }
 },
-
+{
+  "type": "node",
+  "id": 344116390,
+  "lat": 45.0562915,
+  "lon": 39.0032328,
+  "tags": {
+    "contact:email": "info@yugmotel.ru",
+    "contact:phone": "+7 861 2570416",
+    "contact:skype": "yug.motel",
+    "contact:website": "http://www.yugmotel.ru/",
+    "name": "Южный",
+    "name:en": "Yuzhny",
+    "stars": "2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 344117133,
+  "lat": 45.0441710,
+  "lon": 38.9784224,
+  "tags": {
+    "contact:phone": "+7 861 2731450",
+    "contact:website": "http://www.kit-com.ru/kavkaz_osnovnaya/",
+    "email": "kavkaz@kit-com.ru",
+    "fax": "+7 861 2731450",
+    "name": "Кавказ",
+    "name:en": "Kavkaz",
+    "operator": "Курорты и туризм",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 446760039,
+  "lat": 45.0503760,
+  "lon": 38.9808309,
+  "tags": {
+    "name": "Динамо",
+    "name:en": "Dinamo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 455880018,
+  "lat": 45.0181258,
+  "lon": 38.9960879,
+  "tags": {
+    "contact:phone": "+7 861 2679573",
+    "email": "karambol@pisem.net",
+    "fax": "+7 861 2393148",
+    "name": "Карамболь",
+    "name:en": "Karambol",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 494299836,
+  "lat": 45.0404309,
+  "lon": 38.9930328,
+  "tags": {
+    "contact:phone": "+7 861 2591012",
+    "name": "Пилот",
+    "name:en": "Pilot",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 498411903,
+  "lat": 45.1256248,
+  "lon": 39.0066871,
+  "tags": {
+    "name": "Золотая колесница",
+    "name:en": "Zolotaya Kolesnitsa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 498411905,
+  "lat": 45.1198120,
+  "lon": 38.9981279,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 539456678,
+  "lat": 45.0178194,
+  "lon": 38.9960357,
+  "tags": {
+    "contact:phone": "+7 861 2396560",
+    "contact:website": "http://www.genoff.ru/",
+    "name": "Genoff",
+    "name:en": "Genoff",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 778261107,
+  "lat": 45.0307237,
+  "lon": 39.0322247,
+  "tags": {
+    "contact:phone": "+7 861 2344838",
+    "contact:website": "http://www.hotel-marchenko.ru/krasnodar-otel-mars",
+    "internet_access": "no",
+    "name": "Марс",
+    "name:en": "Mars",
+    "operator": "Hotel Marchenko",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 833787285,
+  "lat": 45.0362405,
+  "lon": 39.0692167,
+  "tags": {
+    "contact:email": "hotel@forum1hotel.com",
+    "contact:phone": "+7 800 2006835",
+    "contact:website": "http://www.forum1hotel.com",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Forum",
+    "name:en": "Forum",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1054902287,
+  "lat": 45.0478742,
+  "lon": 38.9668062,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1060215030,
+  "lat": 45.0486068,
+  "lon": 38.9722364,
+  "tags": {
+    "contact:phone": "+7 861 2150101",
+    "contact:website": "http://www.redroyalhotel.ru/",
+    "email": "redroyalhotel@mail.ru",
+    "internet_access": "wlan",
+    "name": "Red Royal",
+    "name:en": "Red Royal",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1150901048,
+  "lat": 45.0264136,
+  "lon": 38.9712712,
+  "tags": {
+    "name": "Краснодар",
+    "name:en": "Krasnodar",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1166336416,
+  "lat": 45.0594322,
+  "lon": 38.9639740,
+  "tags": {
+    "name": "Грац",
+    "name:en": "Gratz",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1212794622,
+  "lat": 45.0659653,
+  "lon": 38.9813051,
+  "tags": {
+    "name": "Золотой якорь",
+    "name:en": "Zolotoy Yakor",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1216280979,
+  "lat": 45.0266017,
+  "lon": 38.9719392,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1433486036,
+  "lat": 45.0161187,
+  "lon": 38.9634773,
+  "tags": {
+    "contact:phone": "+7 861 2738888",
+    "contact:website": "http://www.platan-yug.ru/",
+    "email": "hotel@platan-yug.ru",
+    "internet_access": "yes",
+    "internet_access:fee": "yes",
+    "name": "Платан южный",
+    "name:en": "Platan Yuzhny",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1754176400,
+  "lat": 45.0181860,
+  "lon": 38.9581919,
+  "tags": {
+    "contact:phone": "+7 861 2685954",
+    "contact:website": "http://www.ekaterininsky-hotel.ru/",
+    "email": "ekaterininsky@yandex.ru",
+    "fax": "+7 861 2683591",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Екатерининский",
+    "name:en": "Yekaterininskiy",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1822661217,
+  "lat": 45.0650961,
+  "lon": 39.0199335,
+  "tags": {
+    "contact:phone": "+7 861 2526907",
+    "email": "elbesc@yandex.ru",
+    "name": "На Черкасской",
+    "name:en": "Na Cherkasskoy",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1823138813,
+  "lat": 45.0370928,
+  "lon": 39.0849743,
+  "tags": {
+    "contact:phone": "+7 861 2601155",
+    "contact:website": "http://www.otel-niva.ru/",
+    "email": "otel_niva@mail.ru",
+    "name": "Нива",
+    "name:en": "Niva",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1831234621,
+  "lat": 45.0580714,
+  "lon": 38.9336080,
+  "tags": {
+    "name": "Натали",
+    "name:en": "Natalie",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1834115139,
+  "lat": 45.0976571,
+  "lon": 38.9761743,
+  "tags": {
+    "addr:city": "Краснодар",
+    "addr:postcode": "350005",
+    "addr:street": "Кореновская улица",
+    "name": "Огонёк",
+    "name:en": "Ogonyok",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1834115140,
+  "lat": 45.0981195,
+  "lon": 38.9769024,
+  "tags": {
+    "addr:city": "Краснодар",
+    "addr:postcode": "350005",
+    "addr:street": "Кореновская улица",
+    "contact:phone": "+7 861 2581320",
+    "fax": "+7 861 2581270",
+    "name": "Юг",
+    "name:en": "Yug",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2010679573,
+  "lat": 45.0457013,
+  "lon": 38.9414550,
+  "tags": {
+    "name": "Валерио",
+    "name:en": "Valerio",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2126145827,
+  "lat": 45.0366674,
+  "lon": 38.9737609,
+  "tags": {
+    "contact:website": "http://www.int-krd.ru/",
+    "email": "booking@int-krd.ru",
+    "name": "Интурист",
+    "name:en": "Intourist",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2144973248,
+  "lat": 45.0369045,
+  "lon": 38.9956044,
+  "tags": {
+    "name": "Император",
+    "name:en": "Imperator",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2146429310,
+  "lat": 45.0287032,
+  "lon": 39.1223833,
+  "tags": {
+    "contact:phone": "+7 861 2278833",
+    "contact:website": "http://www.aerootel.com/",
+    "email": "booking@aerootel.com",
+    "internet_access": "wlan",
+    "name": "Аэроотель",
+    "name:en": "Aerootel",
+    "operator": "ООО «Отель»",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2146467377,
+  "lat": 45.0158910,
+  "lon": 38.9645960,
+  "tags": {
+    "contact:phone": "+7 861 2682616",
+    "contact:website": "http://www.platanhotel.ru/platan/",
+    "email": "hotel-platan@kubannet.ru",
+    "internet_access": "yes",
+    "internet_access:fee": "yes",
+    "name": "Платан",
+    "name:en": "Platan",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2148801367,
+  "lat": 45.0173494,
+  "lon": 38.9593781,
+  "tags": {
+    "contact:phone": "+7 861 2795866",
+    "contact:website": "http://rimarhotel.com/",
+    "email": "reservation@rimarhotel.com",
+    "fax": "+7 861 2795893",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Rimar",
+    "name:en": "Rimar",
+    "stars": "5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2148807103,
+  "lat": 45.0191876,
+  "lon": 38.9776346,
+  "tags": {
+    "contact:phone": "+7 861 2680093",
+    "contact:website": "http://www.hotelprestige.ru/",
+    "email": "prestige-alfa@mail.ru",
+    "fax": "+7 861 2626500",
+    "name": "Престиж",
+    "name:en": "Prestige",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2148809348,
+  "lat": 45.0204434,
+  "lon": 38.9722572,
+  "tags": {
+    "contact:phone": "+7 861 2628755",
+    "contact:website": "http://www.hotel-inostranez.ru",
+    "email": "office@hotel-inostranez.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Иностранец",
+    "name:en": "Inostranez",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2151890204,
+  "lat": 45.0293919,
+  "lon": 39.0498147,
+  "tags": {
+    "contact:phone": "+7 861 2345300",
+    "contact:website": "http://www.oasishotel.ru",
+    "email": "info@oasishotel.ru",
+    "fax": "+7 861 2340076",
+    "internet_access": "wlan",
+    "name": "Оазис",
+    "name:en": "Oasis",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2160825380,
+  "lat": 45.0345208,
+  "lon": 39.0147514,
+  "tags": {
+    "contact:phone": "+7 861 2745464",
+    "contact:website": "http://www.hotelbridge.ru/",
+    "email": "reception@hotelbridge.ru",
+    "fax": "+7 861 2745474",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Bridge",
+    "name:en": "Bridge",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2160970991,
+  "lat": 45.0495761,
+  "lon": 38.9656496,
+  "tags": {
+    "contact:phone": "+7 861 2539250",
+    "contact:website": "http://www.pyramid-hotel.ru/",
+    "email": "pyramid-hotel@mail.ru",
+    "fax": "+7 861 2539240",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Пирамида",
+    "name:en": "Piramida",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2160986117,
+  "lat": 45.0475656,
+  "lon": 38.9540082,
+  "tags": {
+    "contact:phone": "+7 861 2261212",
+    "contact:website": "http://www.uyut.org/",
+    "email": "info@uyut.org",
+    "fax": "+7 861 2261212",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Уют",
+    "name:en": "Uyut",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2166591472,
+  "lat": 45.0133884,
+  "lon": 39.0792152,
+  "tags": {
+    "contact:phone": "+7 861 2630792",
+    "contact:website": "http://www.hotel-marchenko.ru/krasnodar-otel-leon",
+    "email": "milan_krd@mail.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Вилла Лион",
+    "name:en": "Villa Lion",
+    "operator": "Hotel Marchenko",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2166759284,
+  "lat": 45.0312887,
+  "lon": 39.0863009,
+  "tags": {
+    "contact:phone": "+7 861 2364696",
+    "contact:website": "http://www.hotel-marchenko.ru/2012-01-17-20-35-49",
+    "internet_access": "no",
+    "name": "Вилла Луна",
+    "name:en": "Villa Luna",
+    "operator": "Hotel Marchenko",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2189637135,
+  "lat": 45.0352996,
+  "lon": 39.1355558,
+  "tags": {
+    "name": "Мегион",
+    "name:en": "Megion",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2210944997,
+  "lat": 45.0589445,
+  "lon": 39.0221470,
+  "tags": {
+    "contact:phone": "+7 800 3333443",
+    "contact:website": "http://troy-hotel.ru",
+    "email": "info@troy-hotel.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Troy",
+    "name:en": "Troy",
+    "stars": "5",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2211169102,
+  "lat": 45.0398444,
+  "lon": 38.9917136,
+  "tags": {
+    "contact:phone": "+7 861 2542542",
+    "contact:website": "http://savoy-petit.ru/",
+    "name": "Savoy Petit",
+    "name:en": "Savoy Petit",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2211172464,
+  "lat": 45.0504795,
+  "lon": 38.9519142,
+  "tags": {
+    "addr:housenumber": "145",
+    "addr:postcode": "350049",
+    "addr:street": "улица Брюсова",
+    "contact:phone": "+7 (988) 404-77-70",
+    "contact:website": "http://www.parallel-hotel.ru",
+    "email": "info@korona-royal.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Корона",
+    "name:en": "Parallel Congress by Stellar Hotels",
+    "name:ru": "Parallel Congress by Stellar Hotels",
+    "opening_hours": "24/7",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2322573964,
+  "lat": 45.0346074,
+  "lon": 39.1199044,
+  "tags": {
+    "addr:housenumber": "33",
+    "addr:postcode": "350912",
+    "addr:street": "Вокзальная улица",
+    "name": "Номера, Сауна",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 2452458823,
+  "lat": 45.0457897,
+  "lon": 38.9459049,
+  "tags": {
+    "addr:country": "RU",
+    "addr:housenumber": "89",
+    "addr:postcode": "350004",
+    "addr:street": "улица Энгельса",
+    "contact:email": "admin@versal-hotel.ru",
+    "contact:phone": "+7 861 2212305;+7 918 0884545",
+    "name": "Версаль",
+    "name:en": "Versal",
+    "stars": "4",
+    "tourism": "hotel",
+    "website": "www.versal-hotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 2452458845,
+  "lat": 45.0323704,
+  "lon": 39.0304518,
+  "tags": {
+    "addr:city": "Краснодар",
+    "addr:country": "RU",
+    "addr:housenumber": "48",
+    "addr:postcode": "350059",
+    "addr:street": "Енисейская улица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3129446424,
+  "lat": 45.0398256,
+  "lon": 38.9551097,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:postcode": "350004",
+    "addr:street": "улица Тургенева",
+    "name": "MARTON Тургенева",
+    "operator": "HOTEL MARTON",
+    "phone": "+7 861 2550099",
+    "tourism": "hotel",
+    "website": "http://www.hotel-marton.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 3163363065,
+  "lat": 45.0468138,
+  "lon": 38.9990261,
+  "tags": {
+    "name": "Вилла Диана",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3191304257,
+  "lat": 45.0131591,
+  "lon": 39.0576223,
+  "tags": {
+    "name": "Гостевой дом \"Лилия\"",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3447131245,
+  "lat": 45.0515340,
+  "lon": 38.9612673,
+  "tags": {
+    "addr:housenumber": "11",
+    "addr:street": "проезд Красных Партизан",
+    "email": "villastefano@mail.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Dolce Vita",
+    "phone": "+7 861 2205002;+7 988 1583888",
+    "stars": "5",
+    "tourism": "hotel",
+    "website": "www.vilastefano.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 3970650755,
+  "lat": 45.0253195,
+  "lon": 38.9712098,
+  "tags": {
+    "name": "Централь",
+    "source": "Bing",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4350331190,
+  "lat": 45.0287685,
+  "lon": 39.1227131,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Kruiz",
+    "phone": "+7 918 3222226",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4393547892,
+  "lat": 45.0639414,
+  "lon": 39.0212676,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4439095787,
+  "lat": 45.0299848,
+  "lon": 38.9705536,
+  "tags": {
+    "contact:email": "tel9924896@mail.ru",
+    "contact:instagram": "ekaterinodar_hotel_restaurant",
+    "contact:phone": "+7 861 9924896",
+    "contact:website": "http://www.ekaterinodarhotel.ru/",
+    "name": "Екатеринодар",
+    "stars": "4",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4496443536,
+  "lat": 45.1111095,
+  "lon": 39.0220666,
+  "tags": {
+    "addr:housenumber": "78/1",
+    "addr:street": "Тепличная улица",
+    "internet_access": "wlan",
+    "name": "NIKA",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4631495140,
+  "lat": 45.1146920,
+  "lon": 38.9868733,
+  "tags": {
+    "contact:email": "otelpelikan@mail.ru",
+    "contact:phone": "+7 989 2498989",
+    "contact:website": "http://www.otelpelikan.ru",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Пеликан",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4663203408,
+  "lat": 45.0453678,
+  "lon": 38.9981042,
+  "tags": {
+    "addr:city": "Краснодар",
+    "addr:housenumber": "33",
+    "addr:street": "улица МОПР",
+    "internet_access": "yes",
+    "name": "Рандеву",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4728461592,
+  "lat": 45.0315359,
+  "lon": 38.9798161,
+  "tags": {
+    "name": "Мини-отель \"Абсолют\"",
+    "name:ru": "Мини-отель \"Абсолют\"",
+    "tourism": "hotel",
+    "website": "http://www.absolutkrd.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5077332022,
+  "lat": 45.1195683,
+  "lon": 38.9276647,
+  "tags": {
+    "name": "Мюллер бах",
+    "name:ru": "Мюллер бах",
+    "tourism": "hotel",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5235096922,
+  "lat": 45.0336392,
+  "lon": 38.9866923,
+  "tags": {
+    "addr:housenumber": "113",
+    "addr:street": "Базовская улица",
+    "name": "BB Hotel Centre",
+    "name:en": "BB Hotel Centre",
+    "name:ru": "BB Hotel Centre",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5620498872,
+  "lat": 45.0341765,
+  "lon": 39.1362207,
+  "tags": {
+    "name": "Отель «Аэропорт Краснодар»",
+    "tourism": "hotel",
+    "website": "http://aerohotelkrr.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 5645762684,
+  "lat": 45.0142591,
+  "lon": 39.0678120,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5938358272,
+  "lat": 45.1870258,
+  "lon": 39.1206141,
+  "tags": {
+    "name": "Казачка",
+    "source": "Bing",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6403114410,
+  "lat": 45.0287713,
+  "lon": 38.9896926,
+  "tags": {
+    "name": "DHotel",
+    "stars": "3",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7646444064,
+  "lat": 45.0210839,
+  "lon": 39.0160145,
+  "tags": {
+    "name": "К-54",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9349584699,
+  "lat": 45.1400292,
+  "lon": 39.0364191,
+  "tags": {
+    "name": "Уральский теремок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10272514674,
+  "lat": 45.0149756,
+  "lon": 39.0262964,
+  "tags": {
+    "addr:housenumber": "87",
+    "addr:street": "улица Димитрова",
+    "check_date": "2022-12-19",
+    "name": "Top Hill",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10281607309,
+  "lat": 45.0658224,
+  "lon": 38.9469922,
+  "tags": {
+    "addr:postcode": "350065",
+    "email": "Info@hotelvalencia-krd.ru",
+    "internet_access": "wlan",
+    "name": "Валенсия отель&спорт",
+    "name:en": "Valencia hotel&sport",
+    "phone": "+79189533333",
+    "tourism": "hotel",
+    "website": "https://hotelvalencia-krd.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 10293528809,
+  "lat": 45.0030829,
+  "lon": 38.9613227,
+  "tags": {
+    "addr:postcode": "350007",
+    "name": "45 Параллель",
+    "name:en": "45 Parallel",
+    "phone": "+7 993 993 21 78",
+    "tourism": "hotel",
+    "website": "https://45parallel-hotel.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 10293557509,
+  "lat": 45.0036240,
+  "lon": 38.9617006,
+  "tags": {
+    "addr:housenumber": "10с1",
+    "addr:postcode": "350007",
+    "contact:instagram": "45parallel_hotel",
+    "contact:vk": "hotel_45parallel",
+    "email": "info@45parallel-hotel.ru",
+    "name": "45 Параллель",
+    "name:en": "45 Parallel",
+    "opening_hours": "24/7",
+    "phone": "+7 993 993 23 68",
+    "tourism": "hotel",
+    "website": "https://45parallel-hotel.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 10563100789,
+  "lat": 45.0146178,
+  "lon": 39.0284536,
+  "tags": {
+    "addr:city": "Краснодар",
+    "addr:housenumber": "11",
+    "addr:street": "Бургасская улица",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759613957,
+  "lat": 45.0429310,
+  "lon": 38.9451680,
+  "tags": {
+    "contact:email": "villamarina-hotel@mail.ru",
+    "contact:phone": "+7 861 2168022",
+    "contact:website": "https://villamarina-hotel.ru/",
+    "name": "Villa Marina",
+    "opening_hours": "Mo-Su 00:00-00:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10759614139,
+  "lat": 45.0419607,
+  "lon": 38.9822575,
+  "tags": {
+    "contact:email": "info@triumphhotel.ru",
+    "contact:phone": "+7 800 7073545;+7 861 2550035;+7 861 2551888;+7 918 6505409",
+    "contact:website": "https://hoteltriumph.ru/",
+    "name": "Триумф",
+    "opening_hours": "Mo-Su 00:00-00:00",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11016631776,
+  "lat": 45.0128882,
+  "lon": 39.0767571,
+  "tags": {
+    "contact:email": "bodrova077@mail.ru",
+    "contact:phone": "+7 861 2187410;+7 938 4100086;+7 953 0941010",
+    "contact:website": "https://hotel-marussia.tilda.ws/",
+    "name": "Marussia",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11067242231,
+  "lat": 45.0498859,
+  "lon": 38.9700857,
+  "tags": {
+    "contact:email": "book@hotelcongress.ru",
+    "contact:phone": "+7 800 5506959;+7 861 2937798",
+    "contact:website": "https://hotelcongress.ru",
+    "name": "Congress",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+}
   ]
 }
