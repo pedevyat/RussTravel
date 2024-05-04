@@ -30,6 +30,48 @@ class SignInPage extends State<SignIn>
 {
 	bool _isPasswordHidden = true;
 	
+	String _email = '';
+	String _password = '';
+	
+	void _submitData() async {
+	    http.get(Uri.parse('http://127.0.0.1:8000/')).then((response) {
+	    print("Response status: ${response.statusCode}");
+	    print("Response body: ${response.body}");
+	    }).catchError((error){
+	        print("Error: $error");
+	    });
+	    
+	    final response = await http.post(
+	      Uri.parse('http://127.0.0.1:8000/sign-in'),
+	      headers: {
+      			'accept': 'application/json',
+      			'Content-Type': 'application/x-www-form-urlencoded',
+    		},
+    	      body:	{
+			      'grant_type': '',
+			      'username': "${_email}",
+			      'password': "${_password}",
+			      'scope': '',
+			      'client_id': '',
+			      'client_secret': '',
+			    },
+	    );
+
+	    if (response.statusCode == 200) {
+	      // Обработка успешного ответа
+	      print('Success: ${response.body}');
+	      final lstStr = response.body.split(RegExp(r'[:{}, ]'));
+	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + " " + lstStr[lstStr.indexOf("\"name\"") + 1]);
+	      var _userData = await Hive.openBox('UserData');
+	      _userData.put('id', lstStr[lstStr.indexOf("\"id\"") + 1]);
+	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
+	      widget.onPageChanged(2);
+	    } else {
+	      // Обработка ошибки
+	      print('${response.statusCode} - Error: ${response.reasonPhrase}');
+	    }
+	}
+	
 	Widget build(BuildContext context)
 	{
 		return new Center
@@ -65,6 +107,11 @@ class SignInPage extends State<SignIn>
 									hintText : 'Введите ваш логин...',
 									contentPadding: EdgeInsets.symmetric(horizontal: 20),
 									),
+									onChanged: (value) {
+									    setState(() {
+									      _email = value;
+									    });
+									  },
 									cursorColor: Color.fromRGBO(0, 108, 167, 1),
 								),
 						),
@@ -95,6 +142,11 @@ class SignInPage extends State<SignIn>
                     						setState(() { _isPasswordHidden = !_isPasswordHidden; });
                       					}),
 								),
+								onChanged: (value) {
+								    setState(() {
+								      _password = value;
+								    });
+								  },
 								cursorColor: Color.fromRGBO(0, 108, 167, 1),
 							),
 						),
@@ -111,7 +163,7 @@ class SignInPage extends State<SignIn>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () {},
+								onPressed: () {_submitData();},
 								child: Text('Вход'),
 								)
 						),
@@ -226,6 +278,7 @@ class SignUpPage extends State<SignUp>
 	      final lstStr = response.body.split(RegExp(r'[:{}, ]'));
 	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + " " + lstStr[lstStr.indexOf("\"name\"") + 1]);
 	      var _userData = await Hive.openBox('UserData');
+	      //_userData.clear();
 	      _userData.put('id', lstStr[lstStr.indexOf("\"id\"") + 1]);
 	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
 	      widget.onPageChanged(2);
@@ -496,7 +549,7 @@ class AccountPage extends State<Account>
 
 class ProfilePage extends State<Profile>
 {
-	int _currentIndex = 2;	
+	int _currentIndex = 2;
 	void changePage(int page) {
     	setState(() {
       		_currentIndex = page;

@@ -15,7 +15,7 @@ async def create_user(user: users.UserCreate):
         raise HTTPException(status_code=400, detail="Email already registered")
     return await users_utils.create_user(user=user)
 
-@router.post("/auth")
+@router.post("/sign-in")
 async def auth(form_data: OAuth2PasswordRequestForm = Depends()):
     user = await users_utils.get_user_by_email(email=form_data.username)
 
@@ -26,4 +26,4 @@ async def auth(form_data: OAuth2PasswordRequestForm = Depends()):
         password=form_data.password, hashed_password=user["hashed_password"]
     ):
         raise HTTPException(status_code=400, detail="Incorrect email or password")
-    return {"status_code" : 200}
+    return {"id" : user.id, "name" : user.name}
