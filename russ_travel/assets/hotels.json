@@ -55043,6 +55043,154 @@
     "tourism": "hotel",
     "website": "https://guzeriple-village.ru"
   }
+},
+{
+  "type": "node",
+  "id": 598060231,
+  "lat": 46.2968385,
+  "lon": 44.2987344,
+  "tags": {
+    "name": "Сити чесс",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1861061419,
+  "lat": 46.3082422,
+  "lon": 44.2645768,
+  "tags": {
+    "addr:city": "Элиста",
+    "addr:housenumber": "241",
+    "addr:street": "улица Ленина",
+    "int_name": "Hotel Elista",
+    "name": "Гостиница Элиста",
+    "operator": "Сбербанк",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4003115869,
+  "lat": 46.3011202,
+  "lon": 44.3184889,
+  "tags": {
+    "name": "Мега",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4558316389,
+  "lat": 46.3160597,
+  "lon": 44.3221999,
+  "tags": {
+    "name": "Акварель",
+    "opening_hours": "24/7",
+    "phone": "+79064379763",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6460345844,
+  "lat": 46.3090494,
+  "lon": 44.1979578,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6961188185,
+  "lat": 46.3136855,
+  "lon": 44.2983164,
+  "tags": {
+    "addr:street": "3-й проезд",
+    "internet_access": "wlan",
+    "name": "25 час",
+    "name:en": "25 ours",
+    "opening_hours": "24/7",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8871029990,
+  "lat": 46.3131228,
+  "lon": 44.2688568,
+  "tags": {
+    "addr:city": "Элиста",
+    "addr:housenumber": "11",
+    "addr:street": "улица им. Х.Б. Сян-Белгина",
+    "name": "Turist",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8905207807,
+  "lat": 46.3097345,
+  "lon": 44.2634712,
+  "tags": {
+    "addr:city": "Элиста",
+    "addr:housenumber": "14",
+    "addr:street": "Республиканская улица",
+    "name": "Островок",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9309461587,
+  "lat": 46.3170471,
+  "lon": 44.3466587,
+  "tags": {
+    "name": "Транзит",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9309488317,
+  "lat": 46.3202104,
+  "lon": 44.3377237,
+  "tags": {
+    "name": "Люксойл",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 9775463117,
+  "lat": 46.3206354,
+  "lon": 44.2262658,
+  "tags": {
+    "addr:housenumber": "67",
+    "addr:street": "Демьяновский переулок",
+    "internet_access": "wlan",
+    "name": "Гостиный двор",
+    "opening_hours": "24/7",
+    "phone": "89374667363",
+    "tourism": "hotel",
+    "website": "https://elistaguest.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 9921844019,
+  "lat": 46.2974502,
+  "lon": 44.3004590,
+  "tags": {
+    "addr:housenumber": "24",
+    "addr:postcode": "358014",
+    "addr:street": "Сити-Чесс",
+    "name": "Марко Поло",
+    "opening_hours": "24/7",
+    "phone": "+79618417070",
+    "tourism": "hotel",
+    "website": "http://marcopoloelista.ru/"
+  }
 }
   ]
 }
