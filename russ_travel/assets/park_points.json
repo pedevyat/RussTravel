@@ -2322,5 +2322,335 @@
         "latitude": 48.169465,
         "longitude": 42.676384,
         "photoUrl": "https://www.tursar.ru/img_mini/img4229_0.jpg"
+    },
+	 {
+            "name": "Хаджохская теснина",
+            "latitude": 44.284432,
+            "longitude": 40.175697,
+            "photoUrl": "https://titam.ru/wp-content/uploads/2020/04/Хаджохская-теснина.jpg"
+        },
+        {
+            "name": "Набережная Ростова-на-Дону",
+            "latitude": 47.217242,
+            "longitude": 39.726807,
+            "photoUrl": "https://celes.club/uploads/posts/2022-08/1661475114_29-celes-club-p-krasivie-mesta-rostova-na-donu-vkontakte-31.jpg"
+        },
+        {
+            "name": "Парк Дружба в Элисте",
+            "latitude": 46.30709399772154,
+            "longitude": 44.26186704198265,
+            "photoUrl": "https://top7travel.ru/wp-content/uploads/2022/07/7yv76y786yv788yv.jpg"
+        },
+        {
+            "name": "Целебные источники Железноводска",
+            "latitude": 46.987246,
+            "longitude": 142.020194,
+            "photoUrl": "https://avatars.mds.yandex.net/i?id=abab76273cb86d1e940fbd5689471cb9ab936a76-9385956-images-thumbs&n=13"
+        },
+        {
+            "name": "Парк Лога в хуторе Старая Станица",
+            "latitude": 48.351304,
+            "longitude": 40.295224,
+            "photoUrl": "https://i.ytimg.com/vi/OKhN28LM0Nk/maxresdefault.jpg"
+        },
+        {
+            "name": "Курортный парк в Ессентуках",
+            "latitude": 44.048118,
+            "longitude": 42.864703,
+            "photoUrl": "https://krasivie-storoni.ru/wp-content/uploads/2023/06/КавМинВоды.jpg"
+        },
+        {
+            "name": "Казанский собор в Элисте",
+            "latitude": 46.30879297889601,
+            "longitude": 44.23170857482135,
+            "photoUrl": "https://azbyka.ru/palomnik/images/9/93/Казанский_кафедральный_собор_%28Элиста%290.jpg"
+        },
+        {
+            "name": "Алексеевские ворота в Азове",
+            "latitude": 47.115646,
+            "longitude": 39.421151,
+            "photoUrl": "https://don24.ru/uploads/2022/06/общество-BXi7qIql40Efc4IvrmouKJg8qsed51RM/ворота-wQ_xygTUGclthABIX8Vkq82p3MQlqkOY.jpg"
+        },
+        {
+            "name": "Фонтан Три лотоса в Элисте",
+            "latitude": 46.30807917103319,
+            "longitude": 44.269644436161464,
+            "photoUrl": "https://traland.ru/wp-content/uploads/2022/05/fontan-tri-lotosa.jpg"
+        },
+        {
+            "name": "Площадь Ленина (Центральная площадь Элисты)",
+            "latitude": 46.30820792015633,
+            "longitude": 44.2697286287801,
+            "photoUrl": "https://i.ytimg.com/vi/jIcduYZ7J6s/maxresdefault.jpg"
+        },
+        {
+            "name": "Заповедник «Золотые горки»",
+            "latitude": 47.441969,
+            "longitude": 40.390649,
+            "photoUrl": "https://avatars.mds.yandex.net/get-altay/1359533/2a00000186082d4c77e58974c5804d63b802/orig"
+        },
+        {
+            "name": "Озеро Маныч-Гудило",
+            "latitude": 46.297787,
+            "longitude": 42.840934,
+            "photoUrl": "https://storage.yandexcloud.net/storage.yasno.media/nat-geo/images/2019/10/21/a07a9d812c2a4fc0ac8d079b5ebb4300.max-1200x800.jpg"
+        },
+        {
+            "name": "Длинный Каньон или озеро Эльдорадо",
+            "latitude": 48.229026,
+            "longitude": 40.349915,
+            "photoUrl": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663456453_2-mykaleidoscope-ru-p-kanon-eldorado-kamensk-shakhtinskii-pinter-2.jpg"
+        },
+        {
+            "name": "Природный парк Цимлянские пески",
+            "latitude": 48.169465,
+            "longitude": 42.676384,
+            "photoUrl": "https://lovi-fish.ru/wp-content/uploads/8/d/e/8dee3eb3bce372deb26a6a8629f96f03.jpeg"
+        },
+        {
+            "name": "Гинкго Парк",
+            "latitude": 47.401337,
+            "longitude": 40.071135,
+            "photoUrl": "https://www.vladmuz.ru/travel_photos/novocherkassk/tolokonnikov-garden/42.jpg"
+        },
+        {
+            "name": "Парк «Малинки»",
+            "latitude": 47.745672,
+            "longitude": 40.088963,
+            "photoUrl": "https://avatars.mds.yandex.net/get-altay/5254019/2a0000017bd5396d7d7b970c6bc4458193a2/XXL"
+        },
+        {
+            "name": "Маяк в Мержаново",
+            "latitude": 47.287558,
+            "longitude": 39.155729,
+            "photoUrl": "https://veterperemen.org.ru/wp-content/uploads/2022/05/1979585a152d4a93c3d9ca0ac741d8fc.jpg"
+        },
+        {
+            "name": "Стадион «Ростов Арена»",
+            "latitude": 47.208879432730534,
+            "longitude": 39.73780722652296,
+            "photoUrl": "https://smartal.ru/wp-content/uploads/2022/01/rostov-arena.jpeg"
+        },
+		{
+        "name": "Парк Левобережный",
+        "latitude": 47.211698449525535,
+        "longitude": 39.73806833519364,
+        "photoUrl": "https://rostov-gorod.ru/upload/iblock/724/72437f1fe5bd7b0bc69b930433e8f335.jpg"
+    },
+    {
+        "name": "Парк имени Октябрьской революции в Ростове-на-Дону",
+        "latitude": 47.22994272766011,
+        "longitude": 39.745359426523606,
+        "photoUrl": "https://irecommend.ru/sites/default/files/imagecache/copyright1/user-images/1388923/ZUxgCIBMUYema4p8TqBJTw.jpg"
+    },
+    {
+        "name": "Таганрогская лестница и Таганрогская набережная",
+        "latitude": 47.21302494111746,
+        "longitude": 38.93832466708185,
+        "photoUrl": "https://photobooth.cdn.sports.ru/preset/post/c/7e/57b2897104e93b25120d84745ef1f.jpeg"
+    },
+    {
+        "name": "Пустыня Большие Буруны",
+        "latitude": 49.881236671489084,
+        "longitude": 41.42081705547627,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/1550999/pub_64c00a0bde44a606de6b66e4_64c00bdbb3fcce7e95c7408a/scale_1200"
+    },
+    {
+        "name": "Щепкинский лес",
+        "latitude": 47.33513456772683,
+        "longitude": 39.747519904850115,
+        "photoUrl": "https://sun6-20.userapi.com/impg/Pfmz6EFKzYyXdB2kstjT2ysbqa90ZCue3DPdvw/EHUIU1Y671E.jpg?size=1280x853&quality=96&sign=55993b3d826f490e6378ab152f5b5a91&c_uniq_tag=mZNExoiJp10KF909wNOh7_evJQTTLduAnRiC0EJtzbE&type=album"
+    },
+    {
+        "name": "Беглицкая коса",
+        "latitude": 47.14001738873631,
+        "longitude": 38.491878752382576,
+        "photoUrl": "https://pp.userapi.com/c837521/v837521922/2eb0/XjF3wykBXNU.jpg"
+    },
+    {
+        "name": "Парк Галицкого",
+        "latitude": 45.03591695447462,
+        "longitude": 38.975022178564565,
+        "photoUrl": "https://u-f.ru/sites/default/files/thepark.jpg"
+    },
+    {
+        "name": "Национальный парк и Дендрарий в Сочи",
+        "latitude": 43.56840007110633,
+        "longitude": 39.74197483801169,
+        "photoUrl": "https://sportishka.com/uploads/posts/2022-04/1650520771_2-sportishka-com-p-dostoprimechatelnosti-sochi-dendrarii-kras-2.jpg"
+    },
+    {
+        "name": "Сафари Парк в Геленджике",
+        "latitude": 44.584945595487355,
+        "longitude": 38.07344019028422,
+        "photoUrl": "https://turisticum.ru/img/gelen/safari/50.jpg"
+    },
+    {
+        "name": "Бугазская коса",
+        "latitude": 45.08853798135695,
+        "longitude": 36.959272586908384,
+        "photoUrl": "https://sportishka.com/uploads/posts/2023-12/1701945149_sportishka-com-p-chernoe-more-bugazskaya-kosa-instagram-48.jpg"
+    },
+    {
+        "name": "Санаторий Мацеста",
+        "latitude": 43.557960641105645,
+        "longitude": 39.79762791347974,
+        "photoUrl": "https://guidepointer.ru/wp-content/uploads/2022/07/00004-balneologicheskij-kurort-maczesta.webp"
+    },
+    {
+        "name": "Ущелье Волчьи ворота",
+        "latitude": 44.20715369903901,
+        "longitude": 39.70484565893563,
+        "photoUrl": "https://sun9-86.userapi.com/impf/c840220/v840220452/8467/PERbmUDMYpo.jpg?size=2560x1707&quality=96&sign=4725049d2dacb1cbfdb6d2eaec90c4de&c_uniq_tag=vl4pzz78VjQW6NUY9rruI4Rhu22xUmbS_rBveWrNZqE&type=album"
+    },
+    {
+        "name": "Ахштырская пещера",
+        "latitude": 43.52007142280944,
+        "longitude": 39.995994528220415,
+        "photoUrl": "https://tripplanet.ru/wp-content/uploads/europe/russia/sochi/akhshtyrskaya-cave.jpg"
+    },
+    {
+        "name": "Долина лотосов",
+        "latitude": 45.317114418532185,
+        "longitude": 37.24485143075105,
+        "photoUrl": "https://avatars.mds.yandex.net/get-altay/4437253/2a0000017a951584143835ed23751cbd4ee7/XXXL"
+    },
+    {
+        "name": "Природный парк и гора Большой Тхач",
+        "latitude": 44.604348,
+        "longitude": 40.117735,
+        "photoUrl": "https://photocentra.ru/images/main66/662953_main.jpg"
+    },
+    {
+        "name": "Кавказский биосферный заповедник",
+        "latitude": 44.605289,
+        "longitude": 40.111760,
+        "photoUrl": "http://topmesta.ru/wp-content/uploads/dostoprimechatelnosti-krasnodarskogo-kraja-17-1.jpg"
+    },
+    {
+        "name": "Большая Азишская пещера",
+        "latitude": 44.134180,
+        "longitude": 40.034123,
+        "photoUrl": "https://priroda.club/uploads/posts/2022-06/1655764903_1-priroda-club-p-lagonaki-azishskaya-peshchera-priroda-kras-1.jpg"
+    },
+    {
+        "name": "Родник Бортха в Элисте",
+        "latitude": 46.30721146602394,
+        "longitude": 44.26153421314701,
+        "photoUrl": "https://nashaplaneta.net/europe/russia/images/rodnik-bortha.jpg"
+    },
+    {
+        "name": "Адыгейский термальный источник Кедровый бор",
+        "latitude": 44.494571,
+        "longitude": 40.142245,
+        "photoUrl": "https://img.tourister.ru/files/2/4/4/4/5/6/1/5/original.jpg"
+    },
+	{
+        "name": "Озеро Псенодах",
+        "latitude": 44.010292,
+        "longitude": 39.900212,
+        "photoUrl": "https://pibig.info/uploads/posts/2021-06/1622543291_2-pibig_info-p-ozero-psenodakh-priroda-krasivo-foto-2.jpg"
+    },
+    {
+        "name": "Заповедник Черные земли",
+        "latitude": 45.95461830021043,
+        "longitude": 46.1426053441949,
+        "photoUrl": "https://korona-severa.ru/wp-content/uploads/a/3/b/a3b99f5a1c4e4db6c6bc7a27dd4e521d.jpeg"
+    },
+    {
+        "name": "Озеро Маныч-Гудило",
+        "latitude": 46.336899121179684,
+        "longitude": 42.79970149172716,
+        "photoUrl": "https://korona-severa.ru/wp-content/uploads/e/a/6/ea64da6a4d17c7b87007340a42f21716.jpeg"
+    },
+    {
+        "name": "Михайло-Афонская Закубанская пустынь",
+        "latitude": 44.290745,
+        "longitude": 40.318429,
+        "photoUrl": "https://dostoprimechatelnosti-rus.ru/assets/images/evropa/rossiya2/majkop/mihajlo-afonskaya-zakubanskaya-pustyn.jpg"
+    },
+    {
+        "name": "Пшехский водопад",
+        "latitude": 43.979195,
+        "longitude": 39.881624,
+        "photoUrl": "https://kukarta.ru/wp-content/uploads/2014/06/MG_3033.jpg"
+    },
+    {
+        "name": "Долина аммонитов",
+        "latitude": 44.361429,
+        "longitude": 40.194806,
+        "photoUrl": "https://avatars.mds.yandex.net/get-altay/1630630/2a0000016e2a912a48e759543651e79f1770/XXL"
+    },
+    {
+        "name": "Гранитный каньон",
+        "latitude": 44.162275,
+        "longitude": 40.136168,
+        "photoUrl": "https://sportishka.com/uploads/posts/2023-12/1702113629_sportishka-com-p-granitnii-kanon-guzeripl-krasivo-1.jpg"
+    },
+    {
+        "name": "Яворова поляна",
+        "latitude": 44.013737,
+        "longitude": 39.994671,
+        "photoUrl": "http://tripplanet.ru/wp-content/uploads/europe/russia/adygea/yavorova-polyana.jpg"
+    },
+    {
+        "name": "Пещера Нежная",
+        "latitude": 44.162967,
+        "longitude": 40.065846,
+        "photoUrl": "https://s9.stc.all.kpcdn.net/russia/wp-content/uploads/2023/09/peshhery-adygei-nezhnaya.jpg"
+    },
+    {
+        "name": "Казачий камень",
+        "latitude": 44.300206,
+        "longitude": 40.203349,
+        "photoUrl": "https://www.dostoprimechatelnosti-rus.ru/assets/images/rossiya1/adygeya/kazachij-kamen.jpg"
+    },
+    {
+        "name": "Ущелье реки Мишоко",
+        "latitude": 44.269318,
+        "longitude": 40.228019,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/1668923/pub_5d52d5afecfb8000ac289ffb_5d52e583e854a971af21f5e7/scale_1200"
+    },
+    {
+        "name": "Богатырская поляна",
+        "latitude": 44.596429,
+        "longitude": 40.043901,
+        "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/3473288/pub_5f07d45d00bdd11432fc28ce_5f07e2bc64586372b068d4d5/scale_1200"
+    },
+    {
+        "name": "Дендрарий в поселке Гончарка",
+        "latitude": 44.807863,
+        "longitude": 39.947823,
+        "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Дендропарк%2C_Гончарка.jpg"
+    },
+    {
+        "name": "Каньон реки Цица",
+        "latitude": 44.104179,
+        "longitude": 39.885747,
+        "photoUrl": "http://ic.pics.livejournal.com/vitaliverba/71027496/918391/918391_900.jpg"
+    },
+    {
+        "name": "Озеро Провал",
+        "latitude": 44.047007,
+        "longitude": 43.098720,
+        "photoUrl": "https://korona-severa.ru/wp-content/uploads/5/7/0/570097644bfc7eb261bf0c3daefe804c.jpeg"
+    },
+    {
+        "name": "Кисловодский национальный парк",
+        "latitude": 43.371271,
+        "longitude": 42.592806,
+        "photoUrl": "https://sportishka.com/uploads/posts/2022-04/thumbs/1650550282_19-sportishka-com-p-kislovodskii-natsionalnii-park-krasivo-fot-20.jpg"
+    },
+    {
+        "name": "Озеро Тамбукан",
+        "latitude": 43.963584,
+        "longitude": 43.160612,
+        "photoUrl": "http://i2.wp.com/mundo.pro/sites/default/files/location/photos/kmv-region19.jpg"
+    },
+    {
+        "name": "Пятигорская канатная дорога",
+        "latitude": 44.047674,
+        "longitude": 43.084915,
+        "photoUrl": "https://extraguide.ru/images/blog/2021/02-04-59r4sx-pyatigorskaya-kanatnaya-doroga.jpeg"
     }
 ]
