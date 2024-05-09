@@ -1,7 +1,9 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:flutter_map/flutter_map.dart';
+import 'package:flutter_map/flutter_map.dart' as fm;
 import 'package:latlong2/latlong.dart';
+import 'package:latlong2/latlong.dart' as ll;
 
 import 'backend.dart';
 
@@ -278,7 +280,7 @@ Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) as
 
   }*/
 
-Future<List<Marker>> _getMuseumMarkers(BuildContext context) async {
+Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/museum_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
@@ -288,9 +290,12 @@ Future<List<Marker>> _getMuseumMarkers(BuildContext context) async {
       final point = MuseumPoint.fromJson(pointsData[i]);
       point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 40.0,
+          height: 40.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -354,19 +359,22 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 */
 
 
-Future<List<Marker>> _getParkMarkers(BuildContext context) async {
+Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/park_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
-    List<Marker> markers = [];
+    List<fm.Marker> markers = [];
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = ParkPoint.fromJson(pointsData[i]);
       point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 40.0,
+          height: 40.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -391,19 +399,22 @@ Future<List<Marker>> _getParkMarkers(BuildContext context) async {
   }
 }
 
-Future<List<Marker>> _getOutsideMarkers(BuildContext context) async {
+Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
-    List<Marker> markers = [];
+    List<fm.Marker> markers = [];
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = OutsidePoint.fromJson(pointsData[i]);
       point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 40.0,
+          height: 40.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -428,20 +439,23 @@ Future<List<Marker>> _getOutsideMarkers(BuildContext context) async {
   }
 }
 
-Future<List<Marker>> _getHotelMarkers(BuildContext context) async {
+Future<List<fm.Marker>> _getHotelMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/hotels.json');
     final Map<String, dynamic> jsonData = json.decode(jsonString);
     final List<dynamic> pointsData = jsonData['elements'];
-    List<Marker> markers = [];
+    List<fm.Marker> markers = [];
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = HotelPoint.fromJson(pointsData[i]);
       //point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 40.0,
+          height: 40.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,

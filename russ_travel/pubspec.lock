@@ -17,6 +17,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.2.0"
+  animated_stack_widget:
+    dependency: transitive
+    description:
+      name: animated_stack_widget
+      sha256: ce4788dd158768c9d4388354b6fb72600b78e041a37afc4c279c63ecafcb9408
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.4"
   archive:
     dependency: transitive
     description:
@@ -250,10 +258,26 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_map
-      sha256: cda8d72135b697f519287258b5294a57ce2f2a5ebf234f0e406aad4dc14c9399
+      sha256: "5286f72f87deb132daa1489442d6cc46e986fc105cb727d9ae1b602b35b1d1f3"
       url: "https://pub.dev"
     source: hosted
-    version: "6.1.0"
+    version: "5.0.0"
+  flutter_map_marker_popup:
+    dependency: transitive
+    description:
+      name: flutter_map_marker_popup
+      sha256: be209c68b19d4c10d9a2f5911e45f7c579624c43a353adb9bf0f2fec0cf30b8c
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.2.0"
+  flutter_map_supercluster:
+    dependency: "direct main"
+    description:
+      name: flutter_map_supercluster
+      sha256: "1b5526c7f93750214067541752331d501ef70d646f7e15d1d3299be84fa2c1f8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.3.0"
   flutter_native_splash:
     dependency: "direct main"
     description:
@@ -288,6 +312,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: c3fd9336eb55a38cc1bbd79ab17573113a8deccd0ecbbf926cca3c62803b5c2d
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.1"
   frontend_server_client:
     dependency: transitive
     description:
@@ -308,10 +340,10 @@ packages:
     dependency: transitive
     description:
       name: geolocator_android
-      sha256: "06e37fa32392f69f133e166ef6b358a8b6afddbf4c418fc236988184cc115a49"
+      sha256: "93906636752ea4d4e778afa981fdfe7409f545b3147046300df194330044d349"
       url: "https://pub.dev"
     source: hosted
-    version: "4.4.1"
+    version: "4.3.1"
   geolocator_apple:
     dependency: transitive
     description:
@@ -456,6 +488,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.8.1"
+  kdbush:
+    dependency: transitive
+    description:
+      name: kdbush
+      sha256: f48295414e5d6b28f49f3b446ecc2900f578ed700af53e68829777b8b253fb62
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.5"
   latlong2:
     dependency: "direct main"
     description:
@@ -472,14 +512,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
-  logger:
-    dependency: transitive
-    description:
-      name: logger
-      sha256: b3ff55aeb08d9d8901b767650285872cb1bb8f508373b3e348d60268b0c7f770
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   logging:
     dependency: transitive
     description:
@@ -528,6 +560,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  nested:
+    dependency: transitive
+    description:
+      name: nested
+      sha256: "03bac4c528c64c95c722ec99280375a6f2fc708eec17c7b3f07253b626cd2a20"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.0"
   package_config:
     dependency: transitive
     description:
@@ -688,6 +728,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  provider:
+    dependency: transitive
+    description:
+      name: provider
+      sha256: c8a055ee5ce3fd98d6fc872478b03823ffdb448699c6ebdbbc71d59b596fd48c
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.1.2"
   pub_semver:
     dependency: transitive
     description:
@@ -704,6 +752,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.3"
+  rbush:
+    dependency: transitive
+    description:
+      name: rbush
+      sha256: "48b683421b4afb43a642f82c6aa31911e54f3069143d31c7d33cbe329df13403"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   shelf:
     dependency: transitive
     description:
@@ -749,14 +805,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
-  sprintf:
-    dependency: transitive
-    description:
-      name: sprintf
-      sha256: "1fc9ffe69d4df602376b52949af107d8f5703b77cda567c4d7d86a0693120f23"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.0"
   stack_trace:
     dependency: transitive
     description:
@@ -789,6 +837,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.0"
+  supercluster:
+    dependency: transitive
+    description:
+      name: supercluster
+      sha256: b956072ae2e5f9430c227a0b6a5863b261abd6eb7488411c042bd620a203aab9
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.4.0"
   term_glyph:
     dependency: transitive
     description:
@@ -905,10 +961,10 @@ packages:
     dependency: transitive
     description:
       name: uuid
-      sha256: "22c94e5ad1e75f9934b766b53c742572ee2677c56bc871d850a57dad0f82127f"
+      sha256: "648e103079f7c64a36dc7d39369cabb358d377078a051d6ae2ad3aa539519313"
       url: "https://pub.dev"
     source: hosted
-    version: "4.2.2"
+    version: "3.0.7"
   vector_math:
     dependency: transitive
     description:
