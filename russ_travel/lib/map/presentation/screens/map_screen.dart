@@ -307,8 +307,8 @@ Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
       markers.add(
         fm.Marker(
           anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
-          width: 40.0,
-          height: 40.0,
+          width: 30.0,
+          height: 30.0,
           point: ll.LatLng(point.latitude, point.longitude),
           builder: (BuildContext context) => GestureDetector(
             onTap: () {
@@ -386,8 +386,8 @@ Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
       markers.add(
         fm.Marker(
           anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
-          width: 40.0,
-          height: 40.0,
+          width: 30.0,
+          height: 30.0,
           point: ll.LatLng(point.latitude, point.longitude),
           builder: (BuildContext context) => GestureDetector(
             onTap: () {
@@ -426,8 +426,8 @@ Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
       markers.add(
         fm.Marker(
           anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
-          width: 40.0,
-          height: 40.0,
+          width: 30.0,
+          height: 30.0,
           point: ll.LatLng(point.latitude, point.longitude),
           builder: (BuildContext context) => GestureDetector(
             onTap: () {
@@ -467,8 +467,8 @@ Future<List<fm.Marker>> _getHotelMarkers(BuildContext context) async {
       markers.add(
         fm.Marker(
           anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
-          width: 40.0,
-          height: 40.0,
+          width: 30.0,
+          height: 30.0,
           point: ll.LatLng(point.latitude, point.longitude),
           builder: (BuildContext context) => GestureDetector(
             onTap: () {
@@ -480,8 +480,8 @@ Future<List<fm.Marker>> _getHotelMarkers(BuildContext context) async {
               );
             },
             child: Container(
-              width: 40.0,
-              height: 40.0,
+              width: 20.0,
+              height: 20.0,
               child: Image.asset('assets/bed_test.png'),
             ),
           ),
