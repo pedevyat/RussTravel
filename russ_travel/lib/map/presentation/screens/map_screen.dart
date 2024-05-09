@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/flutter_map.dart' as fm;
+import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:latlong2/latlong.dart' as ll;
 
@@ -130,8 +131,22 @@ class _MapScreenState extends State<MapScreen> {
                   urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                   subdomains: ['a', 'b', 'c'],
                 ),
-                MarkerLayer(
-                  markers: snapshot.data!, // Используем полученные маркеры
+                SuperclusterLayer.immutable( // Replaces MarkerLayer
+                  initialMarkers: snapshot.data!,
+                  indexBuilder: IndexBuilders.rootIsolate,
+                  builder: (context, position, markerCount, extraClusterData) =>
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20.0),
+                          color: Colors.purple,
+                        ),
+                        child: Center(
+                          child: Text(
+                            markerCount.toString(),
+                            style: const TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),
                 ),
               ],
             );
