@@ -21,6 +21,7 @@ import 'package:russ_travel/articles/regions/ural/Hanti-Mansiiskii.dart';
 import 'package:russ_travel/articles/regions/ural/Kurganskaya.dart';
 import 'package:russ_travel/articles/regions/ural/Sverdlovskaya.dart';
 import 'package:russ_travel/articles/regions/ural/Tumenskaya.dart';
+import 'package:russ_travel/articles/regions/ural/Yamalo-neneckii.dart';
 import '../regions/center/bryansk.dart';
 import '../regions/center/kaluga.dart';
 import '../regions/center/oryol.dart';
@@ -87,6 +88,22 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Курганская область", content: Kurganskaya()),
     Article(title: "Ханты-Мансийский АО", content: Hanti_Mansiiskii()),
     Article(title: "Челябинская область", content: Chelyabinskaya()),
+    
+    Article(title: "Республика Башкортостан", content: bashkortorstan()),
+    Article(title: "Республика Чувашия", content: Chyvashiya()),
+    Article(title: "Кировская область", content: Kirovskaya()),
+    Article(title: "Республика Марий Эл", content: Marii_el()),
+    Article(title: "Республика Мордовия", content: Mordoviya()),
+    Article(title: "Нижегородская область", content: Nizhegorodskaya()),
+    Article(title: "Оренбургская область", content: Orenburgskaya()),
+    Article(title: "Пензенская область", content: Penzenskaya()),
+    Article(title: "Пермский край", content: Permskii()),
+    Article(title: "Самарская область", content: Samarskaya()),
+    Article(title: "Саратовская область", content: Saratovskaya()),
+    Article(title: "Республика Татарстан", content: Tatarstan()),
+    Article(title: "Республика Удмуртия", content: Ydmurtiya()),
+    Article(title: "Ульяновская область", content: Ylyanovskaya()),
+     
   ];
 
   List<Article> _filteredArticles = [];
