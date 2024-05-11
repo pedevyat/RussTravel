@@ -12230,287 +12230,345 @@
       }
     },
 
+    // Омская область
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9539,
-        "lon": 73.3802,
-        "tags": {
-            "name": "Космос",
-            "tourism": "hotel"
-        }
-    },
-    {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9973564147949,
-        "lon": 73.3747863769531,
-        "tags": {
-            "name": "Рабисон",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9539,
+      "lon": 73.3802,
+      "tags": {
+        "name": "Космос",
+        "website": "https://travel.yandex.ru/hotels/omsk/cosmos-omsk-hotel/",
+        "begin_price": "1400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.0092,
-        "lon": 73.3381,
-        "tags": {
-            "name": "Глория",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9973564147949,
+      "lon": 73.3747863769531,
+      "tags": {
+        "name": "Рабисон",
+        "website": "https://travel.yandex.ru/hotels/omsk/rabison/",
+        "begin_price": "1640",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.047074,
-        "lon": 74.567843,
-        "tags": {
-            "name": "Отель Д&А",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.0092,
+      "lon": 73.3381,
+      "tags": {
+        "name": "Глория",
+        "website": "https://gloria-hotel-omsk.ru/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.003823,
-        "lon": 73.364394,
-        "tags": {
-            "name": "Гrban",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.047074,
+      "lon": 74.567843,
+      "tags": {
+        "name": "Отель Д&А",
+        "website": "https://www.tur-hotel.ru/hotels/russia/omsk-region/kalachinsk/otel-da/",
+        "begin_price": "2663",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.00424,
-        "lon": 73.37218,
-        "tags": {
-            "name": "Нова",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.003823,
+      "lon": 73.364394,
+      "tags": {
+        "name": "Urban",
+        "website": "https://hotelurban.ru/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.0012,
-        "lon": 73.3532,
-        "tags": {
-            "name": "Гостиница авеню",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.00424,
+      "lon": 73.37218,
+      "tags": {
+        "name": "Нова",
+        "website": "https://nova-apart.ru/",
+        "begin_price": "3515",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9414,
-        "lon": 73.3828,
-        "tags": {
-            "name": "Миллениум",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.0012,
+      "lon": 73.3532,
+      "tags": {
+        "name": "Гостиница авеню",
+        "website": "https://avenueomsk.ru/?sa=X&ved=2ahUKEwi2kr-5ndGFAxVzY5EFHaOyDKsQyK4DegUIAxCgAg",
+        "begin_price": "3050",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9982,
-        "lon": 73.3771,
-        "tags": {
-            "name": "Hi Loft",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9414,
+      "lon": 73.3828,
+      "tags": {
+        "name": "Миллениум",
+        "website": "https://55hotel.ru/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.970695,
-        "lon": 73.390587,
-        "tags": {
-            "name": "Жуков Отель",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9982,
+      "lon": 73.3771,
+      "tags": {
+        "name": "Hi Loft",
+        "website": "https://tvil.ru/city/omsk/hotels/1056169/",
+        "begin_price": "2900",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9512,
-        "lon": 73.3482,
-        "tags": {
-            "name": "Отель 41",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.970695,
+      "lon": 73.390587,
+      "tags": {
+        "name": "Жуков Отель",
+        "website": "https://ostrovok.ru/hotel/russia/omsk/mid6386571/zhukov_otel/",
+        "begin_price": "3990",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9432,
-        "lon": 73.3528,
-        "tags": {
-            "name": "Аврора",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9512,
+      "lon": 73.3482,
+      "tags": {
+        "name": "Отель 41",
+        "website": "https://otel41.ru/",
+        "begin_price": "3540",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.03091,
-        "lon": 73.27721,
-        "tags": {
-            "name": "Подкова Омск",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9432,
+      "lon": 73.3528,
+      "tags": {
+        "name": "Аврора",
+        "website": "https://avrorahotel55.ru/?sa=X&ved=2ahUKEwilxdetybCFAxVhSZEFHQa3Cz4QyK4DegUIAxDzAg",
+        "begin_price": "2160",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9701,
-        "lon": 73.4105,
-        "tags": {
-            "name": "Ля мезон",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.03091,
+      "lon": 73.27721,
+      "tags": {
+        "name": "Подкова Омск",
+        "website": "https://hotel-podkova.ru/",
+        "begin_price": "3660",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9796,
-        "lon": 73.3735,
-        "tags": {
-            "name": "Турист",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9701,
+      "lon": 73.4105,
+      "tags": {
+        "name": "Ля мезон",
+        "website": "https://travel.yandex.ru/hotels/omsk/lia-mezon/",
+        "begin_price": "1700",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.0619430541992,
-        "lon": 73.2526397705078,
-        "tags": {
-            "name": "Подкова Омск на проспекте Губкина",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9796,
+      "lon": 73.3735,
+      "tags": {
+        "name": "Турист",
+        "website": "https://tourist-omsk.ru/",
+        "begin_price": "2677",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.007973,
-        "lon": 73.338268,
-        "tags": {
-            "name": "Спутник",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.0619430541992,
+      "lon": 73.2526397705078,
+      "tags": {
+        "name": "Подкова Омск на проспекте Губкина",
+        "website": "https://www.booking.com/hotel/ru/podkova-na-prospekte-gubkina.ru.html",
+        "begin_price": "3260",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.99949,
-        "lon": 73.375273,
-        "tags": {
-            "name": "На Октябрьской",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.007973,
+      "lon": 73.338268,
+      "tags": {
+        "name": "Спутник",
+        "website": "http://hotel-sputnik.ru/",
+        "begin_price": "3300",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9811,
-        "lon": 73.3718,
-        "tags": {
-            "name": "Гостиница «Маяк» - корпус «Омь»",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.99949,
+      "lon": 73.375273,
+      "tags": {
+        "name": "На Октябрьской",
+        "website": "https://www.booking.com/hotel/ru/na-oktiabr-skoi-omsk.ru.html",
+        "begin_price": "2940",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.933386,
-        "lon": 73.381513,
-        "tags": {
-            "name": "40 подушек",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9811,
+      "lon": 73.3718,
+      "tags": {
+        "name": "Гостиница «Маяк» - корпус «Омь»",
+        "website": "https://www.booking.com/hotel/ru/mayak-building-quot-om-quot.ru.html",
+        "begin_price": "3150",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 56.017519844147,
-        "lon": 71.54250259916,
-        "tags": {
-            "name": "Жемчужина ика",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.933386,
+      "lon": 73.381513,
+      "tags": {
+        "name": "40 подушек",
+        "website": "https://40pillows.ru/",
+        "begin_price": "950",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.982185,
-        "lon": 73.395704,
-        "tags": {
-            "name": "Cronwell Ника-Центр",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 56.017519844147,
+      "lon": 71.54250259916,
+      "tags": {
+        "name": "Жемчужина ика",
+        "website": "https://zhemchuzhina-ika.clients.site/",
+        "begin_price": "1800",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.0358,
-        "lon": 73.2584,
-        "tags": {
-            "name": "Нора",
-            "tourism": "hotel"
-        }
-    },
-	{
-        "type": "node",
-        "id": -1,
-        "lat": 54.9985,
-        "lon": 73.2873,
-        "tags": {
-            "name": "Mini hotel filin",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.982185,
+      "lon": 73.395704,
+      "tags": {
+        "name": "Cronwell Ника-Центр",
+        "website": "https://travel.yandex.ru/hotels/omsk/cronwell-nika-tsentr/",
+        "begin_price": "2700",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9757,
-        "lon": 73.4193,
-        "tags": {
-            "name": "Отель Lucky",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.0358,
+      "lon": 73.2584,
+      "tags": {
+        "name": "Нора",
+        "website": "https://travel.yandex.ru/hotels/omsk/nora/",
+        "begin_price": "1200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.987062,
-        "lon": 73.384345,
-        "tags": {
-            "name": "Хостел Пушкинъ",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9985,
+      "lon": 73.2873,
+      "tags": {
+        "name": "Mini hotel filin",
+        "website": "https://101hotels.com/main/cities/omsk/mini-hotel_filin.html",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.025503,
-        "lon": 73.377033,
-        "tags": {
-            "name": "Отель 50 60 Омск",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9757,
+      "lon": 73.4193,
+      "tags": {
+        "name": "Отель Lucky",
+        "website": "https://hotellucky.ru/",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.230521,
-        "lon": 72.900068,
-        "tags": {
-            "name": "Курилотрансавто",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.987062,
+      "lon": 73.384345,
+      "tags": {
+        "name": "Хостел Пушкинъ",
+        "website": "https://travel.yandex.ru/hotels/omsk/pushkin/",
+        "begin_price": "1400",
+        "tourism": "hotel"
+      }
     },
-	{
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.025503,
+      "lon": 73.377033,
+      "tags": {
+        "name": "Отель 50 60 Омск",
+        "website": "https://hotel5060.ru/ru/glavnaya",
+        "begin_price": "4200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.230521,
+      "lon": 72.900068,
+      "tags": {
+        "name": "Курилотрансавто",
+        "website": "https://zoon.ru/omsk/hotels/gostinitsa_kurilotransavto/",
+        "begin_price": "2200",
+        "tourism": "hotel"
+      }
+    },
+
+    {
         "type": "node",
         "id": -1,
         "lat": 51.75712,
