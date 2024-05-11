@@ -12568,277 +12568,333 @@
       }
     },
 
+    // республика Алтай
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.75712,
-        "lon": 85.727812,
-        "tags": {
-            "name": "Pinewood resort spa",
-            "tourism": "hotel"
-        }
-    },
-    {
-        "type": "node",
-        "id": -1,
-        "lat": 51.758922,
-        "lon": 85.720941,
-        "tags": {
-            "name": "Podgoritsa",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.75712,
+      "lon": 85.727812,
+      "tags": {
+        "name": "Pinewood resort spa",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/pinewood-resort-spa/",
+        "begin_price": "7700",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 50.299284,
-        "lon": 86.70248,
-        "tags": {
-            "name": "Saykol Inegen Glamping",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.758922,
+      "lon": 85.720941,
+      "tags": {
+        "name": "Podgoritsa",
+        "website": "https://travel.yandex.ru/hotels/altai-krai/altai-park-otel-podgoritsa/",
+        "begin_price": "9600",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.6247406005859,
-        "lon": 85.6772918701172,
-        "tags": {
-            "name": "Holiday park Mikhailovo",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 50.299284,
+      "lon": 86.70248,
+      "tags": {
+        "name": "Saykol Inegen Glamping",
+        "website": "https://saikolglamping.ru/inegen.html?hotel_id=16044",
+        "begin_price": "6300",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 50.812457752315,
-        "lon": 85.942303612771,
-        "tags": {
-            "name": "Мини-отель Gorny",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.6247406005859,
+      "lon": 85.6772918701172,
+      "tags": {
+        "name": "Holiday park Mikhailovo",
+        "website": "https://ostrovok.ru/hotel/russia/kamlak/mid10287844/holiday_park_mikhailovo_2/",
+        "begin_price": "10277",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 50.251076,
-        "lon": 87.887047,
-        "tags": {
-            "name": "Saykol Kuray glamping",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 50.812457752315,
+      "lon": 85.942303612771,
+      "tags": {
+        "name": "Мини-отель Gorny",
+        "website": "https://travel.yandex.ru/hotels/gorno-altaysk/mini-otel-gornyi/",
+        "begin_price": "2500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 50.2619,
-        "lon": 85.9598,
-        "tags": {
-            "name": "Гостевой дом Белуха Чендек",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 50.251076,
+      "lon": 87.887047,
+      "tags": {
+        "name": "Saykol Kuray glamping",
+        "website": "https://www.alean.ru/rossiya/altaj/gornyj_altaj/sajkol_glemping_kuraj_kemping/",
+        "begin_price": "3700",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 85.992095,
-        "lon": 50.181889,
-        "tags": {
-            "name": "Медуница",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 50.2619,
+      "lon": 85.9598,
+      "tags": {
+        "name": "Гостевой дом Белуха Чендек",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/turisticheskii-kompleks-gostevoi-dom-portalbelukha-chendek/",
+        "begin_price": "3000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.682045,
-        "lon": 85.78001,
-        "tags": {
-            "name": "Царская охота",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 85.992095,
+      "lon": 50.181889,
+      "tags": {
+        "name": "Медуница",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/medunitsa/",
+        "begin_price": "2500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.672912545546,
-        "lon": 85.776394062296,
-        "tags": {
-            "name": "Скала",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.682045,
+      "lon": 85.78001,
+      "tags": {
+        "name": "Царская охота",
+        "website": "https://ohotka.su/",
+        "begin_price": "22000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.812258,
-        "lon": 85.989048,
-        "tags": {
-            "name": "Эко-отель Алтика",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.672912545546,
+      "lon": 85.776394062296,
+      "tags": {
+        "name": "Скала",
+        "website": "https://hotelskala.ru/",
+        "begin_price": "1000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.097337,
-        "lon": 86.180212,
-        "tags": {
-            "name": "Туристический комплекс Остров",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.812258,
+      "lon": 85.989048,
+      "tags": {
+        "name": "Эко-отель Алтика",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/eko-otel-altika/",
+        "begin_price": "9600",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.8279,
-        "lon": 85.74859,
-        "tags": {
-            "name": "Глэмпинг Август",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.097337,
+      "lon": 86.180212,
+      "tags": {
+        "name": "Туристический комплекс Остров",
+        "website": "https://travel.rzd.ru/hotels/card/turisticheskiy-kompleks-ostrov",
+        "begin_price": "8500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.6269989013672,
-        "lon": 85.679801940918,
-        "tags": {
-            "name": "Отель Деревня Берендеевка",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.8279,
+      "lon": 85.74859,
+      "tags": {
+        "name": "Глэмпинг Август",
+        "website": "https://augustglamping.ru/main",
+        "begin_price": "24000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 50.2979,
-        "lon": 85.3985,
-        "tags": {
-            "name": "Заимка камза",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.6269989013672,
+      "lon": 85.679801940918,
+      "tags": {
+        "name": "Отель Деревня Берендеевка",
+        "website": "https://berend.ru/",
+        "begin_price": "7600",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.969779,
-        "lon": 85.007415,
-        "tags": {
-            "name": "Беркут",
-            "tourism": "hotel"
-        }
-    },
-	 {
-        "type": "node",
-        "id": -1,
-        "lat": 51.980808,
-        "lon": 84.958725,
-        "tags": {
-            "name": "Благодать",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 50.2979,
+      "lon": 85.3985,
+      "tags": {
+        "name": "Заимка камза",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/zaimka-kamza/",
+        "begin_price": "13500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.788309,
-        "lon": 87.321453,
-        "tags": {
-            "name": "Урочище Актра",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.969779,
+      "lon": 85.007415,
+      "tags": {
+        "name": "Беркут",
+        "website": "https://berkut-hotel.ru/",
+        "begin_price": "6000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.787128,
-        "lon": 87.242153,
-        "tags": {
-            "name": "Артыбаш",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.980808,
+      "lon": 84.958725,
+      "tags": {
+        "name": "Благодать",
+        "website": "https://blagodat04-gorny.ru/?yandex-source=desktop-maps",
+        "begin_price": "1200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7934303283691,
-        "lon": 87.3075790405273,
-        "tags": {
-            "name": "Телецкое золотое",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.788309,
+      "lon": 87.321453,
+      "tags": {
+        "name": "Урочище Актра",
+        "website": "https://aktra-hotel.ru/",
+        "begin_price": "10200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7943000793457,
-        "lon": 87.2755126953125,
-        "tags": {
-            "name": "O&K",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.787128,
+      "lon": 87.242153,
+      "tags": {
+        "name": "Артыбаш",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/gostinitsa-artybash/",
+        "begin_price": "3600",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7921658,
-        "lon": 87.3136413,
-        "tags": {
-            "name": "Горное озеро",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.7934303283691,
+      "lon": 87.3075790405273,
+      "tags": {
+        "name": "Телецкое золотое",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/teletskoe-zolotoe/",
+        "begin_price": "10000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7512,
-        "lon": 87.4009,
-        "tags": {
-            "name": "Altay village Teletskoe",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.7943000793457,
+      "lon": 87.2755126953125,
+      "tags": {
+        "name": "O&K",
+        "website": "https://travel.yandex.ru/hotels/altai-republic/o-k/",
+        "begin_price": "4600",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7903060913086,
-        "lon": 87.2487106323242,
-        "tags": {
-            "name": "Green house at Teletskoye lake",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.7921658,
+      "lon": 87.3136413,
+      "tags": {
+        "name": "Горное озеро",
+        "website": "https://gornoe-ozero.com/",
+        "begin_price": "1200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7941551208496,
-        "lon": 87.2968063354492,
-        "tags": {
-            "name": "Turbaza Kedroviy bereg",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.7512,
+      "lon": 87.4009,
+      "tags": {
+        "name": "Altay village Teletskoe",
+        "website": "https://altayvillage.com/",
+        "begin_price": "3620",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.7464637756348,
-        "lon": 87.2941284179688,
-        "tags": {
-            "name": "Глыба",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.7903060913086,
+      "lon": 87.2487106323242,
+      "tags": {
+        "name": "Green house at Teletskoye lake",
+        "website": "https://www.booking.com/hotel/ru/green-house-at-teletskoye-lake.ru.html",
+        "begin_price": "5800",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 51.78713,
-        "lon": 87.24215,
-        "tags": {
-            "name": "Ойер-парк",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 51.7941551208496,
+      "lon": 87.2968063354492,
+      "tags": {
+        "name": "Turbaza Kedroviy bereg",
+        "website": "https://www.booking.com/hotel/ru/turbaza-kiedrovyi-bieriegh.ru.html",
+        "begin_price": "5600",
+        "tourism": "hotel"
+      }
     },
-	{
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.7464637756348,
+      "lon": 87.2941284179688,
+      "tags": {
+        "name": "Глыба",
+        "website": "https://www.teletski.ru/prozhivanieglyba",
+        "begin_price": "5000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.78713,
+      "lon": 87.24215,
+      "tags": {
+        "name": "Ойер-парк",
+        "website": "https://altay-oyer.ru/",
+        "begin_price": "6200",
+        "tourism": "hotel"
+      }
+    },
+
+    {
 "type": "node",
 "id": -2,
 "lat": 52.000325,
