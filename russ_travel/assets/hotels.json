@@ -10319,236 +10319,285 @@
 
 
 
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.299458,
-  "lon": 32.097504,
-  "tags": {
-    "name": "Вегарус",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.6708,
-  "lon": 36.3594,
-  "tags": {
-    "name": "Nigizhma house",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.211089,
-  "lon": 34.080812,
-  "tags": {
-    "name": "Чуньки",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.030796857671,
-  "lon": 34.14114196556,
-  "tags": {
-    "name": "Верховье",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.929643,
-  "lon": 34.211033,
-  "tags": {
-    "name": "Домик гида",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.251042,
-  "lon": 33.815524,
-  "tags": {
-    "name": "Ranta",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.62902,
-  "lon": 30.57564,
-  "tags": {
-    "name": "Abracadabra",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.759578705,
-  "lon": 34.312427521,
-  "tags": {
-    "name": "Сосновый бор",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 60.557316,
-  "lon": 30.255493,
-  "tags": {
-    "name": "Rauta",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.8691765,
-  "lon": 34.0084469,
-  "tags": {
-    "name": "Шуйский залив",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.8153,
-  "lon": 34.1023,
-  "tags": {
-    "name": "Вилга",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.124958,
-  "lon": 30.754537,
-  "tags": {
-    "name": "Гардарика",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.916736,
-  "lon": 33.375092,
-  "tags": {
-    "name": "Нуозъярви",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.127789,
-  "lon": 34.007791,
-  "tags": {
-    "name": "Остров",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.563068,
-  "lon": 30.377403,
-  "tags": {
-    "name": "Хутор Ярви",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 66.074326,
-  "lon": 33.037871,
-  "tags": {
-    "name": "Северяночка",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 66.073135376,
-  "lon": 33.016448975,
-  "tags": {
-    "name": "Ремстройреконструкция",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 63.415436,
-  "lon": 31.183232,
-  "tags": {
-    "name": "Karelskie Zori",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.181045,
-  "lon": 32.391291,
-  "tags": {
-    "name": "Villa vitele",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.138946,
-  "lon": 32.501542,
-  "tags": {
-    "name": "Видлица",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.180562,
-  "lon": 29.864404,
-  "tags": {
-    "name": "Дом у озера",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 62.002313,
-  "lon": 34.158595,
-  "tags": {
-    "name": "Царевичи",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 61.96936,
-  "lon": 34.23083,
-  "tags": {
-    "name": "Aviaretro",
-    "tourism": "hotel"
-  }
-},
+    // Карелия
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.299458,
+      "lon": 32.097504,
+      "tags": {
+        "name": "Вегарус",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/vegarus/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.6708,
+      "lon": 36.3594,
+      "tags": {
+        "name": "Nigizhma house",
+        "website": "https://www.tur-hotel.ru/hotels/russia/karelia/alekseyevskaya/nigizhma-house/",
+        "begin_price": "3618",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.211089,
+      "lon": 34.080812,
+      "tags": {
+        "name": "Чуньки",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/ekoderevnia-chunki/",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.030796857671,
+      "lon": 34.14114196556,
+      "tags": {
+        "name": "Верховье",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/verkhove/",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.929643,
+      "lon": 34.211033,
+      "tags": {
+        "name": "Домик гида",
+        "website": "https://tropki.ru/rossiya/kareliya/verhove/01046361-domik-gida",
+        "begin_price": "3784",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.251042,
+      "lon": 33.815524,
+      "tags": {
+        "name": "Ranta",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/ranta/",
+        "begin_price": "2460",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.62902,
+      "lon": 30.57564,
+      "tags": {
+        "name": "Abracadabra",
+        "website": "https://abracadabrahotel.ru/",
+        "begin_price": "8420",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.759578705,
+      "lon": 34.312427521,
+      "tags": {
+        "name": "Сосновый бор",
+        "website": "https://travel.yandex.ru/hotels/moscow/sosnovyi-bor/",
+        "begin_price": "7500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 60.557316,
+      "lon": 30.255493,
+      "tags": {
+        "name": "Rauta",
+        "website": "https://rautahotel.ru/",
+        "begin_price": "10500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.8691765,
+      "lon": 34.0084469,
+      "tags": {
+        "name": "Шуйский залив",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/shuiskii-zaliv/",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.8153,
+      "lon": 34.1023,
+      "tags": {
+        "name": "Вилга",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/vilga/",
+        "begin_price": "4484",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.124958,
+      "lon": 30.754537,
+      "tags": {
+        "name": "Гардарика",
+        "website": "https://karelia-gardarika.ru/",
+        "begin_price": "1500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.916736,
+      "lon": 33.375092,
+      "tags": {
+        "name": "Нуозъярви",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/nuoziarvi/",
+        "begin_price": "8000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.127789,
+      "lon": 34.007791,
+      "tags": {
+        "name": "Остров",
+        "website": "https://sortavala-ostrov.ru/",
+        "begin_price": "3825",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.563068,
+      "lon": 30.377403,
+      "tags": {
+        "name": "Хутор Ярви",
+        "website": "https://www.hutorjarvi.ru/",
+        "begin_price": "18000",
+
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 66.074326,
+      "lon": 33.037871,
+      "tags": {
+        "name": "Северяночка",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/severianochka/",
+        "begin_price": "1400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 66.073135376,
+      "lon": 33.016448975,
+      "tags": {
+        "name": "Ремстройреконструкция",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/remstroirekonstruktsiia/",
+        "begin_price": "1500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 63.415436,
+      "lon": 31.183232,
+      "tags": {
+        "name": "Karelskie Zori",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/karelskie-zori/",
+        "begin_price": "8740",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.181045,
+      "lon": 32.391291,
+      "tags": {
+        "name": "Villa vitele",
+        "website": "https://villavitele.ru/",
+        "begin_price": "8250",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.138946,
+      "lon": 32.501542,
+      "tags": {
+        "name": "Видлица",
+        "website": "https://travel.yandex.ru/hotels/republic-of-karelia/tochka-na-karte-vidlitsa/",
+        "begin_price": "3850",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.180562,
+      "lon": 29.864404,
+      "tags": {
+        "name": "Дом у озера",
+        "website": "https://travel.yandex.ru/hotels/sortavala/dom-u-ozera-khiumpelian-iarvi/reviews/",
+        "begin_price": "3750",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 62.002313,
+      "lon": 34.158595,
+      "tags": {
+        "name": "Царевичи",
+        "website": "https://царевичи.рф/",
+        "begin_price": "5000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.96936,
+      "lon": 34.23083,
+      "tags": {
+        "name": "Aviaretro",
+        "website": "https://aviaretro-club.ru/",
+        "begin_price": "3550",
+        "tourism": "hotel"
+      }
+    },
+
 {
   "type": "node",
   "id": -1,
