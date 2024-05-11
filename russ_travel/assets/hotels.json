@@ -8756,7 +8756,7 @@
     "tourism": "hotel"
   }
 },
-    // республика Коми
+
     {
       "type": "node",
       "id": -1,
@@ -8800,9 +8800,8 @@
       "lon": 51.522336885353,
       "tags": {
         "name": "У дяди Вани",
-        "https://ostrovok.ru/hotel/russia/kortkeros/mid10492243/recreation_center_at_uncle_vanyas/?cur=RUB&lang=ru&partner_extra=None&partner_slug=63022.affiliate.ec8b&utm_campaign=ru-ru%2C%20deeplink%2C%20affiliate&utm_medium=api2&utm_source=63022.affiliate.ec8b&utm_term=None",
+        "website": "https://ostrovok.ru/hotel/russia/kortkeros/mid10492243/recreation_center_at_uncle_vanyas/?cur=RUB&lang=ru&partner_extra=None&partner_slug=63022.affiliate.ec8b&utm_campaign=ru-ru%2C%20deeplink%2C%20affiliate&utm_medium=api2&utm_source=63022.affiliate.ec8b&utm_term=None",
         "begin_price": "5208",
-
         "tourism": "hotel"
       }
     },
@@ -9287,7 +9286,7 @@
       }
     },
 
-    // Ненецкий АО
+
     {
       "type": "node",
       "id": -1,
@@ -9361,7 +9360,7 @@
       }
     },
 
-    // Архангельская область
+
     {
       "type": "node",
       "id": -1,
@@ -9700,7 +9699,7 @@
       }
     },
 
-    // Вологодская область
+
     {
       "type": "node",
       "id": -1,
@@ -10026,7 +10025,7 @@
       }
     },
 
-    // Мурманская область
+
 
     {
       "type": "node",
@@ -10319,7 +10318,7 @@
 
 
 
-    // Карелия
+
     {
       "type": "node",
       "id": -1,
@@ -10598,7 +10597,7 @@
       }
     },
 
-    // Ленинградская область
+
 
     {
       "type": "node",
@@ -10925,7 +10924,7 @@
       }
     },
 
-    // Санкт-Петербург
+
     {
       "type": "node",
       "id": -1,
@@ -11252,7 +11251,7 @@
       }
     },
 
-    // Новгородская область
+
     {
       "type": "node",
       "id": -1,
@@ -11578,7 +11577,7 @@
       }
     },
 
-    // Псковская область
+
     {
       "type": "node",
       "id": -1,
@@ -11892,7 +11891,7 @@
       }
     },
 
-    // Калининградская область
+
     {
       "type": "node",
       "id": -1,
@@ -12230,7 +12229,7 @@
       }
     },
 
-    // Омская область
+
     {
       "type": "node",
       "id": -1,
@@ -12568,7 +12567,7 @@
       }
     },
 
-    // республика Алтай
+
     {
       "type": "node",
       "id": -1,
@@ -12894,7 +12893,7 @@
       }
     },
 
-    // Алтайский край
+
     {
       "type": "node",
       "id": -2,
@@ -13184,7 +13183,7 @@
       }
     },
 
-    // Иркутская область
+
     {
       "type": "node",
       "id": -1,
@@ -13426,7 +13425,7 @@
       }
     },
 
-    // Кемеровская область
+
     {
       "type": "node",
       "id": -1,
@@ -13752,7 +13751,7 @@
       }
     },
 
-    // Красноярский край
+
     {
       "type": "node",
       "id": -1,
@@ -14102,7 +14101,7 @@
       }
     },
 
-    // Новосибирская область
+
     {
       "type": "node",
       "id": -1,
@@ -14404,7 +14403,7 @@
       }
     },
 
-    // Томская область
+
     {
       "type": "node",
       "id": -1,
@@ -14718,7 +14717,7 @@
       }
     },
 
-    // республика Тыва
+
     {
       "type": "node",
       "id": -1,
@@ -14792,7 +14791,7 @@
       }
     },
 
-    // республика Хакасия
+
     {
       "type": "node",
       "id": -1,
