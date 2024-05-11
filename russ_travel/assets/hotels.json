@@ -9700,276 +9700,332 @@
       }
     },
 
-{
-  "type": "node",
-  "id": -1,
-  "lat": 57.7616157531738,
-  "lon": 40.9343032836914,
-  "tags": {
-     "name": "19 историй",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.199645996,
-  "lon": 39.921089172,
-  "tags": {
-     "name": "Саквояж",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.216428,
-  "lon": 39.880435,
-  "tags": {
-     "name": "Губерния",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.2343788146973,
-  "lon": 39.876350402832,
-  "tags": {
-     "name": "Dragon spa",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.131326,
-  "lon": 38.015625,
-  "tags": {
-     "name": "Азалия",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.2245979309082,
-  "lon": 39.8947219848633,
-  "tags": {
-     "name": "Светлица",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.2227,
-  "lon": 39.8716,
-  "tags": {
-     "name": "Аура",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.223724,
-  "lon": 39.886357,
-  "tags": {
-     "name": "Палисад",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.1357,
-  "lon": 37.9201,
-  "tags": {
-     "name": "Business Vesna",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.1316223144531,
-  "lon": 37.8996238708496,
-  "tags": {
-     "name": "Машбах",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 60.7585,
-  "lon": 46.2406,
-  "tags": {
-     "name": "Гостиница на Волге",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.135,
-  "lon": 37.9174,
-  "tags": {
-     "name": "Рус ясная поляна",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.199002,
-  "lon": 39.8439,
-  "tags": {
-     "name": "Николаевский Отель",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.226187,
-  "lon": 39.871349,
-  "tags": {
-     "name": "Отель История",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 60.0372695922852,
-  "lon": 37.8142318725586,
-  "tags": {
-     "name": "Панорама",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.20935,
-  "lon": 39.87728,
-  "tags": {
-     "name": "Спутник",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.2298,
-  "lon": 39.9116,
-  "tags": {
-     "name": "Архитектор",
-    "tourism":"hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.2053,
-  "lon": 39.9242,
-  "tags": {
-     "name": "Дом аспиранта",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 60.02963,
-  "lon": 37.801957,
-  "tags": {
-     "name": "Legenda",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.962402,
-  "lon": 42.941839,
-  "tags": {
-     "name": "Картуши",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.537653,
-  "lon": 45.453684,
-  "tags": {
-     "name": "Камелия",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.209792,
-  "lon": 39.924024,
-  "tags": {
-     "name": "Антеро",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.8605,
-  "lon": 38.3744,
-  "tags": {
-     "name": "Корона",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.229801177979,
-  "lon": 39.911499023438,
-  "tags": {
-     "name": "Вояж",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.199624,
-  "lon": 39.824392,
-  "tags": {
-     "name": "Центральный",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.206803,
-  "lon": 39.883088,
-  "tags": {
-     "name": "Smart Hotel КДО Вологда",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 59.2274061263,
-  "lon": 39.8950188565,
-  "tags": {
-     "name": "Библиотека",
-    "tourism": "hotel"
-  }
-},
+    // Вологодская область
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 57.7616157531738,
+      "lon": 40.9343032836914,
+      "tags": {
+        "name": "19 историй",
+        "website": "https://19story.ru/",
+        "begin_price": "3000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.199645996,
+      "lon": 39.921089172,
+      "tags": {
+        "name": "Саквояж",
+        "website": "https://sakvoyazh-hotel.ru/",
+        "begin_price": "4000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.216428,
+      "lon": 39.880435,
+      "tags": {
+        "name": "Губерния",
+        "website": "https://gubernia-hotel.ru/",
+        "begin_price": "4000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.2343788146973,
+      "lon": 39.876350402832,
+      "tags": {
+        "name": "Dragon spa",
+        "website": "https://www.dragon-spa.ru/",
+        "begin_price": "6800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.131326,
+      "lon": 38.015625,
+      "tags": {
+        "name": "Азалия",
+        "website": "https://azaliya.rhotel.site/",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.2245979309082,
+      "lon": 39.8947219848633,
+      "tags": {
+        "name": "Светлица",
+        "website": "https://www.светлица-вологда.рф/",
+        "begin_price": "2800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.2227,
+      "lon": 39.8716,
+      "tags": {
+        "name": "Аура",
+        "website": "https://hotel-aura.ru/",
+        "begin_price": "3200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.223724,
+      "lon": 39.886357,
+      "tags": {
+        "name": "Палисад",
+        "website": "https://palisad-vologda.ru/",
+        "begin_price": "2800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.1357,
+      "lon": 37.9201,
+      "tags": {
+        "name": "Business Vesna",
+        "website": "https://ostrovok.ru/hotel/russia/cherepovets/mid8744369/business_hotel_vesna/",
+        "begin_price": "4407",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.1316223144531,
+      "lon": 37.8996238708496,
+      "tags": {
+        "name": "Машбах",
+        "website": "https://hotelmashbakh.ru/",
+        "begin_price": "2450",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 60.7585,
+      "lon": 46.2406,
+      "tags": {
+        "name": "Гостиница на Волге",
+        "website": "https://navalge.ru/",
+        "begin_price": "1550",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.135,
+      "lon": 37.9174,
+      "tags": {
+        "name": "Рус ясная поляна",
+        "website": "https://bronevik.com/ru/hotel/russia/yasnaya-polyana-vologodskaya/hostel-rus-yasnaya-polyana",
+        "begin_price": "523",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.199002,
+      "lon": 39.8439,
+      "tags": {
+        "name": "Николаевский Отель",
+        "website": "https://nikolaevskiy.ru/",
+        "begin_price": "2750",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.226187,
+      "lon": 39.871349,
+      "tags": {
+        "name": "Отель История",
+        "website": "https://www.history-hotel.ru/",
+        "begin_price": "2600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 60.0372695922852,
+      "lon": 37.8142318725586,
+      "tags": {
+        "name": "Панорама",
+        "website": "https://travel.yandex.ru/hotels/belozersk/panorama/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.20935,
+      "lon": 39.87728,
+      "tags": {
+        "name": "Спутник",
+        "website": "https://sputnic-hotel.ru/",
+        "begin_price": "2300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.2298,
+      "lon": 39.9116,
+      "tags": {
+        "name": "Архитектор",
+        "website": "http://архитектор1891.рф/",
+        "begin_price": "2500",
+        "tourism":"hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.2053,
+      "lon": 39.9242,
+      "tags": {
+        "name": "Дом аспиранта",
+        "website": "http://hotel.volnc.ru/",
+        "begin_price": "560",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 60.02963,
+      "lon": 37.801957,
+      "tags": {
+        "name": "Legenda",
+        "website": "https://legenda-hotel.ru/",
+        "begin_price": "2800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.962402,
+      "lon": 42.941839,
+      "tags": {
+        "name": "Картуши",
+        "website": "https://kartushi.ru/",
+        "begin_price": "2600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.537653,
+      "lon": 45.453684,
+      "tags": {
+        "name": "Камелия",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g12261775-d12162801-Reviews-Kameliya-Nikolsk_Vologda_Oblast_Northwestern_District.html",
+        "begin_price": "3600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.209792,
+      "lon": 39.924024,
+      "tags": {
+        "name": "Антеро",
+        "website": "https://travel.yandex.ru/hotels/vologda/antero/",
+        "begin_price": "990",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.8605,
+      "lon": 38.3744,
+      "tags": {
+        "name": "Корона",
+        "website": "https://travel.yandex.ru/hotels/kirillov/korona/",
+        "begin_price": "2500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.229801177979,
+      "lon": 39.911499023438,
+      "tags": {
+        "name": "Вояж",
+        "website": "https://отель-вояж.рф/",
+        "begin_price": "1700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.199624,
+      "lon": 39.824392,
+      "tags": {
+        "name": "Центральный",
+        "website": "https://tropki.ru/rossiya/vologodskaya-oblast/vologda/01077149-tsentralnyy",
+        "begin_price": "3040",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.206803,
+      "lon": 39.883088,
+      "tags": {
+        "name": "Smart Hotel КДО Вологда",
+        "website": "https://travel.yandex.ru/hotels/vologda/smart-hotel-kdo-vologda/?adults=2&checkinDate=2024-05-09&checkoutDate=2024-05-10&childrenAges=&searchPagePollingId=d3791de1d7b78cac18990af20b9917f-0-newsearch&seed=portal-hotels-search",
+        "begin_price": "1367",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 59.2274061263,
+      "lon": 39.8950188565,
+      "tags": {
+        "name": "Библиотека",
+        "website": "https://bibliotekahotel.ru/",
+        "begin_price": "4200",
+        "tourism": "hotel"
+      }
+    },
+
 {
   "type": "node",
   "id": -1,
