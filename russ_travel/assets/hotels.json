@@ -12894,247 +12894,297 @@
       }
     },
 
+    // Алтайский край
     {
-"type": "node",
-"id": -2,
-"lat": 52.000325,
-"lon": 85.881150,
-"tags": {
-"name": "База отдыха Etnica",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -3,
-"lat": 53.7976,
-"lon": 81.3104,
-"tags": {
-"name": "Гостиница Арарат",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -4,
-"lat": 52.032397867827,
-"lon": 84.868143415772,
-"tags": {
-"name": "Алтай green",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -5,
-"lat": 51.980808,
-"lon": 84.958725,
-"tags": {
-"name": "Гостиница Благодать",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -6,
-"lat": 51.994825,
-"lon": 84.993556,
-"tags": {
-"name": "Беловодье",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -7,
-"lat": 51.925307144349,
-"lon": 85.822104517756,
-"tags": {
-"name": "Белый Аист",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -8,
-"lat": 51.984259,
-"lon": 84.966127,
-"tags": {
-"name": "Эко-отель Эхо",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -9,
-"lat": 55.0062141418457,
-"lon": 73.2918167114258,
-"tags": {
-"name": "4 rooms",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -10,
-"lat": 52.494919,
-"lon": 82.752885,
-"tags": {
-"name": "Алейка",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -11,
-"lat": 53.348473,
-"lon": 83.758054,
-"tags": {
-"name": "Sleep box hostel",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -12,
-"lat": 51.993016,
-"lon": 84.974293,
-"tags": {
-"name": "Кедровый Отель",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -13,
-"lat": 53.3369321,
-"lon": 83.7894899,
-"tags": {
-"name": "Столичный отель",
-"tourism": "hotel"
-}
-},
-{
-"type": "node",
-"id": -14,
-"lat": 53.3728,
-"lon": 83.7443,
-"tags": {
-"name": "Хостел Арбуз",
-"tourism": "hotel"
-}
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 53.3517,
-  "lon": 83.7777,
-  "tags": {
-    "name": "Хостел Вагон",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 53.3838,
-  "lon": 83.7368,
-  "tags": {
-    "name": "Hotel palma",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.993801116943,
-  "lon": 84.977996826172,
-  "tags": {
-    "name": "Отель Нео",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.9930458068848,
-  "lon": 84.9766845703125,
-  "tags": {
-    "name": "Отель баваренок",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.9532127380371,
-  "lon": 84.8833465576172,
-  "tags": {
-    "name": "Гостиница Олимп",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.9316,
-  "lon": 85.815,
-  "tags": {
-    "name": "Время Счастья",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 52.000325,
-  "lon": 85.881150,
-  "tags": {
-    "name": "Star",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 53.339501,
-  "lon": 83.678352,
-  "tags": {
-    "name": "Сити Фокс",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 53.347865,
-  "lon": 83.786864,
-  "tags": {
-    "name": "Redfox",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 52.541581,
-  "lon": 85.226989,
-  "tags": {
-    "name": "На старом месте",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 53.345962,
-  "lon": 83.777512,
-  "tags": {
-    "name": "Центральный Барнаул",
-    "tourism": "hotel"
-  }
-},
-{
+      "type": "node",
+      "id": -2,
+      "lat": 52.000325,
+      "lon": 85.881150,
+      "tags": {
+        "name": "База отдыха Etnica",
+        "website": "https://etnicahotel.ru/",
+        "begin_price": "10300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -3,
+      "lat": 53.7976,
+      "lon": 81.3104,
+      "tags": {
+        "name": "Гостиница Арарат",
+        "website": "https://travel.yandex.ru/hotels/altai-krai/ararat/",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -4,
+      "lat": 52.032397867827,
+      "lon": 84.868143415772,
+      "tags": {
+        "name": "Алтай green",
+        "website": "https://altay-green.ru/",
+        "begin_price": "7000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -5,
+      "lat": 51.980808,
+      "lon": 84.958725,
+      "tags": {
+        "name": "Гостиница Благодать",
+        "website": "https://blagodat22.ru/",
+        "begin_price": "1300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -6,
+      "lat": 51.994825,
+      "lon": 84.993556,
+      "tags": {
+        "name": "Беловодье",
+        "website": "https://belovodie.su/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -7,
+      "lat": 51.925307144349,
+      "lon": 85.822104517756,
+      "tags": {
+        "name": "Белый Аист",
+        "website": "https://aist-altay.ru/",
+        "begin_price": "2500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -8,
+      "lat": 51.984259,
+      "lon": 84.966127,
+      "tags": {
+        "name": "Эко-отель Эхо",
+        "website": "https://echo-otel.ru/",
+        "begin_price": "4200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -9,
+      "lat": 55.0062141418457,
+      "lon": 73.2918167114258,
+      "tags": {
+        "name": "4 rooms",
+        "website": "https://tropki.ru/rossiya/altayskiy-kray/yarovoe/0704620-4rooms",
+        "begin_price": "5000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -10,
+      "lat": 52.494919,
+      "lon": 82.752885,
+      "tags": {
+        "name": "Алейка",
+        "website": "https://travel.yandex.ru/hotels/aleysk/aleika/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -11,
+      "lat": 53.348473,
+      "lon": 83.758054,
+      "tags": {
+        "name": "Sleep box hostel",
+        "website": "https://sbhostel.ru/",
+        "begin_price": "800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -12,
+      "lat": 51.993016,
+      "lon": 84.974293,
+      "tags": {
+        "name": "Кедровый Отель",
+        "website": "https://spakurortkedr.ru/",
+        "begin_price": "66000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -13,
+      "lat": 53.3369321,
+      "lon": 83.7894899,
+      "tags": {
+        "name": "Столичный отель",
+        "website": "https://hotel-st.ru/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -14,
+      "lat": 53.3728,
+      "lon": 83.7443,
+      "tags": {
+        "name": "Хостел Арбуз",
+        "website": "https://travel.yandex.ru/hotels/barnaul/arbuz/",
+        "begin_price": "3200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 53.3517,
+      "lon": 83.7777,
+      "tags": {
+        "name": "Хостел Вагон",
+        "website": "https://hostelvagon22.ru/",
+        "begin_price": "800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 53.3838,
+      "lon": 83.7368,
+      "tags": {
+        "name": "Hotel palma",
+        "website": "https://travel.yandex.ru/hotels/barnaul/palma/",
+        "begin_price": "2200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.993801116943,
+      "lon": 84.977996826172,
+      "tags": {
+        "name": "Отель Нео",
+        "website": "https://travel.yandex.ru/hotels/belokurikha/neo/",
+        "begin_price": "5000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.9930458068848,
+      "lon": 84.9766845703125,
+      "tags": {
+        "name": "Отель баваренок",
+        "website": "https://travel.yandex.ru/hotels/belokurikha/bavarionok/",
+        "begin_price": "2200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.9532127380371,
+      "lon": 84.8833465576172,
+      "tags": {
+        "name": "Гостиница Олимп",
+        "website": "https://olimp-altai.ru/",
+        "begin_price": "5000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.9316,
+      "lon": 85.815,
+      "tags": {
+        "name": "Время Счастья",
+        "website": "https://travel.yandex.ru/hotels/altai-krai/vremia-schastia/",
+        "begin_price": "2200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 52.000325,
+      "lon": 85.881150,
+      "tags": {
+        "name": "Star",
+        "website": "https://101hotels.com/main/cities/katun/altai_star_resort.html",
+        "begin_price": "1700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 53.339501,
+      "lon": 83.678352,
+      "tags": {
+        "name": "Сити Фокс",
+        "website": "https://redfoxhotel.ru/?id=4&page=catalog",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 53.347865,
+      "lon": 83.786864,
+      "tags": {
+        "name": "Redfox",
+        "website": "https://redfoxhotel.ru/" ,
+        "begin_price": "2900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 52.541581,
+      "lon": 85.226989,
+      "tags": {
+        "name": "На старом месте",
+        "website": "https://гостиница-на-старом-месте.рф/",
+        "begin_price": "2800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 53.345962,
+      "lon": 83.777512,
+      "tags": {
+        "name": "Центральный Барнаул",
+        "website": "https://ostrovok.ru/hotel/russia/barnaul/mid6599013/centralnaya_2/",
+        "begin_price": "6267",
+        "tourism": "hotel"
+      }
+    },
+
+    {
   "type": "node",
   "id": -1,
   "lat": 52.284068,
