@@ -11252,276 +11252,332 @@
       }
     },
 
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5205948783,
-  "lon": 31.2853295342,
-  "tags": {
-    "name": "Palazzo 5",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.530875,
-  "lon": 31.269383,
-  "tags": {
-    "name": "Карелинн",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.509894,
-  "lon": 31.255012,
-  "tags": {
-    "name": "65 home",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.524121,
-  "lon": 31.270571,
-  "tags": {
-    "name": "Отель София",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.551342,
-  "lon": 31.216771,
-  "tags": {
-    "name": "Аист",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5199,
-  "lon": 31.2848,
-  "tags": {
-    "name": "Гостиница Ганза",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5365447998047,
-  "lon": 31.292049407959,
-  "tags": {
-    "name": "Береста Парк Отель Великий Новгород",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.527977,
-  "lon": 31.298849,
-  "tags": {
-    "name": "Берген",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.523737116749,
-  "lon": 31.26563864418,
-  "tags": {
-    "name": "Гостиница Волхов",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.52065000,
-  "lon": 31.28985000,
-  "tags": {
-    "name": "Отель «БИАНКИ»",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.52504,
-  "lon": 31.274,
-  "tags": {
-    "name": "History (Хистори)",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.517706,
-  "lon": 31.286588,
-  "tags": {
-    "name": "Рахманинов",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5075340270996,
-  "lon": 31.2645454406738,
-  "tags": {
-    "name": "Хостел home",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5404180,
-  "lon": 31.258084,
-  "tags": {
-    "name": "Хостел академ ВН",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5195388793945,
-  "lon": 31.265474319458,
-  "tags": {
-    "name": "hotel on prusskaya 8",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.521645,
-  "lon": 31.297089,
-  "tags": {
-    "name": "Гостиница садко",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.48947700,
-  "lon": 31.27112000,
-  "tags": {
-    "name": "юрьевское подворье",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5212,
-  "lon": 31.2631,
-  "tags": {
-    "name": "Новгородская",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.53139,
-  "lon": 31.281701,
-  "tags": {
-    "name": "Отель Интурист",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.519948,
-  "lon": 31.284836,
-  "tags": {
-    "name": "Voyaj",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.52633900,
-  "lon": 31.27847600,
-  "tags": {
-    "name": "Апарт-отель Неревский ",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.53458500,
-  "lon": 31.305691,
-  "tags": {
-    "name": "Отель Дилижанс",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.517321,
-  "lon": 31.283758,
-  "tags": {
-    "name": "Хостел Ярослав",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5297,
-  "lon": 31.2353,
-  "tags": {
-    "name": "Отель Grace",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.516451,
-  "lon": 31.284312,
-  "tags": {
-    "name": "АМАКС Отель Россия",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.5293807983398,
-  "lon": 31.2717094421387,
-  "tags": {
-    "name": "БМ-хостел",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 58.52826500,
-  "lon": 31.26437400,
-  "tags": {
-    "name": "Роза Ветров",
-    "tourism": "hotel"
-  }
-},
+    // Новгородская область
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5205948783,
+      "lon": 31.2853295342,
+      "tags": {
+        "name": "Palazzo 5",
+        "website": "https://palazzo5hotel.ru/",
+        "begin_price": "4800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.530875,
+      "lon": 31.269383,
+      "tags": {
+        "name": "Карелинн",
+        "website": "https://karelinn.ru/",
+        "begin_price": "13700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.509894,
+      "lon": 31.255012,
+      "tags": {
+        "name": "65 home",
+        "website": "https://65home.ru/",
+        "begin_price": "5500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.524121,
+      "lon": 31.270571,
+      "tags": {
+        "name": "Отель София",
+        "website": "https://sofianov.ru/",
+        "begin_price": "12800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.551342,
+      "lon": 31.216771,
+      "tags": {
+        "name": "Аист",
+        "website": "https://aistvn.ru/",
+        "begin_price": "3600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5199,
+      "lon": 31.2848,
+      "tags": {
+        "name": "Гостиница Ганза",
+        "website": "https://ostrovok.ru/hotel/russia/velikiy_novgorod/mid7806552/ganza_hotel/",
+        "begin_price": "3300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5365447998047,
+      "lon": 31.292049407959,
+      "tags": {
+        "name": "Береста Парк Отель Великий Новгород",
+        "website": "https://travel.yandex.ru/hotels/veliky-novgorod/beresta-park-otel/?adults=2&checkinDate=2024-04-22&checkoutDate=2024-04-23&childrenAges=&searchPagePollingId=78d7fe4d1d5193c9b5185fe0517c3c6b-0-newsearch&seed=portal-hotels-search",
+        "begin_price": "8250",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.527977,
+      "lon": 31.298849,
+      "tags": {
+        "name": "Берген",
+        "website": "https://travel.yandex.ru/hotels/veliky-novgorod/bergen/",
+        "begin_price": "2700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.523737116749,
+      "lon": 31.26563864418,
+      "tags": {
+        "name": "Гостиница Волхов",
+        "website": "https://hotel-volkhov.ru/",
+        "begin_price": "4720",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.52065000,
+      "lon": 31.28985000,
+      "tags": {
+        "name": "Отель «БИАНКИ»",
+        "website": "https://biankihotel.ru/",
+        "begin_price": "6100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.52504,
+      "lon": 31.274,
+      "tags": {
+        "name": "History (Хистори)",
+        "website": "https://historyhotel-vn.ru/",
+        "begin_price": "5500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.517706,
+      "lon": 31.286588,
+      "tags": {
+        "name": "Рахманинов",
+        "website": "https://www.hotelrachmaninov.com/?utm_source=yandex&utm_medium=cpc&utm_campaign=55416641&utm_content=13329897243&utm_term=%7Bpoisk_brand%7D&yclid=10516020142103068671",
+        "begin_price": "4900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5075340270996,
+      "lon": 31.2645454406738,
+      "tags": {
+        "name": "Хостел home",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g298502-d4413274-Reviews-Home_Hostel-Veliky_Novgorod_Novgorod_Oblast_Northwestern_District.html",
+        "begin_price": "2700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5404180,
+      "lon": 31.258084,
+      "tags": {
+        "name": "Хостел академ ВН",
+        "website": "https://ostrovok.ru/hotel/russia/velikiy_novgorod/mid9082776/akadem_vn_hostel/",
+        "begin_price": "1643",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5195388793945,
+      "lon": 31.265474319458,
+      "tags": {
+        "name": "hotel on prusskaya 8",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g298502-d17596497-Reviews-Hotel_On_Prusskaya_8-Veliky_Novgorod_Novgorod_Oblast_Northwestern_District.html",
+        "begin_price": "16480",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.521645,
+      "lon": 31.297089,
+      "tags": {
+        "name": "Гостиница садко",
+        "website": "https://hotel-sadko.ru/",
+        "begin_price": "3250",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.48947700,
+      "lon": 31.27112000,
+      "tags": {
+        "name": "юрьевское подворье",
+        "website": "https://ostrovok.ru/hotel/russia/velikiy_novgorod/mid7384673/yurjevskoye_podvorje/",
+        "begin_price": "7100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5212,
+      "lon": 31.2631,
+      "tags": {
+        "name": "Новгородская",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g298502-d304369-Reviews-or15-Hotel_Novgorodskaya-Veliky_Novgorod_Novgorod_Oblast_Northwestern_District.html",
+        "begin_price": "4300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.53139,
+      "lon": 31.281701,
+      "tags": {
+        "name": "Отель Интурист",
+        "website": "https://intnovhotel.ru/",
+        "begin_price": "3300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.519948,
+      "lon": 31.284836,
+      "tags": {
+        "name": "Voyaj",
+        "website": "https://www.tur-hotel.ru/hotels/russia/novgorod-region/velikiy-novgorod/voyaj/",
+        "begin_price": "500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.52633900,
+      "lon": 31.27847600,
+      "tags": {
+        "name": "Апарт-отель Неревский ",
+        "website": "https://nerevskiy.com/",
+        "begin_price": "3800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.53458500,
+      "lon": 31.305691,
+      "tags": {
+        "name": "Отель Дилижанс",
+        "website": "https://travel.yandex.ru/hotels/veliky-novgorod/dilizhans/",
+        "begin_price": "1648",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.517321,
+      "lon": 31.283758,
+      "tags": {
+        "name": "Хостел Ярослав",
+        "website": "https://yahostel.ru/",
+        "begin_price": "700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5297,
+      "lon": 31.2353,
+      "tags": {
+        "name": "Отель Grace",
+        "website": "https://101hotels.com/main/cities/velikiy_novgorod/grace_hotel_1.html",
+        "begin_price": "700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.516451,
+      "lon": 31.284312,
+      "tags": {
+        "name": "АМАКС Отель Россия",
+        "website": "https://novgorod.amaks-hotels.ru/",
+        "begin_price": "1775",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.5293807983398,
+      "lon": 31.2717094421387,
+      "tags": {
+        "name": "БМ-хостел",
+        "website": "https://101hotels.com/main/cities/velikiy_novgorod/mini_hostel_bm-hostel.html",
+        "begin_price": "500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 58.52826500,
+      "lon": 31.26437400,
+      "tags": {
+        "name": "Роза Ветров",
+        "website": "https://101hotels.com/main/cities/velikiy_novgorod/gostinitsa_roza_vetrov.html",
+        "begin_price": "1100",
+        "tourism": "hotel"
+      }
+    },
+
 {
         "type": "node",
         "id": -1,
