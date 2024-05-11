@@ -9287,66 +9287,80 @@
       }
     },
 
-{
-  "type": "node",
-  "id": -1,
-  "lat": 67.6735,
-  "lon": 53.1337,
-  "tags": {
-     "name": "Отель Авантаж",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 67.636230468750,
-  "lon": 52.991012573242,
-  "tags": {
-     "name": "Отель Заполярная столица",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 67.6363,
-  "lon": 52.9942,
-  "tags": {
-     "name": "Pechora hotel",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 67.6367,
-  "lon": 52.9893,
-  "tags": {
-     "name": "Фрегат в Пустозерск",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 54.987608,
-  "lon": 73.411608,
-  "tags": {
-     "name": "Hostel agat",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 67.6366,
-  "lon": 52.9894,
-  "tags": {
-     "name": "Пустозерск",
-    "tourism": "hotel"
-  }
-},
+    // Ненецкий АО
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.6735,
+      "lon": 53.1337,
+      "tags": {
+        "name": "Отель Авантаж",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g4609881-d2690854-Reviews-Avantazh-Iskateley_Nenets_Autonomous_Okrug_Northwestern_District.html",
+        "begin_price": "3650",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.636230468750,
+      "lon": 52.991012573242,
+      "tags": {
+        "name": "Отель Заполярная столица",
+        "website": "https://zapolyarnaya-stolica.rhotel.site/",
+        "begin_price": "4600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.6363,
+      "lon": 52.9942,
+      "tags": {
+        "name": "Pechora hotel",
+        "website": "https://travel.yandex.ru/hotels/naryan-mar/pechora/",
+        "begin_price": "3999",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.6367,
+      "lon": 52.9893,
+      "tags": {
+        "name": "Фрегат в Пустозерск",
+        "website": "https://vpustozerske.ru/",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.987608,
+      "lon": 73.411608,
+      "tags": {
+        "name": "Hostel agat",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g1751905-d12114827-Reviews-Hostel_Agat-Naryan_Mar_Nenets_Autonomous_Okrug_Northwestern_District.html",
+        "begin_price": "1640",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.6366,
+      "lon": 52.9894,
+      "tags": {
+        "name": "Пустозерск",
+        "website": "https://travel.yandex.ru/hotels/naryan-mar/pustozersk/",
+        "begin_price": "3999",
+        "tourism": "hotel"
+      }
+    },
+
 {
   "type": "node",
   "id": -1,
