@@ -14718,67 +14718,81 @@
       }
     },
 
+    // республика Тыва
     {
-  "type": "node",
-  "id": -1,
-  "lat": 51.7192349877,
-  "lon": 94.4377463736,
-  "tags": {
-    "name": "Страйк",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 94.447402,
-  "lon": 51.722773,
-  "tags": {
-    "name": "Чалама",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.723962,
-  "lon": 94.438098,
-  "tags": {
-    "name": "Гостиница одуген",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.705315,
-  "lon": 94.407501,
-  "tags": {
-    "name": "Буян бадыргы",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 94.436076,
-  "lon": 51.723586,
-  "tags": {
-    "name": "Кызыл гранд",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 51.2840200,
-  "lon": 91.5690000,
-  "tags": {
-    "name": "Жарки",
-    "tourism": "hotel"
-  }
-},
-{
+      "type": "node",
+      "id": -1,
+      "lat": 51.7192349877,
+      "lon": 94.4377463736,
+      "tags": {
+        "name": "Страйк",
+        "website": "https://www.komandirovka.ru/hotels/kyzyl/strayk-mini-hotel/",
+        "begin_price": "2500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 94.447402,
+      "lon": 51.722773,
+      "tags": {
+        "name": "Чалама",
+        "website": "https://chalamahotel.ru/",
+        "begin_price": "4400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.723962,
+      "lon": 94.438098,
+      "tags": {
+        "name": "Гостиница одуген",
+        "website": "https://travel.yandex.ru/hotels/kyzyl/odugen/",
+        "begin_price": "3999",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.705315,
+      "lon": 94.407501,
+      "tags": {
+        "name": "Буян бадыргы",
+        "website": "https://badyrgy.com/",
+        "begin_price": "5000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 94.436076,
+      "lon": 51.723586,
+      "tags": {
+        "name": "Кызыл гранд",
+        "website": "https://kyzylgrandhotel.ru/",
+        "begin_price": "9300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 51.2840200,
+      "lon": 91.5690000,
+      "tags": {
+        "name": "Жарки",
+        "website": "https://travel.yandex.ru/hotels/chadan/zharki/",
+        "begin_price": "3100",
+        "tourism": "hotel"
+      }
+    },
+
+    {
   "type": "node",
   "id": -1,
   "lat": 53.7242813110352,
