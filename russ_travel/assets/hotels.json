@@ -9361,276 +9361,345 @@
       }
     },
 
-{
-  "type": "node",
-  "id": -1,
-  "lat": 64.552014,
-  "lon": 40.517927,
-  "tags": {
-     "name": "Botanica Arkhangelsk",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5645904541016,
-  "lon": 39.8440361022949,
-  "tags": {
-     "name": "Лазурит",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5301,
-  "lon": 40.5404,
-  "tags": {
-     "name": "Северница",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.541076,
-  "lon": 40.510322,
-  "tags": {
-     "name": "Столица Поморья",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5289,
-  "lon": 40.557,
-  "tags": {
-     "name": "Аврора",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.530162,
-  "lon": 40.540232,
-  "tags": {
-     "name": "Гостиница адмирал",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.551056,
-  "lon": 40.550392,
-  "tags": {
-     "name": "Арго",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.4521,
-  "lon": 40.9312,
-  "tags": {
-     "name": "Малые карелы",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5365371704102,
-  "lon": 40.5236015319824,
-  "tags": {
-     "name": "Старое место",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 61.2546880,
-  "lon": 46.625752,
-  "tags": {
-     "name": "Кирова 60",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.681741,
-  "lon": 40.709532,
-  "tags": {
-     "name": "Лукоморье",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 52.465612,
-  "lon": 104.354888,
-  "tags": {
-     "name": "Вега-отель",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 61.253827,
-  "lon": 46.622186,
-  "tags": {
-     "name": "Гостиница на набережной",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.56618,
-  "lon": 39.8506,
-  "tags": {
-     "name": "Limе-отель",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5586,
-  "lon": 40.5381,
-  "tags": {
-     "name": "Хостел как дома",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.518783,
-  "lon": 40.660214,
-  "tags": {
-     "name": "Villa Pia",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5388107299805,
-  "lon": 40.5312385559082,
-  "tags": {
-     "name": "Отель roomi",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5669708251953,
-  "lon": 39.825611114502,
-  "tags": {
-     "name": "Hermitage",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.597048,
-  "lon": 39.820313,
-  "tags": {
-     "name": "Никольская гавань",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.536323,
-  "lon": 40.538031,
-  "tags": {
-     "name": "Серафима",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5407,
-  "lon": 40.522,
-  "tags": {
-     "name": "Hostel na Vologodskoi",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.568133,
-  "lon": 39.838632,
-  "tags": {
-     "name": "Отель Парк-отель",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.5736,
-  "lon": 39.8441,
- "tags": {
-     "name": "Полянка",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 61.253554,
-  "lon": 46.634556,
-  "tags": {
-     "name": "Отель Южная 35",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 61.253187,
-  "lon": 46.635079,
-  "tags": {
-     "name": "Советская на Карла Маркса",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 64.541137,
-  "lon": 40.511324,
-  "tags": {
-     "name": "Пур-Наволок",
-    "tourism": "hotel"
-  }
-},
-      {
-  "type": "node",
-  "id": -1,
-  "lat": 61.256298,
-  "lon": 46.623309,
-  "tags": {
-     "name": "Gostinica rechnaya",
-    "tourism": "hotel"
-  }
-},
+    // Архангельская область
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.552014,
+      "lon": 40.517927,
+      "tags": {
+        "name": "Botanica Arkhangelsk",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g298499-d21506257-Reviews-Botanica_Hotel-Arkhangelsk_Arkhangelsk_Oblast_Northwestern_District.html",
+        "begin_price": "3200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5645904541016,
+      "lon": 39.8440361022949,
+      "tags": {
+        "name": "Лазурит",
+        "website": "https://bronevik.com/ru/hotel/russia/severodvinsk/lapis-lazuli?utm_referrer=https%3A%2F%2Fyandex.by%2F",
+        "begin_price": "3660",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5301,
+      "lon": 40.5404,
+      "tags": {
+        "name": "Северница",
+        "website": "https://severnica.ru/",
+        "begin_price": "3800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.541076,
+      "lon": 40.510322,
+      "tags": {
+        "name": "Столица Поморья",
+        "website": "https://hotelarh.ru/ru",
+        "begin_price": "3900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5289,
+      "lon": 40.557,
+      "tags": {
+        "name": "Аврора",
+        "website": "https://travel.yandex.ru/hotels/arhangelsk/avrora/",
+        "begin_price": "2600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.530162,
+      "lon": 40.540232,
+      "tags": {
+        "name": "Гостиница адмирал",
+        "website": "https://travel.yandex.ru/hotels/arhangelsk/admiral/",
+        "begin_price": "2599",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.551056,
+      "lon": 40.550392,
+      "tags": {
+        "name": "Арго",
+        "website": "http://www.argohotel29.ru/",
+        "begin_price": "2200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 39.838373,
+      "lon": 64.565604,
+      "tags": {
+        "name": "Паркинг",
+        "website": "https://parking29.ru/",
+        "begin_price": "500",
+        "tourism": "hotel"
+      }
+    },
+
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.4521,
+      "lon": 40.9312,
+      "tags": {
+        "name": "Малые карелы",
+        "website": "https://travel.yandex.ru/hotels/arkhange-lskaya-oblast/turisticheskii-kompleks-malye-karely/",
+        "begin_price": "1500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5365371704102,
+      "lon": 40.5236015319824,
+      "tags": {
+        "name": "Старое место",
+        "website": "https://travel.yandex.ru/hotels/arhangelsk/staroe-mesto/",
+        "begin_price": "1860",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.2546880,
+      "lon": 46.625752,
+      "tags": {
+        "name": "Кирова 60",
+        "website": "https://ostrovok.ru/hotel/russia/kotlas/mid8753389/hostel_21/",
+        "begin_price": "1933",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.681741,
+      "lon": 40.709532,
+      "tags": {
+        "name": "Лукоморье",
+        "website": "https://lykomorie.ru/",
+        "begin_price": "1900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 52.465612,
+      "lon": 104.354888,
+      "tags": {
+        "name": "Вега-отель",
+        "website": "https://ostrovok.ru/hotel/russia/arkhangelsk/mid8540945/vega_hotel_10/",
+        "begin_price": "2333",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.253827,
+      "lon": 46.622186,
+      "tags": {
+        "name": "Гостиница на набережной",
+        "website": "https://travel.yandex.ru/hotels/kotlas/na-naberezhnoi/",
+        "begin_price": "2538",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.56618,
+      "lon": 39.8506,
+      "tags": {
+        "name": "Limе-отель",
+        "website": "https://101hotels.com/main/cities/severodvinsk/apart-otel_lime.html",
+        "begin_price": "2700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5586,
+      "lon": 40.5381,
+      "tags": {
+        "name": "Хостел как дома",
+        "website": "https://travel.yandex.ru/hotels/arhangelsk/kak-doma/",
+        "begin_price": "1700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.518783,
+      "lon": 40.660214,
+      "tags": {
+        "name": "Villa Pia",
+        "website": "https://ostrovok.ru/hotel/russia/arkhangelsk/mid8748446/villa_pia_guest_house/",
+        "begin_price": "16421",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5388107299805,
+      "lon": 40.5312385559082,
+      "tags": {
+        "name": "Отель roomi",
+        "website": "https://101hotels.com/main/cities/arhangelsk/otel-pansionat_roomi.html",
+        "begin_price": "4400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5669708251953,
+      "lon": 39.825611114502,
+      "tags": {
+        "name": "Hermitage",
+        "website": "https://101hotels.com/main/cities/severodvinsk/otel_hermitage.html",
+        "begin_price": "3800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.597048,
+      "lon": 39.820313,
+      "tags": {
+        "name": "Никольская гавань",
+        "website": "https://nikola-hotel.ru/",
+        "begin_price": "3750",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.536323,
+      "lon": 40.538031,
+      "tags": {
+        "name": "Серафима",
+        "website": "https://travel.yandex.ru/hotels/arhangelsk/serafima/",
+        "begin_price": "2900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5407,
+      "lon": 40.522,
+      "tags": {
+        "name": "Hostel na Vologodskoi",
+        "website": "https://www.ozon.ru/travel/hotels/product/hostel-na-vologodskoi-1412991450/",
+        "begin_price": "400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.568133,
+      "lon": 39.838632,
+      "tags": {
+        "name": "Отель Парк-отель",
+        "website": "https://p-hotel29.ru/",
+        "begin_price": "2700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.5736,
+      "lon": 39.8441,
+      "tags": {
+        "name": "Полянка",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g777987-d17460728-Reviews-Hostel_Polyanka-Severodvinsk_Arkhangelsk_Oblast_Northwestern_District.html",
+        "begin_price": "3422",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.253554,
+      "lon": 46.634556,
+      "tags": {
+        "name": "Отель Южная 35",
+        "website": "https://travel.yandex.ru/hotels/severodvinsk/otel-na-iuzhnoi-35/",
+        "begin_price": "4111",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.253187,
+      "lon": 46.635079,
+      "tags": {
+        "name": "Советская на Карла Маркса",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g2384884-d2697745-Reviews-Sovetskaya_Hotel_on_Karla_Marksa-Kotlas_Arkhangelsk_Oblast_Northwestern_District.html",
+        "begin_price": "3456",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 64.541137,
+      "lon": 40.511324,
+      "tags": {
+        "name": "Пур-Наволок",
+        "website": "https://travel.yandex.ru/hotels/arhangelsk/pur-navolok/",
+        "begin_price": "3800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 61.256298,
+      "lon": 46.623309,
+      "tags": {
+        "name": "Gostinica rechnaya",
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g2384884-d8680328-Reviews-Gostinica_Rechnaya-Kotlas_Arkhangelsk_Oblast_Northwestern_District.html",
+        "begin_price": "1900",
+        "tourism": "hotel"
+      }
+    },
+
 {
   "type": "node",
   "id": -1,
