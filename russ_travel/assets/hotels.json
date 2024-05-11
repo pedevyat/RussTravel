@@ -14102,257 +14102,309 @@
       }
     },
 
+    // Новосибирская область
     {
-  "type": "node",
-  "id": -1,
-  "lat": 54.995385,
-  "lon": 82.692033,
-  "tags": {
-    "name": "Хостел ovb",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.02879,
-  "lon": 82.97805,
-  "tags": {
-    "name": "Отель Метелица",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0746,
-  "lon": 82.9616,
-  "tags": {
-    "name": "Hotel Barracuda",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.898271,
-  "lon": 82.794010,
-  "tags": {
-    "name": "Санаторий рассвет",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0292,
-  "lon": 82.9071,
-  "tags": {
-    "name": "Домина",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0289,
-  "lon": 82.8968,
-  "tags": {
-    "name": "Отель Н",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.773034,
-  "lon": 83.096508,
-  "tags": {
-    "name": "Роял Марин",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.032136,
-  "lon": 82.906876,
-  "tags": {
-    "name": "Шале на Комсомольском",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.03445,
-  "lon": 82.93518,
-  "tags": {
-    "name": "Гостиниц net на Ядринцевской",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0355567932129,
-  "lon": 82.9006500244141,
-  "tags": {
-    "name": "Маринс парк-отель",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.9889,
-  "lon": 82.9146,
-  "tags": {
-    "name": "Сити-отель Новосибирск",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.001162,
-  "lon": 82.954633,
-  "tags": {
-    "name": "якутия",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0038,
-  "lon": 82.6722,
-  "tags": {
-    "name": "Гостиница Скайпорт",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.841,
-  "lon": 83.0928,
-  "tags": {
-    "name": "Золотая долина - Академгородок",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.997771,
-  "lon": 82.749301,
-  "tags": {
-    "name": "СКАЙЭКСПО",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0411,
-  "lon": 82.9879,
-  "tags": {
-    "name": "Вавилон",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.336303,
-  "lon": 78.345337,
-  "tags": {
-    "name": "Отель 54",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0295,
-  "lon": 82.9174,
-  "tags": {
-    "name": "Гостиница Центральная",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0568,
-  "lon": 82.9819,
-  "tags": {
-    "name": "Аквилон",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.107231,
-  "lon": 82.952535,
-  "tags": {
-    "name": "Барракуда",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.9990570,
-  "lon": 82.6573340,
-  "tags": {
-    "name": "у петровича",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.792587,
-  "lon": 83.109785,
-  "tags": {
-    "name": "Былина",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 54.99477,
-  "lon": 82.69468,
-  "tags": {
-    "name": "Хостел Обской возле Толмачево",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.013420,
-  "lon": 82.945259,
-  "tags": {
-    "name": "Гостиница Оксид",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 55.0359,
-  "lon": 82.9062,
-  "tags": {
-    "name": "Emodji Hostel",
-    "tourism": "hotel"
-  }
-},
-{
+      "type": "node",
+      "id": -1,
+      "lat": 54.995385,
+      "lon": 82.692033,
+      "tags": {
+        "name": "Хостел ovb",
+        "website": "https://ovb-hostel.ru/",
+        "begin_price": "850",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.02879,
+      "lon": 82.97805,
+      "tags": {
+        "name": "Отель Метелица",
+        "website": "https://www.metelitsa54.ru/",
+        "begin_price": "4500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0746,
+      "lon": 82.9616,
+      "tags": {
+        "name": "Hotel Barracuda",
+        "website": "https://hotel-barracuda.ru/?utm_referrer=https%3A%2F%2Fyandex.by%2F",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.898271,
+      "lon": 82.794010,
+      "tags": {
+        "name": "Санаторий рассвет",
+        "website": "https://sanatory.ru/hotel/sanatorii-rassviet/?utm_source=yandex.cpc&utm_medium=cpc&utm_campaign=search%7C%7Bbrand_sanatoriy_rf_search%7D&utm_content=phrase_id%7C49927993043%7Cgid%7C5389290773%7Caid%7C15740359506&utm_term=санаторий%20рассвет%20новосибирская%20область&added=no&block=other&pos=1&device=desktop&calltouch_tm=yd_c:106126646_gb:5389290773_ad:15740359506_ph:49927993043_st:search_pt:other_p:1_s:none_dt:desktop_reg:157_ret:49927993043_apt:none&mango=%7Cc:106126646%7Cg:5389290773%7Cb:15740359506%7Ck:49927993043%7Cst:search%7Ca:no%7Cs:none%7Ct:other%7Cp:1%7Cr:49927993043%7Creg:157%7Cnet:%7Byad%7D&yclid=7233677265011212287",
+        "begin_price": "4800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0292,
+      "lon": 82.9071,
+      "tags": {
+        "name": "Домина",
+        "website": "https://nsk.dominarussia.com/",
+        "begin_price": "6300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0289,
+      "lon": 82.8968,
+      "tags": {
+        "name": "Отель Н",
+        "website": "https://tropki.ru/rossiya/novosibirskaya-oblast/novosibirsk/36570920-hotel-n",
+        "begin_price": "3370",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.773034,
+      "lon": 83.096508,
+      "tags": {
+        "name": "Роял Марин",
+        "website": "https://www.royal-marine.su/?sa=X&ved=2ahUKEwj_-YHAgdf9AhXdSJEFHXs5CJwQyK4DegUIAxDBAg",
+        "begin_price": "2500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.032136,
+      "lon": 82.906876,
+      "tags": {
+        "name": "Шале на Комсомольском",
+        "website": "https://www.shale-hotel.ru/contacts/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.03445,
+      "lon": 82.93518,
+      "tags": {
+        "name": "Гостиниц net на Ядринцевской",
+        "website": "https://бонапарт.гостиниц.net/",
+        "begin_price": "3100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0355567932129,
+      "lon": 82.9006500244141,
+      "tags": {
+        "name": "Маринс парк-отель",
+        "website": "https://marinshotels.ru/novosib/rooms",
+        "begin_price": "6000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.9889,
+      "lon": 82.9146,
+      "tags": {
+        "name": "Сити-отель Новосибирск",
+        "website": "https://www.booking.com/hotel/ru/city-novosibirsk.ru.html",
+        "begin_price": "4100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.001162,
+      "lon": 82.954633,
+      "tags": {
+        "name": "якутия",
+        "website": "http://www.hotel-yakutia.ru/",
+        "begin_price": "1800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0038,
+      "lon": 82.6722,
+      "tags": {
+        "name": "Гостиница Скайпорт",
+        "website": "https://www.skyport.su/",
+        "begin_price": "4600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.841,
+      "lon": 83.0928,
+      "tags": {
+        "name": "Золотая долина - Академгородок",
+        "website": "https://gold-valley.ru/",
+        "begin_price": "3600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.997771,
+      "lon": 82.749301,
+      "tags": {
+        "name": "СКАЙЭКСПО",
+        "website": "https://skyexpo.ru/",
+        "begin_price": "4700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0411,
+      "lon": 82.9879,
+      "tags": {
+        "name": "Вавилон",
+        "website": "https://travel.yandex.ru/hotels/novosibirsk/babylone/",
+        "begin_price": "830",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.336303,
+      "lon": 78.345337,
+      "tags": {
+        "name": "Отель 54",
+        "website": "https://www.komandirovka.ru/hotels/barabinsk/hotel-54-acwnf/",
+        "begin_price": "1600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0295,
+      "lon": 82.9174,
+      "tags": {
+        "name": "Гостиница Центральная",
+        "website": "https://hotel-1.ru/?sa=X&ved=2ahUKEwi-_bDqxtT_AhW7SZEFHUI3AlYQyK4DegUIAxDMAg",
+        "begin_price": "2700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0568,
+      "lon": 82.9819,
+      "tags": {
+        "name": "Аквилон",
+        "website": "https://gkakvilon.ru/index.php",
+        "begin_price": "1500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.107231,
+      "lon": 82.952535,
+      "tags": {
+        "name": "Барракуда",
+        "website": "https://hotel-barracuda.ru/",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.9990570,
+      "lon": 82.6573340,
+      "tags": {
+        "name": "у петровича",
+        "website": "https://travel.yandex.ru/hotels/ob/u-petrovicha/",
+        "begin_price": "1800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.792587,
+      "lon": 83.109785,
+      "tags": {
+        "name": "Былина",
+        "website": "https://resort-bylina.worhot.com/",
+        "begin_price": "6500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.99477,
+      "lon": 82.69468,
+      "tags": {
+        "name": "Хостел Обской возле Толмачево",
+        "website": "https://hostelobskoi.ru/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.013420,
+      "lon": 82.945259,
+      "tags": {
+        "name": "Гостиница Оксид",
+        "website": "https://101hotels.com/main/cities/novosibirsk/gostinitsa_nzr_oksid.html",
+        "begin_price": "1800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 55.0359,
+      "lon": 82.9062,
+      "tags": {
+        "name": "Emodji Hostel",
+        "website": "https://www.tur-hotel.ru/hotels/russia/novosibirsk-region/novosibirsk/emodji-hostel/",
+        "begin_price": "2148",
+        "tourism": "hotel"
+      }
+    },
+
+    {
   "type": "node",
   "id": -1,
   "lat": 56.496989,
