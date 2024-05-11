@@ -10026,246 +10026,300 @@
       }
     },
 
+    // Мурманская область
+
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.6183700561523,
+      "lon": 33.683219909668,
+      "tags": {
+        "name": "Хостел Акка Книбекайзе",
+        "website": "https://akkahostel.ru/",
+        "begin_price": "3800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9715,
+      "lon": 33.0889,
+      "tags": {
+        "name": "Ренессанс",
+        "website": "http://www.renaissance-hotel.ru/",
+        "begin_price": "4600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9791641235352,
+      "lon": 33.083324432373,
+      "tags": {
+        "name": "Arctic Hotel",
+        "website": "https://www.booking.com/hotel/ru/arctic.ru.html",
+        "begin_price": "1280",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 69.165502,
+      "lon": 35.135133,
+      "tags": {
+        "name": "Териберка",
+        "website": "https://teriberkahotel.com/",
+        "begin_price": "3410",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.96446,
+      "lon": 33.0703,
+      "tags": {
+        "name": "Три барсука",
+        "website": "https://tribarsuka.ru/",
+        "begin_price": "2880",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 69.002743,
+      "lon": 33.11119,
+      "tags": {
+        "name": "Северный берег",
+        "website": "https://travel.yandex.ru/hotels/murmansk/severnyi-bereg-ulitsa-sverdlova/",
+        "begin_price": "3100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.920536,
+      "lon": 33.109647,
+      "tags": {
+        "name": "Парк-отель Экспедиция",
+        "website": "https://travel.yandex.ru/hotels/murmansk/park-otel-ekspeditsiia/",
+        "begin_price": "2900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.597728,
+      "lon": 33.0836,
+      "tags": {
+        "name": "Отель Русь",
+        "website": "https://hotelrus51.ru/",
+        "begin_price": "4500",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.908254,
+      "lon": 33.095956,
+      "tags": {
+        "name": "Ягель лофт",
+        "website": "https://travel.yandex.ru/hotels/murmansk/iagel-loft/",
+        "begin_price": "2300",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.8948341021,
+      "lon": 33.088178368,
+      "tags": {
+        "name": "Спутник",
+        "website": "https://travel.yandex.ru/hotels/murmansk/sputnik/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9697,
+      "lon": 33.0725,
+      "tags": {
+        "name": "Меридиан",
+        "website": "https://meridian-hotel.ru/?sa=X&ved=2ahUKEwj554-R_5KDAxUTS5EFHUvKBgIQyK4DegUIAxDRBw",
+        "begin_price": "4270",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9739074707031,
+      "lon": 33.0896835327148,
+      "tags": {
+        "name": "Арктик хоум даунтаун",
+        "website": "https://travel.yandex.ru/hotels/murmansk/arktik-khoum-dauntaun/?adults=2&checkinDate=2024-05-10&checkoutDate=2024-05-11&childrenAges=&searchPagePollingId=47ad080dca9bacd228887cc4c34c4437-0-newsearch&seed=portal-hotels-search",
+        "begin_price": "4100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.956362,
+      "lon": 33.080972,
+      "tags": {
+        "name": "Тундра",
+        "website": "https://tundrahotel.ru/",
+        "begin_price": "1600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.1550064086914,
+      "lon": 32.4164810180664,
+      "tags": {
+        "name": "Скандинавия",
+        "website": "https://travel.yandex.ru/hotels/kandalaksha/gostinitsa/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9413,
+      "lon": 33.1009,
+      "tags": {
+        "name": "Полярный круг",
+        "website": "https://101hotels.com/main/cities/murmansk/gostinitsa_polyarniy_krug.html",
+        "begin_price": "4100",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.992202,
+      "lon": 33.0994534,
+      "tags": {
+        "name": "Рус Мурманск",
+        "website": "https://101hotels.com/main/cities/murmansk/hostel_hostelirus_murmansk.html",
+        "begin_price": "800",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.162842,
+      "lon": 32.411153,
+      "tags": {
+        "name": "Гринвич",
+        "website": "https://www.booking.com/hotel/ru/inn-grinvich.ru.html",
+        "begin_price": "4200",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.985179,
+      "lon": 33.0965811,
+      "tags": {
+        "name": "Арктик-Сервис",
+        "website": "https://арктиксервис.рф/",
+        "begin_price": "3000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9630661010742,
+      "lon": 33.0743598937988,
+      "tags": {
+        "name": "Good night rooms hostel",
+        "website": "https://www.booking.com/hotel/ru/good-night-rooms-amp-hostel.ru.html",
+        "begin_price": "1900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.9682227938,
+      "lon": 33.08256787,
+      "tags": {
+        "name": "Смарт Асгард",
+        "website": "https://asgardhotel51.ru/",
+        "begin_price": "1700",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 67.1611862182617,
+      "lon": 32.4193115234375,
+      "tags": {
+        "name": "Вокзал для двоих",
+        "website": "https://travel.yandex.ru/hotels/kandalaksha/vokzal-dlia-dvoikh/",
+        "begin_price": "3199",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 69.1707498,
+      "lon": 35.1255676,
+      "tags": {
+        "name": "Barents holiday village",
+        "website": "https://travel.yandex.ru/hotels/murmansk-oblast/barents-holliday-village/",
+        "begin_price": "6900",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 69.0193,
+      "lon": 33.0849,
+      "tags": {
+        "name": "Отель Фьорд",
+        "website": "https://hot51.ru/",
+        "begin_price": "3400",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 68.883723,
+      "lon": 33.037062,
+      "tags": {
+        "name": "Колтак",
+        "website": "https://travel.yandex.ru/hotels/kola/koltak/",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
+    },
+
+
+
 {
-  "type": "node",
-  "id": -1,
-  "lat": 67.6183700561523,
-  "lon": 33.683219909668,
-  "tags": {
-     "name": "Хостел Акка Книбекайзе",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9715,
-  "lon": 33.0889,
-  "tags": {
-     "name": "Ренессанс",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9791641235352,
-  "lon": 33.083324432373,
-  "tags": {
-     "name": "Arctic Hotel",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 69.165502,
-  "lon": 35.135133,
-  "tags": {
-     "name": "Териберка",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.96446,
-  "lon": 33.0703,
-  "tags": {
-     "name": "Три барсука",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 69.002743,
-  "lon": 33.11119,
-  "tags": {
-     "name": "Северный берег",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.920536,
-  "lon": 33.109647,
-  "tags": {
-     "name": "Парк-отель Экспедиция",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 67.597728,
-  "lon": 33.0836,
-  "tags": {
-     "name": "Отель Русь",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.908254,
-  "lon": 33.095956,
-  "tags": {
-     "name": "Ягель лофт",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.8948341021,
-  "lon": 33.088178368,
-  "tags": {
-     "name": "Спутник",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9697,
-  "lon": 33.0725,
-  "tags": {
-     "name": "Меридиан",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9739074707031,
-  "lon": 33.0896835327148,
-  "tags": {
-     "name": "Арктик хоум даунтаун",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.956362,
-  "lon": 33.080972,
-  "tags": {
-     "name": "Тундра",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 67.1550064086914,
-  "lon": 32.4164810180664,
-  "tags": {
-     "name": "Скандинавия",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9413,
-  "lon": 33.1009,
-  "tags": {
-     "name": "Полярный круг",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.992202,
-  "lon": 33.0994534,
-  "tags": {
-     "name": "Рус Мурманск",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 67.162842,
-  "lon": 32.411153,
-  "tags": {
-     "name": "Гринвич",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.985179,
-  "lon": 33.0965811,
-  "tags": {
-     "name": "Арктик-Сервис",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9630661010742,
-  "lon": 33.0743598937988,
-  "tags": {
-     "name": "Good night rooms hostel",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.9682227938,
-  "lon": 33.08256787,
-  "tags": {
-     "name": "Смарт Асгард",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 67.1611862182617,
-  "lon": 32.4193115234375,
-  "tags": {
-     "name": "Вокзал для двоих",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 69.1707498,
-  "lon": 35.1255676,
-  "tags": {
-     "name": "Barents holiday village",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 69.0193,
- "lon": 33.0849,
-  "tags": {
-     "name": "Отель Фьорд",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": -1,
-  "lat": 68.883723,
-  "lon": 33.037062,
-  "tags": {
-     "name": "Колтак",
-    "tourism": "hotel"
-  }
-},{
   "type": "node",
   "id": -1,
   "lat": 62.299458,
