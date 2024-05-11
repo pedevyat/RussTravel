@@ -411,7 +411,11 @@
         <entry key="latlong2">
           <value>
             <list>
+<<<<<<< HEAD
               <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/latlong2-0.9.0/lib" />
+=======
+              <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/latlong2-0.9.1/lib" />
+>>>>>>> origin/anastasia
             </list>
           </value>
         </entry>
@@ -935,7 +939,11 @@
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/io-1.0.4/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/json_annotation-4.8.1/lib" />
+<<<<<<< HEAD
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/latlong2-0.9.0/lib" />
+=======
+      <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/latlong2-0.9.1/lib" />
+>>>>>>> origin/anastasia
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/lists-1.0.1/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/logger-2.1.0/lib" />
       <root url="file://$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dev/logging-1.2.0/lib" />

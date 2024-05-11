@@ -1,5 +1,11 @@
 import 'dart:async';
 import 'dart:convert';
+<<<<<<< HEAD
+=======
+import 'package:flutter_map/flutter_map.dart';
+import 'package:latlong2/latlong.dart';
+
+>>>>>>> origin/anastasia
 import 'backend.dart';
 
 import 'package:hive/hive.dart';
@@ -16,6 +22,10 @@ import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
 import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
+<<<<<<< HEAD
+=======
+import 'package:url_launcher/url_launcher.dart';
+>>>>>>> origin/anastasia
 
 class MapScreen extends StatefulWidget {
   const MapScreen({Key? key}) : super(key: key);
@@ -26,17 +36,32 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   int _currentIndex = 0;
+<<<<<<< HEAD
   //var stringBox = await Hive.openBox<String>('museum');
   
   late final YandexMapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
+=======
+
+  //var stringBox = await Hive.openBox<String>('museum');
+
+  late final MapController _mapController;
+  double _mapZoom = 0.0;
+  late Future<List<Marker>> _markersFuture;
+>>>>>>> origin/anastasia
 
   @override
   void initState() {
     super.initState();
+<<<<<<< HEAD
     _placemarkObjectsFuture = _museumPlacemarkObjects(context);
   }
+=======
+    _markersFuture = _getMarkers().then((value) => value as List<Marker>);
+  }
+
+>>>>>>> origin/anastasia
   @override
   void dispose() {
     SystemChrome.setPreferredOrientations([
@@ -53,6 +78,7 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+<<<<<<< HEAD
       	  title: const Text('Карта открытий'),
       	  bottom: PreferredSize(
         preferredSize: Size.fromHeight(50.0),
@@ -92,6 +118,51 @@ class _MapScreenState extends State<MapScreen> {
     ),
       body: FutureBuilder<List<PlacemarkMapObject>>(
         future: _placemarkObjectsFuture,
+=======
+        title: const Text('Карта открытий'),
+        bottom: PreferredSize(
+          preferredSize: Size.fromHeight(50.0),
+          child: Container(
+            width: MediaQuery
+                .of(context)
+                .size
+                .width,
+            color: Colors.blue, // Устанавливаем желаемый цвет blue для подложки
+            child: CupertinoSegmentedControl(
+              selectedColor: Colors.blue,
+              // Устанавливаем цвет выделенного сегмента
+              children: {
+                0: Text('Музеи'),
+                1: Text('Парки'),
+                2: Text('Смотровые'),
+                3: Text('Отели'),
+              },
+              onValueChanged: (value) {
+                setState(() {
+                  _currentIndex = value;
+                  switch (value) {
+                    case 0:
+                      _markersFuture = _getMuseumMarkers(context) as Future<List<Marker>>;
+                      break;
+                    case 1:
+                      _markersFuture = _getParkMarkers(context) as Future<List<Marker>>;
+                      break;
+                    case 2:
+                      _markersFuture = _getOutsideMarkers(context) as Future<List<Marker>>;
+                      break;
+                    case 3:
+                      _markersFuture = _getHotelMarkers(context) as Future<List<Marker>>;
+                      break;
+                  }
+                });
+              },
+            ),
+          ),
+        ),
+      ),
+      body: FutureBuilder<List<Marker>>(
+        future: _markersFuture,
+>>>>>>> origin/anastasia
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Center(
@@ -103,6 +174,7 @@ class _MapScreenState extends State<MapScreen> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
+<<<<<<< HEAD
             return YandexMap(
               onMapCreated: (controller) {
                 _mapController = controller;
@@ -115,6 +187,26 @@ class _MapScreenState extends State<MapScreen> {
               },
               mapObjects: [
                 _getClusterizedCollection(placemarks: snapshot.data!),
+=======
+            return FlutterMap(
+              options: MapOptions(
+                center: LatLng(50, 20), // Начальные координаты центра карты
+                zoom: 3.0, // Начальный уровень масштабирования карты
+                onPositionChanged: (position, _) {
+                  setState(() {
+                    _mapZoom = position.zoom!;
+                  });
+                },
+              ),
+              children: [
+                TileLayer(
+                  urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  subdomains: ['a', 'b', 'c'],
+                ),
+                MarkerLayer(
+                  markers: snapshot.data!, // Используем полученные маркеры
+                ),
+>>>>>>> origin/anastasia
               ],
             );
           }
@@ -123,7 +215,26 @@ class _MapScreenState extends State<MapScreen> {
     );
   }
 
+<<<<<<< HEAD
   void _moveCameraToInitialPosition() async {
+=======
+  Future<dynamic> _getMarkers() async {
+    switch (_currentIndex) {
+      case 0:
+        return _getMuseumMarkers(context);
+      case 1:
+        return _getParkMarkers(context);
+      case 2:
+        return _getOutsideMarkers(context);
+      case 3:
+        return _getHotelMarkers(context);
+      default:
+        return [];
+    }
+  }
+
+  /*void _moveCameraToInitialPosition() async {
+>>>>>>> origin/anastasia
     await _mapController.moveCamera(
       CameraUpdate.newCameraPosition(
         const CameraPosition(
@@ -135,9 +246,15 @@ class _MapScreenState extends State<MapScreen> {
         ),
       ),
     );
+<<<<<<< HEAD
   }
 
   ClusterizedPlacemarkCollection _getClusterizedCollection({
+=======
+  }*/
+
+  /*ClusterizedPlacemarkCollection _getClusterizedCollection({
+>>>>>>> origin/anastasia
     required List<PlacemarkMapObject> placemarks,
   }) {
     return ClusterizedPlacemarkCollection(
@@ -146,11 +263,20 @@ class _MapScreenState extends State<MapScreen> {
       radius: 50,
       minZoom: 15,
       onClusterAdded: (self, cluster) async {
+<<<<<<< HEAD
+=======
+        // Здесь можно определить внешний вид кластера при добавлении на карту
+        // Например, можно изменить иконку кластера
+>>>>>>> origin/anastasia
         return cluster.copyWith(
           appearance: cluster.appearance.copyWith(
             opacity: 1.0,
             icon: PlacemarkIcon.single(
               PlacemarkIconStyle(
+<<<<<<< HEAD
+=======
+                // Ваша кастомная иконка для кластера
+>>>>>>> origin/anastasia
                 image: BitmapDescriptor.fromBytes(
                   await ClusterPoints(cluster.size).getClusterIconBytes(),
                 ),
@@ -160,6 +286,7 @@ class _MapScreenState extends State<MapScreen> {
         );
       },
       onClusterTap: (self, cluster) async {
+<<<<<<< HEAD
         await _mapController.moveCamera(
           animation: const MapAnimation(
             type: MapAnimationType.linear,
@@ -177,6 +304,30 @@ class _MapScreenState extends State<MapScreen> {
   }
 }
 
+=======
+        // Здесь определяется действие при нажатии на кластер
+        // Например, можно увеличить масштаб карты и переместиться к центру кластера
+        double sumLat = 0;
+        double sumLng = 0;
+
+        for (final marker in cluster.markers) {
+          sumLat += marker.point!.latitude;
+          sumLng += marker.point!.longitude;
+        }
+
+        final centerLat = sumLat / cluster.markers.length;
+        final centerLng = sumLng / cluster.markers.length;
+
+        await _mapController.move(
+          LatLng(centerLat, centerLng),
+          _mapController.zoom + 1,
+        );
+      },
+    );
+  }*/
+}
+/*
+>>>>>>> origin/anastasia
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
@@ -237,6 +388,7 @@ Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) as
     throw Exception('Ошибка при объединении данных: $e');
   }
 
+<<<<<<< HEAD
   }
 
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
@@ -272,6 +424,42 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
     }
     
     return listPlacemarkMapObject;
+=======
+  }*/
+
+Future<List<Marker>> _getMuseumMarkers(BuildContext context) async {
+  try {
+    final jsonString = await rootBundle.loadString('assets/museum_points.json');
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = MuseumPoint.fromJson(pointsData[i]);
+      point.id = i;
+      markers.add(
+        Marker(
+          point: LatLng(point.latitude, point.longitude),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewM(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/museum.png'),
+            ),
+          ),
+        ),
+      );
+    }
+
+    return markers;
+>>>>>>> origin/anastasia
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
@@ -316,6 +504,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 */
 
 
+<<<<<<< HEAD
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
@@ -349,11 +538,46 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) asy
     }
     
     return listPlacemarkMapObject;
+=======
+Future<List<Marker>> _getParkMarkers(BuildContext context) async {
+  try {
+    final jsonString = await rootBundle.loadString('assets/park_points.json');
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = ParkPoint.fromJson(pointsData[i]);
+      point.id = i;
+      markers.add(
+        Marker(
+          point: LatLng(point.latitude, point.longitude),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewP(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/trees.png'),
+            ),
+          ),
+        ),
+      );
+    }
+
+    return markers;
+>>>>>>> origin/anastasia
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
 
+<<<<<<< HEAD
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/park_points.json');
@@ -388,15 +612,55 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
     return listPlacemarkMapObject;
   }
   catch (e) {
+=======
+Future<List<Marker>> _getOutsideMarkers(BuildContext context) async {
+  try {
+    final jsonString = await rootBundle.loadString('assets/out_points.json');
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = OutsidePoint.fromJson(pointsData[i]);
+      point.id = i;
+      markers.add(
+        Marker(
+          point: LatLng(point.latitude, point.longitude),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewO(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/binoculars.png'),
+            ),
+          ),
+        ),
+      );
+    }
+
+    return markers;
+  } catch (e) {
+>>>>>>> origin/anastasia
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
 
+<<<<<<< HEAD
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsH(BuildContext context) async {
+=======
+Future<List<Marker>> _getHotelMarkers(BuildContext context) async {
+>>>>>>> origin/anastasia
   try {
     final jsonString = await rootBundle.loadString('assets/hotels.json');
     final Map<String, dynamic> jsonData = json.decode(jsonString);
     final List<dynamic> pointsData = jsonData['elements'];
+<<<<<<< HEAD
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
     
     for (int i = 0; i < pointsData.length; i++)
@@ -447,6 +711,38 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsH(BuildContext context) asy
     }).toList();
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
+=======
+    List<Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = HotelPoint.fromJson(pointsData[i]);
+      //point.id = i;
+      markers.add(
+        Marker(
+          point: LatLng(point.latitude, point.longitude),
+          child: GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewH(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/bed_test.png'),
+            ),
+          ),
+        ),
+      );
+    }
+
+    return markers;
+  } catch (e) {
+    throw Exception('Error loading data: $e');
+>>>>>>> origin/anastasia
   }
 }
 
@@ -510,6 +806,10 @@ class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
   final MuseumPoint point;
+<<<<<<< HEAD
+=======
+  //final BuildContext context;
+>>>>>>> origin/anastasia
 
   @override
   Widget build(BuildContext context) {
@@ -533,7 +833,11 @@ class _ModalBodyViewM extends StatelessWidget {
                   box.delete(point.id);
                 else
                   box.put(point.id, point.id);
+<<<<<<< HEAD
                 //point.isVisited = !point.isVisited;
+=======
+                Navigator.pop(context);
+>>>>>>> origin/anastasia
               },
             ),
           ),
@@ -632,6 +936,29 @@ class _ModalBodyViewH extends StatelessWidget {
         Text(point.name, style: const TextStyle(fontSize: 20)),
         const SizedBox(height: 20),
         Text(
+<<<<<<< HEAD
+=======
+            'Цена за сутки: от ${point.price} руб.',
+            style: const TextStyle(
+              fontSize: 16,
+            )
+        ),
+        const SizedBox(height: 10),
+        GestureDetector(
+          onTap: () {
+            _launchURL(point.url);
+          },
+          child: Text(
+            '${point.url}',
+            style: TextStyle(
+              color: Colors.blue, // Цвет ссылки
+              decoration: TextDecoration.underline, // Подчеркивание ссылки
+            ),
+          ),
+        ),
+
+        Text(
+>>>>>>> origin/anastasia
           '${point.latitude}, ${point.longitude}',
           style: const TextStyle(
             fontSize: 16,
@@ -641,5 +968,17 @@ class _ModalBodyViewH extends StatelessWidget {
       ]),
     );
   }
+<<<<<<< HEAD
+=======
+
+  // Функция для открытия ссылки
+  Future<void> _launchURL(String url) async {
+    if (await canLaunchUrl(url as Uri)) {
+      await launchUrl(url as Uri);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+>>>>>>> origin/anastasia
 }
 

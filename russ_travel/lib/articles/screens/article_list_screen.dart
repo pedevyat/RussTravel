@@ -16,6 +16,14 @@ import 'package:russ_travel/articles/regions/center/vladimir_city.dart';
 import 'package:russ_travel/articles/regions/center/vladimir_region.dart';
 import 'package:russ_travel/articles/regions/center/voronezh.dart';
 import 'package:russ_travel/articles/regions/center/yaroslavl.dart';
+<<<<<<< HEAD
+=======
+import 'package:russ_travel/articles/regions/ural/Chelyabinskaya.dart';
+import 'package:russ_travel/articles/regions/ural/Hanti-Mansiiskii.dart';
+import 'package:russ_travel/articles/regions/ural/Kurganskaya.dart';
+import 'package:russ_travel/articles/regions/ural/Sverdlovskaya.dart';
+import 'package:russ_travel/articles/regions/ural/Tumenskaya.dart';
+>>>>>>> origin/anastasia
 import '../regions/center/bryansk.dart';
 import '../regions/center/kaluga.dart';
 import '../regions/center/oryol.dart';
@@ -29,6 +37,10 @@ import '../regions/north_caucaus/kchr.dart';
 import '../regions/north_caucaus/kmv.dart';
 import '../regions/north_caucaus/osetia.dart';
 import '../regions/north_caucaus/stavropol.dart';
+<<<<<<< HEAD
+=======
+import '../regions/ural/Yamalo-neneckii.dart';
+>>>>>>> origin/anastasia
 import 'article_detail_screen.dart';
 
 // ДОБАВИТЬ ИЗОБРАЖЕНИЕ, ЕСЛИ НЕТ РЕЗУЛЬТАТОВ ПОИСКА
@@ -74,6 +86,16 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Тверская область: Тверь", content: TverCity()),
     Article(title: "Тульская область", content: Tula()),
     Article(title: "Ярославская область", content: Yaroslavl()),
+<<<<<<< HEAD
+=======
+    
+    Article(title: "Ямало-Ненецкий АО", content: Yamalo_neneckii()),
+    Article(title: "Тюменская область", content: Tumenskaya()),
+    Article(title: "Свердловская область", content: Sverdlovskaya()),
+    Article(title: "Курганская область", content: Kurganskaya()),
+    Article(title: "Ханты-Мансийский АО", content: Hanti_Mansiiskii()),
+    Article(title: "Челябинская область", content: Chelyabinskaya()),
+>>>>>>> origin/anastasia
   ];
 
   List<Article> _filteredArticles = [];
@@ -103,7 +125,11 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+<<<<<<< HEAD
             TextField(
+=======
+            /*TextField(
+>>>>>>> origin/anastasia
               controller: _searchController,
               decoration: InputDecoration(
                 labelText: 'Поиск',
@@ -112,7 +138,11 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
               onChanged: (value) {
                 _filterArticles(value);
               },
+<<<<<<< HEAD
             ),
+=======
+            ),*/
+>>>>>>> origin/anastasia
             ListView.builder(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),
