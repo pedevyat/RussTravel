@@ -11578,547 +11578,659 @@
       }
     },
 
-{
-        "type": "node",
-        "id": -1,
-        "lat": 57.821349,
-        "lon": 28.356984,
-        "tags": {
-            "name": "Гостиница Ангельская",
-            "tourism": "hotel"
-        }
+    // Псковская область
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 57.821349,
+      "lon": 28.356984,
+      "tags": {
+        "name": "Гостиница Ангельская",
+        "website": "https://angelskaya.ru/",
+        "begin_price": "6000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8051,
-        "lon": 28.3357,
-        "tags": {
-            "name": "Отель Покровский",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8051,
+      "lon": 28.3357,
+      "tags": {
+        "name": "Отель Покровский",
+        "website": "https://pskhotel.ru/",
+        "begin_price": "8300",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8135,
-        "lon": 27.6147,
-        "tags": {
-            "name": "Гостиница 12 месяцев",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8135,
+      "lon": 27.6147,
+      "tags": {
+        "name": "Гостиница 12 месяцев",
+        "website": "https://pechoryhotel.ru/",
+        "begin_price": "2900",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8068,
-        "lon": 28.3493,
-        "tags": {
-            "name": "jazz hostelpskov",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8068,
+      "lon": 28.3493,
+      "tags": {
+        "name": "jazz hostelpskov",
+        "website": "https://travel.yandex.ru/hotels/pskov/jazz-hostelpskov/",
+        "begin_price": "2000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8235,
-        "lon": 28.3199,
-        "tags": {
-            "name": "Гостиница 903",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8235,
+      "lon": 28.3199,
+      "tags": {
+        "name": "Гостиница 903",
+        "website": "https://pskov903.ru/",
+        "begin_price": "11000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8074,
-        "lon": 28.3135,
-        "tags": {
-            "name": "Отель Барселона",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8074,
+      "lon": 28.3135,
+      "tags": {
+        "name": "Отель Барселона",
+        "website": "https://barcelona60.ru/",
+        "begin_price": "7920",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.7966,
-        "lon": 28.3725,
-        "tags": {
-            "name": "Гостиница Оазис",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.7966,
+      "lon": 28.3725,
+      "tags": {
+        "name": "Гостиница Оазис",
+        "website": "http://oazisotel.ru/",
+        "begin_price": "1800",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 56.352294921875,
-        "lon": 30.5090484619141,
-        "tags": {
-            "name": "Служебная",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 56.352294921875,
+      "lon": 30.5090484619141,
+      "tags": {
+        "name": "Служебная",
+        "website": "https://101hotels.com/main/cities/velikie_luki/sluzhebnaya_gostinitsa.html",
+        "begin_price": "2025",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8374366760254,
-        "lon": 28.2795238494873,
-        "tags": {
-            "name": "Соколиха",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8374366760254,
+      "lon": 28.2795238494873,
+      "tags": {
+        "name": "Соколиха",
+        "website": "https://travel.yandex.ru/hotels/pskov-oblast/gorodskaia-gostinitsa-sokolikha/",
+        "begin_price": "4500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.816356,
-        "lon": 27.617149,
-        "tags": {
-            "name": "Печоры парк-отель",
-            "tourism": "hotel"
-        }
-    },
-	{
-        "type": "node",
-        "id": -1,
-        "lat": 56.3522529602051,
-        "lon": 30.5643100738525,
-        "tags": {
-            "name": "Гостиница Амарис",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.816356,
+      "lon": 27.617149,
+      "tags": {
+        "name": "Печоры парк-отель",
+        "website": "https://pechorypark.ru/",
+        "begin_price": "1400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 56.287752,
-        "lon": 28.460611,
-        "tags": {
-            "name": "Прибалтийский отель",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 56.3522529602051,
+      "lon": 30.5643100738525,
+      "tags": {
+        "name": "Гостиница Амарис",
+        "website": "https://travel.yandex.ru/hotels/velikie-luky/amaris/",
+        "begin_price": "1900",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.0549,
-        "lon": 29.1327,
-        "tags": {
-            "name": "Имение Алтунъ",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 56.287752,
+      "lon": 28.460611,
+      "tags": {
+        "name": "Прибалтийский отель",
+        "website": "https://101hotels.com/main/cities/sebezh/pribaltiyskiy_otel.html",
+        "begin_price": "1600",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 56.3445205688477,
-        "lon": 30.5644493103027,
-        "tags": {
-            "name": "Луки-Сервис",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.0549,
+      "lon": 29.1327,
+      "tags": {
+        "name": "Имение Алтунъ",
+        "website": "https://hotel-altun.ru/",
+        "begin_price": "8500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.85136,
-        "lon": 27.93518,
-        "tags": {
-            "name": "Лукоморье",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 56.3445205688477,
+      "lon": 30.5644493103027,
+      "tags": {
+        "name": "Луки-Сервис",
+        "website": "https://luki-service.ru/",
+        "begin_price": "2400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.811043,
-        "lon": 28.337403,
-        "tags": {
-            "name": "Двор Подзноева студии и апартаменты",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.85136,
+      "lon": 27.93518,
+      "tags": {
+        "name": "Лукоморье",
+        "website": "https://lukomorie60.ru/",
+        "begin_price": "5100",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 56.2769130,
-        "lon": 28.4942280,
-        "tags": {
-            "name": "Хостел Себеж",
-            "tourism": "hostel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.811043,
+      "lon": 28.337403,
+      "tags": {
+        "name": "Двор Подзноева студии и апартаменты",
+        "website": "https://travel.yandex.ru/hotels/pskov/dvor-podznoeva-studii-i-apartamenty/",
+        "begin_price": "5200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8162,
-        "lon": 28.3258,
-        "tags": {
-            "name": "Hostel 60",
-            "tourism": "hostel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 56.2769130,
+      "lon": 28.4942280,
+      "tags": {
+        "name": "Хостел Себеж",
+        "website": "https://www.tur-hotel.ru/hotels/russia/pskov-region/sebezh/xostel-sebezh/",
+        "begin_price": "3524",
+        "tourism": "hostel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8104,
-        "lon": 28.3371,
-        "tags": {
-            "name": "Двор Подзноева Главный Корпус",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8162,
+      "lon": 28.3258,
+      "tags": {
+        "name": "Hostel 60",
+        "website": "https://www.hotels.ru/rus/hotels/russia/pskov/khostel60.htm",
+        "begin_price": "750",
+        "tourism": "hostel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.053245,
-        "lon": 29.132455,
-        "tags": {
-            "name": "Имение Алтунъ дом у озера",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8104,
+      "lon": 28.3371,
+      "tags": {
+        "name": "Двор Подзноева Главный Корпус",
+        "website": "https://travel.mts.ru/hotels/rossiya/pskov/dvor_podznoeva_(glavnyi_korpus)?utm_source=cvm_context_stream_tr&utm_medium=yandex_cpc&utm_campaign=stream_mtstravel_rus_hotel_dsa-feed_rf_search_pc%7C99089466&utm_content=adset_id%3D5316717635%7Cnid%3Dnone%7Cdevice_type%3Ddesktop%7Crid%3D4853470&yclid=3508819017330327551&utm_referrer=https%3A%2F%2Fyandex.by%2F&checkin=2024-04-22&checkout=2024-04-23&adults=2&children=0&location=54e2b05f-137d-41ab-bcbe-401e28491415",
+        "begin_price": "3762",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.7065,
-        "lon": 27.8631,
-        "tags": {
-            "name": "Гостиничный комплекс Изборск",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.053245,
+      "lon": 29.132455,
+      "tags": {
+        "name": "Имение Алтунъ дом у озера",
+        "website": "https://www.booking.com/hotel/ru/quot-imieniie-altun-quot-quot-dom-nad-ozierom-quot.ru.html",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.8221,
-        "lon": 28.3319,
-        "tags": {
-            "name": "Золотая набережная",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.7065,
+      "lon": 27.8631,
+      "tags": {
+        "name": "Гостиничный комплекс Изборск",
+        "website": "http://izborskhotel.ru/",
+        "begin_price": "700",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.341812,
-        "lon": 28.364925,
-        "tags": {
-            "name": "Отель Остров",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.8221,
+      "lon": 28.3319,
+      "tags": {
+        "name": "Золотая набережная",
+        "website": "http://zn-hotel.ru/",
+        "begin_price": "3200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.754267,
-        "lon": 27.824172,
-        "tags": {
-            "name": "Мальская Долина",
-            "tourism": "hotel"
-        }
-    },
-	{
-        "type": "node",
-        "id": -1,
-        "lat": 57.7961845397949,
-        "lon": 28.412618637085,
-        "tags": {
-            "name": "Пилигрим",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.341812,
+      "lon": 28.364925,
+      "tags": {
+        "name": "Отель Остров",
+        "website": "https://ostrovpark.ru/",
+        "begin_price": "2565",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 57.06174,
-        "lon": 28.90269,
-        "tags": {
-            "name": "Соседи Пушкина",
-            "tourism": "hotel"
-        }
-    },
-	{
-        "type": "node",
-        "id": -1,
-        "lat": 54.722155,
-        "lon": 20.436375,
-        "tags": {
-            "name": "Хостел Bed idea",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.754267,
+      "lon": 27.824172,
+      "tags": {
+        "name": "Мальская Долина",
+        "website": "https://travel.yandex.ru/hotels/pskov-oblast/malskaia-dolina/",
+        "begin_price": "4200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.738654,
-        "lon": 20.50715,
-        "tags": {
-            "name": "Vanva",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.7961845397949,
+      "lon": 28.412618637085,
+      "tags": {
+        "name": "Пилигрим",
+        "website": "https://www.pilgrimway.house/",
+        "begin_price": "3900",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.71677,
-        "lon": 20.487932,
-        "tags": {
-            "name": "Хостел 2028",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 57.06174,
+      "lon": 28.90269,
+      "tags": {
+        "name": "Соседи Пушкина",
+        "website": "https://savkino.ru/",
+        "begin_price": "5300",
+        "tourism": "hotel"
+      }
+    },
+
+    // Калининградская область
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.722155,
+      "lon": 20.436375,
+      "tags": {
+        "name": "Хостел Bed idea",
+        "website": "https://bedidea-hostel.ru/",
+        "begin_price": "3620",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.7006,
-        "lon": 20.4969,
-        "tags": {
-            "name": "Скворечник",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.738654,
+      "lon": 20.50715,
+      "tags": {
+        "name": "Vanva",
+        "website": "https://travel.yandex.ru/hotels/kaliningrad/vanva-apartments/",
+        "begin_price": "2950",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.7259,
-        "lon": 20.4831,
-        "tags": {
-            "name": "Отель Чайковский",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.71677,
+      "lon": 20.487932,
+      "tags": {
+        "name": "Хостел 2028",
+        "website": "https://hostel2028.com/home",
+        "begin_price": "1200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.748379,
-        "lon": 20.459831,
-        "tags": {
-            "name": "Maziiz Hotel",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.7006,
+      "lon": 20.4969,
+      "tags": {
+        "name": "Скворечник",
+        "website": "https://skvorechnik.net/",
+        "begin_price": "1360",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.72385,
-        "lon": 20.489943,
-        "tags": {
-            "name": "Отель Черепаха",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.7259,
+      "lon": 20.4831,
+      "tags": {
+        "name": "Отель Чайковский",
+        "website": "https://ageevgroup.ru/hotels/tchaikovsky/",
+        "begin_price": "4400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.965387,
-        "lon": 20.489373,
-        "tags": {
-            "name": "Mr. Justs hotel",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.748379,
+      "lon": 20.459831,
+      "tags": {
+        "name": "Maziiz Hotel",
+        "website": "https://maziiz-hotel.ru/",
+        "begin_price": "720",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.959036,
-        "lon": 20.468753,
-        "tags": {
-            "name": "Вилла Лана",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.72385,
+      "lon": 20.489943,
+      "tags": {
+        "name": "Отель Черепаха",
+        "website": "https://travel.yandex.ru/hotels/kaliningrad/cherepakha/",
+        "begin_price": "4099",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9597816467285,
-        "lon": 20.4767951965332,
-        "tags": {
-            "name": "Арт-хостел",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.965387,
+      "lon": 20.489373,
+      "tags": {
+        "name": "Mr. Justs hotel",
+        "website": "https://mrjustshotel.ru/",
+        "begin_price": "7250",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.957729,
-        "lon": 20.464750,
-        "tags": {
-            "name": "Кристалл",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.959036,
+      "lon": 20.468753,
+      "tags": {
+        "name": "Вилла Лана",
+        "website": "https://villa-lana.ru/",
+        "begin_price": "8135",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.9434050,
-        "lon": 20.1453040,
-        "tags": {
-            "name": "Малина Штольц",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9597816467285,
+      "lon": 20.4767951965332,
+      "tags": {
+        "name": "Арт-хостел",
+        "website": "https://arthostel39.ru/",
+        "begin_price": "1100",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.953397,
-        "lon": 20.218958,
-        "tags": {
-            "name": "Гостиница Круиз",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.957729,
+      "lon": 20.464750,
+      "tags": {
+        "name": "Кристалл",
+        "website": "https://kristallspa.ru/",
+        "begin_price": "5400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.951632,
-        "lon": 20.228434,
-        "tags": {
-            "name": "Florange",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.9434050,
+      "lon": 20.1453040,
+      "tags": {
+        "name": "Малина Штольц",
+        "website": "https://www.vmaline.life/apartments-malina-shtolz-family/",
+        "begin_price": "3680",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.011019,
-        "lon": 20.617625,
-        "tags": {
-            "name": "Вальде Парк",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.953397,
+      "lon": 20.218958,
+      "tags": {
+        "name": "Гостиница Круиз",
+        "website": "https://travel.yandex.ru/hotels/pionersky/kruiz/",
+        "begin_price": "2900",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.631029,
-        "lon": 21.811249,
-        "tags": {
-            "name": "Отель у медведя",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.951632,
+      "lon": 20.228434,
+      "tags": {
+        "name": "Florange",
+        "website": "https://travel.yandex.ru/hotels/pionersky/floranzh/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.635958,
-        "lon": 21.814312,
-        "tags": {
-            "name": "Отель Кочар",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.011019,
+      "lon": 20.617625,
+      "tags": {
+        "name": "Вальде Парк",
+        "website": "https://walde-park.ru/",
+        "begin_price": "4400",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.778315,
-        "lon": 20.618144,
-        "tags": {
-            "name": "La Belle",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.631029,
+      "lon": 21.811249,
+      "tags": {
+        "name": "Отель у медведя",
+        "website": "https://travel.yandex.ru/hotels/chernyahovsk/u-medvedia/",
+        "begin_price": "2526",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 85.966091,
-        "lon": 54.286762,
-        "tags": {
-            "name": "Металлург",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.635958,
+      "lon": 21.814312,
+      "tags": {
+        "name": "Отель Кочар",
+        "website": "https://kochar39.ru/",
+        "begin_price": "4000",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 44.310460,
-        "lon": 38.699770,
-        "tags": {
-            "name": "Аквамарин",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.778315,
+      "lon": 20.618144,
+      "tags": {
+        "name": "La Belle",
+        "website": "https://labellehotel.ru/",
+        "begin_price": "3500",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 44.304,
-        "lon": 38.7555,
-        "tags": {
-            "name": "Мельница",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 85.966091,
+      "lon": 54.286762,
+      "tags": {
+        "name": "Металлург",
+        "website": "https://www.tur-hotel.ru/hotels/russia/kaliningrad-region/guryevsk/metallurg/",
+        "begin_price": "1392",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.600271,
-        "lon": 21.966811,
-        "tags": {
-            "name": "Гостиный двор",
-            "tourism": "hotel"
-        }
-    },
-	{
-        "type": "node",
-        "id": -1,
-        "lat": 55.1578636169434,
-        "lon": 20.8481273651123,
-        "tags": {
-            "name": "Мини-гостиница на Куршской косе",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 44.310460,
+      "lon": 38.699770,
+      "tags": {
+        "name": "Аквамарин",
+        "website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/akvamarin/",
+        "begin_price": "7597",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 55.157929,
-        "lon": 20.843601,
-        "tags": {
-            "name": "Трактир",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 44.304,
+      "lon": 38.7555,
+      "tags": {
+        "name": "Мельница",
+        "website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/staraia-melnitsa/",
+        "begin_price": "3200",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.647385,
-        "lon": 21.073853,
-        "tags": {
-            "name": "Hotel Ritsa",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.600271,
+      "lon": 21.966811,
+      "tags": {
+        "name": "Гостиный двор",
+        "website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/gostinyi-dvor/",
+        "begin_price": "1700",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.893042,
-        "lon": 21.067907,
-        "tags": {
-            "name": "санаторий гостиничный комплекс оздоровительного туризма Амбер Сакрум",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.1578636169434,
+      "lon": 20.8481273651123,
+      "tags": {
+        "name": "Мини-гостиница на Куршской косе",
+        "website": "https://kaliningrad.sutochno.ru/lesnoi/hotels/88067",
+        "begin_price": "6100",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.747730255127,
-        "lon": 20.2310752868652,
-        "tags": {
-            "name": "Гастхофгренц",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 55.157929,
+      "lon": 20.843601,
+      "tags": {
+        "name": "Трактир",
+        "website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/traktir/",
+        "begin_price": "4800",
+        "tourism": "hotel"
+      }
     },
     {
-        "type": "node",
-        "id": -1,
-        "lat": 54.662205,
-        "lon": 20.109059,
-        "tags": {
-            "name": "Alena",
-            "tourism": "hotel"
-        }
+      "type": "node",
+      "id": -1,
+      "lat": 54.647385,
+      "lon": 21.073853,
+      "tags": {
+        "name": "Hotel Ritsa",
+        "website": "https://www.tur-hotel.ru/hotels/russia/kaliningrad-region/gvardeysk/hotel-ritsa/",
+        "begin_price": "1200",
+        "tourism": "hotel"
+      }
     },
-	{
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.893042,
+      "lon": 21.067907,
+      "tags": {
+        "name": "санаторий гостиничный комплекс оздоровительного туризма Амбер Сакрум",
+        "website": "https://ostrovok.ru/hotel/russia/zalivino/mid10219554/gostinichny_kompleks_ozdorovitelnogo_turizma_ambersakrum_health_resort/?utm_source=yandex&utm_medium=cpc&utm_term=&utm_campaign=105830229&from=sem-y7-00000000-105830229%7C5386991671%7C%7Bcreative%7D%7C5278980%7C0%7Cno%7Ctype3%7Cdesktop%7C5278980%7C0%7C%7CВсе%20товары%7C5278980%7C1%7Cpremium%7Cnone%7Csearch%7C157%7Cnone&yclid=2922879388528934911",
+        "begin_price": "13084",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.747730255127,
+      "lon": 20.2310752868652,
+      "tags": {
+        "name": "Гастхофгренц",
+        "website": "https://gasthofgrenz.ru/",
+        "begin_price": "3600",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": -1,
+      "lat": 54.662205,
+      "lon": 20.109059,
+      "tags": {
+        "name": "Alena",
+        "website": "https://www.tur-hotel.ru/hotels/russia/kaliningrad-region/svetliy/alena/",
+        "begin_price": "1300",
+        "tourism": "hotel"
+      }
+    },
+
+    {
         "type": "node",
         "id": -1,
         "lat": 54.9539,
