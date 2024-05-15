@@ -50300,7 +50300,8 @@
     "name": "Отель «Альтаир»",
     "name:en": "Altair Hotel",
     "name:ru": "Отель «Альтаир»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://altair-anapa.ru/"
   }
 },
 {
@@ -50352,7 +50353,8 @@
   "tags": {
     "name": "Гранд-Круиз",
     "phone": "+7 800 3333349",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://grand-kruiz.ru/"
   }
 },
 {
@@ -50411,7 +50413,8 @@
   "lon": 37.7527989,
   "tags": {
     "name": "Viva Victoria",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vv-hotel.ru/"
   }
 },
 {
@@ -50447,7 +50450,8 @@
     "name": "Крылья",
     "name:ru": "Крылья",
     "smoking": "outside",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://krylya-abrau.ru/"
   }
 },
 {
@@ -50636,7 +50640,8 @@
   "lat": 44.5554458,
   "lon": 38.0962717,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://orion-house.nethouse.ru/"
   }
 },
 {
@@ -50657,7 +50662,8 @@
   "tags": {
     "name": "У Татьяны",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://u-tatjany-novorossijskaja-ulitsa.clients.site/"
   }
 },
 {
@@ -50667,7 +50673,8 @@
   "lon": 38.0049578,
   "tags": {
     "name": "«Южная ночь»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/krymsk/iuzhnaia-noch/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -50688,7 +50695,7 @@
     "addr:postcode": "353460",
     "email": "el-greco_hotel@mail.com",
     "internet_access": "wlan",
-    "name:en": "Отель “El-Greco”",
+    "name": "Отель “El-Greco”",
     "opening_hours": "24/7",
     "operator": "Сотирова Г.К",
     "phone": "+7 928 2606100",
@@ -50760,7 +50767,8 @@
   "lon": 36.7289096,
   "tags": {
     "name": "Боспор",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapa-mayak.ru/"
   }
 },
 {
@@ -50780,7 +50788,8 @@
   "lon": 37.3214423,
   "tags": {
     "name": "Патио",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://patioanapa.ru/"
   }
 },
 {
@@ -50814,7 +50823,8 @@
   "lon": 37.2997119,
   "tags": {
     "name": "Улыбка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----8sbco1adbu0bn3gi.xn--p1ai/"
   }
 },
 {
@@ -50824,7 +50834,8 @@
   "lon": 37.2991862,
   "tags": {
     "name": "Аленка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://baza-otdyha-alenka.clients.site/"
   }
 },
 {
@@ -50844,7 +50855,8 @@
   "lon": 37.3012875,
   "tags": {
     "name": "Калина красная",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kalina-krasnaya.org/"
   }
 },
 {
@@ -50854,7 +50866,8 @@
   "lon": 37.3199010,
   "tags": {
     "name": "ДБО Краснодарская Смена",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://krdsmena.ru/"
   }
 },
 {
@@ -50874,7 +50887,8 @@
   "lon": 37.3221197,
   "tags": {
     "name": "Лето",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://letootel.com/"
   }
 },
 {
@@ -50884,7 +50898,8 @@
   "lon": 37.3207928,
   "tags": {
     "name": "Агат",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://pansionat-agata.ru/"
   }
 },
 {
@@ -50904,7 +50919,8 @@
   "lon": 37.3212530,
   "tags": {
     "name": "Sunmarinn",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sunmarinn.ru/"
   }
 },
 {
@@ -50917,7 +50933,8 @@
     "addr:street": "Геленджикский проспект",
     "internet_access": "wlan",
     "name": "Орхидея",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://orchid360.ru/"
   }
 },
 {
@@ -50927,7 +50944,8 @@
   "lon": 37.3055696,
   "tags": {
     "name": "Мишель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://mishelhotel.ru/"
   }
 },
 {
@@ -50937,7 +50955,8 @@
   "lon": 37.3055020,
   "tags": {
     "name": "Черноморье",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website" : "http://chernomor.anap.ru/"
   }
 },
 {
@@ -50957,7 +50976,8 @@
   "lon": 37.3019028,
   "tags": {
     "name": "БФО, АО",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapa-bfo.ru/"
   }
 },
 {
@@ -50967,7 +50987,8 @@
   "lon": 37.3217978,
   "tags": {
     "name": "Сибирь",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.hotel-anapa.com/"
   }
 },
 {
@@ -50977,7 +50998,8 @@
   "lon": 37.2550574,
   "tags": {
     "name": "Эмеральд",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://emerald-anapa.ru/"
   }
 },
 {
@@ -51009,7 +51031,8 @@
   "lat": 44.6566908,
   "lon": 37.9393580,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/krasnodar-krai/corona-palace/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -51018,7 +51041,8 @@
   "lat": 44.9132445,
   "lon": 38.0030209,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"name": "Старый Замок"
   }
 },
 {
@@ -51049,7 +51073,8 @@
   "lon": 37.9327256,
   "tags": {
     "name": "Тихая Гавань",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gavan-djemete.ru/"
   }
 },
 {
@@ -51067,7 +51092,8 @@
   "lat": 45.2175851,
   "lon": 36.7110049,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://wa.me/79184696009"
   }
 },
 {
@@ -51077,7 +51103,8 @@
   "lon": 37.2921211,
   "tags": {
     "name": "Петроградский форт",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://spbfort.ru/"
   }
 },
 {
@@ -51087,7 +51114,8 @@
   "lon": 37.2898339,
   "tags": {
     "name": "Караван",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/karavanhotel"
   }
 },
 {
@@ -51097,7 +51125,8 @@
   "lon": 37.2911401,
   "tags": {
     "name": "Ателика Олимп",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapaolimp.ru/"
   }
 },
 {
@@ -51107,7 +51136,8 @@
   "lon": 37.2935855,
   "tags": {
     "name": "Колибри",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/gelendgik/kolibri/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -51168,7 +51198,8 @@
   "tags": {
     "name": "Неолит",
     "name:ru": "Неолит",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/rossiya/gelendzhik/neolit_1?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom_1137967774_bronirovat"
   }
 },
 {
@@ -51207,7 +51238,8 @@
     "addr:street": "Совхозный переулок",
     "name": "Бригантина",
     "phone": "+7 928 4444590",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.divnomorskoe.ru/"
   }
 },
 {
@@ -51264,7 +51296,7 @@
     "opening_hours": "Mo-Su 12:00-24:00",
     "phone": "+7 938 5200544",
     "tourism": "hotel",
-    "website": "oscarhotel.ru"
+    "website": "https://oscar-hotel.com/"
   }
 },
 {
@@ -51283,7 +51315,8 @@
   "lat": 44.6818340,
   "lon": 37.5670228,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://durso-tower.ru/"
   }
 },
 {
@@ -51305,7 +51338,8 @@
   "lat": 44.9779132,
   "lon": 37.2635797,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://miracleon.ru/funf/"
   }
 },
 {
@@ -51376,7 +51410,8 @@
     "addr:street": "Коллективная улица",
     "name": "MONAKO",
     "rooms": "88002221344",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/krasnodar-krai/gostinitsa-monako/?utm_source=yandex-maps&utm_medium=business-button&adults=2"
   }
 },
 {
@@ -51386,7 +51421,8 @@
   "lon": 37.7790683,
   "tags": {
     "name": "Олимп",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapaolimp.ru/"
   }
 },
 {
@@ -51432,7 +51468,9 @@
   "lat": 44.9084610,
   "lon": 37.3203413,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://grandhotelanapa.ru/?utm_campaign=priority&utm_medium=maps&utm_source=yandex",
+	"name": "Grand Hotel Anapa"
   }
 },
 {
@@ -51441,7 +51479,9 @@
   "lat": 44.9085674,
   "lon": 37.3210487,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapa-sjuts.clients.site/",
+	"name": "Анапа Сьютс"
   }
 },
 {
@@ -51450,7 +51490,9 @@
   "lat": 44.9078395,
   "lon": 37.3220965,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"name": "Grand Sapphire Village",
+	"website": "https://travel.mts.ru/hotels/rossiya/anapa/b_flats_(bi_flets)_na_proezde_golubye_dali?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom2_124438262610_bronirovat"
   }
 },
 {
@@ -51468,7 +51510,9 @@
   "lat": 44.9092007,
   "lon": 37.3210053,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://acropolis-anapa.ru/",
+	"name": "Акрополис"
   }
 },
 {
@@ -51477,7 +51521,9 @@
   "lat": 44.9091629,
   "lon": 37.3205749,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"name": "SolarHouse Анапа",
+	"website": "https://solarhouse-anapa.ru/"
   }
 },
 {
@@ -51489,7 +51535,8 @@
     "addr:housenumber": "3В",
     "addr:street": "Пионерский проспект",
     "name": "Посейдон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://poseidon-u-morya.com/"
   }
 },
 {
@@ -51498,7 +51545,9 @@
   "lat": 44.9098789,
   "lon": 37.3205387,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"name": "Dream Hotel Anapa",
+	"website": "https://dreamhotelanapa.ru/"
   }
 },
 {
@@ -51519,7 +51568,8 @@
   "lon": 37.1073436,
   "tags": {
     "name": "Парк-отель \"Благовещенская\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://blaga-park-otel.ru/"
   }
 },
 {
@@ -51529,7 +51579,8 @@
   "lon": 37.3201291,
   "tags": {
     "name": "Богема",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://bogema-premium.ru/?utm_campaign=priority&utm_medium=maps&utm_source=yandex"
   }
 },
 {
@@ -51539,7 +51590,8 @@
   "lon": 38.1379857,
   "tags": {
     "name": "Le Sea",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lesea.ru/"
   }
 },
 {
@@ -51572,7 +51624,8 @@
     "internet_access": "wlan",
     "internet_access:fee": "customers",
     "name": "RS-Royal",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rs-hotel.ru/"
   }
 },
 {
@@ -51652,7 +51705,8 @@
   "lon": 37.9142491,
   "tags": {
     "name": "Аура",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ostrovok1.ru/"
   }
 },
 {
@@ -51672,7 +51726,8 @@
   "lon": 37.6971952,
   "tags": {
     "name": "Черномор база отдыха",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": ""
   }
 },
 {
@@ -51682,7 +51737,8 @@
   "lon": 37.6966760,
   "tags": {
     "name": "Черномор РОСМОРПОРТ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.rosmorport.ru/filials/nvr_serv_chernomor/"
   }
 },
 {
@@ -51707,7 +51763,8 @@
   "lon": 38.0722472,
   "tags": {
     "name": "Геленджик",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----etbddacfqsfhrs0d6i.xn--p1ai/"
   }
 },
 {
@@ -51716,7 +51773,9 @@
   "lat": 44.5559097,
   "lon": 38.0841181,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"name": "Bellagio",
+	"website": "https://hotelbellagio.ru/"
   }
 },
 {
@@ -51725,7 +51784,7 @@
   "lat": 44.5666829,
   "lon": 38.0799677,
   "tags": {
-    "name:en": "Mari",
+    "name": "Mari",
     "tourism": "hotel"
   }
 },
@@ -51737,7 +51796,8 @@
   "tags": {
     "internet_access": "wlan",
     "name": "Sunparco",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.sunparco-hotel.ru/"
   }
 },
 {
@@ -51747,7 +51807,8 @@
   "lon": 37.3221448,
   "tags": {
     "name": "Жара",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn-----7kcabaa7ak2c2adxiy6n.xn--p1ai/"
   }
 },
 {
@@ -51757,7 +51818,8 @@
   "lon": 37.2996126,
   "tags": {
     "name": "Черная жемчужина",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.blackpearlanapa.ru/"
   }
 },
 {
@@ -51767,7 +51829,8 @@
   "lon": 37.2983717,
   "tags": {
     "name": "Гостевой дом \"Солнечный\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/public192606062"
   }
 },
 {
@@ -51776,7 +51839,9 @@
   "lat": 44.9862650,
   "lon": 37.2677388,
   "tags": {
-    "tourism": "hotel"
+	  "name": "ИмператорЪ",
+    "tourism": "hotel",
+	"website": "https://xn----8sbaavaa9chffcsdf8h.xn--p1ai/"
   }
 },
 {
@@ -51785,6 +51850,8 @@
   "lat": 44.9632028,
   "lon": 37.2798292,
   "tags": {
+	  "name": "Alfa Summer",
+	  "website": "https://alfasummer.ru/",
     "tourism": "hotel"
   }
 },
@@ -51794,7 +51861,9 @@
   "lat": 44.9563301,
   "lon": 37.2901007,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"name": "Skybridge",
+	"website": "https://skybridge-hotel.ru/?utm_source=maps"
   }
 },
 {
@@ -51803,6 +51872,8 @@
   "lat": 44.9564857,
   "lon": 37.2904420,
   "tags": {
+	  "name": "Белый Лебедь",
+	  "website": "http://xn----7sbaagsfb5cqx7n.xn--p1ai/"
     "tourism": "hotel"
   }
 },
@@ -51829,7 +51900,7 @@
     "name": "Берёzка",
     "opening_hours": "24/7",
     "tourism": "hotel",
-    "website": "http://Береzка Маевское ш., 10 https://yandex.ru/maps/org/124838262966"
+    "website": "https://yandex.ru/maps/org/124838262966"
   }
 },
 {
@@ -51839,7 +51910,8 @@
   "lon": 37.9160650,
   "tags": {
     "name": "Alion",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://alion-hotel.ru/"
   }
 },
 {
@@ -51885,8 +51957,9 @@
   "lat": 44.9888816,
   "lon": 37.2433311,
   "tags": {
-    "name:en": "Corudo Family",
-    "tourism": "hotel"
+    "name": "Corudo Family",
+    "tourism": "hotel",
+	"website": "https://www.corudo-anapa.ru/"
   }
 },
 {
@@ -51897,8 +51970,9 @@
   "tags": {
     "addr:housenumber": "3",
     "addr:street": "Гиацинтовый проезд",
-    "name:en": "Mar Nero",
-    "tourism": "hotel"
+    "name": "Mar Nero",
+    "tourism": "hotel",
+	"website": "https://marnero.ru/"
   }
 },
 {
@@ -51918,7 +51992,8 @@
   "lon": 37.3118773,
   "tags": {
     "name": "Парк-отель \"Анапа\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://parkhotel-anapa.com/"
   }
 },
 {
@@ -51999,7 +52074,9 @@
   "lat": 44.9863676,
   "lon": 37.2626334,
   "tags": {
-    "tourism": "hotel"
+	  "name": "Инара",
+    "tourism": "hotel",
+	"website": "https://viber.click/79881312308"
   }
 },
 {
@@ -52008,7 +52085,8 @@
   "lat": 44.9862991,
   "lon": 37.2624617,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.kars-vityazevo.com/"
   }
 },
 {
@@ -52100,7 +52178,8 @@
     "addr:housenumber": "121",
     "addr:street": "Пионерский проспект",
     "internet_access": "wlan",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": ""
   }
 },
 {
@@ -52113,7 +52192,8 @@
     "addr:housenumber": "6Б",
     "addr:street": "Джеметинский проезд",
     "name": "La Costa",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lacosta-hotel.ru/"
   }
 },
 {
@@ -52126,7 +52206,8 @@
     "addr:housenumber": "6А",
     "addr:street": "Джеметинский проезд",
     "name": "Кручар",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://xn--80atsbny.xn--p1ai/"
   }
 },
 {
@@ -52139,7 +52220,8 @@
     "addr:housenumber": "6Г",
     "addr:street": "Джеметинский проезд",
     "name": "Фон Мишель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/b52eff3a-2a73-417e-900c-ad3f4bac5bd9?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom2_187662598913_bronirovat"
   }
 },
 {
@@ -52195,7 +52277,8 @@
   "lon": 36.8952564,
   "tags": {
     "name": "Веселовка Парк",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://veselovka-park.ru/"
   }
 },
 {
@@ -52217,7 +52300,8 @@
   "lon": 37.3233421,
   "tags": {
     "name": "Центральная",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapa-centralnaya.ru/"
   }
 },
 {
