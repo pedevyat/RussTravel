@@ -40,7 +40,11 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _currentIndex = 0;
   final List<Widget> _pages = [
+<<<<<<< HEAD
     //MapScreen(),
+=======
+    MapScreen(),
+>>>>>>> 495a5bc6bf135ed8a12e60783de84981ce95f278
     ArticleListScreen()
   ];
 
