@@ -4291,3 +4291,294 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 53.3517,
+"lon": 83.7777,
+"tags": {
+"name": "Хостел Вагон",
+"website": "https://hostelvagon22.ru/",
+"begin_price": "800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.3838,
+"lon": 83.7368,
+"tags": {
+"name": "Hotel palma",
+"website": "https://travel.yandex.ru/hotels/barnaul/palma/",
+"begin_price": "2200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.993801116943,
+"lon": 84.977996826172,
+"tags": {
+"name": "Отель Нео",
+"website": "https://travel.yandex.ru/hotels/belokurikha/neo/",
+"begin_price": "5000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.9930458068848,
+"lon": 84.9766845703125,
+"tags": {
+"name": "Отель баваренок",
+"website": "https://travel.yandex.ru/hotels/belokurikha/bavarionok/",
+"begin_price": "2200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.9532127380371,
+"lon": 84.8833465576172,
+"tags": {
+"name": "Гостиница Олимп",
+"website": "https://olimp-altai.ru/",
+"begin_price": "5000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.9316,
+"lon": 85.815,
+"tags": {
+"name": "Время Счастья",
+"website": "https://travel.yandex.ru/hotels/altai-krai/vremia-schastia/",
+"begin_price": "2200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.000325,
+"lon": 85.881150,
+"tags": {
+"name": "Star",
+"website": "https://101hotels.com/main/cities/katun/altai_star_resort.html",
+"begin_price": "1700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.339501,
+"lon": 83.678352,
+"tags": {
+"name": "Сити Фокс",
+"website": "https://redfoxhotel.ru/?id=4&page=catalog",
+"begin_price": "3400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.347865,
+"lon": 83.786864,
+"tags": {
+"name": "Redfox",
+"website": "https://redfoxhotel.ru/" ,
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.541581,
+"lon": 85.226989,
+"tags": {
+"name": "На старом месте",
+"website": "https://гостиница-на-старом-месте.рф/",
+"begin_price": "2800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.345962,
+"lon": 83.777512,
+"tags": {
+"name": "Центральный Барнаул",
+"website": "https://ostrovok.ru/hotel/russia/barnaul/mid6599013/centralnaya_2/",
+"begin_price": "6267",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 52.284068,
+"lon": 104.252034,
+"tags": {
+"name": "Добрый кот",
+"website": "https://ostrovok.ru/hotel/russia/irkutsk/mid7776570/dobryi_kot/",
+"begin_price": "1739",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.256408,
+"lon": 104.355283,
+"tags": {
+"name": "Гостиница учебного центра профсоюзов",
+"website": "https://travel.yandex.ru/hotels/irkutsk/uchebnyi-tsentr-profsoiuzov/",
+"begin_price": "1300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.288866,
+"lon": 104.285376,
+"tags": {
+"name": "Иркут",
+"website": "https://travel.yandex.ru/hotels/irkutsk/irkut/",
+"begin_price": "2699",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.253558,
+"lon": 104.253441,
+"tags": {
+"name": "Союз",
+"website": "https://hotelsoyuz38.ru/",
+"begin_price": "5100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.276299,
+"lon": 104.290236,
+"tags": {
+"name": "Гостиница 130 hotel",
+"website": "https://130hotel.ru/",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.785029,
+"lon": 32.039466,
+"tags": {
+"name": "Апартаменты центральный парк премиум в жк 4 солнца",
+"website": "https://www.tur-hotel.ru/hotels/russia/irkutsk-region/irkutsk/apartamenty-czentralnyj-park-premium-v-zhk-4-solncza/",
+"begin_price": "6603",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.2487,
+"lon": 104.27118,
+"tags": {
+"name": "Гостиница Академическая",
+"website": "https://academichotel.ru/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.281401,
+"lon": 104.275962,
+"tags": {
+"name": "Байкал",
+"website": "https://travel.yandex.ru/hotels/irkutsk-oblast/gostinitsa-baikal/",
+"begin_price": "4000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.0132522583008,
+"lon": 106.880104064941,
+"tags": {
+"name": "Baikalmi",
+"website": "https://www.tur-hotel.ru/hotels/russia/irkutsk-region/lake-baikal/sakhyurta/gostevoy-dom-baikalmi/",
+"begin_price": "7650",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.0203437805176,
+"lon": 106.882247924805,
+"tags": {
+"name": "Панорама",
+"website": "https://travel.yandex.ru/hotels/irkutsk-oblast/panorama/",
+"begin_price": "5890",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.538201,
+"lon": 104.047512,
+"tags": {
+"name": "Байкалина",
+"website": "https://101hotels.com/main/cities/utulik/usadba_baikkalina.html",
+"begin_price": "6912",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.538201,
+"lon": 104.047512,
+"tags": {
+"name": "Байкал йети",
+"website": "https://baikalyeti.com/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.1931425712,
+"lon": 107.3320035,
+"tags": {
+"name": "Порт Ольхон",
+"website": "https://portolkhon.com/",
+"begin_price": "60000",
+"tourism": "hotel"
+}
+},
+
