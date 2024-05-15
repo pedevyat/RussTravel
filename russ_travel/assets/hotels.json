@@ -4931,4 +4931,306 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 54.366882,
+"lon": 86.377033,
+"tags": {
+"name": "Медведь",
+"website": "https://broni.travel/kemerovskaya-oblast/kemerovo/mini-otel-medved-belovo/",
+"begin_price": "3620",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 86.300997,
+"lon": 54.415739,
+"tags": {
+"name": "Янушка",
+"website": "https://www.komandirovka.ru/hotels/belovo/yanushka/",
+"begin_price": "2720",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.767152,
+"lon": 87.962749,
+"tags": {
+"name": "Замок Эдельвейс",
+"website": "https://www.alean.ru/kemerovskaya_oblast/sheregesh/zamok_edelvejs_zagorodnyj_otel/",
+"begin_price": "4800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.083286,
+"lon": 86.01951,
+"tags": {
+"name": "Анжерская",
+"website": "http://www.hotel-as.com/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.078382,
+"lon": 86.019581,
+"tags": {
+"name": "ИП Лищенко",
+"website": "https://bronevik.com/ru/hotel/russia/anzhero-sudzhensk/ip-lishchenko",
+"begin_price": "2600",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 56.013699,
+"lon": 92.880258,
+"tags": {
+"name": "Полиарт",
+"website": "https://travel.yandex.ru/hotels/krasnoyarsk/poliart/",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.011359,
+"lon": 92.862478,
+"tags": {
+"name": "Дом-отель",
+"website": "https://dom-otel.rhotel.site/",
+"begin_price": "2940",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.014609,
+"lon": 92.873745,
+"tags": {
+"name": "Гостиница Sky-центр",
+"website": "https://skyotel.ru/center/",
+"begin_price": "5300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.014488,
+"lon": 92.849547,
+"tags": {
+"name": "Купеческий отель",
+"website": "https://www.kupecheski.ru/",
+"begin_price": "6100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.014031,
+"lon": 92.857485,
+"tags": {
+"name": "Дом-отель Нео",
+"website": "https://dom-hotel24.ru/hotel-krasnoyarsk/neo/",
+"begin_price": "5000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.013423,
+"lon": 92.888991,
+"tags": {
+"name": "Метелица",
+"website": "https://hotel-metelitsa.ru/",
+"begin_price": "4950",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.97,
+"lon": 92.7653,
+"tags": {
+"name": "Хуторок",
+"website": "https://hutorok24.ru/",
+"begin_price": "1500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.009113,
+"lon": 92.87015,
+"tags": {
+"name": "Гостиница Красноярск",
+"website": "https://www.booking.com/hotel/ru/ghostinitsa-krasnoiarsk.ru.html",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.994179,
+"lon": 92.92913,
+"tags": {
+"name": "Гостиница Дворик",
+"website": "http://dvorik-hotel.ru/",
+"begin_price": "1300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.009033203125,
+"lon": 92.8765640258789,
+"tags": {
+"name": "Гостиница Ермак",
+"website": "https://hotel-ermak.ru/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.0094200,
+"lon": 92.8684510,
+"tags": {
+"name": "Новотель Красноярск Центр",
+"website": "https://www.booking.com/hotel/ru/novotel-krasnoyarsk-city-center.ru.html",
+"begin_price": "2200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.979089,
+"lon": 92.873165,
+"tags": {
+"name": "Sky отель Красноярск",
+"website": "https://skyotel.ru/",
+"begin_price": "3400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.006789,
+"lon": 92.963435,
+"tags": {
+"name": "Отель Радуга",
+"website": "https://broni.travel/krasnoyarskij-kraj/krasnoyarsk/mini-otel-raduga-krasnojarsk/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.0255,
+"lon": 92.8632,
+"tags": {
+"name": "Отель Сова",
+"website": "https://travel.yandex.ru/hotels/krasnoyarsk-krai/sova/",
+"begin_price": "2100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.9945,
+"lon": 92.9156,
+"tags": {
+"name": "Отель Alioth",
+"website": "https://alioth24.ru/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.0114593505859,
+"lon": 92.8767395019531,
+"tags": {
+"name": "Софт-отель",
+"website": "https://soft-hotel.rhotel.site/",
+"begin_price": "4420",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.01447,
+"lon": 92.88885,
+"tags": {
+"name": "Хостел Inwood",
+"website": "https://www.tourister.ru/world/europe/russia/city/krasnoyarsk/hotels/6562384",
+"begin_price": "2104",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 69.3510360717773,
+"lon": 88.2098236083984,
+"tags": {
+"name": "Гостиница Норильск",
+"website": "https://domik.travel/russia/krasnoyarskiy/norilsk",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 69.3380889892578,
+"lon": 88.235481262207,
+"tags": {
+"name": "Север",
+"website": "https://sever-hotel.com/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 69.3501586914063,
+"lon": 88.1966934204102,
+"tags": {
+"name": "Север Гранд",
+"website": "https://severgrand.ru/",
+"begin_price": "2840",
+"tourism": "hotel"
+}
+},
 
