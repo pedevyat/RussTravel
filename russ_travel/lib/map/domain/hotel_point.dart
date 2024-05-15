@@ -39,7 +39,7 @@ class HotelPoint extends Equatable {
 
 
   @override
-  List<Object?> get props => [name, latitude, longitude, url, price];
+  //List<Object?> get props => [name, latitude, longitude, url, price];
 
 
   /// Создание объекта HotelPoint из JSON данных
