@@ -5765,4 +5765,308 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 56.4895210266113,
+"lon": 84.9445037841797,
+"tags": {
+"name": "Гостиница Октябрьская",
+"website": "https://october.tomsk.gov.ru/site/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.542854309082,
+"lon": 84.9596252441406,
+"tags": {
+"name": "Mirway",
+"website": "https://mirwayhotel.ru/",
+"begin_price": "900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.466369,
+"lon": 84.982627,
+"tags": {
+"name": "Гостиница Союз",
+"website": "https://souz.tomsk.ru/",
+"begin_price": "3400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4973,
+"lon": 84.9429,
+"tags": {
+"name": "Гостиница Заречная",
+"website": "https://broni.travel/tomskaya-oblast/tomsk/otel-zarechnaja-tomsk/",
+"begin_price": "2600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.518577,
+"lon": 85.04305,
+"tags": {
+"name": "Шишки",
+"website": "https://www.booking.com/hotel/ru/khostel-shishki.ru.html",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4813842773438,
+"lon": 84.9506759643555,
+"tags": {
+"name": "Hostel rus tomsk",
+"website": "https://www.tur-hotel.ru/hotels/russia/tomsk-region/tomsk/hostel-rus-tomsk/",
+"begin_price": "1500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4673,
+"lon": 84.9381,
+"tags": {
+"name": "Отель Классик",
+"website": "http://hotelvtomske.ru/",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.5026,
+"lon": 84.9624,
+"tags": {
+"name": "Montana",
+"website": "https://montana.tomsk.ru/hotel/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 84.993324,
+"lon": 56.486134,
+"tags": {
+"name": "Как дома и точка",
+"website": "https://kakdoma70.ru/?sa=X&ved=2ahUKEwiYo7C65POBAxVFTJEFHdG0CtgQyK4DegUIAxCaAg",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.498,
+"lon": 84.9478,
+"tags": {
+"name": "Алые паруса",
+"website": "https://travel.yandex.ru/hotels/tomsk/alye-parusa/",
+"begin_price": "825",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4754,
+"lon": 84.9715,
+"tags": {
+"name": "Да винчи",
+"website": "https://www.davincihostel.ru/",
+"begin_price": "1000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.5073,
+"lon": 84.9408,
+"tags": {
+"name": "Отель «Халиф»",
+"website": "https://hotel-halif.ru/",
+"begin_price": "3100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.477759,
+"lon": 84.951767,
+"tags": {
+"name": "Дом охотника",
+"website": "https://hunter-hostel.ru/",
+"begin_price": "800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 84.986149,
+"lon": 56.49984,
+"tags": {
+"name": "Puzzle hostel",
+"website": "https://hostel-tomsk.ru/",
+"begin_price": "3700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.5012,
+"lon": 85.0016,
+"tags": {
+"name": "Monomakh",
+"website": "https://monomakh-hotel.rhotel.site/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4677,
+"lon": 84.9408,
+"tags": {
+"name": "Гостиница Университетская",
+"website": "https://travel.yandex.ru/hotels/tomsk/universitetskaia/",
+"begin_price": "2100",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 51.7192349877,
+"lon": 94.4377463736,
+"tags": {
+"name": "Страйк",
+"website": "https://www.komandirovka.ru/hotels/kyzyl/strayk-mini-hotel/",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 94.447402,
+"lon": 51.722773,
+"tags": {
+"name": "Чалама",
+"website": "https://chalamahotel.ru/",
+"begin_price": "4400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.723962,
+"lon": 94.438098,
+"tags": {
+"name": "Гостиница одуген",
+"website": "https://travel.yandex.ru/hotels/kyzyl/odugen/",
+"begin_price": "3999",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.705315,
+"lon": 94.407501,
+"tags": {
+"name": "Буян бадыргы",
+"website": "https://badyrgy.com/",
+"begin_price": "5000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 94.436076,
+"lon": 51.723586,
+"tags": {
+"name": "Кызыл гранд",
+"website": "https://kyzylgrandhotel.ru/",
+"begin_price": "9300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.2840200,
+"lon": 91.5690000,
+"tags": {
+"name": "Жарки",
+"website": "https://travel.yandex.ru/hotels/chadan/zharki/",
+"begin_price": "3100",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 53.7242813110352,
+"lon": 91.4687805175781,
+"tags": {
+"name": "Чалпан",
+"website": "http://www.chalpan.ru/",
+"begin_price": "5100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.727320,
+"lon": 91.435908,
+"tags": {
+"name": "Азия",
+"website": "https://asia-hotel.ru/",
+"begin_price": "6800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.6776084899902,
+"lon": 91.3665313720703,
+"tags": {
+"name": "Гранд Шале",
+"website": "https://bronevik.com/ru/hotel/russia/abakan/grand-shale",
+"begin_price": "4248",
+"tourism": "hotel"
+}
+},
 
