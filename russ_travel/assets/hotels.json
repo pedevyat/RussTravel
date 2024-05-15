@@ -4581,4 +4581,354 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 53.192522,
+"lon": 107.35624,
+"tags": {
+"name": "Флагман",
+"website": "https://flagman-olkhon.ru/?sa=X&ved=2ahUKEwjDzMWz-tGFAxVvV5EFHXnuAMQQyK4DegUIAxCdAg",
+"begin_price": "10000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.731466,
+"lon": 103.724657,
+"tags": {
+"name": "Байкальский рай",
+"website": "https://www.booking.com/hotel/ru/baikal-skii-rai.ru.html",
+"begin_price": "4200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 103.621955,
+"lon": 52.756491,
+"tags": {
+"name": "Лола",
+"website": "https://www.tur-hotel.ru/hotels/russia/irkutsk-region/usole-sibirskoe/lola/",
+"begin_price": "3618",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 51.90671,
+"lon": 104.805699,
+"tags": {
+"name": "Байкальские сезоны",
+"website": "https://www.baikal-seasons.com/",
+"begin_price": "5500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.03008096381,
+"lon": 105.40383338928,
+"tags": {
+"name": "Байкальский бриз",
+"website": "https://travel.yandex.ru/hotels/irkutsk-oblast/gostevoi-dom-baikalskii-briz/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.313021,
+"lon": 104.27563,
+"tags": {
+"name": "ГостиныйдворАнна",
+"website": "https://travel.yandex.ru/hotels/irkutsk-oblast/gostevoi-dom-gostinyi-dvor-anna/",
+"begin_price": "1700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.0471,
+"lon": 105.408,
+"tags": {
+"name": "Русское Подворье",
+"website": "https://ruspodvor.ru/",
+"begin_price": "1200",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 53.142833709717,
+"lon": 87.556190490723,
+"tags": {
+"name": "Оздоровительный комплекс Кедр",
+"website": "https://bronevik.com/ru/hotel/russia/kaz/ozdorovitelnyi-kompleks-kedr?utm_referrer=https%3A%2F%2Fyandex.by%2F",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.5093410,
+"lon": 87.2765760,
+"tags": {
+"name": "Гостиница Сity",
+"website": "https://travel.yandex.ru/hotels/kaltan/city/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.36363,
+"lon": 86.211722,
+"tags": {
+"name": "Вилла Маралис",
+"website": "https://travel.yandex.ru/hotels/kemerovo-oblast/villa-maralis/",
+"begin_price": "1600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.35496,
+"lon": 86.087299,
+"tags": {
+"name": "Хостел История",
+"website": "http://www.hostel142.ru/",
+"begin_price": "600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.346440,
+"lon": 86.066905,
+"tags": {
+"name": "Олимп Плаза",
+"website": "https://olymp-plaza.ru/",
+"begin_price": "5200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.355454,
+"lon": 86.094725,
+"tags": {
+"name": "Клуб-отель Тайм",
+"website": "https://kemerovotime.ru/",
+"begin_price": "2600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.946687,
+"lon": 87.987359,
+"tags": {
+"name": "Карамелька",
+"website": "https://travel.yandex.ru/hotels/kemerovo-oblast/karamelka/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.952344,
+"lon": 87.953988,
+"tags": {
+"name": "Парк-отель Горный",
+"website": "https://gornyhotel.ru/",
+"begin_price": "18500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.952344,
+"lon": 87.953988,
+"tags": {
+"name": "Паркоффка",
+"website": "https://hotel-parkoffka.ru/",
+"begin_price": "3300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.664238,
+"lon": 87.136764,
+"tags": {
+"name": "Царская охота",
+"website": "https://охота-царская.рф/",
+"begin_price": "6120",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.7823905944824,
+"lon": 87.1314086914063,
+"tags": {
+"name": "Тетрис",
+"website": "https://travel.yandex.ru/hotels/kemerovo-oblast/tetris/",
+"begin_price": "11250",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.760735,
+"lon": 87.108901,
+"tags": {
+"name": "Отель Бардин",
+"website": "https://travel.yandex.ru/hotels/novokuznetsk/bardin/",
+"begin_price": "2450",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.6526298522949,
+"lon": 47.8737106323242,
+"tags": {
+"name": "Гостевой дом Пати холл",
+"website": "https://travel.yandex.ru/hotels/yoshkar-ola/gostevoi-dom-pati-kholl/",
+"begin_price": "1550",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.725814,
+"lon": 84.934473,
+"tags": {
+"name": "Гостиница 12 футов",
+"website": "https://отель-юрга.рф/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.670053,
+"lon": 88.085437,
+"tags": {
+"name": "Куба",
+"website": "https://travel.yandex.ru/hotels/mezgdurechensk/otel-kuba/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.681915,
+"lon": 88.07653,
+"tags": {
+"name": "Отель Робинзон",
+"website": "https://travel.yandex.ru/hotels/mezgdurechensk/robinzon/",
+"begin_price": "2800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.6938591003418,
+"lon": 86.1994476318359,
+"tags": {
+"name": "Мини-отель Виктория",
+"website": "https://www.tourister.ru/world/europe/russia/city/leninsk-kuznetskiy/hotels/6578975",
+"begin_price": "3696",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.7987,
+"lon": 86.7973,
+"tags": {
+"name": "Аврора",
+"website": "https://avrora-parkhotel.ru/?sa=X&ved=2ahUKEwjW8a_P4bv-AhUPx7IKHWZ6DW0QyK4DegUIAxCUAg",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.8736,
+"lon": 86.6548,
+"tags": {
+"name": "Гостиница Альянс",
+"website": "https://www.komandirovka.ru/hotels/novokuznetsk/alyans/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.2178,
+"lon": 86.2919,
+"tags": {
+"name": "Гостиница Притомье",
+"website": "https://pritomyehotel.ru/",
+"begin_price": "7400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.128685384575,
+"lon": 86.404580460327,
+"tags": {
+"name": "Парк-отель Застава",
+"website": "https://otel-zastava.ru/",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.870844,
+"lon": 78.397682,
+"tags": {
+"name": "Танай",
+"website": "https://tanay42.ru/",
+"begin_price": "8000",
+"tourism": "hotel"
+}
+},
 
