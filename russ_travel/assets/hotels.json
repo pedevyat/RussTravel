@@ -891,3 +891,293 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 61.253554,
+"lon": 46.634556,
+"tags": {
+"name": "Отель Южная 35",
+"website": "https://travel.yandex.ru/hotels/severodvinsk/otel-na-iuzhnoi-35/",
+"begin_price": "4111",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.253187,
+"lon": 46.635079,
+"tags": {
+"name": "Советская на Карла Маркса",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g2384884-d2697745-Reviews-Sovetskaya_Hotel_on_Karla_Marksa-Kotlas_Arkhangelsk_Oblast_Northwestern_District.html",
+"begin_price": "3456",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 64.541137,
+"lon": 40.511324,
+"tags": {
+"name": "Пур-Наволок",
+"website": "https://travel.yandex.ru/hotels/arhangelsk/pur-navolok/",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.256298,
+"lon": 46.623309,
+"tags": {
+"name": "Gostinica rechnaya",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g2384884-d8680328-Reviews-Gostinica_Rechnaya-Kotlas_Arkhangelsk_Oblast_Northwestern_District.html",
+"begin_price": "1900",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 57.7616157531738,
+"lon": 40.9343032836914,
+"tags": {
+"name": "19 историй",
+"website": "https://19story.ru/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.199645996,
+"lon": 39.921089172,
+"tags": {
+"name": "Саквояж",
+"website": "https://sakvoyazh-hotel.ru/",
+"begin_price": "4000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.216428,
+"lon": 39.880435,
+"tags": {
+"name": "Губерния",
+"website": "https://gubernia-hotel.ru/",
+"begin_price": "4000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.2343788146973,
+"lon": 39.876350402832,
+"tags": {
+"name": "Dragon spa",
+"website": "https://www.dragon-spa.ru/",
+"begin_price": "6800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.131326,
+"lon": 38.015625,
+"tags": {
+"name": "Азалия",
+"website": "https://azaliya.rhotel.site/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.2245979309082,
+"lon": 39.8947219848633,
+"tags": {
+"name": "Светлица",
+"website": "https://www.светлица-вологда.рф/",
+"begin_price": "2800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.2227,
+"lon": 39.8716,
+"tags": {
+"name": "Аура",
+"website": "https://hotel-aura.ru/",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.223724,
+"lon": 39.886357,
+"tags": {
+"name": "Палисад",
+"website": "https://palisad-vologda.ru/",
+"begin_price": "2800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.1357,
+"lon": 37.9201,
+"tags": {
+"name": "Business Vesna",
+"website": "https://ostrovok.ru/hotel/russia/cherepovets/mid8744369/business_hotel_vesna/",
+"begin_price": "4407",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.1316223144531,
+"lon": 37.8996238708496,
+"tags": {
+"name": "Машбах",
+"website": "https://hotelmashbakh.ru/",
+"begin_price": "2450",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.7585,
+"lon": 46.2406,
+"tags": {
+"name": "Гостиница на Волге",
+"website": "https://navalge.ru/",
+"begin_price": "1550",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.135,
+"lon": 37.9174,
+"tags": {
+"name": "Рус ясная поляна",
+"website": "https://bronevik.com/ru/hotel/russia/yasnaya-polyana-vologodskaya/hostel-rus-yasnaya-polyana",
+"begin_price": "523",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.199002,
+"lon": 39.8439,
+"tags": {
+"name": "Николаевский Отель",
+"website": "https://nikolaevskiy.ru/",
+"begin_price": "2750",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.226187,
+"lon": 39.871349,
+"tags": {
+"name": "Отель История",
+"website": "https://www.history-hotel.ru/",
+"begin_price": "2600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.0372695922852,
+"lon": 37.8142318725586,
+"tags": {
+"name": "Панорама",
+"website": "https://travel.yandex.ru/hotels/belozersk/panorama/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.20935,
+"lon": 39.87728,
+"tags": {
+"name": "Спутник",
+"website": "https://sputnic-hotel.ru/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.2298,
+"lon": 39.9116,
+"tags": {
+"name": "Архитектор",
+"website": "http://архитектор1891.рф/",
+"begin_price": "2500",
+"tourism":"hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.2053,
+"lon": 39.9242,
+"tags": {
+"name": "Дом аспиранта",
+"website": "http://hotel.volnc.ru/",
+"begin_price": "560",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.02963,
+"lon": 37.801957,
+"tags": {
+"name": "Legenda",
+"website": "https://legenda-hotel.ru/",
+"begin_price": "2800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.962402,
+"lon": 42.941839,
+"tags": {
+"name": "Картуши",
+"website": "https://kartushi.ru/",
+"begin_price": "2600",
+"tourism": "hotel"
+}
+},
