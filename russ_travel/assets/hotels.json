@@ -2661,3 +2661,305 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 58.5195388793945,
+"lon": 31.265474319458,
+"tags": {
+"name": "hotel on prusskaya 8",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g298502-d17596497-Reviews-Hotel_On_Prusskaya_8-Veliky_Novgorod_Novgorod_Oblast_Northwestern_District.html",
+"begin_price": "16480",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.521645,
+"lon": 31.297089,
+"tags": {
+"name": "Гостиница садко",
+"website": "https://hotel-sadko.ru/",
+"begin_price": "3250",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.48947700,
+"lon": 31.27112000,
+"tags": {
+"name": "юрьевское подворье",
+"website": "https://ostrovok.ru/hotel/russia/velikiy_novgorod/mid7384673/yurjevskoye_podvorje/",
+"begin_price": "7100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.5212,
+"lon": 31.2631,
+"tags": {
+"name": "Новгородская",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g298502-d304369-Reviews-or15-Hotel_Novgorodskaya-Veliky_Novgorod_Novgorod_Oblast_Northwestern_District.html",
+"begin_price": "4300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.53139,
+"lon": 31.281701,
+"tags": {
+"name": "Отель Интурист",
+"website": "https://intnovhotel.ru/",
+"begin_price": "3300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.519948,
+"lon": 31.284836,
+"tags": {
+"name": "Voyaj",
+"website": "https://www.tur-hotel.ru/hotels/russia/novgorod-region/velikiy-novgorod/voyaj/",
+"begin_price": "500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.52633900,
+"lon": 31.27847600,
+"tags": {
+"name": "Апарт-отель Неревский ",
+"website": "https://nerevskiy.com/",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.53458500,
+"lon": 31.305691,
+"tags": {
+"name": "Отель Дилижанс",
+"website": "https://travel.yandex.ru/hotels/veliky-novgorod/dilizhans/",
+"begin_price": "1648",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.517321,
+"lon": 31.283758,
+"tags": {
+"name": "Хостел Ярослав",
+"website": "https://yahostel.ru/",
+"begin_price": "700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.5297,
+"lon": 31.2353,
+"tags": {
+"name": "Отель Grace",
+"website": "https://101hotels.com/main/cities/velikiy_novgorod/grace_hotel_1.html",
+"begin_price": "700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.516451,
+"lon": 31.284312,
+"tags": {
+"name": "АМАКС Отель Россия",
+"website": "https://novgorod.amaks-hotels.ru/",
+"begin_price": "1775",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.5293807983398,
+"lon": 31.2717094421387,
+"tags": {
+"name": "БМ-хостел",
+"website": "https://101hotels.com/main/cities/velikiy_novgorod/mini_hostel_bm-hostel.html",
+"begin_price": "500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.52826500,
+"lon": 31.26437400,
+"tags": {
+"name": "Роза Ветров",
+"website": "https://101hotels.com/main/cities/velikiy_novgorod/gostinitsa_roza_vetrov.html",
+"begin_price": "1100",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 57.821349,
+"lon": 28.356984,
+"tags": {
+"name": "Гостиница Ангельская",
+"website": "https://angelskaya.ru/",
+"begin_price": "6000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.8051,
+"lon": 28.3357,
+"tags": {
+"name": "Отель Покровский",
+"website": "https://pskhotel.ru/",
+"begin_price": "8300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.8135,
+"lon": 27.6147,
+"tags": {
+"name": "Гостиница 12 месяцев",
+"website": "https://pechoryhotel.ru/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.8068,
+"lon": 28.3493,
+"tags": {
+"name": "jazz hostelpskov",
+"website": "https://travel.yandex.ru/hotels/pskov/jazz-hostelpskov/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.8235,
+"lon": 28.3199,
+"tags": {
+"name": "Гостиница 903",
+"website": "https://pskov903.ru/",
+"begin_price": "11000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.8074,
+"lon": 28.3135,
+"tags": {
+"name": "Отель Барселона",
+"website": "https://barcelona60.ru/",
+"begin_price": "7920",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.7966,
+"lon": 28.3725,
+"tags": {
+"name": "Гостиница Оазис",
+"website": "http://oazisotel.ru/",
+"begin_price": "1800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.352294921875,
+"lon": 30.5090484619141,
+"tags": {
+"name": "Служебная",
+"website": "https://101hotels.com/main/cities/velikie_luki/sluzhebnaya_gostinitsa.html",
+"begin_price": "2025",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.8374366760254,
+"lon": 28.2795238494873,
+"tags": {
+"name": "Соколиха",
+"website": "https://travel.yandex.ru/hotels/pskov-oblast/gorodskaia-gostinitsa-sokolikha/",
+"begin_price": "4500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 57.816356,
+"lon": 27.617149,
+"tags": {
+"name": "Печоры парк-отель",
+"website": "https://pechorypark.ru/",
+"begin_price": "1400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.3522529602051,
+"lon": 30.5643100738525,
+"tags": {
+"name": "Гостиница Амарис",
+"website": "https://travel.yandex.ru/hotels/velikie-luky/amaris/",
+"begin_price": "1900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.287752,
+"lon": 28.460611,
+"tags": {
+"name": "Прибалтийский отель",
+"website": "https://101hotels.com/main/cities/sebezh/pribaltiyskiy_otel.html",
+"begin_price": "1600",
+"tourism": "hotel"
+}
+},
