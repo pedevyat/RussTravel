@@ -5475,4 +5475,294 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 55.001162,
+"lon": 82.954633,
+"tags": {
+"name": "якутия",
+"website": "http://www.hotel-yakutia.ru/",
+"begin_price": "1800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0038,
+"lon": 82.6722,
+"tags": {
+"name": "Гостиница Скайпорт",
+"website": "https://www.skyport.su/",
+"begin_price": "4600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.841,
+"lon": 83.0928,
+"tags": {
+"name": "Золотая долина - Академгородок",
+"website": "https://gold-valley.ru/",
+"begin_price": "3600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.997771,
+"lon": 82.749301,
+"tags": {
+"name": "СКАЙЭКСПО",
+"website": "https://skyexpo.ru/",
+"begin_price": "4700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0411,
+"lon": 82.9879,
+"tags": {
+"name": "Вавилон",
+"website": "https://travel.yandex.ru/hotels/novosibirsk/babylone/",
+"begin_price": "830",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.336303,
+"lon": 78.345337,
+"tags": {
+"name": "Отель 54",
+"website": "https://www.komandirovka.ru/hotels/barabinsk/hotel-54-acwnf/",
+"begin_price": "1600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0295,
+"lon": 82.9174,
+"tags": {
+"name": "Гостиница Центральная",
+"website": "https://hotel-1.ru/?sa=X&ved=2ahUKEwi-_bDqxtT_AhW7SZEFHUI3AlYQyK4DegUIAxDMAg",
+"begin_price": "2700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0568,
+"lon": 82.9819,
+"tags": {
+"name": "Аквилон",
+"website": "https://gkakvilon.ru/index.php",
+"begin_price": "1500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.107231,
+"lon": 82.952535,
+"tags": {
+"name": "Барракуда",
+"website": "https://hotel-barracuda.ru/",
+"begin_price": "3400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.9990570,
+"lon": 82.6573340,
+"tags": {
+"name": "у петровича",
+"website": "https://travel.yandex.ru/hotels/ob/u-petrovicha/",
+"begin_price": "1800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.792587,
+"lon": 83.109785,
+"tags": {
+"name": "Былина",
+"website": "https://resort-bylina.worhot.com/",
+"begin_price": "6500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.99477,
+"lon": 82.69468,
+"tags": {
+"name": "Хостел Обской возле Толмачево",
+"website": "https://hostelobskoi.ru/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.013420,
+"lon": 82.945259,
+"tags": {
+"name": "Гостиница Оксид",
+"website": "https://101hotels.com/main/cities/novosibirsk/gostinitsa_nzr_oksid.html",
+"begin_price": "1800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0359,
+"lon": 82.9062,
+"tags": {
+"name": "Emodji Hostel",
+"website": "https://www.tur-hotel.ru/hotels/russia/novosibirsk-region/novosibirsk/emodji-hostel/",
+"begin_price": "2148",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 56.496989,
+"lon": 84.956613,
+"tags": {
+"name": "Скандинавия",
+"website": "https://www.scandinaviahotel.ru/",
+"begin_price": "4200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 84.971153,
+"lon": 56.474149,
+"tags": {
+"name": "Пятерочка",
+"website": "https://travel.yandex.ru/hotels/tomsk/piaterochka/",
+"begin_price": "1000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.471546,
+"lon": 84.952167,
+"tags": {
+"name": "Бон Апарт",
+"website": "https://bon-apart.ru/",
+"begin_price": "5000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4885,
+"lon": 84.95,
+"tags": {
+"name": "Магистрат",
+"website": "https://magistrathotel.com/",
+"begin_price": "4900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.482404,
+"lon": 84.950883,
+"tags": {
+"name": "кухтерин отель",
+"website": "https://bronevik.com/ru/hotel/russia/tomsk/kukhterin?utm_referrer=https%3A%2F%2Fyandex.by%2F",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.47696,
+"lon": 84.956632,
+"tags": {
+"name": "Xander",
+"website": "https://broni.travel/tomskaya-oblast/tomsk/otel-xander-hotel-ksander-tomsk/",
+"begin_price": "5400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.471429,
+"lon": 84.96434,
+"tags": {
+"name": "Бастон на герцена",
+"website": "https://bastonhotel-tomsk.ru/nomera/gertsena/",
+"begin_price": "3300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.495931,
+"lon": 84.968643,
+"tags": {
+"name": "Первый апарт",
+"website": "https://bronevik.com/ru/hotel/russia/tomsk/the-first-apartment-hotel",
+"begin_price": "6483",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4728,
+"lon": 84.9905,
+"tags": {
+"name": "Гостиница Африка",
+"website": "https://bronevik.com/ru/hotel/russia/tomsk/afrika",
+"begin_price": "2700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4903,
+"lon": 84.9529,
+"tags": {
+"name": "Отель Галерея",
+"website": "https://www.booking.com/hotel/ru/galereya.ru.html",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
 
