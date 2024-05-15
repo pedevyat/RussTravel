@@ -1777,3 +1777,294 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 61.181045,
+"lon": 32.391291,
+"tags": {
+"name": "Villa vitele",
+"website": "https://villavitele.ru/",
+"begin_price": "8250",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.138946,
+"lon": 32.501542,
+"tags": {
+"name": "Видлица",
+"website": "https://travel.yandex.ru/hotels/republic-of-karelia/tochka-na-karte-vidlitsa/",
+"begin_price": "3850",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.180562,
+"lon": 29.864404,
+"tags": {
+"name": "Дом у озера",
+"website": "https://travel.yandex.ru/hotels/sortavala/dom-u-ozera-khiumpelian-iarvi/reviews/",
+"begin_price": "3750",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 62.002313,
+"lon": 34.158595,
+"tags": {
+"name": "Царевичи",
+"website": "https://царевичи.рф/",
+"begin_price": "5000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.96936,
+"lon": 34.23083,
+"tags": {
+"name": "Aviaretro",
+"website": "https://aviaretro-club.ru/",
+"begin_price": "3550",
+"tourism": "hotel"
+}
+},
+
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 59.9367,
+"lon": 30.3253,
+"tags": {
+"name": "ЯроМир",
+"website": "https://travel.yandex.ru/hotels/saint-petersburg/iaromir/",
+"begin_price": "2560",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.73728,
+"lon": 28.75747,
+"tags": {
+"name": "Кировские Дачи",
+"website": "https://motel-k.ru/",
+"begin_price": "2880",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.049864,
+"lon": 30.462212,
+"tags": {
+"name": "Мурино",
+"website": "https://bronevik.com/ru/hotel/russia/murino/murino?utm_referrer=https%3A%2F%2Fyandex.by%2F",
+"begin_price": "1790",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.562986,
+"lon": 30.122218,
+"tags": {
+"name": "Гатчина",
+"website": "https://ostrovok.ru/hotel/russia/gatchina/mid7028070/gatchina_minihotel/?utm_source=yandex&utm_medium=cpc&utm_term=&utm_campaign=105830229&from=sem-y7-00000000-105830229%7C5386991671%7C%7Bcreative%7D%7C5278980%7C0%7Cno%7Ctype3%7Cdesktop%7C5278980%7C0%7C%7CВсе%20товары%7C5278980%7C1%7Cpremium%7Cnone%7Csearch%7C157%7Cnone&yclid=8865538410803888127",
+"begin_price": "4671",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.559696,
+"lon": 30.124874,
+"tags": {
+"name": "столица",
+"website": "https://travel.yandex.ru/hotels/gatchina/stolitsa/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.561545,
+"lon": 30.123045,
+"tags": {
+"name": "Приорат",
+"website": "https://travel.yandex.ru/hotels/gatchina/priorat/",
+"begin_price": "3036",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.52197,
+"lon": 29.764107,
+"tags": {
+"name": "Снежный Курорт",
+"website": "https://travel.yandex.ru/hotels/leningrad-oblast/miniotel/",
+"begin_price": "6000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.522325,
+"lon": 29.762892,
+"tags": {
+"name": "Коробицыно Каскад",
+"website": "https://travel.yandex.ru/hotels/leningrad-oblast/korobitsyno-kaskad/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.90695,
+"lon": 29.077037,
+"tags": {
+"name": "Сириус",
+"website": "http://sborsirius.ru/",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.9069519,
+"lon": 29.0770378,
+"tags": {
+"name": "Сосновый бор",
+"website": "https://travel.yandex.ru/hotels/sosnoviy-bor/sosnovyi-bor/",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.877271,
+"lon": 29.068004,
+"tags": {
+"name": "Хуторок",
+"website": "https://hotelspb.su/",
+"begin_price": "1800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.5975,
+"lon": 30.0005,
+"tags": {
+"name": "Загородный клуб ДаВинчи",
+"website": "https://travel.yandex.ru/hotels/leningrad-oblast/davinchi-park/",
+"begin_price": "4800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.67173,
+"lon": 30.168797,
+"tags": {
+"name": "Загородный клуб дача",
+"website": "https://www.dacha-ozero.ru/sales/?utm_source=yandex&utm_medium=cpc&utm_campaign=poisk_81468481&utm_content=15049637529&utm_term=Загородный%20отель%20дача&callibri=yd_c:81468481_gb:5099171626_ad:15049637529_ph:42534177044_st:search_s:none_dt:desktop&yclid=14962169558766714879",
+"begin_price": "9000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.64463,
+"lon": 30.201429,
+"tags": {
+"name": "База отдыха связист",
+"website": "https://rpk-svyazist.ru/baza",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.3758,
+"lon": 28.2218,
+"tags": {
+"name": "Витязь",
+"website": "https://travel.yandex.ru/hotels/ivangorod/vitiaz/",
+"begin_price": "6372",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.369746,
+"lon": 28.215894,
+"tags": {
+"name": "Тихий дворик",
+"website": "https://travel.yandex.ru/hotels/saint-petersburg/tikhii-dvorik/",
+"begin_price": "4500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.37097,
+"lon": 28.21821,
+"tags": {
+"name": "Купеческий гостевой дом",
+"website": "https://travel.yandex.ru/hotels/ivangorod/gostevoi-dom-kupecheskii/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.014453,
+"lon": 30.010493,
+"tags": {
+"name": "Fox Inn",
+"website": " https://fox-inn.ru/ ",
+"begin_price": "4140",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.4505997,
+"lon": 32.0279045,
+"tags": {
+"name": "Гостиница Спортивная",
+"website": "https://travel.yandex.ru/hotels/kirishi/sportivnaia/",
+"begin_price": "1840",
+"tourism": "hotel"
+}
+},
