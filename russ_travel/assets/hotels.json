@@ -5233,4 +5233,246 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 69.3562393188477,
+"lon": 88.1787261962891,
+"tags": {
+"name": "Arctik room",
+"website": "https://arctikroom.ru/",
+"begin_price": "810",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 69.3219620,
+"lon": 88.2083720,
+"tags": {
+"name": "Norilsk hostel",
+"website": "https://www.tur-hotel.ru/hotels/russia/krasnoyarsk-krai/norilsk/norilsk-hostel/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 69.3215713500977,
+"lon": 88.2080841064453,
+"tags": {
+"name": "Рус Норильск",
+"website": "https://hostelsrus.ru/hostel/hostely-rus-norilsk/",
+"begin_price": "700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.4816,
+"lon": 84.9794,
+"tags": {
+"name": "Мандарин",
+"website": "https://www.tourister.ru/world/europe/russia/city/norilsk/hotels/58816608",
+"begin_price": "4635",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.219813,
+"lon": 92.501843,
+"tags": {
+"name": "Виталина",
+"website": "https://travel.yandex.ru/hotels/lesosibirsk/vitalina/",
+"begin_price": "2499",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.26279,
+"lon": 93.54104,
+"tags": {
+"name": "Гостиный дом Железногорский",
+"website": "https://gostinyj-dom-zheleznogorskij.clients.site/",
+"begin_price": "1600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.20866,
+"lon": 95.704938,
+"tags": {
+"name": "Сибирь",
+"website": "https://www.siberiahotel.ru/",
+"begin_price": "5400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 56.268821,
+"lon": 90.497324,
+"tags": {
+"name": "VICTORIA CITY",
+"website": "http://achinskotelvictoriacity.ru/",
+"begin_price": "3600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 58.3819,
+"lon": 97.4681,
+"tags": {
+"name": "Полет",
+"website": "https://hotelpolet.ru/",
+"begin_price": "4100",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 54.995385,
+"lon": 82.692033,
+"tags": {
+"name": "Хостел ovb",
+"website": "https://ovb-hostel.ru/",
+"begin_price": "850",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.02879,
+"lon": 82.97805,
+"tags": {
+"name": "Отель Метелица",
+"website": "https://www.metelitsa54.ru/",
+"begin_price": "4500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0746,
+"lon": 82.9616,
+"tags": {
+"name": "Hotel Barracuda",
+"website": "https://hotel-barracuda.ru/?utm_referrer=https%3A%2F%2Fyandex.by%2F",
+"begin_price": "3400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.898271,
+"lon": 82.794010,
+"tags": {
+"name": "Санаторий рассвет",
+"website": "https://sanatory.ru/hotel/sanatorii-rassviet/?utm_source=yandex.cpc&utm_medium=cpc&utm_campaign=search%7C%7Bbrand_sanatoriy_rf_search%7D&utm_content=phrase_id%7C49927993043%7Cgid%7C5389290773%7Caid%7C15740359506&utm_term=санаторий%20рассвет%20новосибирская%20область&added=no&block=other&pos=1&device=desktop&calltouch_tm=yd_c:106126646_gb:5389290773_ad:15740359506_ph:49927993043_st:search_pt:other_p:1_s:none_dt:desktop_reg:157_ret:49927993043_apt:none&mango=%7Cc:106126646%7Cg:5389290773%7Cb:15740359506%7Ck:49927993043%7Cst:search%7Ca:no%7Cs:none%7Ct:other%7Cp:1%7Cr:49927993043%7Creg:157%7Cnet:%7Byad%7D&yclid=7233677265011212287",
+"begin_price": "4800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0292,
+"lon": 82.9071,
+"tags": {
+"name": "Домина",
+"website": "https://nsk.dominarussia.com/",
+"begin_price": "6300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0289,
+"lon": 82.8968,
+"tags": {
+"name": "Отель Н",
+"website": "https://tropki.ru/rossiya/novosibirskaya-oblast/novosibirsk/36570920-hotel-n",
+"begin_price": "3370",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.773034,
+"lon": 83.096508,
+"tags": {
+"name": "Роял Марин",
+"website": "https://www.royal-marine.su/?sa=X&ved=2ahUKEwj_-YHAgdf9AhXdSJEFHXs5CJwQyK4DegUIAxDBAg",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.032136,
+"lon": 82.906876,
+"tags": {
+"name": "Шале на Комсомольском",
+"website": "https://www.shale-hotel.ru/contacts/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.03445,
+"lon": 82.93518,
+"tags": {
+"name": "Гостиниц net на Ядринцевской",
+"website": "https://бонапарт.гостиниц.net/",
+"begin_price": "3100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0355567932129,
+"lon": 82.9006500244141,
+"tags": {
+"name": "Маринс парк-отель",
+"website": "https://marinshotels.ru/novosib/rooms",
+"begin_price": "6000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.9889,
+"lon": 82.9146,
+"tags": {
+"name": "Сити-отель Новосибирск",
+"website": "https://www.booking.com/hotel/ru/city-novosibirsk.ru.html",
+"begin_price": "4100",
+"tourism": "hotel"
+}
+},
 
