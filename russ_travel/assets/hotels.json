@@ -3253,3 +3253,293 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 54.957729,
+"lon": 20.464750,
+"tags": {
+"name": "Кристалл",
+"website": "https://kristallspa.ru/",
+"begin_price": "5400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.9434050,
+"lon": 20.1453040,
+"tags": {
+"name": "Малина Штольц",
+"website": "https://www.vmaline.life/apartments-malina-shtolz-family/",
+"begin_price": "3680",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.953397,
+"lon": 20.218958,
+"tags": {
+"name": "Гостиница Круиз",
+"website": "https://travel.yandex.ru/hotels/pionersky/kruiz/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.951632,
+"lon": 20.228434,
+"tags": {
+"name": "Florange",
+"website": "https://travel.yandex.ru/hotels/pionersky/floranzh/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.011019,
+"lon": 20.617625,
+"tags": {
+"name": "Вальде Парк",
+"website": "https://walde-park.ru/",
+"begin_price": "4400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.631029,
+"lon": 21.811249,
+"tags": {
+"name": "Отель у медведя",
+"website": "https://travel.yandex.ru/hotels/chernyahovsk/u-medvedia/",
+"begin_price": "2526",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.635958,
+"lon": 21.814312,
+"tags": {
+"name": "Отель Кочар",
+"website": "https://kochar39.ru/",
+"begin_price": "4000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.778315,
+"lon": 20.618144,
+"tags": {
+"name": "La Belle",
+"website": "https://labellehotel.ru/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 85.966091,
+"lon": 54.286762,
+"tags": {
+"name": "Металлург",
+"website": "https://www.tur-hotel.ru/hotels/russia/kaliningrad-region/guryevsk/metallurg/",
+"begin_price": "1392",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 44.310460,
+"lon": 38.699770,
+"tags": {
+"name": "Аквамарин",
+"website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/akvamarin/",
+"begin_price": "7597",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 44.304,
+"lon": 38.7555,
+"tags": {
+"name": "Мельница",
+"website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/staraia-melnitsa/",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.600271,
+"lon": 21.966811,
+"tags": {
+"name": "Гостиный двор",
+"website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/gostinyi-dvor/",
+"begin_price": "1700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.1578636169434,
+"lon": 20.8481273651123,
+"tags": {
+"name": "Мини-гостиница на Куршской косе",
+"website": "https://kaliningrad.sutochno.ru/lesnoi/hotels/88067",
+"begin_price": "6100",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.157929,
+"lon": 20.843601,
+"tags": {
+"name": "Трактир",
+"website": "https://travel.yandex.ru/hotels/kaliningrad-oblast/traktir/",
+"begin_price": "4800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.647385,
+"lon": 21.073853,
+"tags": {
+"name": "Hotel Ritsa",
+"website": "https://www.tur-hotel.ru/hotels/russia/kaliningrad-region/gvardeysk/hotel-ritsa/",
+"begin_price": "1200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.893042,
+"lon": 21.067907,
+"tags": {
+"name": "санаторий гостиничный комплекс оздоровительного туризма Амбер Сакрум",
+"website": "https://ostrovok.ru/hotel/russia/zalivino/mid10219554/gostinichny_kompleks_ozdorovitelnogo_turizma_ambersakrum_health_resort/?utm_source=yandex&utm_medium=cpc&utm_term=&utm_campaign=105830229&from=sem-y7-00000000-105830229%7C5386991671%7C%7Bcreative%7D%7C5278980%7C0%7Cno%7Ctype3%7Cdesktop%7C5278980%7C0%7C%7CВсе%20товары%7C5278980%7C1%7Cpremium%7Cnone%7Csearch%7C157%7Cnone&yclid=2922879388528934911",
+"begin_price": "13084",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.747730255127,
+"lon": 20.2310752868652,
+"tags": {
+"name": "Гастхофгренц",
+"website": "https://gasthofgrenz.ru/",
+"begin_price": "3600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.662205,
+"lon": 20.109059,
+"tags": {
+"name": "Alena",
+"website": "https://www.tur-hotel.ru/hotels/russia/kaliningrad-region/svetliy/alena/",
+"begin_price": "1300",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 54.9539,
+"lon": 73.3802,
+"tags": {
+"name": "Космос",
+"website": "https://travel.yandex.ru/hotels/omsk/cosmos-omsk-hotel/",
+"begin_price": "1400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.9973564147949,
+"lon": 73.3747863769531,
+"tags": {
+"name": "Рабисон",
+"website": "https://travel.yandex.ru/hotels/omsk/rabison/",
+"begin_price": "1640",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.0092,
+"lon": 73.3381,
+"tags": {
+"name": "Глория",
+"website": "https://gloria-hotel-omsk.ru/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.047074,
+"lon": 74.567843,
+"tags": {
+"name": "Отель Д&А",
+"website": "https://www.tur-hotel.ru/hotels/russia/omsk-region/kalachinsk/otel-da/",
+"begin_price": "2663",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.003823,
+"lon": 73.364394,
+"tags": {
+"name": "Urban",
+"website": "https://hotelurban.ru/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 55.00424,
+"lon": 73.37218,
+"tags": {
+"name": "Нова",
+"website": "https://nova-apart.ru/",
+"begin_price": "3515",
+"tourism": "hotel"
+}
+},
