@@ -286,3 +286,305 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 63.558903,
+"lon": 53.667457,
+"tags": {
+"name": "Домашний очаг",
+"website": "https://www.booking.com/hotel/ru/mini-domashny-ochag.ru.html",
+"begin_price": "1000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.570964813232,
+"lon": 53.653995513916,
+"tags": {
+"name": "Чибью",
+"website": "https://hotel-chibiu.ru/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.565421,
+"lon": 53.700955,
+"tags": {
+"name": "Северный Отель",
+"website": "http://hotelseverniy.ru/",
+"begin_price": "4000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5581550598145,
+"lon": 53.6921234130859,
+"tags": {
+"name": "Dragonfly",
+"website": "https://dragonflay.rhotel.site/",
+"begin_price": "3800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5629190,
+"lon": 53.6802480,
+"tags": {
+"name": "Тиман",
+"website": "https://www.timan-ukhta.ru/",
+"begin_price": "2400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5488,
+"lon": 53.8102,
+"tags": {
+"name": "Гостиница Аэропорт",
+"website": "https://www.komandirovka.ru/hotels/uchta/aeroport/",
+"begin_price": "2350",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5599,
+"lon": 53.65,
+"tags": {
+"name": "Европейская",
+"website": "https://euro-ukhta.ru/",
+"begin_price": "3680",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5638084411621,
+"lon": 53.6754264831543,
+"tags": {
+"name": "На Север на проспекте Ленина",
+"website": "https://travel.yandex.ru/hotels/syktyvkar/mini-otel-na-lenina/",
+"begin_price": "2200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5753402709961,
+"lon": 53.7041511535645,
+"tags": {
+"name": "Северное сияние",
+"website": "https://severnoye-siyaniye.ru/",
+"begin_price": "600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5551,
+"lon": 53.6842,
+"tags": {
+"name": "Приал Групп",
+"website": "https://www.komandirovka.ru/hotels/uchta/hotel-prial/",
+"begin_price": "1820",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.5711250305176,
+"lon": 53.6521644592285,
+"tags": {
+"name": "Sky",
+"website": "https://www.komandirovka.ru/hotels/uchta/sky-hotel/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 63.6328,
+"lon": 55.6563,
+"tags": {
+"name": "Велью",
+"website": "https://www.komandirovka.ru/hotels/velyu/guset-house-velyu/",
+"begin_price": "2740",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 67.502334594726,
+"lon": 64.060562133789,
+"tags": {
+"name": "Воркута",
+"website": "https://www.komandirovka.ru/hotels/vorkuta/vorkutahotel/",
+"begin_price": "3220",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 64.051372,
+"lon": 67.491645,
+"tags": {
+"name": "Горняк",
+"website": "https://zoon.ru/syktyvkar/hotels/gostinitsa_gornyak/",
+"begin_price": "3280",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6717681884766,
+"lon": 50.8388862609863,
+"tags": {
+"name": "Пелысь",
+"website": "https://hotel-pelys.com/",
+"begin_price": "1600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6689,
+"lon": 50.8314,
+"tags": {
+"name": "Авалон",
+"website": "https://avalonhotel.ru/",
+"begin_price": "3600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6646920,
+"lon": 50.8003430,
+"tags": {
+"name": "Пульман",
+"website": "https://www.booking.com/hotel/ru/pullman-hostel.ru.html",
+"begin_price": "2940",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 50.849223,
+"lon": 61.664676,
+"tags": {
+"name": "Klukva hostel",
+"website": "http://klukva-hostel.ru/",
+"begin_price": "900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.6480407714844,
+"lon": 50.8256759643555,
+"tags": {
+"name": "Северная звезда",
+"website": "https://ostrovok.ru/hotel/russia/syktyvkar/mid7675926/vityaz_hotel_2/",
+"begin_price": "3027",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 61.675664,
+"lon": 50.841036,
+"tags": {
+"name": "Югор",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g298509-d579081-Reviews-Ugor_Hotel-Syktyvkar_Komi_Republic_Northwestern_District.html",
+"begin_price": "4100",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 67.6735,
+"lon": 53.1337,
+"tags": {
+"name": "Отель Авантаж",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g4609881-d2690854-Reviews-Avantazh-Iskateley_Nenets_Autonomous_Okrug_Northwestern_District.html",
+"begin_price": "3650",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 67.636230468750,
+"lon": 52.991012573242,
+"tags": {
+"name": "Отель Заполярная столица",
+"website": "https://zapolyarnaya-stolica.rhotel.site/",
+"begin_price": "4600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 67.6363,
+"lon": 52.9942,
+"tags": {
+"name": "Pechora hotel",
+"website": "https://travel.yandex.ru/hotels/naryan-mar/pechora/",
+"begin_price": "3999",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 67.6367,
+"lon": 52.9893,
+"tags": {
+"name": "Фрегат в Пустозерск",
+"website": "https://vpustozerske.ru/",
+"begin_price": "3400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.987608,
+"lon": 73.411608,
+"tags": {
+"name": "Hostel agat",
+"website": "https://www.tripadvisor.ru/Hotel_Review-g1751905-d12114827-Reviews-Hostel_Agat-Naryan_Mar_Nenets_Autonomous_Okrug_Northwestern_District.html",
+"begin_price": "1640",
+"tourism": "hotel"
+}
+},
