@@ -2068,3 +2068,305 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 59.452952,
+"lon": 32.03556,
+"tags": {
+"name": "Север",
+"website": "https://sever-kirishi.ru/",
+"begin_price": "3000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.549827,
+"lon": 29.784434,
+"tags": {
+"name": "Огниво светлое",
+"website": "https://travel.yandex.ru/hotels/leningrad-oblast/baza-otdykha-ognivo-svetloe/",
+"begin_price": "6000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.5554046,
+"lon": 29.8096281,
+"tags": {
+"name": "Дачники",
+"website": "https://travel.yandex.ru/hotels/leningrad-oblast/dachniki/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.748451,
+"lon": 30.611889,
+"tags": {
+"name": "Гостиница уютная",
+"website": "https://uyutnaya.com/",
+"begin_price": "1300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.742715,
+"lon": 30.616772,
+"tags": {
+"name": "Пирамида",
+"website": "https://travel.yandex.ru/hotels/kolpino/piramida/",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.7339,
+"lon": 30.6054,
+"tags": {
+"name": "Берег",
+"website": "https://otel-bereg.ru/",
+"begin_price": "2900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.926,
+"lon": 30.3606,
+"tags": {
+"name": "Онегин",
+"website": "https://onegin.org/",
+"begin_price": "5600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.897704,
+"lon": 32.365482,
+"tags": {
+"name": "Отдохни",
+"website": "https://travel.yandex.ru/hotels/volhov/otdokhni/",
+"begin_price": "2999",
+"tourism": "hotel"
+}
+},
+
+
+{
+"type": "node",
+"id": -1,
+"lat": 60.1840400695801,
+"lon": 29.7516002655029,
+"tags": {
+"name": "Первая линия health care resort",
+"website": "https://hcresort.ru/",
+"begin_price": "35000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.936607,
+"lon": 30.31426,
+"tags": {
+"name": "Wawelberg",
+"website": "https://wawelberg.com/?utm_source=yandex_org",
+"begin_price": "30000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.930303,
+"lon": 30.346042,
+"tags": {
+"name": "Оранжевое небо",
+"website": "https://sky-orange.ru/",
+"begin_price": "3600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.9369,
+"lon": 30.2881,
+"tags": {
+"name": "Трезини",
+"website": "https://trezzinipalace.com/",
+"begin_price": "2600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.9188741,
+"lon": 30.370723,
+"tags": {
+"name": "Green Loft",
+"website": "http://greenlofthotel.ru/",
+"begin_price": "4750",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.9087,
+"lon": 30.2911,
+"tags": {
+"name": "Гамма",
+"website": "https://hotelgamma.ru/",
+"begin_price": "3960",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.948136,
+"lon": 30.277537,
+"tags": {
+"name": "Тучков Отель",
+"website": "https://tuchkov-vaska.spb.ru/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.93004,
+"lon": 30.36985,
+"tags": {
+"name": "Галунов отель",
+"website": "https://galunovhotel.ru/",
+"begin_price": "1760",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.934562,
+"lon": 30.326293,
+"tags": {
+"name": "Wynwood",
+"website": "https://travel.yandex.ru/hotels/saint-petersburg/wynwood/",
+"begin_price": "6400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.943458,
+"lon": 30.326522,
+"tags": {
+"name": "1715 duplex hotel",
+"website": "https://1715hotel.ru/",
+"begin_price": "9900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.932031,
+"lon": 30.369857,
+"tags": {
+"name": "Hotel 812",
+"website": "https://hotel812.com/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.930837,
+"lon": 30.345132,
+"tags": {
+"name": "Калейдоскоп на рубинштейна 13",
+"website": "https://kaleidoscophotel.com/r13",
+"begin_price": "13050",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.935983,
+"lon": 30.33033,
+"tags": {
+"name": "Terra place by mix hotels",
+"website": "https://terraplace.clients.site/",
+"begin_price": "3520",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.936079,
+"lon": 30.33776,
+"tags": {
+"name": "Калейдоскоп на итальянской",
+"website": "https://kaleidoscophotel.com/ital",
+"begin_price": "11187",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.987609,
+"lon": 30.19014,
+"tags": {
+"name": "Лахта Плаза",
+"website": "https://lahtaplaza.ru/?etext",
+"begin_price": "29800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 60.1512298583984,
+"lon": 29.9139976501465,
+"tags": {
+"name": "Международный академический центр гармония",
+"website": "https://harmony-hotel.ru/",
+"begin_price": "15900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 59.916415,
+"lon": 30.361161,
+"tags": {
+"name": "Ridge",
+"website": "https://ridgespb.ru/",
+"begin_price": "32500",
+"tourism": "hotel"
+}
+},
