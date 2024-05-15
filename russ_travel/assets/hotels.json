@@ -6069,4 +6069,283 @@
 "tourism": "hotel"
 }
 },
+{
+"type": "node",
+"id": -1,
+"lat": 53.738208770752,
+"lon": 91.4209136962891,
+"tags": {
+"name": "lucomoria hostel Аbakan",
+"website": "https://ostrovok.ru/hotel/russia/abakan/mid8446965/lucomoria_abakan_hostel/",
+"begin_price": "1886",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.722377,
+"lon": 91.447049,
+"tags": {
+"name": "Абакан",
+"website": "https://ostrovok.ru/hotel/russia/abakan/mid8446965/lucomoria_abakan_hostel/",
+"begin_price": "1886",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.721678,
+"lon": 91.452169,
+"tags": {
+"name": "Персона",
+"website": "https://persona-abakan.ru/",
+"begin_price": "3900",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.722732,
+"lon": 91.443548,
+"tags": {
+"name": "Хакасия",
+"website": "https://www.hotel-khakasia.ru/",
+"begin_price": "3150",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.715983,
+"lon": 91.445690,
+"tags": {
+"name": "Гостиница Анзас",
+"website": "http://www.anzas.ru/",
+"begin_price": "3700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.095409,
+"lon": 91.419013,
+"tags": {
+"name": "Енисей",
+"website": "https://enisey-hotel.ru/",
+"begin_price": "2755",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.10563,
+"lon": 91.412167,
+"tags": {
+"name": "Саяногорск",
+"website": "https://sayanhotel.ru/",
+"begin_price": "2800",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.9879,
+"lon": 90.9668,
+"tags": {
+"name": "Жарки",
+"website": "https://travel.yandex.ru/hotels/republic-of-khakassia/zharki/",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.652872,
+"lon": 88.704902,
+"tags": {
+"name": "Притяжение",
+"website": "https://travel.yandex.ru/hotels/republic-of-khakassia/pritiazhenie/",
+"begin_price": "8400",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.657977,
+"lon": 88.690544,
+"tags": {
+"name": "Таежная резиденция Ажур Приисковое",
+"website": "https://travel.yandex.ru/hotels/republic-of-khakassia/taiozhnaia-rezidentsiia-azhur-priiskovyi/",
+"begin_price": "4998",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.652638,
+"lon": 88.697321,
+"tags": {
+"name": "Снежный Избасс",
+"website": "https://snezhnyj-izbass.clients.site/",
+"begin_price": "3500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.498955,
+"lon": 90.158896,
+"tags": {
+"name": "Бегущая по волнам",
+"website": "https://prestige-tour.ru/",
+"begin_price": "4500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.49877,
+"lon": 90.146674,
+"tags": {
+"name": "Озеро Шира",
+"website": "https://turbaza.ru/respublika-xakasiya/id5200/",
+"begin_price": "3200",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.496453,
+"lon": 90.148517,
+"tags": {
+"name": "Pjat ozer",
+"website": "http://shira-otdykh.ru/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.739216,
+"lon": 91.431676,
+"tags": {
+"name": "V gostjah u skazki",
+"website": "https://skazka-shira.ru/",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.662937,
+"lon": 88.687844,
+"tags": {
+"name": "All Inn",
+"website": "https://allinn-pri.ru/",
+"begin_price": "2430",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.653899,
+"lon": 88.692765,
+"tags": {
+"name": "Golden rocks hotel",
+"website": "https://goldenrocks.ru/gostinitsa-goldenrocks",
+"begin_price": "2500",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 54.652638,
+"lon": 88.697321,
+"tags": {
+"name": "Izbass (Избасс)",
+"website": "https://travel.yandex.ru/hotels/republic-of-khakassia/snezhnyi-izbass/",
+"begin_price": "6700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.122787,
+"lon": 90.503280,
+"tags": {
+"name": "Максим",
+"website": "https://broni.travel/respublika-khakasiya/askizskij-rajon/mini-otel-maksim-askiz/",
+"begin_price": "2300",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.146594,
+"lon": 90.549717,
+"tags": {
+"name": "Советский",
+"website": "http://sovetski.su/",
+"begin_price": "2000",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.259940,
+"lon": 89.556321,
+"tags": {
+"name": "Кедр",
+"website": "https://abaza-kedr.ru/",
+"begin_price": "1600",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 52.717732,
+"lon": 89.921380,
+"tags": {
+"name": "Sjugesh",
+"website": "https://www.tur-hotel.ru/hotels/russia/republic-of-khakassia/tashtyp/sjugesh/",
+"begin_price": "1700",
+"tourism": "hotel"
+}
+},
+{
+"type": "node",
+"id": -1,
+"lat": 53.593949,
+"lon": 91.381208,
+"tags": {
+"name": "Северная",
+"website": "https://zoon.ru/abakan/hotels/gostinitsa_severnaya/",
+"begin_price": "6000",
+"tourism": "hotel"
+}
+}
+]
+}
+
 
