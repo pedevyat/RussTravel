@@ -2743,7 +2743,7 @@
 {"name": "Приморская набережная", "latitude": 46.714905,"longitude": 38.256694, "photoUrl": "https://irecommend.ru/sites/default/files/product-images/28773/a8RjHGuSALkPOZQnXnznQ.jpg"},
 {"name": "Центральный пляж", "latitude": 46.733405,"longitude": 38.284016, "photoUrl": "https://sun9-31.userapi.com/impg/c855232/v855232797/248d4d/wxmUzQxYGf0.jpg?size=870x515&quality=96&sign=3042cf11a53295b61e0db99caaa84adb&c_uniq_tag=UofPTPENKvXZSpk4f13xzVpD63zDPAzL35idQMqeEN0&type=album"},
 {"name": "Приморский парк", "latitude": 47.199837,"longitude": 38.895979, "photoUrl": "https://traland.ru/wp-content/uploads/2021/07/primorskii-park-1.jpg"},
-{"name": "Парк Культуры и отдыха имени Горького", "latitude": 47.218419,"longitude": 38.925050, "photoUrl": "https://sun9-3.userapi.com/impg/-ACSHwC0BU9DvYxcyoeMiSW4bCbp1zgEE8ZiAw/g1NgeTDhz30.jpg?size=1024x682&quality=96&sign=7c08015afd8b02f62b9e260c6c6cd439&c_uniq_tag=l_x7foiQnFRbTwylFTXMt1IWi00oL_DqEZSp8j-Pvo0&type=album"}
+{"name": "Парк Культуры и отдыха имени Горького", "latitude": 47.218419,"longitude": 38.925050, "photoUrl": "https://sun9-3.userapi.com/impg/-ACSHwC0BU9DvYxcyoeMiSW4bCbp1zgEE8ZiAw/g1NgeTDhz30.jpg?size=1024x682&quality=96&sign=7c08015afd8b02f62b9e260c6c6cd439&c_uniq_tag=l_x7foiQnFRbTwylFTXMt1IWi00oL_DqEZSp8j-Pvo0&type=album"},
 {"name": "Сквер Петра I", "latitude":47.204602,"longitude": 38.946223, "photoUrl": "https://cityreporter.ru/wp-content/uploads/2022/03/1508310982.jpg"},
 {"name": "роща Дубки", "latitude": 47.253981,"longitude": 38.912669, "photoUrl": "https://s0.bloknot-taganrog.ru/thumb/850x0xcut/upload/iblock/a2a/nnuz12fd7hdgib6vmp6jzkdme0ckjcyo/dubki.jpg"},
 {"name": "Центральный парк им. М. Горького", "latitude": 47.221248,"longitude": 39.710246, "photoUrl": "https://images.kojaro.com/2018/4/3ee04b25-9a2a-417e-8aba-a338da4e1f7f.jpg"},
@@ -2757,6 +2757,120 @@
 {"name": "Терренкур Тропа здоровья", "latitude": 43.545560,"longitude": 39.788335, "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4340823/pub_635a87912738221cfc43d5aa_635a87cdc8733e6f7481d4ce/scale_1200"},
 {"name": "Арт-парк", "latitude": 44.702780,"longitude": 37.597965, "photoUrl": "https://extraguide.ru/images/blog/2022/04-18-l3qi1e-park-abrau-dyurso.jpg"},
 {"name": "Экологическая тропа Абрау-Дюрсо", "latitude": 44.702020,"longitude": 37.586616, "photoUrl": "https://botsady.ru/netcat_files/17/15/a2cdae0de40810eb254279be915ed7a4"},
-{"name": "Парк Победы", "latitude": 44.035693,"longitude": 43.008685, "photoUrl": "https://xn----7sbaj2aapqdlwhq.xn--p1ai/wp-content/uploads/2021/11/1526596429120668815-400x300.jpg"}
+{"name": "Парк Победы", "latitude": 44.035693,"longitude": 43.008685, "photoUrl": "https://xn----7sbaj2aapqdlwhq.xn--p1ai/wp-content/uploads/2021/11/1526596429120668815-400x300.jpg"},
+{
+    "name": "Дельта Волги (Астраханский заповедник)",
+    "latitude": 46.733523197343914,
+    "longitude": 47.850627567563116,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/delta-volgi-700x467.jpg"
+  },
+  {
+    "name": "Лотосовые поля",
+    "latitude": 46.234002878622526,
+    "longitude": 48.515624945561775,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/lotosnye-polya-700x454.jpg"
+  },
+  {
+    "name": "Озеро Баскунчак",
+    "latitude": 48.20229962500572,
+    "longitude": 46.880148997950684,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ozero-baskunchak-700x466.jpg"
+  },
+  {
+    "name": "Набережная Волги",
+    "latitude": 46.288555224205346,
+    "longitude": 47.951356326483584,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/naberezhnaya-volgi-700x463.jpg"
+  },
+  {
+    "name": "Иванчугский зоопарк «Баба Фрося»",
+    "latitude": 46.33797418156977,
+    "longitude": 48.04372974479523,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ivanchugskij-zoopark-baba-frosya-700x467.jpg"
+  },
+  {
+    "name": "Озеро Сасык-Сиваш",
+    "latitude": 45.17838875662839,
+    "longitude": 33.51200152326964,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Ozero-Sasyk-Sivash.jpg"
+  },
+  {
+    "name": "Никитский ботанический сад",
+    "latitude": 44.511442321820844,
+    "longitude": 34.232012123992114,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Nikitskiy-botanicheskiy-sad.jpg"
+  },
+  {
+    "name": "Мраморная пещера",
+    "latitude": 44.797151971070896,
+    "longitude": 34.27937873991333,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Mramornaya-peschera-1536x1024.jpg"
+  },
+  {
+    "name": "Пещерный город Чуфут-Кале",
+    "latitude": 44.74132946506895,
+    "longitude": 33.92311446874689,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Peschernyy-gorod-CHufut-Kale-1536x1025.jpg"
+  },
+  {
+    "name": "Парк «Айвазовское»",
+    "latitude": 44.58276479344546,
+    "longitude": 34.34416169356639,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Park-Ayvazovskoe-1536x1024.jpg"
+  },
+  {
+    "name": "Тропа Голицына",
+    "latitude": 44.82276833162597,
+    "longitude": 34.91857804361729,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Tropa-Golitsyna-1536x1025.jpg"
+  },
+  {
+    "name": "Большая Митридатская лестница",
+    "latitude": 45.35355285002461,
+    "longitude": 36.47085432644418,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Bolshaya-Mitridatskaya-lestnitsa.jpg"
+  },
+  {
+    "name": "Сафари-парк «Тайган»",
+    "latitude": 45.0338559516359,
+    "longitude": 34.56553954547747,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Safari-park-Taygan-1536x1023.jpg"
+  },
+  {
+    "name": "МДЦ «Артек»",
+    "latitude": 44.55100982542518,
+    "longitude": 34.2986109705904,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/MDTS-Artek-1536x1024.jpg"
+  },
+  {
+    "name": "Карадагский природный заповедник",
+    "latitude": 44.93410911474237,
+    "longitude": 35.223314139919026,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Karadagskiy-prirodnyy-zapovednik.jpg"
+  },
+  {
+    "name": "Водопад Джур-Джур",
+    "latitude": 44.805059768705505,
+    "longitude": 34.459444197585505,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Vodopad-Dzhur-Dzhur-1536x1023.jpg"
+  },
+  {
+    "name": "Лавандовые поля в Тургеневке",
+    "latitude": 44.69704958602002,
+    "longitude": 33.83193118408875,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Lavandovye-polya-v-Turgenevke-1536x1024.jpg"
+  },
+  {
+    "name": "Долина привидений",
+    "latitude": 44.7480029897846,
+    "longitude": 34.40707226022309,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Dolina-privideniy-1536x1025.jpg"
+  },
+  {
+    "name": "Кояшское озеро",
+    "latitude": 45.051440813590126,
+    "longitude": 36.182081796248674,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Koyashskoe-ozero-1536x1023.jpg"
+  }
 
 ]

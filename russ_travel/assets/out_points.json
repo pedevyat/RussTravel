@@ -1970,8 +1970,8 @@
 {
   "type": "node",
   "id": 5628630221,
-  "lat": 44.5879408,
-  "lon": 39.0711846,
+  "latitude": 44.5879408,
+  "longitude": 39.0711846,
   "photoUrl": "https://sun9-69.userapi.com/impf/c831508/v831508968/11b3a9/94dn7IkMhYo.jpg?size=320x213&quality=96&sign=716061c2c0d9229a8033984025a48c50&c_uniq_tag=kZdOZrJ0m7i8W6ku7a60DZ06O0jKCBzDrfsXp-eNG98&type=album",
   "name": "панорама на горы и Краснодар",
   "tags": {
@@ -1983,8 +1983,8 @@
 {
   "type": "node",
   "id": 9724247617,
-  "lat": 44.6180379,
-  "lon": 39.0910676,
+  "latitude": 44.6180379,
+  "longitude": 39.0910676,
   "photoUrl": "https://otdih.nakubani.ru/m/catalogBig/634fe3daf8dbe021ce04dd57/",
   "name": "Точка обзора у подъемника",
   "tags": {
@@ -1997,15 +1997,93 @@
 {
   "type": "node",
   "id": 11893724469,
-  "lat": 44.600583,
-  "lon": 39.105949,
+  "latitude": 44.600583,
+  "longitude": 39.105949,
   "name": "Смотровая площадка",
   "photoUrl": "https://sun9-7.userapi.com/impg/qV4GUS6uxJNbdgoIxzKSm54BmAbQcWIAcCbFEw/hTTL69_n_is.jpg?size=320x240&quality=96&sign=5053b0401807a7acec2fc085745c0656&c_uniq_tag=W5z3P9E_7bxrgCjNNSdS-jhKgc10pUA3n_5mJtvFwNU&type=album",
   "tags": {
     
     "tourism": "viewpoint"
   }
-}
+},
+	{
+    "name": "Астраханский кремль",
+    "latitude": 46.34930643371145,
+    "longitude": 48.03215928600924,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/astrahanskij-kreml-700x453.jpg"
+  },
+  {
+    "name": "Гора Большое Богдо",
+    "latitude": 48.143350749402366,
+    "longitude": 46.85544436461426,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/gora-bolshoe-bogdo-700x466.jpg"
+  },
+  {
+    "name": "Бархан «Большой Брат»",
+    "latitude": 46.431027425092765,
+    "longitude": 47.49557632648953,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/barhan-bolshoj-brat-700x463.jpg"
+  },
+  {
+    "name": "Астраханский вододелитель",
+    "latitude": 46.70869391185858,
+    "longitude": 47.848891616140605,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/astrahanskij-vododelitel-700x463.jpg"
+  },
+  {
+    "name": "Замок «Ласточкино гнездо»",
+    "latitude": 44.43051849720389,
+    "longitude": 34.128430189898125,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Zamok-Lastochkino-gnezdo.jpg"
+  },
+  {
+    "name": "Крымский мост",
+    "latitude": 45.26478636403207,
+    "longitude": 36.55259875347067,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Krymskiy-most-1536x1024.jpg"
+  },
+  {
+    "name": "Мыс Фиолент",
+    "latitude": 44.498278,
+    "longitude": 33.488944,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Mys-Fiolent-1536x1024.jpeg"
+  },
+  {
+    "name": "Золотые ворота Кара-Дага",
+    "latitude": 44.914590977875726,
+    "longitude": 35.23143905341049,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Zolotye-vorota-Kara-Daga-1536x1020.jpg"
+  },
+  {
+    "name": "Большой каньон Крыма",
+    "latitude": 44.52888104808974,
+    "longitude": 34.02009559757406,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Bolshoy-kanon-Kryma-1536x1024.jpg"
+  },
+  {
+    "name": "Винный завод «Массандра»",
+    "latitude": 44.5103045310038,
+    "longitude": 34.18832315410959,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Vinnyy-zavod-Massandra-1536x1024.jpg"
+  },
+  {
+    "name": "Гора Клементьева",
+    "latitude": 45.01101298813807,
+    "longitude": 35.24843928670169,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Gora-Klementeva-1536x1024.jpg"
+  },
+  {
+    "name": "Балаклавская бухта",
+    "latitude": 44.497312,
+    "longitude": 33.597665,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Balaklavskaya-buhta.jpg"
+  },
+  {
+    "name": "Белая скала Ак-Кая",
+    "latitude": 45.09927311691332,
+    "longitude": 34.63551510968695,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Belaya-skala-Ak-Kaya-1536x1021.jpg"
+  }
 	
     
 ]
