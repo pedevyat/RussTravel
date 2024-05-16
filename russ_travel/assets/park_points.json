@@ -887,18 +887,8 @@
         "longitude": 43.08307,
         "photoUrl": "https://sun9-59.userapi.com/impg/bIeLlrn6gA_mgS8MUf3WgSuk-VIjSw5kEtIyaw/CdPKCb6mNwg.jpg?size=604x340&quality=95&sign=b071125d78868337dbf58a08fe97119e&type=album"
     },
-    {
-        "name": "Провал",
-        "latitude": 44.046672,
-        "longitude": 43.098839,
-        "photoUrl": "https://stihi.ru/pics/2021/08/22/5436.jpg"
-    },
-    {
-        "name": "Курортный парк",
-        "latitude": 43.894141,
-        "longitude": 42.725039,
-        "photoUrl": "https://kstrip.ru/wp-content/uploads/2021/07/2981769.jpg"
-    },
+
+
     {
         "name": "Нижний парк",
         "latitude": 43.896675,
@@ -929,12 +919,7 @@
         "longitude": 43.081792,
         "photoUrl": "https://static.guidego.ru/6192b7ee14e827504c4600ad.640x480.jpeg"
     },
-    {
-        "name": "Ессентукский курортный парк",
-        "latitude": 44.046423,
-        "longitude": 42.864104,
-        "photoUrl": "https://ifs.cook-time.com/preview/img914/914964.jpg"
-    },
+   
     {
         "name": "Курортный парк Железноводска",
         "latitude": 44.140371,
@@ -2263,12 +2248,7 @@
     "longitude": 95.242778,
     "photoUrl": "https://chashka4l.ru/_nw/0/14251362.jpg"
   },
-      {
-        "name": "Гинкго Парк",
-        "latitude": 47.401337,
-        "longitude": 40.071135,
-        "photoUrl": "https://xn----etbfmiekefsq6k.xn--p1ai/wp-content/uploads/novocherkassk-dostoprimechatelnosti-na-karte-foto-chto-posmotret-razvlecheniya-kuda-shodit17.jpg"
-    },
+
     {
         "name": "Парк «Малинки»",
         "latitude": 47.745672,
@@ -2311,12 +2291,7 @@
         "longitude": 39.618411,
         "photoUrl": "https://voicedaily.ru/wp-content/uploads/2022/10/whatsapp-image-2022-10-25-at-12.46.09.jpeg"
     },
-    {
-        "name": "Заповедник «Золотые горки»",
-        "latitude": 47.441969,
-        "longitude": 40.390649,
-        "photoUrl": "https://southklad.ru/forum/thumb/73944.jpg"
-    },
+
     {
         "name": "Природный парк Цимлянские пески",
         "latitude": 48.169465,
@@ -2341,12 +2316,6 @@
             "latitude": 46.987246,
             "longitude": 142.020194,
             "photoUrl": "https://avatars.mds.yandex.net/i?id=abab76273cb86d1e940fbd5689471cb9ab936a76-9385956-images-thumbs&n=13"
-        },
-        {
-            "name": "Парк Лога в хуторе Старая Станица",
-            "latitude": 48.351304,
-            "longitude": 40.295224,
-            "photoUrl": "https://i.ytimg.com/vi/OKhN28LM0Nk/maxresdefault.jpg"
         },
         {
             "name": "Курортный парк в Ессентуках",
@@ -2396,24 +2365,14 @@
             "longitude": 40.349915,
             "photoUrl": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663456453_2-mykaleidoscope-ru-p-kanon-eldorado-kamensk-shakhtinskii-pinter-2.jpg"
         },
-        {
-            "name": "Природный парк Цимлянские пески",
-            "latitude": 48.169465,
-            "longitude": 42.676384,
-            "photoUrl": "https://lovi-fish.ru/wp-content/uploads/8/d/e/8dee3eb3bce372deb26a6a8629f96f03.jpeg"
-        },
+
         {
             "name": "Гинкго Парк",
             "latitude": 47.401337,
             "longitude": 40.071135,
             "photoUrl": "https://www.vladmuz.ru/travel_photos/novocherkassk/tolokonnikov-garden/42.jpg"
         },
-        {
-            "name": "Парк «Малинки»",
-            "latitude": 47.745672,
-            "longitude": 40.088963,
-            "photoUrl": "https://avatars.mds.yandex.net/get-altay/5254019/2a0000017bd5396d7d7b970c6bc4458193a2/XXL"
-        },
+
         {
             "name": "Маяк в Мержаново",
             "latitude": 47.287558,
@@ -2551,12 +2510,6 @@
         "latitude": 45.95461830021043,
         "longitude": 46.1426053441949,
         "photoUrl": "https://korona-severa.ru/wp-content/uploads/a/3/b/a3b99f5a1c4e4db6c6bc7a27dd4e521d.jpeg"
-    },
-    {
-        "name": "Озеро Маныч-Гудило",
-        "latitude": 46.336899121179684,
-        "longitude": 42.79970149172716,
-        "photoUrl": "https://korona-severa.ru/wp-content/uploads/e/a/6/ea64da6a4d17c7b87007340a42f21716.jpeg"
     },
     {
         "name": "Михайло-Афонская Закубанская пустынь",
@@ -2791,7 +2744,19 @@
 {"name": "Центральный пляж", "latitude": 46.733405,"longitude": 38.284016, "photoUrl": "https://sun9-31.userapi.com/impg/c855232/v855232797/248d4d/wxmUzQxYGf0.jpg?size=870x515&quality=96&sign=3042cf11a53295b61e0db99caaa84adb&c_uniq_tag=UofPTPENKvXZSpk4f13xzVpD63zDPAzL35idQMqeEN0&type=album"},
 {"name": "Приморский парк", "latitude": 47.199837,"longitude": 38.895979, "photoUrl": "https://traland.ru/wp-content/uploads/2021/07/primorskii-park-1.jpg"},
 {"name": "Парк Культуры и отдыха имени Горького", "latitude": 47.218419,"longitude": 38.925050, "photoUrl": "https://sun9-3.userapi.com/impg/-ACSHwC0BU9DvYxcyoeMiSW4bCbp1zgEE8ZiAw/g1NgeTDhz30.jpg?size=1024x682&quality=96&sign=7c08015afd8b02f62b9e260c6c6cd439&c_uniq_tag=l_x7foiQnFRbTwylFTXMt1IWi00oL_DqEZSp8j-Pvo0&type=album"}
-
-
+{"name": "Сквер Петра I", "latitude":47.204602,"longitude": 38.946223, "photoUrl": "https://cityreporter.ru/wp-content/uploads/2022/03/1508310982.jpg"},
+{"name": "роща Дубки", "latitude": 47.253981,"longitude": 38.912669, "photoUrl": "https://s0.bloknot-taganrog.ru/thumb/850x0xcut/upload/iblock/a2a/nnuz12fd7hdgib6vmp6jzkdme0ckjcyo/dubki.jpg"},
+{"name": "Центральный парк им. М. Горького", "latitude": 47.221248,"longitude": 39.710246, "photoUrl": "https://images.kojaro.com/2018/4/3ee04b25-9a2a-417e-8aba-a338da4e1f7f.jpg"},
+{"name": "МБУ Парк культуры и отдыха им. Октября", "latitude": 47.259694,"longitude": 39.681329, "photoUrl": "https://topparki.ru/wp-content/uploads/2018/10/park-im.-oktjabrja.jpg"},
+{"name": "Парк культуры и отдыха имени Н. А. Островского", "latitude": 47.244681,"longitude": 39.758436, "photoUrl": "https://pandia.ru/text/80/478/images/img5_58.jpg"},
+{"name": "Аллея Роз", "latitude": 47.205703,"longitude": 39.633409, "photoUrl": "https://topgid.net/uploads/posts/2019-11/5dd548da417e9-4563-alleja-roz.jpeg"},
+{"name": "Подвесной мост", "latitude": 47.528477,"longitude": 40.814527, "photoUrl": "https://avatars.dzeninfra.ru/get-zen_brief/6449240/pub_62b19bcf0abf9c1191e7ecc5_62b1a862c7a4dc4d78896c9e/scale_1200"},
+{"name": "Волго-Донской канал", "latitude": 48.519675,"longitude": 44.553155, "photoUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWoWRZWMRP2x0uzBM4CM8kg_ioDZjAm8ZQSnVv9uE8_lIAvdGtcNyHtGyw24s8z5SlrATipjPFX6pHjROnb5x3MAR3LljzwSpgArwGuriSgzvMy_G-SUcdQ0REBQNqaZyi-jVK5XBNJ0V_2MonxgGQ_YX3XKy7RJ3u59IWUVHgFH1U1aXOdbNTQB67/s1043/volgo_donskoy_sudohodnyi_kanal6.jpg"},
+{"name": "Мамаев курган", "latitude": 48.741973,"longitude":44.538126, "photoUrl": "https://img.razrisyika.ru/kart/28/1200/108062-mamaev-kurgan-27.jpg"},
+{"name": "Парк Победы", "latitude": 48.739155,"longitude": 44.546010, "photoUrl": "https://volganet.net/wp-content/uploads/2020/12/8c323ffc9bf4023bec1f60a50f65fcef.jpg"},
+{"name": "Терренкур Тропа здоровья", "latitude": 43.545560,"longitude": 39.788335, "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4340823/pub_635a87912738221cfc43d5aa_635a87cdc8733e6f7481d4ce/scale_1200"},
+{"name": "Арт-парк", "latitude": 44.702780,"longitude": 37.597965, "photoUrl": "https://extraguide.ru/images/blog/2022/04-18-l3qi1e-park-abrau-dyurso.jpg"},
+{"name": "Экологическая тропа Абрау-Дюрсо", "latitude": 44.702020,"longitude": 37.586616, "photoUrl": "https://botsady.ru/netcat_files/17/15/a2cdae0de40810eb254279be915ed7a4"},
+{"name": "Парк Победы", "latitude": 44.035693,"longitude": 43.008685, "photoUrl": "https://xn----7sbaj2aapqdlwhq.xn--p1ai/wp-content/uploads/2021/11/1526596429120668815-400x300.jpg"}
 
 ]
