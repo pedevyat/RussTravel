@@ -2329,12 +2329,7 @@
             "longitude": 40.175697,
             "photoUrl": "https://titam.ru/wp-content/uploads/2020/04/Хаджохская-теснина.jpg"
         },
-        {
-            "name": "Набережная Ростова-на-Дону",
-            "latitude": 47.217242,
-            "longitude": 39.726807,
-            "photoUrl": "https://celes.club/uploads/posts/2022-08/1661475114_29-celes-club-p-krasivie-mesta-rostova-na-donu-vkontakte-31.jpg"
-        },
+       
         {
             "name": "Парк Дружба в Элисте",
             "latitude": 46.30709399772154,
@@ -2652,5 +2647,88 @@
         "latitude": 44.047674,
         "longitude": 43.084915,
         "photoUrl": "https://extraguide.ru/images/blog/2021/02-04-59r4sx-pyatigorskaya-kanatnaya-doroga.jpeg"
-    }
+    },
+	{
+  "type": "node",
+  "id": 9282713916,
+  "latitude": 48.7641348,
+  "longitude": 44.4774216,
+  "name": "Парк Русь",
+  "tags": {
+    "leisure": "park"
+    
+  }
+},
+{
+  "type": "node",
+  "id": 9291129605,
+  "latitude": 48.7015021,
+  "longitude": 44.5109390,
+  "name": "Царицынский парк",
+  "tags": {
+   
+    "name:de": "Zarizyno-Park"
+  }
+},
+{
+  "type": "node",
+  "id": 9342618981,
+  "latitude": 48.7849117,
+  "longitude": 44.7487379,
+  "name": "Сквер им. Высоцкого В.С.",
+  "tags": {
+    "leisure": "park"
+   
+  }
+},
+{
+  "type": "node",
+  "id": 9342618983,
+  "latitude": 48.7848114,
+  "longitude": 44.7480727,
+  "name": "МАУ \"ПКиО \"Волжский\"",
+  "tags": {
+    "leisure": "park"
+    
+  }
+},
+{
+  "type": "node",
+  "id": 9342677336,
+  "latitude": 48.7836933,
+  "longitude": 44.7525678,
+  "name": "Парк Волжский",
+  "tags": {
+    "leisure": "park"
+    
+  }
+},
+
+{
+  "type": "node",
+  "id": 11224471279,
+  "latitude": 48.7566123,
+  "longitude": 44.8057992,
+  "name": "Парк Космос",
+  "tags": {
+    "leisure": "park"
+    
+  }
+},
+{
+  "type": "node",
+  "id": 11458690133,
+  "latitude": 48.7816384,
+  "longitude": 44.7488438,
+  "name": "Молодёжный центр",
+  "tags": {
+    "addr:city": "Волжский",
+    "addr:housenumber": "90",
+    "addr:postcode": "404111",
+    "addr:street": "пр. Ленина",
+    "leisure": "park",
+    
+    "operator": "МАУ \"ПКиО \"Волжский\""
+  }
+}
 ]
