@@ -47686,7 +47686,8 @@
   "lat": 44.7105800,
   "lon": 37.4556592,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://olga-utrish.ru/"
   }
 },
 {
@@ -47696,7 +47697,8 @@
   "lon": 37.8449395,
   "tags": {
     "name": "Корсар",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/novorossiysk/korsar/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -47706,7 +47708,8 @@
   "lon": 38.0722669,
   "tags": {
     "name": "Самара",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://samaragel.ru/"
   }
 },
 {
@@ -47726,7 +47729,8 @@
   "lon": 38.0730317,
   "tags": {
     "name": "Music Hall",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/gelendgik/music-hall/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -47746,7 +47750,8 @@
   "lon": 37.3209396,
   "tags": {
     "name": "Отель \"Плаза\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://anapa-plaza.ru/"
   }
 },
 {
@@ -47862,7 +47867,8 @@
   "lon": 38.0615380,
   "tags": {
     "name": "Пансионат \"Приветливый берег\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://privbereg.ru/?utm_campaign=sprav&utm_content=glavnaya&utm_medium=link&utm_source=yandex-business&utm_term=pb"
   }
 },
 {
@@ -47906,7 +47912,8 @@
   "lon": 38.0293636,
   "tags": {
     "name": "Санаторий \"Голубая волна\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://golubayavolna.ru/"
   }
 },
 {
@@ -47947,7 +47954,8 @@
   "lon": 38.0222925,
   "tags": {
     "name": "Чайка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://otel-chaika.ru/"
   }
 },
 {
@@ -47957,7 +47965,8 @@
   "lon": 38.0412532,
   "tags": {
     "name": "Горизонт",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://orchestra-horizont.ru/"
   }
 },
 {
@@ -47996,7 +48005,8 @@
     "addr:street": "Туристическая улица",
     "name": "Санаторий \"Голубая Волна\"",
     "operator": "АлРоса",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://golubayavolna.ru/"
   }
 },
 {
@@ -48006,7 +48016,8 @@
   "lon": 38.0215579,
   "tags": {
     "name": "Санаторий \"Алые Паруса\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://alyeparusagel.ru/"
   }
 },
 {
@@ -48016,7 +48027,8 @@
   "lon": 38.1309283,
   "tags": {
     "name": "Парадиз",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://api.whatsapp.com/send?phone=79604894087"
   }
 },
 {
@@ -48030,7 +48042,8 @@
     "addr:street": "улица Мира",
     "name": "Санаторий \"Красная Талка\"",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://talka.ru/?utm_campaign=sprav&utm_content=glavnaya&utm_medium=link&utm_source=yandex-business&utm_term=kt1"
   }
 },
 {
@@ -48040,7 +48053,8 @@
   "lon": 38.1421033,
   "tags": {
     "name": "Фламинго",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://flamingo.one/"
   }
 },
 {
@@ -48050,7 +48064,8 @@
   "lon": 38.0627249,
   "tags": {
     "name": "Санаторий «Солнечный берег»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/solnechny_beregvos"
   }
 },
 {
@@ -48141,7 +48156,8 @@
   "tags": {
     "fire_rank": "1 бис",
     "name": "панс. Приморский",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://primorskyhotel.ru/"
   }
 },
 {
@@ -48171,7 +48187,8 @@
   "lon": 36.9897718,
   "tags": {
     "name": "Штурвал",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://shturval-sennoy.ru/"
   }
 },
 {
@@ -48191,7 +48208,8 @@
   "lon": 38.0590242,
   "tags": {
     "name": "Золотая лоза",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.idisuda.ru/review.php?n=4260"
   }
 },
 {
@@ -48201,7 +48219,8 @@
   "lon": 38.0671768,
   "tags": {
     "name": "«Горный воздух»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gor-vozduh.ru/hotel/"
   }
 },
 {
@@ -48230,7 +48249,8 @@
   "lon": 36.9895046,
   "tags": {
     "name": "Фея",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": ""
   }
 },
 {
@@ -48240,7 +48260,8 @@
   "lon": 38.0770653,
   "tags": {
     "name": "Пальмира",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://galapalmira.ru/"
   }
 },
 {
@@ -48260,7 +48281,8 @@
   "lon": 38.0713069,
   "tags": {
     "name": "Санаторий \"Эдельвейс\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----ctbebdcbcalwfudg7a3d8kpa.xn--p1ai/"
   }
 },
 {
@@ -48270,7 +48292,8 @@
   "lon": 38.0642228,
   "tags": {
     "name": "Отель «Белый дом»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn-----blcnbc2amdnmj6b2ik.xn--p1ai/"
   }
 },
 {
@@ -48283,7 +48306,8 @@
     "addr:housenumber": "56",
     "addr:street": "улица Советов",
     "name": "Отель София",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://novoros-sofia.ru/"
   }
 },
 {
@@ -48325,7 +48349,8 @@
   "tags": {
     "internet_access": "wlan",
     "name": "Лотос",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/anapalotos"
   }
 },
 {
@@ -48357,7 +48382,8 @@
   "lon": 37.2588075,
   "tags": {
     "name": "Фаворит",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://wa.me/79283310858"
   }
 },
 {
@@ -48411,7 +48437,8 @@
   "lon": 37.2545376,
   "tags": {
     "name": "Зодиак",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://zodiak-hotel.ru/"
   }
 },
 {
@@ -48421,7 +48448,8 @@
   "lon": 37.5439222,
   "tags": {
     "name": "База отдыха \"Моряк\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://utrish.org/"
   }
 },
 {
@@ -48453,7 +48481,8 @@
   "lon": 37.2560228,
   "tags": {
     "name": "Бумеранг",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----7sbcgadmerj2bous0bg8s.xn--p1ai/"
   }
 },
 {
@@ -48484,7 +48513,8 @@
   "lon": 37.2588417,
   "tags": {
     "name": "Константинополь",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ko-pol.ru/"
   }
 },
 {
@@ -48505,7 +48535,8 @@
   "lon": 37.2556215,
   "tags": {
     "name": "Палладиум",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.palladium-anapa.ru/"
   }
 },
 {
@@ -48559,7 +48590,8 @@
     "contact:phone": "+7 861 4128271",
     "fire_rank": "1bis",
     "name": "Санаторий \"Голубая бухта\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://golubayabuhta.ru/"
   }
 },
 {
@@ -48582,7 +48614,8 @@
     "description": "база отдыха ДГТУ",
     "fire_rank": "2",
     "name": "Радуга",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sok-raduga.ru/"
   }
 },
 {
