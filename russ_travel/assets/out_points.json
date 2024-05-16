@@ -1830,12 +1830,7 @@
         "longitude": 39.901428861117296,
         "photoUrl": "http://sdrvdv.ru/wp-content/uploads/2023/09/3-165.jpg"
     },
-    {
-        "name": "Олимпийский парк в Сочи",
-        "latitude": 43.40270344554762,
-        "longitude": 39.95411721373466,
-        "photoUrl": "https://goodbooking.ru/upload/image/dostoprimechatelnosti-sochi-foto-06.jpg"
-    },
+    
     {
         "name": "Скайпарк в Адлере",
         "latitude": 43.52477501265366,
@@ -1967,7 +1962,50 @@
         "latitude": 44.181067,
         "longitude": 43.100203,
         "photoUrl": "https://totrip.info/assets/mineralnye-vody/dostoprimechatelnosty/zmeyka/gorazmeyka.jpg"
-    }
+    },
+
+
+
+
+{
+  "type": "node",
+  "id": 5628630221,
+  "lat": 44.5879408,
+  "lon": 39.0711846,
+  "photoUrl": "https://sun9-69.userapi.com/impf/c831508/v831508968/11b3a9/94dn7IkMhYo.jpg?size=320x213&quality=96&sign=716061c2c0d9229a8033984025a48c50&c_uniq_tag=kZdOZrJ0m7i8W6ku7a60DZ06O0jKCBzDrfsXp-eNG98&type=album",
+  "name": "панорама на горы и Краснодар",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 9724247617,
+  "lat": 44.6180379,
+  "lon": 39.0910676,
+  "photoUrl": "https://otdih.nakubani.ru/m/catalogBig/634fe3daf8dbe021ce04dd57/",
+  "name": "Точка обзора у подъемника",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 11893724469,
+  "lat": 44.600583,
+  "lon": 39.105949,
+  "name": "Смотровая площадка",
+  "photoUrl": "https://sun9-7.userapi.com/impg/qV4GUS6uxJNbdgoIxzKSm54BmAbQcWIAcCbFEw/hTTL69_n_is.jpg?size=320x240&quality=96&sign=5053b0401807a7acec2fc085745c0656&c_uniq_tag=W5z3P9E_7bxrgCjNNSdS-jhKgc10pUA3n_5mJtvFwNU&type=album",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+}
 	
     
 ]
