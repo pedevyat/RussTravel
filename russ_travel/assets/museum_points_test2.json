@@ -513,5 +513,179 @@
         "latitude": 46.30604786579613,
         "longitude": 44.25929188648241,
         "photoUrl": "https://fsd.videouroki.net/html/2020/06/06/v_5edbab06c2866/99755179_9.jpeg"
+    },
+	 {
+    "name": "Астраханский кремль",
+    "latitude": 46.34930643371145,
+    "longitude": 48.03215928600924,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/astrahanskij-kreml-700x453.jpg"
+  },
+  {
+    "name": "Собор Святого Владимира",
+    "latitude": 46.33916587235951,
+    "longitude": 48.01597867066528,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/sobor-svyatogo-vladimira-700x466.jpg"
+  },
+  {
+    "name": "Археологический комплекс «Селитренное городище»",
+    "latitude": 46.34861615444795,
+    "longitude": 48.02763461896085,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/arheologicheskij-kompleks-selitrennoe-gorodishche-700x458.jpg"
+  },
+  {
+    "name": "Сарай-Бату",
+    "latitude": 47.238474461468115,
+    "longitude": 47.37313202652416,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/saraj-batu-700x447.jpg"
+  },
+  {
+    "name": "Хошеутовский хурул",
+    "latitude": 46.927256244131534,
+    "longitude": 47.61357424430182,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/hosheutovskij-hurul-700x474.jpg"
+  },
+  {
+    "name": "Астраханский краеведческий музей",
+    "latitude": 46.34925397446067,
+    "longitude": 48.04083016881419,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/astrahanskij-kraevedcheskij-muzej-700x469.jpg"
+  },
+  {
+    "name": "Астраханский театр оперы и балета",
+    "latitude": 46.36036971258137,
+    "longitude": 48.04415718230704,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/astrahanskij-teatr-opery-i-baleta-700x467.jpg"
+  },
+  {
+    "name": "Астраханский драматический театр",
+    "latitude": 46.34870862511092,
+    "longitude": 48.044266040418414,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/astrahanskij-dramaticheskij-teatr-700x466.jpg"
+  },
+  {
+    "name": "Дом купца Тетюшинова",
+    "latitude": 46.35509551525962,
+    "longitude": 48.04376111484545,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/dom-kupca-tetyushinova-700x466.jpg"
+  },
+  {
+    "name": "Мемориальный комплекс «Букей-хан и Сеид-баба»",
+    "latitude": 46.664242496799616,
+    "longitude": 48.46991586094833,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/memorialnyj-kompleks-bukej-han-i-seid-baba-700x466.jpg"
+  },
+  {
+    "name": "Лиманский хурул",
+    "latitude": 45.78273178899362,
+    "longitude": 47.20687001297001,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/limanskij-hurul-700x459.jpg"
+  },
+  {
+    "name": "Дельта Волги (Астраханский заповедник)",
+    "latitude": 46.733523197343914,
+    "longitude": 47.850627567563116,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/delta-volgi-700x467.jpg"
+  },
+  {
+    "name": "Лотосовые поля",
+    "latitude": 46.234002878622526,
+    "longitude": 48.515624945561775,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/lotosnye-polya-700x454.jpg"
+  },
+  {
+    "name": "Озеро Баскунчак",
+    "latitude": 48.20229962500572,
+    "longitude": 46.880148997950684,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ozero-baskunchak-700x466.jpg"
+  },
+  {
+    "name": "Набережная Волги",
+    "latitude": 46.288555224205346,
+    "longitude": 47.951356326483584,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/naberezhnaya-volgi-700x463.jpg"
+  },
+  {
+    "name": "Иванчугский зоопарк «Баба Фрося»",
+    "latitude": 46.33797418156977,
+    "longitude": 48.04372974479523,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ivanchugskij-zoopark-baba-frosya-700x467.jpg"
+  },
+  {
+        "name": "Ливадийский дворец",
+        "latitude": 44.46768667107507,
+        "longitude": 34.14371538778238,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Livadiyskiy-dvorets-1536x1020.jpg"
+    },
+    {
+        "name": "Херсонес Таврический",
+        "latitude": 44.612402771072894,
+        "longitude": 33.49038330128048,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Hersones-Tavricheskiy.jpg"
+    },
+    {
+        "name": "Храм Воскресения Христова",
+        "latitude": 44.404655883603,
+        "longitude": 33.78836767733075,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Hram-Voskreseniya-Hristova.jpg"
+    },
+    {
+        "name": "Генуэзские крепости",
+        "latitude": 44.50997271343884,
+        "longitude": 33.60614773875202,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Genuezskie-kreposti-1536x1024.jpg"
+    },
+    {
+        "name": "Бахчисарайский Успенский монастырь",
+        "latitude": 44.74613706594754,
+        "longitude": 33.86212249839754,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Bahchisarayskiy-Uspenskiy-monastyr.jpg"
+    },
+    {
+        "name": "Мечеть Джума-Джами в Евпатории",
+        "latitude": 45.19607395022008,
+        "longitude": 33.377338865062875,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Mechet-Dzhuma-Dzhami-v-Evpatorii.jpg"
+    },
+    {
+        "name": "Аджимушкайские каменоломни",
+        "latitude": 45.38108002174649,
+        "longitude": 36.52366852644545,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Adzhimushkayskie-kamenolomni-1536x1020.jpg"
+    },
+    {
+        "name": "Комплекс Караимских кенас",
+        "latitude": 45.198331482837666,
+        "longitude": 33.37417925036285,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Kompleks-Karaimskih-kenas-1536x1024.jpg"
+    },
+    {
+        "name": "Дача А. П. Чехова в Гурзуфе",
+        "latitude": 44.54184461792736,
+        "longitude": 34.281788997574594,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Dacha-A.-P.-CHehova-v-Gurzufe-1536x1024.jpg"
+    },
+    {
+        "name": "Воронцовский дворец",
+        "latitude": 44.41979017404308,
+        "longitude": 34.0545691137115,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Vorontsovskiy-dvorets-1536x1022.jpg"
+    },
+    {
+        "name": "Массандровский дворец",
+        "latitude": 44.51703227021682,
+        "longitude": 34.20273378222996,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Massandrovskiy-dvorets-1536x983.jpg"
+    },
+    {
+        "name": "Ханский дворец в Бахчисарае",
+        "latitude": 44.74889039068031,
+        "longitude": 33.881770685942385,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Hanskiy-dvorets-v-Bahchisarae.jpg"
+    },
+    {
+        "name": "Дворец «Дюльбер»",
+        "latitude": 44.4293199121189,
+        "longitude": 34.09610473010883,
+        "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Dvorets-Dyulber.jpg"
     }
 ]
