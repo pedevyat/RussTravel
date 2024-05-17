@@ -44765,7 +44765,7 @@
     "addr:street": "улица 8 Марта",
     "name": "Касабланка",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tvil.ru/city/mezhvodnoe/hotels/858776/"
   }
 },
 {
@@ -44794,7 +44794,7 @@
     "addr:street": "Армавирская улица",
     "phone": "+7 918 6121787",
     "tourism": "hotel",
-    "website": ""
+    "website": "http://vostok-hotel.ru/nomer-chetyrehmestnyj-standart/"
   }
 },
 {
@@ -44826,7 +44826,7 @@
     "name": "Резиденция Апсны",
     "phone": "+7 940 9978611",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://hotelapsny.ru/"
   }
 },
 {
@@ -44837,7 +44837,7 @@
   "tags": {
     "name": "Эллас",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tonkosti.ru/hotel/624683/Ellas_Palace_(Эллас_Палас)?utm_referrer=https%3A%2F%2Fyandex.by%2F"
   }
 },
 {
@@ -44848,7 +44848,7 @@
   "tags": {
     "name": "Hotel Veseloye",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://barkhatnye-sezony-russkiy-dom-hotel-veseloye.booked.net/"
   }
 },
 {
@@ -44875,7 +44875,7 @@
   "tags": {
     "name": "Михаил",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://moihottur.ru/hotel/rossiya/baykal/mihail-strogov/"
   }
 },
 {
@@ -44890,27 +44890,7 @@
     "name": "Белая Панама",
     "opening_hours": "24/7",
     "tourism": "hotel",
-    "website": ""
-  }
-},
-{
-  "type": "node",
-  "id": 4331502996,
-  "lat": 43.6523964,
-  "lon": 39.6504769,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
-  }
-},
-{
-  "type": "node",
-  "id": 4331507391,
-  "lat": 43.6538477,
-  "lon": 39.6549232,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
+    "website": "https://poedem-poletim.ru/hotel/pos-candripsh/belaya-panama-otel"
   }
 },
 {
@@ -44924,7 +44904,7 @@
     "addr:street": "Летняя улица",
     "name": "Генрих II",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://genrih.grc.su/"
   }
 },
 {
@@ -44935,7 +44915,7 @@
   "tags": {
     "name": "Маргарита",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://ostrovok.ru/hotel/russia/vladivostok/mid9163403/hotel_margaritov/"
   }
 },
 {
@@ -44978,7 +44958,7 @@
     "name": "Корпус 1",
     "name:ru": "Корпус 1",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://campusfefu.tilda.ws/fefu_building_1_10"
   }
 },
 {
@@ -45056,7 +45036,7 @@
     "name": "VIP-корпус «Меркурий»",
     "stars": "5",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/nahodka/merkurii/"
   }
 },
 {
