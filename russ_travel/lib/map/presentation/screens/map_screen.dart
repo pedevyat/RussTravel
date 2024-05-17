@@ -1,6 +1,11 @@
 import 'dart:async';
 import 'dart:convert';
 import 'package:geolocator/geolocator.dart';
+import 'package:flutter_map/flutter_map.dart';
+import 'package:flutter_map/flutter_map.dart' as fm;
+import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
+import 'package:latlong2/latlong.dart';
+import 'package:latlong2/latlong.dart' as ll;
 
 import 'backend.dart';
 
@@ -18,6 +23,7 @@ import '../../domain/outside_point.dart';
 import '../../domain/park_point.dart';
 import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MapScreen extends StatefulWidget {
   const MapScreen({Key? key}) : super(key: key);
@@ -28,11 +34,12 @@ class MapScreen extends StatefulWidget {
 
 class _MapScreenState extends State<MapScreen> {
   int _currentIndex = 0;
+
   //var stringBox = await Hive.openBox<String>('museum');
-  
-  late final YandexMapController _mapController;
+
+  late final MapController _mapController;
   double _mapZoom = 0.0;
-  late Future<List<PlacemarkMapObject>> _placemarkObjectsFuture;
+  late Future<List<Marker>> _markersFuture;
 
   final GeolocatorPlatform _geolocator = GeolocatorPlatform.instance;
   Position? _currentPosition;
@@ -42,6 +49,7 @@ class _MapScreenState extends State<MapScreen> {
     super.initState();
     _determinePosition();
     _placemarkObjectsFuture = _museumPlacemarkObjects(context);
+    _markersFuture = _getMarkers().then((value) => value as List<Marker>);
   }
   void _determinePosition() async {
     bool serviceEnabled;
@@ -66,6 +74,7 @@ class _MapScreenState extends State<MapScreen> {
       _currentPosition = position;
     });
   }
+   
   @override
   void dispose() {
     SystemChrome.setPreferredOrientations([
@@ -82,45 +91,49 @@ class _MapScreenState extends State<MapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-      	  title: const Text('Карта открытий'),
-      	  bottom: PreferredSize(
-        preferredSize: Size.fromHeight(50.0),
-        child: Container(
-          width: MediaQuery.of(context).size.width,
-          color: Colors.blue,  // Устанавливаем желаемый цвет blue для подложки
-          child: CupertinoSegmentedControl(
-            selectedColor: Colors.blue,  // Устанавливаем цвет выделенного сегмента
-            children: {
-              0: Text('Музеи'),
-              1: Text('Парки'),
-              2: Text('Смотровые'),
-              3: Text('Отели'),
-            },
-            onValueChanged: (value) {
-              setState(() {
-                _currentIndex = value;
-                switch (value) {
-                  case 0:
-                    _placemarkObjectsFuture = _museumPlacemarkObjects(context);
-                    break;
-                  case 1:
-                    _placemarkObjectsFuture = _parksPlacemarkObjects(context);
-                    break;
-                  case 2:
-                    _placemarkObjectsFuture = _outPlacemarkObjects(context);
-                    break;
-                  case 3:
-                    _placemarkObjectsFuture = _hotelsPlacemarkObjects(context);
-                    break;
-                }
-              });
-            },
+        title: const Text('Карта открытий'),
+        bottom: PreferredSize(
+          preferredSize: Size.fromHeight(50.0),
+          child: Container(
+            width: MediaQuery
+                .of(context)
+                .size
+                .width,
+            color: Colors.blue, // Устанавливаем желаемый цвет blue для подложки
+            child: CupertinoSegmentedControl(
+              selectedColor: Colors.blue,
+              // Устанавливаем цвет выделенного сегмента
+              children: {
+                0: Text('Музеи'),
+                1: Text('Парки'),
+                2: Text('Смотровые'),
+                3: Text('Отели'),
+              },
+              onValueChanged: (value) {
+                setState(() {
+                  _currentIndex = value;
+                  switch (value) {
+                    case 0:
+                      _markersFuture = _getMuseumMarkers(context) as Future<List<Marker>>;
+                      break;
+                    case 1:
+                      _markersFuture = _getParkMarkers(context) as Future<List<Marker>>;
+                      break;
+                    case 2:
+                      _markersFuture = _getOutsideMarkers(context) as Future<List<Marker>>;
+                      break;
+                    case 3:
+                      _markersFuture = _getHotelMarkers(context) as Future<List<Marker>>;
+                      break;
+                  }
+                });
+              },
+            ),
           ),
         ),
       ),
-    ),
-      body: FutureBuilder<List<PlacemarkMapObject>>(
-        future: _placemarkObjectsFuture,
+      body: FutureBuilder<List<Marker>>(
+        future: _markersFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
             return Center(
@@ -132,18 +145,38 @@ class _MapScreenState extends State<MapScreen> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
-            return YandexMap(
-              onMapCreated: (controller) {
-                _mapController = controller;
-                _moveCameraToInitialPosition();
-              },
-              onCameraPositionChanged: (cameraPosition, _, __) {
-                setState(() {
-                  _mapZoom = cameraPosition.zoom;
-                });
-              },
-              mapObjects: [
-                _getClusterizedCollection(placemarks: snapshot.data!),
+            return FlutterMap(
+              options: MapOptions(
+                center: LatLng(50, 20), // Начальные координаты центра карты
+                zoom: 3.0, // Начальный уровень масштабирования карты
+                onPositionChanged: (position, _) {
+                  setState(() {
+                    _mapZoom = position.zoom!;
+                  });
+                },
+              ),
+              children: [
+                TileLayer(
+                  urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                  subdomains: ['a', 'b', 'c'],
+                ),
+                SuperclusterLayer.immutable( // Replaces MarkerLayer
+                  initialMarkers: snapshot.data!,
+                  indexBuilder: IndexBuilders.rootIsolate,
+                  builder: (context, position, markerCount, extraClusterData) =>
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20.0),
+                          color: Colors.purple,
+                        ),
+                        child: Center(
+                          child: Text(
+                            markerCount.toString(),
+                            style: const TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),
+                ),
               ],
             );
           }
@@ -162,7 +195,23 @@ class _MapScreenState extends State<MapScreen> {
       targetLongitude = _currentPosition!.longitude;
       zoom = 10; // Используем более высокий зум, если есть текущее местоположение
     }
+  }
+  Future<dynamic> _getMarkers() async {
+    switch (_currentIndex) {
+      case 0:
+        return _getMuseumMarkers(context);
+      case 1:
+        return _getParkMarkers(context);
+      case 2:
+        return _getOutsideMarkers(context);
+      case 3:
+        return _getHotelMarkers(context);
+      default:
+        return [];
+    }
+  }
 
+  /*void _moveCameraToInitialPosition() async {
     await _mapController.moveCamera(
       CameraUpdate.newCameraPosition(
         CameraPosition(
@@ -174,9 +223,9 @@ class _MapScreenState extends State<MapScreen> {
         ),
       ),
     );
-  }
+  }*/
 
-  ClusterizedPlacemarkCollection _getClusterizedCollection({
+  /*ClusterizedPlacemarkCollection _getClusterizedCollection({
     required List<PlacemarkMapObject> placemarks,
   }) {
     return ClusterizedPlacemarkCollection(
@@ -185,11 +234,14 @@ class _MapScreenState extends State<MapScreen> {
       radius: 50,
       minZoom: 15,
       onClusterAdded: (self, cluster) async {
+        // Здесь можно определить внешний вид кластера при добавлении на карту
+        // Например, можно изменить иконку кластера
         return cluster.copyWith(
           appearance: cluster.appearance.copyWith(
             opacity: 1.0,
             icon: PlacemarkIcon.single(
               PlacemarkIconStyle(
+                // Ваша кастомная иконка для кластера
                 image: BitmapDescriptor.fromBytes(
                   await ClusterPoints(cluster.size).getClusterIconBytes(),
                 ),
@@ -199,23 +251,28 @@ class _MapScreenState extends State<MapScreen> {
         );
       },
       onClusterTap: (self, cluster) async {
-        await _mapController.moveCamera(
-          animation: const MapAnimation(
-            type: MapAnimationType.linear,
-            duration: 0.3,
-          ),
-          CameraUpdate.newCameraPosition(
-            CameraPosition(
-              target: cluster.placemarks.first.point,
-              zoom: _mapZoom + 1,
-            ),
-          ),
+        // Здесь определяется действие при нажатии на кластер
+        // Например, можно увеличить масштаб карты и переместиться к центру кластера
+        double sumLat = 0;
+        double sumLng = 0;
+
+        for (final marker in cluster.markers) {
+          sumLat += marker.point!.latitude;
+          sumLng += marker.point!.longitude;
+        }
+
+        final centerLat = sumLat / cluster.markers.length;
+        final centerLng = sumLng / cluster.markers.length;
+
+        await _mapController.move(
+          LatLng(centerLat, centerLng),
+          _mapController.zoom + 1,
         );
       },
     );
-  }
-}
-
+  }*/
+//}
+/*
 Future<List<PlacemarkMapObject>> _combinePlacemarkObjects(BuildContext context) async {
   List<PlacemarkMapObject> combinedPlacemarkObjects = [];
   try {
@@ -276,41 +333,43 @@ Future<List<PlacemarkMapObject>> _parksPlacemarkObjects(BuildContext context) as
     throw Exception('Ошибка при объединении данных: $e');
   }
 
-  }
+  }*/
 
-Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) async {
+Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/museum_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
-    List<PlacemarkMapObject> listPlacemarkMapObject = [];
-    var box = await Hive.openBox('museumBox');
-    
-    for (int i = 0; i < pointsData.length; i++)
-    {
-    	final point = MuseumPoint.fromJson(pointsData[i]);
-    	point.id = i;
-    	listPlacemarkMapObject.add(
-	    PlacemarkMapObject(
-		mapId: MapObjectId('MuseumObject $i'),
-		point: Point(latitude: point.latitude, longitude: point.longitude),
-		opacity: !box.containsKey(i) ? 1 : 0.25,
-		icon: PlacemarkIcon.single(
-		  PlacemarkIconStyle(
-		    image: BitmapDescriptor.fromAssetImage('assets/museum.png'),
-		    scale: 0.15,
-		  ),
-		),
-		onTap: (_, __) => showModalBottomSheet(
-		  context: context,
-		  builder: (context) => _ModalBodyViewM(
-		    point: point,
-		  ),
-		),
-	      )
-        );
+    List<Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = MuseumPoint.fromJson(pointsData[i]);
+      point.id = i;
+      markers.add(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewM(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/museum.png'),
+            ),
+          ),
+        ),
+      );
     }
-    
-    return listPlacemarkMapObject;
+
+    return markers;
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
@@ -355,137 +414,124 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 */
 
 
-Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
+Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/out_points.json');
+    final jsonString = await rootBundle.loadString('assets/park_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
-    List<PlacemarkMapObject> listPlacemarkMapObject = [];
-    var box = await Hive.openBox('outsideBox');
-    
-    for (int i = 0; i < pointsData.length; i++)
-    {
-    	final point = OutsidePoint.fromJson(pointsData[i]);
-    	point.id = i;
-    	listPlacemarkMapObject.add(
-	    PlacemarkMapObject(
-		mapId: MapObjectId('OutsideObject $i'),
-		point: Point(latitude: point.latitude, longitude: point.longitude),
-		opacity: !box.containsKey(i) ? 1 : 0.25,
-		icon: PlacemarkIcon.single(
-		  PlacemarkIconStyle(
-		    image: BitmapDescriptor.fromAssetImage('assets/binoculars.png'),
-		    scale: 0.15,
-		  ),
-		),
-		onTap: (_, __) => showModalBottomSheet(
-		  context: context,
-		  builder: (context) => _ModalBodyViewO(
-		    point: point,
-		  ),
-		),
-	      )
-        );
+    List<fm.Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = ParkPoint.fromJson(pointsData[i]);
+      point.id = i;
+      markers.add(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewP(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/trees.png'),
+            ),
+          ),
+        ),
+      );
     }
-    
-    return listPlacemarkMapObject;
+
+    return markers;
   } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
 
-Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
+Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
   try {
-    final jsonString = await rootBundle.loadString('assets/park_points.json');
-    final List<dynamic> pointsData = json.decode(jsonString);
-    List<PlacemarkMapObject> listPlacemarkMapObject = [];
-    var box = await Hive.openBox('parkBox');
-    
-    for (int i = 0; i < pointsData.length; i++)
-    {
-    	final point = ParkPoint.fromJson(pointsData[i]);
-    	point.id = i;
-    	listPlacemarkMapObject.add(
-	    	PlacemarkMapObject(
-		mapId: MapObjectId('ParkObject $i'),
-		point: Point(latitude: point.latitude, longitude: point.longitude),
-		opacity: !box.containsKey(i) ? 1 : 0.25,
-		icon: PlacemarkIcon.single(
-		  PlacemarkIconStyle(
-		    image: BitmapDescriptor.fromAssetImage('assets/trees.png'),
-		    scale: 0.15,
-		  ),
-		),
-		onTap: (_, __) => showModalBottomSheet(
-		  context: context,
-		  builder: (context) => _ModalBodyViewP(
-		    point: point,
-		  ),
-		),
-	      )
-    	);
+    final jsonString = await rootBundle.loadString('assets/out_points.json');
+    List<dynamic> pointsData = json.decode(jsonString);
+    List<fm.Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = OutsidePoint.fromJson(pointsData[i]);
+      point.id = i;
+      markers.add(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewO(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 40.0,
+              height: 40.0,
+              child: Image.asset('assets/binoculars.png'),
+            ),
+          ),
+        ),
+      );
     }
-    return listPlacemarkMapObject;
-  }
-  catch (e) {
+
+    return markers;
+  } catch (e) {
     throw Exception('Ошибка при загрузке данных: $e');
   }
 }
 
-Future<List<PlacemarkMapObject>> _getPlacemarkObjectsH(BuildContext context) async {
+Future<List<fm.Marker>> _getHotelMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/hotels.json');
     final Map<String, dynamic> jsonData = json.decode(jsonString);
     final List<dynamic> pointsData = jsonData['elements'];
-    List<PlacemarkMapObject> listPlacemarkMapObject = [];
-    
-    for (int i = 0; i < pointsData.length; i++)
-    {
-    	final point = HotelPoint.fromJson(pointsData[i]);
-    	listPlacemarkMapObject.add(PlacemarkMapObject(
-        mapId: MapObjectId('HotelPoint $i'),
-        point: Point(latitude: point.latitude, longitude: point.longitude),
-        opacity: 1,
-        icon: PlacemarkIcon.single(
-          PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage('assets/bed_test.png'),
-            scale: 0.15,
+    List<fm.Marker> markers = [];
+
+    for (int i = 0; i < pointsData.length; i++) {
+      final point = HotelPoint.fromJson(pointsData[i]);
+      //point.id = i;
+      markers.add(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
+            onTap: () {
+              showModalBottomSheet(
+                context: context,
+                builder: (BuildContext context) {
+                  return _ModalBodyViewH(point: point);
+                },
+              );
+            },
+            child: Container(
+              width: 20.0,
+              height: 20.0,
+              child: Image.asset('assets/bed_test.png'),
+            ),
           ),
         ),
-        onTap: (_, __) => showModalBottomSheet(
-          context: context,
-          builder: (context) => _ModalBodyViewH(
-            point: point,
-          ),
-        ),
-      )
       );
-      
     }
-    
-    return listPlacemarkMapObject;
-    
-    return pointsData.map((data) {
-      final point = HotelPoint.fromJson(data);
-      return PlacemarkMapObject(
-        mapId: MapObjectId('MapObject $point'),
-        point: Point(latitude: point.latitude, longitude: point.longitude),
-        opacity: 1,
-        icon: PlacemarkIcon.single(
-          PlacemarkIconStyle(
-            image: BitmapDescriptor.fromAssetImage('assets/bed_test.png'),
-            scale: 0.15,
-          ),
-        ),
-        onTap: (_, __) => showModalBottomSheet(
-          context: context,
-          builder: (context) => _ModalBodyViewH(
-            point: point,
-          ),
-        ),
-      );
-    }).toList();
+
+    return markers;
   } catch (e) {
-    throw Exception('Ошибка при загрузке данных: $e');
+    throw Exception('Error loading data: $e');
   }
 }
 
@@ -549,6 +595,7 @@ class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
   final MuseumPoint point;
+  //final BuildContext context;
 
   @override
   Widget build(BuildContext context) {
@@ -572,7 +619,7 @@ class _ModalBodyViewM extends StatelessWidget {
                   box.delete(point.id);
                 else
                   box.put(point.id, point.id);
-                //point.isVisited = !point.isVisited;
+                Navigator.pop(context);
               },
             ),
           ),
@@ -671,6 +718,26 @@ class _ModalBodyViewH extends StatelessWidget {
         Text(point.name, style: const TextStyle(fontSize: 20)),
         const SizedBox(height: 20),
         Text(
+            'Цена за сутки: от ${point.price} руб.',
+            style: const TextStyle(
+              fontSize: 16,
+            )
+        ),
+        const SizedBox(height: 10),
+        GestureDetector(
+          onTap: () {
+            _launchURL(point.url);
+          },
+          child: Text(
+            '${point.url}',
+            style: TextStyle(
+              color: Colors.blue, // Цвет ссылки
+              decoration: TextDecoration.underline, // Подчеркивание ссылки
+            ),
+          ),
+        ),
+
+        Text(
           '${point.latitude}, ${point.longitude}',
           style: const TextStyle(
             fontSize: 16,
@@ -679,6 +746,15 @@ class _ModalBodyViewH extends StatelessWidget {
         ),
       ]),
     );
+  }
+
+  // Функция для открытия ссылки
+  Future<void> _launchURL(String url) async {
+    if (await canLaunchUrl(url as Uri)) {
+      await launchUrl(url as Uri);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 }
 
