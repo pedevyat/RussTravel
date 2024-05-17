@@ -2671,16 +2671,7 @@
     "tourism": "viewpoint"
   }
 },
-{
-  "type": "node",
-  "id": 3858319063,
-  "latitude": 45.0167412,
-  "longitude": 41.8421310,
-  "tags": {
-    "name": "вид на Кравцево озеро",
-    "tourism": "viewpoint"
-  }
-},
+
 
 
 
@@ -2695,17 +2686,7 @@
     "tourism": "viewpoint"
   }
 },
-{"name": "Смотровая площадка", "latitude": "45.049111", "longitude": "41.973722", "photoUrl": "https://avatars.mds.yandex.net/get-altay/13229524/2a0000018f6bbfa19cf3aa42c9659bd70626/XXXL"},
-{
-  "type": "node",
-  "id": 1005030785,
-  "latitude": 43.3360532,
-  "longitude": 41.6664879,
-  "tags": {
-    "name": "Слияние р.Аманауз и Гоначхир",
-    "tourism": "viewpoint"
-  }
-},
+{"name": "Смотровая площадка", "latitude": 45.049111, "longitude": 41.973722, "photoUrl": "https://avatars.mds.yandex.net/get-altay/13229524/2a0000018f6bbfa19cf3aa42c9659bd70626/XXXL"},
 
 {
   "type": "node",
@@ -2718,7 +2699,7 @@
     "tourism": "viewpoint"
   }
 },
-{"name": "Кругозор Домбай", "latitude": "43.290365", "longitude": "41.680384", "photoUrl": "https://avatars.mds.yandex.net/get-altay/3598710/2a00000181e95063ea0ab32f7427f39973bc/XXXL"},
-{"name": "Архыз", "latitude": "43.560651", "longitude": "41.284657", "photoUrl": "https://avatars.mds.yandex.net/get-altay/219656/2a00000185f97b4d666a362b054660363f03/XXXL"}
+{"name": "Кругозор Домбай", "latitude": 43.290365, "longitude": 41.680384, "photoUrl": "https://avatars.mds.yandex.net/get-altay/3598710/2a00000181e95063ea0ab32f7427f39973bc/XXXL"},
+{"name": "Архыз", "latitude": 43.560651, "longitude": 41.284657, "photoUrl": "https://avatars.mds.yandex.net/get-altay/219656/2a00000185f97b4d666a362b054660363f03/XXXL"}
 
 ]
