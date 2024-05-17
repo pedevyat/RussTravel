@@ -1847,7 +1847,7 @@
         "name": "Соленое озеро",
         "latitude": 44.679385947236746,
         "longitude": 37.802041520174,
-        "photoUrl": "https://i0.wp.com/tvil.ru/blog/sites/blog/files/image/ckeditor/514325_main.jpg"
+        "photoUrl": "https://tur-ray.ru/wp-content/uploads/2018/04/Sudzhukskaya-kosa.jpg"
     },
     {
         "name": "Озеро Абрау",
@@ -2083,7 +2083,373 @@
     "latitude": 45.09927311691332,
     "longitude": 34.63551510968695,
     "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Belaya-skala-Ak-Kaya-1536x1021.jpg"
+  },
+  {
+  "type": "node",
+  "id": 827645846,
+  "latitude": 47.1142447,
+  "longitude": 39.4274345,
+  "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_654de1acce46c81db717cd61_654de29434bcdd26763e3d6c/scale_1200",
+  "name": "Беседка",
+  "tags": {
+    
+    "tourism": "viewpoint"
   }
+},
+
+{
+  "type": "node",
+  "id": 2339344258,
+  "latitude": 47.2885961,
+  "longitude": 39.1562079,
+  "name": "Смотровая площадка",
+   "photoUrl": "https://n1s1.hsmedia.ru/f5/e9/25/f5e9253672d0c2c57f1fc30111bde754/656x437_1:5693_fa1e3f876616d7d37419b78731bc7944@1920x1277_0xfNLE4Sxq_0110804417128580762.jpg.webp",
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3854891657,
+  "latitude": 47.3853125,
+  "longitude": 38.7481396,
+  "photoUrl": "https://ribak-podvox.ru/wp-content/uploads/2022/05/rybalka-v-rostovskoj-oblasti-s-berega-platnye-prudy-afd8c77.jpg",
+  "name": "Дарьевский пруд",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 4956567714,
+  "latitude": 47.2178930,
+  "longitude": 39.7253104,
+  "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/4368340/pub_60489922d9fb5535c699b55c_6048a846d9fb5535c6baf3ec/scale_1200",
+  "name": "Смотровая площадка",
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+
+
+
+{
+  "type": "node",
+  "id": 6649620589,
+  "latitude": 47.1159886,
+  "longitude": 39.4218795,
+  "photoUrl": "http://virtruss.ru/wp-content/uploads/2022/11/%D0%9A%D1%80%D0%B5%D0%BF%D0%BE%D1%81%D1%82%D0%BD%D0%BE%D0%B9_%D0%B2%D0%B0%D0%BB_%D0%90%D0%B7%D0%BE%D0%B21..jpg",
+  "name": "Турецкий вал",
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 7434068985,
+  "latitude": 47.2132118,
+  "longitude": 39.6928706,
+  "photoUrl": "https://kg-rostov.ru/upload/iblock/eb8/eb8a23899d24bdb85282f5efe32c513f.jpg",
+  "name": "Стачке 1902 года",
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 7548658785,
+  "latitude": 44.5672084,
+  "longitude": 38.1294584,
+  "name": "Чайная Полка",
+  "photoUrl": "https://sun9-33.userapi.com/c845221/v845221961/20bf0c/PAcPIhUalrc.jpg",
+  "tags": {
+    "description": "Красивая обзорная площадка с видом на бухту Геленджика и пос. Адербиевка. Также можно наблюдать село Дивноморское. Место популяризировано группой GoGelenGo, т.к. корни и название его идут от основания группы.",
+    
+    "name:en": "Tea Shelf",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7867446209,
+  "latitude": 44.7431609,
+  "longitude": 38.5729353,
+  "photoUrl": "https://static.tildacdn.com/tild6465-3961-4433-b939-376561633235/2020-07-04_13-20-41.JPG",
+  "name": "Смотровая на Собер-Баш \"Стул\"",
+  "tags": {
+    "direction": "270",
+    
+    
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 8690417517,
+  "latitude": 44.3251356,
+  "longitude": 38.6332610,
+  "name": "Красивый вид",
+  "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/9278169/pub_640031020162834f3d60debd_6404827ceec1806a6897caf0/scale_1200",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8692618019,
+  "latitude": 44.6518655,
+  "longitude": 38.6144213,
+  "name": "Планческие скалы",
+  "photoUrl": "https://st21.styapokupayu.ru/images/localized/000/066/557_original.jpg",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+
+
+{
+  "type": "node",
+  "id": 8829584217,
+  "latitude": 44.8573880,
+  "longitude": 37.3353835,
+  "name": "800 ступенек",
+  "photoUrl": "https://titam.ru/wp-content/uploads/2022/04/%D0%9B%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0-800-%D1%81%D1%82%D1%83%D0%BF%D0%B5%D0%BD%D0%B5%D0%B9-%D0%B2-%D0%90%D0%BD%D0%B0%D0%BF%D0%B5-%D0%A1%D1%83%D0%BF%D1%81%D0%B5%D1%85-2-768x512.jpg",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8829584317,
+  "latitude": 44.8490018,
+  "longitude": 37.3408483,
+  "name": "400 ступенек",
+  "photoUrl": "https://xn-----6kcacae0aucmavhzrfs9afme4b.xn--p1acf/wp-content/uploads/2023/08/1667833593_4-na-dache-pro-p-anapa-400-stupenek-k-moryu-foto-4-600x400.jpg",
+  "tags": {
+
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8829651417,
+  "latitude": 44.8418178,
+  "longitude": 37.3511197,
+  "photoUrl": "https://i0.u-mama.ru/5ea/927/a4c/90018115b837b3a0d76fbcf957d65f1b.jpg",
+  "name": "Метеостанция",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 8848944217,
+  "latitude": 44.8674338,
+  "longitude": 37.3219869,
+  "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/8220767/pub_6417f91932057560b21c7ec9_6419486a15277b3f9d8c7072/scale_1200",
+  "name": "Лестница к морю",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 9126563886,
+  "latitude": 44.2156851,
+  "longitude": 38.8517398,
+  "name": "Новый капитанскаий мостик",
+  "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/5323197/pub_6127e190e1081e1979bb7443_6127e8e51ce1a96948d2c17a/scale_1200",
+  "tags": {
+    "amenity": "bench",
+
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9126633152,
+  "latitude": 44.2183573,
+  "longitude": 38.8520118,
+  "name": "Капитанский мостик",
+  "photoUrl": "https://avatars.dzeninfra.ru/get-zen_doc/5323197/pub_6127e190e1081e1979bb7443_6127e8e51ce1a96948d2c17a/scale_1200",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 9404299341,
+  "latitude": 44.4772878,
+  "longitude": 38.4068932,
+  "name": "Вид на Пшаду",
+  "photoUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%9F%D1%88%D0%B0%D0%B4%D1%83.jpg/800px-%D0%92%D0%B8%D0%B4_%D0%BD%D0%B0_%D0%9F%D1%88%D0%B0%D0%B4%D1%83.jpg",
+  "tags": {
+    "direction": "246",
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 9881578229,
+  "latitude": 44.5898345,
+  "longitude": 37.9540449,
+  "name": "Смотровая на УТЮГ",
+  "photoUrl": "https://sun9-16.userapi.com/impg/RWHlWLC-p20k-OUsVgv-o9I1h98iu5nd5ItdqA/XK_N1y1EmJ0.jpg?size=678x807&quality=95&sign=6f1c419189a4a486492c6010b6453b31&c_uniq_tag=OPNg2AVRN-ou9szuUs3dAkI9rLK8H4MYSNYHa68tEhM&type=album",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 10115772731,
+  "latitude": 44.5820410,
+  "longitude": 38.0881170,
+  "name": "Вид на весь Геленджик",
+  "photoUrl": "https://56.img.avito.st/image/1/LQDwmbaBgemGPHPvpu0hUQI6he9SOIHvNVmF74Y8c-9GPo3tRjiBrQ",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 10902153305,
+  "latitude": 44.3560850,
+  "longitude": 38.5389206,
+  "name": "Гора Ёжик",
+  "photoUrl": "https://i.ytimg.com/vi/eXyHMHgie6o/maxresdefault.jpg",
+  "tags": {
+
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 10907816505,
+  "latitude": 44.3732942,
+  "longitude": 38.5133846,
+  "name": "Вид на щель",
+  "photoUrl": "https://i.ytimg.com/vi/S0i6WcwntFQ/maxresdefault.jpg",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 11039561805,
+  "latitude": 44.3867162,
+  "longitude": 38.6241808, 
+  "name": "Гора Гебеус 735 метров",
+ "photoUrl": "https://avatars.mds.yandex.net/get-altay/3932123/2a00000176ce090a88a6f8463979083c888f/XXL",
+  "tags": {
+
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11065669505,
+  "latitude": 44.6774270,
+  "longitude": 37.5635384,
+  "name": "Смотровая площадка Дюрсо",
+  "photoUrl": "https://azur.ru/data/newfotos1/big/30/116730.jpg",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11112086506,
+  "latitude": 44.3820302,
+  "longitude": 38.4319001,
+  "name": "Смотровая площадка",
+  "photoUrl": "https://wikiway.com/upload/hl-photo/47c/betta_21.jpg",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11688057769,
+  "latitude": 44.5615848,
+  "longitude": 38.2577329,
+  "name": "Группа Дольменов Жане 2",
+  "photoUrl": "https://xcourse.me/images/excursions/1223/1560596210_%D0%B4%D0%BE%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD_%D0%96%D0%B0%D0%BD%D0%B5.jpg",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11832930469,
+  "latitude": 45.0573376,
+  "longitude": 37.1803910,
+  "name": "От моря и до степей",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/6197788/2a000001832d7641a9995e13982ac98154cd/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 11861764769,
+  "latitude": 44.5812167,
+  "longitude": 37.9657963,
+  "name": "Спуск к морю 278 ступеней",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/12595784/2a0000018f75c50ad4a885973343dbcbbab5/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11871573370,
+  "latitude": 44.5114860,
+  "longitude": 38.4864704,
+  "name": "Гора Облего 747 метров",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/8093564/2a000001890fb08b40bc119e6c29a31cf2f3/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+}
+
 	
     
 ]
