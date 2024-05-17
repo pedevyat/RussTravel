@@ -45323,7 +45323,7 @@
   "tags": {
     "name": "У Оксаны",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.komandirovka.ru/hotels/pulmo/u-oksany/"
   }
 },
 {
@@ -45349,7 +45349,7 @@
   "tags": {
     "name": "Чемодан",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/komsomolsk-at-amur/chemodan/"
   }
 },
 {
@@ -45363,19 +45363,10 @@
     "fixme": "Здание не прорисовано на карте",
     "name": "Liberty fly",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.libertyfly.ru/"
   }
 },
-{
-  "type": "node",
-  "id": 5318590921,
-  "lat": 43.4337779,
-  "lon": 39.9174911,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 5743464666,
@@ -45386,7 +45377,7 @@
     "name": "Имеретинский - Морской и Заповедный квартал",
     "smoking": "no",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://imeretinskiy-hotel-sochi.ru/imeretinskij-zapovednyj-kvartal/"
   }
 },
 {
@@ -45400,7 +45391,7 @@
     "addr:suburb": "Адлер",
     "name": "Колибри",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/nahodka/kolibri/"
   }
 },
 {
@@ -45425,7 +45416,7 @@
   "tags": {
     "name": "Отель Атрия",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://vladivostok.xottur.com/hotels/140166/"
   }
 },
 {
@@ -45436,7 +45427,7 @@
   "tags": {
     "name": "Камелия",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/kurilsk/kameliia/"
   }
 },
 {
@@ -45467,7 +45458,7 @@
     "name": "Утомленные солнцем",
     "stars": "2",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://utsoln.ru/"
   }
 },
 {
@@ -45478,7 +45469,7 @@
   "tags": {
     "name": "Дельта Сириус Парк",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://siriushotels.ru/delta/infrastructure"
   }
 },
 {
@@ -45492,7 +45483,7 @@
     "addr:suburb": "Адлер",
     "name": "Фаворит",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://mirturbaz.ru/russia/primorskiy-kray/favorit-dv"
   }
 },
 {
@@ -45506,7 +45497,7 @@
     "addr:street": "Троицкая улица",
     "name": "Гостевой дом Гуэнос Плаза",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://guenos-plaza.в-адлер.рф/"
   }
 },
 {
