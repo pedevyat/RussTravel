@@ -2898,20 +2898,10 @@
         "name": "кемпинг \"Оазис\"",
         "name:ru": "кемпинг \"Оазис\"",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://оазис-азов.рф/"
       }
     },
-    {
-      "type": "node",
-      "id": 4118485951,
-      "lat": 51.9150342,
-      "lon": 48.3322728,
-      "tags": {
-        "name": "Гостиница",
-        "tourism": "hotel",
-        "website": ""
-      }
-    },
+
 
 
     {
@@ -2922,7 +2912,7 @@
       "tags": {
         "name": "Елена",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/krasnodar-krai/elena-polevaia-ulitsa/"
       }
     },
     {
@@ -2933,7 +2923,7 @@
       "tags": {
         "name": "Смак",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/kotel-nikovo/gostinitsa-i-kafe/"
       }
     },
     {
@@ -2962,7 +2952,7 @@
         "name": "Антоновка",
         "opening_hours": "24/7",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/samara-oblast/antonovka/"
       }
     },
     {
@@ -2973,7 +2963,7 @@
       "tags": {
         "name": "Evrasia",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://parkhotel-evrazia.ru/"
       }
     },
     {
@@ -2984,7 +2974,7 @@
       "tags": {
         "name": "Сура",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/saransk/sura/"
       }
     },
     {
@@ -2995,7 +2985,7 @@
       "tags": {
         "name": "Русская тройка",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://russkayatroyka62.ru/"
       }
     },
     {
@@ -3006,7 +2996,7 @@
       "tags": {
         "name": "Арыстан",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/rudny/arystan/"
       }
     },
     {
@@ -3017,7 +3007,7 @@
       "tags": {
         "name": "Тамбовская-19",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.hotel-penza.net/"
       }
     },
     {
@@ -3030,7 +3020,7 @@
         "addr:street": "Московское шоссе",
         "name": "Ариадна",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/sochi/ariadna/"
       }
     },
     {
@@ -3043,7 +3033,7 @@
         "name": "Людмила",
         "phone": "+7 (83434) 2-17-33, +7 (909) 328-28-28",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://ludmilahotel.ru/"
       }
     },
     {
@@ -3056,7 +3046,7 @@
         "name": "МАИР",
         "phone": "+7 (83431) 3-35-45; +7 (927) 27-479-82",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://rus-trip.ru/ardatov/hotel-mair-44114"
       }
     },
     {
@@ -3070,7 +3060,7 @@
         "name": "Валенсия",
         "rooms": "10",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://valensiya-anapa.ru/"
       }
     },
     {
@@ -3083,7 +3073,7 @@
         "addr:street": "улица Советской Армии",
         "name": "Пиросмани",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.lucky-travels.ru/content/gostinitca-pirosmani/"
       }
     },
     {
@@ -3099,7 +3089,7 @@
         "internet_access:fee": "no",
         "name": "Победа, апарт отель",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotels.1001tur.ru/russia/kaliningrad/apartment_pobeda/#action=actual_tour&hash=eyJ0ZXN0Ijoib2siLCJub190b3VyX3JlY2FsbF9mb3JtIjoiMSIsImtub3duX2hvdGVsX2lkIjpbXSwiZGF0ZXMiOiIwNy4wNi4yMDI0IC0gMTQuMDYuMjAyNCIsIk5pZ2h0T3QiOiI3IiwiTmlnaHREbyI6IjEwIiwiYWR1bHRzIjoiMiIsImtpZHMiOiIwIiwiZnJvbV9jaXR5IjoiMSIsInNvcnQiOiJwcmljZSIsImFjdHVhbF9tZDUiOiIzNTVmNzg5YWMwYmQ2MDVjZWY1ZjkzNzk5ZmY4ZWNlMSIsIkNvdW50cnkiOiI1NCIsImRlc3RpbmF0aW9uX2lkIjoiIiwiZGVzdGluYXRpb24iOiIifQ=="
       }
     },
     {
@@ -3112,7 +3102,7 @@
         "name": "База отдыха \"Газпром\"",
         "resort": "recreation_center",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://polyanaski.ru/"
       }
     },
     {
