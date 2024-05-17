@@ -5,7 +5,10 @@ import 'dart:convert';
 <<<<<<< HEAD
 =======
 import 'package:flutter_map/flutter_map.dart';
+import 'package:flutter_map/flutter_map.dart' as fm;
+import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
 import 'package:latlong2/latlong.dart';
+import 'package:latlong2/latlong.dart' as ll;
 
 >>>>>>> origin/anastasia
 import 'backend.dart';
@@ -205,8 +208,22 @@ class _MapScreenState extends State<MapScreen> {
                   urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                   subdomains: ['a', 'b', 'c'],
                 ),
-                MarkerLayer(
-                  markers: snapshot.data!, // Используем полученные маркеры
+                SuperclusterLayer.immutable( // Replaces MarkerLayer
+                  initialMarkers: snapshot.data!,
+                  indexBuilder: IndexBuilders.rootIsolate,
+                  builder: (context, position, markerCount, extraClusterData) =>
+                      Container(
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20.0),
+                          color: Colors.purple,
+                        ),
+                        child: Center(
+                          child: Text(
+                            markerCount.toString(),
+                            style: const TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      ),
                 ),
 >>>>>>> origin/anastasia
               ],
@@ -429,7 +446,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 =======
   }*/
 
-Future<List<Marker>> _getMuseumMarkers(BuildContext context) async {
+Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/museum_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
@@ -439,9 +456,12 @@ Future<List<Marker>> _getMuseumMarkers(BuildContext context) async {
       final point = MuseumPoint.fromJson(pointsData[i]);
       point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -507,6 +527,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsM(BuildContext context) asy
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) async {
   try {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
@@ -542,18 +563,24 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsO(BuildContext context) asy
     return listPlacemarkMapObject;
 =======
 Future<List<Marker>> _getParkMarkers(BuildContext context) async {
+=======
+Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
   try {
     final jsonString = await rootBundle.loadString('assets/park_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
-    List<Marker> markers = [];
+    List<fm.Marker> markers = [];
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = ParkPoint.fromJson(pointsData[i]);
       point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -579,6 +606,7 @@ Future<List<Marker>> _getParkMarkers(BuildContext context) async {
   }
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) async {
   try {
@@ -616,18 +644,24 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsP(BuildContext context) asy
   catch (e) {
 =======
 Future<List<Marker>> _getOutsideMarkers(BuildContext context) async {
+=======
+Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
   try {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
-    List<Marker> markers = [];
+    List<fm.Marker> markers = [];
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = OutsidePoint.fromJson(pointsData[i]);
       point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -654,14 +688,19 @@ Future<List<Marker>> _getOutsideMarkers(BuildContext context) async {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Future<List<PlacemarkMapObject>> _getPlacemarkObjectsH(BuildContext context) async {
 =======
 Future<List<Marker>> _getHotelMarkers(BuildContext context) async {
 >>>>>>> origin/anastasia
+=======
+Future<List<fm.Marker>> _getHotelMarkers(BuildContext context) async {
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
   try {
     final jsonString = await rootBundle.loadString('assets/hotels.json');
     final Map<String, dynamic> jsonData = json.decode(jsonString);
     final List<dynamic> pointsData = jsonData['elements'];
+<<<<<<< HEAD
 <<<<<<< HEAD
     List<PlacemarkMapObject> listPlacemarkMapObject = [];
     
@@ -715,14 +754,20 @@ Future<List<Marker>> _getHotelMarkers(BuildContext context) async {
     throw Exception('Ошибка при загрузке данных: $e');
 =======
     List<Marker> markers = [];
+=======
+    List<fm.Marker> markers = [];
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = HotelPoint.fromJson(pointsData[i]);
       //point.id = i;
       markers.add(
-        Marker(
-          point: LatLng(point.latitude, point.longitude),
-          child: GestureDetector(
+        fm.Marker(
+          anchorPos: fm.AnchorPos.align(fm.AnchorAlign.top),
+          width: 30.0,
+          height: 30.0,
+          point: ll.LatLng(point.latitude, point.longitude),
+          builder: (BuildContext context) => GestureDetector(
             onTap: () {
               showModalBottomSheet(
                 context: context,
@@ -732,8 +777,8 @@ Future<List<Marker>> _getHotelMarkers(BuildContext context) async {
               );
             },
             child: Container(
-              width: 40.0,
-              height: 40.0,
+              width: 20.0,
+              height: 20.0,
               child: Image.asset('assets/bed_test.png'),
             ),
           ),

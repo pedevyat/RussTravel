@@ -44,8 +44,12 @@ dependencies:
   url_launcher: ^6.0.12
 =======
   url_launcher: ^6.2.4
+<<<<<<< HEAD
 >>>>>>> origin/anastasia
   flutter_map: ^6.1.0
+=======
+  flutter_map: ^5.0.0
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
   http: ^1.1.0
   hive: ^2.2.3
   hive_generator: ^2.0.1
@@ -55,7 +59,11 @@ dependencies:
 <<<<<<< HEAD
 =======
   latlong2: ^0.9.1
+<<<<<<< HEAD
 >>>>>>> origin/anastasia
+=======
+  flutter_map_supercluster: ^4.3.0
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
 
 dev_dependencies:
   flutter_test:

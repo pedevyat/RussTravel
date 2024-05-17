@@ -116,10 +116,13 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+<<<<<<< HEAD
 
 
             TextField(
 
+=======
+>>>>>>> 2104dde9daca5632b6b5b7419e4f82bf7443815c
             ListView.builder(
               shrinkWrap: true,
               physics: NeverScrollableScrollPhysics(),
