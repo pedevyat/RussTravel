@@ -46056,16 +46056,7 @@
     "website": "https://travel.yandex.ru/hotels/primorsky-krai/magnoliia/"
   }
 },
-{
-  "type": "node",
-  "id": 9773757323,
-  "lat": 43.3606315,
-  "lon": 40.1248009,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 9875280518,
@@ -46074,7 +46065,7 @@
   "tags": {
     "name": "Магеллан Панорама",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://blagoveschensk.bankturov.ru/hotels/210369"
   }
 },
 {
@@ -46101,7 +46092,7 @@
   "tags": {
     "name": "Островок",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.votpusk.ru/hotels/russia/vladivostok/otel-ostrovok"
   }
 },
 {
@@ -46112,7 +46103,7 @@
   "tags": {
     "name": "Swissotel Resort Сочи Камелия",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/sochi/swissotel-resort-sochi-kameliia/"
   }
 },
 {
@@ -46123,7 +46114,7 @@
   "tags": {
     "name:en": "Relax club exsclusive",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://teztour.shop/tour/Vladivostok/Rossiya/Adler/hotel56990.htm"
   }
 },
 {
@@ -46134,7 +46125,7 @@
   "tags": {
     "name": "Севан",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.vl.ru/baza-otdyha-seven"
   }
 },
 {
