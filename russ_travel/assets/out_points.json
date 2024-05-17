@@ -2587,8 +2587,138 @@
     
     "tourism": "viewpoint"
   }
-}
+},
 
-	
+{
+  "type": "node",
+  "id": 417220323,
+  "latitude": 44.2174467,
+  "longitude": 39.9644104,"name": "Михайлов камень",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9717139/2a0000018900e9fc66e4cafcba0016c7e0bc/XXXL",
+  "tags": {
+    "description": "Завораживающий вид на поселок Мезмай с высоты птичьего полета, побывав там однажды запомнится на всегда. С этого места виден Мезмай, Темнолесская, поселок Русский, ущелья Мезмайское и Курджипское. Вдали видны Камышанова поляна, Лаго-наки и окружающие горы",
     
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 945140598,
+  "latitude": 44.2209685,
+  "longitude": 39.9048611,"name": "Смотровая площадка \"Ковер\"",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/1426646/2a00000189461d7af37eac83a351eda63d26/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 1839876672,
+  "latitude": 44.2109898,
+  "longitude": 39.9259008,"name": "Пирамида",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10156117/2a0000018ae0232442d22d9ede58f8a037f9/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 5327460325,
+  "latitude": 44.2112087,
+  "longitude": 39.9424475,"name": "Красивый вид",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/12731162/2a0000018f73ce16071a3adc4ecb6a342180/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 9878577917,
+  "latitude": 44.2142122,
+  "longitude": 39.9077524,"name": "Сосновая",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9720991/2a0000018adaa7657e8ad824b0e923fd160b/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6653383885,
+  "latitude": 45.0096640,
+  "longitude": 39.0536405, "name": "Колесо обозрения",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9737178/2a0000018c8c21ba97ae6648ebdf8dd9c061/XXXL",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 10653568914,
+  "latitude": 45.0412747,
+  "longitude": 39.0293402,"name": "Смотровая площадка",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/6527792/2a0000018d0e7a239118f1431c3f13efdb57/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3858319063,
+  "latitude": 45.0167412,
+  "longitude": 41.8421310,
+  "tags": {
+    "name": "вид на Кравцево озеро",
+    "tourism": "viewpoint"
+  }
+},
+
+
+
+{
+  "type": "node",
+  "id": 10676183805,
+  "latitude": 45.0139898,
+  "longitude": 41.8067573,"name": "Красивый вид на Сенгилеевское",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/5253303/2a0000017c0dd63763fdb1879d259c56353b/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{"name": "Смотровая площадка", "latitude": "45.049111", "longitude": "41.973722", "photoUrl": "https://avatars.mds.yandex.net/get-altay/13229524/2a0000018f6bbfa19cf3aa42c9659bd70626/XXXL"},
+{
+  "type": "node",
+  "id": 1005030785,
+  "latitude": 43.3360532,
+  "longitude": 41.6664879,
+  "tags": {
+    "name": "Слияние р.Аманауз и Гоначхир",
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 3038804590,
+  "latitude": 43.3778380,
+  "longitude": 41.6574584,"name": "Вид на бадукское озеро",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10147638/2a0000018d4114eda2ef31e339d175b848f5/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{"name": "Кругозор Домбай", "latitude": "43.290365", "longitude": "41.680384", "photoUrl": "https://avatars.mds.yandex.net/get-altay/3598710/2a00000181e95063ea0ab32f7427f39973bc/XXXL"},
+{"name": "Архыз", "latitude": "43.560651", "longitude": "41.284657", "photoUrl": "https://avatars.mds.yandex.net/get-altay/219656/2a00000185f97b4d666a362b054660363f03/XXXL"}
+
 ]
