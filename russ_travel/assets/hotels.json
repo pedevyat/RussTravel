@@ -45514,7 +45514,7 @@
     "opening_hours": "24/7",
     "phone": "+7 988 2378009",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://elparaiso.ru/"
   }
 },
 {
@@ -45546,7 +45546,7 @@
     "opening_hours": "24/7",
     "phone": "+78622433833",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://hotel-sigma-sirius-park.ru/"
   }
 },
 {
@@ -45569,7 +45569,7 @@
   "tags": {
     "name": "SerTiDi",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/krasnodar-krai/sertidi/"
   }
 },
 {
@@ -45603,7 +45603,7 @@
   "tags": {
     "name": "Спутник",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/kamchatka-krai/sputnik-kamchaka-korpus-sputnik/"
   }
 },
 {
@@ -45625,7 +45625,7 @@
   "tags": {
     "name": "Royal",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.royalhotelkhv.ru/?lightbox=dataItem-kgvqta9f"
   }
 },
 {
@@ -45636,7 +45636,7 @@
   "tags": {
     "name": "Рассвет",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/vladivostok/rassvet/"
   }
 },
 {
@@ -45647,7 +45647,7 @@
   "tags": {
     "name": "Таис",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://khabarovsk.bankturov.ru/hotels/217037"
   }
 },
 {
@@ -45658,7 +45658,7 @@
   "tags": {
     "name": "Три Сезона",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://ostrovok.ru/hotel/russia/sirius/mid8849501/gostinitsa_tri_sezona/"
   }
 },
 {
@@ -45681,7 +45681,7 @@
     "name": "Каян",
     "phone": "+7 918 6057345",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tez-travel.com/countries/russia/hotels/kayan-apart-otel/"
   }
 },
 {
@@ -45728,7 +45728,7 @@
   "tags": {
     "name": "Берег",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://vostokbereg.ru/"
   }
 },
 {
@@ -45739,7 +45739,7 @@
   "tags": {
     "name": "Искра",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://iskrasakh.ru/about-us/"
   }
 },
 {
@@ -45750,7 +45750,7 @@
   "tags": {
     "name": "Eco life",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/abkhazia/eso-laif/"
   }
 },
 {
@@ -45775,7 +45775,7 @@
   "tags": {
     "name": "Бархатные Сезоны Фигурная 29",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://bhs-ekaterininskiy.ru/sportivnyy-kvartal/"
   }
 },
 {
@@ -45786,19 +45786,10 @@
   "tags": {
     "name": "Напра",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tophotels.ru/hotel/al307305/description"
   }
 },
-{
-  "type": "node",
-  "id": 8199851213,
-  "lat": 43.3867204,
-  "lon": 40.0395665,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 8253762590,
@@ -45807,7 +45798,7 @@
   "tags": {
     "name": "Барские бани",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/tomsk-district/gostinichnyi-kompleks-russkie-banki/"
   }
 },
 {
@@ -45820,7 +45811,7 @@
     "addr:street": "Шкиперская улица",
     "name": "Sea Side",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tonkosti.ru/hotel/682433/Sea-Side?utm_referrer=https%3A%2F%2Fyandex.by%2F"
   }
 },
 {
@@ -45831,7 +45822,7 @@
   "tags": {
     "name": "Азалия",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://blagoveshchensk.xottur.com/hotels/142468/"
   }
 },
 {
@@ -45842,7 +45833,7 @@
   "tags": {
     "name": "Zara",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tophotels.ru/hotel/al102070"
   }
 },
 {
@@ -45853,7 +45844,7 @@
   "tags": {
     "name": "Celentano",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://celentanohotel.com/nomera/"
   }
 },
 {
@@ -45903,7 +45894,7 @@
     "addr:street": "Виноградная улица",
     "name": "Санаторий \"Юность\"",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://moihottur.ru/hotel/rossiya/dalniy-vostok/yunost/"
   }
 },
 {
@@ -45919,7 +45910,7 @@
     "name:en": "Amra Sunrise",
     "phone": "+79409381188",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.amrasunrise.ru/"
   }
 },
 {
@@ -45939,16 +45930,7 @@
     "website": "https://grace-gorizont.ru/?utm_source=maps&utm_medium=cpc&utm_campaign=mapsme"
   }
 },
-{
-  "type": "node",
-  "id": 8897683304,
-  "lat": 43.3788412,
-  "lon": 40.0743491,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 8932134771,
@@ -45965,16 +45947,7 @@
     "website": "https://black-sea-sochi.ru/"
   }
 },
-{
-  "type": "node",
-  "id": 8951230053,
-  "lat": 43.5889113,
-  "lon": 39.7203505,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 8975796817,
@@ -45996,20 +45969,10 @@
   "tags": {
     "name": "Рест Мацеста",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.rest-matsesta.ru/"
   }
 },
-{
-  "type": "node",
-  "id": 9080245018,
-  "lat": 43.5463683,
-  "lon": 39.8030917,
-  "tags": {
-    "name": "Рест Мацеста",
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 9080866482,
@@ -46020,7 +45983,7 @@
     "addr:street": "улица Ленина",
     "name": "Янаис",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://vladivostok.xottur.com/hotels/79686/"
   }
 },
 {
@@ -46032,7 +45995,7 @@
     "name": "Атлантида",
     "phone": "+7-938-446-4544",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/kansk/atlantida/"
   }
 },
 {
@@ -46043,7 +46006,7 @@
   "tags": {
     "name": "Анастасия",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/primorsky-krai/baza-otdykha-anastasiia/"
   }
 },
 {
@@ -46057,7 +46020,7 @@
     "internet_access": "wlan",
     "name": "Белые скалы",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.alean.ru/abkhaziya/gagra/tsandripsh_gagra/belye_skaly_gostinitsa/"
   }
 },
 {
@@ -46068,7 +46031,7 @@
   "tags": {
     "name": "Сон у моря",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://sonymorya.ru/"
   }
 },
 {
@@ -46079,7 +46042,7 @@
   "tags": {
     "name": "Саяны",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.alean.ru/rossiya/buryatiya_respublika/arshan_kurort/sayany_sanatorij/"
   }
 },
 {
@@ -46090,7 +46053,7 @@
   "tags": {
     "name": "Магнолия",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/primorsky-krai/magnoliia/"
   }
 },
 {
