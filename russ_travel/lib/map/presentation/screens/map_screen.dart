@@ -555,6 +555,7 @@ class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
 
   final MuseumPoint point;
+
   //final BuildContext context;
 
   @override
@@ -566,44 +567,50 @@ class _ModalBodyViewM extends StatelessWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Align(
-            alignment: Alignment.topRight,
-            child: IconButton(
-              icon: Icon(Icons.star),
-              onPressed: () async {
-                var box = await Hive.openBox('museumBox');
-                if (box.containsKey(point.id))
-                  box.delete(point.id);
-                else
-                  box.put(point.id, point.id);
-                Navigator.pop(context);
-              },
+      child: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Align(
+              alignment: Alignment.topRight,
+              child: IconButton(
+                icon: Icon(Icons.star),
+                onPressed: () async {
+                  var box = await Hive.openBox('museumBox');
+                  if (box.containsKey(point.id))
+                    box.delete(point.id);
+                  else
+                    box.put(point.id, point.id);
+                  Navigator.pop(context);
+                },
+              ),
             ),
-          ),
-          Image.network(
-            point.photoUrl,
-            width: MediaQuery.of(context).size.width,
-            height: 200,
-            fit: BoxFit.cover,
-          ),
-          const SizedBox(height: 20),
-          Text(point.name, style: const TextStyle(fontSize: 20)),
-          const SizedBox(height: 20),
-          Text(
-            '${point.latitude}, ${point.longitude}',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
+            Image.network(
+              point.photoUrl,
+              width: MediaQuery
+                  .of(context)
+                  .size
+                  .width,
+              height: 200,
+              fit: BoxFit.cover,
             ),
-          ),
-        ],
+            const SizedBox(height: 20),
+            Text(point.name, style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 20),
+            Text(
+              '${point.latitude}, ${point.longitude}',
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
+
 
 class _ModalBodyViewO extends StatelessWidget {
   const _ModalBodyViewO({required this.point});
