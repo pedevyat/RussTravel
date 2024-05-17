@@ -46179,7 +46179,7 @@
     "name": "Моне",
     "opening_hours": "24/7",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://hotel-mone.ru/nomera/"
   }
 },
 {
@@ -46196,7 +46196,7 @@
     "name": "Антика",
     "stars": "3",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://atikahotel.ru/"
   }
 },
 {
@@ -46267,7 +46267,7 @@
     "addr:street": "Сухумское шоссе",
     "name": "Пансионат Солнечный",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/vladivostok/solnechnyi/"
   }
 },
 {
@@ -46278,20 +46278,10 @@
   "tags": {
     "name": "Эльза",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/tainan/elsa-house/"
   }
 },
-{
-  "type": "node",
-  "id": 11029978905,
-  "lat": 43.4195513,
-  "lon": 39.9216343,
-  "tags": {
-    "name": "Эльза",
-    "tourism": "hotel",
-    "website": ""
-  }
-},
+
 {
   "type": "node",
   "id": 11067209459,
@@ -46371,7 +46361,7 @@
     "check_date": "2023-08-30",
     "name": "Адзгара у моря",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://tvil.ru/city/tsandrypsh/hotels/1676472/"
   }
 },
 {
@@ -46397,7 +46387,7 @@
     "name": "Viva Glamp",
     "name:en": "Viva Glamp",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://вива-глэмп.рф/"
   }
 },
 
