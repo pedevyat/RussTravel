@@ -3358,7 +3358,7 @@
       "tags": {
         "name": "Алла",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/krasnodar-krai/alla-ulitsa-stanislavskogo/"
       }
     },
     {
@@ -3369,7 +3369,7 @@
       "tags": {
         "name": "Околица",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/torzgok/okolitsa/"
       }
     },
     {
@@ -3380,7 +3380,7 @@
       "tags": {
         "name": "У Роберта",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/sochi/na-more-u-roberta/"
       }
     },
     {
@@ -3395,7 +3395,7 @@
         "name": "Royal Hotel",
         "stars": "4",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/moscow/gorodskoi-otel-mid/"
       }
     },
     {
@@ -3406,7 +3406,7 @@
       "tags": {
         "name": "Армада",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/orenburg/armada-komfort-otel/"
       }
     },
     {
@@ -3419,7 +3419,7 @@
         "addr:housenumber": "75 к1",
         "name": "Оазис",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://oazis-sochi.ru/"
       }
     },
     {
@@ -3431,7 +3431,7 @@
         "name": "Экспресс-Отель",
         "name:en": "HOSTEL",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/oktyabrsky/ekspress-otel/"
       }
     },
     {
@@ -3455,7 +3455,7 @@
       "tags": {
         "name": "Русь",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/krasnodar-krai/russia/"
       }
     },
     {
@@ -3466,7 +3466,7 @@
       "tags": {
         "name": "Заря",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotelzarya.ru/"
       }
     },
     {
@@ -3482,7 +3482,7 @@
         "operator": "Аверкин В.А",
         "phone": "88345164712",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/obninsk/iubileinaia/"
       }
     },
     {
@@ -3494,7 +3494,7 @@
         "name": "СКАЗКА",
         "source:name": "survey",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://level.travel/hotels/9105408-Otel_Skazka?aflt=LT-YandexSEO&affmarker=hotels"
       }
     },
     {
@@ -3505,7 +3505,7 @@
       "tags": {
         "name": "СЫРЫМ",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://syrym-datova-31-36.megotel.ru/"
       }
     },
     {
@@ -3516,7 +3516,7 @@
       "tags": {
         "name": "Алаш",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://saratov.jsprav.ru/gostinitsyi/kazahskij-aul-alash/"
       }
     },
     {
@@ -3528,7 +3528,7 @@
         "name": "Новотрекс",
         "name:ru": "Новотрекс",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://apartos.ru/orenburg/hotels/novotreks"
       }
     },
     {
@@ -3539,7 +3539,7 @@
       "tags": {
         "name": "Байтуган",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/republic-of-bashkortostan/baitugan/"
       }
     },
     {
@@ -3551,7 +3551,7 @@
         "name": "русский",
         "name:ru": "русский",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://parkhotel-russian.ru/"
       }
     },
     {
@@ -3564,7 +3564,7 @@
         "name": "Бизнес-Визит",
         "name:ru": "Бизнес-Визит",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://bronevik.com/ru/hotel/russia/magnitogorsk/business-visit?utm_referrer=https%3A%2F%2Fyandex.by%2F"
       }
     },
     {
@@ -3576,21 +3576,10 @@
         "name": "Зори Урала",
         "name:ru": "Зори Урала",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/chebarkul/zori-urala/"
       }
     },
-    {
-      "type": "node",
-      "id": 4387336389,
-      "lat": 54.7355440,
-      "lon": 55.9754907,
-      "tags": {
-        "name": "отель В центре",
-        "name:ru": "отель В центре",
-        "tourism": "hotel",
-        "website": ""
-      }
-    },
+
     {
       "type": "node",
       "id": 4394399342,
@@ -3599,7 +3588,7 @@
       "tags": {
         "name": "Надежда",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://nadezhda.ru/"
       }
     },
 
@@ -3613,7 +3602,7 @@
         "opening_hours": "24/7",
         "phone": "+79467221170",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://level.travel/hotels/9103355-Voyage_Hotel_And_Hostel_voyazh?aflt=LT-YandexSEO&affmarker=hotels"
       }
     },
     {
@@ -3625,7 +3614,7 @@
         "name": "Парк отель Forrest",
         "name:ru": "Парк отель Forrest",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://forrest-samara.ru/"
       }
     },
     {
@@ -3643,7 +3632,7 @@
         "name:tt": "Кол Гали Resort & Spa",
         "operator": "Фонд Возрождения Культурно-Истоического Наследия Татарстана",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://kolgaliresort.ru/"
       }
     },
 
@@ -3655,7 +3644,7 @@
       "tags": {
         "operator": "Исатай",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://goldenaltay.kz/ru/section/katon-karagayskiy-rayon/-gostevoy-dom-isatay_221"
       }
     },
     {
@@ -3666,7 +3655,7 @@
       "tags": {
         "name": "Park City",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://parkcity24.com/"
       }
     },
     {
@@ -3677,7 +3666,7 @@
       "tags": {
         "name": "Гостиница",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://rossiya-hotel.ru/?sa=X&ved=2ahUKEwjk6v7TxZOGAxXeSpEFHQnsAUIQyK4DegUIAxDjAw"
       }
     },
     {
@@ -3692,7 +3681,7 @@
         "opening_hours": "24/7",
         "phone": "+77711870764",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://uyut.org/"
       }
     },
 
@@ -3704,7 +3693,7 @@
       "tags": {
         "name": "Отель",
         "tourism": "hotel",
-        "website": ""
+        "website": "http://dehotel.ru/?yclid=6373180585526689791"
       }
     },
     {
@@ -3722,7 +3711,7 @@
         "rooms": "14",
         "smoking": "outside",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://motelbrest.com/"
       }
     },
 
@@ -3734,7 +3723,7 @@
       "tags": {
         "name": "Альбион",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://albion174.ru/"
       }
     },
 
