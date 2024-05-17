@@ -21,6 +21,7 @@ import 'package:russ_travel/articles/regions/ural/Hanti-Mansiiskii.dart';
 import 'package:russ_travel/articles/regions/ural/Kurganskaya.dart';
 import 'package:russ_travel/articles/regions/ural/Sverdlovskaya.dart';
 import 'package:russ_travel/articles/regions/ural/Tumenskaya.dart';
+import 'package:russ_travel/articles/regions/ural/Yamalo-neneckii.dart';
 import '../regions/center/bryansk.dart';
 import '../regions/center/kaluga.dart';
 import '../regions/center/oryol.dart';
@@ -87,6 +88,68 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Курганская область", content: Kurganskaya()),
     Article(title: "Ханты-Мансийский АО", content: Hanti_Mansiiskii()),
     Article(title: "Челябинская область", content: Chelyabinskaya()),
+    
+    Article(title: "Республика Башкортостан", content: bashkortorstan()),
+    Article(title: "Республика Чувашия", content: Chyvashiya()),
+    Article(title: "Кировская область", content: Kirovskaya()),
+    Article(title: "Республика Марий Эл", content: Marii_el()),
+    Article(title: "Республика Мордовия", content: Mordoviya()),
+    Article(title: "Нижегородская область", content: Nizhegorodskaya()),
+    Article(title: "Оренбургская область", content: Orenburgskaya()),
+    Article(title: "Пензенская область", content: Penzenskaya()),
+    Article(title: "Пермский край", content: Permskii()),
+    Article(title: "Самарская область", content: Samarskaya()),
+    Article(title: "Саратовская область", content: Saratovskaya()),
+    Article(title: "Республика Татарстан", content: Tatarstan()),
+    Article(title: "Республика Удмуртия", content: Ydmurtiya()),
+    Article(title: "Ульяновская область", content: Ylyanovskaya()),
+
+    Article(title: "Астраханская область", content: Astrachan()),
+    Article(title: "Элиста", content: Elista()),
+    Article(title: "Керчь", content: Kerch()),
+    Article(title: "Краснодарский край", content: Krasnodar()),
+    Article(title: "Республика Адыгея", content: Maikop()),
+    Article(title: "Новочеркасск", content: Novocherkassk()),
+    Article(title: "Новороссийск", content: Novorossiysk()),
+    Article(title: "Ростовская область", content: Rostov()),
+    Article(title: "Семфирополь", content: Semfiropol()),
+    Article(title: "Севастополь", content: Sevastopol()),
+    Article(title: "Шахты", content: Shachty()),
+    Article(title: "Сочи", content: Sochi()),
+    Article(title: "Волгоградская область", content: Rostov()),
+    Article(title: "Волжский", content: Volzhskiy()),
+    Article(title: "Ялта", content: Yalta()),
+
+    Article(title: "Амурская область", content: Amursk()),
+    Article(title: "Чукотский автономный округ", content: Anadyr()),
+    Article(title: "Артем", content: Artem()),
+    Article(title: "Белогорск", content: Belogorsk()),
+    Article(title: "Еврейская автономная область", content: Birobidzhan()),
+    Article(title: "Амурская область", content: Blagoveshensk()),
+    Article(title: "Забайкальский край", content: Chita()),
+    Article(title: "Елизово", content: Elizovo()),
+    Article(title: "Гусиноозёрск", content: Gusinoozersk()),
+    Article(title: "Хабаровский край", content: Habarovsk()),
+    Article(title: "Холмск", content: Holmsk()),
+    Article(title: "Комсомольск-на-Амуре", content: Komsomolsk-na-Amure()),
+    Article(title: "Корсаков", content: Korsakov()),
+    Article(title: "Краснокаменск", content: Krasnokamensk()),
+    Article(title: "Кяхта", content: Kyahta()),
+    Article(title: "Магаданская область", content: Magadan()),
+    Article(title: "Милково", content: Milkovo()),
+    Article(title: "Мирный", content: Mirniy()),
+    Article(title: "Находка", content: Nahodka()),
+    Article(title: "Нерчинск", content: Nerchinsk()),
+    Article(title: "Нерюнгри", content: Neryungri()),
+    Article(title: "Камчатский край", content: Petropavlovsk-Kamchatskiy()),
+    Article(title: "Северобайкальск", content: Severobaikalsk()),
+    Article(title: "Тунда", content: Tynda()),
+    Article(title: "Республика Бурятия", content: Ulan-Ude()),
+    Article(title: "Уссурийск", content: Ussuriysk()),
+    Article(title: "Приморский край", content: Vladivostok()),
+    Article(title: "Республика Саха (Якутия)", content: Yakutsk()),
+    Article(title: "Сахалинская область", content: Yuzhno-Sachalinsk()),
+
   ];
 
   List<Article> _filteredArticles = [];
