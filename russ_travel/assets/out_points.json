@@ -2700,6 +2700,496 @@
   }
 },
 {"name": "Кругозор Домбай", "latitude": 43.290365, "longitude": 41.680384, "photoUrl": "https://avatars.mds.yandex.net/get-altay/3598710/2a00000181e95063ea0ab32f7427f39973bc/XXXL"},
-{"name": "Архыз", "latitude": 43.560651, "longitude": 41.284657, "photoUrl": "https://avatars.mds.yandex.net/get-altay/219656/2a00000185f97b4d666a362b054660363f03/XXXL"}
+{"name": "Архыз", "latitude": 43.560651, "longitude": 41.284657, "photoUrl": "https://avatars.mds.yandex.net/get-altay/219656/2a00000185f97b4d666a362b054660363f03/XXXL"},
+{
+  "type": "node",
+  "id": 386883662,
+  "latitude": 44.1065876,
+  "longitude": 43.0177644,"name": "Малый Тау",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/892711/2a00000188e2243439ca50df0d8ccb1ba075/XXXL",
+  "tags": {
+    "ele": "1254",
+    
+    "natural": "peak",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 386883665,
+  "latitude": 44.1014599,
+  "longitude": 43.0099853,  "name": "Лохматая (Зеленый мыс)",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10092863/2a0000018aa33cd4e8ab0202852f09168ea6/XXXL",
+  "tags": {
+    "ele": "1080",
+  
+    "natural": "peak",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 386883666,
+  "latitude": 44.0863811,
+  "longitude": 43.0177521,"name": "Лисий нос",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10636707/2a0000018a7a13ccb042a3abd1ff2f8b9ab5/XXXL",
+  "tags": {
+    "alt_name": "Лисий нос",
+    "ele": "1124",
+    
+    "natural": "peak",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 387560968,
+  "latitude": 44.1095265,
+  "longitude": 43.0124668,"name": "Орлиные скалы",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9368060/2a00000189e3750cf88e09c3a3ec8b89e077/XXXL",
+  "tags": {
+    
+    "natural": "peak",
+    "sport": "climbing",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2258343739,
+  "latitude": 44.0949663,
+  "longitude": 42.9704389,"name": "Шелудивая",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/11860411/2a0000018df0e35d3d08ac1ab0457cfc7d9c/XXXL",
+  "tags": {
+    "ele": "874",
+    
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wikidata": "Q4522709",
+    "wikipedia": "ru:Шелудивая"
+  }
+},
+{
+  "type": "node",
+  "id": 2258344277,
+  "latitude": 44.1243661,
+  "longitude": 43.0035671,"name": "Кабанка",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/7179902/2a00000182e6483f38915af395c8020c1e45/XXXL",
+  "tags": {
+    "ele": "767",
+    
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wikidata": "Q4206541",
+    "wikipedia": "ru:Кабанка (гора)"
+  }
+},
+{
+  "type": "node",
+  "id": 2258353407,
+  "latitude": 43.9692534,
+  "longitude": 43.0226752,  "name": "Джуца 1-я (Юца)",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/13308954/2a0000018f0145ea3eb1b1f8b478e8ee598e/XXXL",
+  "tags": {
+    "ele": "973.2",
+  
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wikidata": "Q4160667",
+    "wikipedia": "ru:Джуца 1-я (гора)"
+  }
+},
+{
+  "type": "node",
+  "id": 2258354642,
+  "latitude": 43.9245620,
+  "longitude": 42.9862712, "name": "Джуца 2-я",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/11902589/2a0000018ed30c769ddaa9ce6c08bbb45922/XXXL",
+  "tags": {
+    "ele": "1190.6",
+   
+    "natural": "peak",
+    "tourism": "viewpoint",
+    "wikidata": "Q4160666",
+    "wikipedia": "ru:Джуца 2-я (гора)"
+  }
+},
+{
+  "type": "node",
+  "id": 2882197237,
+  "latitude": 44.0459604,
+  "longitude": 42.8665551, "name": "Беседка",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/2006773/2a0000016bf112aa85f936c696a9541d1679/XXXL",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3795609965,
+  "latitude": 43.8981190,
+  "longitude": 42.7390582, "name": "Вид на Долину Роз",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10702222/2a0000018b32e1e0006c4fade84109691a2c/XXXL",
+  "tags": {
+   
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 5188116522,
+  "latitude": 43.8992420,
+  "longitude": 42.7486959,"name": "Красное солнышко",
+  "photoUrl" : "https://avatars.mds.yandex.net/get-altay/6236523/2a0000017facaee0d2c2f522ddc62a149647/XXXL",
+  "tags": {
+    
+    "name:ru": "Красное солнышко",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5536747164,
+  "latitude": 43.8983197,
+  "longitude": 42.7270140,"name": "Каскадная лестница",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/406255/2a00000186218ea3e4be2b695e54c66ddec7/XXXL",
+  "tags": {
+    
+    "name:en": "Kaskadnaya Lestnitsa",
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 6744576385,
+  "latitude": 44.0227139,
+  "longitude": 42.8938422, "name": "Гора Пикет",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/4544819/2a0000017933d0d973c2a6a1a680ac3c95e3/XXXL",
+  "tags": {
+   
+    "name:en": "Mount Piket",
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 7560704229,
+  "latitude": 44.0984970,
+  "longitude": 43.0270677,"name": "Скала Есенина",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10812438/2a0000018a92bbe94f8f77b9ac98cba2cb81/XXXL",
+  "tags": {
+    
+    "natural": "cliff",
+    "sport": "climbing",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7567206584,
+  "latitude": 44.0918147,
+  "longitude": 43.1341334,"name": "Винтовая лестница",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/11072941/2a0000018cf96e8fef6fedc6b74d6f3e7f2a/XXXL",
+  "tags": {
+    "direction": "0-360",
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 7968039985,
+  "latitude": 43.8983689,
+  "longitude": 42.7333043,"name": "Серые камни",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/4612894/2a0000018088b93b3b88b90c74fc9d98b608/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+  }
+},
+
+{
+  "type": "node",
+  "id": 9882608418,
+  "latitude": 44.1400118,
+  "longitude": 43.0234904,"name": "Вид на горы Бык и Верблюд",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/4379646/2a0000017c11791eb44baab7e06d547a540c/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8354087118,
+  "latitude": 43.2895985,
+  "longitude": 42.4603596,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10233337/2a0000018f68a9d841465d63dcba302cf974/XXXL","name": "Станция Мир (высота 3500)",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "latitude": 43.241177,
+  "longitude": 42.483165,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/2402012/2a00000173cc39433ff0f3e01dc2795e913e/XXXL","name": "Гора Азау-Гитче-Чегет-Карабаши 3461 метр",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 11164426105,
+  "latitude": 42.8180893,
+  "longitude": 44.8295483,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10238647/2a0000018f70a33b4240d0c8ceb7138717d5/XXXL",
+  "tags": {
+    "name": "перевал Цей-Лоам",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 11164782305,
+  "latitude": 42.8086248,
+  "longitude": 44.9392478,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/1551063/2a0000018bbb26a61b81d7259c85dff9c977/XXXL",
+  "tags": {
+    "name": "вид на башни и горы",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6436486900,
+  "latitude": 43.3150398,
+  "longitude": 45.6975761,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10637174/2a0000018a7601b79a6f1c0836628a34d406/XXXL",
+  "tags": {
+    "level": "35",
+    "name": "Смотровая площадка «Грозный Сити»",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8009579485,
+  "latitude": 43.2667577,
+  "longitude": 45.7176269,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/11302718/2a0000018f8258bb65288632c022613635b2/XXXL",
+  "tags": {
+    "name": "Лестница в небеса",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "latitude": 42.895129,
+  "longitude": 46.129305,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/5236391/2a0000017c2368d2788b8150f071ff44ad9a/XXXL",
+  "tags": {
+    "name": "Сторожевая башня",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "latitude": 43.019021,
+  "longitude": 46.823610,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10869107/2a0000018a562a4d7f8db4fd8d2fd0afa785/XXXL",
+  "tags": {
+    "name": "Сулакский каньон",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "latitude": 42.053207,
+  "longitude": 48.275154,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/1630630/2a0000016ae313245c9be5b1fe004e4d82cb/XXXL",
+  "tags": {
+    "name": "Цитадель Нарын-Кала",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 895257073,
+  "latitude": 46.2652285,
+  "longitude": 44.2299717,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/13091609/2a0000018e3ad256b208e124007a713b6254/XXXL",
+  "tags": {
+    "amenity": "parking",
+    "hgv": "no",
+    "name": "Родник",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "latitude": 48.741595,
+  "longitude": 44.539438,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9776062/2a0000018dcce80ba06c2e4408dcb749bac1/XXXL",
+  "tags": {
+    "name": "Мамаев курган",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1879737285,
+  "latitude": 51.5768509,
+  "longitude": 45.9091340,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9331640/2a00000189a677d95bcf5bb34e6fe569c7df/XXXL",
+  "tags": {
+    "description": "Вид на поселок Поливановка",
+    "name": "Пик пионеров",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8747188377,
+  "latitude": 51.5279056,
+  "longitude": 45.9469767,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/5517178/2a0000017e490b68fe363aa78fbaa0f62ff1/XXXL",
+  "tags": {
+    "description": "Смотровая точка с красивым деревом и живописными видами",
+    "direction": "270-45",
+    "name": "Смотровая точка",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": -1,
+  "latitude": 50.970221,
+  "longitude": 39.292990,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/6527792/2a0000018f6dfe42a360dab6723406fb3dd8/XXXL",
+  "tags": {
+    "description": "Смотровая точка с красивым деревом и живописными видами",
+    "direction": "270-45",
+    "name": "Маяцкая крепость",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4208961296,
+  "latitude": 51.5752616,
+  "longitude": 39.2270457,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/12865251/2a0000018f6df7c8bbd070307afadb9e861f/XXXL",
+  "tags": {
+    "name": "Водозабор",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2168641526,
+  "latitude": 50.6194474,
+  "longitude": 36.6126493,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/8072647/2a000001872cabb5c6300e4947013fd4b0b9/XXXL",
+  "tags": {
+    "name": "Обзорная площадка с видом на город",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1306419177,
+  "latitude": 53.2542349,
+  "longitude": 34.3773517,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9709783/2a000001884ecf325fa40b9f3cc61eba6f87/XXXL",
+  "tags": {
+    "level": "15",
+    "name": "Вид на Брянск с гостиницы",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3904021031,
+  "latitude": 53.2035552,
+  "longitude": 34.3280289,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/1132477/2a000001885d77a23e35d989712cb58c38bd/XXXL",
+  "tags": {
+    "name": "Вид на пойму реки Десна",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3907874026,
+  "latitude": 53.2468698,
+  "longitude": 34.3686466,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/923092/2a0000018732d59068de2912d73b11af29e3/XXXL",
+  "tags": {
+    "name": "Вид на Верхний Судок",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3907874026,
+  "latitude": 54.788160,
+  "longitude": 32.053921,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/903559/2a00000188ae7727e20cdb2da22f564ceb81/XXXL",
+  "tags": {
+    "name": "Соборная гора",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2387630221,
+  "latitude": 56.1250624,
+  "longitude": 40.3988315,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/13212052/2a0000018f7c1c8360f60284107db9804128/XXXL",
+  "tags": {
+    "access": "customers",
+    "level": "4",
+    "name": "Площадка на крыше",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4153142491,
+  "latitude": 57.6217203,
+  "longitude": 39.9023417,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/6159907/2a0000018f638e4148c8c11e9b4997a2720c/XXXL",
+  "tags": {
+    "name": "Рубленый город",
+    "tourism": "viewpoint",
+    "wikidata": "Q4399140"
+  }
+},
+{
+  "type": "node",
+  "id": 1343977350,
+  "latitude": 54.6351087,
+  "longitude": 39.7491695,
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/5485499/2a000001808806b4921ad0bbc08e018bdb17/XXXL",
+  "tags": {
+    "name": "Кремлевский вал",
+    "tourism": "viewpoint"
+  }
+}
 
 ]
