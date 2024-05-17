@@ -6,17 +6,7 @@
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
-
-    {
-      "type": "node",
-      "id": 281613044,
-      "lat": 54.6473187,
-      "lon": 54.5615959,
-      "tags": {
-        "tourism": "hotel",
-        "website": ""
-      }
-    },
+    
 
     {
       "type": "node",
@@ -26,7 +16,7 @@
       "tags": {
         "name": "Профилакторий Тан",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://tanhotel.ru/"
       }
     },
     {
@@ -38,7 +28,7 @@
         "name": "Кумертау",
         "name:ja": "クメルタウ",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/kumertau/gostinitsa-kumertau/"
       }
     },
     {
@@ -81,7 +71,7 @@
         "addr:street": "площадь Кирова",
         "name": "Арена",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotel-arena.ru/"
       }
     },
     {
@@ -94,7 +84,7 @@
         "old_name": "Астория",
         "phone": "+78452263645",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.tripadvisor.ru/Hotel_Review-g811259-d6840081-Reviews-Volga-Syzran_Samara_Oblast_Volga_District.html"
       }
     },
     {
@@ -110,7 +100,7 @@
         "name": "Арена",
         "phone": "+7 3519 377720",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/kaspiysk/arena/"
       }
     },
     {
@@ -142,7 +132,7 @@
         "name": "Кураж",
         "phone": "+7 3519 209678",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://куражотель.рф/"
       }
     },
     {
@@ -158,7 +148,7 @@
         "name": "Гостиница МКЗ",
         "phone": "+7 3519 230256",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.drom.ru/Места/Россия/Челябинская_область/Магнитогорск/Жилье/Гостиница/гостиница_мкз_18130.html"
       }
     },
     {
@@ -175,7 +165,7 @@
         "name:ja": "ウラル",
         "phone": "+7 3519 342445",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://ural-slavhotels.ru/?sa=X&ved=2ahUKEwif5ujzxtf9AhXRxrIKHU8BCkoQyK4DegUIAxDNAg"
       }
     },
     {
@@ -191,7 +181,7 @@
         "name": "Уют-сервис",
         "phone": "+7 3519 298897",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/tyumen-oblast/uiut-servis/"
       }
     },
     {
@@ -207,7 +197,7 @@
         "name": "Строитель",
         "phone": "+7 3519 342845",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://tours.tutu.ru/hotel/11209/"
       }
     },
     {
@@ -223,7 +213,7 @@
         "name": "Турист",
         "phone": "+7 3519 340544",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/moscow/turist/"
       }
     },
     {
@@ -272,7 +262,7 @@
         "addr:street": "проспект Карла Маркса",
         "name": "Avrora",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://aurora-hotel.ru/"
       }
     },
     {
@@ -288,7 +278,7 @@
         "name": "Урал",
         "name:ja": "ウラル",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotel-ural.com/"
       }
     },
     {
@@ -304,7 +294,7 @@
         "name": "Урал-отель",
         "phone": "+7 3519 207908",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://tours.tutu.ru/hotel/11427/"
       }
     },
     {
@@ -355,7 +345,7 @@
         "check_date": "2023-07-27",
         "name": "Башкортостан",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.gkbashkortostan.ru/"
       }
     },
     {
@@ -380,7 +370,7 @@
       "tags": {
         "name": "Ретро",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotelretro.ru/?s="
       }
     },
     {
@@ -395,7 +385,7 @@
         "name": "Сура",
         "name:ja": "スラー",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/saransk/sura/"
       }
     },
     {
@@ -409,7 +399,7 @@
         "addr:street": "улица Федосеенко",
         "name": "Мирта",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotelmirta.ru/"
       }
     },
     {
@@ -420,7 +410,7 @@
       "tags": {
         "name": "Санаторий Ассы",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://assy-rb.ru/"
       }
     },
 
@@ -444,7 +434,7 @@
         "description": "Отель в бизнес-центре ФОРУМ",
         "name": "Форум",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://forum-sudak.ru/"
       }
     },
     {
@@ -456,7 +446,7 @@
         "name": "Транзит",
         "name:en": "Transit",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/tula-oblast/tranzit/"
       }
     },
     {
@@ -467,7 +457,7 @@
       "tags": {
         "name": "Зелёная крыша",
         "tourism": "hotel",
-        "website": ""
+        "website": "http://зелёныекрыши.рф/"
       }
     },
     {
@@ -479,7 +469,7 @@
         "name": "Уралочка",
         "name:en": "Uralochka",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://uralochka-hotel.ru/"
       }
     },
     {
@@ -528,7 +518,7 @@
         "name": "Агидель",
         "name:ja": "アギデーリ",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.agidelhotel.ru/"
       }
     },
     {
@@ -539,7 +529,7 @@
       "tags": {
         "name": "Колос",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/pskov/kolos/"
       }
     },
     {
@@ -578,7 +568,7 @@
       "tags": {
         "name": "Каменный Цветок",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.kamcvet-house.ru/"
       }
     },
     {
@@ -589,7 +579,7 @@
       "tags": {
         "name": "Мега",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://hotel-mega.ru/?sa=X&ved=2ahUKEwjJ5seCxNiDAxW9SpEFHa0bDiYQyK4DegUIAxCzAg"
       }
     },
     {
@@ -600,7 +590,7 @@
       "tags": {
         "name": "Браво",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/krasnodar-krai/otel-bravo/"
       }
     },
 
@@ -612,7 +602,7 @@
       "tags": {
         "name": "ОАО\"Мордовцемент\" Санаторий-Профилакторий Гостиница",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.list-org.com/company/1958529"
       }
     },
 
@@ -624,7 +614,7 @@
       "tags": {
         "name": "ГК Чистые пруды",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.onetwotrip.com/ru/hotels/hotel/-6513449/?s=true&scp=180%2Cyandex_direct%2Chotel_p1_another_epk_k48960001716_desktop_103082014_5356484899_1827837027039960441_157&utm_source=Direct&utm_medium=cpc&utm_campaign=hotel_p1_another_epk%7C00000705010001020000%7C11%3A103082014&utm_content=ch_yandex_direct%7Ccid_103082014%7Cgid_5356484899%7Cad_1827837027039960441%7Cph_48960001716%7Ccrt_0%7Cpst_premium%7Cps_2%7Csrct_search%7Csrc_none%7Cdevt_desktop%7Cret_48960001716%7Cgeo_157%7Ccf_0%7Cint_%7Ctgt_48960001716%7Cadd_no&utm_term=---autotargeting%7C48960001716&yclid=10537454866509594623&date_start=2024-05-17&date_end=2024-05-18&rooms%5B0%5D=2&referrer=yandex_direct&referrer_mrk=hotel_p1_another_epk_k48960001716_desktop_103082014_5356484899_1827837027039960441_157"
       }
     },
     {
@@ -635,7 +625,7 @@
       "tags": {
         "name": "СП Нива",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://spniva.ru/"
       }
     },
     {
@@ -650,7 +640,7 @@
         "name": "Черемшан",
         "name:ja": "チェレムシャン",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/dimitrovgrad/cheremshan/"
       }
     },
     {
@@ -664,7 +654,7 @@
         "addr:street": "улица Гончарова",
         "name": "Радуга",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/krasnodar-krai/raduga-10g/"
       }
     },
     {
@@ -691,7 +681,7 @@
       "tags": {
         "name": "Орхидея",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/republic-of-crimea/orkhideia-morskaia-ulitsa/"
       }
     },
     {
@@ -704,7 +694,7 @@
         "name": "Айсберг",
         "opening_hours": "24/7",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://iceberghotel-kaspiysk.ru/"
       }
     },
     {
@@ -718,7 +708,7 @@
         "fixme": "уточнить положение",
         "name": "Акбарс",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/krasnodar-krai/akbars/"
       }
     },
     {
@@ -731,7 +721,7 @@
         "addr:street": "Советская улица",
         "name": "Волга",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/samara/gostinitsa-volga/"
       }
     },
     {
@@ -745,7 +735,7 @@
         "addr:street": "улица Российской Республики",
         "name": "Ривьера",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://kazanriviera.ru/hotel/"
       }
     },
     {
@@ -781,7 +771,7 @@
       "tags": {
         "name": "Элвис",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://na-verandah.megotel.ru/ru/elvis"
       }
     },
     {
