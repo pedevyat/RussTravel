@@ -300,6 +300,7 @@ Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
     final jsonString = await rootBundle.loadString('assets/museum_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<Marker> markers = [];
+    var musbox = await Hive.openBox('museumBox');
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = MuseumPoint.fromJson(pointsData[i]);
@@ -322,7 +323,11 @@ Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
             child: Container(
               width: 40.0,
               height: 40.0,
-              child: Image.asset('assets/museum.png'),
+              child: 
+              Opacity(
+		  opacity: (musbox.containsKey(point.id)) ? 0.3 : 1,
+		  child: Image.asset('assets/museum.png'),
+		),
             ),
           ),
         ),
@@ -379,6 +384,7 @@ Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
     final jsonString = await rootBundle.loadString('assets/park_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<fm.Marker> markers = [];
+    var parksbox = await Hive.openBox('parkBox');
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = ParkPoint.fromJson(pointsData[i]);
@@ -401,7 +407,11 @@ Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
             child: Container(
               width: 40.0,
               height: 40.0,
-              child: Image.asset('assets/trees.png'),
+              child:
+              Opacity(
+		  opacity: (parksbox.containsKey(point.id)) ? 0.3 : 1,
+		  child: Image.asset('assets/trees.png'),
+		),
             ),
           ),
         ),
@@ -419,6 +429,7 @@ Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<fm.Marker> markers = [];
+    var outbox = await Hive.openBox('outsideBox');
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = OutsidePoint.fromJson(pointsData[i]);
@@ -441,7 +452,11 @@ Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
             child: Container(
               width: 40.0,
               height: 40.0,
-              child: Image.asset('assets/binoculars.png'),
+              child:
+              Opacity(
+		  opacity: (outbox.containsKey(point.id)) ? 0.3 : 1,
+		  child: Image.asset('assets/binoculars.png'),
+		),
             ),
           ),
         ),
@@ -521,9 +536,23 @@ class _ModalBodyViewP extends StatelessWidget {
                 onPressed: () async {
                   var box = await Hive.openBox('parkBox');
                   if (box.containsKey(point.id))
+                  {
                     box.delete(point.id);
+                    ScaffoldMessenger.of(context).showSnackBar(
+		        SnackBar(
+		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+		        ),
+		      );
+                  }
                   else
+                  {
                     box.put(point.id, point.id);
+                    ScaffoldMessenger.of(context).showSnackBar(
+		        SnackBar(
+		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+		        ),
+		      );
+		  }
                 },
               ),
             ),
@@ -578,9 +607,23 @@ class _ModalBodyViewM extends StatelessWidget {
                 onPressed: () async {
                   var box = await Hive.openBox('museumBox');
                   if (box.containsKey(point.id))
+                  {
                     box.delete(point.id);
+                    ScaffoldMessenger.of(context).showSnackBar(
+		        SnackBar(
+		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+		        ),
+		      );
+                  }
                   else
+                  {
                     box.put(point.id, point.id);
+                    ScaffoldMessenger.of(context).showSnackBar(
+		        SnackBar(
+		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+		      ),
+		    );
+                  }
                   Navigator.pop(context);
                 },
               ),
@@ -623,6 +666,8 @@ class _ModalBodyViewO extends StatelessWidget {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
+    
+    //print("Point ID : " + point.id);
 
     return SingleChildScrollView(
       child: Padding(
@@ -637,9 +682,23 @@ class _ModalBodyViewO extends StatelessWidget {
                 onPressed: () async {
                   var box = await Hive.openBox('outsideBox');
                   if (box.containsKey(point.id))
+                  {
                     box.delete(point.id);
+                    ScaffoldMessenger.of(context).showSnackBar(
+		        SnackBar(
+		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+		        ),
+		      );
+                  }
                   else
+                  {
                     box.put(point.id, point.id);
+                    ScaffoldMessenger.of(context).showSnackBar(
+		        SnackBar(
+		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+		        ),
+		      );
+                  }
                   //point.isVisited = !point.isVisited;
                 },
               ),
