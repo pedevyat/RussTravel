@@ -48,6 +48,9 @@ dependencies:
   build_runner: ^2.4.9
   hive_flutter: ^1.1.0  
   flutter_spinkit: ^5.2.1
+  latlong2: ^0.9.1
+  flutter_map_supercluster: ^4.3.0
+  glob: ^2.1.2
 
 dev_dependencies:
   flutter_test:
@@ -115,6 +118,10 @@ flutter:
     - assets/park_points.json
     - assets/hotels.json
     - assets/bed_test.png
+    - assets/DV/
+    - assets/privolzhye/
+    - assets/ural/
+    - assets/Yufo/
 
 
   # The following line ensures that the Material Icons font is
