@@ -2445,6 +2445,1656 @@
   "name": "Гора Облего 747 метров",
   "photoUrl": "https://avatars.mds.yandex.net/get-altay/8093564/2a000001890fb08b40bc119e6c29a31cf2f3/XXXL",
   "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 655242606,
+  "lat": 43.5777308,
+  "lon": 39.7218432,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 738618669,
+  "lat": 43.5675798,
+  "lon": 39.7348566,
+  "tags": {
+    "name": "Ротонда",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 850083682,
+  "lat": 43.6472160,
+  "lon": 40.2511687,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 915444967,
+  "lat": 43.5505235,
+  "lon": 39.8433371,
+  "tags": {
+    "direction": "0-360",
+    "fee": "yes",
+    "man_made": "tower",
+    "name": "Башня \"Ахун\"",
+    "name:de": "Achunturm",
+    "name:en": "Akhun tower",
+    "name:ru": "Башня \"Ахун\"",
+    "opening_hours": "closed",
+    "tourism": "viewpoint",
+    "tower:type": "observation",
+    "wikidata": "Q1967356",
+    "wikipedia": "ru:Ахун (гора)"
+  }
+},
+{
+  "type": "node",
+  "id": 1226629724,
+  "lat": 43.5879029,
+  "lon": 40.0076325,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1561321169,
+  "lat": 43.7071187,
+  "lon": 39.7739774,
+  "tags": {
+    "name": "Ореховский водопад (Снизу)",
+    "name:en": "Orekhovsky waterfall",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1912914775,
+  "lat": 43.5447510,
+  "lon": 39.8790897,
+  "tags": {
+    "name": "Каньон \"Чёртовы ворота\"",
+    "name:en": "Tcheortovy vorota canyon",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1914036865,
+  "lat": 43.5308679,
+  "lon": 39.8776815,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2567982744,
+  "lat": 43.5210918,
+  "lon": 40.0845726,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2568004442,
+  "lat": 43.5689415,
+  "lon": 40.1143829,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2862485637,
+  "lat": 43.5600935,
+  "lon": 39.8237065,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2946055557,
+  "lat": 43.3647103,
+  "lon": 40.1065325,
+  "tags": {
+    "name": "Белые скалы",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2969903651,
+  "lat": 43.7195905,
+  "lon": 40.2082837,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2969903719,
+  "lat": 43.7187828,
+  "lon": 40.2040802,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 2971963453,
+  "lat": 43.3661771,
+  "lon": 40.1039467,
+  "tags": {
+    "name": "Белые скалы",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3046900163,
+  "lat": 43.5761556,
+  "lon": 39.7442231,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3457587521,
+  "lat": 43.5697128,
+  "lon": 39.7967095,
+  "tags": {
+    "name": "Обзорная поляна",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3499497491,
+  "lat": 43.5630302,
+  "lon": 39.8987507,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3544715096,
+  "lat": 43.5194853,
+  "lon": 40.0003749,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3613156013,
+  "lat": 43.5566081,
+  "lon": 39.8219145,
+  "tags": {
+    "tourism": "viewpoint",
+    "website": "https://kuula.co/share/7lDY2?fs=1&zoom=1"
+  }
+},
+{
+  "type": "node",
+  "id": 3640382462,
+  "lat": 43.5906421,
+  "lon": 39.7147984,
+  "tags": {
+    "description": "Вид на часть представления",
+    "fee": "no",
+    "name": "Дельфинарий",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3651502096,
+  "lat": 43.7018090,
+  "lon": 40.1590681,
+  "tags": {
+    "name": "Греческий обзор",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3721708350,
+  "lat": 43.6462615,
+  "lon": 39.7775861,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4063702786,
+  "lat": 43.5273080,
+  "lon": 39.9996217,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4140990691,
+  "lat": 43.5767164,
+  "lon": 39.7232699,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4270638148,
+  "lat": 43.7265663,
+  "lon": 40.1689805,
+  "tags": {
+    "name": "Смотровая Дальняя",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4296237295,
+  "lat": 43.7016810,
+  "lon": 40.2218776,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4316709572,
+  "lat": 43.6784629,
+  "lon": 39.7810819,
+  "tags": {
+    "height": "11",
+    "tourism": "viewpoint",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 4331452393,
+  "lat": 43.6028708,
+  "lon": 39.7315765,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4373342095,
+  "lat": 43.7011232,
+  "lon": 39.6050813,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4405966489,
+  "lat": 43.5757311,
+  "lon": 39.7240715,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4491084831,
+  "lat": 43.6691394,
+  "lon": 40.2616695,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4498044628,
+  "lat": 43.5588315,
+  "lon": 39.8224334,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4498054344,
+  "lat": 43.5591662,
+  "lon": 39.8227407,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4498991436,
+  "lat": 43.5573591,
+  "lon": 39.8219953,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4566863025,
+  "lat": 43.6968525,
+  "lon": 40.1892357,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4594830362,
+  "lat": 43.5335050,
+  "lon": 39.8793456,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4594845912,
+  "lat": 43.5331483,
+  "lon": 39.8791422,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4594846566,
+  "lat": 43.5365936,
+  "lon": 39.8821484,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4745979047,
+  "lat": 43.6956873,
+  "lon": 39.8549748,
+  "tags": {
+    "name": "Скала белая",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4835368665,
+  "lat": 43.6733123,
+  "lon": 40.1827864,
+  "tags": {
+    "direction": "E",
+    "name": "Кругозор Ефремова",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4836489094,
+  "lat": 43.5257695,
+  "lon": 40.0047006,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4844075988,
+  "lat": 43.6865681,
+  "lon": 40.2788265,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4845330658,
+  "lat": 43.7741404,
+  "lon": 40.0557205,
+  "tags": {
+    "name": "Смотрова Ац-Ху",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5039673637,
+  "lat": 43.4822708,
+  "lon": 39.9099478,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5076825128,
+  "lat": 43.6882076,
+  "lon": 40.2345677,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5078558645,
+  "lat": 43.6418810,
+  "lon": 40.2380001,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5078558646,
+  "lat": 43.6418442,
+  "lon": 40.2388276,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5078558672,
+  "lat": 43.6437532,
+  "lon": 40.2627973,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5078558673,
+  "lat": 43.6441682,
+  "lon": 40.2623884,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5081707480,
+  "lat": 43.6890638,
+  "lon": 40.2166599,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5081707628,
+  "lat": 43.6893118,
+  "lon": 40.2086893,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5094848805,
+  "lat": 43.6860193,
+  "lon": 40.2083449,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5095338986,
+  "lat": 43.6716266,
+  "lon": 40.2879189,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5095680024,
+  "lat": 43.6812681,
+  "lon": 40.2761598,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5161250817,
+  "lat": 43.6707534,
+  "lon": 40.1841801,
+  "tags": {
+    "direction": "E",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5168558790,
+  "lat": 43.6879377,
+  "lon": 40.2054153,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5212812924,
+  "lat": 43.5508274,
+  "lon": 39.9442719,
+  "tags": {
+    "description": "Cмотровая площадка на Cухой каньон",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5238226763,
+  "lat": 43.5604336,
+  "lon": 39.9006333,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5238249135,
+  "lat": 43.5616432,
+  "lon": 39.8989299,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5271242543,
+  "lat": 43.5380993,
+  "lon": 39.8039786,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5328033827,
+  "lat": 43.6691094,
+  "lon": 40.2623069,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5475330778,
+  "lat": 43.6845732,
+  "lon": 40.2218109,
+  "tags": {
+    "direction": "108",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5630131931,
+  "lat": 43.5260997,
+  "lon": 39.8904531,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5671565521,
+  "lat": 43.5737416,
+  "lon": 39.7439714,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5688872375,
+  "lat": 43.7150961,
+  "lon": 40.1419824,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5749364903,
+  "lat": 43.7074675,
+  "lon": 39.7738874,
+  "tags": {
+    "name": "Ореховский водопад (Сверху)",
+    "name:en": "Orekhovsky waterfall",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5793806003,
+  "lat": 43.5614245,
+  "lon": 39.8987898,
+  "tags": {
+    "tourism": "viewpoint",
+    "website": "https://kuula.co/share/7Yrvd?fs=1&zoom=1"
+  }
+},
+{
+  "type": "node",
+  "id": 5841210837,
+  "lat": 43.6681055,
+  "lon": 40.2998757,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5882292009,
+  "lat": 43.4491959,
+  "lon": 39.9294046,
+  "tags": {
+    "direction": "90-270",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5884468493,
+  "lat": 43.6427339,
+  "lon": 40.2351269,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6037328768,
+  "lat": 43.5732324,
+  "lon": 40.0055122,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6080154160,
+  "lat": 43.6805222,
+  "lon": 39.6374290,
+  "tags": {
+    "name": "Чайная плантация",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6081591349,
+  "lat": 43.7505221,
+  "lon": 39.6090809,
+  "tags": {
+    "name": "Вершина",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6110327821,
+  "lat": 43.4808422,
+  "lon": 39.9117350,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6239588553,
+  "lat": 43.6989493,
+  "lon": 39.7083464,
+  "tags": {
+    "name": "Вид на озеро",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6280990785,
+  "lat": 43.5617256,
+  "lon": 39.8045033,
+  "tags": {
+    "name": "Обзор Мацесты",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6517808466,
+  "lat": 43.5591304,
+  "lon": 39.8274904,
+  "tags": {
+    "direction": "-105",
+    "name": "Архимедовы ванны",
+    "tourism": "viewpoint",
+    "website": "https://kuula.co/share/7kDMh?fs=1&zoom=1"
+  }
+},
+{
+  "type": "node",
+  "id": 6517808467,
+  "lat": 43.7129274,
+  "lon": 39.7882371,
+  "tags": {
+    "description": "Подниматься следует снизу от водопада вдоль протянутой проволоки",
+    "tourism": "viewpoint",
+    "website": "https://kuula.co/share/7YR8V?fs=1&zoom=1"
+  }
+},
+{
+  "type": "node",
+  "id": 6551297920,
+  "lat": 43.6272714,
+  "lon": 39.9755942,
+  "tags": {
+    "name": "\"Памирка\"",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6640077886,
+  "lat": 43.6967403,
+  "lon": 39.7033359,
+  "tags": {
+    "name": "Вид на чайные плантации",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6738209642,
+  "lat": 43.6833754,
+  "lon": 39.6213410,
+  "tags": {
+    "name": "Обзорная",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6762073575,
+  "lat": 43.6735173,
+  "lon": 40.2406407,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6830734791,
+  "lat": 43.4178999,
+  "lon": 39.9490185,
+  "tags": {
+    "direction": "180",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6892936896,
+  "lat": 43.6653135,
+  "lon": 39.7274164,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6986517080,
+  "lat": 43.6469983,
+  "lon": 40.2516296,
+  "tags": {
+    "direction": "360",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7061603874,
+  "lat": 43.5605261,
+  "lon": 39.8259839,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7061603875,
+  "lat": 43.5583336,
+  "lon": 39.8254019,
+  "tags": {
+    "direction": "60",
+    "name": "Вид на водопад",
+    "tourism": "viewpoint",
+    "website": "https://kuula.co/share/7lgZF?fs=1&zoom=1",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 7158951856,
+  "lat": 43.6912744,
+  "lon": 40.2197662,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7177810738,
+  "lat": 43.7102180,
+  "lon": 39.8188913,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7181605318,
+  "lat": 43.6498231,
+  "lon": 39.6539122,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7206799621,
+  "lat": 43.4616907,
+  "lon": 39.9111014,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7342964008,
+  "lat": 43.5526691,
+  "lon": 39.7685440,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7379845772,
+  "lat": 43.5825296,
+  "lon": 40.0113563,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7414193486,
+  "lat": 43.6434374,
+  "lon": 39.7886273,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7457652424,
+  "lat": 43.6985223,
+  "lon": 40.2135610,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7457652428,
+  "lat": 43.6984781,
+  "lon": 40.2155263,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7473353222,
+  "lat": 43.6372910,
+  "lon": 40.1178728,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7563780258,
+  "lat": 43.7554496,
+  "lon": 39.8463212,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7620393388,
+  "lat": 43.6353084,
+  "lon": 39.8168967,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7760283386,
+  "lat": 43.6359409,
+  "lon": 40.2780356,
+  "tags": {
+    "name": "вид на долину розы",
+    "name:en": "Rosa valley view",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7856319704,
+  "lat": 43.7288894,
+  "lon": 40.1719098,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7860338088,
+  "lat": 43.7227650,
+  "lon": 40.1948099,
+  "tags": {
+    "direction": "300",
+    "name": "Одинокая",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7913494085,
+  "lat": 43.3324199,
+  "lon": 40.1992211,
+  "tags": {
+    "name": "Я люблю Гагру",
+    "name:en": "I love Gagra",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7917722752,
+  "lat": 43.6058625,
+  "lon": 40.2755239,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7917722753,
+  "lat": 43.6060391,
+  "lon": 40.2753298,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7973580382,
+  "lat": 43.5245221,
+  "lon": 40.0052236,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7973683387,
+  "lat": 43.6775064,
+  "lon": 40.1952912,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 7981428285,
+  "lat": 43.5604683,
+  "lon": 39.8252509,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8011396104,
+  "lat": 43.4578263,
+  "lon": 39.9776520,
+  "tags": {
+    "name": "Вид на аэропорт",
+    "name:en": "Airport view",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8014356275,
+  "lat": 43.4038060,
+  "lon": 40.0856134,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8049771585,
+  "lat": 43.7234371,
+  "lon": 40.1380359,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8049771785,
+  "lat": 43.7236661,
+  "lon": 40.1293724,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8050462415,
+  "lat": 43.5209016,
+  "lon": 39.9960372,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8050484804,
+  "lat": 43.5170398,
+  "lon": 39.9964543,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8081930843,
+  "lat": 43.5550641,
+  "lon": 39.8240074,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8081933590,
+  "lat": 43.5590518,
+  "lon": 39.8268895,
+  "tags": {
+    "direction": "90",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8082046463,
+  "lat": 43.5619897,
+  "lon": 39.8220731,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8134134817,
+  "lat": 43.6944119,
+  "lon": 40.2368632,
+  "tags": {
+    "description": "Вид на Русские Горки и Чёрную пирамиду",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8165225017,
+  "lat": 43.6850807,
+  "lon": 40.2784070,
+  "tags": {
+    "name": "Зелёная планета топиари парк",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8207289175,
+  "lat": 43.5592490,
+  "lon": 39.8284054,
+  "tags": {
+    "direction": "-130",
+    "tourism": "viewpoint",
+    "website": "https://kuula.co/share/7Vpxc?fs=1&zoom=1"
+  }
+},
+{
+  "type": "node",
+  "id": 8226545204,
+  "lat": 43.6644590,
+  "lon": 40.2597087,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8226565987,
+  "lat": 43.6525560,
+  "lon": 40.2724146,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8360575632,
+  "lat": 43.6548697,
+  "lon": 39.7602894,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8445927555,
+  "lat": 43.5517293,
+  "lon": 39.8166321,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8445961414,
+  "lat": 43.7096148,
+  "lon": 39.8162002,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8445978331,
+  "lat": 43.5406016,
+  "lon": 39.8220683,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8475699985,
+  "lat": 43.4114327,
+  "lon": 39.9900300,
+  "tags": {
+    "description": "Смотровая площадка с видом на Имеретинку и Абхазию.  Убирайте, пожалуйста, за собой мусор.",
+    "name": "ЗаДумка",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8475699986,
+  "lat": 43.4189906,
+  "lon": 39.9877960,
+  "tags": {
+    "description": "Смотровая площадка с видом на Олимпийский парк и Имеретинскую бухту.",
+    "name": "Думчевка",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8489316777,
+  "lat": 43.5079748,
+  "lon": 39.8756564,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8739758601,
+  "lat": 43.6796675,
+  "lon": 40.2983308,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8745982497,
+  "lat": 43.6539711,
+  "lon": 40.1535319,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8757955572,
+  "lat": 43.5946214,
+  "lon": 40.0186955,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8869340718,
+  "lat": 43.5408164,
+  "lon": 39.8224869,
+  "tags": {
+    "name": "Красивый вид",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8879589417,
+  "lat": 43.6701037,
+  "lon": 40.2572654,
+  "tags": {
+    "name": "Очень красивый вид на горы",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8879646921,
+  "lat": 43.6677367,
+  "lon": 40.2527407,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8879671217,
+  "lat": 43.6690886,
+  "lon": 40.2558771,
+  "tags": {
+    "name": "Красивая панорама",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8879935017,
+  "lat": 43.6592402,
+  "lon": 40.2506362,
+  "tags": {
+    "name": "Видовая мансарда кафе",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8880077717,
+  "lat": 43.6491004,
+  "lon": 40.2484746,
+  "tags": {
+    "name": "Видовая",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8880289817,
+  "lat": 43.6469627,
+  "lon": 40.2509660,
+  "tags": {
+    "name": "Горы",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8897590017,
+  "lat": 43.6619024,
+  "lon": 40.2579871,
+  "tags": {
+    "name": "Обзор серпантина",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8977869379,
+  "lat": 43.6297962,
+  "lon": 40.2904733,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8977983260,
+  "lat": 43.5606345,
+  "lon": 39.9008361,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9042568717,
+  "lat": 43.3829319,
+  "lon": 40.1034911,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9045195047,
+  "lat": 43.5191013,
+  "lon": 40.0034252,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9045195048,
+  "lat": 43.5193368,
+  "lon": 40.0045293,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9045195049,
+  "lat": 43.5196924,
+  "lon": 40.0059507,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9045235740,
+  "lat": 43.5196920,
+  "lon": 40.0008157,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9045235744,
+  "lat": 43.5191593,
+  "lon": 39.9983917,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9161783817,
+  "lat": 43.4249124,
+  "lon": 40.1597589,
+  "tags": {
+    "name": "Хашупсинский каньон",
+    "name:en": "Khashupsinky canyon",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9163125409,
+  "lat": 43.7093358,
+  "lon": 40.1250496,
+  "tags": {
+    "direction": "340",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9163145055,
+  "lat": 43.7155432,
+  "lon": 40.1162291,
+  "tags": {
+    "direction": "120",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9187330655,
+  "lat": 43.6575665,
+  "lon": 39.7530794,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9195345617,
+  "lat": 43.6301373,
+  "lon": 40.2907530,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9222272910,
+  "lat": 43.7129591,
+  "lon": 40.1884932,
+  "tags": {
+    "direction": "270-315",
+    "name": "Вид на Ачишхо",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9223172378,
+  "lat": 43.5261019,
+  "lon": 39.9679398,
+  "tags": {
+    "direction": "N",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9241578747,
+  "lat": 43.7265983,
+  "lon": 39.6122528,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9292868581,
+  "lat": 43.7265419,
+  "lon": 40.1715647,
+  "tags": {
+    "name": "Смотровая Дальняя",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9292868582,
+  "lat": 43.7268051,
+  "lon": 40.1700889,
+  "tags": {
+    "name": "Смотровая Дальняя",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9341300701,
+  "lat": 43.6777871,
+  "lon": 40.2170020,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9728747617,
+  "lat": 43.3247406,
+  "lon": 40.2317633,
+  "tags": {
+    "name": "Лестница",
+    "name:en": "Stairs",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9728765319,
+  "lat": 43.3258376,
+  "lon": 40.2270668,
+  "tags": {
+    "name": "Шлагбаум",
+    "name:en": "Barrier",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9729394717,
+  "lat": 43.3253774,
+  "lon": 40.2265553,
+  "tags": {
+    "name": "Лестница на круглую башню (справа)",
+    "name:en": "Staircase to the round tower (right)",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9773757409,
+  "lat": 43.3392064,
+  "lon": 40.1676498,
+  "tags": {
+    "name": "Волна",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9791212024,
+  "lat": 43.5555390,
+  "lon": 39.8226684,
+  "tags": {
+    "name": "Утес Прометея",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9791844133,
+  "lat": 43.5587978,
+  "lon": 39.8257717,
+  "name": "Агурские водопады",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9770129/2a0000018ac245f93cb962fe9e37e5f46d90/XXXL"
+  "tags": {
+    
+    "tourism": "viewpoint",
+    "wheelchair": "no"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 10046516417,
+  "lat": 43.4141656,
+  "lon": 39.9298641,
+  "name": "Взлёт-посадка самолётов",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/10494556/2a0000018e6c50475cb59d10e63b89c49ba8/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11135350753,
+  "lat": 43.5503854,
+  "lon": 39.8434896,
+  "name": "Смотровая башня на горе Ахун",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/1420183/2a00000168a9c7071cff85f8cc1194f908d0/XXXL",
+  "tags": {
+    "ele": "663",
+    
+    "natural": "peak",
+    "tourism": "viewpoint"
+  }
+},
+
+
+{
+  "type": "node",
+  "id": 11149832801,
+  "lat": 43.5839862,
+  "lon": 39.7323538,
+  "name": "Видовая башня Роза ветров",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/7690462/2a00000187cee4c46adff1a1933e020ec901/XXXL",
+  "tags": {
+    
+    "tourism": "viewpoint"
+  }
+},
+
+{
+  "type": "node",
+  "id": 11149832803,
+  "lat": 43.5446568,
+  "lon": 39.7905506,
+  "name": "Мацестинский виадук",
+  "photoUrl": "https://avatars.mds.yandex.net/get-altay/9827997/2a0000018b9b455be4b87e95943f9190c2c0/XXXL",
+  "tags": {
     
     "tourism": "viewpoint"
   }

@@ -118,10 +118,10 @@ flutter:
     - assets/park_points.json
     - assets/hotels.json
     - assets/bed_test.png
-    - assets/DV/*.txt
-    - assets/privolzhye/*.txt
-    - assets/ural/*.txt
-    - assets/Yufo/*.txt
+    - assets/DV/
+    - assets/privolzhye/
+    - assets/ural/
+    - assets/Yufo/
 
 
   # The following line ensures that the Material Icons font is
