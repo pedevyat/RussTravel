@@ -45133,17 +45133,7 @@
     "operator": "Анжелла",
     "phone": "+7 940 9946401",
     "tourism": "hotel",
-    "website": ""
-  }
-},
-{
-  "type": "node",
-  "id": 4689475913,
-  "lat": 43.3879564,
-  "lon": 40.0522460,
-  "tags": {
-    "tourism": "hotel",
-    "website": ""
+    "website": "https://travelandia.ru/arsaul_primorskoe/gostevye-doma/u-anzhely-15626/"
   }
 },
 {
@@ -45157,7 +45147,7 @@
     "name": "Империя",
     "phone": "+7 862 2577770;+7 862 2364030;+7 927 5105075",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://travel.yandex.ru/hotels/khabarovsk/imperiia/"
   }
 },
 {
@@ -45209,7 +45199,7 @@
     "addr:street": "Апрельская улица",
     "name": "Ангелина",
     "tourism": "hotel",
-    "website": ""
+    "website": "https://www.onetwotrip.com/ru/hotels/hotel/gostevoi-dom-angelina-5979000"
   }
 },
 {
