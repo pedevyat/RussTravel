@@ -3126,7 +3126,7 @@
         "opening_hours": "24/7",
         "resort": "recreation_center",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://tknugush.ru/"
       }
     },
     {
@@ -3140,21 +3140,10 @@
         "name": "Комфорт",
         "phone": "8(7132) 220443",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://comfort-otel.ru/"
       }
     },
-    {
-      "type": "node",
-      "id": 4256972001,
-      "lat": 51.2551781,
-      "lon": 51.3522614,
-      "tags": {
-        "name": "Парк отель",
-        "stars": "4",
-        "tourism": "hotel",
-        "website": ""
-      }
-    },
+
     {
       "type": "node",
       "id": 4259739689,
@@ -3163,7 +3152,7 @@
       "tags": {
         "name": "Гарант",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/belokurikha/garant/"
       }
     },
 
@@ -3175,7 +3164,7 @@
       "tags": {
         "name": "Алладин",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/lipetsk-oblast/aladdin/"
       }
     },
     {
@@ -3186,7 +3175,7 @@
       "tags": {
         "name": "Башкортостан",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.gkbashkortostan.ru/"
       }
     },
     {
@@ -3197,7 +3186,7 @@
       "tags": {
         "name": "Отель 858",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://858km.miller-hotels.ru/"
       }
     },
     {
@@ -3210,7 +3199,7 @@
         "opening_hours": "24/7",
         "phone": "+74736641813",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://windrose-hotel.com/"
       }
     },
     {
@@ -3227,7 +3216,7 @@
         "opening_hours": "24/7",
         "phone": "+7 917 7685668",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.yell.ru/ufa/com/gostinica-utehp_12467018/"
       }
     },
     {
@@ -3238,7 +3227,7 @@
       "tags": {
         "name": "Пирамида",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://piramida-club.ru/"
       }
     },
     {
@@ -3265,7 +3254,7 @@
         "name": "Миротель",
         "stars": "3",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://mirotels.ru/"
       }
     },
     {
@@ -3279,7 +3268,7 @@
         "addr:street": "Бейбитшилик пр.",
         "name": "Гостиница \"Flamingo\"",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.adler-flamingo.ru/"
       }
     },
     {
@@ -3290,20 +3279,10 @@
       "tags": {
         "name": "Общежитие ЗКГМУ",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://travel.yandex.ru/hotels/simferopol/obshchezhitie-kgmu-no-1/reviews/"
       }
     },
-    {
-      "type": "node",
-      "id": 4316189393,
-      "lat": 48.7218727,
-      "lon": 45.2158793,
-      "tags": {
-        "contact:phone": "+7(905)3913438",
-        "tourism": "hotel",
-        "website": ""
-      }
-    },
+
     {
       "type": "node",
       "id": 4316752922,
@@ -3312,21 +3291,10 @@
       "tags": {
         "name": "Гостиничный комплекс \"Султан\"",
         "tourism": "hotel",
-        "website": ""
+        "website": "https://www.hotelsultan.ru/"
       }
     },
-    {
-      "type": "node",
-      "id": 4316883556,
-      "lat": 49.0636659,
-      "lon": 44.8241946,
-      "tags": {
-        "name": "Уют",
-        "sauna": "yes",
-        "tourism": "hotel",
-        "website": ""
-      }
-    },
+
 
     {
       "type": "node",
