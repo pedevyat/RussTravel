@@ -494,9 +494,7 @@ Future<List<PlacemarkMapObject>> _getPlacemarkObjectsH(BuildContext context) asy
 class _ModalBodyViewP extends StatelessWidget {
   const _ModalBodyViewP({required this.point});
 
-
   final ParkPoint point;
-
 
   @override
   Widget build(BuildContext context) {
@@ -504,46 +502,48 @@ class _ModalBodyViewP extends StatelessWidget {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-        	Align(
-		  alignment: Alignment.topRight,
-		  child: IconButton(
-		    icon: Icon(Icons.star),
-		    onPressed: () async {
-		      var box = await Hive.openBox('parkBox');
-		      if (box.containsKey(point.id))
-		        box.delete(point.id);
-		      else
-		        box.put(point.id, point.id);
-		      //point.isVisited = !point.isVisited;
-		    },
-		  ),
-		),
-          Image.network(
-            point.photoUrl,
-            width: 200,
-            height: 200,
-            fit: BoxFit.cover, // Режим заполнения изображения
-          ),
-          const SizedBox(height: 20),
-          Text(point.name, style: const TextStyle(fontSize: 20)),
-          const SizedBox(height: 20),
-          Text(
-            '${point.latitude}, ${point.longitude}',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
+    return SingleChildScrollView(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 40),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Align(
+              alignment: Alignment.topRight,
+              child: IconButton(
+                icon: Icon(Icons.star),
+                onPressed: () async {
+                  var box = await Hive.openBox('parkBox');
+                  if (box.containsKey(point.id))
+                    box.delete(point.id);
+                  else
+                    box.put(point.id, point.id);
+                },
+              ),
             ),
-          ),
-        ],
+            Image.network(
+              point.photoUrl,
+              width: 200,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+            const SizedBox(height: 20),
+            Text(point.name, style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 20),
+            Text(
+              '${point.latitude}, ${point.longitude}',
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
+
 
 class _ModalBodyViewM extends StatelessWidget {
   const _ModalBodyViewM({required this.point});
@@ -559,50 +559,56 @@ class _ModalBodyViewM extends StatelessWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Align(
-            alignment: Alignment.topRight,
-            child: IconButton(
-              icon: Icon(Icons.star),
-              onPressed: () async {
-                var box = await Hive.openBox('museumBox');
-                if (box.containsKey(point.id))
-                  box.delete(point.id);
-                else
-                  box.put(point.id, point.id);
-                //point.isVisited = !point.isVisited;
-              },
+      child: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Align(
+              alignment: Alignment.topRight,
+              child: IconButton(
+                icon: Icon(Icons.star),
+                onPressed: () async {
+                  var box = await Hive.openBox('museumBox');
+                  if (box.containsKey(point.id))
+                    box.delete(point.id);
+                  else
+                    box.put(point.id, point.id);
+                  Navigator.pop(context);
+                },
+              ),
             ),
-          ),
-          Image.network(
-            point.photoUrl,
-            width: MediaQuery.of(context).size.width,
-            height: 200,
-            fit: BoxFit.cover,
-          ),
-          const SizedBox(height: 20),
-          Text(point.name, style: const TextStyle(fontSize: 20)),
-          const SizedBox(height: 20),
-          Text(
-            '${point.latitude}, ${point.longitude}',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
+            Image.network(
+              point.photoUrl,
+              width: MediaQuery
+                  .of(context)
+                  .size
+                  .width,
+              height: 200,
+              fit: BoxFit.cover,
             ),
-          ),
-        ],
+            const SizedBox(height: 20),
+            Text(point.name, style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 20),
+            Text(
+              '${point.latitude}, ${point.longitude}',
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
 
+
 class _ModalBodyViewO extends StatelessWidget {
   const _ModalBodyViewO({required this.point});
 
-
   final OutsidePoint point;
+
   @override
   Widget build(BuildContext context) {
     // Запретить переворот экрана
@@ -610,47 +616,49 @@ class _ModalBodyViewO extends StatelessWidget {
       DeviceOrientation.portraitUp,
     ]);
 
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 40),
-      child: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Align(
-		  alignment: Alignment.topRight,
-		  child: IconButton(
-		    icon: Icon(Icons.star),
-		    onPressed: () async {
-		      var box = await Hive.openBox('outsideBox');
-		      if (box.containsKey(point.id))
-		        box.delete(point.id);
-		      else
-		        box.put(point.id, point.id);
-		      //point.isVisited = !point.isVisited;
-		    },
-		  ),
-		),
-          Image.network(
-            point.photoUrl,
-            width: 200,
-            height: 200,
-            fit: BoxFit.cover, // Режим заполнения изображения
-          ),
-          const SizedBox(height: 20),
-          Text(point.name, style: const TextStyle(fontSize: 20)),
-          const SizedBox(height: 20),
-          Text(
-            '${point.latitude}, ${point.longitude}',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.grey,
+    return SingleChildScrollView(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 40),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Align(
+              alignment: Alignment.topRight,
+              child: IconButton(
+                icon: Icon(Icons.star),
+                onPressed: () async {
+                  var box = await Hive.openBox('outsideBox');
+                  if (box.containsKey(point.id))
+                    box.delete(point.id);
+                  else
+                    box.put(point.id, point.id);
+                  //point.isVisited = !point.isVisited;
+                },
+              ),
             ),
-          ),
-        ],
+            Image.network(
+              point.photoUrl,
+              width: 200,
+              height: 200,
+              fit: BoxFit.cover,
+            ),
+            const SizedBox(height: 20),
+            Text(point.name, style: const TextStyle(fontSize: 20)),
+            const SizedBox(height: 20),
+            Text(
+              '${point.latitude}, ${point.longitude}',
+              style: const TextStyle(
+                fontSize: 16,
+                color: Colors.grey,
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
+
 
 class _ModalBodyViewH extends StatelessWidget {
   const _ModalBodyViewH({required this.point});
