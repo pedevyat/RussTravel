@@ -693,6 +693,12 @@ class _ModalBodyViewH extends StatelessWidget {
             )
         ),
         const SizedBox(height: 10),
+        Text(
+          '${point.phone}',
+            style: const TextStyle(
+              fontSize: 16,
+            )
+        ),
         GestureDetector(
           onTap: () {
             launch(point.url);
