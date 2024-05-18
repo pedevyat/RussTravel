@@ -55914,7 +55914,8 @@
   "lon": 48.0323786,
   "tags": {
     "name": "Корона",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.korona30.ru/"
   }
 },
 {
@@ -55924,7 +55925,8 @@
   "lon": 48.0324767,
   "tags": {
     "name": "Сюрприз",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/astrahan/siurpriz-na-ul-iablochkova/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -55934,7 +55936,8 @@
   "lon": 48.0332496,
   "tags": {
     "name": "Бонотель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----9sbnyhfc6a0g.xn--p1ai/"
   }
 },
 {
@@ -55986,7 +55989,8 @@
     "addr:street": "улица Шаумяна",
     "internet_access": "wlan",
     "name": "Центр",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/astrahan/tsentr/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -55995,7 +55999,8 @@
   "lat": 46.1064686,
   "lon": 47.7499679,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://wa.me/89061781060"
   }
 },
 {
@@ -56013,7 +56018,8 @@
   "lat": 46.3763106,
   "lon": 47.9394862,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelmirniy.ru/"
   }
 },
 {
@@ -56046,7 +56052,8 @@
   "lon": 48.0110809,
   "tags": {
     "name": "Rossvik",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel.rossvik-club.ru/#popup:covid19"
   }
 },
 {
@@ -56056,8 +56063,8 @@
   "lon": 48.0177850,
   "tags": {
     "contact:email": "info@private-hotel30.ru",
-    "contact:phone": "+7 851 2443663;+7 917 1719700",
-    "contact:website": "https://private-hotel30.ru",
+    "phone": "+7 851 2443663;+7 917 1719700",
+    "website": "https://private-hotel30.ru",
     "name": "Приват-отель",
     "opening_hours": "24/7",
     "tourism": "hotel"
@@ -56070,7 +56077,7 @@
   "lon": 48.0766480,
   "tags": {
     "contact:email": "g-k-apelsin@mail.ru",
-    "contact:phone": "+7 967 8296496;+7 988 1729943",
+    "phone": "+7 967 8296496;+7 988 1729943",
     "name": "Апельсин",
     "opening_hours": "24/7",
     "tourism": "hotel"
@@ -56083,8 +56090,8 @@
   "lon": 48.0247646,
   "tags": {
     "contact:email": "info@horizont-hotel30.ru",
-    "contact:phone": "+7 851 2520888;+7 965 4540044",
-    "contact:website": "https://www.horizont-hotel30.ru/",
+    "phone": "+7 851 2520888;+7 965 4540044",
+    "website": "https://www.horizont-hotel30.ru/",
     "name": "Горизонт",
     "opening_hours": "24/7",
     "tourism": "hotel"
@@ -56097,7 +56104,7 @@
   "lon": 48.0740422,
   "tags": {
     "contact:email": "asthouse30@ya.ru",
-    "contact:phone": "+7 905 0603399;+7 937 6022237;+7 967 8243329",
+    "phone": "+7 905 0603399;+7 937 6022237;+7 967 8243329",
     "name": "Парламент",
     "opening_hours": "24/7",
     "tourism": "hotel"
@@ -56110,7 +56117,7 @@
   "lon": 47.9942626,
   "tags": {
     "contact:email": "imperial-hotel30@mail.ru",
-    "contact:phone": "+7 851 2455555;+7 917 1720555",
+    "phone": "+7 851 2455555;+7 917 1720555",
     "name": "Imperial",
     "opening_hours": "24/7",
     "tourism": "hotel"
@@ -56123,7 +56130,8 @@
   "lon": 48.0428005,
   "tags": {
     "name": "7 небо",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://7sky-hotel.ru/?utm_campaign=yandex_business&utm_content={ad_id}&utm_medium=yandex_business&utm_source=yandex&utm_term={keyword}"
   }
 },
 {
@@ -56134,7 +56142,8 @@
   "tags": {
     "name": "Меридиан",
     "name:uk": "Меридіан",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/kerch/meridian/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -56143,7 +56152,8 @@
   "lat": 45.2965566,
   "lon": 36.4306507,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/club139719619"
   }
 },
 {
@@ -56163,7 +56173,8 @@
   "tags": {
     "name": "Море",
     "name:uk": "Море",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (36561) 6-12-45"
   }
 },
 {
@@ -56172,7 +56183,8 @@
   "lat": 45.3509058,
   "lon": 36.4753633,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kerch-grafskaya.ru/"
   }
 },
 {
@@ -56181,7 +56193,8 @@
   "lat": 45.3653226,
   "lon": 36.4697928,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gostevoj-dom-ulitsa-petra-koroleva.clients.site/"
   }
 },
 {
@@ -56194,7 +56207,8 @@
     "internet_access:fee": "no",
     "name": "Эдельвейс",
     "name:uk": "Едельвейс",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://edelweis-kerch.ru/"
   }
 },
 {
@@ -56233,7 +56247,8 @@
     "addr:street": "Генерала Косоногова улица",
     "name": "Белый парус",
     "name:uk": "Біле вітрило",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 846-12-07"
   }
 },
 {
@@ -56280,7 +56295,8 @@
     "name": "Керчь",
     "name:ru": "Керчь",
     "name:uk": "Керч",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelkerch.com/"
   }
 },
 {
@@ -56320,7 +56336,8 @@
     "name": "Коралл",
     "name:en": "Corall",
     "name:uk": "Корал",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://coralrest.ru/"
   }
 },
 {
@@ -56358,7 +56375,8 @@
   "tags": {
     "name": "Дельфиниум",
     "name:uk": "Дельфініум",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://delfinium-kerch.ru/"
   }
 },
 {
@@ -56367,8 +56385,9 @@
   "lat": 45.2272561,
   "lon": 36.4084463,
   "tags": {
-    "name:en": "Villa Dana",
-    "tourism": "hotel"
+    "name": "Villa Dana",
+    "tourism": "hotel",
+	"website": "https://villadana.ru/"
   }
 },
 {
@@ -56394,7 +56413,8 @@
   "tags": {
     "name": "Мечта Тея",
     "name:uk": "Мрія Тея",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://pantika.ru/"
   }
 },
 {
@@ -56421,7 +56441,8 @@
   "tags": {
     "name": "Лидия",
     "name:uk": "Лідія",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lidiya-hotel.com/"
   }
 },
 {
@@ -56433,7 +56454,8 @@
     "name": "У Тролля",
     "name:en": "U Trollya",
     "name:uk": "У Троля",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/u_trollya"
   }
 },
 {
@@ -56444,7 +56466,8 @@
   "tags": {
     "name": "Алые Паруса",
     "name:uk": "Багряні вітрила",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://a-parusa.com/"
   }
 },
 {
@@ -56457,7 +56480,8 @@
     "addr:street": "Керченская улица",
     "name": "Катюша",
     "name:uk": "Катюша",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://katusha-feodosiya.ru/"
   }
 },
 {
@@ -56481,7 +56505,8 @@
     "leisure": "resort",
     "name": "Турбаза Золотой Пляж",
     "name:uk": "Турбаза Золотий пляж",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.atelica.ru/"
   }
 },
 {
@@ -56534,7 +56559,8 @@
   "tags": {
     "name": "Киви",
     "name:uk": "Ківі",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-kiwi.ru/"
   }
 },
 {
@@ -56567,7 +56593,8 @@
   "tags": {
     "name": "Астория",
     "name:uk": "Асторія",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://grand-astoria.ru/"
   }
 },
 {
@@ -56648,7 +56675,8 @@
   "tags": {
     "name": "ПапаЯ",
     "name:uk": "ПапаЯ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-kiwi.ru/"
   }
 },
 {
@@ -56670,7 +56698,8 @@
   "tags": {
     "name": "Подсолнухи",
     "name:uk": "Соняшники",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://feo-podsolnuhi.ru/"
   }
 },
 {
@@ -56681,7 +56710,8 @@
   "tags": {
     "name": "Вилла Елена-F",
     "name:uk": "Вілла Олена-F",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://elena-f.ru/"
   }
 },
 {
@@ -56695,7 +56725,8 @@
     "name:uk": "Оазис",
     "phone": "+7 (978) 823-80-94",
     "phone2": "+7 (978) 823-80-74",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://oasis-koktebel.ru/"
   }
 },
 {
@@ -56734,7 +56765,8 @@
   "lat": 45.0593054,
   "lon": 35.3879182,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-tavrida.com/"
   }
 },
 {
@@ -56746,7 +56778,8 @@
     "name": "Валентина",
     "name:ru": "Валентина",
     "name:uk": "Валентина",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://valentina-feo.ru/"
   }
 },
 {
@@ -56757,7 +56790,8 @@
   "tags": {
     "name": "Милета",
     "name:uk": "Мілета",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://mileta-hotel.com/"
   }
 },
 {
@@ -56768,7 +56802,8 @@
   "tags": {
     "name": "Ай-Петри",
     "name:uk": "Ай-Петрі",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/aipetriski"
   }
 },
 {
@@ -56868,7 +56903,8 @@
   "tags": {
     "name": "Вега",
     "name:uk": "Вега",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.vega-dom.ru/"
   }
 },
 {
@@ -56934,7 +56970,8 @@
   "tags": {
     "name": "Золотой лев",
     "name:uk": "Золотий Лев",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://goldenlion.vip/"
   }
 },
 {
@@ -57069,7 +57106,8 @@
     "name:ru": "Риека",
     "name:uk": "Рієка",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rieka.ru/"
   }
 },
 {
@@ -57103,7 +57141,8 @@
     "name": "Вилла Фламинго",
     "name:ru": "Вилла Фламинго",
     "name:uk": "Вілла Фламінго",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/club91657932"
   }
 },
 {
@@ -57127,7 +57166,8 @@
     "name": "Запорожская сечь",
     "name:ru": "Запорожская сечь",
     "name:uk": "Запорізька Січ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sech.com.ru/"
   }
 },
 {
@@ -57139,7 +57179,8 @@
     "name": "Камполь",
     "name:ru": "Камполь",
     "name:uk": "Кампіль",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kama-pol.ru/"
   }
 },
 {
@@ -57151,7 +57192,8 @@
     "name": "Вилла Нимфей",
     "name:ru": "Вилла Нимфей",
     "name:uk": "Вілла Німфей",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://nimfey.su/"
   }
 },
 {
@@ -57179,7 +57221,8 @@
     "name": "Вилла Гаянэ",
     "name:uk": "Вілла Гаяне",
     "rooms": "14",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----7sbbfhnqyay1r.xn--p1ai/"
   }
 },
 {
@@ -57192,7 +57235,8 @@
     "addr:street": "Лазурный переулок",
     "name": "Лазурный берег",
     "name:uk": "Блакитний берег",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lazurnij.ru/"
   }
 },
 {
@@ -57239,7 +57283,8 @@
     "name": "У Юджина",
     "name:uk": "У Юджіна",
     "source": "Bing",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/u_yujina"
   }
 },
 {
@@ -57317,7 +57362,8 @@
   "lat": 44.9682940,
   "lon": 35.3521981,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vladkan.com/"
   }
 },
 {
@@ -57440,7 +57486,8 @@
   "tags": {
     "name": "Бригантина",
     "name:uk": "Бригантина",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://my-brigantina.ru/"
   }
 },
 {
@@ -57474,7 +57521,8 @@
   "lat": 44.9682347,
   "lon": 35.2529369,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sherbet-koktebel.ru/"
   }
 },
 {
@@ -57598,7 +57646,8 @@
   "tags": {
     "name": "Жемчужина Коктебеля",
     "name:uk": "Перлина Коктебеля",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://zemchuzina-koktebelya.ru/"
   }
 },
 {
@@ -57696,7 +57745,8 @@
   "tags": {
     "name": "У Казима и Анифе",
     "name:uk": "У Казима та Аніфі",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 795-68-48"
   }
 },
 {
@@ -57737,7 +57787,8 @@
   "lat": 45.0942134,
   "lon": 35.4375574,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ekoprofitto.ru/"
   }
 },
 {
@@ -57890,7 +57941,8 @@
     "internet_access": "wlan",
     "name": "Одиссей",
     "name:uk": "Одіссей",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://odissey-hotel.ru/"
   }
 },
 {
@@ -57940,7 +57992,8 @@
   "lat": 45.0457976,
   "lon": 35.3754809,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/irinacramia"
   }
 },
 {
@@ -57953,7 +58006,8 @@
     "name": "ПАНОРАМА",
     "name:uk": "ПАНОРАМА",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://panoramahotel-kryim.ru/"
   }
 },
 {
@@ -58025,7 +58079,8 @@
   "tags": {
     "name": "Kodak Sudak",
     "name:uk": "Кодак Судак",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kodak-sudak.ru/"
   }
 },
 {
@@ -58037,7 +58092,8 @@
     "name": "Форум",
     "name:ru": "Форум",
     "name:uk": "Форум",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://forum-sudak.ru/events"
   }
 },
 {
@@ -58048,7 +58104,8 @@
   "tags": {
     "name": "Royal",
     "name:uk": "Королівський",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://bogemiya.online/"
   }
 },
 {
@@ -58059,7 +58116,8 @@
   "tags": {
     "name": "ТОК \"Судак\"",
     "name:uk": "СТРУМ \"Судак\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.toksudak.crimea.com/"
   }
 },
 {
@@ -58145,7 +58203,8 @@
   "tags": {
     "name": "Гранд",
     "name:uk": "Гранд",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelgrandsudak.ru/"
   }
 },
 {
@@ -58156,7 +58215,8 @@
   "tags": {
     "name": "Трискеле",
     "name:uk": "Трискеле",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn--e1aahig0aif.xn--p1ai/"
   }
 },
 {
@@ -58191,7 +58251,8 @@
   "tags": {
     "name": "Тихая гавань",
     "name:uk": "Тиха гавань",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://tihaya-gavan.ru/"
   }
 },
 {
@@ -58202,7 +58263,8 @@
   "tags": {
     "name": "У Рузанны",
     "name:uk": "У Рузанни",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ruzanna-hotel.com/"
   }
 },
 {
@@ -58245,7 +58307,8 @@
     "internet_access": "wlan",
     "name": "Чемпион",
     "name:uk": "Чемпіон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----7sbavmd1adbfegcjwu0g.xn----8sbej5a2bo.xn--p1ai/"
   }
 },
 {
@@ -58258,7 +58321,8 @@
     "addr:street": "Сурожская улица",
     "name": "Морской ангел",
     "name:uk": "Морський ангел",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/sudak/morskoi-angel/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -58334,7 +58398,8 @@
   "tags": {
     "name": "Князь Голицын",
     "name:uk": "Князь Голіцин",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-golitsyn.com/"
   }
 },
 {
@@ -58357,7 +58422,8 @@
   "tags": {
     "name": "Барселона",
     "name:uk": "Барселона",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-barselona.ru/"
   }
 },
 {
@@ -58407,7 +58473,8 @@
     "name": "Гостевой дом с рыцарем",
     "name:ru": "Дом с рыцарем",
     "name:uk": "Гостьовий дім із лицарем",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 022-31-90"
   }
 },
 {
@@ -58418,7 +58485,8 @@
   "tags": {
     "name": "Марат",
     "name:uk": "Марат",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.youtube.com/watch?v=YOY3B0UBHxY&t=34s"
   }
 },
 {
@@ -58427,7 +58495,8 @@
   "lat": 44.8456855,
   "lon": 34.9667499,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://yut-sudak.ru/"
   }
 },
 {
@@ -58449,7 +58518,8 @@
   "lat": 44.8461224,
   "lon": 34.9666420,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 747-60-83"
   }
 },
 {
@@ -58460,7 +58530,8 @@
   "tags": {
     "name": "Райский уголок",
     "name:uk": "Райський куточок",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://viber.click/79787005950"
   }
 },
 {
@@ -58488,7 +58559,8 @@
     "name:uk": "Прайм",
     "phone": "+79788977402",
     "source": "Bing",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/sudak/praim/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -58506,7 +58578,8 @@
   "lat": 44.8468298,
   "lon": 34.9654219,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://belye-parusa.ru/"
   }
 },
 {
@@ -58515,7 +58588,8 @@
   "lat": 44.8465598,
   "lon": 34.9649712,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://paradise-resort.ru/"
   }
 },
 {
@@ -58563,7 +58637,8 @@
     "name:uk": "Булгаков",
     "opening_hours": "24/7",
     "phone": "+79780679957",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/public179264170"
   }
 },
 {
@@ -58579,7 +58654,8 @@
     "name:en": "Ai-Safia",
     "name:uk": "Ай-Сафія",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ay-safiya.com/"
   }
 },
 {
@@ -58590,7 +58666,8 @@
   "tags": {
     "name": "Ладья",
     "name:uk": "Ладья",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 743-23-00"
   }
 },
 {
@@ -58640,7 +58717,8 @@
     "name": "Вилла Ева",
     "name:en": "Villa Eva",
     "name:uk": "Вілла Єва",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://villa-eva.ru/"
   }
 },
 {
@@ -58707,7 +58785,8 @@
     "name": "Измир",
     "name:ru": "Измир",
     "name:uk": "Ізмир",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://izmir-sudak.ru/"
   }
 },
 {
@@ -58777,7 +58856,8 @@
   "tags": {
     "name": "Дарья",
     "name:uk": "Дар'я",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (903) 039-92-92"
   }
 },
 {
@@ -58801,7 +58881,7 @@
     "addr:housenumber": "15",
     "addr:postcode": "298000",
     "addr:street": "улица 14-го Апреля",
-    "brand": "89786739100 Отель",
+    "phone": "89786739100 Отель",
     "internet_access": "wlan",
     "internet_access:fee": "no",
     "name": "89786739100 Отель",
@@ -59979,7 +60059,7 @@
   "tags": {
     "name": "Park-Royal",
     "name:uk": "Park-Royal",
-    "source_ref": "http://www.poiplaza.com/",
+    "website": "http://www.poiplaza.com/",
     "tourism": "hotel"
   }
 },
@@ -59991,7 +60071,8 @@
   "tags": {
     "name": "Марина",
     "name:uk": "Марина",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/republic-of-crimea/marina-leningradskaia-ulitsa/?utm_source=yandex-maps&utm_medium=business-button&adults=2"
   }
 },
 {
@@ -60029,7 +60110,8 @@
   "tags": {
     "name": "Гурзуфские зори",
     "name:uk": "Гурзуфські зорі",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.gurzuf-zori.com/"
   }
 },
 {
@@ -60040,7 +60122,8 @@
   "tags": {
     "name": "Ай-Даник",
     "name:uk": "Ай-Данік",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ay-danil.com/"
   }
 },
 {
@@ -60051,7 +60134,8 @@
   "tags": {
     "name": "Вилла Мария",
     "name:uk": "Вілла Марія",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://villamy.ru/"
   }
 },
 {
@@ -60062,7 +60146,8 @@
   "tags": {
     "name": "Сон у моря",
     "name:uk": "Сон біля моря",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (928) 844-64-09"
   }
 },
 {
@@ -60096,7 +60181,8 @@
     "internet_access": "wlan",
     "name": "Ай-Тодор Юг",
     "name:uk": "Ай-Тодор Південь",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://aitodoryug.ru/"
   }
 },
 {
@@ -60195,7 +60281,8 @@
     "name": "Эдем",
     "name:ru": "Эдем",
     "name:uk": "Едем",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://villa-edem.ru/"
   }
 },
 {
@@ -60206,7 +60293,8 @@
   "tags": {
     "name": "Вилла Балгатура",
     "name:uk": "Вілла Балгатура",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://villa-balgatura.balgaturaclub.com/"
   }
 },
 {
@@ -60237,7 +60325,8 @@
   "tags": {
     "name": "Малибу",
     "name:uk": "Малібу",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/club66081764"
   }
 },
 {
@@ -60248,7 +60337,8 @@
   "tags": {
     "name": "Княжий град",
     "name:uk": "Княжий град",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://villagrad.ru/"
   }
 },
 {
@@ -60307,7 +60397,8 @@
   "tags": {
     "name": "Рубикон",
     "name:uk": "Рубікон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rubicon-hotel.ru/"
   }
 },
 {
@@ -60318,7 +60409,8 @@
   "tags": {
     "name": "999",
     "name:uk": "999",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://hotelclub999.ru/"
   }
 },
 {
@@ -60345,7 +60437,8 @@
   "tags": {
     "name": "Мотель номер 5",
     "name:uk": "Мотель номер 5",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://motel5.ru/"
   }
 },
 {
@@ -60358,7 +60451,8 @@
     "addr:street": "Морская улица",
     "name": "Морская",
     "name:uk": "Морська",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn-----7kcgjzkedtiihbuir.xn--p1ai/"
   }
 },
 {
@@ -60402,7 +60496,8 @@
     "name": "Массандра",
     "name:ru": "Массандра",
     "name:uk": "Масандра",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://t.me/+79789169168"
   }
 },
 {
@@ -60429,7 +60524,8 @@
     "name": "Ялта-Круглый год",
     "name:ru": "Ялта-Круглый год",
     "name:uk": "Ялта-Круглий рік",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.yalta-365.ru/"
   }
 },
 {
@@ -60440,7 +60536,8 @@
   "tags": {
     "name": "Чайка",
     "name:uk": "Чайка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://viber.click/79780213282"
   }
 },
 {
@@ -60462,7 +60559,8 @@
   "tags": {
     "name": "Лилия",
     "name:uk": "Лілія",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://liliyahotel.ru/"
   }
 },
 {
@@ -60490,7 +60588,8 @@
     "internet_access": "wlan",
     "name": "Гринцовский",
     "name:uk": "Гринцовський",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://livadiahotel.ru/"
   }
 },
 {
@@ -60541,7 +60640,8 @@
     "name": "у Можжевельника",
     "name:ru": "у Можжевельника",
     "name:uk": "У Ялівцю",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/gaspra_hotel"
   }
 },
 {
@@ -60576,7 +60676,8 @@
     "name:uk": "Готель Массандра",
     "opening_hours": "24/7",
     "operator": "Наталия",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://t.me/+79789169168"
   }
 },
 {
@@ -60629,7 +60730,8 @@
     "name": "бутик Отель на Тимирязева",
     "name:uk": "Бутік Готель на Тимірязєва",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-yalta.fosite.ru/"
   }
 },
 {
@@ -60643,7 +60745,8 @@
     "addr:street": "Ялтинская улица",
     "name": "Резиденции Алтея",
     "name:uk": "Резиденції Алтея",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gurzuf-riviera-hotel.ru/"
   }
 },
 {
@@ -60657,7 +60760,8 @@
     "name": "Лантерна",
     "name:en": "Lanterna",
     "name:uk": "Лантерна",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lanterna-gurzuf.ru/"
   }
 },
 {
@@ -60666,7 +60770,8 @@
   "lat": 44.4997588,
   "lon": 34.1560273,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://yalta-fort.ru/"
   }
 },
 {
@@ -60678,7 +60783,8 @@
     "name": "СОЛЯРИС",
     "name:en": "SOLARIS",
     "name:uk": "СОЛЯРІС",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 782-44-86"
   }
 },
 {
@@ -60753,7 +60859,8 @@
     "name": "Пряности и страсти",
     "name:ru": "Пряности и страсти",
     "name:uk": "Прянощі та пристрасті",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ps-yalta.ru/"
   }
 },
 {
@@ -60781,7 +60888,8 @@
     "name": "Крымская Ницца",
     "name:en": "Krimskaya Nicca",
     "name:uk": "Кримська Ніцца",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://niceyalta.com/"
   }
 },
 {
@@ -60807,7 +60915,8 @@
     "name": "Муссон",
     "name:en": "Musson",
     "name:uk": "Мусон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://mussonyalta.ru/"
   }
 },
 {
@@ -60822,7 +60931,8 @@
     "email": "shop-provea@yandex.ru",
     "name": "Гостевой дом \"5 с плюсом\"",
     "name:uk": "Гостьовий будинок \"5 з плюсом\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/housein",
   }
 },
 {
@@ -60834,7 +60944,8 @@
     "name": "Ницца",
     "name:ru": "Апарт-Отель Ницца",
     "name:uk": "Ніцца",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://niceapart.ru/"
   }
 },
 {
@@ -60945,7 +61056,8 @@
   "lat": 44.5041802,
   "lon": 34.1562516,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gornuy-vozduh.ru/"
   }
 },
 {
@@ -60956,7 +61068,7 @@
   "tags": {
     "email": "info@pallasa.ru",
     "internet_access": "wlan",
-    "name:en": "Pallasa Villa’s & SPA",
+    "name": "Pallasa Villa’s & SPA",
     "opening_hours": "24/7",
     "phone": "+79789708800",
     "tourism": "hotel",
@@ -60972,7 +61084,8 @@
     "name": "Пейзаж",
     "name:en": "Peyzazh",
     "name:uk": "Краєвид",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://peyzazh.tilda.ws/"
   }
 },
 {
@@ -61001,7 +61114,8 @@
     "addr:street": "Туристская улица",
     "name": "Массандра Премиум Парк Отель",
     "name:uk": "Массандра Преміум Парк Готель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://premiumparkhotel.ru/"
   }
 },
 {
@@ -61063,7 +61177,8 @@
   "tags": {
     "name": "Парк-отель «Марат»",
     "name:uk": "Парк-готель «Марат»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/republic-of-crimea/park-otel-marat/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -61096,7 +61211,8 @@
     "name": "СПА отель Гурзуф-Ривьера",
     "name:uk": "СПА готель Гурзуф-Рів'єра",
     "rooms": "Апартаменты Чайка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (978) 577-95-55"
   }
 },
 {
@@ -61124,7 +61240,8 @@
     "addr:street": "туристическая улица",
     "name": "медный всадник",
     "name:uk": "Мідний вершник",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vsadnik.net/"
   }
 },
 {
@@ -61136,7 +61253,8 @@
     "name": "Gurzuf sunrise hotel",
     "name:uk": "Gurzuf sunrise hotel",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gurzuf-sunrise.ru/"
   }
 },
 {
@@ -61211,7 +61329,8 @@
   "tags": {
     "name": "Мона Лиза",
     "name:uk": "Мона Лізу",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://foros-monaliza.ru/"
   }
 },
 {
@@ -61222,7 +61341,8 @@
   "tags": {
     "name": "Подворье",
     "name:uk": "Подвір'я",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://foros.su/"
   }
 },
 {
@@ -61261,7 +61381,8 @@
     "addr:street": "Терлецкого улица",
     "name": "Форосский дворик",
     "name:uk": "Фороський дворик",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/forosskiydvorik"
   }
 },
 {
@@ -61274,7 +61395,8 @@
     "name:en": "Grand Fleur",
     "name:ru": "Гранд Флёр",
     "name:uk": "Гранд Флер",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://grandfleur.com/"
   }
 },
 {
@@ -61298,7 +61420,8 @@
     "name:en": "Dolphin",
     "name:ru": "Дельфин",
     "name:uk": "Дельфін",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.hoteldolphin.ru/"
   }
 },
 {
@@ -61313,7 +61436,8 @@
     "name": "Украина",
     "name:ru": "Украина",
     "name:uk": "Україна",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.art-hotel-ukraine.ru/"
   }
 },
 {
@@ -61384,7 +61508,8 @@
   "tags": {
     "name": "Веста",
     "name:uk": "Веста",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://vesta-fiolent.ru/"
   }
 },
 {
@@ -61396,17 +61521,6 @@
     "name": "Дубовая роща",
     "name:uk": "Дубовий гай",
     "source": "Bing",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 1890228283,
-  "lat": 44.5356669,
-  "lon": 33.5164332,
-  "tags": {
-    "contact:name": "Светлана Васильевна",
-    "phone": "+380996401716",
     "tourism": "hotel"
   }
 },
@@ -61505,7 +61619,8 @@
   "lat": 44.6412474,
   "lon": 33.5352158,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gh.voyage-sv.ru/"
   }
 },
 {
@@ -61568,7 +61683,8 @@
   "tags": {
     "name": "Дионис",
     "name:uk": "Діоніс",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://dionis-crimea.ru/"
   }
 },
 {
@@ -61589,7 +61705,8 @@
   "lat": 44.5034310,
   "lon": 33.5992117,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://dakkar-resort.net/"
   }
 },
 {
@@ -61645,7 +61762,8 @@
   "tags": {
     "name": "ДО Янос",
     "name:uk": "ДО Янос",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://batiliman.ru/"
   }
 },
 {
@@ -61656,7 +61774,8 @@
   "tags": {
     "name": "Маленький Рай",
     "name:uk": "Маленький Рай",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://greatsecret.justclick.ru/paradisespot"
   }
 },
 {
