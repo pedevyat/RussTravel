@@ -1278,17 +1278,7 @@
         "website": "https://bronevik.com/ru/hotel/russia/saransk/mordoviya?utm_referrer=https%3A%2F%2Fyandex.by%2F"
       }
     },
-    {
-      "type": "node",
-      "id": 1371915218,
-      "lat": 50.2578208,
-      "lon": 58.4359583,
-      "tags": {
-        "name": "Хромит",
-        "tourism": "hotel",
-        "website": "https://ak.ayle.ru/v-hromtau/769408-hromit/"
-      }
-    },
+    
     {
       "type": "node",
       "id": 1381457392,
@@ -2029,18 +2019,6 @@
 
     {
       "type": "node",
-      "id": 2702425214,
-      "lat": 50.2971049,
-      "lon": 57.1331031,
-      "tags": {
-        "description": "гостиничный комплекс",
-        "name": "Айхан",
-        "tourism": "hotel",
-        "website": "https://turistka.ru/altai/info.php?ob=2871"
-      }
-    },
-    {
-      "type": "node",
       "id": 2723888861,
       "lat": 53.9484151,
       "lon": 55.9157356,
@@ -2294,17 +2272,7 @@
       }
     },
 
-    {
-      "type": "node",
-      "id": 3269205499,
-      "lat": 50.2617098,
-      "lon": 57.2233966,
-      "tags": {
-        "name": "Авиатор",
-        "tourism": "hotel",
-        "website": "https://aviatorshotel.com/"
-      }
-    },
+    
     {
       "type": "node",
       "id": 3287433050,
@@ -2379,17 +2347,7 @@
     },
 
 
-    {
-      "type": "node",
-      "id": 3608778162,
-      "lat": 51.1574140,
-      "lon": 53.0265957,
-      "tags": {
-        "name": "Samal",
-        "tourism": "hotel",
-        "website": "http://samal.aksalam.kz/"
-      }
-    },
+    
     {
       "type": "node",
       "id": 3639621950,
@@ -2536,33 +2494,8 @@
       }
     },
 
-    {
-      "type": "node",
-      "id": 4037018484,
-      "lat": 51.2245633,
-      "lon": 51.3734664,
-      "tags": {
-        "contact:fax": "51-18-36",
-        "contact:phone": "51-17-78",
-        "name": "Женис",
-        "tourism": "hotel",
-        "website": "https://genesishotel.ru/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4056402467,
-      "lat": 51.2144481,
-      "lon": 51.3649570,
-      "tags": {
-        "contact:website": "http://vegus.kz/apart-otel/",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "VEGUS",
-        "stars": "4",
-        "tourism": "hotel"
-      }
-    },
+    
+   
     {
       "type": "node",
       "id": 4059843611,
@@ -2589,20 +2522,7 @@
         "website": "https://uyut.org/"
       }
     },
-    {
-      "type": "node",
-      "id": 4096972236,
-      "lat": 50.2748833,
-      "lon": 57.2313774,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "29",
-        "addr:street": "Заводская",
-        "name": "Гостиница \"Хан-Тенгри\"",
-        "tourism": "hotel",
-        "website": "https://khantengri.kg/"
-      }
-    },
+    
     {
       "type": "node",
       "id": 4102773991,
@@ -2761,17 +2681,7 @@
         "website": "https://russkayatroyka62.ru/"
       }
     },
-    {
-      "type": "node",
-      "id": 4216958390,
-      "lat": 51.2497531,
-      "lon": 51.3101864,
-      "tags": {
-        "name": "Арыстан",
-        "tourism": "hotel",
-        "website": "https://travel.yandex.ru/hotels/rudny/arystan/"
-      }
-    },
+   
     {
       "type": "node",
       "id": 4218199194,
@@ -2849,22 +2759,7 @@
         "website": "https://www.lucky-travels.ru/content/gostinitca-pirosmani/"
       }
     },
-    {
-      "type": "node",
-      "id": 4241773789,
-      "lat": 51.2192093,
-      "lon": 51.3817421,
-      "tags": {
-        "beds": "4",
-        "contact:email": "ayazan@mail.ru",
-        "contact:phone": "+7 701 4692411",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "Победа, апарт отель",
-        "tourism": "hotel",
-        "website": "https://hotels.1001tur.ru/russia/kaliningrad/apartment_pobeda/#action=actual_tour&hash=eyJ0ZXN0Ijoib2siLCJub190b3VyX3JlY2FsbF9mb3JtIjoiMSIsImtub3duX2hvdGVsX2lkIjpbXSwiZGF0ZXMiOiIwNy4wNi4yMDI0IC0gMTQuMDYuMjAyNCIsIk5pZ2h0T3QiOiI3IiwiTmlnaHREbyI6IjEwIiwiYWR1bHRzIjoiMiIsImtpZHMiOiIwIiwiZnJvbV9jaXR5IjoiMSIsInNvcnQiOiJwcmljZSIsImFjdHVhbF9tZDUiOiIzNTVmNzg5YWMwYmQ2MDVjZWY1ZjkzNzk5ZmY4ZWNlMSIsIkNvdW50cnkiOiI1NCIsImRlc3RpbmF0aW9uX2lkIjoiIiwiZGVzdGluYXRpb24iOiIifQ=="
-      }
-    },
+    
     {
       "type": "node",
       "id": 4247751989,
@@ -2892,20 +2787,7 @@
         "website": "https://tknugush.ru/"
       }
     },
-    {
-      "type": "node",
-      "id": 4254745319,
-      "lat": 50.2922802,
-      "lon": 57.2080149,
-      "tags": {
-        "email": "a.aldabergenov@list.ru",
-        "fax": "87716080999, 8702 3770999",
-        "name": "Комфорт",
-        "phone": "8(7132) 220443",
-        "tourism": "hotel",
-        "website": "https://comfort-otel.ru/"
-      }
-    },
+    
 
     {
       "type": "node",
@@ -3020,43 +2902,10 @@
         "website": "https://mirotels.ru/"
       }
     },
-    {
-      "type": "node",
-      "id": 4315671900,
-      "lat": 50.3186131,
-      "lon": 57.1505531,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "5/1",
-        "addr:street": "Бейбитшилик пр.",
-        "name": "Гостиница \"Flamingo\"",
-        "tourism": "hotel",
-        "website": "https://www.adler-flamingo.ru/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4315757389,
-      "lat": 50.2959253,
-      "lon": 57.1523553,
-      "tags": {
-        "name": "Общежитие ЗКГМУ",
-        "tourism": "hotel",
-        "website": "https://travel.yandex.ru/hotels/simferopol/obshchezhitie-kgmu-no-1/reviews/"
-      }
-    },
+    
+   
 
-    {
-      "type": "node",
-      "id": 4316752922,
-      "lat": 50.2935053,
-      "lon": 57.1472345,
-      "tags": {
-        "name": "Гостиничный комплекс \"Султан\"",
-        "tourism": "hotel",
-        "website": "https://www.hotelsultan.ru/"
-      }
-    },
+    
 
 
     {
@@ -3112,21 +2961,6 @@
         "name": "У Роберта",
         "tourism": "hotel",
         "website": "https://travel.yandex.ru/hotels/sochi/na-more-u-roberta/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4324852231,
-      "lat": 50.2905317,
-      "lon": 57.1314824,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "28Е",
-        "addr:street": "Санкибай батыра пр.",
-        "name": "Royal Hotel",
-        "stars": "4",
-        "tourism": "hotel",
-        "website": "https://travel.yandex.ru/hotels/moscow/gorodskoi-otel-mid/"
       }
     },
     {
@@ -3228,28 +3062,8 @@
         "website": "https://level.travel/hotels/9105408-Otel_Skazka?aflt=LT-YandexSEO&affmarker=hotels"
       }
     },
-    {
-      "type": "node",
-      "id": 4365168007,
-      "lat": 50.2607192,
-      "lon": 52.6063556,
-      "tags": {
-        "name": "СЫРЫМ",
-        "tourism": "hotel",
-        "website": "https://syrym-datova-31-36.megotel.ru/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4365177291,
-      "lat": 50.2608482,
-      "lon": 52.6034933,
-      "tags": {
-        "name": "Алаш",
-        "tourism": "hotel",
-        "website": "https://saratov.jsprav.ru/gostinitsyi/kazahskij-aul-alash/"
-      }
-    },
+    
+    
     {
       "type": "node",
       "id": 4373535092,
@@ -3367,17 +3181,7 @@
       }
     },
 
-    {
-      "type": "node",
-      "id": 4414575609,
-      "lat": 49.0751823,
-      "lon": 54.6660035,
-      "tags": {
-        "operator": "Исатай",
-        "tourism": "hotel",
-        "website": "https://goldenaltay.kz/ru/section/katon-karagayskiy-rayon/-gostevoy-dom-isatay_221"
-      }
-    },
+    
     {
       "type": "node",
       "id": 4416273321,
@@ -3400,22 +3204,7 @@
         "website": "https://rossiya-hotel.ru/?sa=X&ved=2ahUKEwjk6v7TxZOGAxXeSpEFHQnsAUIQyK4DegUIAxDjAw"
       }
     },
-    {
-      "type": "node",
-      "id": 4430114790,
-      "lat": 50.2449171,
-      "lon": 58.4301582,
-      "tags": {
-        "internet_access": "wlan",
-        "name": "Уют",
-        "name:ru": "Уют",
-        "opening_hours": "24/7",
-        "phone": "+77711870764",
-        "tourism": "hotel",
-        "website": "https://uyut.org/"
-      }
-    },
-
+   
     {
       "type": "node",
       "id": 4445889521,
@@ -3446,17 +3235,7 @@
       }
     },
 
-    {
-      "type": "node",
-      "id": 4488050029,
-      "lat": 50.2802562,
-      "lon": 57.2219831,
-      "tags": {
-        "name": "Альбион",
-        "tourism": "hotel",
-        "website": "https://albion174.ru/"
-      }
-    },
+    
 
     {
       "type": "node",
@@ -3497,162 +3276,15 @@
       }
     },
 
-    {
-      "type": "node",
-      "id": 4533461584,
-      "lat": 51.2469635,
-      "lon": 51.4025726,
-      "tags": {
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name:ru": "Рахат",
-        "opening_hours": "24/7",
-        "rooms": "35",
-        "stars": "3",
-        "tourism": "hotel",
-        "website": "https://rahat-hotel.ru/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533465431,
-      "lat": 51.2386236,
-      "lon": 51.3805822,
-      "tags": {
-        "name": "Бивуак",
-        "stars": "0",
-        "tourism": "hotel",
-        "website": "http://bivak.by/ru-hotel/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533470931,
-      "lat": 51.2108228,
-      "lon": 51.3728622,
-      "tags": {
-        "fax": "+7 7112 510459",
-        "name": "Chagala",
-        "name:ru": "Шагала",
-        "phone": "+7 7112 509855",
-        "stars": "3",
-        "tourism": "hotel",
-        "website": "https://www.chagalagroup.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533473561,
-      "lat": 51.1576625,
-      "lon": 53.0249738,
-      "tags": {
-        "name": "Ренко",
-        "tourism": "hotel",
-        "website": "https://www.hotels.ru/rus/hotels/croatia/stari_grad/apartments_renko.htm"
-      }
-    },
+    
+    
 
-    {
-      "type": "node",
-      "id": 4533473904,
-      "lat": 51.2243090,
-      "lon": 51.4001327,
-      "tags": {
-        "name": "Айдана",
-        "name:ru": "Айдана",
-        "tourism": "hotel",
-        "website": "http://aidana-complex.kz/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533473911,
-      "lat": 51.1621390,
-      "lon": 53.0188601,
-      "tags": {
-        "name": "Марко Поло",
-        "tourism": "hotel",
-        "website": "https://marcopolo.com.tr/ru.html"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533474104,
-      "lat": 51.1910094,
-      "lon": 51.3759365,
-      "tags": {
-        "email": "reservation@pushkinhotel.com",
-        "fax": "+7(7112)513566",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "Пушкин отель",
-        "name:en": "Pushkin hotel",
-        "name:ru": "Пушкин отель",
-        "phone": "+7(7112)513560, +7(7112)507733",
-        "stars": "4",
-        "tourism": "hotel",
-        "website": "http://ru.pushkinhotel.com"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533474265,
-      "lat": 51.2089324,
-      "lon": 51.3677801,
-      "tags": {
-        "email": "sayahat38@mail.ru",
-        "fax": "+7 7112 504349",
-        "name:ru": "Саяхат",
-        "opening_hours": "24/7",
-        "phone": "+7 7112 513003",
-        "tourism": "hotel",
-        "website": "http://www.sayahathotel.kz/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533474269,
-      "lat": 51.2064513,
-      "lon": 51.3835367,
-      "tags": {
-        "name:ru": "Урал",
-        "tourism": "hotel",
-        "website": "https://hotel-ural.com/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533474472,
-      "lat": 51.2437784,
-      "lon": 51.4283913,
-      "tags": {
-        "email": "victoria-hotel@inbox.ru",
-        "fax": "+7 7112 228352",
-        "name": "Виктория",
-        "name:en": "Victoria",
-        "name:ru": "Виктория",
-        "phone": "+7 7112 228352, 228346",
-        "tourism": "hotel",
-        "website": "http://uralsk-victoriahotel.kz/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4533475220,
-      "lat": 51.1641385,
-      "lon": 53.0387396,
-      "tags": {
-        "barrier": "fence",
-        "email": "nomad_hotel@mail.ru",
-        "fax": "+7 (71133) 92557",
-        "name": "Nomad",
-        "name:ru": "Номад",
-        "opening_hours": "24/7",
-        "phone": "+7 (71133) 92555",
-        "tourism": "hotel",
-        "website": "https://nomadhotel.kz/"
-      }
-    },
+
+    
+    
+    
+    
+    
     {
       "type": "node",
       "id": 4534034390,
@@ -3664,23 +3296,7 @@
         "website": "https://imperialhotel.by/"
       }
     },
-    {
-      "type": "node",
-      "id": 4541628678,
-      "lat": 51.2232513,
-      "lon": 51.3806827,
-      "tags": {
-        "internet_access": "yes",
-        "internet_access:fee": "no",
-        "name": "Престиж",
-        "name:en": "Prestige",
-        "name:kk": "Prestige",
-        "name:ru": "Престиж",
-        "phone": "+7 (7112) 54–22–02",
-        "tourism": "hotel",
-        "website": "https://prestigehotel.by/"
-      }
-    },
+    
     {
       "type": "node",
       "id": 4546715416,
@@ -3725,17 +3341,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 4570442415,
-      "lat": 51.2053583,
-      "lon": 51.3789018,
-      "tags": {
-        "name": "Урал",
-        "name:ru": "Урал",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 4585227953,
@@ -3864,28 +3470,8 @@
         "website": "https://afina34.ru"
       }
     },
-    {
-      "type": "node",
-      "id": 4693825689,
-      "lat": 50.3154854,
-      "lon": 57.1494703,
-      "tags": {
-        "email": "info@hoteltumar.kz",
-        "name:ru": "Тумар",
-        "operator": "501436; 501625",
-        "phone": "+77132501330",
-        "tourism": "hotel"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4695527090,
-      "lat": 50.7512327,
-      "lon": 56.5009300,
-      "tags": {
-        "tourism": "hotel"
-      }
-    },
+   
+    
     {
       "type": "node",
       "id": 4727194305,
@@ -4809,19 +4395,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 5598065910,
-      "lat": 50.2880035,
-      "lon": 57.2163682,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "52",
-        "addr:street": "улица Жургенова",
-        "name": "Старый город",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 5628642609,
@@ -5152,26 +4726,8 @@
         "website": "https://hoteltrend.ru/"
       }
     },
-    {
-      "type": "node",
-      "id": 5939397830,
-      "lat": 48.5594350,
-      "lon": 51.7392111,
-      "tags": {
-        "name": "БАСТАУ",
-        "tourism": "hotel"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5940907404,
-      "lat": 48.8858471,
-      "lon": 53.7863512,
-      "tags": {
-        "name": "Ахан",
-        "tourism": "hotel"
-      }
-    },
+    
+    
     {
       "type": "node",
       "id": 5952998140,
@@ -5601,16 +5157,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 6447714590,
-      "lat": 49.2740459,
-      "lon": 60.6240572,
-      "tags": {
-        "internet_access": "wlan",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 6514566641,
@@ -5643,16 +5190,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 6524184638,
-      "lat": 48.5573632,
-      "lon": 51.7511058,
-      "tags": {
-        "name": "Aqsai",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 6524188831,
@@ -6530,22 +6068,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 8208091826,
-      "lat": 50.2916684,
-      "lon": 57.1896984,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "5",
-        "addr:street": "улица Отегена Сеитова",
-        "brand": "Ibis",
-        "brand:wikidata": "Q920166",
-        "brand:wikipedia": "en:Ibis (hotel)",
-        "name": "Ibis",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 8239478104,
@@ -6689,16 +6212,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 8681834794,
-      "lat": 50.2952401,
-      "lon": 57.6067084,
-      "tags": {
-        "name": "Alem",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 8690411618,
@@ -6868,16 +6382,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 8953614154,
-      "lat": 50.2750362,
-      "lon": 57.1721018,
-      "tags": {
-        "name": "Baitau",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 8959827717,
@@ -7005,21 +6510,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 9244960264,
-      "lat": 50.2826960,
-      "lon": 57.2130789,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "18",
-        "addr:street": "улица 8 марта",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "Fresh",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 9281632637,
@@ -7704,26 +7195,8 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 11042230428,
-      "lat": 50.2249274,
-      "lon": 57.1832409,
-      "tags": {
-        "name": "Южный",
-        "tourism": "hotel"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11043464651,
-      "lat": 50.2420686,
-      "lon": 57.1616806,
-      "tags": {
-        "name": "Keryen",
-        "tourism": "hotel"
-      }
-    },
+    
+    
     {
       "type": "node",
       "id": 11057903342,
@@ -7920,22 +7393,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 11379822456,
-      "lat": 50.2821512,
-      "lon": 57.2140354,
-      "tags": {
-        "addr:city": "Актобе",
-        "addr:housenumber": "9",
-        "addr:street": "улица 8 марта",
-        "email": "wa.me/77052108471",
-        "internet_access": "wlan",
-        "name": "Береке",
-        "phone": "+7 705 2108471",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": 11401000307,
@@ -7965,30 +7423,8 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": 11486762915,
-      "lat": 50.1530601,
-      "lon": 55.6511028,
-      "tags": {
-        "name": "Асхана",
-        "tourism": "hotel"
-      }
-    },
-    {
-      "type": "node",
-      "id": 11491228895,
-      "lat": 51.1553346,
-      "lon": 51.5377400,
-      "tags": {
-        "addr:city": "Орал",
-        "brand": "Гостиница",
-        "internet_access": "no",
-        "name": "Гостиница Аэропорта Уральска",
-        "tourism": "hotel",
-        "wikidata": "Гостиница Аэропорта Уральска"
-      }
-    },
+    
+    
     {
       "type": "node",
       "id": 11572366516,
@@ -8053,16 +7489,7 @@
         "website": "www.eco-zuratkul.com"
       }
     },
-    {
-      "type": "node",
-      "id": 11613243545,
-      "lat": 50.2752232,
-      "lon": 57.1374813,
-      "tags": {
-        "name": "Батыс",
-        "tourism": "hotel"
-      }
-    },
+    
 
     {
       "type": "node",
@@ -8136,18 +7563,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": -1,
-      "lat": 50.808045,
-      "lon": 61.638149,
-      "tags": {
-        "name": "Савапиян",
-        "website": "https://www.komandirovka.ru/hotels/savapijan/savapiyan-guest-house/",
-        "begin_price": "2689",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": -1,
@@ -8556,18 +7972,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": -1,
-      "lat": 50.849223,
-      "lon": 61.664676,
-      "tags": {
-        "name": "Klukva hostel",
-        "website": "http://klukva-hostel.ru/",
-        "begin_price": "900",
-        "tourism": "hotel"
-      }
-    },
+    
     {
       "type": "node",
       "id": -1,
@@ -18407,18 +17812,7 @@
         "tourism": "hotel"
       }
     },
-    {
-      "type": "node",
-      "id": -1,
-      "lat": 39.838373,
-      "lon": 64.565604,
-      "tags": {
-        "name": "Паркинг",
-        "website": "https://parking29.ru/",
-        "begin_price": "500",
-        "tourism": "hotel"
-      }
-    },
+    
 
     {
       "type": "node",
@@ -53527,33 +52921,8 @@
 	"website": "https://xn----ftbebe2akk0bq7b3c.xn--p1ai/"
   }
 },
-{
-  "type": "node",
-  "id": 1026579388,
-  "lat": 43.3798085,
-  "lon": 40.0526791,
-  "tags": {
-    "website": "http://www.gagra-tour.ru/catalog/obj/14/396/",
-    "fixme": "address? operator?",
-    "name": "Дом отдыха «Псоу»",
-    "name:en": "Holiday House \"Psou\"",
-    "name:ru": "Дом отдыха «Псоу»",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 1027744584,
-  "lat": 43.3790408,
-  "lon": 40.0678503,
-  "tags": {
-    "name": "Аве-Мария",
-    "name:en": "Ave Maria",
-    "name:ru": "Аве-Мария",
-    "tourism": "hotel",
-    "website": "https://travel.rzd.ru/hotels/card/gostevoy-dom-ave-mariya-tsandrypsh"
-  }
-},
+
+
 {
   "type": "node",
   "id": 1323204199,
@@ -53939,17 +53308,7 @@
   }
 },
 
-{
-  "type": "node",
-  "id": 4045824143,
-  "lat": 43.3810847,
-  "lon": 40.0666497,
-  "tags": {
-    "name": "Золотая Корона",
-    "tourism": "hotel",
-    "website": "https://www.kudanamore.ru/plyaho/hotels/35270/"
-  }
-},
+
 {
   "type": "node",
   "id": 4072901609,
@@ -54011,21 +53370,7 @@
     "website": "https://travel.mts.ru/hotels/rossiya/adler/m_otel_2?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom_1452445211_bronirovat&utm_referrer=https%3A%2F%2Fyandex.ru%2Fmaps%2Forg%2Fm_otel%2F1452445211%2F%3Fll%3D39.901024%252C43.467679%26z%3D15.17"
   }
 },
-{
-  "type": "node",
-  "id": 4205042940,
-  "lat": 43.3820822,
-  "lon": 40.0662896,
-  "tags": {
-    "addr:housenumber": "7",
-    "addr:street": "Лапстинская улица",
-    "internet_access": "wlan",
-    "name": "Резиденция Апсны",
-    "phone": "+7 940 9978611",
-    "tourism": "hotel",
-    "website": "https://hotelapsny.ru/"
-  }
-},
+
 
 {
   "type": "node",
@@ -54321,25 +53666,7 @@
   }
 },
 
-{
-  "type": "node",
-  "id": 4648872694,
-  "lat": 43.3830228,
-  "lon": 40.0404188,
-  "tags": {
-    "addr:housenumber": "1А",
-    "addr:street": "улица Гулия",
-    "internet_access": "wlan",
-    "name": "У Анжеллы",
-    "name:en": "mini hotel",
-    "name:ru": "У Анжеллы",
-    "opening_hours": "24/7",
-    "operator": "Анжелла",
-    "phone": "+7 940 9946401",
-    "tourism": "hotel",
-    "website": "https://travelandia.ru/arsaul_primorskoe/gostevye-doma/u-anzhely-15626/"
-  }
-},
+
 
 {
   "type": "node",
@@ -54997,17 +54324,7 @@
 
   }
 },
-{
-  "type": "node",
-  "id": 8193141630,
-  "lat": 43.3791991,
-  "lon": 40.0860676,
-  "tags": {
-    "name": "Eco life",
-    "tourism": "hotel",
-    "website": "https://travel.yandex.ru/hotels/abkhazia/eso-laif/"
-  }
-},
+
 
 {
   "type": "node",
@@ -55034,18 +54351,7 @@
 	"website": "https://bh-s.ru/"
   }
 },
-{
-  "type": "node",
-  "id": 8199801034,
-  "lat": 43.3813928,
-  "lon": 40.0448998,
-  "tags": {
-    "name": "Напра",
-    "tourism": "hotel",
-    "website": "https://tophotels.ru/hotel/al307305/description"
 
-  }
-},
 
 {
   "type": "node",
@@ -55164,22 +54470,7 @@
     "website": "https://moihottur.ru/hotel/rossiya/dalniy-vostok/yunost/"
   }
 },
-{
-  "type": "node",
-  "id": 8687921017,
-  "lat": 43.3829770,
-  "lon": 40.0372226,
-  "tags": {
-    "addr:housenumber": "452",
-    "addr:street": "Октябрьская улица",
-    "internet_access": "wlan",
-    "name": "Амра Санрайз",
-    "name:en": "Amra Sunrise",
-    "phone": "+79409381188",
-    "tourism": "hotel",
-    "website": "https://www.amrasunrise.ru/"
-  }
-},
+
 {
   "type": "node",
   "id": 8872412718,
@@ -55542,19 +54833,7 @@
 
 
 
-{
-  "type": "node",
-  "id": 11017411115,
-  "lat": 43.3602071,
-  "lon": 40.1181868,
-  "tags": {
-    "addr:city": "Баӷрыпсҭа - Багрыпста",
-    "addr:street": "Сухумское шоссе",
-    "name": "Пансионат Солнечный",
-    "tourism": "hotel",
-    "website": "https://travel.yandex.ru/hotels/vladivostok/solnechnyi/"
-  }
-},
+
 {
   "type": "node",
   "id": 11029975305,
@@ -55638,18 +54917,7 @@
     "tourism": "hotel"
   }
 },
-{
-  "type": "node",
-  "id": 11155862524,
-  "lat": 43.3749193,
-  "lon": 40.0952776,
-  "tags": {
-    "check_date": "2023-08-30",
-    "name": "Адзгара у моря",
-    "tourism": "hotel",
-    "website": "https://tvil.ru/city/tsandrypsh/hotels/1676472/"
-  }
-},
+
 {
   "type": "node",
   "id": 11190910581,
@@ -55662,20 +54930,7 @@
     "website": "https://siriushotels.ru/"
   }
 },
-{
-  "type": "node",
-  "id": 11238118158,
-  "lat": 43.3849777,
-  "lon": 40.0345742,
-  "tags": {
-    "addr:housenumber": "1А",
-    "addr:street": "переулок Адыгов",
-    "name": "Viva Glamp",
-    "name:en": "Viva Glamp",
-    "tourism": "hotel",
-    "website": "https://вива-глэмп.рф/"
-  }
-},
+
 {
   "type": "node",
   "id": 11304222978,
