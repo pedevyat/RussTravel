@@ -13,7 +13,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:russ_travel/map/domain/app_latitude_longitude.dart';
-import 'package:yandex_mapkit/yandex_mapkit.dart';
 import 'package:flutter/cupertino.dart';
 
 import '../../domain/location_service.dart';
