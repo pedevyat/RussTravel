@@ -65,6 +65,45 @@ class SignInPage extends State<SignIn>
 	      var _userData = await Hive.openBox('UserData');
 	      _userData.put('id', lstStr[lstStr.indexOf("\"id\"") + 1]);
 	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
+	      
+	      var musBox = await Hive.openBox('museumBox');
+	      var parkBox = await Hive.openBox('parkBox');
+	      var outBox = await Hive.openBox('outsideBox');
+	      musBox?.clear();
+	      parkBox?.clear();
+	      outBox?.clear();
+	      
+	      var res = await http.get(Uri.parse('https://russ-travel.onrender.com/get-museums?user_id=${int.parse(_userData.getAt(0))}'));
+	      List<String> substrings = res.body.split(RegExp(r'[,: {}]+'));
+	      for (int i = 0; i < substrings.length; i++) {
+		if (substrings[i] == "\"id\"") {
+			int number = int.parse(substrings[i + 1]);
+			musBox.put(number, number);
+		}
+	      }
+	      
+	      res = await http.get(Uri.parse('http://russ-travel.onrender.com/get-parks?user_id=${int.parse(_userData.getAt(0))}'));
+	      substrings.clear();
+	      print("parks");
+	      substrings = res.body.split(RegExp(r'[,: {}]+'));
+	      for (int i = 0; i < substrings.length; i++) {
+		if (substrings[i] == "\"id\"") {
+			int number = int.parse(substrings[i + 1]);
+			parkBox.put(number, number);
+		}
+	      }
+	      
+	      res = await http.get(Uri.parse('http://russ-travel.onrender.com/get-outs?user_id=${int.parse(_userData.getAt(0))}'));
+	      substrings.clear();
+	      print("outs");
+	      substrings = res.body.split(RegExp(r'[,: {}]+'));
+	      for (int i = 0; i < substrings.length; i++) {
+		if (substrings[i] == "\"id\"") {
+			int number = int.parse(substrings[i + 1]);
+			outBox.put(number, number);		 
+		}
+	      }
+	      
 	      widget.onPageChanged(2);
 	    } else {
 	      // Обработка ошибки
@@ -487,7 +526,7 @@ class SignUpPage extends State<SignUp>
 
 class AccountPage extends State<Account>
 {
-	Future<void> clearBoxes() async {
+	Future<void> clearDatabases() async {
 		var userData = await Hive.openBox('UserData');
 		var resp = await http.post(
 			Uri.parse('https://russ-travel.onrender.com/clear-museums?user_id=${int.parse(userData.getAt(0))}'),
@@ -524,6 +563,15 @@ class AccountPage extends State<Account>
 			var outBox = await Hive.openBox('outsideBox');
 			outBox?.clear();
 		}
+	}
+	
+	Future<void> clearBoxes() async {
+		var musBox = await Hive.openBox('museumBox');
+		musBox?.clear();
+		var parkBox = await Hive.openBox('parkBox');
+		parkBox?.clear();
+		var outBox = await Hive.openBox('outsideBox');
+		outBox?.clear();
 	}
 	
 	Widget build(BuildContext context) {
@@ -569,7 +617,7 @@ class AccountPage extends State<Account>
 		          ListTile(
 		            title: Text('Очистить все данные...'),
 		            onTap: () {
-		              clearBoxes().then((_) {
+		              clearDatabases().then((_) {
 		                // Логика, если нужно что-то сделать после очистки
 		              });
 		            },
@@ -578,6 +626,9 @@ class AccountPage extends State<Account>
 		            title: Text('Выйти...'),
 		            onTap: () {
 	      		      userData?.clear();
+	      		      clearBoxes().then((_) {
+		                // Логика, если нужно что-то сделать после очистки
+		              });
 		              widget.onPageChanged(0);
 		            },
 		          ),
