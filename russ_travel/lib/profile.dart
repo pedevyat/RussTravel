@@ -487,6 +487,44 @@ class SignUpPage extends State<SignUp>
 
 class AccountPage extends State<Account>
 {
+	Future<void> clearBoxes() async {
+		var userData = await Hive.openBox('UserData');
+		var resp = await http.post(
+			Uri.parse('https://russ-travel.onrender.com/clear-museums?user_id=${int.parse(userData.getAt(0))}'),
+			headers: {
+				'accept': 'application/json',
+			},
+		);
+		if (resp.statusCode == 200)
+		{
+			var musBox = await Hive.openBox('museumBox');
+			musBox?.clear();
+		}
+		
+		resp = await http.post(
+			Uri.parse('https://russ-travel.onrender.com/clear-parks?user_id=${int.parse(userData.getAt(0))}'),
+			headers: {
+				'accept': 'application/json',
+			},
+		);
+		if (resp.statusCode == 200)
+		{
+			var parkBox = await Hive.openBox('parkBox');
+			parkBox?.clear();
+		}
+		
+		resp = await http.post(
+			Uri.parse('https://russ-travel.onrender.com/clear-out?user_id=${int.parse(userData.getAt(0))}'),
+			headers: {
+				'accept': 'application/json',
+			},
+		);
+		if (resp.statusCode == 200)
+		{
+			var outBox = await Hive.openBox('outsideBox');
+			outBox?.clear();
+		}
+	}
 	
 	Widget build(BuildContext context) {
 	    return FutureBuilder(
@@ -526,6 +564,14 @@ class AccountPage extends State<Account>
 		            title: Text('Отели'),
 		            onTap: () {
 		              // Действие при нажатии на кнопку 'Отели'
+		            },
+		          ),
+		          ListTile(
+		            title: Text('Очистить все данные...'),
+		            onTap: () {
+		              clearBoxes().then((_) {
+		                // Логика, если нужно что-то сделать после очистки
+		              });
 		            },
 		          ),
 		          ListTile(

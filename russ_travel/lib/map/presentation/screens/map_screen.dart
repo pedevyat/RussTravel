@@ -8,6 +8,7 @@ import 'package:latlong2/latlong.dart' as ll;
 
 import 'backend.dart';
 
+import 'package:http/http.dart' as http;
 import 'package:hive/hive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -535,9 +536,16 @@ class _ModalBodyViewP extends StatelessWidget {
                 icon: Icon(Icons.star),
                 onPressed: () async {
                   var box = await Hive.openBox('parkBox');
+                  var userData = await Hive.openBox('UserData');
                   if (box.containsKey(point.id))
                   {
                     box.delete(point.id);
+                    final response = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/delete-park?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+		      headers: {
+	      			'accept': 'application/json',
+	    		},
+		    );
                     ScaffoldMessenger.of(context).showSnackBar(
 		        SnackBar(
 		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
@@ -547,6 +555,14 @@ class _ModalBodyViewP extends StatelessWidget {
                   else
                   {
                     box.put(point.id, point.id);
+                    final response = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/add-park'),
+		      headers: {
+	      			'accept': 'application/json',
+	      			'Content-Type': 'application/json',
+	    		},
+	    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+		    );
                     ScaffoldMessenger.of(context).showSnackBar(
 		        SnackBar(
 		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
@@ -607,9 +623,16 @@ class _ModalBodyViewM extends StatelessWidget {
                 icon: Icon(Icons.star),
                 onPressed: () async {
                   var box = await Hive.openBox('museumBox');
+                  var userData = await Hive.openBox('UserData');
                   if (box.containsKey(point.id))
                   {
                     box.delete(point.id);
+                    final response = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/delete-museum?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+		      headers: {
+	      			'accept': 'application/json',
+	    		},
+		    );
                     ScaffoldMessenger.of(context).showSnackBar(
 		        SnackBar(
 		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
@@ -619,6 +642,14 @@ class _ModalBodyViewM extends StatelessWidget {
                   else
                   {
                     box.put(point.id, point.id);
+                    final response = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/add-museum'),
+		      headers: {
+	      			'accept': 'application/json',
+	      			'Content-Type': 'application/json',
+	    		},
+	    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+		    );
                     ScaffoldMessenger.of(context).showSnackBar(
 		        SnackBar(
 		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
@@ -682,9 +713,16 @@ class _ModalBodyViewO extends StatelessWidget {
                 icon: Icon(Icons.star),
                 onPressed: () async {
                   var box = await Hive.openBox('outsideBox');
+                  var userData = await Hive.openBox('UserData');
                   if (box.containsKey(point.id))
                   {
                     box.delete(point.id);
+                    final response = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/delete-out?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+		      headers: {
+	      			'accept': 'application/json',
+	    		},
+		    );
                     ScaffoldMessenger.of(context).showSnackBar(
 		        SnackBar(
 		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
@@ -694,6 +732,14 @@ class _ModalBodyViewO extends StatelessWidget {
                   else
                   {
                     box.put(point.id, point.id);
+                    final response = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/add-out'),
+		      headers: {
+	      			'accept': 'application/json',
+	      			'Content-Type': 'application/json',
+	    		},
+	    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+		    );
                     ScaffoldMessenger.of(context).showSnackBar(
 		        SnackBar(
 		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
