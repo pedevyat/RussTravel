@@ -37,7 +37,7 @@ class OutsidePoint extends Equatable {
       name: json['name'] ?? json['tags']['name'] ?? '',
       latitude: json['latitude'].toDouble(),
       longitude: json['longitude'].toDouble(),
-      photoUrl: json['photoUrl'],
+      photoUrl: json['photoUrl'] ?? '',
     );
   }
 }

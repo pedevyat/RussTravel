@@ -695,7 +695,7 @@ class _ModalBodyViewH extends StatelessWidget {
         const SizedBox(height: 10),
         GestureDetector(
           onTap: () {
-            _launchURL(point.url);
+            launch(point.url);
           },
           child: Text(
             '${point.url}',
@@ -705,11 +705,11 @@ class _ModalBodyViewH extends StatelessWidget {
             ),
           ),
         ),
-
+        const SizedBox(height: 10),
         Text(
           '${point.latitude}, ${point.longitude}',
           style: const TextStyle(
-            fontSize: 16,
+            fontSize: 10,
             color: Colors.grey,
           ),
         ),
