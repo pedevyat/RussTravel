@@ -37419,7 +37419,8 @@
   "lat": 56.1120974,
   "lon": 47.2664529,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/avtovokzal_chuvashii"
   }
 },
 {
@@ -37433,7 +37434,8 @@
     "brand:wikipedia": "en:Ibis (hotel)",
     "name": "Ibis",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://all.accor.com/hotel/9661/index.ru.shtml"
   }
 },
 {
@@ -37457,7 +37459,7 @@
   "lon": 47.2283664,
   "tags": {
     "contact:booking": "https://www.booking.com/hotel/ru/sokol-cheboksary.html?aid=352782&label=2gis&utm_source=2gis&utm_medium=SPPC&utm_content=text&utm_campaign=ru",
-    "contact:vk": "https://vk.com/id587710113",
+    "website": "https://vk.com/id587710113",
     "email": "sokol.cheb@mail.ru",
     "name": "Сокол",
     "phone": "+7 8352 628661",
@@ -37502,7 +37504,8 @@
   "lon": 47.2274163,
   "tags": {
     "name": "Винтаж",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----7sbbhcwjad9bfe3boi2d.xn--p1ai/"
   }
 },
 {
@@ -37512,7 +37515,8 @@
   "lon": 47.2298908,
   "tags": {
     "name": "Лидер",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (8352) 57-13-96"
   }
 },
 {
@@ -37522,7 +37526,8 @@
   "lon": 47.2223765,
   "tags": {
     "name": "Парижский двор",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://paris21.okis.ru/"
   }
 },
 {
@@ -37603,7 +37608,8 @@
   "lon": 47.2644753,
   "tags": {
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (917) 079-23-43"
   }
 },
 {
@@ -37634,7 +37640,8 @@
   "lon": 47.3193331,
   "tags": {
     "name": "Авиатор",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lecardohotel.ru/"
   }
 },
 {
@@ -37759,7 +37766,8 @@
     "addr:street": "улица Зарубина",
     "name": "Сайвер",
     "source": "veld67",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://yoshkar-ola.peoplehotel.ru/"
   }
 },
 {
@@ -37799,7 +37807,8 @@
     "name": "Ревизоръ",
     "name:en": "Revizor",
     "name:ru": "Ревизор",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://hotel-revizor.ru/"
   }
 },
 {
@@ -37809,7 +37818,8 @@
   "lon": 47.8404036,
   "tags": {
     "name": "Таир",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hoteltair.ru/"
   }
 },
 {
@@ -37819,7 +37829,8 @@
   "lon": 47.8631515,
   "tags": {
     "name": "Отель 2020",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-2020.ru/"
   }
 },
 {
@@ -37828,8 +37839,9 @@
   "lat": 56.6290234,
   "lon": 47.9359922,
   "tags": {
-    "name:en": "Rgard",
-    "tourism": "hotel"
+    "name": "Rgard",
+    "tourism": "hotel",
+	"website": "https://r-gard.ru/"
   }
 },
 {
@@ -37838,8 +37850,9 @@
   "lat": 56.6292452,
   "lon": 47.9357034,
   "tags": {
-    "name:en": "Rubiton",
-    "tourism": "hotel"
+    "name": "Rubiton",
+    "tourism": "hotel",
+	"website": "https://rubiton.ru/"
   }
 },
 {
