@@ -553,6 +553,7 @@ class _ModalBodyViewP extends StatelessWidget {
 		        ),
 		      );
 		  }
+		  Navigator.pop(context);
                 },
               ),
             ),
@@ -699,7 +700,7 @@ class _ModalBodyViewO extends StatelessWidget {
 		        ),
 		      );
                   }
-                  //point.isVisited = !point.isVisited;
+                  Navigator.pop(context);
                 },
               ),
             ),

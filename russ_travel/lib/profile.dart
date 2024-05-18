@@ -34,7 +34,7 @@ class SignInPage extends State<SignIn>
 	String _password = '';
 	
 	void _submitData() async {
-	    http.get(Uri.parse('http://127.0.0.1:8000/')).then((response) {
+	    http.get(Uri.parse('https://russ-travel.onrender.com/')).then((response) {
 	    print("Response status: ${response.statusCode}");
 	    print("Response body: ${response.body}");
 	    }).catchError((error){
@@ -42,7 +42,7 @@ class SignInPage extends State<SignIn>
 	    });
 	    
 	    final response = await http.post(
-	      Uri.parse('http://127.0.0.1:8000/sign-in'),
+	      Uri.parse('https://russ-travel.onrender.com/sign-in'),
 	      headers: {
       			'accept': 'application/json',
       			'Content-Type': 'application/x-www-form-urlencoded',
@@ -239,7 +239,7 @@ class SignUpPage extends State<SignUp>
 	  }
 	
 	void _submitData() async {
-	    http.get(Uri.parse('http://127.0.0.1:8000/')).then((response) {
+	    http.get(Uri.parse('https://russ-travel.onrender.com/')).then((response) {
 	    print("Response status: ${response.statusCode}");
 	    print("Response body: ${response.body}");
 	    }).catchError((error){
@@ -264,7 +264,7 @@ class SignUpPage extends State<SignUp>
 	    }
 	
 	    final response = await http.post(
-	      Uri.parse('http://127.0.0.1:8000/sign-up'),
+	      Uri.parse('https://russ-travel.onrender.com/sign-up'),
 	      headers: {
       			'accept': 'application/json',
       			'Content-Type': 'application/json',
