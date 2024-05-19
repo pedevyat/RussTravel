@@ -1,4 +1,5 @@
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:hive/hive.dart';
@@ -298,7 +299,7 @@ class OutsListPage extends State<OutsList> {
             widget.onPageChanged(2);
           },
         ),
-        title: Text('Посещённые достопримечательности.'),
+        title: Text('Посещённые смотровые.'),
       ),
       body: ListView.builder(
         itemCount: items.length,
@@ -369,7 +370,8 @@ class SignInPage extends State<SignIn>
 			      'client_secret': '',
 			    },
 	    );
-
+		
+	    print("STATUS CODE: " + response.statusCode.toString());	
 	    if (response.statusCode == 200) {
 	      // Обработка успешного ответа
 	      print('Success: ${response.body}');
@@ -433,7 +435,11 @@ class SignInPage extends State<SignIn>
 			Align
 			(
 				alignment: Alignment.center,
-				child :  isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Column
+				child :  isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : 
+				SingleChildScrollView
+				( 
+				child:
+				Column
 				(
 					mainAxisAlignment: MainAxisAlignment.center,
 					children:						
@@ -517,7 +523,9 @@ class SignInPage extends State<SignIn>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () { _submitData();},
+								onPressed: () {
+									_submitData();
+								},
 								child: Text('Вход'),
 								)
 						),
@@ -563,6 +571,7 @@ class SignInPage extends State<SignIn>
 						  _textMessageRegistration)
 						)
 					]
+					),
 				)
 			)
 		);
@@ -656,7 +665,11 @@ class SignUpPage extends State<SignUp>
 			child: new Align
 			(
 				alignment: Alignment.center,
-				child : isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Column
+				child : isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : 
+				SingleChildScrollView
+				( 
+				child:
+				Column
 				(
 					mainAxisAlignment: MainAxisAlignment.center,
 					children:
@@ -846,6 +859,7 @@ class SignUpPage extends State<SignUp>
 						  _textMessageRegistration)
 						) 
 					]
+				),
 				)
 			)
 		);
@@ -940,7 +954,11 @@ class AccountPage extends State<Account>
 		            title: Text('Очистить все данные...'),
 		            onTap: () {
 		              clearDatabases().then((_) {
-		                // Логика, если нужно что-то сделать после очистки
+				      ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Данные успешно удалены"),
+					),
+				      );
 		              });
 		            },
 		          ),
