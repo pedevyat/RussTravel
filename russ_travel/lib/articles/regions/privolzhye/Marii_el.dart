@@ -70,6 +70,6 @@ class Marii_el extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Marii_el.txt');
+    return await rootBundle.loadString('assets/privolzhye/marii_el.txt');
   }
 }
