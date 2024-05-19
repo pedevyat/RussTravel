@@ -16555,7 +16555,8 @@
   "lat": 51.7018838,
   "lon": 36.0716025,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/whait_stork"
   }
 },
 {
@@ -16610,7 +16611,8 @@
   "lon": 36.0643467,
   "tags": {
     "name": "Салют",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://salut-orel.ru/"
   }
 },
 {
@@ -16651,7 +16653,8 @@
   "lon": 36.1468411,
   "tags": {
     "name": "Регион 57",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/caferegion57"
   }
 },
 {
