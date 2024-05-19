@@ -29,17 +29,13 @@ class Account extends StatefulWidget{
 class SignInPage extends State<SignIn>
 {
 	bool _isPasswordHidden = true;
+	bool isLoading = false;
 	
 	String _email = '';
 	String _password = '';
 	
 	void _submitData() async {
-	    http.get(Uri.parse('https://russ-travel.onrender.com/')).then((response) {
-	    print("Response status: ${response.statusCode}");
-	    print("Response body: ${response.body}");
-	    }).catchError((error){
-	        print("Error: $error");
-	    });
+	    setState( (){isLoading = true;} );
 	    
 	    final response = await http.post(
 	      Uri.parse('https://russ-travel.onrender.com/sign-in'),
@@ -107,21 +103,23 @@ class SignInPage extends State<SignIn>
 	      widget.onPageChanged(2);
 	    } else {
 	      // Обработка ошибки
+	      setState( (){isLoading = false;} );
 	      print('${response.statusCode} - Error: ${response.reasonPhrase}');
 	    }
 	}
 	
 	Widget build(BuildContext context)
 	{
-		return new Center
+		return Center
 		(
-			child: new Align
+			child:  
+			Align
 			(
 				alignment: Alignment.center,
-				child : new Column
+				child :  isLoading ? CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.blue)) : Column
 				(
 					mainAxisAlignment: MainAxisAlignment.center,
-					children:
+					children:						
 					[
 						new Container(
   							width: 320,
@@ -202,7 +200,7 @@ class SignInPage extends State<SignIn>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () {_submitData();},
+								onPressed: () { _submitData();},
 								child: Text('Вход'),
 								)
 						),
@@ -249,19 +247,22 @@ class SignUpPage extends State<SignUp>
 {
 	bool _isPasswordHidden = true;
 	bool _isRepeatPasswordHidden = true;
+	bool isLoading = false;
 	
 	String _name = '';
 	String _email = '';
 	String _password = '';
+	String _password2 = '';
 	String _textMessageRegistration = '';
 	
-	static const String emailErrMsg =  "Invalid Email Address, Please provide a valid email.";
-  	static const String passwordErrMsg = "Password must have at least 6 characters.";
-  	static const String confirmPasswordErrMsg = "Two passwords don't match.";
+	static const String emailErrMsg =  "Неправильный адрес электронной почты.";
+  	static const String passwordErrMsg = "Пароль должен содержать как минимум 6 символов.";
+  	static const String confirmPasswordErrMsg = "Пароли не совпадают.";
 	
 	String? passwordVlidator(String? val) {
 	    final String password = val as String;
 	    if (password.isEmpty || password.length <= 5) return passwordErrMsg;
+	    if (_password != _password2) return confirmPasswordErrMsg;
 	    return null;
 	}
 	
@@ -278,28 +279,23 @@ class SignUpPage extends State<SignUp>
 	  }
 	
 	void _submitData() async {
-	    http.get(Uri.parse('https://russ-travel.onrender.com/')).then((response) {
-	    print("Response status: ${response.statusCode}");
-	    print("Response body: ${response.body}");
-	    }).catchError((error){
-	        print("Error: $error");
-	    });
+	    setState(() {isLoading = true;});
 	    
 	    final email_temp = emailValidator(_email);
 	    final pass_temp = passwordVlidator(_password);
 	    if (email_temp != null)
 	    {
-	    	_textMessageRegistration = email_temp;
+	    	setState ((){isLoading = false; _textMessageRegistration = email_temp;});
 	    	return;
 	    }
 	    else if (pass_temp != null)
 	    {
-	    	_textMessageRegistration = pass_temp;
+	    	setState ((){isLoading = false; _textMessageRegistration = pass_temp;});
 	    	return;
 	    }
 	    else
 	    {
-		_textMessageRegistration = '';	    
+	    	setState ((){_textMessageRegistration = '';});
 	    }
 	
 	    final response = await http.post(
@@ -322,6 +318,7 @@ class SignUpPage extends State<SignUp>
 	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
 	      widget.onPageChanged(2);
 	    } else {
+	      setState (() {isLoading = false; _textMessageRegistration = 'Ошибка подключения к серверу!';});
 	      // Обработка ошибки
 	      print('${response.statusCode} - Error: ${response.reasonPhrase}');
 	    }
@@ -333,7 +330,7 @@ class SignUpPage extends State<SignUp>
 			child: new Align
 			(
 				alignment: Alignment.center,
-				child : new Column
+				child : isLoading ? CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.blue)) : Column
 				(
 					mainAxisAlignment: MainAxisAlignment.center,
 					children:
@@ -456,6 +453,11 @@ class SignUpPage extends State<SignUp>
                     					setState(() { _isRepeatPasswordHidden = !_isRepeatPasswordHidden; });
                       				}),
 								),
+								onChanged: (value) {
+								    setState(() {
+								      _password2 = value;
+								    });
+								  },
 								cursorColor: Color.fromRGBO(0, 108, 167, 1),
 							),
 						),
