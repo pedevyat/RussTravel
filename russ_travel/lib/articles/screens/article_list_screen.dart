@@ -51,6 +51,34 @@ import '../regions/DV/Ussuriysk.dart';
 import '../regions/DV/Vladivostok.dart';
 import '../regions/DV/Yakutsk.dart';
 import '../regions/DV/Yuzhno-Sachalinsk.dart';
+import '../regions/SFOdart/Abakan.dart';
+import '../regions/SFOdart/Angarsk.dart';
+import '../regions/SFOdart/Barnaul.dart';
+import '../regions/SFOdart/Biysk.dart';
+import '../regions/SFOdart/Bratsk.dart';
+import '../regions/SFOdart/GornoAltaysk.dart';
+import '../regions/SFOdart/Irkutsk.dart';
+import '../regions/SFOdart/Kemerovo.dart';
+import '../regions/SFOdart/Krasnoyarsk.dart';
+import '../regions/SFOdart/Kyzil.dart';
+import '../regions/SFOdart/Novoaltraysk.dart';
+import '../regions/SFOdart/Novosibirsk.dart';
+import '../regions/SFOdart/Omsk.dart';
+import '../regions/SFOdart/Rybzovsk.dart';
+import '../regions/SFOdart/Tomsk.dart';
+import '../regions/SZFOdart/Arhangelsk.dart';
+import '../regions/SZFOdart/Gatchina.dart';
+import '../regions/SZFOdart/Kaliningrad.dart';
+import '../regions/SZFOdart/Murmansk.dart';
+import '../regions/SZFOdart/NaryanMar.dart';
+import '../regions/SZFOdart/Peterburg.dart';
+import '../regions/SZFOdart/Petrozavodsk.dart';
+import '../regions/SZFOdart/Pskov.dart';
+import '../regions/SZFOdart/Severodvinsk.dart';
+import '../regions/SZFOdart/Syktyvkar.dart';
+import '../regions/SZFOdart/VelikieLuki.dart';
+import '../regions/SZFOdart/VelikiyNovgorod.dart';
+import '../regions/SZFOdart/Vologda.dart';
 import '../regions/Yufo/Astrachan.dart';
 import '../regions/Yufo/Astrachan.dart';
 import '../regions/Yufo/Elista.dart';
@@ -96,9 +124,6 @@ import '../regions/privolzhye/Ydmurtiya.dart';
 import '../regions/privolzhye/Ylyanovskaya.dart';
 import '../regions/ural/Yamalo-neneckii.dart';
 import 'article_detail_screen.dart';
-
-// ДОБАВИТЬ ИЗОБРАЖЕНИЕ, ЕСЛИ НЕТ РЕЗУЛЬТАТОВ ПОИСКА
-// ДОБАВИТЬ ПРОКРУТКУ
 
 class ArticleListScreen extends StatefulWidget {
   @override
@@ -164,50 +189,80 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Ульяновская область", content: Ylyanovskaya()),
 
     Article(title: "Астраханская область", content: Astrachan()),
-    Article(title: "Элиста", content: Elista()),
-    Article(title: "Керчь", content: Kerch()),
+    Article(title: "Республика Калмыкия", content: Elista()),
+    Article(title: "Республика Крым: Керчь", content: Kerch()),
     Article(title: "Краснодарский край", content: Krasnodar()),
     Article(title: "Республика Адыгея", content: Maikop()),
-    Article(title: "Новочеркасск", content: Novocherkassk()),
-    Article(title: "Новороссийск", content: Novorossiysk()),
+    Article(title: "Ростовская область: Новочеркасск", content: Novocherkassk()),
+    Article(title: "Ростовская область: Новороссийск", content: Novorossiysk()),
     Article(title: "Ростовская область", content: Rostov()),
-    Article(title: "Симфирополь", content: Semfiropol()),
+    Article(title: "Республика Крым: Симфирополь", content: Semfiropol()),
     Article(title: "Севастополь", content: Sevastopol()),
-    Article(title: "Шахты", content: Shachty()),
-    Article(title: "Сочи", content: Sochi()),
+    Article(title: "Ростовская область: Шахты", content: Shachty()),
+    Article(title: "Краснодарский край Сочи", content: Sochi()),
     Article(title: "Волгоградская область", content: Volgograd()),
-    Article(title: "Волжский", content: Volzhskiy()),
-    Article(title: "Ялта", content: Yalta()),
+    Article(title: "Волгоградская область: Волжский", content: Volzhskiy()),
+    Article(title: "Республика Крым: Ялта", content: Yalta()),
 
-    Article(title: "Амурская область", content: Amursk()),
+    Article(title: "Амурская область: Амурск", content: Amursk()),
     Article(title: "Чукотский автономный округ", content: Anadyr()),
-    Article(title: "Артем", content: Artem()),
-    Article(title: "Белогорск", content: Belogorsk()),
+    Article(title: "Приморский край: Артем", content: Artem()),
+    Article(title: "Амурская область: Белогорск", content: Belogorsk()),
     Article(title: "Еврейская автономная область", content: Birobidzhan()),
-    Article(title: "Амурская область", content: Blagoveshensk()),
-    Article(title: "Забайкальский край", content: Chita()),
-    Article(title: "Елизово", content: Elizovo()),
-    Article(title: "Гусиноозёрск", content: Gusinoozersk()),
-    Article(title: "Хабаровский край", content: Habarovsk()),
-    Article(title: "Холмск", content: Holmsk()),
-    Article(title: "Комсомольск-на-Амуре", content: Komsomolsk_na_Amure()),
-    Article(title: "Корсаков", content: Korsakov()),
-    Article(title: "Краснокаменск", content: Krasnokamensk()),
-    Article(title: "Кяхта", content: Kyachta()),
+    Article(title: "Амурская область: Благовещенск", content: Blagoveshensk()),
+    Article(title: "Забайкальский край: Чита", content: Chita()),
+    Article(title: "Камчатский край: Елизово", content: Elizovo()),
+    Article(title: "Республика Бурятия: Гусиноозёрск", content: Gusinoozersk()),
+    Article(title: "Хабаровский край: Хабаровск", content: Habarovsk()),
+    Article(title: "Сахалинская область: Холмск", content: Holmsk()),
+    Article(title: "Хабаровский край: Комсомольск-на-Амуре", content: Komsomolsk_na_Amure()),
+    Article(title: "Сахалинская область: Корсаков", content: Korsakov()),
+    Article(title: "Забайкальский край: Краснокаменск", content: Krasnokamensk()),
+    Article(title: "Республика Бурятия: Кяхта", content: Kyachta()),
     Article(title: "Магаданская область", content: Magadan()),
-    Article(title: "Милково", content: Milkovo()),
-    Article(title: "Мирный", content: Mirniy()),
-    Article(title: "Находка", content: Nahodka()),
-    Article(title: "Нерчинск", content: Nerchinsk()),
-    Article(title: "Нерюнгри", content: Neryungri()),
-    Article(title: "Камчатский край", content: Petropavlovsk_kamchatskiy()),
-    Article(title: "Северобайкальск", content: Severobaikalsk()),
-    Article(title: "Тунда", content: Tynda()),
-    Article(title: "Республика Бурятия", content: Ulan_Ude()),
-    Article(title: "Уссурийск", content: Ussuriysk()),
-    Article(title: "Приморский край", content: Vladivostok()),
-    Article(title: "Республика Саха (Якутия)", content: Yakutsk()),
-    Article(title: "Сахалинская область", content: Yuzhno_Sachalinsk()),
+    Article(title: "Камчатский край: Мильково", content: Milkovo()),
+    Article(title: "Республика Саха (Якутия): Мирный", content: Mirniy()),
+    Article(title: "Приморский край: Находка", content: Nahodka()),
+    Article(title: "Забайкальский край: Нерчинск", content: Nerchinsk()),
+    Article(title: "Республика Саха (Якутия): Нерюнгри", content: Neryungri()),
+    Article(title: "Камчатский край: Петропавловск-Камчатский", content: Petropavlovsk_kamchatskiy()),
+    Article(title: "Республика Бурятия: Северобайкальск", content: Severobaikalsk()),
+    Article(title: "Амурская область: Тында", content: Tynda()),
+    Article(title: "Республика Бурятия: Улан-Удэ", content: Ulan_Ude()),
+    Article(title: "Приморский край: Уссурийск", content: Ussuriysk()),
+    Article(title: "Приморский край: Владивосток", content: Vladivostok()),
+    Article(title: "Республика Саха (Якутия): Якутск", content: Yakutsk()),
+    Article(title: "Сахалинская область: Южно-Сахалинск", content: Yuzhno_Sachalinsk()),
+
+    Article(title: "Республика Хакасия", content: Abakan()),
+    Article(title: "Иркутская область: Ангарск", content: Angarsk()),
+    Article(title: "Алтайский край: Барнаул", content: Barnaul()),
+    Article(title: "Алтайский край: Бийск", content: Byisk()),
+    Article(title: "Иркутская область: Братск", content: Bratsk()),
+    Article(title: "Республика Алтай", content: GornoAltaysk()),
+    Article(title: "Иркутская область: Иркутск", content: Irkutsk()),
+    Article(title: "Кемеровская область - Кузбасс", content: Kemerovo()),
+    Article(title: "Красноярский край", content: Krasnoyarsk()),
+    Article(title: "Республика Тыва", content: Kyzil()),
+    Article(title: "Алтайский край: Новоалтайск", content: Novoaltraysk()),
+    Article(title: "Новосибирская область", content: Novosibirsk()),
+    Article(title: "Омская область", content: Omsk()),
+    Article(title: "Алтайский край: Рубцовск", content: Rybzovsk()),
+    Article(title: "Томская область", content: Tomsk()),
+
+    Article(title: "Архангельская область", content: Arhangelsk()),
+    Article(title: "Ленинградская область: Гатчина", content: Gatchina()),
+    Article(title: "Калининградская область", content: Kaliningrad()),
+    Article(title: "Мурманская область", content: Murmansk()),
+    Article(title: "Ненецкий автономный округ", content: NaryanMar()),
+    Article(title: "Санкт-Петербург", content: Peterburg()),
+    Article(title: "Республика Карелия", content: Petrozavodsk()),
+    Article(title: "Псковская область: Псков", content: Pskov()),
+    Article(title: "Северодвинская область", content: Severodvinsk()),
+    Article(title: "Республика Коми", content: Syktyvkar()),
+    Article(title: "Псковская область: Великие Луки", content: VelikieLuki()),
+    Article(title: "Новгородская область", content: VelikiyNovgorod()),
+    Article(title: "Вологодская область", content: Vologda())
 
   ];
 
