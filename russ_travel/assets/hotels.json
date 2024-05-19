@@ -9010,7 +9010,8 @@
     "name": "Вертол",
     "name:en": "Vertol",
     "name:ru": "Вертол",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://toposhotel.ru/ru/"
   }
 },
 {
@@ -9084,7 +9085,8 @@
   "lat": 47.2155790,
   "lon": 38.9224022,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://izvolte.info/"
   }
 },
 {
@@ -9124,7 +9126,8 @@
   "lon": 39.8557960,
   "tags": {
     "name": "Майдан",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://maydanhotel.ru/"
   }
 },
 {
@@ -9134,7 +9137,8 @@
   "lon": 38.8872723,
   "tags": {
     "name": "Гостиница Ассоль",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://assol-hotel.ru/"
   }
 },
 {
@@ -9144,7 +9148,8 @@
   "lon": 39.8502325,
   "tags": {
     "name": "«Евразия-Аксай»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://motel-evrazia.ru/"
   }
 },
 {
@@ -9164,7 +9169,8 @@
   "lon": 40.2074968,
   "tags": {
     "name": "Горняк",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://ogk-gornyak.ru/"
   }
 },
 {
@@ -9174,7 +9180,8 @@
   "lon": 40.2084457,
   "tags": {
     "name": "Восток",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (8636) 22-05-53"
   }
 },
 {
@@ -9184,7 +9191,8 @@
   "lon": 40.2300829,
   "tags": {
     "name": "Кузбасс",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.hotel-kuzbass.com/"
   }
 },
 {
@@ -9194,7 +9202,8 @@
   "lon": 40.1433395,
   "tags": {
     "name": "Гостиница \"Дио Лакруа\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://diolacroix.com/"
   }
 },
 {
@@ -9207,7 +9216,8 @@
     "addr:housenumber": "1",
     "addr:street": "улица Ленина",
     "name": "Волна",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://hotell-levada.ru/"
   }
 },
 {
@@ -9325,7 +9335,8 @@
   "lon": 39.8512315,
   "tags": {
     "name": "«Аксу»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/aksay/aksu/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -9337,7 +9348,8 @@
     "addr:housenumber": "19Б",
     "addr:street": "проспект Ленина",
     "name": "Радуга",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (951) 531-18-80"
   }
 },
 {
@@ -9375,7 +9387,8 @@
   "tags": {
     "internet_access": "wlan",
     "name": "Гостиница Альфа",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/rostov-na-donu/alfa/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -9385,7 +9398,8 @@
   "lon": 39.8783979,
   "tags": {
     "name": "Дилижанс",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://dilizhanshotel.ru/"
   }
 },
 {
@@ -9405,7 +9419,8 @@
   "lon": 39.6990800,
   "tags": {
     "name": "Островский",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rostov-otel.ru/"
   }
 },
 {
@@ -9446,7 +9461,8 @@
   "lon": 39.7531650,
   "tags": {
     "name": "Лотос",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.lotoshotel.ru/index.php/ru/"
   }
 },
 {
@@ -9455,7 +9471,8 @@
   "lat": 47.2776008,
   "lon": 39.8027931,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelkars.ru/"
   }
 },
 {
@@ -9467,7 +9484,8 @@
     "addr:housenumber": "144/25",
     "addr:street": "улица Доватора",
     "name": "Магнолия",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://magnoliahotel.ru/"
   }
 },
 {
@@ -9500,7 +9518,8 @@
     "addr:province": "Ростовская область",
     "addr:street": "Лесозащитная улица",
     "name": "Кокос",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelcocos.com/"
   }
 },
 {
@@ -9639,7 +9658,8 @@
   "lon": 38.8891341,
   "tags": {
     "name": "Николь",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/taganrog/nika/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -9780,7 +9800,8 @@
     "internet_access:fee": "no",
     "name": "Апарт отель Грин Холл",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.green-hall-rnd.ru/"
   }
 },
 {
@@ -9790,7 +9811,8 @@
   "lon": 39.7439719,
   "tags": {
     "name": "Отель Театральный",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://teatralny.su/"
   }
 },
 {
@@ -9800,7 +9822,8 @@
   "lon": 39.7641226,
   "tags": {
     "name": "Селена",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/rostov-na-donu/selena/?utm_source=yandex-maps&utm_medium=business-button&adults=2"
   }
 },
 {
@@ -9841,7 +9864,8 @@
   "lat": 47.2199443,
   "lon": 39.7134027,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (951) 495-32-12"
   }
 },
 {
@@ -9892,7 +9916,8 @@
   "lon": 39.4120947,
   "tags": {
     "name": "Прибой",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.hotel-priboy.com/"
   }
 },
 {
@@ -9930,7 +9955,8 @@
   "lon": 40.0675398,
   "tags": {
     "name": "Колос",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://xn---4-1lcegjby.xn--p1ai/"
   }
 },
 {
@@ -9939,7 +9965,8 @@
   "lat": 47.2891836,
   "lon": 39.8504659,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://motel-evrazia.ru/"	
   }
 },
 {
@@ -9948,7 +9975,8 @@
   "lat": 47.2450817,
   "lon": 39.6878565,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----7sbabq6fnop.xn--p1ai/"
   }
 },
 {
@@ -9961,7 +9989,8 @@
     "addr:housenumber": "67",
     "addr:street": "улица Малиновского",
     "name": "Либхабер",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://libhaber.clients.site/"
   }
 },
 {
@@ -9979,7 +10008,8 @@
     "internet_access:fee": "no",
     "name": "Парк-отель «Аксай»",
     "rooms": "18",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://aksai-hotel.ru/"
   }
 },
 {
@@ -10018,7 +10048,8 @@
   "lon": 39.7260438,
   "tags": {
     "name": "Арка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://arkahotel.ru/"
   }
 },
 {
@@ -10033,7 +10064,8 @@
     "internet_access": "yes",
     "internet_access:fee": "customers",
     "name": "Каштан",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/rostov-na-donu/kashtan/?utm_source=yandex-maps&utm_medium=business-button&adults=2"
   }
 },
 {
@@ -10043,7 +10075,8 @@
   "lon": 40.0549203,
   "tags": {
     "name": "Вояж",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vojazh-sarmatskaja-ulitsa.clients.site/"
   }
 },
 {
@@ -10055,7 +10088,8 @@
     "addr:city": "Таганрог",
     "addr:housenumber": "2А",
     "addr:street": "улица Адмирала Крюйса",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://greenwich-park.ru/"
   }
 },
 {
@@ -10077,7 +10111,8 @@
   "lon": 39.7549119,
   "tags": {
     "name": "Отель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (904) 444-99-58"
   }
 },
 {
@@ -10096,7 +10131,8 @@
   "lat": 47.1542932,
   "lon": 39.7692997,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (908) 194-42-22"
   }
 },
 {
@@ -10132,7 +10168,8 @@
   "lon": 39.8722932,
   "tags": {
     "name": "Оптимист",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-optimist.ru/"
   }
 },
 {
@@ -10166,7 +10203,8 @@
   "tags": {
     "name": "Отель РИО",
     "name:en": "Hotel Rio",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rio-ulitsa-sarjana.clients.site/"
   }
 },
 {
@@ -10224,7 +10262,8 @@
   "lat": 47.5178388,
   "lon": 42.1953409,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelvolgodonsk.ru/"
   }
 },
 {
@@ -10234,7 +10273,8 @@
   "lon": 42.1129958,
   "tags": {
     "name": "Папирус",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://papirus-hotel.ru/"
   }
 },
 {

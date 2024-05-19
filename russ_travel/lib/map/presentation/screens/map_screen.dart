@@ -910,7 +910,14 @@ class _ModalBodyViewH extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 40),
       child: Column(mainAxisSize: MainAxisSize.min, children: [
         Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
+        const SizedBox(height: 10),
+        Text(
+          '${point.description}',
+            style: const TextStyle(
+              fontSize: 14,
+              color: Colors.blueGrey,
+            )
+        ),
         Text(
             '${point.price}',
             style: const TextStyle(
