@@ -45457,36 +45457,8 @@
   }
 },
 
-{
-  "type": "node",
-  "id": 4223784020,
-  "lat": 50.2461927,
-  "lon": 127.4959550,
-  "tags": {
-    "name": "Shenhailao",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4296748993,
-  "lat": 50.2399807,
-  "lon": 127.5209649,
-  "tags": {
-    "name": "Шан Мао",
-    "tourism": "hotel"
-  }
-},
-{
-  "type": "node",
-  "id": 4296748994,
-  "lat": 50.2443469,
-  "lon": 127.5027764,
-  "tags": {
-    "name": "Эдем",
-    "tourism": "hotel"
-  }
-},
+
+
 
 
 
