@@ -486,7 +486,9 @@ class SignInPage extends State<SignIn>
 						new Container
 						(
 							width : 350,
-							child: new TextField(decoration: InputDecoration
+							child: new TextField(
+									keyboardType: TextInputType.emailAddress,
+									decoration: InputDecoration
 									(
 									enabledBorder: OutlineInputBorder(borderSide: BorderSide(
             								color: Colors.black,
@@ -752,7 +754,9 @@ class SignUpPage extends State<SignUp>
 						new Container
 						(
 							width : 350,
-							child: new TextField(decoration: InputDecoration
+							child: new TextField(
+								keyboardType: TextInputType.emailAddress,
+								decoration: InputDecoration
 								(
 								enabledBorder: OutlineInputBorder(borderSide: BorderSide(
             							color: Colors.black,
