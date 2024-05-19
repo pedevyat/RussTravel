@@ -16,7 +16,7 @@ class Elista extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://vuzopedia.ru/storage/app/uploads/public/636/a27/87b/636a2787ba005878259742.jpg',
+                    'https://cdn2.tu-tu.ru/image/pagetree_node_data/1/8083958286884a369f66597dde9ae012/',
                     height: 200,
                     fit: BoxFit.cover,
                   ),

@@ -16,7 +16,7 @@ class Sevastopol extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://news2.ru/user_images/36694/1453633467.jpg',
+                    'https://www.pnp.ru/upload/entities/2023/06/08/14/article/detailPicture/5d/b2/0e/94/e43533ed1add85f35db99a49df3c7f6f.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),

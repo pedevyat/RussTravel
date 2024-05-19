@@ -16,7 +16,7 @@ class Krasnokamensk extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://cdn.culture.ru/images/5a557530-dc0a-59aa-afd3-51ab4ff76570',
+                    'https://media.75.ru/krasnokamensk/resources/284666/f010a5a7898fe991906f1c08deff9e67df16c2c6krasnokamensk1.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),
