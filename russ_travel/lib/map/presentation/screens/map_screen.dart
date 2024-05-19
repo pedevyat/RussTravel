@@ -6,7 +6,6 @@ import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:latlong2/latlong.dart' as ll;
-import 'package:location/location.dart';
 
 import 'backend.dart';
 
@@ -46,39 +45,11 @@ class _MapScreenState extends State<MapScreen> {
   late final MapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<Marker>> _markersFuture;
-  LocationData? _currentLocation;
 
   @override
   void initState() {
     super.initState();
     _markersFuture = _getMarkers().then((value) => value as List<Marker>);
-    _getLocation();
-  }
-  Future<void> _getLocation() async {
-    Location location = Location();
-
-    bool _serviceEnabled;
-    PermissionStatus _permissionGranted;
-
-    _serviceEnabled = await location.serviceEnabled();
-    if (!_serviceEnabled) {
-      _serviceEnabled = await location.requestService();
-      if (!_serviceEnabled) {
-        return;
-      }
-    }
-
-    _permissionGranted = await location.hasPermission();
-    if (_permissionGranted == PermissionStatus.denied) {
-      _permissionGranted = await location.requestPermission();
-      if (_permissionGranted != PermissionStatus.granted) {
-        return;
-      }
-    }
-
-    _currentLocation = await location.getLocation();
-
-    setState(() {});
   }
 
   @override
@@ -151,21 +122,10 @@ class _MapScreenState extends State<MapScreen> {
           } else if (snapshot.hasError) {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
-            List<Marker> markers = snapshot.data ?? [];
-            if (_currentLocation != null) {
-              markers.add(
-                Marker(
-                  point: LatLng(_currentLocation!.latitude!, _currentLocation!.longitude!),
-                  builder: (ctx) => Icon(Icons.my_location, color: Colors.red, size: 30.0),
-                ),
-              );
-            }
             return FlutterMap(
               options: MapOptions(
-                center: _currentLocation != null
-                    ? LatLng(_currentLocation!.latitude!, _currentLocation!.longitude!)
-                    : LatLng(50, 20),
-                zoom: 3.0,
+                center: LatLng(50, 20), // Начальные координаты центра карты
+                zoom: 3.0, // Начальный уровень масштабирования карты
                 onPositionChanged: (position, _) {
                   setState(() {
                     _mapZoom = position.zoom!;
