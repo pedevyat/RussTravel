@@ -409,12 +409,11 @@ class SignInPage extends State<SignIn>
 	    print("STATUS CODE: " + response.statusCode.toString());	
 	    if (response.statusCode == 200) {
 	      // Обработка успешного ответа
-	      print('Success: ${response.body}');
-	      final lstStr = response.body.split(RegExp(r'[:{}, ]'));
-	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + " " + lstStr[lstStr.indexOf("\"name\"") + 1]);
+	      Map<String, dynamic> jsonMap = jsonDecode(response.body);
+	      
 	      var _userData = await Hive.openBox('UserData');
-	      _userData.put('id', lstStr[lstStr.indexOf("\"id\"") + 1]);
-	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
+	      _userData.put('id', jsonMap['id'].toString());
+	      _userData.put('name', jsonMap['name'].toString());
 	      
 	      var musBox = await Hive.openBox('museumBox');
 	      var parkBox = await Hive.openBox('parkBox');
@@ -691,13 +690,11 @@ class SignUpPage extends State<SignUp>
 
 	    if (response.statusCode == 200) {
 	      // Обработка успешного ответа
-	      print('Success: ${response.body}');
-	      final lstStr = response.body.split(RegExp(r'[:{}, ]'));
-	      print(lstStr[lstStr.indexOf("\"id\"") + 1] + " " + lstStr[lstStr.indexOf("\"name\"") + 1]);
+	      Map<String, dynamic> jsonMap = jsonDecode(response.body);
+	      
 	      var _userData = await Hive.openBox('UserData');
-	      //_userData.clear();
-	      _userData.put('id', lstStr[lstStr.indexOf("\"id\"") + 1]);
-	      _userData.put('name', lstStr[lstStr.indexOf("\"name\"") + 1].replaceAll('"', ''));
+	      _userData.put('id', jsonMap['id'].toString());
+	      _userData.put('name', jsonMap['name'].toString());
 	      widget.onPageChanged(2);
 	    } else {
 	      setState (() {isLoading = false; _textMessageRegistration = 'Ошибка подключения к серверу!';});
@@ -1094,6 +1091,7 @@ class ProfilePage extends State<Profile>
 		builder: (BuildContext context, AsyncSnapshot<Box> snapshot) {
 		    if (snapshot.connectionState == ConnectionState.done) {
 		    	//print(snapshot?.data?.values.toList());
+		    	//snapshot?.data?.clear();
 		        if (snapshot?.data?.values.toList().isEmpty ?? false) {
 		            print("UNFOUND");
 		            if (_currentIndex == 2)
