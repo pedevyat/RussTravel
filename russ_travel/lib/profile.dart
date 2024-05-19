@@ -1,3 +1,4 @@
+import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:hive/hive.dart';
@@ -26,6 +27,321 @@ class Account extends StatefulWidget{
 	AccountPage createState()=> AccountPage();
 }
 
+class MuseumsList extends StatefulWidget {
+	final void Function(int) onPageChanged;
+	MuseumsList(this.onPageChanged);
+	MuseumListPage createState() => MuseumListPage();
+}
+
+class ParksList extends StatefulWidget {
+	final void Function(int) onPageChanged;
+	ParksList(this.onPageChanged);
+	ParksListPage createState() => ParksListPage();
+}
+
+class OutsList extends StatefulWidget {
+	final void Function(int) onPageChanged;
+	OutsList(this.onPageChanged);
+	OutsListPage createState() => OutsListPage();
+}
+
+class MuseumListPage extends State<MuseumsList> {
+  List<Map<String, dynamic>> items = [];
+  bool isLoading = true;
+  
+  @override
+  void initState() {
+    super.initState();
+    _fetchData();
+  }
+
+  void _fetchData() async {
+    var _userData = await Hive.openBox('UserData');
+    final response = await http.get(Uri.parse('https://russ-travel.onrender.com/get-museums?user_id=${int.parse(_userData.getAt(0))}'),
+    headers: {
+    'Content-Type': 'application/json; charset=UTF-8', // Указываем кодировку UTF-8
+    });
+    
+    if (response.statusCode == 200) {
+      	//final decodedResponse
+      	List<dynamic> data = jsonDecode(utf8.decode(response.bodyBytes));
+      	setState(() {
+	        items = data.cast<Map<String, dynamic>>();
+      	});
+      	/*for (int i = 0; i < items.length; i++)
+      	{
+      		items[i] =       	
+      	}*/
+      	isLoading = false;
+    } else {
+      throw Exception('Failed to load data');
+    }
+  }
+
+  void _removeItem(int index) {
+    setState(() {
+      items.removeAt(index);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return WillPopScope(
+      onWillPop: () async {
+        widget.onPageChanged(2);
+        return false;
+      },
+      child: isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            //Navigator.pop(context); // Действие по нажатию кнопки "Назад"
+            widget.onPageChanged(2);
+          },
+        ),
+        title: Text('Посещённые музеи'),
+      ),
+      body: ListView.builder(
+        itemCount: items.length,
+        itemBuilder: (context, index) {
+          Map<String, dynamic> item = items[index];
+          String title = item['title'];
+
+          return Dismissible(
+            key: Key(title),
+            onDismissed: (direction) async {
+              var musbox = await Hive.openBox('museumBox');
+              var _userData = await Hive.openBox('UserData');
+              int ind = -1;
+              for (int i = 0; i < items.length; i++)
+              {
+              	print(items[i]['title'] + " " +  title);
+              	if (items[i]['title'] == title)
+              	{
+              		ind = items[i]['id'];
+              		break;
+              	}
+              }
+              musbox.delete(ind);
+              final resp = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/delete-museum?id=${ind}&user_id=${int.parse(_userData.getAt(0))}'),
+		      headers: {
+	      			'accept': 'application/json',
+	    		},
+		);
+	      _removeItem(index);
+            },
+            background: Container(color: Colors.red),
+            child: ListTile(
+              title: Text(title),
+            ),
+          );
+        },
+      ),
+    ),
+    );
+  }
+}
+
+class ParksListPage extends State<ParksList> {
+  List<Map<String, dynamic>> items = [];
+  bool isLoading = true;
+  
+  @override
+  void initState() {
+    super.initState();
+    _fetchData();
+  }
+
+  void _fetchData() async {
+    var _userData = await Hive.openBox('UserData');
+    final response = await http.get(Uri.parse('https://russ-travel.onrender.com/get-parks?user_id=${int.parse(_userData.getAt(0))}'),
+    headers: {
+    'Content-Type': 'application/json; charset=UTF-8', // Указываем кодировку UTF-8
+    });
+    
+    if (response.statusCode == 200) {
+      	//final decodedResponse
+      	List<dynamic> data = jsonDecode(utf8.decode(response.bodyBytes));
+      	setState(() {
+	        items = data.cast<Map<String, dynamic>>();
+      	});
+      	/*for (int i = 0; i < items.length; i++)
+      	{
+      		items[i] =       	
+      	}*/
+      	isLoading = false;
+    } else {
+      throw Exception('Failed to load data');
+    }
+  }
+
+  void _removeItem(int index) {
+    setState(() {
+      items.removeAt(index);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return WillPopScope(
+      onWillPop: () async {
+        widget.onPageChanged(2);
+        return false;
+      },
+      child: isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            //Navigator.pop(context); // Действие по нажатию кнопки "Назад"
+            widget.onPageChanged(2);
+          },
+        ),
+        title: Text('Посещённые парки'),
+      ),
+      body: ListView.builder(
+        itemCount: items.length,
+        itemBuilder: (context, index) {
+          Map<String, dynamic> item = items[index];
+          String title = item['title'];
+
+          return Dismissible(
+            key: Key(title),
+            onDismissed: (direction) async {
+              var parkbox = await Hive.openBox('parkBox');
+              var _userData = await Hive.openBox('UserData');
+              int ind = -1;
+              for (int i = 0; i < items.length; i++)
+              {
+              	print(items[i]['title'] + " " +  title);
+              	if (items[i]['title'] == title)
+              	{
+              		ind = items[i]['id'];
+              		break;
+              	}
+              }
+              parkbox.delete(ind);
+              final resp = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/delete-park?id=${ind}&user_id=${int.parse(_userData.getAt(0))}'),
+		      headers: {
+	      			'accept': 'application/json',
+	    		},
+		);
+	      _removeItem(index);
+            },
+            background: Container(color: Colors.red),
+            child: ListTile(
+              title: Text(title),
+            ),
+          );
+        },
+      ),
+    ),
+    );
+  }
+}
+
+class OutsListPage extends State<OutsList> {
+  List<Map<String, dynamic>> items = [];
+  bool isLoading = true;
+  
+  @override
+  void initState() {
+    super.initState();
+    _fetchData();
+  }
+
+  void _fetchData() async {
+    var _userData = await Hive.openBox('UserData');
+    final response = await http.get(Uri.parse('https://russ-travel.onrender.com/get-outs?user_id=${int.parse(_userData.getAt(0))}'),
+    headers: {
+    'Content-Type': 'application/json; charset=UTF-8', // Указываем кодировку UTF-8
+    });
+    
+    if (response.statusCode == 200) {
+      	//final decodedResponse
+      	List<dynamic> data = jsonDecode(utf8.decode(response.bodyBytes));
+      	setState(() {
+	        items = data.cast<Map<String, dynamic>>();
+      	});
+      	/*for (int i = 0; i < items.length; i++)
+      	{
+      		items[i] =       	
+      	}*/
+      	isLoading = false;
+    } else {
+      throw Exception('Failed to load data');
+    }
+  }
+
+  void _removeItem(int index) {
+    setState(() {
+      items.removeAt(index);
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return WillPopScope(
+      onWillPop: () async {
+        widget.onPageChanged(2);
+        return false;
+      },
+      child: isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            //Navigator.pop(context); // Действие по нажатию кнопки "Назад"
+            widget.onPageChanged(2);
+          },
+        ),
+        title: Text('Посещённые достопримечательности.'),
+      ),
+      body: ListView.builder(
+        itemCount: items.length,
+        itemBuilder: (context, index) {
+          Map<String, dynamic> item = items[index];
+          String title = item['title'];
+
+          return Dismissible(
+            key: Key(title),
+            onDismissed: (direction) async {
+              var outbox = await Hive.openBox('outsideBox');
+              var _userData = await Hive.openBox('UserData');
+              int ind = -1;
+              for (int i = 0; i < items.length; i++)
+              {
+              	print(items[i]['title'] + " " +  title);
+              	if (items[i]['title'] == title)
+              	{
+              		ind = items[i]['id'];
+              		break;
+              	}
+              }
+              outbox.delete(ind);
+              final resp = await http.post(
+		      Uri.parse('https://russ-travel.onrender.com/delete-out?id=${ind}&user_id=${int.parse(_userData.getAt(0))}'),
+		      headers: {
+	      			'accept': 'application/json',
+	    		},
+		);
+	      _removeItem(index);
+            },
+            background: Container(color: Colors.red),
+            child: ListTile(
+              title: Text(title),
+            ),
+          );
+        },
+      ),
+    ),
+    );
+  }
+}
+
 class SignInPage extends State<SignIn>
 {
 	bool _isPasswordHidden = true;
@@ -33,6 +349,7 @@ class SignInPage extends State<SignIn>
 	
 	String _email = '';
 	String _password = '';
+	String _textMessageRegistration = '';
 	
 	void _submitData() async {
 	    setState( (){isLoading = true;} );
@@ -103,7 +420,7 @@ class SignInPage extends State<SignIn>
 	      widget.onPageChanged(2);
 	    } else {
 	      // Обработка ошибки
-	      setState( (){isLoading = false;} );
+	      setState( (){isLoading = false; _textMessageRegistration = 'Неправильный логин или пароль.';} );
 	      print('${response.statusCode} - Error: ${response.reasonPhrase}');
 	    }
 	}
@@ -116,7 +433,7 @@ class SignInPage extends State<SignIn>
 			Align
 			(
 				alignment: Alignment.center,
-				child :  isLoading ? CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.blue)) : Column
+				child :  isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Column
 				(
 					mainAxisAlignment: MainAxisAlignment.center,
 					children:						
@@ -236,6 +553,15 @@ class SignInPage extends State<SignIn>
 								)
 						),
 						*/
+						new SizedBox(height: 8),
+						Container(
+						  width: 350,
+						  child: Text(
+						  style: TextStyle(
+						    color: Colors.red,
+						  ),
+						  _textMessageRegistration)
+						)
 					]
 				)
 			)
@@ -330,7 +656,7 @@ class SignUpPage extends State<SignUp>
 			child: new Align
 			(
 				alignment: Alignment.center,
-				child : isLoading ? CircularProgressIndicator(valueColor: AlwaysStoppedAnimation<Color>(Colors.blue)) : Column
+				child : isLoading ? SpinKitChasingDots(color: Colors.blue, size: 50.0) : Column
 				(
 					mainAxisAlignment: MainAxisAlignment.center,
 					children:
@@ -518,7 +844,7 @@ class SignUpPage extends State<SignUp>
 						    color: Colors.red,
 						  ),
 						  _textMessageRegistration)
-						)  
+						) 
 					]
 				)
 			)
@@ -595,25 +921,19 @@ class AccountPage extends State<Account>
 		          ListTile(
 		            title: Text('Музеи'),
 		            onTap: () {
-		              // Действие при нажатии на кнопку 'Музеи'
+		              setState(() { widget.onPageChanged(3);});
 		            },
 		          ),
 		          ListTile(
 		            title: Text('Парки'),
 		            onTap: () {
-		              // Действие при нажатии на кнопку 'Парки'
+		              setState(() { widget.onPageChanged(4);});
 		            },
 		          ),
 		          ListTile(
 		            title: Text('Внешние объекты'),
 		            onTap: () {
-		              // Действие при нажатии на кнопку 'Внешки'
-		            },
-		          ),
-		          ListTile(
-		            title: Text('Отели'),
-		            onTap: () {
-		              // Действие при нажатии на кнопку 'Отели'
+		              setState(() { widget.onPageChanged(5);});
 		            },
 		          ),
 		          ListTile(
@@ -686,15 +1006,19 @@ class ProfilePage extends State<Profile>
 		        if (snapshot?.data?.values.toList().isEmpty ?? false) {
 		            print("UNFOUND");
 		            if (_currentIndex == 2)
-		            _currentIndex = 0;
+		            	_currentIndex = 0;
 		        } else {
 		            print("ABSOLUTELY FOUND");
-		            _currentIndex = 2;
+		            if (_currentIndex == 0 || _currentIndex == 1)
+		            	_currentIndex = 2;
 		        }
 		        final List<Widget> _pages = [
 		            SignIn(changePage),
 		            SignUp(changePage),
 		            Account(changePage),
+		            MuseumsList(changePage),
+		            ParksList(changePage),
+		            OutsList(changePage),
 		        ];    
 		        return _pages[_currentIndex];
 		    } else {
