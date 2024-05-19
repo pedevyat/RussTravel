@@ -1,9 +1,7 @@
 from logging.config import fileConfig
-from os import environ
-from models import users, labels
+from models import labels, users
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
-
 from alembic import context
 
 # this is the Alembic Config object, which provides
@@ -15,15 +13,10 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-
-section = config.config_ini_section
-config.set_section_option(section, "DB_USER", "russtravel")
-config.set_section_option(section, "DB_PASS", "russtravel")
-config.set_section_option(section, "DB_NAME", "russtravel")
-config.set_section_option(section, "DB_HOST", "localhost")
-
-fileConfig(config.config_file_name)
-
+# add your model's MetaData object here
+# for 'autogenerate' support
+# from myapp import mymodel
+# target_metadata = mymodel.Base.metadata
 target_metadata = [users.metadata, labels.metadata]
 
 # other values from the config, defined by the needs of env.py,

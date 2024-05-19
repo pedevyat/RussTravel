@@ -16,3 +16,8 @@ class UserBase(BaseModel):
 class UserAuth(BaseModel):
     email: EmailStr
     password: str
+
+class LabelCreate(BaseModel):
+    id: int
+    user_id: int
+    title: str
