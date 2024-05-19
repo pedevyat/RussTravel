@@ -34,7 +34,7 @@ class OutsidePoint extends Equatable {
   factory OutsidePoint.fromJson(Map<String, dynamic> json) {
     return OutsidePoint(
       id: 0,
-      name: json['name'] ?? json['tags']['name'] ?? '',
+      name: json['name'] ?? json['tags']['name'] ?? 'Смотровая площадка',
       latitude: json['latitude'].toDouble(),
       longitude: json['longitude'].toDouble(),
       photoUrl: json['photoUrl'] ?? 'https://cdn-icons-png.flaticon.com/512/4760/4760417.png',

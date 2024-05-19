@@ -745,10 +745,7 @@ class _ModalBodyViewM extends StatelessWidget {
             ),
             Image.network(
               point.photoUrl,
-              width: MediaQuery
-                  .of(context)
-                  .size
-                  .width,
+              width: 200,
               height: 200,
               fit: BoxFit.cover,
             ),

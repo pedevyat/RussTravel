@@ -696,12 +696,7 @@
     "longitude": 53.010441,
     "photoUrl": "https://sun9-71.userapi.com/impf/c624823/v624823647/cae8/RR9ZwMO4AK4.jpg?size=604x401&quality=96&sign=57d899b107500e17daaf18b83de9ef6d&type=album"
   },
-  {
-    "name": "Заброшенный поселок Рудник",
-    "latitude": 65.031667,
-    "longitude": 53.969167,
-    "photoUrl": "https://mywishboard.com/thumbs/wish/j/l/y/600x0_vvviqkzqtxxcsjvy_jpg_45eb.jpg"
-  },
+  
   {
     "name": "Памятный знак Голова Ленина",
     "latitude": 67.816646,
@@ -3132,12 +3127,6 @@
     "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/lotosnye-polya-700x454.jpg"
   },
   {
-    "name": "Озеро Баскунчак",
-    "latitude": 48.20229962500572,
-    "longitude": 46.880148997950684,
-    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ozero-baskunchak-700x466.jpg"
-  },
-  {
     "name": "Набережная Волги",
     "latitude": 46.288555224205346,
     "longitude": 47.951356326483584,
@@ -3226,7 +3215,168 @@
         "latitude": 44.4293199121189,
         "longitude": 34.09610473010883,
         "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Dvorets-Dyulber.jpg"
-    }
+    },
+	{
+  "type": "node",
+  "id": 430421489,
+  "latitude": 58.6017424,
+  "longitude": 49.6046500,
+  "tags": {
+    "name": "Геологический музей естественной истории",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 1585687249,
+  "latitude": 58.6017406,
+  "longitude": 49.6712730,
+  "tags": {
+    "addr:city": "Киров",
+    "addr:housenumber": "22",
+    "addr:postcode": "610000",
+    "addr:street": "Спасская улица",
+    "museum": "archaeological",
+    "name": "Вятский палеонтологический музей",
+    "name:en": "Vyatka Paleontological museum",
+    "opening_hours": "Mo-Sa 09:00-18:00",
+    "start_date": "1994.11.24",
+    "tourism": "museum",
+    "website": "https://suminia.com/",
+    "wikidata": "Q4130498",
+    "wikipedia": "ru:Вятский палеонтологический музей"
+  }
+},
+{
+  "type": "node",
+  "id": 3931149750,
+  "latitude": 58.6035569,
+  "longitude": 49.6783847,
+  "tags": {
+    "name": "Вятская кунсткамера",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4331512719,
+  "latitude": 58.6021556,
+  "longitude": 49.6648771,
+  "tags": {
+    "addr:city": "Киров",
+    "addr:housenumber": "71",
+    "addr:street": "улица Карла Либкнехта",
+    "contact:phone": "+7 8332 644743",
+    "contact:website": "www.kirov-artmuzeum.ru/vyistavochnyiy-zal.html",
+    "entrance": "main",
+    "name": "Выставочный зал",
+    "official_name": "Выставочный зал Вятского художественного музея им. В.М. и А.М. Васнецовых",
+    "opening_hours": "We, Fr-Su 10:00-18:00; Th 11:00-19:00",
+    "tourism": "museum",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6119629686,
+  "latitude": 58.6023871,
+  "longitude": 49.6840276,
+  "tags": {
+    "contact:email": "323-737@mail.ru",
+    "contact:facebook": "https://www.facebook.com/clubartiko/",
+    "contact:instagram": "https://www.instagram.com/museum_artico/",
+    "contact:phone": "+7 8332 323737",
+    "contact:vk": "https://vk.com/clubartiko",
+    "contact:website": "http://www.artico43.ru",
+    "name": "Музей истории мороженого \"Артико\"",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "operator": "ООО \"Артико\"",
+    "tourism": "museum",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 6119635785,
+  "latitude": 58.6028036,
+  "longitude": 49.6764810,
+  "tags": {
+    "name": "Музей Дымковской игрушки",
+    "tourism": "museum",
+    "website": "http://dymkatoy.ru"
+  }
+},
+{
+  "type": "node",
+  "id": 8567854817,
+  "latitude": 58.6020481,
+  "longitude": 49.6836810,
+  "tags": {
+    "email": "kraevedmuz@mail.ru",
+    "name": "Кировский Областной Краеведческий Музей",
+    "name:en": "Kirov Local History Museum",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+78332382868",
+    "tourism": "museum",
+    "website": "https://muzey43.ru/"
+  }
+},
+{
+  "type": "node",
+  "id": 8671261817,
+  "latitude": 58.6020598,
+  "longitude": 49.6834168,
+  "tags": {
+    "name": "Краеведческий музей",
+    "name:en": "Museum of local lore",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 9230878992,
+  "latitude": 58.6023553,
+  "longitude": 49.6834341,
+  "tags": {
+    "contact:email": "ledentsovo43@bk.ru",
+    "contact:instagram": "http://instagram.com/ledencovo43",
+    "contact:phone": "+7 8332 323322",
+    "contact:vk": "https://vk.com/ledencovo43",
+    "contact:website": "https://www.ledencovo43.ru/",
+    "name": "Музей истории карамели \"Леденцово\"",
+    "opening_hours": "Tu-Su 10:00-19:00",
+    "tourism": "museum",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9230878993,
+  "latitude": 58.6023518,
+  "longitude": 49.6830186,
+  "tags": {
+    "contact:email": "inform@vyatka-criollo.ru",
+    "contact:instagram": "https://www.instagram.com/criollo_chocolate/",
+    "contact:phone": "+7 8332 323323",
+    "contact:vk": "https://vk.com/club97429291",
+    "contact:website": "https://vyatka-criollo.ru/",
+    "name": "Музей истории шоколада \"Криолло\"",
+    "opening_hours": "Tu-Su 10:00-20:00",
+    "tourism": "museum",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 11883856792,
+  "latitude": 58.5230431,
+  "longitude": 49.4604446,
+  "tags": {
+    "museum": "history",
+    "name": "Подразделение по сохранению исторического наследия железной дороги станции Лянгасово",
+    "tourism": "museum"
+  }
+}
 	
 
 ]

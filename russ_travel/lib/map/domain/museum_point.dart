@@ -39,7 +39,7 @@ class MuseumPoint extends Equatable {
   factory MuseumPoint.fromJson(Map<String, dynamic> json) {
     return MuseumPoint(
       id: 0,
-      name: json['name'],
+      name: json['name'] ?? json['tags']['name'] ?? 'Музей',
       latitude: json['latitude'].toDouble(),
       longitude: json['longitude'].toDouble(),
       photoUrl: json['photoUrl'] ?? 'https://cdn-icons-png.flaticon.com/512/4760/4760417.png', // Получаем ссылку на фото из JSON
