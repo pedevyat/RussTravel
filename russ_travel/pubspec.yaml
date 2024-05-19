@@ -50,6 +50,7 @@ dependencies:
   flutter_map_supercluster: ^4.3.0
   glob: ^2.1.2
   connectivity: ^3.0.6
+  location: ^4.3.0
 
 dev_dependencies:
   flutter_test:
