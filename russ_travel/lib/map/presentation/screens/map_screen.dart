@@ -4,6 +4,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/flutter_map.dart' as fm;
 import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
 import 'package:connectivity/connectivity.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:latlong2/latlong.dart' as ll;
 
@@ -25,6 +26,7 @@ import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
 Future<bool> checkInternetConnectivity() async {
   var connectivityResult = await (Connectivity().checkConnectivity());
   return connectivityResult != ConnectivityResult.none;
@@ -40,16 +42,17 @@ class MapScreen extends StatefulWidget {
 class _MapScreenState extends State<MapScreen> {
   int _currentIndex = 0;
 
-  //var stringBox = await Hive.openBox<String>('museum');
-
   late final MapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<Marker>> _markersFuture;
+  LatLng? _currentPosition;
 
   @override
   void initState() {
     super.initState();
+    _mapController = MapController();
     _markersFuture = _getMarkers().then((value) => value as List<Marker>);
+    _determinePosition();
   }
 
   @override
@@ -64,6 +67,36 @@ class _MapScreenState extends State<MapScreen> {
     super.dispose();
   }
 
+  Future<void> _determinePosition() async {
+    bool serviceEnabled;
+    LocationPermission permission;
+
+    serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      // Location services are not enabled, return.
+      return;
+    }
+
+    permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+      if (permission == LocationPermission.denied) {
+        // Permissions are denied, return.
+        return;
+      }
+    }
+
+    if (permission == LocationPermission.deniedForever) {
+      // Permissions are denied forever, return.
+      return;
+    }
+
+    Position position = await Geolocator.getCurrentPosition();
+    setState(() {
+      _currentPosition = LatLng(position.latitude, position.longitude);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,10 +105,7 @@ class _MapScreenState extends State<MapScreen> {
         bottom: PreferredSize(
           preferredSize: Size.fromHeight(50.0),
           child: Container(
-            width: MediaQuery
-                .of(context)
-                .size
-                .width,
+            width: MediaQuery.of(context).size.width,
             color: Colors.blue, // Устанавливаем желаемый цвет blue для подложки
             child: CupertinoSegmentedControl(
               selectedColor: Colors.blue,
@@ -123,9 +153,10 @@ class _MapScreenState extends State<MapScreen> {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
             return FlutterMap(
+              mapController: _mapController,
               options: MapOptions(
-                center: LatLng(50, 20), // Начальные координаты центра карты
-                zoom: 3.0, // Начальный уровень масштабирования карты
+                center: _currentPosition ?? LatLng(50, 20), // Начальные координаты центра карты
+                zoom: _currentPosition != null ? 15.0 : 3.0, // Начальный уровень масштабирования карты
                 onPositionChanged: (position, _) {
                   setState(() {
                     _mapZoom = position.zoom!;
@@ -137,6 +168,23 @@ class _MapScreenState extends State<MapScreen> {
                   urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                   subdomains: ['a', 'b', 'c'],
                 ),
+                if (_currentPosition != null)
+                  MarkerLayer(
+                    markers: [
+                      Marker(
+                        width: 80.0,
+                        height: 80.0,
+                        point: _currentPosition!,
+                        builder: (ctx) => Container(
+                          child: Icon(
+                            Icons.my_location,
+                            color: Colors.blue,
+                            size: 40.0,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 SuperclusterLayer.immutable( // Replaces MarkerLayer
                   initialMarkers: snapshot.data!,
                   indexBuilder: IndexBuilders.rootIsolate,
