@@ -70,6 +70,6 @@ class Samarskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Samarskaya.txt');
+    return await rootBundle.loadString('assets/privolzhye/samarskaya.txt');
   }
 }

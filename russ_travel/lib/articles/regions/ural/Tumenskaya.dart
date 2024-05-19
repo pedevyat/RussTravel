@@ -70,6 +70,6 @@ class Tumenskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/ural/Tumenskaya.txt');
+    return await rootBundle.loadString('assets/ural/tumenskaya.txt');
   }
 }

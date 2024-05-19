@@ -70,6 +70,6 @@ class Tatarstan extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Tatarstan.txt');
+    return await rootBundle.loadString('assets/privolzhye/tatarstan.txt');
   }
 }

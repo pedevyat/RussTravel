@@ -70,6 +70,6 @@ class Nizhegorodskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Nizhegorodskaya.txt');
+    return await rootBundle.loadString('assets/privolzhye/nizhegorodskaya.txt');
   }
 }

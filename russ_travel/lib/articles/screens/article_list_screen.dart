@@ -194,7 +194,7 @@ class _ArticleListScreenState extends State<ArticleListScreen> {
     Article(title: "Краснодарский край", content: Krasnodar()),
     Article(title: "Республика Адыгея", content: Maikop()),
     Article(title: "Ростовская область: Новочеркасск", content: Novocherkassk()),
-    Article(title: "Ростовская область: Новороссийск", content: Novorossiysk()),
+    Article(title: "Краснодарский край: Новороссийск", content: Novorossiysk()),
     Article(title: "Ростовская область", content: Rostov()),
     Article(title: "Республика Крым: Симферополь", content: Semfiropol()),
     Article(title: "Севастополь", content: Sevastopol()),
