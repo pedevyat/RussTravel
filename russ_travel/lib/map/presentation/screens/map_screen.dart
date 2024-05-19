@@ -915,7 +915,7 @@ class _ModalBodyViewH extends StatelessWidget {
         Text(point.name, style: const TextStyle(fontSize: 20)),
         const SizedBox(height: 20),
         Text(
-            'Цена за сутки: от ${point.price} руб.',
+            '${point.price}',
             style: const TextStyle(
               fontSize: 16,
             )

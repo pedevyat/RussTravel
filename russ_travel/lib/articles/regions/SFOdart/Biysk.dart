@@ -70,6 +70,6 @@ class Byisk extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/SFO/Byisk.txt');
+    return await rootBundle.loadString('assets/SFO/Biysk.txt');
   }
 }

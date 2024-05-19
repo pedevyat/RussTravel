@@ -41,7 +41,7 @@ class HotelPoint extends Equatable {
   /// Создание объекта HotelPoint из JSON данных
   factory HotelPoint.fromJson(Map<String, dynamic> json) {
     return HotelPoint(
-      name: json['tags']['name'] ?? '',
+      name: json['tags']['name'] ?? 'Место проживания',
       latitude: json['lat'].toDouble(),
       longitude: json['lon'].toDouble(),
       phone: json['tags']['phone'] ?? '',
