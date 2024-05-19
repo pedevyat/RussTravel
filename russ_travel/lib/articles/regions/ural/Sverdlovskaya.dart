@@ -70,6 +70,6 @@ class Sverdlovskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/ural/Sverdlovskaya.txt');
+    return await rootBundle.loadString('assets/ural/sverdlovskaya.txt');
   }
 }

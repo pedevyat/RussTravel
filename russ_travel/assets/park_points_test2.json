@@ -328,6 +328,120 @@
         "latitude": 44.047674,
         "longitude": 43.084915,
         "photoUrl": "https://extraguide.ru/images/blog/2021/02-04-59r4sx-pyatigorskaya-kanatnaya-doroga.jpeg"
-    }
+    },
+	{
+    "name": "Дельта Волги (Астраханский заповедник)",
+    "latitude": 46.733523197343914,
+    "longitude": 47.850627567563116,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/delta-volgi-700x467.jpg"
+  },
+  {
+    "name": "Лотосовые поля",
+    "latitude": 46.234002878622526,
+    "longitude": 48.515624945561775,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/lotosnye-polya-700x454.jpg"
+  },
+  {
+    "name": "Озеро Баскунчак",
+    "latitude": 48.20229962500572,
+    "longitude": 46.880148997950684,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ozero-baskunchak-700x466.jpg"
+  },
+  {
+    "name": "Набережная Волги",
+    "latitude": 46.288555224205346,
+    "longitude": 47.951356326483584,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/naberezhnaya-volgi-700x463.jpg"
+  },
+  {
+    "name": "Иванчугский зоопарк «Баба Фрося»",
+    "latitude": 46.33797418156977,
+    "longitude": 48.04372974479523,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2018/10/ivanchugskij-zoopark-baba-frosya-700x467.jpg"
+  },
+  {
+    "name": "Озеро Сасык-Сиваш",
+    "latitude": 45.17838875662839,
+    "longitude": 33.51200152326964,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Ozero-Sasyk-Sivash.jpg"
+  },
+  {
+    "name": "Никитский ботанический сад",
+    "latitude": 44.511442321820844,
+    "longitude": 34.232012123992114,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Nikitskiy-botanicheskiy-sad.jpg"
+  },
+  {
+    "name": "Мраморная пещера",
+    "latitude": 44.797151971070896,
+    "longitude": 34.27937873991333,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Mramornaya-peschera-1536x1024.jpg"
+  },
+  {
+    "name": "Пещерный город Чуфут-Кале",
+    "latitude": 44.74132946506895,
+    "longitude": 33.92311446874689,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Peschernyy-gorod-CHufut-Kale-1536x1025.jpg"
+  },
+  {
+    "name": "Парк «Айвазовское»",
+    "latitude": 44.58276479344546,
+    "longitude": 34.34416169356639,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Park-Ayvazovskoe-1536x1024.jpg"
+  },
+  {
+    "name": "Тропа Голицына",
+    "latitude": 44.82276833162597,
+    "longitude": 34.91857804361729,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Tropa-Golitsyna-1536x1025.jpg"
+  },
+  {
+    "name": "Большая Митридатская лестница",
+    "latitude": 45.35355285002461,
+    "longitude": 36.47085432644418,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Bolshaya-Mitridatskaya-lestnitsa.jpg"
+  },
+  {
+    "name": "Сафари-парк «Тайган»",
+    "latitude": 45.0338559516359,
+    "longitude": 34.56553954547747,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Safari-park-Taygan-1536x1023.jpg"
+  },
+  {
+    "name": "МДЦ «Артек»",
+    "latitude": 44.55100982542518,
+    "longitude": 34.2986109705904,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/MDTS-Artek-1536x1024.jpg"
+  },
+  {
+    "name": "Карадагский природный заповедник",
+    "latitude": 44.93410911474237,
+    "longitude": 35.223314139919026,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Karadagskiy-prirodnyy-zapovednik.jpg"
+  },
+  {
+    "name": "Водопад Джур-Джур",
+    "latitude": 44.805059768705505,
+    "longitude": 34.459444197585505,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Vodopad-Dzhur-Dzhur-1536x1023.jpg"
+  },
+  {
+    "name": "Лавандовые поля в Тургеневке",
+    "latitude": 44.69704958602002,
+    "longitude": 33.83193118408875,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Lavandovye-polya-v-Turgenevke-1536x1024.jpg"
+  },
+  {
+    "name": "Долина привидений",
+    "latitude": 44.7480029897846,
+    "longitude": 34.40707226022309,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Dolina-privideniy-1536x1025.jpg"
+  },
+  {
+    "name": "Кояшское озеро",
+    "latitude": 45.051440813590126,
+    "longitude": 36.182081796248674,
+    "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Koyashskoe-ozero-1536x1023.jpg"
+  }
 		
 ]

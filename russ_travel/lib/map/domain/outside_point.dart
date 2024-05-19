@@ -34,10 +34,10 @@ class OutsidePoint extends Equatable {
   factory OutsidePoint.fromJson(Map<String, dynamic> json) {
     return OutsidePoint(
       id: 0,
-      name: json['name'],
+      name: json['name'] ?? json['tags']['name'] ?? '',
       latitude: json['latitude'].toDouble(),
       longitude: json['longitude'].toDouble(),
-      photoUrl: json['photoUrl'],
+      photoUrl: json['photoUrl'] ?? '',
     );
   }
 }
