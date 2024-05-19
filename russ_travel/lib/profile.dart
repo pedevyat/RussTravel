@@ -498,7 +498,7 @@ class SignInPage extends State<SignIn>
             								width : 2.0,
           								),
           							),
-									hintText : 'Введите ваш логин...',
+									hintText : 'Введите ваш email...',
 									contentPadding: EdgeInsets.symmetric(horizontal: 20),
 									),
 									onChanged: (value) {
