@@ -70,6 +70,6 @@ class Chelyabinskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/ural/Chelyabinskaya.txt');
+    return await rootBundle.loadString('assets/ural/chelyabinskaya.txt');
   }
 }

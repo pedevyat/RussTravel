@@ -16,7 +16,7 @@ class Samarskaya extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://www.bmrz-zakharov.narod.ru/image/zhigulevsk.jpg',
+                    'https://optim.tildacdn.com/tild6662-3235-4965-b238-643031363830/-/resize/824x/-/format/webp/shutterstock_1870010.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),
@@ -70,6 +70,6 @@ class Samarskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Samarskaya.txt');
+    return await rootBundle.loadString('assets/privolzhye/samarskaya.txt');
   }
 }

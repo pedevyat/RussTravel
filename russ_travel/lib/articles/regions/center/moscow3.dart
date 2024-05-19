@@ -16,7 +16,7 @@ class Moscow3 extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://xn--80aaacfpel4cc2n3b.xn--80adxhks/blog/samyye_poseshchayemyye_mesta_v_moskve_39_IS.jpg',
+                    'https://cdn.tripster.ru/thumbs2/4bdc50b6-82c2-11ee-aeeb-bacb0497e01f.1220x600.jpeg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),

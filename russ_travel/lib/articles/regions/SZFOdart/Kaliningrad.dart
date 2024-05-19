@@ -17,7 +17,7 @@ class Kaliningrad extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://trip4you.ru/wp-content/uploads/2023/12/interesnye-mesta-v-kaliningrade-o-kotoryh-malo-kto-znaet.jpg',
+                    'https://cdn.tripster.ru/thumbs2/f33768f6-49fa-11ee-a338-4a562d065b03.1220x600.jpeg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),

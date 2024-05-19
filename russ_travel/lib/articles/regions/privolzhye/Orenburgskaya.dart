@@ -70,6 +70,6 @@ class Orenburgskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Orenburgskaya.txt');
+    return await rootBundle.loadString('assets/privolzhye/orenburgskaya.txt');
   }
 }

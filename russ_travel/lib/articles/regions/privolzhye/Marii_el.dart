@@ -16,7 +16,7 @@ class Marii_el extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://metr12.ru/uploads/posts/2021-12/1639382636_1483154_original.jpg',
+                    'https://cdn2.tu-tu.ru/image/pagetree_node_data/1/241f78870001d5ecbeddba1648699185/',
                     height: 200,
                     fit: BoxFit.cover,
                   ),
@@ -70,6 +70,6 @@ class Marii_el extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Marii_el.txt');
+    return await rootBundle.loadString('assets/privolzhye/marii_el.txt');
   }
 }

@@ -17,7 +17,7 @@ class Tynda extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://историческийбагаж.рф/static/city/7782-8110.png',
+                    'https://invest.amurobl.ru/upload/iblock/038/l70rspl84c5ssqf5jtjsjtofv20bgj5a/G-Tynda-_1_.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),

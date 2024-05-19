@@ -887,8 +887,18 @@
         "longitude": 43.08307,
         "photoUrl": "https://sun9-59.userapi.com/impg/bIeLlrn6gA_mgS8MUf3WgSuk-VIjSw5kEtIyaw/CdPKCb6mNwg.jpg?size=604x340&quality=95&sign=b071125d78868337dbf58a08fe97119e&type=album"
     },
-
-
+    {
+        "name": "Провал",
+        "latitude": 44.046672,
+        "longitude": 43.098839,
+        "photoUrl": "https://stihi.ru/pics/2021/08/22/5436.jpg"
+    },
+    {
+        "name": "Курортный парк",
+        "latitude": 43.894141,
+        "longitude": 42.725039,
+        "photoUrl": "https://kstrip.ru/wp-content/uploads/2021/07/2981769.jpg"
+    },
     {
         "name": "Нижний парк",
         "latitude": 43.896675,
@@ -919,7 +929,12 @@
         "longitude": 43.081792,
         "photoUrl": "https://static.guidego.ru/6192b7ee14e827504c4600ad.640x480.jpeg"
     },
-   
+    {
+        "name": "Ессентукский курортный парк",
+        "latitude": 44.046423,
+        "longitude": 42.864104,
+        "photoUrl": "https://ifs.cook-time.com/preview/img914/914964.jpg"
+    },
     {
         "name": "Курортный парк Железноводска",
         "latitude": 44.140371,
@@ -1128,7 +1143,7 @@
         "name": "Дальневосточный морской заповедник",
         "latitude": 42.936010,
         "longitude": 131.728059,
-        "photoUrl": "https://visit-primorye.ru/upload/resize_cache/webp/iblock/319/ID_15136892_Dmitri_Zakovorotny_Dreamstime.com.webp"
+        "photoUrl": "http://rasfokus.ru/photoUrls/photos/medium/e3773c07642e0f6d832d7a77f87fdfe6.jpg"
     },
     {
         "name": "Ленские столбы",
@@ -1320,7 +1335,7 @@
         "name": "Баргузинский государственный природный биосферный заповедник имени К.А. Забелина",
         "latitude": 53.399136,
         "longitude": 109.0205,
-        "photoUrl": "https://fanatbaikala.ru/wp-content/uploads/2015/12/bukhta-Sosnovka-Barguzinskijj-zapovednik-e1450020824765.jpg"
+        "photoUrl": "https://mineralogist.club/uploads/posts/2023-06/1686114942_mineralogist-club-p-dzherginskii-zapovednik-buryatiya-krasivo-47.jpg"
     },
     {
         "name": "Ключевская Сопка",
@@ -1365,6 +1380,12 @@
         "photoUrl": "https://i.pinimg.com/originals/97/11/0a/97110a8e5cc199036988a2e66690a5be.jpg"
     },
     {
+        "name": "Остров Талан",
+        "latitude": 59.311009,
+        "longitude": 149.082365,
+        "photoUrl": "https://magadanpravda.ru/photoUrls/2022/oktabr_2022/29.10.2022/TaLaN_10.29.2022.jpg"
+    },
+    {
         "name": "Приморский Сафари-парк — Приморский край",
         "latitude": 43.324921,
         "longitude": 132.404171,
@@ -1392,7 +1413,7 @@
         "name": "Остров Монерон",
         "latitude": 46.254633,
         "longitude": 141.232105,
-        "photoUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/e6/d9/f5/caption.jpg?w=1200&h=1200&s=1"
+        "photoUrl": "https://www.airpano.ru/files/moneron-island/photoUrls/photoUrl5.jpg"
     },
     {
         "name": "Остров Тюленей",
@@ -1520,8 +1541,8 @@
     {"name": "Парк победы", "latitude": 60.932465, "longitude": 76.564822, "photoUrl": "https://kurgan.bezformata.com/content/image417930070.jpg"},
     {"name": "ПКиО", "latitude": 56.38328505809856, "longitude": 61.97519984788508, "photoUrl": "https://kamensk-uralskiy.ru/uploads/filemanager/ff/ffcb045a30cc89c64dfd9ffe7321f4cb87ec96b83a05ed5369edbb747b89571f7_300x200.jpg"},
     {"name": "Разгуляевский лесопарк", "latitude": 56.40626238246093, "longitude": 61.91753674063027, "photoUrl": "https://avatars.mds.yandex.net/get-altay/3767262/2a00000175d65fe49697e1b91d329505c271/M"},
-    {"name": "Гора Косотур", "latitude": 55.186291, "longitude": 59.691232, "photoUrl": "https://nashural.ru/assets/uploads/Gora-Kosotur-1.jpg"},
-    {"name": "бульвар Мира", "latitude": 55.05069855594692, "longitude": 60.10626176602715, "photoUrl": "https://rutraveller.ru/icache/place/1/773/072/177372_603x354.jpg"},
+    {"name": "Крылатко", "latitude": 55.14792389476495, "longitude": 59.67162652472473, "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipNYkdhdinQe2ZAEaC3U1nAJN7Xr5crT7pxe7SXD=h100"},
+    {"name": "Крылатко", "latitude": 55.05069855594692, "longitude": 60.10626176602715, "photoUrl": "https://lh3.googleusercontent.com/p/AF1QipNYkdhdinQe2ZAEaC3U1nAJN7Xr5crT7pxe7SXD=h100"},
 	  {
     "name": "Югыд Ва",
     "latitude": 63.9690289,
@@ -2039,6 +2060,12 @@
         "photoUrl": "https://lemurtour.ru/wp-content/uploads/prirodnyj-fontan-v-d-meglecy.jpg"
     },
     {
+        "name": "Парк-усадьба Горки",
+        "latitude": 54.283234,
+        "longitude": 30.995111,
+        "photoUrl": "https://sun9-2.userapi.com/impg/O_sReI5I022VVmo9-1UHgTdKGk0nLlz1ns6mPA/YLh1NKPA51Q.jpg?size=604x396&quality=95&sign=86413e04c76441a6d24d1335a497c15e&c_uniq_tag=vlgsfRSOLvegJayMv6PbEzXx76t1fOAf15BzgaYQrjQ&type=album"
+    },
+    {
         "name": "Маловишерский лес",
         "latitude": 58.839277,
         "longitude": 32.186398,
@@ -2248,7 +2275,12 @@
     "longitude": 95.242778,
     "photoUrl": "https://chashka4l.ru/_nw/0/14251362.jpg"
   },
-
+      {
+        "name": "Гинкго Парк",
+        "latitude": 47.401337,
+        "longitude": 40.071135,
+        "photoUrl": "https://xn----etbfmiekefsq6k.xn--p1ai/wp-content/uploads/novocherkassk-dostoprimechatelnosti-na-karte-foto-chto-posmotret-razvlecheniya-kuda-shodit17.jpg"
+    },
     {
         "name": "Парк «Малинки»",
         "latitude": 47.745672,
@@ -2291,7 +2323,12 @@
         "longitude": 39.618411,
         "photoUrl": "https://voicedaily.ru/wp-content/uploads/2022/10/whatsapp-image-2022-10-25-at-12.46.09.jpeg"
     },
-
+    {
+        "name": "Заповедник «Золотые горки»",
+        "latitude": 47.441969,
+        "longitude": 40.390649,
+        "photoUrl": "https://southklad.ru/forum/thumb/73944.jpg"
+    },
     {
         "name": "Природный парк Цимлянские пески",
         "latitude": 48.169465,
@@ -2871,6 +2908,27 @@
     "latitude": 45.051440813590126,
     "longitude": 36.182081796248674,
     "photoUrl": "https://must-see.top/wp-content/uploads/2022/03/Koyashskoe-ozero-1536x1023.jpg"
+  },
+  {
+  "type": "node",
+  "id": 6435849696,
+  "latitude": 58.6099010,
+  "longitude": 49.6862216,
+  "tags": {
+    "addr:city": "Киров",
+    "description": "На набережной Грина высадили 20 лип. Каждому дереву на этой аллее присвоено имя телеканала из двух мультиплексов цифрового эфирного телевидения.  Акция состоялась  в 20 регионах России, которые с 15 апреля  переходят на цифровое вещание. ",
+    "leisure": "park",
+    "name": "Телеаллея"
   }
-
+},
+{
+  "type": "node",
+  "id": 7948894350,
+  "latitude": 58.6142673,
+  "longitude": 49.6376337,
+  "tags": {
+    "leisure": "park",
+    "name": "Сквер памяти жертв 1905-07 года"
+  }
+}
 ]

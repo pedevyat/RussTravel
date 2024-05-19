@@ -16,7 +16,7 @@ class Milkovo extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://cdn.culture.ru/images/86cc484d-51be-56de-8b0d-8e44594f5f0f',
+                    'https://kamchatkaland.ru/upload/images/putevoditel/milkovo/milkovo1.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),

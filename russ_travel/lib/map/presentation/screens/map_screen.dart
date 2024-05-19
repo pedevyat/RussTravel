@@ -3,11 +3,14 @@ import 'dart:convert';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/flutter_map.dart' as fm;
 import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
+import 'package:connectivity/connectivity.dart';
+import 'package:geolocator/geolocator.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:latlong2/latlong.dart' as ll;
 
 import 'backend.dart';
 
+import 'package:http/http.dart' as http;
 import 'package:hive/hive.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -23,6 +26,12 @@ import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+
+Future<bool> checkInternetConnectivity() async {
+  var connectivityResult = await (Connectivity().checkConnectivity());
+  return connectivityResult != ConnectivityResult.none;
+}
+
 class MapScreen extends StatefulWidget {
   const MapScreen({Key? key}) : super(key: key);
 
@@ -33,16 +42,17 @@ class MapScreen extends StatefulWidget {
 class _MapScreenState extends State<MapScreen> {
   int _currentIndex = 0;
 
-  //var stringBox = await Hive.openBox<String>('museum');
-
   late final MapController _mapController;
   double _mapZoom = 0.0;
   late Future<List<Marker>> _markersFuture;
+  LatLng? _currentPosition;
 
   @override
   void initState() {
     super.initState();
+    _mapController = MapController();
     _markersFuture = _getMarkers().then((value) => value as List<Marker>);
+    _determinePosition();
   }
 
   @override
@@ -57,6 +67,36 @@ class _MapScreenState extends State<MapScreen> {
     super.dispose();
   }
 
+  Future<void> _determinePosition() async {
+    bool serviceEnabled;
+    LocationPermission permission;
+
+    serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      // Location services are not enabled, return.
+      return;
+    }
+
+    permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+      if (permission == LocationPermission.denied) {
+        // Permissions are denied, return.
+        return;
+      }
+    }
+
+    if (permission == LocationPermission.deniedForever) {
+      // Permissions are denied forever, return.
+      return;
+    }
+
+    Position position = await Geolocator.getCurrentPosition();
+    setState(() {
+      _currentPosition = LatLng(position.latitude, position.longitude);
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,10 +105,7 @@ class _MapScreenState extends State<MapScreen> {
         bottom: PreferredSize(
           preferredSize: Size.fromHeight(50.0),
           child: Container(
-            width: MediaQuery
-                .of(context)
-                .size
-                .width,
+            width: MediaQuery.of(context).size.width,
             color: Colors.blue, // Устанавливаем желаемый цвет blue для подложки
             child: CupertinoSegmentedControl(
               selectedColor: Colors.blue,
@@ -116,9 +153,10 @@ class _MapScreenState extends State<MapScreen> {
             return Center(child: Text('Error: ${snapshot.error}'));
           } else {
             return FlutterMap(
+              mapController: _mapController,
               options: MapOptions(
-                center: LatLng(50, 20), // Начальные координаты центра карты
-                zoom: 3.0, // Начальный уровень масштабирования карты
+                center: _currentPosition ?? LatLng(50, 20), // Начальные координаты центра карты
+                zoom: _currentPosition != null ? 15.0 : 3.0, // Начальный уровень масштабирования карты
                 onPositionChanged: (position, _) {
                   setState(() {
                     _mapZoom = position.zoom!;
@@ -130,6 +168,23 @@ class _MapScreenState extends State<MapScreen> {
                   urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                   subdomains: ['a', 'b', 'c'],
                 ),
+                if (_currentPosition != null)
+                  MarkerLayer(
+                    markers: [
+                      Marker(
+                        width: 80.0,
+                        height: 80.0,
+                        point: _currentPosition!,
+                        builder: (ctx) => Container(
+                          child: Icon(
+                            Icons.my_location,
+                            color: Colors.blue,
+                            size: 40.0,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 SuperclusterLayer.immutable( // Replaces MarkerLayer
                   initialMarkers: snapshot.data!,
                   indexBuilder: IndexBuilders.rootIsolate,
@@ -299,6 +354,7 @@ Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
     final jsonString = await rootBundle.loadString('assets/museum_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<Marker> markers = [];
+    var musbox = await Hive.openBox('museumBox');
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = MuseumPoint.fromJson(pointsData[i]);
@@ -321,7 +377,11 @@ Future<List<fm.Marker>> _getMuseumMarkers(BuildContext context) async {
             child: Container(
               width: 40.0,
               height: 40.0,
-              child: Image.asset('assets/museum.png'),
+              child: 
+              Opacity(
+		  opacity: (musbox.containsKey(point.id)) ? 0.3 : 1,
+		  child: Image.asset('assets/museum.png'),
+		),
             ),
           ),
         ),
@@ -378,6 +438,7 @@ Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
     final jsonString = await rootBundle.loadString('assets/park_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<fm.Marker> markers = [];
+    var parksbox = await Hive.openBox('parkBox');
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = ParkPoint.fromJson(pointsData[i]);
@@ -400,7 +461,11 @@ Future<List<fm.Marker>> _getParkMarkers(BuildContext context) async {
             child: Container(
               width: 40.0,
               height: 40.0,
-              child: Image.asset('assets/trees.png'),
+              child:
+              Opacity(
+		  opacity: (parksbox.containsKey(point.id)) ? 0.3 : 1,
+		  child: Image.asset('assets/trees.png'),
+		),
             ),
           ),
         ),
@@ -418,6 +483,7 @@ Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
     final jsonString = await rootBundle.loadString('assets/out_points.json');
     List<dynamic> pointsData = json.decode(jsonString);
     List<fm.Marker> markers = [];
+    var outbox = await Hive.openBox('outsideBox');
 
     for (int i = 0; i < pointsData.length; i++) {
       final point = OutsidePoint.fromJson(pointsData[i]);
@@ -440,7 +506,11 @@ Future<List<fm.Marker>> _getOutsideMarkers(BuildContext context) async {
             child: Container(
               width: 40.0,
               height: 40.0,
-              child: Image.asset('assets/binoculars.png'),
+              child:
+              Opacity(
+		  opacity: (outbox.containsKey(point.id)) ? 0.3 : 1,
+		  child: Image.asset('assets/binoculars.png'),
+		),
             ),
           ),
         ),
@@ -519,10 +589,79 @@ class _ModalBodyViewP extends StatelessWidget {
                 icon: Icon(Icons.star),
                 onPressed: () async {
                   var box = await Hive.openBox('parkBox');
-                  if (box.containsKey(point.id))
-                    box.delete(point.id);
+                  var userData = await Hive.openBox('UserData');
+                  bool isConnected = await checkInternetConnectivity();
+                  if (userData.isEmpty)
+                  {
+                  	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Необходимо авторизоваться или зарегистрировать новый аккаунт..."),
+			      ),
+			    );
+                  }
                   else
-                    box.put(point.id, point.id);
+                  {
+		          if (isConnected)
+		          {
+				  if (box.containsKey(point.id))
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/delete-park?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+				      headers: {
+			      			'accept': 'application/json',
+			    		},
+				    );
+				    if (response.statusCode == 200) box.delete(point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+					),
+				      );
+				  }
+				  else
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/add-park'),
+				      headers: {
+			      			'accept': 'application/json',
+			      			'Content-Type': 'application/json',
+			    		},
+			    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+				    );
+				    if (response.statusCode == 200) box.put(point.id, point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+					),
+				      );
+				  }
+			  }
+			  else 
+		          {
+		          	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+				      ),
+				    );
+		          }
+                  }
+		  Navigator.pop(context);
                 },
               ),
             ),
@@ -576,20 +715,85 @@ class _ModalBodyViewM extends StatelessWidget {
                 icon: Icon(Icons.star),
                 onPressed: () async {
                   var box = await Hive.openBox('museumBox');
-                  if (box.containsKey(point.id))
-                    box.delete(point.id);
+                  var userData = await Hive.openBox('UserData');
+                  bool isConnected = await checkInternetConnectivity();
+                  if (userData.isEmpty)
+                  {
+                  	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Необходимо авторизоваться или зарегистрировать новый аккаунт..."),
+			      ),
+			    );
+                  }
                   else
-                    box.put(point.id, point.id);
+                  {
+		          if (isConnected)
+		          {
+				  if (box.containsKey(point.id))
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/delete-museum?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+				      headers: {
+			      			'accept': 'application/json',
+			    		},
+				    );
+				    if (response.statusCode == 200) box.delete(point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+					),
+				      );
+				  }
+				  else
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/add-museum'),
+				      headers: {
+			      			'accept': 'application/json',
+			      			'Content-Type': 'application/json',
+			    		},
+			    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+				    );
+				    if (response.statusCode == 200) box.put(point.id, point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+				      ),
+				    );
+				  }
+		          }
+		          else 
+		          {
+		          	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+				      ),
+				    );
+		          }
+		}
                   Navigator.pop(context);
                 },
               ),
             ),
             Image.network(
               point.photoUrl,
-              width: MediaQuery
-                  .of(context)
-                  .size
-                  .width,
+              width: 200,
               height: 200,
               fit: BoxFit.cover,
             ),
@@ -622,6 +826,8 @@ class _ModalBodyViewO extends StatelessWidget {
     SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
+    
+    //print("Point ID : " + point.id);
 
     return SingleChildScrollView(
       child: Padding(
@@ -635,11 +841,79 @@ class _ModalBodyViewO extends StatelessWidget {
                 icon: Icon(Icons.star),
                 onPressed: () async {
                   var box = await Hive.openBox('outsideBox');
-                  if (box.containsKey(point.id))
-                    box.delete(point.id);
+                  var userData = await Hive.openBox('UserData');
+                  bool isConnected = await checkInternetConnectivity();
+                  if (userData.isEmpty)
+                  {
+                  	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Необходимо авторизоваться или зарегистрировать новый аккаунт..."),
+			      ),
+			    );
+                  }
                   else
-                    box.put(point.id, point.id);
-                  //point.isVisited = !point.isVisited;
+                  {
+		          if (isConnected)
+		          {
+				  if (box.containsKey(point.id))
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/delete-out?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+				      headers: {
+			      			'accept': 'application/json',
+			    		},
+				    );
+				    if (response.statusCode == 200) box.delete(point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+					),
+				      );
+		          }
+		          else
+		          {
+		            final response = await http.post(
+			      Uri.parse('https://russ-travel.onrender.com/add-out'),
+			      headers: {
+		      			'accept': 'application/json',
+		      			'Content-Type': 'application/json',
+		    		},
+		    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+			    );
+			    if (response.statusCode == 200) box.put(point.id, point.id);
+			    else
+			    {
+			    	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Проблемы с подключением к сети..."),
+				),
+			      );
+			    }
+		            ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+				),
+			      );
+		          }
+		          }
+			  else 
+		          {
+		          	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+				      ),
+				    );
+		          }
+		}
+                  Navigator.pop(context);
                 },
               ),
             ),
@@ -684,9 +958,16 @@ class _ModalBodyViewH extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 40),
       child: Column(mainAxisSize: MainAxisSize.min, children: [
         Text(point.name, style: const TextStyle(fontSize: 20)),
-        const SizedBox(height: 20),
+        const SizedBox(height: 10),
         Text(
-            'Цена за сутки: от ${point.price} руб.',
+          '${point.description}',
+            style: const TextStyle(
+              fontSize: 14,
+              color: Colors.blueGrey,
+            )
+        ),
+        Text(
+            '${point.price}',
             style: const TextStyle(
               fontSize: 16,
             )
@@ -731,4 +1012,3 @@ class _ModalBodyViewH extends StatelessWidget {
     }
   }
 }
-

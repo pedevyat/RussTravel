@@ -70,6 +70,6 @@ class Mordoviya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Mordoviya.txt');
+    return await rootBundle.loadString('assets/privolzhye/mordoviya.txt');
   }
 }

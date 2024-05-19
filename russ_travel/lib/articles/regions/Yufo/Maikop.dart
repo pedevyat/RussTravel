@@ -71,6 +71,6 @@ class Maikop extends StatelessWidget {
 
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/Yufo/Maikopr.txt');
+    return await rootBundle.loadString('assets/Yufo/Maikop.txt');
   }
 }

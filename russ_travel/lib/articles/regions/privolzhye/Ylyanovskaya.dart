@@ -16,7 +16,7 @@ class Ylyanovskaya extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
                   Image.network(
-                    'https://arxiteka.ru/gallery_gen/a652120b1a16c0d9e094e928f820c7f5.jpg',
+                    'https://opis-cdn.tinkoffjournal.ru/mercury/main___ulianovsk___shutterstock_1174048054.rq53slxmliyd.jpg',
                     height: 200,
                     fit: BoxFit.cover,
                   ),
@@ -70,6 +70,6 @@ class Ylyanovskaya extends StatelessWidget {
   }
 
   Future<String> loadDescription() async {
-    return await rootBundle.loadString('assets/privolzhye/Ylyanovskaya.txt');
+    return await rootBundle.loadString('assets/privolzhye/ylyanovskaya.txt');
   }
 }
