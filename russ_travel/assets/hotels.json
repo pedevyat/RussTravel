@@ -16702,7 +16702,8 @@
   "lon": 34.3552578,
   "tags": {
     "name": "Отель \"Граф Толстой\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hoteltolstoy.ru/"
   }
 },
 {
@@ -16711,7 +16712,8 @@
   "lat": 53.3126965,
   "lon": 34.2870617,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelboston.ru/"
   }
 },
 {
@@ -16769,7 +16771,8 @@
     "addr:housenumber": "2",
     "addr:street": "Пролетарская улица",
     "internet_access": "wlan",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://oten32.ru/"
   }
 },
 {
@@ -16779,7 +16782,8 @@
   "lon": 34.2822611,
   "tags": {
     "name": "Grand hotel Bezhitsa",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://bezhitsa.com/"
   }
 },
 {
@@ -16803,7 +16807,8 @@
   "lat": 53.2666794,
   "lon": 34.2795851,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (961) 101-39-29"
   }
 },
 {
@@ -16813,7 +16818,8 @@
   "lon": 34.3136960,
   "tags": {
     "name": "Русь",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rest-rus32.ru/"
   }
 },
 {
@@ -16834,7 +16840,8 @@
     "internet_access": "wlan",
     "internet_access:fee": "customers",
     "name": "Венеция",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-venezia32.ru/"
   }
 },
 {
@@ -16862,7 +16869,8 @@
     "addr:housenumber": "с1",
     "addr:street": "улица Николая Королёва",
     "name": "Гостиница Спортивная, блок 5Г",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://dvorec-edinoborstv.ru/gostinica/"
   }
 },
 {
@@ -16882,7 +16890,8 @@
   "lon": 32.0769248,
   "tags": {
     "name": "Медлен",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/smolensk/medlen/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -16892,7 +16901,8 @@
   "lon": 32.0520487,
   "tags": {
     "name": "Уют",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/smolensk-oblast/motel-uiut/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -16916,7 +16926,8 @@
   "lon": 32.0357672,
   "tags": {
     "name": "Гостиница Патриот",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/smolensk/patriot/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -16927,7 +16938,8 @@
   "tags": {
     "internet_access": "wlan",
     "name": "Вилла Роща",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://xn--80aaeypawp6f.xn--p1ai/"
   }
 },
 {
@@ -17041,7 +17053,8 @@
   "lon": 32.0283558,
   "tags": {
     "name": "Смоленск гостиница",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.smolensk-hotel.ru/"
   }
 },
 {
@@ -17052,7 +17065,8 @@
   "tags": {
     "name": "АртБарин",
     "name:en": "ArtBarin",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://artbarin.ru/"
   }
 },
 {
@@ -17063,7 +17077,8 @@
   "tags": {
     "name": "АртБарин",
     "name:en": "ArtBarin",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://artbarin.ru/"
   }
 },
 {
@@ -17099,7 +17114,8 @@
   "tags": {
     "name": "Гостиница \"Квань\"",
     "operator": "Спортивно-развлекательный комплекс \"Квань\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://shop.kwan-park.com/"
   }
 },
 {
@@ -17143,7 +17159,8 @@
   "lon": 36.2436509,
   "tags": {
     "name": "На Дворянской",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kd-kaluga.ru/"
   }
 },
 {
@@ -17223,7 +17240,8 @@
   "tags": {
     "internet_access": "wlan",
     "name": "Прибрежная",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://pribrezhnaya-hotel.ru/"
   }
 },
 {
@@ -17235,7 +17253,8 @@
     "name": "Беси Вестерн Калуга",
     "name:en": "Best Western Kaluga",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.bwkaluga.ru/"
   }
 },
 {
@@ -17271,7 +17290,8 @@
   "lon": 36.6614287,
   "tags": {
     "name": "Балабаново",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/balabanovo/gostinitsa-balabanovo/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -17280,7 +17300,8 @@
   "lat": 55.0122565,
   "lon": 36.4724263,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/maloyaroslavets/hotel-1812/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -17290,7 +17311,8 @@
   "lon": 36.4800918,
   "tags": {
     "name": "Жемчужина",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn----8sbhjebolvmz5b1c.xn--p1ai/"
   }
 },
 {
@@ -17300,7 +17322,8 @@
   "lon": 36.6779074,
   "tags": {
     "name": "Нух",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://balabanovo-hotel.ru/"
   }
 },
 {
@@ -17374,7 +17397,8 @@
   "lon": 35.8321097,
   "tags": {
     "name": "Гостиничный корпус № 8",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://optina.ru/"
   }
 },
 {
@@ -17486,7 +17510,8 @@
     "addr:housenumber": "24",
     "addr:street": "Октябрьская улица",
     "name": "Сатурн",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/rossiya/tula/saturn_2?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom_1065511036_bronirovat"
   }
 },
 {
@@ -17507,7 +17532,8 @@
   "lon": 37.7073742,
   "tags": {
     "name": "Металлург",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "8 (800) 200-78-17"
   }
 },
 {
@@ -17676,7 +17702,8 @@
   "lat": 54.1985109,
   "lon": 37.6342314,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gostevoydom-tula.ru/"
   }
 },
 {
@@ -17686,7 +17713,8 @@
   "lon": 37.5819566,
   "tags": {
     "name": "Саяны",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sayany-tula.ru/"
   }
 },
 {
@@ -17724,7 +17752,8 @@
   "lon": 37.5830322,
   "tags": {
     "name": "Морган",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn--80aahuatlg1akem0b.xn--p1ai/"
   }
 },
 
@@ -23490,7 +23519,8 @@
   "lat": 52.3930467,
   "lon": 38.9198135,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://zadonsk.su/"
   }
 },
 {
@@ -23502,7 +23532,8 @@
     "addr:housenumber": "88/17",
     "addr:street": "улица Мира",
     "name": "Базилик",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/yelets/bazilik/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -23515,7 +23546,8 @@
     "addr:street": "Советская улица",
     "name": "Лада",
     "name:ru": "Лада",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://ladahotel-elets.ru/"
   }
 },
 {
@@ -23577,7 +23609,8 @@
   "lon": 39.5957729,
   "tags": {
     "name": "Жемчуг",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/lipetsk/park-otel/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -23587,7 +23620,8 @@
   "lon": 39.5791068,
   "tags": {
     "name": "Марафон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://marafon48.ru/"
   }
 },
 {
@@ -23612,7 +23646,8 @@
   "lon": 39.5891203,
   "tags": {
     "name": "Советская",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://soveckaya.ru/"
   }
 },
 {
@@ -23661,7 +23696,8 @@
   "lon": 39.4576638,
   "tags": {
     "name": "Распутье",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rasputye.ru/"
   }
 },
 {
@@ -23691,7 +23727,8 @@
   "lon": 39.6337883,
   "tags": {
     "name": "Эльвира",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/rossiya/ryazan/elvira?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom2_1131713610_bronirovat"
   }
 },
 {
@@ -23731,7 +23768,8 @@
   "lon": 39.7642703,
   "tags": {
     "name": "Сакура",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sakura62.ru/"
   }
 },
 {
@@ -23740,7 +23778,8 @@
   "lat": 54.5803664,
   "lon": 39.7940054,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://briz-ryazan.ru/"
   }
 },
 {
@@ -23765,7 +23804,8 @@
     "addr:city": "Рязань",
     "addr:country": "RU",
     "name": "Ока",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://okahotel.ru/"
   }
 },
 {
@@ -23820,7 +23860,8 @@
   "tags": {
     "name": "Амакс",
     "tourism": "hotel",
-    "wheelchair": "yes"
+    "wheelchair": "yes",
+	"website": "https://ryazan.amaks-hotels.ru/?utm_campaign=maps_prioritet&utm_medium=maps&utm_source=yandex"
   }
 },
 {
@@ -23829,7 +23870,8 @@
   "lat": 54.6142054,
   "lon": 39.6382866,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/id381129385"
   }
 },
 {
@@ -23902,7 +23944,8 @@
   "lon": 42.0627068,
   "tags": {
     "name": "\"Волна\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://viber.click/79209401259"
   }
 },
 {
@@ -24042,7 +24085,8 @@
   "lat": 56.3692940,
   "lon": 41.3048610,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (904) 253-75-66"
   }
 },
 {
@@ -24099,7 +24143,8 @@
   "tags": {
     "name": "У Золотых Ворот",
     "tourism": "hotel",
-    "wikidata": "Q111867158"
+    "wikidata": "Q111867158",
+	"website": "https://goldengatehotel.ru/"
   }
 },
 {
@@ -24353,7 +24398,8 @@
   "lon": 40.1138074,
   "tags": {
     "name": "Лотос",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/vladimir-oblast/gostinitsa-lotos/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -24363,7 +24409,8 @@
   "lon": 40.2771705,
   "tags": {
     "name": "Жемчужина Золотого кольца",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.perlotel.ru/"
   }
 },
 {
@@ -24373,7 +24420,8 @@
   "lon": 40.5936690,
   "tags": {
     "name": "Владимирский хуторок",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://33doma.ru/"
   }
 },
 {
@@ -24427,7 +24475,8 @@
   "lon": 40.4161493,
   "tags": {
     "name": "Ильинка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ilinka-hotel.ru/"
   }
 },
 {
@@ -24437,7 +24486,8 @@
   "lon": 40.4055208,
   "tags": {
     "name": "Левитанъ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn--33-6kcaa5efign.xn--p1ai/levitan/"
   }
 },
 {
@@ -24447,7 +24497,8 @@
   "lon": 40.4499285,
   "tags": {
     "name": "Сокол",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel-sokol.ru/"
   }
 },
 {
@@ -24469,7 +24520,8 @@
   "lon": 40.4478831,
   "tags": {
     "name": "Молодежная",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (49231) 2-05-53"
   }
 },
 {
@@ -24479,7 +24531,8 @@
   "lon": 40.4492497,
   "tags": {
     "name": "Золотой ручей",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gold-river.ru/"
   }
 },
 {
@@ -24489,7 +24542,8 @@
   "lon": 40.4454053,
   "tags": {
     "name": "Ризоположенская гостиница",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/rossiya/suzdal/rizopolozhenskaya?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom2_102631053325_bronirovat"
   }
 },
 {
@@ -24501,7 +24555,8 @@
     "addr:street": "улица Толстого",
     "internet_access": "wlan",
     "name": "Кремлевский",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kremlinhotel.ru/"
   }
 },
 {
@@ -24511,7 +24566,8 @@
   "lon": 40.4328504,
   "tags": {
     "name": "Светлый терем",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://svterem.ru/"
   }
 },
 {
@@ -24543,7 +24599,8 @@
   "lon": 40.4304902,
   "tags": {
     "name": "Усадьба",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://verandasuzdal.ru/"
   }
 },
 {
@@ -24573,7 +24630,8 @@
   "lon": 40.4582021,
   "tags": {
     "name": "Суздаль Inn",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.suzdalinn.ru/"
   }
 },
 {
@@ -24582,7 +24640,8 @@
   "lat": 56.4134763,
   "lon": 40.4371706,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kremlinhotel.ru/"
   }
 },
 {
@@ -24780,7 +24839,8 @@
     "name": "Ариэль",
     "rooms": "12",
     "stars": "2",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://xn----7sbbjzadymi2afn3d6eo.xn--p1ai/"
   }
 },
 {
@@ -24790,7 +24850,8 @@
   "lon": 41.5081941,
   "tags": {
     "name": "Санаторий «Плёс»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://sanples.su/"
   }
 },
 {
@@ -24825,7 +24886,8 @@
   "lon": 40.9350920,
   "tags": {
     "name": "Верба",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (953) 650-51-20"
   }
 },
 {
@@ -24850,7 +24912,8 @@
     "name": "Московская застава",
     "opening_hours": "24/7",
     "operator": "ИП Попова Е. С.",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://mzastava.ru/"
   }
 },
 {
@@ -24885,7 +24948,8 @@
   "lon": 40.9645427,
   "tags": {
     "name": "Аристократ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.hotel-aristokrat.ru/"
   }
 },
 {
@@ -24910,7 +24974,8 @@
   "lon": 40.9448509,
   "tags": {
     "name": "Тихое место",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/kostroma/tikhoe-mesto/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -24920,7 +24985,8 @@
   "lon": 40.9442148,
   "tags": {
     "name": "Хостел Дом",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/hosteldomkostroma"
   }
 },
 {
@@ -24933,7 +24999,8 @@
     "addr:housenumber": "3А",
     "addr:street": "Воскресенский переулок",
     "name": "Воскресенская",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/kostroma/voskresenskaia/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -24949,7 +25016,8 @@
     "internet_access": "wlan",
     "name": "МХостел",
     "rooms": "10",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://amhostel.ru/"
   }
 },
 {
@@ -24969,7 +25037,8 @@
   "lon": 39.8627096,
   "tags": {
     "name": "Гостиница цирка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/yarcircus"
   }
 },
 {
@@ -24981,7 +25050,8 @@
     "addr:housenumber": "2",
     "addr:street": "проспект Ленина",
     "name": "Турист",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://turistyar.ru/"
   }
 },
 {
@@ -24992,7 +25062,8 @@
   "tags": {
     "description": "Комнаты оформлены по мотивам фильмов, снимавшихся в Ярославской области",
     "name": "Иоан Васильевич",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ivyar.ru/"
   }
 },
 {
@@ -25038,7 +25109,8 @@
   "lon": 39.8990517,
   "tags": {
     "name": "Достоевский ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://dostoevskyhotel.ru/"
   }
 },
 {
@@ -25048,7 +25120,8 @@
   "lon": 39.8871200,
   "tags": {
     "name": "Купцовъ дом",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.kdhotel.ru/"
   }
 },
 {
@@ -25160,7 +25233,8 @@
   "lon": 39.8900303,
   "tags": {
     "name": "Алёша Попович",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ap-dvor.ru/"
   }
 },
 {
@@ -25201,7 +25275,8 @@
     "internet_access:fee": "customers",
     "name": "Сказка",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/yaroslavl/skazka/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -25273,7 +25348,8 @@
   "lon": 39.4169333,
   "tags": {
     "name": "Русское подворье",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://russkoe-podvorie.ru/ru/"
   }
 },
 {
@@ -25285,7 +25361,8 @@
     "addr:housenumber": "19",
     "addr:street": "Ленинская улица",
     "name": "Иван-Царевич",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (980) 745-54-54"
   }
 },
 {
@@ -25312,7 +25389,8 @@
     "leisure": "resort",
     "name": "База отдыха \"Ярославна\"",
     "name:en": "\"Yaroslavna\" Tourist resort",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/yaroslavl-oblast/iaroslavna/?utm_source=yandex-maps&utm_medium=business-button&adults=2"
   }
 },
 {
@@ -25343,7 +25421,8 @@
   "lon": 39.3964912,
   "tags": {
     "name": "Bravis",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.hotelbravis.ru/"
   }
 },
 {
@@ -25368,7 +25447,8 @@
   "tags": {
     "name": "Гостевой дом",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gostevoi-dom.ru/"
   }
 },
 {
@@ -25379,7 +25459,8 @@
   "tags": {
     "name": "Юрла",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://hotel.yurla.ru/"
   }
 },
 {
@@ -25400,7 +25481,8 @@
   "lon": 38.8235698,
   "tags": {
     "name": "Гостиница УВД",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://vk.com/yarumvd"
   }
 },
 {
@@ -25421,7 +25503,8 @@
   "tags": {
     "name": "Бурлак",
     "opening_hours": "24/7",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://burlak-hotel.ru/"
   }
 },
 {
@@ -25470,7 +25553,8 @@
     "operator": "ООО Локус",
     "rooms": "19",
     "smoking": "no",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://nakazanskoy.ru/"
   }
 },
 {
@@ -25505,7 +25589,8 @@
     "addr:housenumber": "20",
     "addr:street": "Загородная улица",
     "name": "Кстово",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kstovocentr.ru/"
   }
 },
 {
@@ -25515,7 +25600,8 @@
   "lon": 38.8220988,
   "tags": {
     "name": "Апарт-отель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://nvapart.ru/"
   }
 },
 {
@@ -25525,7 +25611,8 @@
   "lon": 38.4735570,
   "tags": {
     "name": "Гостевой дом Волга",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/myshkin/gostevoi-dom-volga/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -25621,7 +25708,8 @@
   "lon": 38.3312916,
   "tags": {
     "name": "Флёр",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelfleur.ru/"
   }
 },
 {
@@ -25644,7 +25732,8 @@
   "tags": {
     "name": "Переславль",
     "tourism": "hotel",
-    "wheelchair": "yes"
+    "wheelchair": "yes",
+	"website": "https://hotelpereslavl.ru/"
   }
 },
 {
@@ -25697,7 +25786,8 @@
   "lon": 38.8082868,
   "tags": {
     "name": "Royal palace",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/rossiya/pereslavl_zalesskii/royal_palace_(royal_pelas)?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom2_1152975340_bronirovat"
   }
 },
 {
@@ -25747,7 +25837,8 @@
   "lon": 35.9142720,
   "tags": {
     "name": "Селигер",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.seligerhotel.ru/"
   }
 },
 {
@@ -25758,7 +25849,8 @@
   "tags": {
     "name": "Юность",
     "name:en": "Yunost",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.unosttver.ru/"
   }
 },
 {
@@ -25768,7 +25860,8 @@
   "lon": 36.0244576,
   "tags": {
     "name": "Парк-отель \"Берёзовая роща\"",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.parkhotel.ru/"
   }
 },
 {
@@ -25778,7 +25871,8 @@
   "lon": 35.9049817,
   "tags": {
     "name": "Волга",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://volga-tver.ru/"
   }
 },
 {
@@ -25788,7 +25882,8 @@
   "lon": 35.9007975,
   "tags": {
     "name": "Центральная",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://centraltver.ru/"
   }
 },
 {
@@ -25799,7 +25894,8 @@
   "tags": {
     "name": "Оснабрюк",
     "stars": "4",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://pushkinhoteltver.ru/"
   }
 },
 {
@@ -25839,7 +25935,8 @@
   "tags": {
     "name": "Тверская усадьба",
     "stars": "3",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "+7 (4822) 33-15-25"
   }
 },
 {
@@ -25869,7 +25966,8 @@
   "lon": 35.9263470,
   "tags": {
     "name": "Гостевой дом Исаевский",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://isaevsky.ru/"
   }
 },
 {
@@ -25879,7 +25977,8 @@
   "lon": 35.9072246,
   "tags": {
     "name": "ГуберанторЪ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://gubernatorhotel.com/"
   }
 },
 {
@@ -25915,7 +26014,8 @@
     "internet_access": "wlan",
     "name": "Отель Чехов",
     "smoking": "outside",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://chekhov-tver.ru/"
   }
 },
 {
@@ -25927,7 +26027,8 @@
     "internet_access": "wlan",
     "name": "Отель Вишнёвый сад",
     "smoking": "outside",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://cherrygarden-tver.ru/"
   }
 },
 {
@@ -25974,7 +26075,8 @@
   "lon": 35.8624479,
   "tags": {
     "name": "Гостевой дом «Тверской»",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://xn-----dlcbeicc7aef6ardcdvsgjl.xn--p1ai/"
   }
 },
 {
@@ -25984,7 +26086,8 @@
   "lon": 35.7557598,
   "tags": {
     "name": "Суховъ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://suhov-tver.ru/"
   }
 },
 {
@@ -26011,7 +26114,8 @@
     "addr:housenumber": "10У",
     "addr:street": "Ленинградское шоссе",
     "name": "РИФ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rif-clab.ru/"
   }
 },
 {
@@ -26024,7 +26128,8 @@
     "addr:housenumber": "10А",
     "addr:street": "Ленинградское шоссе",
     "name": "Околица",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/torzgok/okolitsa/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -26055,7 +26160,8 @@
     "addr:street": "Калининское шоссе",
     "check_date": "2023-09-30",
     "name": "Староямская",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://staroyamskaya.ru/"
   }
 },
 {
@@ -26066,7 +26172,8 @@
   "tags": {
     "check_date": "2023-10-01",
     "name": "Атмосфера",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/torzgok/atmosfera/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -26101,7 +26208,8 @@
   "lon": 34.5852067,
   "tags": {
     "name": "ХитПарк",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hit-park.ru/"
   }
 },
 {
@@ -26111,7 +26219,8 @@
   "lon": 34.5318022,
   "tags": {
     "name": "Балтия",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotelbaltiya.ru/"
   }
 },
 {
@@ -26120,7 +26229,8 @@
   "lat": 56.0271372,
   "lon": 35.9663653,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (49636) 2-11-24"
   }
 },
 {
@@ -26157,7 +26267,8 @@
   "lon": 36.0247123,
   "tags": {
     "name": "Дворик на Ямской",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://dvorik23.ru/"
   }
 },
 {
@@ -26260,7 +26371,8 @@
   "lon": 36.7118156,
   "tags": {
     "name": "Лесная сказка",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn-----elcgi9adp7au.xn--80adxhks/"
   }
 },
 {
@@ -26282,7 +26394,8 @@
   "lon": 36.8355392,
   "tags": {
     "name": "Санаторий «Подмосковье» МВД РФ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://xn--b1adesjkcbdy8j.xn--d1a2a.xn--b1aew.xn--p1ai/"
   }
 },
 {
@@ -26418,7 +26531,8 @@
   "lon": 38.9791719,
   "tags": {
     "name": "Советская гостиница",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.mts.ru/hotels/rossiya/orehovo_zuevo/centralnaya_12?utm_source=trv_referral&utm_medium=yandex_maps&utm_campaign=oom2_1069768412_bronirovat"
   }
 },
 {
@@ -26428,7 +26542,8 @@
   "lon": 38.9359055,
   "tags": {
     "name": "Седьмое небо",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://atlant-arena.ru/"
   }
 },
 {
@@ -26438,7 +26553,8 @@
   "lon": 38.9415941,
   "tags": {
     "name": "Эдем",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://edem-oz.ru/"
   }
 },
 {
@@ -26448,7 +26564,8 @@
   "lon": 38.9785731,
   "tags": {
     "name": "Новостроечный",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"phone": "+7 (964) 580-29-29"
   }
 },
 {
@@ -26485,7 +26602,8 @@
   "lon": 38.1361210,
   "tags": {
     "name": "Аристoкрат",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/sergiev-posad/aristokrat/?utm_medium=business-button&utm_source=yandex-maps"
   }
 },
 {
@@ -26509,7 +26627,8 @@
   "tags": {
     "FIXME": "Координаты чуть-чуть предварительные",
     "name": "Петровский дворик",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://petrovskijdvorik.ru/"
   }
 },
 {
@@ -26528,7 +26647,8 @@
   "lon": 38.1428553,
   "tags": {
     "name": "Ковчег",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://kovcheg-sp.ru/"
   }
 },
 {
@@ -26538,7 +26658,8 @@
   "lon": 38.1345084,
   "tags": {
     "name": "Лаврская гостиница",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://lavrahotel.ru/"
   }
 },
 {
@@ -26550,7 +26671,8 @@
     "name": "Вознесенская гостиница",
     "name:en": "Voznesenskaya Hotel",
     "name:ru": "Вознесенская гостиница",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://stsl.ru/about_lavra/all/voznesenskaya-gostinitsa/"
   }
 },
 {
@@ -26622,7 +26744,8 @@
   "lon": 38.1362565,
   "tags": {
     "name": "Старый город",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://oldtownsp.ru/"
   }
 },
 {
@@ -26653,7 +26776,8 @@
     "addr:street": "улица Лиры Никольской",
     "name": "«Четыре короны»",
     "stars": "4",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hotel4crowns.ru/"
   }
 },
 {
@@ -26673,7 +26797,8 @@
   "lon": 37.5270182,
   "tags": {
     "name": "Кристалл",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.kristall-hotel.ru/"
   }
 },
 {
@@ -26752,7 +26877,8 @@
   "lon": 36.6812387,
   "tags": {
     "name": "Дилижанс",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://klin-hotel.ru/"
   }
 },
 {
@@ -26801,7 +26927,8 @@
     "brand:wikidata": "Q1635974",
     "name": "Swissotel Красные холмы",
     "tourism": "hotel",
-    "wikidata": "Q4410896"
+    "wikidata": "Q4410896",
+	"website": "https://all.accor.com/hotel/A5B4/index.ru.shtml"
   }
 },
 {
@@ -26822,7 +26949,8 @@
   "lon": 37.6012903,
   "tags": {
     "name": "Джунгли",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://aivengo.su/rooms/"
   }
 },
 {
@@ -26844,7 +26972,8 @@
   "lon": 37.5152931,
   "tags": {
     "name": "Пахра",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://pakhra.amaks-kurort.ru/?utm_campaign=maps_prioritet&utm_medium=maps&utm_source=yandex"
   }
 },
 {
@@ -26913,7 +27042,8 @@
   "lon": 37.5353220,
   "tags": {
     "name": "НИЦЭВТ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.nicevt.ru/"
   }
 },
 {
@@ -27021,7 +27151,8 @@
   "lon": 37.5098965,
   "tags": {
     "name": "Паллада",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.palladaran.ru/"
   }
 },
 {
@@ -27031,7 +27162,8 @@
   "lon": 37.3277835,
   "tags": {
     "name": "Уют",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://moscow-comfort.ru/"
   }
 },
 {
@@ -27059,7 +27191,8 @@
   "lat": 55.9181328,
   "lon": 37.8708565,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.forestinn.ru/"
   }
 },
 {
@@ -27120,7 +27253,8 @@
   "tags": {
     "name": "Аэротель",
     "name:en": "Aerotel",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.airhotel.ru/"
   }
 },
 {
@@ -27130,7 +27264,8 @@
   "lon": 37.3523520,
   "tags": {
     "source": "Moskovskiy map. http://www.dukess.ru",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "+7 (495) 841-81-18"
   }
 },
 {
@@ -27238,7 +27373,8 @@
   "lon": 37.6204052,
   "tags": {
     "name": "Звёздная",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://zvezdnaya.ru/"
   }
 },
 {
@@ -27248,7 +27384,8 @@
   "lon": 37.5612427,
   "tags": {
     "name": "Молетон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.maleton.ru/"
   }
 },
 {
@@ -27324,7 +27461,8 @@
   "lon": 37.6025301,
   "tags": {
     "name": "Рослеспром",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://rosleshotel.ru/"
   }
 },
 {
@@ -27405,7 +27543,8 @@
   "lon": 37.4888164,
   "tags": {
     "name": "АСТ Гоф Парк Отель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://filihotel.com/"
   }
 },
 {
@@ -27488,7 +27627,8 @@
   "lon": 37.7085087,
   "tags": {
     "name": "Альянс-отель Видное",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://hoteldomodedovo.ru/"
   }
 },
 {
@@ -27498,7 +27638,8 @@
   "lon": 37.5611788,
   "tags": {
     "name": "Renaissance Moscow Monarch",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://monarchhotels.ru/"
   }
 },
 {
@@ -27617,7 +27758,8 @@
   "lon": 37.5678735,
   "tags": {
     "name": "Блюз отель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://blues-hotel.ru/"
   }
 },
 {
@@ -27648,7 +27790,8 @@
   "lon": 37.7945375,
   "tags": {
     "name": "Бригантина",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.granelle.ru/objects/br/"
   }
 },
 {
@@ -27658,7 +27801,8 @@
   "lon": 37.9391316,
   "tags": {
     "name": "East gate hotel",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://eastgatehotel.ru/"
   }
 },
 {
@@ -27751,7 +27895,8 @@
     "check_date": "2022-06-19",
     "description": "Гостиничные номера находятся в отдельном заднем корпусе, в главном большом только офисы",
     "name": "Берлин",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://www.berlin.ru/"
   }
 },
 {
@@ -27784,7 +27929,8 @@
     "name": "Дизайн Отель",
     "name:en": "D\"Hotel",
     "tourism": "hotel",
-    "wheelchair": "limited"
+    "wheelchair": "limited",
+	"website": "http://dehotel.ru/"
   }
 },
 {
@@ -27821,7 +27967,8 @@
   "tags": {
     "access": "private",
     "name": "Профессорская гостиница НИУ ВШЭ",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.hse.ru/"
   }
 },
 {
@@ -27860,7 +28007,8 @@
     "name": "Малая гостиница",
     "smoking": "yes",
     "tourism": "hotel",
-    "wheelchair": "no"
+    "wheelchair": "no",
+	"website": "https://www.arium-hotel.com/"
   }
 },
 {
@@ -27870,7 +28018,8 @@
   "lon": 37.8775092,
   "tags": {
     "name": "Уют",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://moscow-comfort.ru/"
   }
 },
 {
@@ -28171,7 +28320,8 @@
   "lon": 37.7787987,
   "tags": {
     "name": "Авита",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://avitahotel.ru/"
   }
 },
 {
@@ -28474,7 +28624,8 @@
     "internet_access": "wlan",
     "name": "Ананас",
     "official_name": "Мини отель Ананас",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://ananashotel.ru/"
   }
 },
 {
@@ -28500,7 +28651,8 @@
   "lat": 55.9420727,
   "lon": 37.9713823,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "http://silkwai.ru/"	
   }
 },
 {
@@ -28510,8 +28662,9 @@
   "lon": 37.6418949,
   "tags": {
     "name": "Хитровка",
-    "tourism": "hotel"
-  }
+    "tourism": "hotel",
+	"website": "https://hitrovkahotel.com/"
+	}
 },
 {
   "type": "node",
@@ -28532,7 +28685,8 @@
   "lat": 55.6900810,
   "lon": 37.6145709,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://travel.yandex.ru/hotels/moscow/orange-house/?utm_source=yandex-maps&utm_medium=business-button&adults=2"
   }
 },
 {
@@ -28575,7 +28729,8 @@
   "lon": 37.6596516,
   "tags": {
     "name": "Электрон",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://electronhotel.ru/"
   }
 },
 {
@@ -28584,7 +28739,8 @@
   "lat": 55.7031708,
   "lon": 37.6788425,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://www.randevu-hotel.ru/rooms/kozhuhovskaya.html"
   }
 },
 {
@@ -28594,7 +28750,8 @@
   "lon": 37.6585918,
   "tags": {
     "stars": "2",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://pogosti.ru/"
   }
 },
 {
@@ -28603,7 +28760,8 @@
   "lat": 55.7038751,
   "lon": 37.6548291,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "+7 (925) 391-15-55"
   }
 },
 {
@@ -28780,7 +28938,8 @@
   "lon": 37.5751336,
   "tags": {
     "name": "Порт отель",
-    "tourism": "hotel"
+    "tourism": "hotel",
+	"website": "https://uporthotel.ru/ru/"
   }
 },
 {
@@ -28912,7 +29071,8 @@
   "tags": {
     "name": "Погости.ру",
     "tourism": "hotel",
-    "wheelchair": "no"
+    "wheelchair": "no",
+	"website": "https://pogosti.ru/"
   }
 },
 {
@@ -28949,7 +29109,8 @@
     "name": "De Art",
     "toilets:wheelchair": "no",
     "tourism": "hotel",
-    "wheelchair": "no"
+    "wheelchair": "no",
+	"website": "https://deart-13.ru/"
   }
 },
 {
@@ -29182,7 +29343,7 @@
     "opening_hours": "24/7",
     "rooms": "17",
     "stars": "2",
-    "tourism": "hotel","
+    "tourism": "hotel",
 	"website": "https://spectroomhotels.ru/"
   }
 },
@@ -29801,7 +29962,7 @@
     "brand:wikidata": "Q1709809",
     "brand:wikipedia": "en:Mercure (hotel)",
     "name": "Mercure",
-	"website": "https://all.accor.com/hotel/8223/index.ru.shtml"
+	"website": "https://all.accor.com/hotel/8223/index.ru.shtml",
     "tourism": "hotel"
   }
 },
@@ -37054,7 +37215,7 @@
     "addr:housenumber": "7/1",
     "addr:street": "Советская улица",
     "name": "Хостел",
-    "tourism": "hotel",
+    "tourism": "hotel"
 
   }
 },
@@ -38281,7 +38442,7 @@
   "lon": 49.0508731,
   "tags": {
     "name": "Дунай",
-    "tourism": "hotel"
+    "tourism": "hotel",
 	"website": "http://dunaihotel.ru/"
   }
 },
@@ -41570,7 +41731,7 @@
   "lat": 56.8331905,
   "lon": 60.5937588,
   "tags": {
-    "tourism": "hotel"
+    "tourism": "hotel",
 	"website": "https://www.olymphotel.ru/"
   }
 },
