@@ -5,6 +5,11 @@ import 'package:http/http.dart' as http;
 import 'package:hive/hive.dart';
 import 'dart:convert';
 
+Future<bool> checkInternetConnectivity() async {
+  var connectivityResult = await (Connectivity().checkConnectivity());
+  return connectivityResult != ConnectivityResult.none;
+}
+
 class Profile extends StatefulWidget{
 
 	ProfilePage createState()=> ProfilePage();
@@ -57,6 +62,16 @@ class MuseumListPage extends State<MuseumsList> {
   }
 
   void _fetchData() async {
+    bool isConnected = await checkInternetConnectivity();
+    if (!isConnected)
+    {
+    	ScaffoldMessenger.of(context).showSnackBar(
+		SnackBar(
+		content: Text("Проблемы с подключением к сети..."),
+		),
+	);
+	widget.onPageChanged(2);
+    }
     var _userData = await Hive.openBox('UserData');
     final response = await http.get(Uri.parse('https://russ-travel.onrender.com/get-museums?user_id=${int.parse(_userData.getAt(0))}'),
     headers: {
@@ -156,6 +171,16 @@ class ParksListPage extends State<ParksList> {
   }
 
   void _fetchData() async {
+    bool isConnected = await checkInternetConnectivity();
+    if (!isConnected)
+    {
+    	ScaffoldMessenger.of(context).showSnackBar(
+		SnackBar(
+		content: Text("Проблемы с подключением к сети..."),
+		),
+	);
+	widget.onPageChanged(2);
+    }
     var _userData = await Hive.openBox('UserData');
     final response = await http.get(Uri.parse('https://russ-travel.onrender.com/get-parks?user_id=${int.parse(_userData.getAt(0))}'),
     headers: {
@@ -255,6 +280,16 @@ class OutsListPage extends State<OutsList> {
   }
 
   void _fetchData() async {
+    bool isConnected = await checkInternetConnectivity();
+    if (!isConnected)
+    {
+    	ScaffoldMessenger.of(context).showSnackBar(
+		SnackBar(
+		content: Text("Проблемы с подключением к сети..."),
+		),
+	);
+	widget.onPageChanged(2);
+    }
     var _userData = await Hive.openBox('UserData');
     final response = await http.get(Uri.parse('https://russ-travel.onrender.com/get-outs?user_id=${int.parse(_userData.getAt(0))}'),
     headers: {
@@ -523,8 +558,20 @@ class SignInPage extends State<SignIn>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () {
-									_submitData();
+								onPressed: () async {
+									bool isConnected = await checkInternetConnectivity();
+									if (isConnected)
+									{
+										_submitData();
+									}
+									else
+									{
+										ScaffoldMessenger.of(context).showSnackBar(
+										SnackBar(
+										  content: Text("Проблемы с подключением к сети..."),
+									      ),
+									    );
+									}
 								},
 								child: Text('Вход'),
 								)
@@ -813,7 +860,21 @@ class SignUpPage extends State<SignUp>
 									backgroundColor: Color.fromRGBO(0, 108, 167, 1), // фон кнопки
 									minimumSize: Size(double.infinity, 0.5), 
 								),
-								onPressed: () {_submitData();},
+								onPressed: () async {
+									bool isConnected = await checkInternetConnectivity();
+									if (isConnected)
+									{
+										_submitData();
+									}
+									else
+									{
+										ScaffoldMessenger.of(context).showSnackBar(
+										SnackBar(
+										  content: Text("Проблемы с подключением к сети..."),
+									      ),
+									    );
+									}
+								},
 								child: Text('Регистрация'),
 								)
 						),
@@ -952,14 +1013,26 @@ class AccountPage extends State<Account>
 		          ),
 		          ListTile(
 		            title: Text('Очистить все данные...'),
-		            onTap: () {
-		              clearDatabases().then((_) {
-				      ScaffoldMessenger.of(context).showSnackBar(
+		            onTap: () async {
+		              bool isConnected = await checkInternetConnectivity();
+		              if (!isConnected)
+			      {
+				   	ScaffoldMessenger.of(context).showSnackBar(
 					SnackBar(
-					  content: Text("Данные успешно удалены"),
-					),
-				      );
-		              });
+					    content: Text("Проблемы с подключением к сети..."),
+					  ),
+					);
+			      }
+			      else
+			      {
+				      clearDatabases().then((_) {
+					      ScaffoldMessenger.of(context).showSnackBar(
+						SnackBar(
+						  content: Text("Данные успешно удалены"),
+						),
+					      );
+				      });
+		              }
 		            },
 		          ),
 		          ListTile(

@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_map/flutter_map.dart' as fm;
 import 'package:flutter_map_supercluster/flutter_map_supercluster.dart';
+import 'package:connectivity/connectivity.dart';
 import 'package:latlong2/latlong.dart';
 import 'package:latlong2/latlong.dart' as ll;
 
@@ -24,6 +25,11 @@ import '../../domain/park_point.dart';
 import '../../domain/hotel_point.dart';
 import 'clusters_collection.dart';
 import 'package:url_launcher/url_launcher.dart';
+
+Future<bool> checkInternetConnectivity() async {
+  var connectivityResult = await (Connectivity().checkConnectivity());
+  return connectivityResult != ConnectivityResult.none;
+}
 
 class MapScreen extends StatefulWidget {
   const MapScreen({Key? key}) : super(key: key);
@@ -537,54 +543,77 @@ class _ModalBodyViewP extends StatelessWidget {
                 onPressed: () async {
                   var box = await Hive.openBox('parkBox');
                   var userData = await Hive.openBox('UserData');
-                  if (box.containsKey(point.id))
+                  bool isConnected = await checkInternetConnectivity();
+                  if (userData.isEmpty)
                   {
-                    final response = await http.post(
-		      Uri.parse('https://russ-travel.onrender.com/delete-park?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
-		      headers: {
-	      			'accept': 'application/json',
-	    		},
-		    );
-		    if (response.statusCode == 200) box.delete(point.id);
-		    else
-		    {
-		    	ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Проблемы с подключением к сети..."),
-		        ),
-		      );
-		    }
-                    ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
-		        ),
-		      );
+                  	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Необходимо авторизоваться или зарегистрировать новый аккаунт..."),
+			      ),
+			    );
                   }
                   else
                   {
-                    final response = await http.post(
-		      Uri.parse('https://russ-travel.onrender.com/add-park'),
-		      headers: {
-	      			'accept': 'application/json',
-	      			'Content-Type': 'application/json',
-	    		},
-	    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
-		    );
-		    if (response.statusCode == 200) box.put(point.id, point.id);
-		    else
-		    {
-		    	ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Проблемы с подключением к сети..."),
-		        ),
-		      );
-		    }
-                    ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
-		        ),
-		      );
-		  }
+		          if (isConnected)
+		          {
+				  if (box.containsKey(point.id))
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/delete-park?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+				      headers: {
+			      			'accept': 'application/json',
+			    		},
+				    );
+				    if (response.statusCode == 200) box.delete(point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+					),
+				      );
+				  }
+				  else
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/add-park'),
+				      headers: {
+			      			'accept': 'application/json',
+			      			'Content-Type': 'application/json',
+			    		},
+			    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+				    );
+				    if (response.statusCode == 200) box.put(point.id, point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+					),
+				      );
+				  }
+			  }
+			  else 
+		          {
+		          	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+				      ),
+				    );
+		          }
+                  }
 		  Navigator.pop(context);
                 },
               ),
@@ -640,54 +669,77 @@ class _ModalBodyViewM extends StatelessWidget {
                 onPressed: () async {
                   var box = await Hive.openBox('museumBox');
                   var userData = await Hive.openBox('UserData');
-                  if (box.containsKey(point.id))
+                  bool isConnected = await checkInternetConnectivity();
+                  if (userData.isEmpty)
                   {
-                    final response = await http.post(
-		      Uri.parse('https://russ-travel.onrender.com/delete-museum?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
-		      headers: {
-	      			'accept': 'application/json',
-	    		},
-		    );
-		    if (response.statusCode == 200) box.delete(point.id);
-		    else
-		    {
-		    	ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Проблемы с подключением к сети..."),
-		        ),
-		      );
-		    }
-                    ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
-		        ),
-		      );
+                  	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Необходимо авторизоваться или зарегистрировать новый аккаунт..."),
+			      ),
+			    );
                   }
                   else
                   {
-                    final response = await http.post(
-		      Uri.parse('https://russ-travel.onrender.com/add-museum'),
-		      headers: {
-	      			'accept': 'application/json',
-	      			'Content-Type': 'application/json',
-	    		},
-	    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
-		    );
-		    if (response.statusCode == 200) box.put(point.id, point.id);
-		    else
-		    {
-		    	ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Проблемы с подключением к сети..."),
-		        ),
-		      );
-		    }
-                    ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
-		      ),
-		    );
-                  }
+		          if (isConnected)
+		          {
+				  if (box.containsKey(point.id))
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/delete-museum?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+				      headers: {
+			      			'accept': 'application/json',
+			    		},
+				    );
+				    if (response.statusCode == 200) box.delete(point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+					),
+				      );
+				  }
+				  else
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/add-museum'),
+				      headers: {
+			      			'accept': 'application/json',
+			      			'Content-Type': 'application/json',
+			    		},
+			    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+				    );
+				    if (response.statusCode == 200) box.put(point.id, point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+				      ),
+				    );
+				  }
+		          }
+		          else 
+		          {
+		          	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+				      ),
+				    );
+		          }
+		}
                   Navigator.pop(context);
                 },
               ),
@@ -746,54 +798,77 @@ class _ModalBodyViewO extends StatelessWidget {
                 onPressed: () async {
                   var box = await Hive.openBox('outsideBox');
                   var userData = await Hive.openBox('UserData');
-                  if (box.containsKey(point.id))
+                  bool isConnected = await checkInternetConnectivity();
+                  if (userData.isEmpty)
                   {
-                    final response = await http.post(
-		      Uri.parse('https://russ-travel.onrender.com/delete-out?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
-		      headers: {
-	      			'accept': 'application/json',
-	    		},
-		    );
-		    if (response.statusCode == 200) box.delete(point.id);
-		    else
-		    {
-		    	ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Проблемы с подключением к сети..."),
-		        ),
-		      );
-		    }
-                    ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
-		        ),
-		      );
+                  	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Необходимо авторизоваться или зарегистрировать новый аккаунт..."),
+			      ),
+			    );
                   }
                   else
                   {
-                    final response = await http.post(
-		      Uri.parse('https://russ-travel.onrender.com/add-out'),
-		      headers: {
-	      			'accept': 'application/json',
-	      			'Content-Type': 'application/json',
-	    		},
-	    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
-		    );
-		    if (response.statusCode == 200) box.put(point.id, point.id);
-		    else
-		    {
-		    	ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Проблемы с подключением к сети..."),
-		        ),
-		      );
-		    }
-                    ScaffoldMessenger.of(context).showSnackBar(
-		        SnackBar(
-		          content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
-		        ),
-		      );
-                  }
+		          if (isConnected)
+		          {
+				  if (box.containsKey(point.id))
+				  {
+				    final response = await http.post(
+				      Uri.parse('https://russ-travel.onrender.com/delete-out?id=${point.id}&user_id=${int.parse(userData.getAt(0))}'),
+				      headers: {
+			      			'accept': 'application/json',
+			    		},
+				    );
+				    if (response.statusCode == 200) box.delete(point.id);
+				    else
+				    {
+				    	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+					),
+				      );
+				    }
+				    ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Достопримечательность ${point.name} помечена как ещё не посещённая!"),
+					),
+				      );
+		          }
+		          else
+		          {
+		            final response = await http.post(
+			      Uri.parse('https://russ-travel.onrender.com/add-out'),
+			      headers: {
+		      			'accept': 'application/json',
+		      			'Content-Type': 'application/json',
+		    		},
+		    	      body: '{"id": ${point.id}, "user_id": ${int.parse(userData.getAt(0))}, "title": "${point.name}"}',
+			    );
+			    if (response.statusCode == 200) box.put(point.id, point.id);
+			    else
+			    {
+			    	ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Проблемы с подключением к сети..."),
+				),
+			      );
+			    }
+		            ScaffoldMessenger.of(context).showSnackBar(
+				SnackBar(
+				  content: Text("Достопримечательность ${point.name} помечена как посещённая!"),
+				),
+			      );
+		          }
+		          }
+			  else 
+		          {
+		          	ScaffoldMessenger.of(context).showSnackBar(
+					SnackBar(
+					  content: Text("Проблемы с подключением к сети..."),
+				      ),
+				    );
+		          }
+		}
                   Navigator.pop(context);
                 },
               ),
@@ -880,4 +955,3 @@ class _ModalBodyViewH extends StatelessWidget {
     }
   }
 }
-
