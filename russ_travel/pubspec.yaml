@@ -120,6 +120,8 @@ flutter:
     - assets/privolzhye/
     - assets/ural/
     - assets/Yufo/
+    - assets/SFO/
+    - assets/SZFO/
 
 
   # The following line ensures that the Material Icons font is
